@@ -1,0 +1,81 @@
+#zwave:
+# name: ZWave
+# icon: mdi:router-wireless
+# entities:
+#   - zwave.craft_room_fan
+#   - zwave.craft_room_sewing_lamp_dimmer
+#   - zwave.zwave.game_room_fan
+#   - zwave.game_room_fan_lights_dimmer
+#   - zwave.girls_hall_light
+#   - zwave.hapi_controller
+#   - zwave.master_bath_tub_light
+#   - zwave.master_bath_vanity_lights_dimmer
+#   - zwave.master_closet_light
+#   - zwave.master_fan
+#   - zwave.master_fan_lights_dimmer
+#   - zwave.master_lavatory_light
+#   - zwave.noahs_hall_light
+
+packages:
+  name: Packages
+  entities:
+    - sensor.fedex
+    - sensor.ups
+    - sensor.usps_mail
+    - sensor.usps_packages
+
+susan_garage:
+  name: Susan Garage
+  entities:
+    - cover.susan_garage
+    - sensor.susan_garage_status
+    - sensor.susan_garage_car_present
+
+ben_garage:
+  name: Ben Garage
+  entities:
+    - cover.ben_garage
+    - sensor.ben_garage_status
+    - sensor.ben_garage_car_present
+
+guest_room:
+  name: Guest Room
+  entities:
+    - binary_sensor.guest_occupancy
+    - light.guest
+    - light.guest_1
+    - light.guest_2
+    - light.guest_3
+    - light.guest_ambiance
+    - switch.guest_fan_and_lights_switch
+
+family_room:
+  name: Family Room
+  entities:
+    - media_player.living
+    - switch.family_room_fan_switch
+    - light.family_room_fan_lights_level
+    - light.mantle_light
+
+laundry_room:
+  name: Laundry Room
+  entities:
+    - binary_sensor.laundry_room_occupancy
+    - binary_sensor.laundry_room_closet_door_sensor
+    - switch.laundry_room_lights_switch
+    - switch.laundry_room_closet_lights_switch
+    
+garage:
+  name: Garage
+  view: yes
+  entities:
+    - group.susan_garage
+    - group.ben_garage
+
+downstairs:
+  name: Downstairs
+  view: yes
+  entities:
+    - group.family_room
+    - group.laundry_room
+    - group.guest_room

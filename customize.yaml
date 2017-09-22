@@ -1,0 +1,8 @@
+#cover.susan_garage:
+#  friendly_name: Minivan
+#sensor.susan_garage_car_present:
+#  icon: mdi:car
+light.mantle_light:
+  friendly_name: "Family Room Mantle Light"
+switch.family_room_fan_switch:
+  icon: mdi:fan

@@ -1,0 +1,18 @@
+- platform: roku
+  host: !secret family_room_roku_host_ip
+  name: "Family Room Roku"
+- platform: roku
+  host: !secret office_roku_host_ip
+  name: "Office Roku"
+- platform: roku
+  host: !secret craft_room_roku_host_ip
+  name: "Craft Room Roku"
+#- platform: roku
+#  host: !secret guest_room_roku_tv_host_ip
+#  name: "Guest Roku TV"
+- platform: roku
+  host: !secret master_roku_host_ip
+  name: "Master Roku"
+#- platform: plex
+#  scan_interval: 15
+#  use_episode_art: true

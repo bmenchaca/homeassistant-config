@@ -1,0 +1,12 @@
+AppDaemon:
+  logfile: STDOUT
+  errorfile: STDERR
+  threads: 10
+HASS:
+  ha_url: http://localhost:8123
+  ha_key: HAM!rag310bb
+
+# Apps
+hello_world:
+  module: hello
+  class: HelloWorld

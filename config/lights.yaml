@@ -1,0 +1,36 @@
+- platform: hue
+  host: !secret hue_host_ip
+
+- platform: template
+  lights:
+    mantle_light:
+      friendly_name: "Family Room Mantle Light"
+      value_template:
+        " {{ is_state('switch.family_room_mantle_light_switch', 'on') }} "
+      turn_on:
+        service: switch.turn_on
+        entity_id: switch.family_room_mantle_light_switch
+      turn_off:
+        service: switch.turn_off
+        entity_id: switch.family_room_mantle_light_switch
+      level_template: >-
+        {%- if is_state('switch.family_room_mantle_light_switch', 'off') -%}
+          {{ 0 }}
+        {%- elif states.light.family_room_flood -%}
+          {{ states.light.family_room_flood.attributes.brightness }}
+        {%- else -%}
+          {{ 0 }}
+        {%- endif -%}  
+      set_level:
+        service: light.turn_on
+        entity_id: light.family_room_flood
+        data_template:
+          # Set both the color and brightness of the light
+          brightness: " {{brightness}} "
+          # Hue can emulate colors from 153 through 500 Mireds
+          # This simply uses the brightness as the variable to select a
+          # Mired value, yielding cooler colors as the light gets brighter
+          color_temp: " {{255 - brightness + 246}} "
+      entity_id:
+        - switch.family_room_mantle_light_switch
+        - light.family_room_flood

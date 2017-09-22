@@ -1,0 +1,10 @@
+- platform: opengarage
+  covers:
+    susan_garage:
+      host: !secret susan_garage_ip
+      device_key: !secret susan_garage_device_key
+      name: Susan Garage
+    ben_garage:
+      host: !secret ben_garage_ip
+      device_key: !secret ben_garage_device_key
+      name: Ben Garage

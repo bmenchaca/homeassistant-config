@@ -1,0 +1,60 @@
+- name: guest_unoccupied
+  entities:
+    light.guest: off
+
+
+- name: guest_unoccupied
+  entities:
+    light.guest: off
+- name: craft_room_switch_off
+  entities:
+    switch.craft_room_fan_switch: off
+    switch.craft_room_sewing_lamp_switch: off
+    light.craft_room_large_lamp_level:
+      state: off
+    
+- name: craft_room_switch_on
+  entities:
+    switch.craft_room_fan_switch: on
+    switch.craft_room_sewing_lamp_switch: on
+    light.craft_room_large_lamp_level:
+      state: on
+    
+- name: game_room_off
+  entities:
+    switch.game_room_fan_switch: off
+    light.game_room_fan_lights_dimmer_level:
+      state: off
+    
+- name: game_room_on
+  entities:
+    switch.game_room_fan_switch: on
+    light.game_room_fan_lights_dimmer_level:
+      state: on
+    
+- name: craft_room_switch_off
+  entities:
+    switch.craft_room_fan_switch: off
+    switch.craft_room_sewing_lamp_switch: off
+    light.craft_room_large_lamp_level:
+      state: off
+    
+- name: craft_room_switch_on
+  entities:
+    switch.craft_room_fan_switch: on
+    switch.craft_room_sewing_lamp_switch: on
+    light.craft_room_large_lamp_level:
+      state: on
+    
+- name: game_room_off
+  entities:
+    switch.game_room_fan_switch: off
+    light.game_room_fan_lights_dimmer_level:
+      state: off
+    
+- name: game_room_on
+  entities:
+    switch.game_room_fan_switch: on
+    light.game_room_fan_lights_dimmer_level:
+      state: on
+    

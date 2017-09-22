@@ -1,0 +1,62 @@
+- zone:
+  name: !secret zone_1_name
+  latitude: !secret zone_1_latitude
+  longitude: !secret zone_1_longitude
+  radius: !secret zone_1_radius
+  icon: !secret zone_1_icon
+
+- zone 2:
+  name: !secret zone_2_name
+  latitude: !secret zone_2_latitude
+  longitude: !secret zone_2_longitude
+  radius: !secret zone_2_radius
+  icon: !secret zone_2_icon
+
+- zone 3:
+  name: !secret zone_3_name
+  latitude: !secret zone_3_latitude
+  longitude: !secret zone_3_longitude
+  radius: !secret zone_3_radius
+  icon: !secret zone_3_icon
+
+- zone 4:
+  name: !secret zone_4_name
+  latitude: !secret zone_4_latitude
+  longitude: !secret zone_4_longitude
+  radius: !secret zone_4_radius
+  icon: !secret zone_4_icon
+
+- zone 5:
+  name: !secret zone_5_name
+  latitude: !secret zone_5_latitude
+  longitude: !secret zone_5_longitude
+  radius: !secret zone_5_radius
+  icon: !secret zone_5_icon
+
+- zone 6:
+  name: !secret zone_6_name
+  latitude: !secret zone_6_latitude
+  longitude: !secret zone_6_longitude
+  radius: !secret zone_6_radius
+  icon: !secret zone_6_icon
+
+- zone 7:
+  name: !secret zone_7_name
+  latitude: !secret zone_7_latitude
+  longitude: !secret zone_7_longitude
+  radius: !secret zone_7_radius
+  icon: !secret zone_7_icon
+
+- zone 8:
+  name: !secret zone_8_name
+  latitude: !secret zone_8_latitude
+  longitude: !secret zone_8_longitude
+  radius: !secret zone_8_radius
+  icon: !secret zone_8_icon
+
+- zone 9:
+  name: !secret zone_9_name
+  latitude: !secret zone_9_latitude
+  longitude: !secret zone_9_longitude
+  radius: !secret zone_9_radius
+  icon: !secret zone_9_icon

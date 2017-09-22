@@ -1,0 +1,96 @@
+- platform: yr
+
+#- platform: systemmonitor
+#  resources:
+#    - type: processor_use
+
+#- platform: usps
+#  username: !secret usps_username
+#  password: !secret usps_password
+
+- platform: ups
+  username: !secret ups_username
+  password: !secret ups_password
+
+- platform: fedex
+  username: !secret fedex_username
+  password: !secret fedex_password
+
+- platform: template
+  sensors:
+    susan_garage_status:
+      friendly_name: 'Susan Door Status'
+      value_template: >-
+        {%- if states.cover.susan_garage %}
+          {% if states.cover.susan_garage.attributes["door_state"] == "open" %}
+            Open
+          {% elif states.cover.susan_garage.attributes["door_state"] == "closed" %}
+            Closed
+          {% elif states.cover.susan_garage.attributes["door_state"] == "opening" %}
+            Opening
+          {% elif states.cover.susan_garage.attributes["door_state"] == "closing" %}
+            Closing
+          {% else %}
+            Unknown
+          {% endif %}
+        {% else %}
+          n/a
+        {% endif %}
+      entity_id:
+        - cover.susan_garage
+    ben_garage_status:
+      friendly_name: 'Ben Door Status'
+      value_template: >-
+        {%- if states.cover.ben_garage %}
+          {% if states.cover.ben_garage.attributes["door_state"] == "open" %}
+            Open
+          {% elif states.cover.ben_garage.attributes["door_state"] == "closed" %}
+            Closed
+          {% elif states.cover.ben_garage.attributes["door_state"] == "opening" %}
+            Opening
+          {% elif states.cover.ben_garage.attributes["door_state"] == "closing" %}
+            Closing
+          {% else %}
+            Unknown
+          {% endif %}
+        {% else %}
+          n/a
+        {% endif %}
+      entity_id:
+        - cover.ben_garage
+
+- platform: template
+  sensors:
+    susan_garage_car_present:
+      friendly_name: 'Minivan in Garage'
+      value_template: >-
+        {%- if states.cover.susan_garage %}
+          {% if states.cover.susan_garage.attributes["door_state"] == "open" %}
+            n/a
+          {% elif ((states.cover.susan_garage.attributes["distance_sensor"] > 70) and (states.cover.susan_garage.attributes["distance_sensor"] < 120)) %}
+            Yes
+          {% else %}
+            No
+          {% endif %}
+        {% else %}
+          n/a
+        {% endif %}
+      entity_id:
+        - cover.susan_garage
+    ben_garage_car_present:
+      friendly_name: 'Avalon in Garage'
+      value_template: >-
+        {%- if states.cover.ben_garage %}
+          {% if states.cover.ben_garage.attributes["door_state"] == "open" %}
+            n/a
+          {% elif ((states.cover.ben_garage.attributes["distance_sensor"] > 70) and (states.cover.ben_garage.attributes["distance_sensor"] < 160)) %}
+            Yes
+          {% else %}
+            No
+          {% endif %}
+        {% else %}
+          n/a
+        {% endif %}
+      entity_id:
+        - cover.ben_garage
+
