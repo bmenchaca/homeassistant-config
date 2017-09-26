@@ -1,2 +1,2 @@
-purge_days: 90
-#db_url: !secret db_url
+purge_days: 45
+db_url: !secret db_url
