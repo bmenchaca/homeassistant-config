@@ -123,6 +123,67 @@ front_yard:
     - switch.east_near_house
     - switch.front_west
 
+noah_room:
+  name: Noah's Room
+  entities:
+    - light.noah
+    - light.noah_1
+    - light.noah_2
+    - light.noah_color
+    - light.noah_lamp
+
+noah_bathroom:
+  name: Noah's Bathroom
+  entities:
+    - switch.noahs_bathroom_lights_switch
+
+noah_hallway:
+  name: Noah's Hall
+  entities:
+    - switch.noahs_hall_light_switch
+
+girls_hallway:
+  name: Girls' Hall
+  entities:
+    - switch.girls_hall_light_switch
+
+heidi_room:
+  name: Heidi's Room
+  entities:
+    - light.heidi
+    - light.heidi_1
+    - light.heidi_2
+    - light.heidi_color
+    - light.heidi_lamp
+
+hannah_room:
+  name: Hannah's Room
+  entities:
+    - light.hannah
+    - light.hannah_1
+    - light.hannah_2
+    - light.hannah_color
+    - light.hannah_lamp
+
+gallery:
+  name: Gallery
+  entities:
+    - switch.gallery_hall_lights_switch
+
+game_room:
+  name: Game Room
+  entities:
+    - switch.game_room_fan_switch
+    - light.game_room_fan_lights_dimmer_level
+
+office:
+  name: Office
+  entities:
+    - light.office_lights_dimmer_level
+    - media_player.office
+    - switch.office_fan_switch
+    - switch.office_lamp_switch
+
 # Views      
 garage_view:
   name: Garage
@@ -157,3 +218,17 @@ downstairs_view:
     - group.dining_room
     - group.breakfast_room
     - group.craft_room
+
+upstairs_view:
+  name: Upstairs
+  view: yes
+  entities:
+    - group.noah_room
+    - group.noah_bathroom
+    - group.noah_hallway
+    - group.gallery
+    - group.game_room
+    - group.office
+    - group.girls_hallway
+    - group.hannah_room
+    - group.heidi_room

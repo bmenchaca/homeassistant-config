@@ -1,13 +1,20 @@
-#cover.susan_garage:
-#  friendly_name: Minivan
-#sensor.susan_garage_car_present:
-#  icon: mdi:car
+#  Light Renames
 light.mantle_light:
   friendly_name: "Family Room Mantle Light"
+light.noah:
+  friendly_name: "All Noah's Lights"
+light.heidi:
+  friendly_name: "All Heidi's Lights"
+light.hannah:
+  friendly_name: "All Hannah's Lights"
 # Fans
 switch.family_room_fan_switch:
   icon: mdi:fan
 switch.craft_room_fan_switch:
+  icon: mdi:fan
+switch.game_room_fan_switch:
+  icon: mdi:fan
+switch.office_fan_switch:
   icon: mdi:fan
 # Switches for lights
 switch.craft_room_sewing_lamp_switch:
@@ -19,6 +26,14 @@ switch.garage_outdoor_lights_switch:
 switch.front_porch_lights_switch:
   icon: mdi:lightbulb
 switch.back_porch_lights_switch:
+  icon: mdi:lightbulb
+switch.noahs_bathroom_lights_switch:
+  icon: mdi:lightbulb
+switch.noahs_hall_light_switch:
+  icon: mdi:lightbulb
+switch.gallery_hall_light_switch:
+  icon: mdi:lightbulb
+switch.office_lamp_switch:
   icon: mdi:lightbulb
 # Irrigation icons
 switch.around_pool_back:
