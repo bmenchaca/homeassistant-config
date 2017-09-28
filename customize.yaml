@@ -4,5 +4,42 @@
 #  icon: mdi:car
 light.mantle_light:
   friendly_name: "Family Room Mantle Light"
+# Fans
 switch.family_room_fan_switch:
   icon: mdi:fan
+switch.craft_room_fan_switch:
+  icon: mdi:fan
+# Switches for lights
+switch.craft_room_sewing_lamp_switch:
+  icon: mdi:lightbulb
+switch.garage_lights_switch:
+  icon: mdi:lightbulb
+switch.garage_outdoor_lights_switch:
+  icon: mdi:lightbulb
+switch.front_porch_lights_switch:
+  icon: mdi:lightbulb
+# Irrigation icons
+switch.around_pool_back:
+  icon: mdi:water
+switch.back_east_lawn:
+  icon: mdi:water
+switch.back_west_near_gate:
+  icon: mdi:water
+switch.back_yard_middle:
+  icon: mdi:water
+switch.drip_around_pool:  
+  icon: mdi:water
+switch.east_lawn:  
+  icon: mdi:water
+switch.east_near_house:  
+  icon: mdi:water
+switch.front_bushes:  
+  icon: mdi:water
+switch.front_lawn:  
+  icon: mdi:water
+switch.front_west:  
+  icon: mdi:water
+switch.garden:  
+  icon: mdi:water
+switch.west_side_pool:
+  icon: mdi:water

@@ -24,19 +24,32 @@ packages:
     - sensor.usps_mail
     - sensor.usps_packages
 
-susan_garage:
+susan_garage_door:
   name: Susan Garage
   entities:
     - cover.susan_garage
     - sensor.susan_garage_status
     - sensor.susan_garage_car_present
 
-ben_garage:
+ben_garage_door:
   name: Ben Garage
   entities:
     - cover.ben_garage
     - sensor.ben_garage_status
     - sensor.ben_garage_car_present
+
+garage:
+  name: Garage
+  entities:
+    - switch.garage_lights_switch
+
+craft_room:
+  name: Craft Room
+  entities:
+    - light.craft_room_large_lamp_level
+    - switch.craft_room_fan_switch
+    - switch.craft_room_sewing_lamp_switch
+    - media_player.stick
 
 guest_room:
   name: Guest Room
@@ -48,6 +61,16 @@ guest_room:
     - light.guest_3
     - light.guest_ambiance
     - switch.guest_fan_and_lights_switch
+
+dining_room:
+  name: Dining Room
+  entities:
+    - switch.dining_room_lights_switch
+
+breakfast_room:
+  name: Breakfast Room
+  entities:
+    - switch.breakfast_lights_switch
 
 family_room:
   name: Family Room
@@ -65,17 +88,71 @@ laundry_room:
     - switch.laundry_room_lights_switch
     - switch.laundry_room_closet_lights_switch
     
-garage:
+back_porch:
+  name: Back_Porch
+  entities:
+    - switch.back_porch_light_switch
+
+back_yard_sprinklers:
+  name: Back Yard Sprinklers
+  entities:
+    - switch.around_pool_back
+    - switch.back_east_lawn
+    - switch.back_west_near_gate
+    - switch.back_yard_middle
+    - switch.drip_around_pool
+    - switch.west_side_pool
+
+garden:
+  name: Garden
+  entities:
+    - switch.garden
+
+front_porch:
+  name: Front Porch
+    - switch.front_porch_lights_switch
+
+front_yard:
+  name: Front Yard
+  entities:
+    - switch.garage_outdoor_lights_switch
+    - switch.front_bushes
+    - switch.front_lawn
+    - switch.east_lawn
+    - switch.east_near_house
+    - switch.front_west
+
+# Views      
+garage_view:
   name: Garage
   view: yes
   entities:
-    - group.susan_garage
-    - group.ben_garage
+    - group.susan_garage_door
+    - group.ben_garage_door
+    - group.garage
 
-downstairs:
+front_yard_view:
+ name: Front Yard
+ view: yes
+ entities:
+   - group.front_porch
+   - group.front_yard
+
+back_yard_view:
+  name: Back Yard
+  view: yes
+  entities:
+    - group.back_porch
+    - group.back_yard_sprinklers
+    - group.garden
+
+downstairs_view:
   name: Downstairs
   view: yes
   entities:
     - group.family_room
     - group.laundry_room
     - group.guest_room
+    - group.dining_room
+    - group.breakfast_room
+    - group.craft_room
