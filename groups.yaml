@@ -89,7 +89,7 @@ laundry_room:
     - switch.laundry_room_closet_lights_switch
     
 back_porch:
-  name: Back_Porch
+  name: Back Porch
   entities:
     - switch.back_porch_light_switch
 
@@ -110,6 +110,7 @@ garden:
 
 front_porch:
   name: Front Porch
+  entities:
     - switch.front_porch_lights_switch
 
 front_yard:

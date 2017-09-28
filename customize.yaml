@@ -18,6 +18,8 @@ switch.garage_outdoor_lights_switch:
   icon: mdi:lightbulb
 switch.front_porch_lights_switch:
   icon: mdi:lightbulb
+switch.back_porch_lights_switch:
+  icon: mdi:lightbulb
 # Irrigation icons
 switch.around_pool_back:
   icon: mdi:water
