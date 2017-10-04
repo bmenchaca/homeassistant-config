@@ -62,6 +62,13 @@ guest_room:
     - light.guest_ambiance
     - switch.guest_fan_and_lights_switch
 
+entry_room:
+  name: Entry Room
+  entities:
+    - switch.entry_light_switch
+    - switch.entry_christmas_tree_outlet_switch
+    - binary_sensor.entry_room_occupancy
+
 dining_room:
   name: Dining Room
   entities:
@@ -262,6 +269,7 @@ downstairs_view:
     - group.kitchen
     - group.breakfast_room
     - group.guest_room
+    - group.entry_room
 
 upstairs_view:
   name: Upstairs
