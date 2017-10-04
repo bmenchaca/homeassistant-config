@@ -68,10 +68,10 @@
     switch.master_hall_lights_switch: off
     switch.kitchen_lights_switch: off
     switch.dining_room_lights_switch: off
+    switch.breakfast_lights_switch: off
     switch.entry_light_switch: off
     light.family_room_fan_lights_level:
       state: off
     light.mantle_light:
       state: on
-    media_player.family:
-      state: on
+#    script.family_room_tv_on: on
