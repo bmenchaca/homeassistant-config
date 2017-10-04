@@ -48,9 +48,11 @@ switch.master_closet_light_switch:
 switch.master_lavatory_light_switch:
   icon: mdi:lightbulb
 switch.kitchen_lights_switch:
-  icon: mdi_lightbulb
+  icon: mdi:lightbulb
 switch.pantry_lights_switch:
-  icon: mdi_lightbulb
+  icon: mdi:lightbulb
+switch.gallery_hall_lights_switch:
+  icon: mdi:lightbulb
 # Irrigation icons
 switch.around_pool_back:
   icon: mdi:water
