@@ -177,6 +177,7 @@ gallery:
   entities:
     - binary_sensor.gallery_occupancy
     - switch.gallery_hall_lights_switch
+    - sensor.gallery_hsm200_temperature
 
 game_room:
   name: Game Room
