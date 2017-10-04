@@ -2,4 +2,16 @@
 - platform: rachio
   access_token: !secret rachio_access_token
   manual_run_mins: 10
-  
+
+#- platform: broadlink
+#  host: !secret broadlink_family_room_ip
+#  mac: !secret broadlink_family_room_mac
+#  type: rm_mini
+#  friendly_name: "Family Room Broadlink RM Mini"
+#  switches:
+#    tv_family_room_volume_up:
+#      friendly_name: "Family Room TV Volume Up"
+#      command_on: 'JgAsAZOVETgSOBE5ERMRFBITERQRFBE4EjgROBITERQRFBETEhMRORE4EjgRFBEUERQRExITERQRFBEUETgRORE4EjgROBIABgOTlRI4ETgROREUERMSExEUERQROBI4ETgSExITERQRFBEUETgRORE4EhMRFBEUERQRExITERQRFBE4EjgSOBE4ETkRAAYDk5USOBE5ETgRFBEUERQRExITETkROBM3ERQRFBETEhMSExE5ETgSOBEUERQRExITERQRFBEUERMSOBE5ETgSOBE5EQAGA5OVAAE4FBETEhMRHBIJHRISChsTEgsaCRwJQQgTExsvGi8bLxsLEBQZCxITGQwRFBkMERQZMBgTEg0ZEhIMGRMSDBEaEg0ZEhI3EjcTNhI4EjcSExI3EgANBQAAAAAAAAAAAAAAAA'
+# roku_family_room_home:
+#   friendly_name: "Family Room Roku Home Button"
+#   command_on: 'JgDYAAABJ5QSExI4EhMSOBITEjgSNxM3EhMSOBITEhMSExMTEjcSOBI4EjgSExITEhMSExITEhQSExITEjcTNxI4EjgSOBI4EgAFDQABJ5QSExI4EhMSOBITEjgSOBI3ExMSNxIUEhMSExITEjgSNxM3EjgSExITEhMSFBITEjcSFBITEjcTNxI4EjgSOBITEgAFDQABJ5QSExI4EhMSOBITEjgSOBI4EhMSOBITEhMSExITEjgSOBI4EjcTExITEhMSExITEjgSExITEjgSOBI3EjgSOBITEgANBQ'
