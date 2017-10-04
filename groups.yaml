@@ -175,11 +175,13 @@ hannah_room:
 gallery:
   name: Gallery
   entities:
+    - binary_sensor.gallery_occupancy
     - switch.gallery_hall_lights_switch
 
 game_room:
   name: Game Room
   entities:
+    - binary_sensor.game_room_occupancy
     - switch.game_room_fan_switch
     - light.game_room_fan_lights_dimmer_level
 
