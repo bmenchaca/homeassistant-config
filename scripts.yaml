@@ -1,0 +1,13 @@
+turn_on_mantle_light_for_tv:
+  alias: Turn On Mantle Light
+  sequence:
+  - alias: Turn On Mantle Light Switch
+    data:
+      entity_id: switch.family_room_mantle_light_switch
+    service: switch.turn_on
+  - delay: 2s
+  - alias: Set Mantle Light Level at 50
+    data:
+      brightness: 50
+      entity_id: mantle_light
+    service: light.turn_on
