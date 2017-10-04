@@ -73,4 +73,5 @@
       state: off
     light.mantle_light:
       state: on
-      brightness: 50
+    media_player.family:
+      state: on
