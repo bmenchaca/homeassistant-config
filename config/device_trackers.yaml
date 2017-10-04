@@ -4,8 +4,8 @@
 - platform: nmap_tracker
   hosts:
     - !secret device_ip_noahs_ipad
-    - !secret device_ip_noahs_ipod
+#    - !secret device_ip_noahs_ipod
     - !secret device_ip_noahs_kindle
     - !secret device_ip_hannahs_ipad
-    - !secret device_ip_heidis_ipad
-    - !secret device_ip_heidis_kindle
+#    - !secret device_ip_heidis_ipad
+#    - !secret device_ip_heidis_kindle
