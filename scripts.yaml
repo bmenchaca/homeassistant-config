@@ -10,5 +10,5 @@ turn_on_mantle_light_for_tv:
   - alias: Set Mantle Light Level at 50
     data:
       brightness: 50
-      entity_id: mantle_light
+      entity_id: light.mantle_light
     service: light.turn_on
