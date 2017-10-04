@@ -42,5 +42,6 @@ scene: !include config/scenes.yaml
 device_tracker: !include config/device_trackers.yaml
 media_player: !include config/media_players.yaml
 light: !include config/lights.yaml
+netatmo: !include config/netatmo.yaml
 # Text to Speech
 #tts: !include config/tts.yaml

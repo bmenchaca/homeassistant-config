@@ -1,5 +1,17 @@
 - platform: yr
 
+- platform: netatmo
+  modules:
+    module_Indoor:
+      - temperature
+      - humidity
+      - noise
+    module_Outdoor:
+      - temperature
+      - humidity
+      - pressure
+      - battery_vp
+
 #- platform: systemmonitor
 #  resources:
 #    - type: processor_use

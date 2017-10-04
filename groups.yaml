@@ -80,6 +80,13 @@ family_room:
     - light.family_room_fan_lights_level
     - light.mantle_light
 
+kitchen:
+  name: Kitchen
+  entities:
+    - switch.kitchen_lights_switch
+    - switch.pantry_lights_switch
+    - binary_sensor.pantry_door
+
 laundry_room:
   name: Laundry Room
   entities:
@@ -184,6 +191,34 @@ office:
     - switch.office_fan_switch
     - switch.office_lamp_switch
 
+master:
+  name: Master
+  entities:
+    - light.master_fan_lights_dimmer_level
+    - switch.master_fan_switch
+
+master_bath:
+  name: Master Bath
+  entities:
+    - light.master_bath
+    - light.master_bath_vanity_lights_dimmer_level
+
+master_closet:
+  name: Master Closet
+  entities:
+    - binary_sensor.master_closet_door
+    - switch.master_closet_light_switch
+
+master_hall:
+  name: Master Hall
+  entities:
+    - light.master_hall_lights
+
+master_lavatory:
+  name: Master Lavatory
+  entities:
+    - switch.master_lavatory_light_switch
+
 # Views      
 garage_view:
   name: Garage
@@ -212,12 +247,18 @@ downstairs_view:
   name: Downstairs
   view: yes
   entities:
-    - group.family_room
-    - group.laundry_room
-    - group.guest_room
-    - group.dining_room
-    - group.breakfast_room
+    - group.master
+    - group.master_bath
+    - group.master_closet
+    - group.master_lavatory
     - group.craft_room
+    - group.master_hall
+    - group.laundry_room
+    - group.dining_room
+    - group.family_room
+    - group.kitchen
+    - group.breakfast_room
+    - group.guest_room
 
 upstairs_view:
   name: Upstairs

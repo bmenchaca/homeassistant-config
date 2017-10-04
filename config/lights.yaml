@@ -34,3 +34,37 @@
       entity_id:
         - switch.family_room_mantle_light_switch
         - light.family_room_flood
+
+- platform: template
+  lights:
+    master_hall_lights:
+      friendly_name: "Master Hall Light"
+      value_template:
+        " {{ is_state('switch.master_hall_lights_switch', 'on') }} "
+      turn_on:
+        service: switch.turn_on
+        entity_id: switch.master_hall_lights_switch
+      turn_off:
+        service: switch.turn_off
+        entity_id: switch.master_hall_lights_switch
+      level_template: >-
+        {%- if is_state('switch.master_hall_lights_switch', 'off') -%}
+          {{ 0 }}
+        {%- elif states.light.master_hall -%}
+          {{ states.light.master_hall.attributes.brightness }}
+        {%- else -%}
+          {{ 0 }}
+        {%- endif -%}  
+      set_level:
+        service: light.turn_on
+        entity_id: light.master_hall
+        data_template:
+          # Set both the color and brightness of the light
+          brightness: " {{brightness}} "
+          # Hue can emulate colors from 153 through 500 Mireds
+          # This simply uses the brightness as the variable to select a
+          # Mired value, yielding cooler colors as the light gets brighter
+          color_temp: " {{255 - brightness + 246}} "
+      entity_id:
+        - switch.master_hall_lights_switch
+        - light.master_hall

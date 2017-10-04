@@ -1,12 +1,18 @@
 #  Light Renames
 light.mantle_light:
   friendly_name: "Family Room Mantle Light"
+light.master_hall_lights:
+  friendly_name: "Master Hall Lights"
 light.noah:
   friendly_name: "All Noah's Lights"
 light.heidi:
   friendly_name: "All Heidi's Lights"
 light.hannah:
   friendly_name: "All Hannah's Lights"
+light.master_bath:
+  friendly_name: "Master Bath Light"
+light.master_hall:
+  friendly_name: "All Master Hall Lights"
 # Fans
 switch.family_room_fan_switch:
   icon: mdi:fan
@@ -15,6 +21,8 @@ switch.craft_room_fan_switch:
 switch.game_room_fan_switch:
   icon: mdi:fan
 switch.office_fan_switch:
+  icon: mdi:fan
+switch.master_fan_switch:
   icon: mdi:fan
 # Switches for lights
 switch.craft_room_sewing_lamp_switch:
@@ -35,6 +43,14 @@ switch.gallery_hall_light_switch:
   icon: mdi:lightbulb
 switch.office_lamp_switch:
   icon: mdi:lightbulb
+switch.master_closet_light_switch:
+  icon: mdi:lightbulb
+switch.master_lavatory_light_switch:
+  icon: mdi:lightbulb
+switch.kitchen_lights_switch:
+  icon: mdi_lightbulb
+switch.pantry_lights_switch:
+  icon: mdi_lightbulb
 # Irrigation icons
 switch.around_pool_back:
   icon: mdi:water
