@@ -72,6 +72,6 @@
     switch.entry_light_switch: off
     light.family_room_fan_lights_level:
       state: off
-    light.mantle_light:
-      state: on
-#    script.family_room_tv_on: on
+    script.turn_on_mantle_light_for_tv: on
+    #    light.mantle_light:
+    #  state: on

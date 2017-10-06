@@ -89,6 +89,7 @@ family_room:
     - sensor.netatmo_indoor_temperature
     - sensor.netatmo_indoor_co2
     - sensor.netatmo_indoor_noise
+    - scene.evening_tv_time
 
 kitchen:
   name: Kitchen
