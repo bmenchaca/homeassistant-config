@@ -94,3 +94,9 @@ switch.garden:
   icon: mdi:water
 switch.west_side_pool:
   icon: mdi:water
+
+# Exclude specific items from the UI
+switch.zone_13:
+  hidden: true
+switch.zone_14:
+  hidden: true
