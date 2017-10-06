@@ -66,6 +66,8 @@ switch.laundry_room_lights_switch:
   icon: mdi:lightbulb
 switch.laundry_room_closet_lights_switch:
   icon: mdi:lightbulb
+switch.back_porch_light_switch:
+  icon: mdi:lightbulb
 
 # Irrigation icons
 switch.around_pool_back:
