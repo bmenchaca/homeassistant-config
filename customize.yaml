@@ -13,6 +13,9 @@ light.master_bath:
   friendly_name: "Master Bath Light"
 light.master_hall:
   friendly_name: "All Master Hall Lights"
+# Scene renames
+scene.evening_tv_time:
+  friendly_name: "Evening TV Time"
 # Fans
 switch.family_room_fan_switch:
   icon: mdi:fan
@@ -53,6 +56,17 @@ switch.pantry_lights_switch:
   icon: mdi:lightbulb
 switch.gallery_hall_lights_switch:
   icon: mdi:lightbulb
+switch.entry_light_switch:
+  icon: mdi:lightbulb
+switch.dining_room_lights_switch:
+  icon: mdi:lightbulb
+switch.breakfast_lights_switch:
+  icon: mdi:lightbulb
+switch.laundry_room_lights_switch:
+  icon: mdi:lightbulb
+switch.laundry_room_closet_lights_switch:
+  icon: mdi:lightbulb
+
 # Irrigation icons
 switch.around_pool_back:
   icon: mdi:water
