@@ -75,3 +75,27 @@
     script.turn_on_mantle_light_for_tv: on
     #    light.mantle_light:
     #  state: on
+
+- name: house_bed_time
+  entities:
+    switch.noahs_hall_light_switch: off
+    switch.girls_hall_light_switch: off
+    switch.gallery_hall_lights_switch: off
+    light.game_room_fan_lights_dimmer_level:
+      state: off
+    switch.master_hall_lights_switch: off
+    switch.kitchen_lights_switch: off
+    switch.dining_room_lights_switch: off
+    switch.breakfast_lights_switch: off
+    switch.entry_light_switch: off
+    switch.entry_christmas_tree_outlet_switch: off
+    light.family_room_fan_lights_level:
+      state: off
+    switch.family_room_mantle_light_switch: off
+    switch.back_porch_light_switch: off
+    switch.front_porch_light_switch: off
+    switch.garage_lights_switch: off
+    switch.master_hall_lights_switch: off
+    cover.ben_garage: closed
+    cover.susan_garage: closed
+
