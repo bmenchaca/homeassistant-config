@@ -12,11 +12,11 @@
       - battery_vp
 
 - platform: arlo
-  monitored_conditions:
-    - captured_today
-    - last_capture
-    - total_cameras
-    - battery_level
+  #  monitored_conditions:
+  #  - captured_today
+  #  - last_capture
+  #  - total_cameras
+  #  - battery_level
   
 
 #- platform: systemmonitor
