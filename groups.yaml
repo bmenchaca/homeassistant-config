@@ -91,6 +91,10 @@ family_room:
     - sensor.netatmo_indoor_noise
     - scene.evening_tv_time
 
+stairs:
+  name: Stairs
+    - switch.stairs_light_switch
+
 kitchen:
   name: Kitchen
   entities:
@@ -274,6 +278,7 @@ downstairs_view:
     - group.breakfast_room
     - group.guest_room
     - group.entry_room
+    - group.stairs
 
 upstairs_view:
   name: Upstairs
@@ -288,3 +293,4 @@ upstairs_view:
     - group.girls_hallway
     - group.hannah_room
     - group.heidi_room
+    - group.stairs
