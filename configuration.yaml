@@ -46,5 +46,6 @@ light: !include config/lights.yaml
 script: !include scripts.yaml
 netatmo: !include config/netatmo.yaml
 arlo: !include config/arlo.yaml
+camera: !include config/camera.yaml
 # Text to Speech
 #tts: !include config/tts.yaml
