@@ -62,6 +62,12 @@ guest_room:
     - light.guest_ambiance
     - switch.guest_fan_and_lights_switch
 
+guest_hall:
+  name: Guest Hall
+  entities:
+    - switch.guest_hall_lights_switch
+    - camera.4xh3747cb43f1
+
 entry_room:
   name: Entry Room
   entities:
@@ -277,6 +283,7 @@ downstairs_view:
     - group.kitchen
     - group.breakfast_room
     - group.guest_room
+    - group.guest_hall
     - group.entry_room
     - group.stairs
 
