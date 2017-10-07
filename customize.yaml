@@ -15,7 +15,7 @@ light.master_hall:
   friendly_name: "All Master Hall Lights"
 
 # Camera Renames
-camera.4xh3747cb43f1:
+camera.guest_hall:
   friendly_name: "Guest Hall Camera"
 
 # Scene renames
