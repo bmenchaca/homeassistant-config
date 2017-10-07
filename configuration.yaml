@@ -45,5 +45,6 @@ media_player: !include config/media_players.yaml
 light: !include config/lights.yaml
 script: !include scripts.yaml
 netatmo: !include config/netatmo.yaml
+arlo: !include config/arlo.yaml
 # Text to Speech
 #tts: !include config/tts.yaml
