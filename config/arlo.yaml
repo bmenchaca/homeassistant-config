@@ -1,3 +1,2 @@
-# Remove for now - this interferes with the Arlo app
-#username: !secret arlo_username
-#password: !secret arlo_password
+username: !secret arlo_username
+password: !secret arlo_password
