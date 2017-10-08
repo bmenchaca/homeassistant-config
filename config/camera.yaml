@@ -1,2 +1,2 @@
-- platform: arlo
-  ffmpeg_arguments: '-pred 1 -q:v 2'
+#- platform: arlo
+#  ffmpeg_arguments: '-pred 1 -q:v 2'
