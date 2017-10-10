@@ -73,9 +73,9 @@
     switch.entry_light_switch: off
     light.family_room_fan_lights_level:
       state: off
-    script.turn_on_mantle_light_for_tv: on
-    #    light.mantle_light:
-    #  state: on
+    light.mantle_light:
+      state: on
+    #script.turn_on_mantle_light_for_tv: on
 
 - name: house_bed_time
   entities:
