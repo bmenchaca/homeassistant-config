@@ -47,5 +47,6 @@ script: !include scripts.yaml
 netatmo: !include config/netatmo.yaml
 arlo: !include config/arlo.yaml
 camera: !include config/camera.yaml
+notify me: !include config/notify.yaml
 # Text to Speech
 #tts: !include config/tts.yaml
