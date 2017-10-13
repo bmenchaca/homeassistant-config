@@ -245,3 +245,39 @@
     data:
       group_name: "Guest"
       scene_name: "Night"
+
+- id: ben_garage_night_warning
+  alias: "Ben's Garage Door is Open at Night"
+  trigger:
+    platform: state
+    entity_id: sensor.ben_garage_status
+    to: 'Open'
+    for: 
+      minutes: 5
+  condition:
+    - condition: time
+      after: '21:00'
+      before: '6:00'
+  action:
+    service: notify.mypushbullet
+    data_template:
+      title: "Ben's Garage Door is open at night"
+      message: "Ben's Garage Door is open, and it's night time!"
+
+- id: susan_garage_night_warning
+  alias: "Susan's Garage Door is Open at Night"
+  trigger:
+    platform: state
+    entity_id: sensor.susan_garage_status
+    to: 'Open'
+    for: 
+      minutes: 5
+  condition:
+    - condition: time
+      after: '21:00'
+      before: '6:00'
+  action:
+    service: notify.mypushbullet
+    data_template:
+      title: "Susan's Garage Door is open at night"
+      message: "Susan's Garage Door is open, and it's night time!"
