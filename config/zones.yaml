@@ -60,3 +60,10 @@
   longitude: !secret zone_9_longitude
   radius: !secret zone_9_radius
   icon: !secret zone_9_icon
+
+- zone 10:
+  name: !secret zone_10_name
+  latitude: !secret zone_10_latitude
+  longitude: !secret zone_10_longitude
+  radius: !secret zone_10_radius
+  icon: !secret zone_10_icon
