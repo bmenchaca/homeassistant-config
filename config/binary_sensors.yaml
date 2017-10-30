@@ -42,6 +42,19 @@
 
 - platform: template
   sensors:
+    master_occupancy:
+      friendly_name: 'Master Occupancy'
+      value_template: >-
+        {%- if is_state("sensor.master_fan_burglar", "8") -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
+      entity_id:
+        - sensor.master_fan_burglar
+
+- platform: template
+  sensors:
     entry_room_occupancy:
       friendly_name: 'Entry Room Occupancy'
       value_template: >-
