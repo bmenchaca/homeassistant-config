@@ -218,6 +218,7 @@ office:
 master:
   name: Master
   entities:
+    - binary_sensor.master_occupancy
     - light.master_fan_lights_dimmer_level
     - switch.master_fan_switch
 
