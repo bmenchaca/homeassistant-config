@@ -1,10 +1,10 @@
 # Stuff to hide in the main interface
-customize_glob:
-  "switch.zone_1*":
-    hidden: true         
-  "sensor.*_alarm_level":
-    hidden: true
-  "sensor.*_alarm_type":
-    hidden: true
-  "sensor.*_sourcenode":
-    hidden: true
+#customize_glob:
+"switch.zone_1*":
+  hidden: true
+"sensor.*_alarm_level":
+  hidden: true
+"sensor.*_alarm_type":
+  hidden: true
+"sensor.*_sourcenodeid":
+  hidden: true
