@@ -21,6 +21,7 @@ homeassistant:
 #conversation:
 # Auto-discover new or changed services
 #discovery:
+map:
 updater:
 history:
 logbook:
