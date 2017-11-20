@@ -26,6 +26,7 @@ updater:
 history:
 logbook:
 frontend:
+  javascript_version: latest
 config:
 sun:
 zwave: !include config/zwave.yaml
