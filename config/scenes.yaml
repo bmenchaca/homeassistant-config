@@ -71,6 +71,8 @@
     switch.stairs_light_switch: off
     switch.breakfast_lights_switch: off
     switch.entry_light_switch: off
+    switch.guest_bathroom_lights_switch: off
+    switch.guest_hall_lights_switch: off
     light.family_room_fan_lights_level:
       state: off
     light.mantle_light:
