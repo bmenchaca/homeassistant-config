@@ -281,3 +281,15 @@
     data_template:
       title: "Susan's Garage Door is open at night"
       message: "Susan's Garage Door is open, and it's night time!"
+
+- id: everyone_away
+  alias: "Everyone is away for a while"
+  trigger:
+    platform: state
+    entity_id: group.all_devices
+    to: 'not_home'
+    for:
+      minutes: 10
+  action:
+    - service: scene.turn_on
+      entity_id: scene.everyone_away
