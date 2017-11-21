@@ -107,3 +107,22 @@ switch.zone_13:
   hidden: true
 switch.zone_14:
   hidden: true
+
+# Exclude direct sensor measurements
+sensor.master_hall_lights_alarm_level:
+  hidden: true
+sensor.master_hall_lights_alarm_level_2:
+  hidden: true
+sensor.master_hall_lights_alarm_type:
+  hidden: true
+sensor.master_hall_lights_alarm_type_2:
+  hidden: true
+sensor.master_hall_lights_sourcenodeid:
+  hidden: true
+sensor.master_hall_lights_sourcenodeid_2:
+  hidden: true
+sensor.master_hall_lights_burglar:
+  hidden: true
+sensor.master_hall_lights_burglar_2:
+  hidden: true
+
