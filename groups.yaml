@@ -237,6 +237,7 @@ master_closet:
 master_hall:
   name: Master Hall
   entities:
+    - binary_sensor.master_hall_occupancy
     - light.master_hall_lights
 
 master_lavatory:
