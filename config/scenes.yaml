@@ -102,3 +102,10 @@
     cover.ben_garage: closed
     cover.susan_garage: closed
 
+- name: everyone_away
+  entities:
+    switch.garage_lights_switch: off
+
+- name: someone_arriving_home
+  entities:
+    switch.garage_lights_switch: on
