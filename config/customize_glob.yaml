@@ -2,9 +2,13 @@
 #customize_glob:
 "switch.zone_1*":
   hidden: true
-"sensor.*_alarm_level":
+"sensor.*_alarm_level*":
   hidden: true
-"sensor.*_alarm_type":
+"sensor.*_alarm_type*":
   hidden: true
-"sensor.*_sourcenodeid":
+"sensor.*_sourcenodeid*":
+  hidden: true
+"sensor.multisensor_*":
+  hidden: true
+"sensor.*_burglar*":
   hidden: true
