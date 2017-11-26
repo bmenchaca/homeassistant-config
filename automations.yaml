@@ -246,6 +246,24 @@
       group_name: "Guest"
       scene_name: "Night"
 
+- id: christmas_lights_on_sunset
+  alias: "Turn on Christmas Lights at Sunset"
+  trigger:
+    platform: sun
+    event: sunset
+  action:
+    service: switch.turn_on
+    entity_id: switch.entry_christmas_tree_outlet_switch
+
+- id: christmas_lights_off_sunset
+  alias: "Turn off Christmas Lights at night"
+  trigger:
+    platform: time
+    at: "22:30:00"
+  action:
+    service: switch.turn_off
+    entity_id: switch.entry_christmas_tree_outlet_switch
+
 - id: ben_garage_night_warning
   alias: "Ben's Garage Door is Open at Night"
   trigger:
