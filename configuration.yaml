@@ -29,6 +29,7 @@ frontend:
   javascript_version: latest
 config:
 sun:
+vacuum: !include config/vacuum.yaml
 zwave: !include config/zwave.yaml
 logger: !include config/logger.yaml
 http: !include config/http.yaml
