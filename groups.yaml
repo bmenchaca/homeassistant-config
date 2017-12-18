@@ -68,6 +68,11 @@ guest_hall:
     - switch.guest_hall_lights_switch
     - camera.guest_hall
 
+guest_bath:
+  name: Guest Bath
+  entities:
+    - switch.guest_bathroom_lights_switch
+
 entry_room:
   name: Entry Room
   entities:
@@ -286,6 +291,7 @@ downstairs_view:
     - group.breakfast_room
     - group.guest_room
     - group.guest_hall
+    - group.guest_bath
     - group.entry_room
     - group.stairs
 
