@@ -11,7 +11,7 @@
       - humidity
       - battery_vp
 
-- platform: arlo
+#- platform: arlo
   #  monitored_conditions:
   #  - captured_today
   #  - last_capture
