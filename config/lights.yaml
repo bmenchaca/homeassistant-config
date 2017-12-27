@@ -1,6 +1,3 @@
-- platform: hue
-  host: !secret hue_host_ip
-
 - platform: template
   lights:
     mantle_light:
