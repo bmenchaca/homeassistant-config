@@ -1,3 +1,3 @@
-- platform: xiaomi_miio
-  host: !secret device_ip_xiaomi_vacuum
-  token: !secret xiaomi_vacuum_access_token
+#- platform: xiaomi_miio
+#  host: !secret device_ip_xiaomi_vacuum
+#  token: !secret xiaomi_vacuum_access_token
