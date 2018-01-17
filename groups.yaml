@@ -183,11 +183,14 @@ girls_hallway:
 heidi_room:
   name: Heidi's Room
   entities:
+    - binary_sensor.multisensor_1_sensor
     - light.heidi
     - light.heidi_1
     - light.heidi_2
     - light.heidi_color
     - light.heidi_lamp
+    - sensor.multisensor_1_temperature
+    - sensor.multisensor_1_relative_humidity
 
 hannah_room:
   name: Hannah's Room
