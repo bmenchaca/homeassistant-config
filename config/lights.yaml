@@ -28,9 +28,6 @@
           # This simply uses the brightness as the variable to select a
           # Mired value, yielding cooler colors as the light gets brighter
           color_temp: " {{255 - brightness + 246}} "
-      entity_id:
-        - switch.family_room_mantle_light_switch
-        - light.family_room_flood
 
 - platform: template
   lights:
@@ -62,6 +59,3 @@
           # This simply uses the brightness as the variable to select a
           # Mired value, yielding cooler colors as the light gets brighter
           color_temp: " {{255 - brightness + 246}} "
-      entity_id:
-        - switch.master_hall_lights_switch
-        - light.master_hall

@@ -55,8 +55,7 @@
         {% else %}
           n/a
         {% endif %}
-      entity_id:
-        - cover.susan_garage
+
     ben_garage_status:
       friendly_name: 'Ben Door Status'
       value_template: >-
@@ -75,8 +74,6 @@
         {% else %}
           n/a
         {% endif %}
-      entity_id:
-        - cover.ben_garage
 
 - platform: template
   sensors:
@@ -94,8 +91,6 @@
         {% else %}
           n/a
         {% endif %}
-      entity_id:
-        - cover.susan_garage
     ben_garage_car_present:
       friendly_name: 'Avalon in Garage'
       value_template: >-
@@ -110,6 +105,4 @@
         {% else %}
           n/a
         {% endif %}
-      entity_id:
-        - cover.ben_garage
 

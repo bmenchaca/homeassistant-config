@@ -8,8 +8,6 @@
         {%- else -%}
           False
         {%- endif -%}
-      entity_id:
-        - sensor.cpu_use
 #      value_template: "{{ states('sensor.cpu_use')|int >= 25 }}"
 
 - platform: template
@@ -23,9 +21,6 @@
         {%- else -%}
           False
         {%- endif -%}
-      entity_id:
-        - sensor.guest_fan_and_lights_burglar
-        - sensor.guest_multisensor_burglar
 
 - platform: template
   sensors:
@@ -37,8 +32,6 @@
         {%- else -%}
           False
         {%- endif -%}
-      entity_id:
-        - sensor.laundry_room_lights_burglar
 
 - platform: template
   sensors:
@@ -50,8 +43,6 @@
         {%- else -%}
           False
         {%- endif -%}
-      entity_id:
-        - sensor.master_fan_burglar
 
 - platform: template
   sensors:
@@ -63,8 +54,6 @@
         {%- else -%}
           False
         {%- endif -%}
-      entity_id:
-        - sensor.front_porch_lights_burglar
 
 - platform: template
   sensors:
@@ -77,9 +66,6 @@
         {%- else -%}
           False
         {%- endif -%}
-      entity_id:
-        - sensor.master_hall_lights_burglar
-        - sensor.stairs_light_burglar
 
 - platform: template
   sensors:
@@ -92,9 +78,6 @@
         {%- else -%}
           False
         {%- endif -%}
-      entity_id:
-        - sensor.gallery_hall_lights_burglar
-        - sensor.gallery_hsm200_burglar
 
 - platform: template
   sensors:
@@ -106,8 +89,6 @@
         {%- else -%}
           False
         {%- endif -%}
-      entity_id:
-        - sensor.game_room_fan_burglar
 
 
 - platform: template
@@ -120,5 +101,3 @@
         {%- else -%}
           False
         {%- endif -%}
-      entity_id:
-        - sensor.master_closet_door_access_control
