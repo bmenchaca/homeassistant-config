@@ -8,7 +8,9 @@
   hidden: true
 "sensor.*_sourcenodeid*":
   hidden: true
-"sensor.multisensor_*":
+"sensor.multisensor_2_*":
+  hidden: true
+"sensor.multisensor_3_*":
   hidden: true
 "sensor.*_burglar*":
   hidden: true
