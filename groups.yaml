@@ -104,6 +104,7 @@ family_room:
 
 stairs:
   name: Stairs
+  entities:
     - switch.stairs_light_switch
 
 kitchen:
