@@ -207,6 +207,7 @@ gallery:
   entities:
     - binary_sensor.gallery_occupancy
     - switch.gallery_hall_lights_switch
+    - light.gallery_flood
     - sensor.gallery_hsm200_temperature
 
 game_room:
@@ -215,6 +216,11 @@ game_room:
     - binary_sensor.game_room_occupancy
     - switch.game_room_fan_switch
     - light.game_room_fan_lights_dimmer_level
+    - light.game_room
+    - light.game_room_1
+    - light.game_room_2
+    - light.game_room_3
+    - light.game_room_4
 
 office:
   name: Office
