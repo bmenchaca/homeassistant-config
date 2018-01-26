@@ -23,14 +23,16 @@
 - name: game_room_off
   entities:
     switch.game_room_fan_switch: off
-    light.game_room_fan_lights_dimmer_level:
-      state: off
+    light.game_room: off
+    #    light.game_room_fan_lights_dimmer_level:
+    #  state: off
     
 - name: game_room_on
   entities:
     switch.game_room_fan_switch: on
-    light.game_room_fan_lights_dimmer_level:
-      state: on
+    light.game_room: on
+    #light.game_room_fan_lights_dimmer_level:
+    #  state: on
     
 - name: craft_room_switch_off
   entities:
@@ -46,25 +48,12 @@
     light.craft_room_large_lamp_level:
       state: on
     
-- name: game_room_off
-  entities:
-    switch.game_room_fan_switch: off
-    light.game_room_fan_lights_dimmer_level:
-      state: off
-    
-- name: game_room_on
-  entities:
-    switch.game_room_fan_switch: on
-    light.game_room_fan_lights_dimmer_level:
-      state: on
-
 - name: evening_tv_time
   entities:
     switch.noahs_hall_light_switch: off
     switch.girls_hall_light_switch: off
-    switch.gallery_hall_lights_switch: off
-    light.game_room_fan_lights_dimmer_level:
-      state: off
+    light.gallery: off
+    light.game_room: off
     switch.master_hall_lights_switch: off
     switch.kitchen_lights_switch: off
     switch.dining_room_lights_switch: off
@@ -83,10 +72,9 @@
   entities:
     switch.noahs_hall_light_switch: off
     switch.girls_hall_light_switch: off
-    switch.gallery_hall_lights_switch: off
+    light.gallery: off
     switch.stairs_light_switch: off
-    light.game_room_fan_lights_dimmer_level:
-      state: off
+    light.game_room: off
     switch.master_hall_lights_switch: off
     switch.kitchen_lights_switch: off
     switch.dining_room_lights_switch: off
