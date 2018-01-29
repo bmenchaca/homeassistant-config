@@ -59,8 +59,9 @@ guest_room:
     - light.guest_1
     - light.guest_2
     - light.guest_3
-    - light.guest_ambiance
+    - light.guest_4
     - switch.guest_fan_and_lights_switch
+    - switch.tplink_switch
 
 guest_hall:
   name: Guest Hall
