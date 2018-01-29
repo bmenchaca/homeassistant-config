@@ -2,6 +2,10 @@
 - platform: rachio
   access_token: !secret rachio_access_token
   manual_run_mins: 10
+  
+- platform: tplink
+  host: 192.168.7.126
+  enable_leds: false
 
 #- platform: broadlink
 #  host: !secret broadlink_family_room_ip
