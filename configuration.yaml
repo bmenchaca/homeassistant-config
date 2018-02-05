@@ -49,7 +49,7 @@ media_player: !include config/media_players.yaml
 light: !include config/lights.yaml
 script: !include scripts.yaml
 netatmo: !include config/netatmo.yaml
-#arlo: !include config/arlo.yaml
+arlo: !include config/arlo.yaml
 camera: !include config/camera.yaml
 notify me: !include config/notify.yaml
 # Text to Speech
