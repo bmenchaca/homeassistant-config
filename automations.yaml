@@ -126,6 +126,7 @@
 
 - id: master_hall_light_on
   alias: Turn on Master Hall Lights when someone is in the Master Hall or Stairs Areas
+  initial_state: false
   trigger:
     platform: state
     entity_id: binary_sensor.master_hall_occupancy
@@ -140,6 +141,7 @@
 
 - id: master_hall_lights_when_laundry_room_occupied
   alias: Turn on Master Hall Lights when someone is in the Laundry Room
+  initial_state: false
   trigger:
     platform: state
     entity_id: binary_sensor.laundry_room_occupancy
@@ -204,6 +206,7 @@
 
 - id: guest_lights_on_when_occupied_daytime
   alias: Turn on Guest Lights when there is movement
+  initial_state: false
   trigger:
     platform: state
     entity_id: binary_sensor.guest_occupancy
@@ -223,6 +226,7 @@
 
 - id: guest_lights_on_when_occupied_evening
   alias: Turn on Guest Lights when there is movement
+  initial_state: false
   trigger:
     platform: state
     entity_id: binary_sensor.guest_occupancy
@@ -248,6 +252,7 @@
 
 - id: christmas_lights_on_sunset
   alias: "Turn on Christmas Lights at Sunset"
+  initial_state: false
   trigger:
     platform: sun
     event: sunset
