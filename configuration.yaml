@@ -50,6 +50,7 @@ light: !include config/lights.yaml
 script: !include scripts.yaml
 netatmo: !include config/netatmo.yaml
 arlo: !include config/arlo.yaml
+alarm_control_panel: !include config/alarm_control_panel.yaml
 camera: !include config/camera.yaml
 notify me: !include config/notify.yaml
 # Text to Speech
