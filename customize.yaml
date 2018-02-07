@@ -106,6 +106,10 @@ switch.zone_13:
 switch.zone_14:
   hidden: true
 
+# Exclude some Hue groups from UI
+light.master_hall:
+  hidden: true
+
 # Exclude direct sensor measurements
 sensor.master_hall_lights_alarm_level:
   hidden: true
