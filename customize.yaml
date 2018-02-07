@@ -14,6 +14,26 @@ light.master_bath:
 light.master_hall:
   friendly_name: "All Master Hall Lights"
 
+# Multisensor Renames
+binary_sensor.multisensor_1_sensor:
+  friendly_name: "Heidi's Room Motion Sensor"
+sensor.multisensor_1_temperature:
+  friendly_name: "Heidi's Room Temperature"
+sensor.multisensor_1_relative_humidity:
+  friendly_name: "Heidi's Room Relative Humidity"
+binary_sensor.multisensor_2_sensor:
+  friendly_name: "Noah's Room Motion Sensor"
+sensor.multisensor_2_temperature:
+  friendly_name: "Noah's Room Temperature"
+sensor.multisensor_2_relative_humidity:
+  friendly_name: "Noah's Room Relative Humidity"
+binary_sensor.multisensor_3_sensor:
+  friendly_name: "Hannah's Room Motion Sensor"
+sensor.multisensor_2_temperature:
+  friendly_name: "Hannah's Room Temperature"
+sensor.multisensor_2_relative_humidity:
+  friendly_name: "Hannah's Room Relative Humidity"
+
 # Camera Renames
 camera.guest_hall:
   friendly_name: "Office Camera"        
