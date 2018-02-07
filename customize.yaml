@@ -29,9 +29,9 @@ sensor.multisensor_2_relative_humidity:
   friendly_name: "Noah's Room Relative Humidity"
 binary_sensor.multisensor_3_sensor:
   friendly_name: "Hannah's Room Motion Sensor"
-sensor.multisensor_2_temperature:
+sensor.multisensor_3_temperature:
   friendly_name: "Hannah's Room Temperature"
-sensor.multisensor_2_relative_humidity:
+sensor.multisensor_3_relative_humidity:
   friendly_name: "Hannah's Room Relative Humidity"
 
 # Camera Renames
