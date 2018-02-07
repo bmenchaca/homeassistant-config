@@ -80,6 +80,7 @@ entry_room:
     - switch.entry_light_switch
     - switch.entry_christmas_tree_outlet_switch
     - binary_sensor.entry_room_occupancy
+    - camera.entry_hall
 
 dining_room:
   name: Dining Room
@@ -193,6 +194,7 @@ heidi_room:
     - light.heidi_lamp
     - sensor.multisensor_1_temperature
     - sensor.multisensor_1_relative_humidity
+    - switch.heidis_room_lights_switch
 
 hannah_room:
   name: Hannah's Room
@@ -210,6 +212,7 @@ gallery:
     - switch.gallery_hall_lights_switch
     - light.gallery_flood
     - sensor.gallery_hsm200_temperature
+    - camera.gallery
 
 game_room:
   name: Game Room
@@ -230,6 +233,8 @@ office:
     - media_player.office
     - switch.office_fan_switch
     - switch.office_lamp_switch
+    - camera.guest_hall
+    #- camera.office
 
 master:
   name: Master
