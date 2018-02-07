@@ -61,7 +61,7 @@ guest_room:
     - light.guest_3
     - light.guest_4
     - switch.guest_fan_and_lights_switch
-    - switch.tplink_switch
+    - switch.guest_smart_plug
 
 guest_hall:
   name: Guest Hall
