@@ -67,7 +67,6 @@ guest_hall:
   name: Guest Hall
   entities:
     - switch.guest_hall_lights_switch
-    - camera.guest_hall
 
 guest_bath:
   name: Guest Bath
@@ -192,6 +191,7 @@ heidi_room:
     - light.heidi_2
     - light.heidi_color
     - light.heidi_lamp
+    - light.heidi_go
     - sensor.multisensor_1_temperature
     - sensor.multisensor_1_relative_humidity
     - switch.heidis_room_lights_switch
@@ -260,6 +260,9 @@ master_hall:
   entities:
     - binary_sensor.master_hall_occupancy
     - light.master_hall_lights
+    - light.master_hall_1
+    - light.master_hall_2
+    - light.master_hall_3
 
 master_lavatory:
   name: Master Lavatory
