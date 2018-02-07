@@ -15,6 +15,12 @@ light.master_hall:
   friendly_name: "All Master Hall Lights"
 
 # Camera Renames
+camera.guest_hall:
+  friendly_name: "Office Camera"        
+camera.gallery:
+  friendly_name: "Gallery Camera"
+camera.entry_hall:
+  friendly_name: "Entry Hall Camera"
 
 # Scene renames
 scene.evening_tv_time:
