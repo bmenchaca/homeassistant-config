@@ -166,6 +166,9 @@ noah_room:
     - light.noah_2
     - light.noah_color
     - light.noah_lamp
+    - binary_sensor.multisensor_2_sensor
+    - sensor.multisensor_2_temperature
+    - sensor.multisensor_2_relative_humidity
 
 noah_bathroom:
   name: Noah's Bathroom
@@ -185,16 +188,16 @@ girls_hallway:
 heidi_room:
   name: Heidi's Room
   entities:
-    - binary_sensor.multisensor_1_sensor
+    - switch.heidis_room_lights_switch
     - light.heidi
     - light.heidi_1
     - light.heidi_2
     - light.heidi_color
     - light.heidi_lamp
     - light.heidi_go
+    - binary_sensor.multisensor_1_sensor
     - sensor.multisensor_1_temperature
     - sensor.multisensor_1_relative_humidity
-    - switch.heidis_room_lights_switch
 
 hannah_room:
   name: Hannah's Room
@@ -204,6 +207,9 @@ hannah_room:
     - light.hannah_2
     - light.hannah_color
     - light.hannah_lamp
+    - binary_sensor.multisensor_3_sensor
+    - sensor.multisensor_3_temperature
+    - sensor.multisensor_3_relative_humidity
 
 gallery:
   name: Gallery
