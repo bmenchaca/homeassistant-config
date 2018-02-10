@@ -13,6 +13,7 @@ light.master_bath:
   friendly_name: "Master Bath Light"
 light.master_hall:
   friendly_name: "All Master Hall Lights"
+  hidden: true
 
 # Multisensor Renames
 binary_sensor.multisensor_1_sensor:
@@ -132,10 +133,6 @@ switch.west_side_pool:
 switch.zone_13:
   hidden: true
 switch.zone_14:
-  hidden: true
-
-# Exclude some Hue groups from UI
-light.master_hall:
   hidden: true
 
 # Exclude direct sensor measurements
