@@ -132,6 +132,7 @@ switch.west_side_pool:
 # Exclude specific items from the UI
 switch.zone_13:
   hidden: true
+  haaska_hidden: true
 switch.zone_14:
   hidden: true
 
