@@ -11,8 +11,8 @@ alexa:
       - scene
       - switch
       - cover
-    exclude_entities:
-    exclude_domains:
+    #exclude_entities:
+    #exclude_domains:
   entity_config:
     light.family_room_fan_lights_level:
       name: Family Room Lights
