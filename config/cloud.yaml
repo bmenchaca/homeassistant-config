@@ -1,0 +1,31 @@
+alexa:
+  filter:
+    include_entities:
+      - light.family_room_fan_lights_level
+      - light.craft_room_large_lamp_level
+      - light.game_room_fan_lights_dimmer_level
+      - light.master_bath_vanity_lights_dimmer_level
+      - light.master_fan_lights_dimmer_level
+      - light.office_lights_dimmer_level
+    include_domains:
+      - scene
+      - switch
+      - cover
+    exclude_entities:
+    exclude_domains:
+  entity_config:
+    light.family_room_fan_lights_level:
+      name: Family Room Lights
+    #  description: The light in the kitchen
+    light.craft_room_large_lamp_level:
+      name: Craft Room Large Lamp
+    light.game_room_fan_lights_dimmer_level:
+      name: Game Room Lights
+    light.master_bath_vanity_lights_dimmer_level:
+      name: Master Bath Lights
+    light.master_fan_lights_dimmer_level:
+      name: Master Fan Lights
+    light.office_lights_dimmer_level:
+      name: Office Lights
+    #switch.stairs:
+    #  display_categories: LIGHT

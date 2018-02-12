@@ -28,7 +28,7 @@ logbook:
 frontend:
   javascript_version: latest
 config:
-cloud:
+cloud: !include config/cloud.yaml
 sun:
 vacuum: !include config/vacuum.yaml
 zwave: !include config/zwave.yaml
