@@ -28,8 +28,8 @@ logbook:
 frontend:
   javascript_version: latest
 config:
+cloud:
 sun:
-alexa: !include config/alexa.yaml
 vacuum: !include config/vacuum.yaml
 zwave: !include config/zwave.yaml
 hue: !include config/hue.yaml
