@@ -136,6 +136,28 @@ switch.zone_13:
 switch.zone_14:
   hidden: true
 
+# Hide duplicate switches
+switch.breakfast_lights_switch_2:
+  hidden: true
+switch.dining_room_lights_switch_2:
+  hidden: true
+switch.front_porch_lights_switch_2:
+  hidden: true
+switch.gallery_hall_lights_switch_2:
+  hidden: true
+switch.game_room_fan_switch_2:
+  hidden: true
+switch.guest_fan_and_lights_switch_2:
+  hidden: true
+switch.guest_fan_and_lights_switch_3:
+  hidden: true
+switch.laundry_room_lights_switch_2:
+  hidden: true
+switch.master_hall_lights_switch_2:
+  hidden: true
+switch.stairs_light_switch_2:
+  hidden: true
+
 # Exclude direct sensor measurements
 sensor.master_hall_lights_alarm_level:
   hidden: true
