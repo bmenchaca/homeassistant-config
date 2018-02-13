@@ -11,7 +11,17 @@ alexa:
       - scene
       - switch
       - cover
-    #exclude_entities:
+    exclude_entities:
+      - switch.breakfast_lights_switch_2
+      - switch.dining_room_lights_switch_2
+      - switch.front_porch_lights_switch_2
+      - switch.gallery_hall_lights_switch_2
+      - switch.game_room_fan_switch_2
+      - switch.guest_fan_and_lights_switch_2
+      - switch.guest_fan_and_lights_switch_3
+      - switch.laundry_room_lights_switch_2
+      - switch.master_hall_lights_switch_2
+      - switch.stairs_light_switch_2
     #exclude_domains:
   entity_config:
     light.family_room_fan_lights_level:
