@@ -289,7 +289,6 @@ today_forecast:
   name: Today's Forecast
   entities:
     - sensor.pws_weather_1d
-    - sensor.pws_weather_1n
     - sensor.pws_temp_high_1d_f
     - sensor.pws_temp_low_1d_f
     - sensor.pws_wind_1d_mph
@@ -318,6 +317,11 @@ family:
     - device_tracker.ben_iphone
     - device_tracker.heidi_android
     - device_tracker.susan_iphone
+
+system:
+  name: System
+  entities:
+    - binary_sensor.cpu_overload
 
 # Views      
 downstairs_view:
