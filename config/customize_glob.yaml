@@ -10,7 +10,13 @@
   hidden: true
 "sensor.*_burglar*":
   hidden: true
+"sensor.*_access_control*":
+  hidden: true
+"sensor.*_power_management*":
+  hidden: true
 "sensor.multisensor_*_luminance":
   hidden: true
 "sensor.multisensor_*_ultraviolet":
+  hidden: true
+"sensor.netatmo_*door_*_*":
   hidden: true

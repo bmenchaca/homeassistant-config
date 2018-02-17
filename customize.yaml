@@ -177,5 +177,5 @@ sensor.master_hall_lights_burglar:
   hidden: true
 sensor.master_hall_lights_burglar_2:
   hidden: true
-
-# Haaska Names
+sensor.master_closet_door:
+  hidden: true
