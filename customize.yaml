@@ -34,6 +34,8 @@ sensor.multisensor_3_temperature:
   friendly_name: "Hannah's Room Temperature"
 sensor.multisensor_3_relative_humidity:
   friendly_name: "Hannah's Room Relative Humidity"
+binary_sensor.gallery_hsm200_sensor:
+  hidden: true
 
 # Camera Renames
 camera.guest_hall:
