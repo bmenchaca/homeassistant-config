@@ -275,6 +275,19 @@ master_lavatory:
   entities:
     - switch.master_lavatory_light_switch
 
+weather:
+  name: Current Weather
+  entities:
+    - sun.sun
+    - sensor.yr_symbol
+
+family:
+  name: Family Locations
+  entities:
+    - device_tracker.ben_iphone
+    - device_tracker.heidi_android
+    - device_tracker.susan_iphone
+
 # Views      
 garage_view:
   name: Garage
