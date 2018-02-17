@@ -91,13 +91,13 @@
         {%- endif -%}
 
 
-- platform: template
-  sensors:
-    master_closet_door:
-      friendly_name: 'Master Closet Door'
-      value_template: >-
-        {%- if is_state("sensor.master_closet_door_access_control", "22") -%}
-          True
-        {%- else -%}
-          False
-        {%- endif -%}
+        #- platform: template
+        #  sensors:
+        #    master_closet_door:
+        #      friendly_name: 'Master Closet Door'
+      #      value_template: >-
+      #        {%- if is_state("sensor.master_closet_door_access_control", "22") -%}
+      #   True
+      # {%- else -%}
+      #   False
+      # {%- endif -%}
