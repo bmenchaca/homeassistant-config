@@ -10,6 +10,8 @@
     - precip_1d
     - precip_1d_in
     - wind_1d_mph
+    - weather
+    - weather_1h
     - weather_1d
     - weather_1n
     - weather_2d
