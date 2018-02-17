@@ -37,5 +37,26 @@ alexa:
       name: Master Fan Lights
     light.office_lights_dimmer_level:
       name: Office Lights
+    switch.back_porch_light_switch:
+      name: Back Porch Lights
+    switch.breakfast_lights_switch:
+      name: Breakfast Lights
+    switch.craft_room_fan_switch:
+      name: Craft Room Fan
+    switch.craft_room_sewing_lamp_switch:
+      name: Craft Room Sewing Lamp
+    switch.entry_light_switch:
+      name: Entry Light
+    switch.family_room_fan_switch:
+      name: Family Room Fan
+    switch.family_room_mantle_light_switch:
+      name: Family Room Mantle
+    switch.front_porch_lights_switch:
+      name: Front Porch Lights
+    switch.gallery_hall_lights_switch:
+      name: Gallery Hall Lights
+    switch.game_room_fan_switch:
+      name: Game Room Fan
+
     #switch.stairs:
     #  display_categories: LIGHT
