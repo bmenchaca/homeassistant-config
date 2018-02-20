@@ -112,6 +112,28 @@
           False
         {%- endif -%}
 
+- platform: template
+  sensors:
+    girls_hall_occupancy:
+      friendly_name: "Girl's Hall Occupancy"
+      value_template: >-
+        {%- if is_state("sensor.girls_hall_light_burglar", "8") -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
+
+
+        #- platform: template
+        #  sensors:
+        #    master_closet_door:
+        #      friendly_name: 'Master Closet Door'
+      #      value_template: >-
+      #        {%- if is_state("sensor.master_closet_door_access_control", "22") -%}
+      #   True
+      # {%- else -%}
+      #   False
+      # {%- endif -%}
 
         #- platform: template
         #  sensors:
