@@ -173,16 +173,19 @@ noah_room:
 noah_bathroom:
   name: Noah's Bathroom
   entities:
-    - switch.noahs_bathroom_lights_switch
+    - binary_sensor.noah_bathroom_occupancy
+    - light.noah_bathroom_light_level
 
 noah_hallway:
   name: Noah's Hall
   entities:
-    - switch.noahs_hall_light_switch
+    - binary_sensor.noah_hall_occupancy
+    - switch.noah_hall_light_switch
 
 girls_hallway:
   name: Girls' Hall
   entities:
+    - binary_sensor.girls_hall_occupancy
     - switch.girls_hall_light_switch
 
 heidi_room:
