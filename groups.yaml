@@ -186,7 +186,7 @@ girls_hallway:
   name: Girls Hall
   entities:
     - binary_sensor.girls_hall_occupancy
-    - switch.girls_hall_light_switch
+    - switch.girls_hall_light_switch_4
 
 heidi_room:
   name: Heidi's Room
