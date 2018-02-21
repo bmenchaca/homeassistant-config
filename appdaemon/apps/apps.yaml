@@ -1,5 +1,10 @@
 pantry_sensor_light:
-  module = sensor_light
-  class = SensorLight
-  sensor = binary_sensor.pantry_door_sensor
-  light = switch.pantry_lights_switch
+  class: SensorLight
+  module: sensor_light
+  sensor: binary_sensor.pantry_door_sensor
+  entity_on: switch.pantry_lights_switch
+  off_delay: 0
+
+hello_world:
+  module: hello
+  class: HelloWorld

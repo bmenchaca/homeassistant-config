@@ -1,22 +1,22 @@
-- id: pantry_door_close
-  alias: Turn off Pantry Light when Pantry Door closes
-  trigger:
-    platform: state
-    entity_id: binary_sensor.pantry_door_sensor
-    to: 'off'
-  action:
-    service: switch.turn_off
-    entity_id: switch.pantry_lights_switch
+#- id: pantry_door_close
+#  alias: Turn off Pantry Light when Pantry Door closes
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.pantry_door_sensor
+#    to: 'off'
+#  action:
+#    service: switch.turn_off
+#    entity_id: switch.pantry_lights_switch
 
-- id: pantry_door_open
-  alias: Turn on Pantry Light when Pantry Door opens
-  trigger:
-    platform: state
-    entity_id: binary_sensor.pantry_door_sensor
-    to: 'on'
-  action:
-    service: switch.turn_on
-    entity_id: switch.pantry_lights_switch
+#- id: pantry_door_open
+#  alias: Turn on Pantry Light when Pantry Door opens
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.pantry_door_sensor
+#    to: 'on'
+#  action:
+#    service: switch.turn_on
+#    entity_id: switch.pantry_lights_switch
 
 - id: craft_room_switch_off
   alias: Turn off All Craft Room Switches when Main Switch Turned Off
@@ -91,7 +91,7 @@
       minutes: 2
   condition:
   - condition: time
-    after: '20:00:00'
+    # after: '20:00:00'
     before: '6:30:00'
   action:
     service: switch.turn_off
