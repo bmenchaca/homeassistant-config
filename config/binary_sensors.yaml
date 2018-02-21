@@ -92,10 +92,10 @@
 
 - platform: template
   sensors:
-    noah_bathroom_occupancy:
-      friendly_name: 'Noah Bathroom Occupancy'
+    boys_bathroom_occupancy:
+      friendly_name: "Boys Bathroom Occupancy"
       value_template: >-
-        {%- if is_state("sensor.noah_bathroom_light_burglar", "8") -%}
+        {%- if is_state("sensor.boys_bathroom_light_burglar", "8") -%}
           True
         {%- else -%}
           False
@@ -103,10 +103,10 @@
 
 - platform: template
   sensors:
-    noah_hall_occupancy:
-      friendly_name: 'Noah Hall Occupancy'
+    boys_hall_occupancy:
+      friendly_name: 'Boys Hall Occupancy'
       value_template: >-
-        {%- if is_state("sensor.noah_hall_light_burglar", "8") -%}
+        {%- if is_state("sensor.boys_hall_light_burglar", "8") -%}
           True
         {%- else -%}
           False
@@ -115,7 +115,7 @@
 - platform: template
   sensors:
     girls_hall_occupancy:
-      friendly_name: "Girl's Hall Occupancy"
+      friendly_name: "Girls Hall Occupancy"
       value_template: >-
         {%- if is_state("sensor.girls_hall_light_burglar", "8") -%}
           True

@@ -14,7 +14,7 @@
 #   - zwave.master_fan
 #   - zwave.master_fan_lights_dimmer
 #   - zwave.master_lavatory_light
-#   - zwave.noahs_hall_light
+#   - zwave.boys_hall_light
 
 packages:
   name: Packages
@@ -170,23 +170,23 @@ noah_room:
     - sensor.multisensor_2_temperature
     - sensor.multisensor_2_relative_humidity
 
-noah_bathroom:
-  name: Noah's Bathroom
+boys_bathroom:
+  name: Boy's Bathroom
   entities:
-    - binary_sensor.noah_bathroom_occupancy
-    - light.noah_bathroom_light_level
+    - binary_sensor.boys_bathroom_occupancy
+    - light.boys_bathroom_light_level
 
-noah_hallway:
-  name: Noah's Hall
+boys_hallway:
+  name: Boy's Hall
   entities:
-    - binary_sensor.noah_hall_occupancy
-    - switch.noah_hall_light_switch
+    - binary_sensor.boys_hall_occupancy
+    - switch.boys_hall_light_switch
 
 girls_hallway:
   name: Girls' Hall
   entities:
     - binary_sensor.girls_hall_occupancy
-    - switch.girls_hall_light_switch
+    - switch.girl_hall_light_switch
 
 heidi_room:
   name: Heidi's Room
@@ -353,8 +353,8 @@ upstairs_view:
   view: yes
   entities:
     - group.noah_room
-    - group.noah_bathroom
-    - group.noah_hallway
+    - group.boys_bathroom
+    - group.boys_hallway
     - group.gallery
     - group.game_room
     - group.office
