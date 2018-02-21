@@ -48,6 +48,87 @@
   #  - service: light.turn_on
   #    entity_id: light.craft_room_large_lamp_level
   
+# Upstairs Night Lights Off
+- id: boys_hall_night_light_off
+  alias: Turn off Boys Hall Lights 5 minutes after last movement at night
+  trigger:
+    platform: state
+    entity_id: binary_sensor.boys_hall_occupancy
+    to: 'off'
+    for:
+      minutes: 5
+  condition:
+  - condition: time
+    after: '20:00:00'
+    before: '6:30:00'
+  action:
+    service: switch.turn_off
+    entity_id: switch.boys_hall_light_switch
+
+- id: boys_bathroom_night_light_off
+  alias: Turn off Boys Bathroom Lights 2 minutes after last movement at night
+  trigger:
+    platform: state
+    entity_id: binary_sensor.boys_hall_occupancy
+    to: 'off'
+    for:
+      minutes: 2
+  condition:
+  - condition: time
+    after: '20:00:00'
+    before: '6:30:00'
+  action:
+    service: light.turn_off
+    entity_id: light.boys_bathroom_light_level
+
+- id: girls_hall_night_light_off
+  alias: Turn off Girls Hall Lights 2 minutes after last movement at night
+  trigger:
+    platform: state
+    entity_id: binary_sensor.girls_hall_occupancy
+    to: 'off'
+    for:
+      minutes: 2
+  condition:
+  - condition: time
+    after: '20:00:00'
+    before: '6:30:00'
+  action:
+    service: switch.turn_off
+    entity_id: switch.girls_hall_light_switch_4
+
+- id: gallery_hall_night_light_off
+  alias: Turn off Gallery Hall Lights 2 minutes after last movement at night
+  trigger:
+    platform: state
+    entity_id: binary_sensor.gallery_occupancy
+    to: 'off'
+    for:
+      minutes: 2
+  condition:
+  - condition: time
+    after: '20:00:00'
+    before: '6:30:00'
+  action:
+    service: switch.turn_off
+    entity_id: switch.gallery_hall_lights_switch
+
+- id: game_room_night_light_off
+  alias: Turn off Game Room Lights 2 minutes after last movement at night
+  trigger:
+    platform: state
+    entity_id: binary_sensor.game_room_occupancy
+    to: 'off'
+    for:
+      minutes: 2
+  condition:
+  - condition: time
+    after: '20:00:00'
+    before: '6:30:00'
+  action:
+    service: light.turn_off
+    entity_id: light.game_room_fan_lights_dimmer_level
+
 - id: laundry_room_light_off
   alias: Turn off Laundry Room Lights 5 minutes after last movement
   trigger:
