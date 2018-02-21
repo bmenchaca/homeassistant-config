@@ -183,10 +183,10 @@ boys_hallway:
     - switch.boys_hall_light_switch
 
 girls_hallway:
-  name: Girls' Hall
+  name: Girls Hall
   entities:
     - binary_sensor.girls_hall_occupancy
-    - switch.girl_hall_light_switch
+    - switch.girls_hall_light_switch
 
 heidi_room:
   name: Heidi's Room
