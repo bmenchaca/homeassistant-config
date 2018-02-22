@@ -26,7 +26,15 @@
     light.game_room: off
     #    light.game_room_fan_lights_dimmer_level:
     #  state: off
-    
+  
+- name: garage_outdoor_lights_daytime
+  entities:
+    switch.garage_outdoor_lights_switch: off
+
+- name: garage_outdoor_lights_nighttime
+  entities:
+    switch.garage_outdoor_lights_switch: on
+
 - name: game_room_on
   entities:
     switch.game_room_fan_switch: on
