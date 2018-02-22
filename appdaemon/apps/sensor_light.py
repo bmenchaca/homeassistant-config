@@ -23,30 +23,31 @@ import appdaemon.plugins.hass.hassapi as hass
 class SensorLight(hass.Hass):
 
     def initialize(self):
-    
         self.handle = None
         # Check some Params
         # Subscribe to sensors
         if "sensor" in self.args:
-            self.listen_state(self.motion, self.args["sensor"], new="on")
-            if "off_delay" in self.args:
-                self.listen_state(self.quiesce, self.args["sensor"], new="off",
-                        duration = self.args["off_delay"])
-            else:
-                self.listen_state(self.quiesce, self.args["sensor"], new="off")
+            if "entity_on" in self.args:
+                self.log("Registering 'on' listener for %s motion, activates %s"
+                        % (self.args["sensor"], self.args["entity_on"]))
+                self.listen_state(self.motion, self.args["sensor"], new="on")
+            if "entity_off" in self.args:
+                self.log("Registering 'off' listener for %s quiesce, deactivates %s"
+                        % (self.args["sensor"], self.args["entity_off"]))
+                if "off_delay" in self.args:
+                    self.listen_state(self.quiesce, self.args["sensor"], new="off",
+                            duration = self.args["off_delay"])
+                else:
+                    self.listen_state(self.quiesce, self.args["sensor"], new="off")
         else:
             self.log("No sensor specified, doing nothing")
     
+
     def motion(self, entity, attribute, old, new, kwargs):
-        if "entity_on" in self.args:
-            self.log("Motion detected: turning {} on".format(self.args["entity_on"]))
-            self.turn_on(self.args["entity_on"])
-        else:
-            self.log("Motion detected: no 'entity_on' specified, doing nothing.")
+        self.log("Motion detected: turning {} on".format(self.args["entity_on"]))
+        self.turn_on(self.args["entity_on"])
   
+
     def quiesce(self, entity, attribute, old, new, kwargs):
-        if "entity_on" in self.args:
-            self.log("Motion stopped: turning {} off".format(self.args["entity_on"]))
-            self.turn_off(self.args["entity_on"])
-        else:
-            self.log("Motion stopped: no 'entity_on' specified, doing nothing.")
+        self.log("Motion stopped: turning {} off".format(self.args["entity_off"]))
+        self.turn_off(self.args["entity_off"])
