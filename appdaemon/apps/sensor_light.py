@@ -32,22 +32,25 @@ class SensorLight(hass.Hass):
                         % (self.args["sensor"], self.args["entity_on"]))
                 self.listen_state(self.motion, self.args["sensor"], new="on")
             if "entity_off" in self.args:
-                self.log("Registering 'off' listener for %s quiesce, deactivates %s"
-                        % (self.args["sensor"], self.args["entity_off"]))
                 if "off_delay" in self.args:
+                    self.log("Registering 'off' listener for %s quiesce, deactivates %s after %d seconds."
+                            % (self.args["sensor"], self.args["entity_off"],
+                                self.args["off_delay"]))
                     self.listen_state(self.quiesce, self.args["sensor"], new="off",
                             duration = self.args["off_delay"])
                 else:
+                    self.log("Registering 'off' listener for %s quiesce, deactivates %s immediately."
+                            % (self.args["sensor"], self.args["entity_off"]))
                     self.listen_state(self.quiesce, self.args["sensor"], new="off")
         else:
             self.log("No sensor specified, doing nothing")
     
 
     def motion(self, entity, attribute, old, new, kwargs):
-        self.log("Motion detected: turning {} on".format(self.args["entity_on"]))
+        #self.log("Motion detected: turning {} on".format(self.args["entity_on"]))
         self.turn_on(self.args["entity_on"])
   
 
     def quiesce(self, entity, attribute, old, new, kwargs):
-        self.log("Motion stopped: turning {} off".format(self.args["entity_off"]))
+        #self.log("Motion stopped: turning {} off".format(self.args["entity_off"]))
         self.turn_off(self.args["entity_off"])

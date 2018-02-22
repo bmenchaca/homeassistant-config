@@ -20,7 +20,7 @@ import appdaemon.plugins.hass.hassapi as hass
 # Version 1.0:
 #   Initial Version
 
-class DayNight(hass.Hass):
+class SunriseSunset(hass.Hass):
 
     def initialize(self):
         self.handle = None

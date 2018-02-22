@@ -1,3 +1,6 @@
+# FIXME: Add a nighttime warning if Ben or Susan's Garage door is open.
+
+
 ###############################################################################
 # Door Automations
 # 
@@ -25,6 +28,50 @@ master_closet_sensor_light:
 #  
 ###############################################################################
 
+
+###############################################################################
+# Sunrise/Sunset lights
+#
+garage_lights_at_night:
+  class: SunriseSunset
+  module: sunrise_sunset
+  entity_day: scene.garage_outdoor_lights_daytime
+  entity_night: scene.garage_outdoor_lights_nighttime
+
+christmas_lights_at_night:
+  class: SunriseSunset
+  module: sunrise_sunset
+  entity_day: scene.christmas_lights_daytime
+  entity_night: scene.christmas_lights_nighttime
+
+#  
+###############################################################################
+
+
+###############################################################################
+# Triggered Sequences
+#
+craft_room_switch_on:
+  class: Sequence
+  module: sequence
+  input: switch.craft_room_fan_switch
+  state: "on"
+  sequence:
+    - entity: scene.craft_room_switch_on
+      service: scene/turn_on
+      delay: 0
+
+craft_room_switch_off:
+  class: Sequence
+  module: sequence
+  input: switch.craft_room_fan_switch
+  state: "off"
+  sequence:
+    - entity: scene.craft_room_switch_off
+      service: scene/turn_on
+      delay: 0
+#  
+###############################################################################
 
 ###############################################################################
 # Motion-trigger lights
