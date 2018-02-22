@@ -3,6 +3,7 @@
 !.travis.yml
 !www
 !*.yaml
+!*.py
 !*/
 secrets.yaml
 known_devices.yaml
