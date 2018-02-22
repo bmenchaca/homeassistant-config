@@ -2,10 +2,6 @@
   entities:
     light.guest: off
 
-
-- name: guest_unoccupied
-  entities:
-    light.guest: off
 - name: craft_room_switch_off
   entities:
     switch.craft_room_fan_switch: off
@@ -27,6 +23,14 @@
     #    light.game_room_fan_lights_dimmer_level:
     #  state: off
   
+- name: christmas_lights_daytime
+  entities:
+    switch.entry_christmas_tree_outlet_switch: off
+
+- name: christmas_lights_nighttime
+  entities:
+    switch.entry_christmas_tree_outlet_switch: on
+
 - name: garage_outdoor_lights_daytime
   entities:
     switch.garage_outdoor_lights_switch: off
