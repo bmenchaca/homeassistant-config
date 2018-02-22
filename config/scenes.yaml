@@ -66,7 +66,6 @@
       state: off
     light.mantle_light:
       state: on
-    #script.turn_on_mantle_light_for_tv: on
 
 - name: house_bed_time
   entities:
