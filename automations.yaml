@@ -49,211 +49,211 @@
   #    entity_id: light.craft_room_large_lamp_level
   
 # Upstairs Night Lights Off
-- id: boys_hall_night_light_off
-  alias: Turn off Boys Hall Lights 5 minutes after last movement at night
-  trigger:
-    platform: state
-    entity_id: binary_sensor.boys_hall_occupancy
-    to: 'off'
-    for:
-      minutes: 5
-  condition:
-  - condition: time
-    after: '20:00:00'
-    before: '6:30:00'
-  action:
-    service: switch.turn_off
-    entity_id: switch.boys_hall_light_switch
+#- id: boys_hall_night_light_off
+#  alias: Turn off Boys Hall Lights 5 minutes after last movement at night
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.boys_hall_occupancy
+#    to: 'off'
+#    for:
+#      minutes: 5
+#  condition:
+#  - condition: time
+#    after: '20:00:00'
+#    before: '6:30:00'
+#  action:
+#    service: switch.turn_off
+#    entity_id: switch.boys_hall_light_switch
 
-- id: boys_bathroom_night_light_off
-  alias: Turn off Boys Bathroom Lights 2 minutes after last movement at night
-  trigger:
-    platform: state
-    entity_id: binary_sensor.boys_hall_occupancy
-    to: 'off'
-    for:
-      minutes: 2
-  condition:
-  - condition: time
-    after: '20:00:00'
-    before: '6:30:00'
-  action:
-    service: light.turn_off
-    entity_id: light.boys_bathroom_light_level
+#- id: boys_bathroom_night_light_off
+#  alias: Turn off Boys Bathroom Lights 2 minutes after last movement at night
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.boys_bathroom_occupancy
+#    to: 'off'
+#    for:
+#      minutes: 2
+#  condition:
+#  - condition: time
+#    after: '20:00:00'
+#    before: '6:30:00'
+#  action:
+#    service: light.turn_off
+#    entity_id: light.boys_bathroom_light_level
 
-- id: girls_hall_night_light_off
-  alias: Turn off Girls Hall Lights 2 minutes after last movement at night
-  trigger:
-    platform: state
-    entity_id: binary_sensor.girls_hall_occupancy
-    to: 'off'
-    for:
-      minutes: 2
-  condition:
-  - condition: time
-    # after: '20:00:00'
-    before: '6:30:00'
-  action:
-    service: switch.turn_off
-    entity_id: switch.girls_hall_light_switch_4
+#- id: girls_hall_night_light_off
+#  alias: Turn off Girls Hall Lights 2 minutes after last movement at night
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.girls_hall_occupancy
+#    to: 'off'
+#    for:
+#      minutes: 2
+#  condition:
+#  - condition: time
+#    # after: '20:00:00'
+#    before: '6:30:00'
+#  action:
+#    service: switch.turn_off
+#    entity_id: switch.girls_hall_light_switch_4
 
-- id: gallery_hall_night_light_off
-  alias: Turn off Gallery Hall Lights 2 minutes after last movement at night
-  trigger:
-    platform: state
-    entity_id: binary_sensor.gallery_occupancy
-    to: 'off'
-    for:
-      minutes: 2
-  condition:
-  - condition: time
-    after: '20:00:00'
-    before: '6:30:00'
-  action:
-    service: switch.turn_off
-    entity_id: switch.gallery_hall_lights_switch
+#- id: gallery_hall_night_light_off
+#  alias: Turn off Gallery Hall Lights 2 minutes after last movement at night
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.gallery_occupancy
+#    to: 'off'
+#    for:
+#      minutes: 2
+#  condition:
+#  - condition: time
+#    after: '20:00:00'
+#    before: '6:30:00'
+#  action:
+#    service: switch.turn_off
+#    entity_id: switch.gallery_hall_lights_switch
 
-- id: game_room_night_light_off
-  alias: Turn off Game Room Lights 2 minutes after last movement at night
-  trigger:
-    platform: state
-    entity_id: binary_sensor.game_room_occupancy
-    to: 'off'
-    for:
-      minutes: 2
-  condition:
-  - condition: time
-    after: '20:00:00'
-    before: '6:30:00'
-  action:
-    service: light.turn_off
-    entity_id: light.game_room_fan_lights_dimmer_level
+#- id: game_room_night_light_off
+#  alias: Turn off Game Room Lights 2 minutes after last movement at night
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.game_room_occupancy
+#    to: 'off'
+#    for:
+#      minutes: 2
+#  condition:
+#  - condition: time
+#    after: '20:00:00'
+#    before: '6:30:00'
+#  action:
+#    service: light.turn_off
+#    entity_id: light.game_room_fan_lights_dimmer_level
 
-- id: laundry_room_light_off
-  alias: Turn off Laundry Room Lights 5 minutes after last movement
-  trigger:
-    platform: state
-    entity_id: binary_sensor.laundry_room_occupancy
-    to: 'off'
-    for:
-      minutes: 5
-  action:
-    service: switch.turn_off
-    entity_id: switch.laundry_room_lights_switch
+#- id: laundry_room_light_off
+#  alias: Turn off Laundry Room Lights 5 minutes after last movement
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.laundry_room_occupancy
+#    to: 'off'
+#    for:
+#      minutes: 5
+#  action:
+#    service: switch.turn_off
+#    entity_id: switch.laundry_room_lights_switch
 
-- id: laundry_room_light_on
-  alias: Turn on Laundry Room Lights when someone is in the room
-  trigger:
-    platform: state
-    entity_id: binary_sensor.laundry_room_occupancy
-    to: 'on'
-  action:
-    service: switch.turn_on
-    entity_id: switch.laundry_room_lights_switch
+#- id: laundry_room_light_on
+#  alias: Turn on Laundry Room Lights when someone is in the room
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.laundry_room_occupancy
+#    to: 'on'
+#  action:
+#    service: switch.turn_on
+#    entity_id: switch.laundry_room_lights_switch
 
-- id: game_room_lights_off
-  alias: Turn off Game Room Lights when noone is in the room
-  trigger:
-    platform: state
-    entity_id: binary_sensor.game_room_occupancy
-    to: 'off'
-    for:
-      minutes: 10
-  action:
-    service: scene.turn_on
-    entity_id: scene.game_room_off
+#- id: game_room_lights_off
+#  alias: Turn off Game Room Lights when noone is in the room
+# trigger:
+#   platform: state
+#   entity_id: binary_sensor.game_room_occupancy
+#   to: 'off'
+#   for:
+#     minutes: 10
+# action:
+#   service: scene.turn_on
+#   entity_id: scene.game_room_off
 
-- id: game_room_lights_on
-  alias: Turn on Game Room Lights when someone is in the room
-  trigger:
-    platform: state
-    entity_id: binary_sensor.game_room_occupancy
-    to: 'on'
-  action:
-    service: scene.turn_on
-    entity_id: scene.game_room_on
+#- id: game_room_lights_on
+#  alias: Turn on Game Room Lights when someone is in the room
+# trigger:
+#   platform: state
+#   entity_id: binary_sensor.game_room_occupancy
+#   to: 'on'
+# action:
+#   service: scene.turn_on
+#   entity_id: scene.game_room_on
 
-- id: laundry_room_closet_door_close
-  alias: Turn off Laundry Room Closet Light when Laundry Room Closet Door closes
-  trigger:
-    platform: state
-    entity_id: binary_sensor.laundry_room_closet_door_sensor
-    to: 'off'
-  action:
-    service: switch.turn_off
-    entity_id: switch.laundry_room_closet_lights_switch
+#- id: laundry_room_closet_door_close
+#  alias: Turn off Laundry Room Closet Light when Laundry Room Closet Door closes
+# trigger:
+#   platform: state
+#   entity_id: binary_sensor.laundry_room_closet_door_sensor
+#   to: 'off'
+# action:
+#   service: switch.turn_off
+#   entity_id: switch.laundry_room_closet_lights_switch
 
-- id: laundry_room_closet_door_open
-  alias: Turn on Laundry Room Closet Light when Laundry Room Closet Door opens
-  trigger:
-    platform: state
-    entity_id: binary_sensor.laundry_room_closet_door_sensor
-    to: 'on'
-  action:
-    service: switch.turn_on
-    entity_id: switch.laundry_room_closet_lights_switch
+#- id: laundry_room_closet_door_open
+#  alias: Turn on Laundry Room Closet Light when Laundry Room Closet Door opens
+# trigger:
+#   platform: state
+#   entity_id: binary_sensor.laundry_room_closet_door_sensor
+#   to: 'on'
+# action:
+#   service: switch.turn_on
+#   entity_id: switch.laundry_room_closet_lights_switch
 
-- id: master_hall_light_off
-  alias: Turn off Master Hall Lights 5 minutes after last movement
-  trigger:
-    platform: state
-    entity_id: binary_sensor.master_hall_occupancy
-    to: 'off'
-    for:
-      minutes: 5
-  action:
-    service: switch.turn_off
-    entity_id: switch.master_hall_lights_switch
+#- id: master_hall_light_off
+#  alias: Turn off Master Hall Lights 5 minutes after last movement
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.master_hall_occupancy
+#    to: 'off'
+#    for:
+#      minutes: 5
+#  action:
+#    service: switch.turn_off
+#    entity_id: switch.master_hall_lights_switch
 
-- id: master_hall_light_on
-  alias: Turn on Master Hall Lights when someone is in the Master Hall or Stairs Areas
-  initial_state: false
-  trigger:
-    platform: state
-    entity_id: binary_sensor.master_hall_occupancy
-    to: 'on'
-  condition:
-  - condition: time
-    after: '8:00:00'
-    before: '20:30:00'
-  action:
-    service: switch.turn_on
-    entity_id: switch.master_hall_lights_switch
+#- id: master_hall_light_on
+#  alias: Turn on Master Hall Lights when someone is in the Master Hall or Stairs Areas
+#  initial_state: false
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.master_hall_occupancy
+#    to: 'on'
+#  condition:
+#  - condition: time
+#    after: '8:00:00'
+#    before: '20:30:00'
+#  action:
+#    service: switch.turn_on
+#    entity_id: switch.master_hall_lights_switch
 
-- id: master_hall_lights_when_laundry_room_occupied
-  alias: Turn on Master Hall Lights when someone is in the Laundry Room
-  initial_state: false
-  trigger:
-    platform: state
-    entity_id: binary_sensor.laundry_room_occupancy
-    to: 'on'
-  condition:
-  - condition: time
-    after: '8:00:00'
-    before: '20:30:00'
-  action:
-    service: switch.turn_on
-    entity_id: switch.master_hall_lights_switch
+#- id: master_hall_lights_when_laundry_room_occupied
+#  alias: Turn on Master Hall Lights when someone is in the Laundry Room
+#  initial_state: false
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.laundry_room_occupancy
+#    to: 'on'
+#  condition:
+#  - condition: time
+#    after: '8:00:00'
+#    before: '20:30:00'
+#  action:
+#    service: switch.turn_on
+#    entity_id: switch.master_hall_lights_switch
 
-- id: master_closet_door_open
-  alias: Turn on Master Closet Lights when Master Closet Door opens
-  trigger:
-    platform: state
-    entity_id: binary_sensor.master_closet_door_sensor
-    to: 'on'
-  action:
-    service: switch.turn_on
-    entity_id: switch.master_closet_light_switch
+#- id: master_closet_door_open
+#  alias: Turn on Master Closet Lights when Master Closet Door opens
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.master_closet_door_sensor
+#    to: 'on'
+#  action:
+#    service: switch.turn_on
+#    entity_id: switch.master_closet_light_switch
 
-- id: master_closet_door_close
-  alias: Turn off Master Closet Lights when Master Closet Door closes
-  trigger:
-    platform: state
-    entity_id: binary_sensor.master_closet_door_sensor
-    to: 'off'
-  action:
-    service: switch.turn_off
-    entity_id: switch.master_closet_light_switch
+#- id: master_closet_door_close
+#  alias: Turn off Master Closet Lights when Master Closet Door closes
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.master_closet_door_sensor
+#    to: 'off'
+#  action:
+#    service: switch.turn_off
+#    entity_id: switch.master_closet_light_switch
 
 - id: garage_lights_on_at_dusk
   alias: Turn on Garage Carriage Lights at Dusk
@@ -273,63 +273,63 @@
     service: switch.turn_off
     entity_id: switch.garage_outdoor_lights_switch
 
-- id: guest_lights_off_when_unoccupied
-  alias: Turn off Guest Lights 3 minutes after last movement
-  trigger:
-    platform: state
-    entity_id: binary_sensor.guest_occupancy
-    to: 'off'
-    for:
-      minutes: 5
-  action:
-    service: homeassistant.turn_off
-    entity_id: light.guest
+#- id: guest_lights_off_when_unoccupied
+#  alias: Turn off Guest Lights 3 minutes after last movement
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.guest_occupancy
+#    to: 'off'
+#    for:
+#      minutes: 5
+#  action:
+#    service: homeassistant.turn_off
+#    entity_id: light.guest
 
-- id: guest_lights_on_when_occupied_daytime
-  alias: Turn on Guest Lights when there is movement
-  initial_state: false
-  trigger:
-    platform: state
-    entity_id: binary_sensor.guest_occupancy
-    to: 'on'
-  condition:
-  - condition: time
-    after: '08:00:00'
-    before: '19:00:00'
+#- id: guest_lights_on_when_occupied_daytime
+#  alias: Turn on Guest Lights when there is movement
+#  initial_state: false
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.guest_occupancy
+#    to: 'on'
+#  condition:
+#  - condition: time
+#    after: '08:00:00'
+#    before: '19:00:00'
 #  - condition: state
 #    entity_id: sun.sun
 #    state: above_horizon
-  action:
-  - service: light.hue_activate_scene
-    data:
-      group_name: "Guest"
-      scene_name: "Daylight"
+#  action:
+#  - service: light.hue_activate_scene
+#    data:
+#      group_name: "Guest"
+#      scene_name: "Daylight"
 
-- id: guest_lights_on_when_occupied_evening
-  alias: Turn on Guest Lights when there is movement
-  initial_state: false
-  trigger:
-    platform: state
-    entity_id: binary_sensor.guest_occupancy
-    to: 'on'
+#- id: guest_lights_on_when_occupied_evening
+#  alias: Turn on Guest Lights when there is movement
+#  initial_state: false
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.guest_occupancy
+#    to: 'on'
 #condition:
 #  - condition: state
 #    entity_id: sun.sun
 #    state: below_horizon
-  condition:
-    condition: or
-    conditions:
-    - condition: time
-      after: '19:00:00'
-      before: '21:00:00'
-    - condition: time
-      after: '06:00:00'
-      before: '08:00:00'
-  action:
-  - service: light.hue_activate_scene
-    data:
-      group_name: "Guest"
-      scene_name: "Night"
+#  condition:
+#    condition: or
+#    conditions:
+#    - condition: time
+#      after: '19:00:00'
+#      before: '21:00:00'
+#    - condition: time
+#      after: '06:00:00'
+#      before: '08:00:00'
+#  action:
+#  - service: light.hue_activate_scene
+#    data:
+#      group_name: "Guest"
+#      scene_name: "Night"
 
 - id: christmas_lights_on_sunset
   alias: "Turn on Christmas Lights at Sunset"
@@ -386,14 +386,14 @@
       title: "Susan's Garage Door is open at night"
       message: "Susan's Garage Door is open, and it's night time!"
 
-- id: everyone_away
-  alias: "Everyone is away for a while"
-  trigger:
-    platform: state
-    entity_id: group.all_devices
-    to: 'not_home'
-    for:
-      minutes: 10
-  action:
-    - service: scene.turn_on
-      entity_id: scene.everyone_away
+#- id: everyone_away
+#  alias: "Everyone is away for a while"
+#  trigger:
+#    platform: state
+#    entity_id: group.all_devices
+#    to: 'not_home'
+#    for:
+#      minutes: 10
+#  action:
+#    - service: scene.turn_on
+#      entity_id: scene.everyone_away
