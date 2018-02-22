@@ -30,6 +30,7 @@ frontend:
 config:
 cloud: !include config/cloud.yaml
 sun:
+input_select: !include config/input_select.yaml
 vacuum: !include config/vacuum.yaml
 zwave: !include config/zwave.yaml
 hue: !include config/hue.yaml

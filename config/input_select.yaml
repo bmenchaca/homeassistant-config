@@ -1,0 +1,14 @@
+house_mode:
+  name: House Mode
+  options:
+    - Day
+    - Evening
+    - Night
+    - Naptime
+
+presence:
+  name: Presence
+  options:
+    - Home
+    - Away
+    - Vacation  
