@@ -72,8 +72,7 @@
     gallery_occupancy:
       friendly_name: 'Gallery Occupancy'
       value_template: >-
-        {%- if is_state("sensor.gallery_hall_lights_burglar", "8")
-            or is_state("sensor.gallery_hsm200_burglar", "7") -%}
+        {%- if is_state("sensor.gallery_hall_lights_burglar", "8") -%}
           True
         {%- else -%}
           False
