@@ -261,7 +261,7 @@ master_bath:
 master_closet:
   name: Master Closet
   entities:
-    - binary_sensor.master_closet_door_sensor
+    - binary_sensor.master_closet_door_sensor_2
     - switch.master_closet_light_switch
 
 master_hall:

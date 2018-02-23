@@ -239,7 +239,7 @@
 #  alias: Turn on Master Closet Lights when Master Closet Door opens
 #  trigger:
 #    platform: state
-#    entity_id: binary_sensor.master_closet_door_sensor
+#    entity_id: binary_sensor.master_closet_door_sensor_2
 #    to: 'on'
 #  action:
 #    service: switch.turn_on
@@ -249,7 +249,7 @@
 #  alias: Turn off Master Closet Lights when Master Closet Door closes
 #  trigger:
 #    platform: state
-#    entity_id: binary_sensor.master_closet_door_sensor
+#    entity_id: binary_sensor.master_closet_door_sensor_2
 #    to: 'off'
 #  action:
 #    service: switch.turn_off
