@@ -21,7 +21,7 @@ laundry_room_closet_sensor_light:
 master_closet_sensor_light:
   class: SensorLight
   module: sensor_light
-  sensor: binary_sensor.master_closet_door_sensor_2
+  sensor: binary_sensor.master_closet_door_sensor
   entity_on: switch.master_closet_light_switch
   entity_off: switch.master_closet_light_switch
 
@@ -89,8 +89,8 @@ boys_bathroom_motion_light:
   class: SensorLight
   module: sensor_light
   sensor: binary_sensor.boys_bathroom_occupancy
-  entity_on: light.boys_bathroom_light_level
-  entity_off: light.boys_bathroom_light_level
+  entity_on: switch.boys_bathroom_light_switch
+  entity_off: switch.boys_bathroom_light_switch
   constrain_input_select: input_select.house_mode,Evening,Night,Naptime
   off_delay: 60
 
