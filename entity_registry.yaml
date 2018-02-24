@@ -829,3 +829,9 @@ sensor.office_lights_dimmer_burglar_2:
 switch.boys_bathroom_light_switch_2:
   platform: zwave
   unique_id: 79-72057595368128512
+light.office_lights_dimmer_level:
+  platform: zwave
+  unique_id: 74-144115189322186753
+switch.girls_hall_light_switch:
+  platform: zwave
+  unique_id: 75-72057595301019648
