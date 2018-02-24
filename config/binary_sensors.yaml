@@ -113,6 +113,17 @@
 
 - platform: template
   sensors:
+    office_occupancy:
+      friendly_name: 'Office Occupancy'
+      value_template: >-
+        {%- if is_state("sensor.office_lights_dimmer_burglar", "8") -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
+
+- platform: template
+  sensors:
     girls_hall_occupancy:
       friendly_name: "Girls Hall Occupancy"
       value_template: >-
