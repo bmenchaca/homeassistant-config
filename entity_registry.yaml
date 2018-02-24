@@ -724,6 +724,9 @@ sensor.girls_hall_light_burglar_2:
 switch.boys_hall_light_switch:
   platform: zwave
   unique_id: 73-144115189305393152
+sensor.boys_hall_light_burglar:
+  platform: zwave
+  unique_id: 73-72057595268710561
 sensor.boys_hall_light_alarm_type:
   platform: zwave
   unique_id: 73-144115189306638337
@@ -733,9 +736,6 @@ sensor.boys_hall_light_alarm_level:
 sensor.boys_hall_light_sourcenodeid:
   platform: zwave
   unique_id: 73-144115189306638369
-sensor.boys_hall_light_burglar:
-  platform: zwave
-  unique_id: 73-144115189306638497
 sensor.office_lights_dimmer_alarm_type:
   platform: zwave
   unique_id: 74-144115189323415553
@@ -810,7 +810,7 @@ sensor.boys_hall_light_sourcenodeid_2:
   unique_id: 73-72057595268710433
 sensor.boys_hall_light_burglar_2:
   platform: zwave
-  unique_id: 73-72057595268710561
+  unique_id: 73-144115189306638497
 light.office_lights_dimmer_level_2:
   platform: zwave
   unique_id: 74-72057595284258817
