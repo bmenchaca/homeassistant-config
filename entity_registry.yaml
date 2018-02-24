@@ -163,12 +163,6 @@ sensor.netatmo_outdoor_radio:
 switch.master_closet_light_switch:
   platform: zwave
   unique_id: 2-72057594076282880
-switch.noahs_hall_light_switch:
-  platform: zwave
-  unique_id: 3-72057594093060096
-switch.girls_hall_light_switch:
-  platform: zwave
-  unique_id: 4-72057594109837312
 light.master_fan_lights_dimmer_level:
   platform: zwave
   unique_id: 5-72057594126630913
@@ -214,9 +208,6 @@ switch.back_porch_light_switch:
 switch.family_room_mantle_light_switch:
   platform: zwave
   unique_id: 30-72057594546044928
-light.office_lights_dimmer_level:
-  platform: zwave
-  unique_id: 32-72057594579615745
 switch.office_lamp_switch:
   platform: zwave
   unique_id: 33-72057594596376576
@@ -703,129 +694,6 @@ media_player.master_bathroom:
 media_player.game_room:
   platform: sonos
   unique_id: RINCON_7828CA098D9601400
-switch.switch:
-  platform: zwave
-  unique_id: 70-72057595217133568
-light.level:
-  platform: zwave
-  unique_id: 71-72057595233927169
-sensor.alarm_type:
-  platform: zwave
-  unique_id: 71-72057595235155969
-sensor.alarm_level:
-  platform: zwave
-  unique_id: 71-72057595235155985
-sensor.alarm_type_2:
-  platform: zwave
-  unique_id: 70-72057595218378753
-sensor.alarm_level_2:
-  platform: zwave
-  unique_id: 70-72057595218378769
-light.ge_26933_smart_motion_dimmer_level:
-  platform: zwave
-  unique_id: 71-144115189271855105
-sensor.ge_26933_smart_motion_dimmer_alarm_type:
-  platform: zwave
-  unique_id: 71-144115189273083905
-sensor.ge_26933_smart_motion_dimmer_alarm_level:
-  platform: zwave
-  unique_id: 71-144115189273083921
-switch.ge_26931_smart_motion_switch_switch:
-  platform: zwave
-  unique_id: 70-144115189255061504
-sensor.ge_26931_smart_motion_switch_alarm_type:
-  platform: zwave
-  unique_id: 70-144115189256306689
-sensor.ge_26931_smart_motion_switch_alarm_level:
-  platform: zwave
-  unique_id: 70-144115189256306705
-sensor.ge_26933_smart_motion_dimmer_sourcenodeid:
-  platform: zwave
-  unique_id: 71-72057595235156001
-sensor.ge_26933_smart_motion_dimmer_burglar:
-  platform: zwave
-  unique_id: 71-72057595235156129
-sensor.ge_26933_smart_motion_dimmer_sourcenodeid_2:
-  platform: zwave
-  unique_id: 71-144115189273083937
-sensor.ge_26933_smart_motion_dimmer_burglar_2:
-  platform: zwave
-  unique_id: 71-144115189273084065
-sensor.ge_26931_smart_motion_switch_sourcenodeid:
-  platform: zwave
-  unique_id: 70-72057595218378785
-sensor.ge_26931_smart_motion_switch_burglar:
-  platform: zwave
-  unique_id: 70-72057595218378913
-sensor.ge_26931_smart_motion_switch_sourcenodeid_2:
-  platform: zwave
-  unique_id: 70-144115189256306721
-sensor.ge_26931_smart_motion_switch_burglar_2:
-  platform: zwave
-  unique_id: 70-144115189256306849
-switch.girls_hall_light_switch_2:
-  platform: zwave
-  unique_id: 72-72057595250688000
-switch.girls_hall_light_switch_3:
-  platform: zwave
-  unique_id: 72-144115189288615936
-sensor.girls_hall_light_alarm_type:
-  platform: zwave
-  unique_id: 72-72057595251933185
-sensor.girls_hall_light_alarm_level:
-  platform: zwave
-  unique_id: 72-72057595251933201
-sensor.girls_hall_light_alarm_type_2:
-  platform: zwave
-  unique_id: 72-144115189289861121
-sensor.girls_hall_light_alarm_level_2:
-  platform: zwave
-  unique_id: 72-144115189289861137
-sensor.girls_hall_light_sourcenodeid:
-  platform: zwave
-  unique_id: 72-72057595251933217
-sensor.girls_hall_light_burglar:
-  platform: zwave
-  unique_id: 72-72057595251933345
-sensor.girls_hall_light_sourcenodeid_2:
-  platform: zwave
-  unique_id: 72-144115189289861153
-sensor.girls_hall_light_burglar_2:
-  platform: zwave
-  unique_id: 72-144115189289861281
-switch.boys_hall_light_switch:
-  platform: zwave
-  unique_id: 73-144115189305393152
-sensor.boys_hall_light_alarm_type:
-  platform: zwave
-  unique_id: 73-144115189306638337
-sensor.boys_hall_light_alarm_level:
-  platform: zwave
-  unique_id: 73-144115189306638353
-sensor.boys_hall_light_sourcenodeid:
-  platform: zwave
-  unique_id: 73-144115189306638369
-sensor.boys_hall_light_burglar:
-  platform: zwave
-  unique_id: 73-144115189306638497
-light.office_lights_dimmer_level:
-  platform: zwave
-  unique_id: 74-144115189322186753
-sensor.office_lights_dimmer_alarm_type:
-  platform: zwave
-  unique_id: 74-144115189323415553
-sensor.office_lights_dimmer_alarm_level:
-  platform: zwave
-  unique_id: 74-144115189323415569
-sensor.office_lights_dimmer_sourcenodeid:
-  platform: zwave
-  unique_id: 74-144115189323415585
-sensor.office_lights_dimmer_burglar:
-  platform: zwave
-  unique_id: 74-144115189323415713
-switch.girls_hall_light_switch:
-  platform: zwave
-  unique_id: 75-72057595301019648
 switch.girls_hall_light_switch_2:
   platform: zwave
   unique_id: 75-144115189338947584
@@ -853,6 +721,33 @@ sensor.girls_hall_light_sourcenodeid_2:
 sensor.girls_hall_light_burglar_2:
   platform: zwave
   unique_id: 75-144115189340192929
+switch.boys_hall_light_switch:
+  platform: zwave
+  unique_id: 73-144115189305393152
+sensor.boys_hall_light_alarm_type:
+  platform: zwave
+  unique_id: 73-144115189306638337
+sensor.boys_hall_light_alarm_level:
+  platform: zwave
+  unique_id: 73-144115189306638353
+sensor.boys_hall_light_sourcenodeid:
+  platform: zwave
+  unique_id: 73-144115189306638369
+sensor.boys_hall_light_burglar:
+  platform: zwave
+  unique_id: 73-144115189306638497
+sensor.office_lights_dimmer_alarm_type:
+  platform: zwave
+  unique_id: 74-144115189323415553
+sensor.office_lights_dimmer_alarm_level:
+  platform: zwave
+  unique_id: 74-144115189323415569
+sensor.office_lights_dimmer_sourcenodeid:
+  platform: zwave
+  unique_id: 74-144115189323415585
+sensor.office_lights_dimmer_burglar:
+  platform: zwave
+  unique_id: 74-144115189323415713
 binary_sensor.master_closet_door_sensor:
   platform: zwave
   unique_id: 78-72057595351531520
@@ -901,3 +796,36 @@ sensor.boys_bathroom_light_sourcenodeid_2:
 sensor.boys_bathroom_light_burglar_2:
   platform: zwave
   unique_id: 79-144115189407301793
+switch.boys_hall_light_switch_2:
+  platform: zwave
+  unique_id: 73-72057595267465216
+sensor.boys_hall_light_alarm_type_2:
+  platform: zwave
+  unique_id: 73-72057595268710401
+sensor.boys_hall_light_alarm_level_2:
+  platform: zwave
+  unique_id: 73-72057595268710417
+sensor.boys_hall_light_sourcenodeid_2:
+  platform: zwave
+  unique_id: 73-72057595268710433
+sensor.boys_hall_light_burglar_2:
+  platform: zwave
+  unique_id: 73-72057595268710561
+light.office_lights_dimmer_level_2:
+  platform: zwave
+  unique_id: 74-72057595284258817
+sensor.office_lights_dimmer_alarm_type_2:
+  platform: zwave
+  unique_id: 74-72057595285487617
+sensor.office_lights_dimmer_alarm_level_2:
+  platform: zwave
+  unique_id: 74-72057595285487633
+sensor.office_lights_dimmer_sourcenodeid_2:
+  platform: zwave
+  unique_id: 74-72057595285487649
+sensor.office_lights_dimmer_burglar_2:
+  platform: zwave
+  unique_id: 74-72057595285487777
+switch.boys_bathroom_light_switch_2:
+  platform: zwave
+  unique_id: 79-72057595368128512
