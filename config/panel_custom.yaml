@@ -1,11 +1,17 @@
-- name: downstairs
-  sidebar_title: Downstairs Floorplan
-  sidebar_icon: mdi:home
-  url_path: downstairs
-  config: !include downstairs_floorplan.yaml
+#- name: downstairs
+#  sidebar_title: Downstairs Floorplan
+#  sidebar_icon: mdi:home
+#  url_path: downstairs
+#  config: !include downstairs_floorplan.yaml
 
-- name: upstairs
-  sidebar_title: Upstairs Floorplan
+#- name: upstairs
+#  sidebar_title: Upstairs Floorplan
+#  sidebar_icon: mdi:home
+#  url_path: upstairs
+#  config: !include upstairs_floorplan.yaml
+
+- name: floorplan
+  sidebar_title: Floorplan
   sidebar_icon: mdi:home
-  url_path: upstairs
-  config: !include upstairs_floorplan.yaml
+  url_path: floorplan
+  config: !include floorplan.yaml

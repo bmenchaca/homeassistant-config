@@ -1,3 +1,5 @@
+# This file describes what entities to display on the floorplan, and associates
+# state changes with CSS class changes.
       name: Downstairs
       image: /local/custom_ui/floorplan/downstairs.svg
       stylesheet: /local/custom_ui/floorplan/downstairs.css
@@ -8,57 +10,4 @@
       # hide_app_toolbar:          # hide the application toolbar (when used as a custom panel)
       # date_format: DD-MMM-YYYY   # Date format to use in hover-over text
       
-      #last_motion_entity: sensor.template_last_motion
-      #last_motion_class: last-motion
-
       groups:
-#        - name: Sensors
-#          entities:
-#             -  sensor.dark_sky_temperature
-#          #text_template: '${entity.state ? entity.state : "unknown"}'
-#          # An example of rounding up a number, i.e. a temperature of 90.1 becomes 91
-#          text_template: '${entity.state ? Math.ceil(entity.state) : "undefined"}'  
-#          class_template: '
-#            var temp = parseFloat(entity.state.replace("°", ""));
-#            if (temp < 10)
-#              return "temp-low";
-#            else if (temp < 30)
-#              return "temp-medium";
-#            else
-#              return "temp-high";
-#            '
-
-        - name: Lights
-          entities:
-             - light.guest
-          states:
-            - state: 'on'
-              class: 'light-on'
-            - state: 'off'
-              class: 'light-off'
-          action:
-            domain: homeassistant   # This optional parameter allows you to use other services such as homeassistant.toggle like here.
-            service: toggle
-
-        - name: Switches
-          entities:
-             - switch.guest_hall_lights_switch
-          states:
-            - state: 'on'
-              class: 'doorbell-on'
-            - state: 'off'
-              class: 'doorbell-off'
-
-        - name: Binary Sensors
-          entities:
-            - binary_sensor.master_hall_occupancy
-          states:
-            - state: 'off'
-              class: 'info-background'
-            - state: 'on'
-              class: 'warning-background'
-          state_transitions:
-            - name: On to off
-              from_state: 'on'
-              to_state: 'off'
-              duration: 10
