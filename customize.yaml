@@ -1,3 +1,8 @@
+# HA Floorplan entries
+binary_sensor.floorplan:
+  custom_ui_state_card: state-card-floorplan
+  config: !include config/floorplan.yaml
+
 #  Light Renames
 light.mantle_light:
   friendly_name: "Family Room Mantle Light"

@@ -133,6 +133,10 @@
           False
         {%- endif -%}
 
+# Fake Binary Sensor Targets for HA-Floorplan
+- platform: mqtt
+  state_topic: "dummy/floorplans/floorplan"
+  name: Floorplan
 
         #- platform: template
         #  sensors:
