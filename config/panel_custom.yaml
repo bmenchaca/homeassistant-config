@@ -1,5 +1,11 @@
-- name: floorplan
-  sidebar_title: Floorplan
+- name: downstairs_plan
+  sidebar_title: Downstairs Floorplan
   sidebar_icon: mdi:home
-  url_path: floorplan
-  config: !include floorplan.yaml
+  url_path: downstairs
+  config: !include downstairs_floorplan.yaml
+
+- name: upstairs_plan
+  sidebar_title: Upstairs Floorplan
+  sidebar_icon: mdi:home
+  url_path: upstairs
+  config: !include upstairs_floorplan.yaml
