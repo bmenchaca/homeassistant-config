@@ -16,11 +16,6 @@
 #   - zwave.master_lavatory_light
 #   - zwave.boys_hall_light
 
-zones:
-  name: Zones
-  entities:
-    - binary_sensor.floorplan
-
 packages:
   name: Packages
   entities:
