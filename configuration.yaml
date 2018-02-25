@@ -25,11 +25,10 @@ map:
 updater:
 history:
 logbook:
-frontend:
-  javascript_version: latest
 config:
-cloud: !include config/cloud.yaml
 sun:
+frontend: !include config/frontend.yaml
+cloud: !include config/cloud.yaml
 input_select: !include config/input_select.yaml
 vacuum: !include config/vacuum.yaml
 zwave: !include config/zwave.yaml
