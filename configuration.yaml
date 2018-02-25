@@ -27,6 +27,7 @@ history:
 logbook:
 config:
 sun:
+panel_custom: !include config/panel_custom.yaml
 frontend: !include config/frontend.yaml
 cloud: !include config/cloud.yaml
 input_select: !include config/input_select.yaml
