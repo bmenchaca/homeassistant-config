@@ -1,6 +1,6 @@
       name: Upstairs
       image: /local/custom_ui/floorplan/upstairs.svg
-      stylesheet: /local/custom_ui/floorplan/upstairs.css
+      stylesheet: /local/custom_ui/floorplan/floorplan.css
       
       # These options are optional
       warnings:                  # enable warnings (to find out why things might not be working correctly)
