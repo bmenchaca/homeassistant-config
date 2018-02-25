@@ -16,13 +16,13 @@
 #   - zwave.master_lavatory_light
 #   - zwave.boys_hall_light
 
-packages:
-  name: Packages
-  entities:
-    - sensor.fedex
-    - sensor.ups
-    - sensor.usps_mail
-    - sensor.usps_packages
+#packages:
+#  name: Packages
+#  entities:
+#    - sensor.fedex
+#    - sensor.ups
+#    - sensor.usps_mail
+#    - sensor.usps_packages
 
 susan_garage_door:
   name: Susan Garage
