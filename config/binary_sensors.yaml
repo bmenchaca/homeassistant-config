@@ -1,3 +1,8 @@
+- platform: ring
+  monitored_conditions:
+    - ding
+    - motion
+
 - platform: template
   sensors:
     cpu_overload:

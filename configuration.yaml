@@ -55,5 +55,7 @@ netatmo: !include config/netatmo.yaml
 alarm_control_panel: !include config/alarm_control_panel.yaml
 camera: !include config/camera.yaml
 notify me: !include config/notify.yaml
+ring: !include config/ring.yaml
+
 # Text to Speech
 #tts: !include config/tts.yaml
