@@ -45,9 +45,12 @@
         #    - battery_level
   
 
-#- platform: systemmonitor
-#  resources:
-#    - type: processor_use
+- platform: systemmonitor
+  resources:
+    - type: processor_use
+    - type: memory_free
+    - type: disk_free
+      arg: /
 
 #- platform: usps
 #  username: !secret usps_username
