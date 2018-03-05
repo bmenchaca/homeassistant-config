@@ -4,11 +4,11 @@
   url_path: downstairs
   config: !include downstairs_floorplan.yaml
 
-#- name: upstairs
-#  sidebar_title: Upstairs Floorplan
-#  sidebar_icon: mdi:home
-#  url_path: upstairs
-#  config: !include upstairs_floorplan.yaml
+- name: upstairs
+  sidebar_title: Upstairs Floorplan
+  sidebar_icon: mdi:home
+  url_path: upstairs
+  config: !include upstairs_floorplan.yaml
 
 - name: floorplan
   sidebar_title: Floorplan
