@@ -397,6 +397,6 @@ family_view:
   name: Family
   view: yes
   entities:
-    - device_tracker.ben_iphone
+    - sensor.ben_presence
+    - sensor.susan_presence
     - device_tracker.heidi_android
-    - device_tracker.susan_iphone
