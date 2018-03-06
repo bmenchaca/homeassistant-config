@@ -66,6 +66,28 @@
 
 - platform: template
   sensors:
+    ben_presence:
+      value_template: >-
+        {%- if ((states.input_select.ben_presence_dropdown.state == "Away") or
+                (states.input_select.ben_presence_dropdown.state == "Extended Away")) %}
+          '{{ states.device_tracker.ben_iphone.state }}'
+        {% else %}
+          '{{ states.input_select.ben_presence_dropdown.state }}'
+      friendly_name: Ben Presence
+    susan_presence:
+      value_template: >-
+        {%- if ((states.input_select.susan_presence_dropdown.state == "Away") or
+                (states.input_select.susan_presence_dropdown.state == "Extended Away")) %}
+          '{{ states.device_tracker.susan_iphone.state }}'
+        {% else %}
+          '{{ states.input_select.susan_presence_dropdown.state }}'
+      friendly_name: Susan Presence
+    any_presence:
+      value_template: '{{ states.input_select.any_presence_dropdown.state }}'
+      friendly_name: Family Presence
+
+- platform: template
+  sensors:
     susan_garage_status:
       friendly_name: 'Susan Door Status'
       value_template: >-

@@ -7,9 +7,26 @@ house_mode:
     - Night
     - Naptime
 
-presence:
-  name: Presence
+ben_presence_dropdown:
+  name: Ben Presence
   options:
     - Home
+    - Just Arrived
+    - Just Left
     - Away
-    - Vacation  
+
+susan_presence_dropdown:
+  name: Ben Presence
+  options:
+    - Home
+    - Just Arrived
+    - Just Left
+    - Away
+
+any_presence_dropdown:
+  name: Any Presence
+  options:
+    - Active
+    - Nap
+    - Sleep
+    - Away

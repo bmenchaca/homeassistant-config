@@ -1,3 +1,9 @@
+# Family Pictures
+sensor.ben_presence:
+  entity_picture: /local/ben.png
+sensor.susan_presence:
+  entity_picture: /local/susan.png
+
 #  Light Renames
 light.mantle_light:
   friendly_name: "Family Room Mantle Light"
