@@ -13,8 +13,9 @@ homeassistant:
   customize: !include customize.yaml
   customize_glob: !include config/customize_glob.yaml
 
-# What is this?
-#ios
+# Allow IOS device autodiscovery and location tracking
+ios:
+zeroconf:
 # Show links to resources in log and frontend
 #introduction:
 # Allows you to issue voice commands from the frontend in enabled browsers
@@ -27,6 +28,7 @@ history:
 logbook:
 config:
 sun:
+notify: !include config/notify.yaml
 panel_custom: !include config/panel_custom.yaml
 frontend: !include config/frontend.yaml
 cloud: !include config/cloud.yaml
