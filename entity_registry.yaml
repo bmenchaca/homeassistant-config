@@ -835,3 +835,24 @@ light.office_lights_dimmer_level:
 switch.girls_hall_light_switch:
   platform: zwave
   unique_id: 75-72057595301019648
+sensor.bens_iphone_battery_state:
+  platform: ios
+  unique_id: state_bens_iphone
+sensor.yo_mama_battery_state:
+  platform: ios
+  unique_id: state_Susan-iphone
+sensor.bens_ipad_battery_state:
+  platform: ios
+  unique_id: state_bens_ipad
+sensor.yo_mama_battery_level:
+  platform: ios
+  unique_id: level_Susan-iphone
+sensor.bens_iphone_battery_level:
+  platform: ios
+  unique_id: level_bens_iphone
+sensor.bens_ipad_battery_level:
+  platform: ios
+  unique_id: level_bens_ipad
+light.hue_go_1:
+  platform: hue
+  unique_id: 00:17:88:01:01:18:59:66-0b
