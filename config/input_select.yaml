@@ -14,14 +14,16 @@ ben_presence_dropdown:
     - Just Arrived
     - Just Left
     - Away
+    - Extended Away
 
 susan_presence_dropdown:
-  name: Ben Presence
+  name: Susan Presence
   options:
     - Home
     - Just Arrived
     - Just Left
     - Away
+    - Extended Away
 
 any_presence_dropdown:
   name: Any Presence
@@ -30,3 +32,4 @@ any_presence_dropdown:
     - Nap
     - Sleep
     - Away
+    - Extended Away
