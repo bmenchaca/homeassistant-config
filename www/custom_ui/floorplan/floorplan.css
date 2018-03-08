@@ -3,7 +3,6 @@
 svg, svg * {
   vector-effect: non-scaling-stroke !important;
   pointer-events: all !important;
-}
 
 /* Hover over */
 
@@ -91,7 +90,6 @@ svg, svg * {
 }
 
 /* Light */
-
 .light-off {
   fill: #C3B7F4 !important;
 }
@@ -101,13 +99,20 @@ svg, svg * {
 }
 
 /* Doorbell */
-
 .doorbell-off {
   fill: #C3B7F4 !important;
 }
 
 .doorbell-on {
   fill: #F8D2B9 !important;
+}
+
+/* When a room with an occupancy sensor is not occupied, it's gray */
+.occupancy-off {
+  fill: #999999 !important;
+}
+.occupancy-on {
+  fill: #006633 !important;
 }
 
 /* Temperature sensor */
