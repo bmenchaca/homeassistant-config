@@ -15,10 +15,30 @@
 
         - name: Binary Sensors
           entities:
-             - binary_sensor.guest_occupancy
+            - binary_sensor.guest_occupancy
           states:
             - state: 'on'
               class: 'occupancy-on'
             - state: 'off'
               class: 'occupancy-off'
+          state_transitions:
+            - name: On to Off
+              from_state: 'on'
+              to_state: 'off'
+              duration: 5
+            - name: Off to On
+              from_state: 'off'
+              to_state: 'on'
+              duration: 1
 
+        - name: Fans
+          entities:
+            - switch.guest_fan_and_lights_switch
+          states:
+            - state: 'on'
+              class: 'fan-on'
+            - state: 'off'
+              class: 'fan-off'
+          action:
+            domain: homeassistant
+            service: toggle
