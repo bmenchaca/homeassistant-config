@@ -8,17 +8,17 @@
       # hide_app_toolbar:          # hide the application toolbar (when used as a custom panel)
       # date_format: DD-MMM-YYYY   # Date format to use in hover-over text
       
-      last_motion_entity: sensor.template_last_motion
-      last_motion_class: last-motion
+      # last_motion_entity: sensor.template_last_motion
+      # last_motion_class: last-motion
 
       groups:
 
-        - name: Switches
+        - name: Binary Sensors
           entities:
-             - switch.doorbell
+             - binary_sensor.guest_occupancy
           states:
             - state: 'on'
-              class: 'doorbell-on'
+              class: 'occupancy-on'
             - state: 'off'
-              class: 'doorbell-off'
+              class: 'occupancy-off'
 
