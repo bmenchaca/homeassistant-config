@@ -59,9 +59,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="-255.99452"
-     inkscape:cy="391.67884"
+     inkscape:zoom="1.28"
+     inkscape:cx="708.89477"
+     inkscape:cy="394.47947"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -69,8 +69,8 @@
      scale-x="1"
      inkscape:window-width="2384"
      inkscape:window-height="1228"
-     inkscape:window-x="155"
-     inkscape:window-y="37"
+     inkscape:window-x="69"
+     inkscape:window-y="224"
      inkscape:window-maximized="0"
      inkscape:lockguides="true"
      inkscape:snap-global="false"
@@ -656,5 +656,22 @@
       <title
          id="title129">Guest Closet</title>
     </rect>
+    <path
+       id="switch.guest_fan_and_lights_switch"
+       d="m 811.06852,740.89372 a 1.5177233,1.5000008 0 0 0 -1.51778,1.5 1.5177233,1.5000008 0 0 0 1.51778,1.5 1.5177233,1.5000008 0 0 0 1.51769,-1.5 1.5177233,1.5000008 0 0 0 -1.51769,-1.5 m 0.75882,-13.49999 c 6.82977,0 6.99674,5.35501 3.41486,7.12499 -1.50254,0.735 -2.17028,2.31 -2.45867,3.705 0.72847,0.3 1.36593,0.765 1.85162,1.365 5.61556,-3 11.6561,-1.815 11.6561,3.555 0,6.75 -5.41825,6.90001 -7.20915,3.345 -0.75889,-1.485 -2.36767,-2.145 -3.7792,-2.42999 -0.30348,0.72 -0.774,1.335 -1.3811,1.84499 3.0203,5.535 1.82126,11.49001 -3.61217,11.49001 -6.82978,0 -6.96639,-5.37 -3.3845,-7.14001 1.48735,-0.735 2.15511,-2.295 2.45865,-3.67499 -0.74363,-0.30001 -1.39628,-0.78001 -1.88196,-1.38001 -5.60039,2.97001 -11.61057,1.8 -11.61057,-3.555 0,-6.75 5.40308,-6.915 7.19398,-3.36 0.75889,1.485 2.35248,2.13 3.76402,2.415 0.2883,-0.72 0.77399,-1.35 1.39628,-1.83 -3.0203,-5.53498 -1.82127,-11.47499 3.58181,-11.47499 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1.50883603"
+       inkscape:label="#path7838">
+      <title
+         id="title7849">Guest Fan and Lights</title>
+    </path>
+    <path
+       id="switch.guest_hall_lights_switch"
+       d="m 756.25005,596.33124 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path8704">
+      <title
+         id="title8715">Guest Hall Lights</title>
+    </path>
   </g>
 </svg>

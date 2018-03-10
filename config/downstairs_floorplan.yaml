@@ -42,3 +42,15 @@
           action:
             domain: homeassistant
             service: toggle
+
+        - name: Lights
+          entities:
+            - switch.guest_hall_lights_switch
+          states:
+            - state: 'on'
+              class: 'light-on'
+            - state: 'off'
+              class: 'light-off'
+          action:
+            domain: homeassistant
+            service: toggle

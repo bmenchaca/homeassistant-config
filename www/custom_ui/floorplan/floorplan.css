@@ -115,6 +115,14 @@ svg, svg * {
   fill: #006633 !important;
 }
 
+/* Fans */
+.fan-off {
+  fill: #999999 !important;
+}
+.fan-on {
+  fill: #006633 !important;
+}
+
 /* Temperature sensor */
 
 .temp-very-low-background {
