@@ -59,6 +59,7 @@ notify: !include config/notify.yaml
 ring: !include config/ring.yaml
 downloader: !include config/downloader.yaml
 vera: !include config/vera.yaml
+abode: !include config/abode.yaml
 
 # Text to Speech
 #tts: !include config/tts.yaml
