@@ -736,18 +736,6 @@ sensor.boys_hall_light_alarm_level:
 sensor.boys_hall_light_sourcenodeid:
   platform: zwave
   unique_id: 73-144115189306638369
-sensor.office_lights_dimmer_alarm_type:
-  platform: zwave
-  unique_id: 74-144115189323415553
-sensor.office_lights_dimmer_alarm_level:
-  platform: zwave
-  unique_id: 74-144115189323415569
-sensor.office_lights_dimmer_sourcenodeid:
-  platform: zwave
-  unique_id: 74-144115189323415585
-sensor.office_lights_dimmer_burglar:
-  platform: zwave
-  unique_id: 74-144115189323415713
 binary_sensor.master_closet_door_sensor:
   platform: zwave
   unique_id: 78-72057595351531520
@@ -811,27 +799,9 @@ sensor.boys_hall_light_sourcenodeid_2:
 sensor.boys_hall_light_burglar_2:
   platform: zwave
   unique_id: 73-144115189306638497
-light.office_lights_dimmer_level_2:
-  platform: zwave
-  unique_id: 74-72057595284258817
-sensor.office_lights_dimmer_alarm_type_2:
-  platform: zwave
-  unique_id: 74-72057595285487617
-sensor.office_lights_dimmer_alarm_level_2:
-  platform: zwave
-  unique_id: 74-72057595285487633
-sensor.office_lights_dimmer_sourcenodeid_2:
-  platform: zwave
-  unique_id: 74-72057595285487649
-sensor.office_lights_dimmer_burglar_2:
-  platform: zwave
-  unique_id: 74-72057595285487777
 switch.boys_bathroom_light_switch_2:
   platform: zwave
   unique_id: 79-72057595368128512
-light.office_lights_dimmer_level:
-  platform: zwave
-  unique_id: 74-144115189322186753
 switch.girls_hall_light_switch:
   platform: zwave
   unique_id: 75-72057595301019648
@@ -856,3 +826,33 @@ sensor.bens_ipad_battery_level:
 light.hue_go_1:
   platform: hue
   unique_id: 00:17:88:01:01:18:59:66-0b
+light.office_lights_dimmer_level:
+  platform: zwave
+  unique_id: 80-72057595384922113
+light.office_lights_dimmer_level_2:
+  platform: zwave
+  unique_id: 80-144115189422850049
+sensor.office_lights_dimmer_alarm_type:
+  platform: zwave
+  unique_id: 80-72057595386150913
+sensor.office_lights_dimmer_alarm_level:
+  platform: zwave
+  unique_id: 80-72057595386150929
+sensor.office_lights_dimmer_alarm_type_2:
+  platform: zwave
+  unique_id: 80-144115189424078849
+sensor.office_lights_dimmer_alarm_level_2:
+  platform: zwave
+  unique_id: 80-144115189424078865
+sensor.office_lights_dimmer_sourcenodeid:
+  platform: zwave
+  unique_id: 80-72057595386150945
+sensor.office_lights_dimmer_burglar:
+  platform: zwave
+  unique_id: 80-72057595386151073
+sensor.office_lights_dimmer_sourcenodeid_2:
+  platform: zwave
+  unique_id: 80-144115189424078881
+sensor.office_lights_dimmer_burglar_2:
+  platform: zwave
+  unique_id: 80-144115189424079009
