@@ -14,8 +14,8 @@
    viewBox="0 0 1024 768"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
-   sodipodi:docname="downstairs-walls.svg">
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   sodipodi:docname="downstairs.svg">
   <defs
      id="defs2">
     <inkscape:path-effect
@@ -59,18 +59,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.28"
-     inkscape:cx="708.89477"
-     inkscape:cy="394.47947"
+     inkscape:zoom="3.6203867"
+     inkscape:cx="797.60559"
+     inkscape:cy="29.88561"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      scale-x="1"
-     inkscape:window-width="2384"
-     inkscape:window-height="1228"
-     inkscape:window-x="69"
-     inkscape:window-y="224"
+     inkscape:window-width="2741"
+     inkscape:window-height="2071"
+     inkscape:window-x="2870"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:lockguides="true"
      inkscape:snap-global="false"
@@ -83,7 +83,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -202,12 +202,11 @@
        y="574.07214" />
     <path
        style="opacity:0.2;stroke:#000000;stroke-width:1.28972507;stroke-opacity:1"
-       d="M 735.92383 547.91602 L 735.92383 728.05859 L 884.66016 728.05859 L 884.66016 576.98242 L 777.01367 576.98242 L 777.01367 547.91602 L 735.92383 547.91602 z "
+       d="M 735.92383 547.91602 L 735.92383 728.05859 L 884.66016 728.05859 L 884.66016 576.98242 L 777.01367 576.98242 L 777.01367 547.91602 L 735.92383 547.91602 z M 773.57617 728.67383 L 785.58984 740.68945 L 797.60156 752.70508 L 810.86133 752.69336 L 824.12109 752.68164 L 832.68359 743.69336 C 837.39303 738.7501 842.53004 733.34826 844.09961 731.68945 L 846.95312 728.67383 L 810.26562 728.67383 L 773.57617 728.67383 z "
        transform="translate(0,93.799984)"
-       id="binary_sensor.guest_occupancy"
-       inkscape:label="#rect4713">
+       id="binary_sensor.guest_occupancy">
       <title
-         id="title125">Guest Room Occupancy</title>
+         id="title3996">Guest Room Occupancy</title>
     </path>
     <rect
        style="opacity:0.2;stroke:#000000;stroke-width:1.55267107;stroke-opacity:1"
@@ -262,24 +261,19 @@
        id="path5926"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 680.49998,687.29998 v -26.49999 0"
+       style="fill:none;stroke:#000000;stroke-width:2.02926707;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 680.49998,688.08123 v -27.28124 0"
        id="path5928"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 680.24998,660.54999 h 17"
+       style="fill:none;stroke:#000000;stroke-width:2.04543948;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 679.46873,660.54999 h 17.78125"
        id="path5930"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 718.49998,660.79999 v 0 0 h 16.75 l 0,161.75"
+       style="fill:none;stroke:#000000;stroke-width:1.97893965;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 718.50506,660.79487 v 0 0 h 16.39432 v 161.79715"
        id="path5932"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 735.24998,822.29998 h 150"
-       id="path5934"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:1.8540957;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -292,8 +286,8 @@
        id="path5951"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 777.49998,669.79998 h 23.75"
+       style="fill:none;stroke:#000000;stroke-width:2.02045465;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 777.0117,669.79998 h 24.23828"
        id="path5953"
        inkscape:connector-curvature="0" />
     <path
@@ -302,8 +296,8 @@
        id="path5955"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 885.35354,669.54993 0.24998,153.38399"
+       style="fill:none;stroke:#000000;stroke-width:1.90697968;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 885.26693,669.54815 0.22789,152.97323"
        id="path5957"
        inkscape:connector-curvature="0" />
     <path
@@ -658,9 +652,9 @@
     </rect>
     <path
        id="switch.guest_fan_and_lights_switch"
-       d="m 811.06852,740.89372 a 1.5177233,1.5000008 0 0 0 -1.51778,1.5 1.5177233,1.5000008 0 0 0 1.51778,1.5 1.5177233,1.5000008 0 0 0 1.51769,-1.5 1.5177233,1.5000008 0 0 0 -1.51769,-1.5 m 0.75882,-13.49999 c 6.82977,0 6.99674,5.35501 3.41486,7.12499 -1.50254,0.735 -2.17028,2.31 -2.45867,3.705 0.72847,0.3 1.36593,0.765 1.85162,1.365 5.61556,-3 11.6561,-1.815 11.6561,3.555 0,6.75 -5.41825,6.90001 -7.20915,3.345 -0.75889,-1.485 -2.36767,-2.145 -3.7792,-2.42999 -0.30348,0.72 -0.774,1.335 -1.3811,1.84499 3.0203,5.535 1.82126,11.49001 -3.61217,11.49001 -6.82978,0 -6.96639,-5.37 -3.3845,-7.14001 1.48735,-0.735 2.15511,-2.295 2.45865,-3.67499 -0.74363,-0.30001 -1.39628,-0.78001 -1.88196,-1.38001 -5.60039,2.97001 -11.61057,1.8 -11.61057,-3.555 0,-6.75 5.40308,-6.915 7.19398,-3.36 0.75889,1.485 2.35248,2.13 3.76402,2.415 0.2883,-0.72 0.77399,-1.35 1.39628,-1.83 -3.0203,-5.53498 -1.82127,-11.47499 3.58181,-11.47499 z"
+       d="m 809.71814,740.01265 a 1.9970043,2.0000011 0 0 0 -1.99708,2 1.9970043,2.0000011 0 0 0 1.99708,2 1.9970043,2.0000011 0 0 0 1.99696,-2 1.9970043,2.0000011 0 0 0 -1.99696,-2 m 0.99845,-17.99999 c 8.98654,0 9.20624,7.14001 4.49324,9.49999 -1.97703,0.98 -2.85564,3.08 -3.2351,4.94 0.95852,0.4 1.79728,1.02 2.43635,1.82 7.38889,-4 15.33697,-2.42 15.33697,4.74 0,9 -7.12928,9.20001 -9.48572,4.46 -0.99854,-1.98 -3.11536,-2.86 -4.97264,-3.23999 -0.39931,0.96 -1.01842,1.78 -1.81723,2.45999 3.97408,7.38 2.39639,15.32001 -4.75286,15.32001 -8.98655,0 -9.1663,-7.16 -4.45329,-9.52001 1.95704,-0.98 2.83567,-3.06 3.23507,-4.89999 -0.97846,-0.40001 -1.83721,-1.04001 -2.47626,-1.84001 -7.36894,3.96001 -15.27707,2.4 -15.27707,-4.74 0,-9 7.10932,-9.22 9.46576,-4.48 0.99854,1.98 3.09537,2.84 4.95266,3.22 0.37934,-0.96 1.01841,-1.8 1.83721,-2.44 -3.97408,-7.37998 -2.39641,-15.29999 4.71291,-15.29999 z"
        inkscape:connector-curvature="0"
-       style="stroke-width:1.50883603"
+       style="stroke-width:1.99850214"
        inkscape:label="#path7838">
       <title
          id="title7849">Guest Fan and Lights</title>
@@ -673,5 +667,42 @@
       <title
          id="title8715">Guest Hall Lights</title>
     </path>
+    <rect
+       id="rect3954"
+       width="37.5"
+       height="2"
+       x="733.92719"
+       y="820.58905"
+       style="stroke-width:0.98558784" />
+    <rect
+       id="rect3954-9"
+       width="37.5"
+       height="2"
+       x="849.04401"
+       y="820.54187"
+       style="stroke-width:0.98558784" />
+    <rect
+       id="rect3954-7"
+       width="28.454004"
+       height="2"
+       x="796.54321"
+       y="846.57501"
+       style="stroke-width:0.85852194" />
+    <rect
+       id="rect3954-95"
+       width="37.5"
+       height="2"
+       x="1125.7837"
+       y="33.994026"
+       style="stroke-width:0.98558784"
+       transform="rotate(45.039515)" />
+    <rect
+       id="rect3954-1"
+       width="36.841797"
+       height="1.9640813"
+       x="-28.816662"
+       y="1180.8165"
+       style="stroke-width:0.96808797"
+       transform="matrix(0.69080185,-0.72304412,0.71432957,0.69980945,0,0)" />
   </g>
 </svg>
