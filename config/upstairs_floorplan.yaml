@@ -12,20 +12,14 @@
       last_motion_class: last-motion
 
       groups:
+        
+      groups:
 
-        - name: Lights
+        - name: Binary Sensors
           entities:
-             - light.hallway
-             - light.living_room
-             - light.patio
-             - group.kitchen_lights
-             - group.living_room_lights
+            - binary_sensor.office_occupancy
           states:
             - state: 'on'
-              class: 'light-on'
+              class: 'occupancy-on'
             - state: 'off'
-              class: 'light-off'
-          action:
-            domain: homeassistant   # This optional parameter allows you to use other services such as homeassistant.toggle like here.
-            service: toggle
-
+              class: 'occupancy-off'
