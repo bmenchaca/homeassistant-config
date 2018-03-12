@@ -1,10 +1,3 @@
-/* SVG shapes */
-
-svg, svg * {
-  vector-effect: non-scaling-stroke !important;
-  pointer-events: all !important;
-}
-
 /* Hover over */
 
 .entity:hover {
@@ -108,22 +101,6 @@ svg, svg * {
   fill: #F8D2B9 !important;
 }
 
-/* When a room with an occupancy sensor is not occupied, it's gray */
-.occupancy-off {
-  fill: #999999 !important;
-}
-.occupancy-on {
-  fill: #006633 !important;
-}
-
-/* Fans */
-.fan-off {
-  fill: #999999 !important;
-}
-.fan-on {
-  fill: #006633 !important;
-}
-
 /* Temperature sensor */
 
 .temp-very-low-background {
@@ -155,3 +132,44 @@ svg, svg * {
 .squeezebox-on {
   fill: #2baaa6 !important;
 }
+
+/*******************/
+/* Ben's Additions */
+/*******************/
+
+/* When a room with an occupancy sensor is not occupied, it's gray */
+.occupancy-off {
+  fill: #999999 !important;
+}
+.occupancy-on {
+  fill: #006633 !important;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+#switch\.guest_fan_and_lights_switch {
+  transform-origin: center;
+}
+
+.fan-on {
+  fill: #ff8a65 !important;
+  /*-webkit-animation: rotation 2s infinite linear; */
+}
+
+.fan-off {
+  fill: #424242 !important;
+}
+
+/* SVG shapes */
+svg, svg * {
+  vector-effect: non-scaling-stroke !important;
+  pointer-events: all !important;
+}
+
