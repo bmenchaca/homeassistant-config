@@ -154,13 +154,11 @@
   }
 }
 
-#switch\.guest_fan_and_lights_switch {
-  transform-origin: center;
-}
-
 .fan-on {
   fill: #ff8a65 !important;
-  /*-webkit-animation: rotation 2s infinite linear; */
+  transform-box: fill-box;
+  transform-origin: center;
+  -webkit-animation: rotation 2s infinite linear;
 }
 
 .fan-off {
