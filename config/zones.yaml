@@ -4,6 +4,7 @@
   longitude: !secret zone_1_longitude
   radius: !secret zone_1_radius
   icon: !secret zone_1_icon
+  passive: !secret zone_1_passive
 
 - zone 2:
   name: !secret zone_2_name
@@ -11,6 +12,7 @@
   longitude: !secret zone_2_longitude
   radius: !secret zone_2_radius
   icon: !secret zone_2_icon
+  passive: !secret zone_2_passive
 
 - zone 3:
   name: !secret zone_3_name
@@ -18,6 +20,7 @@
   longitude: !secret zone_3_longitude
   radius: !secret zone_3_radius
   icon: !secret zone_3_icon
+  passive: !secret zone_3_passive
 
 - zone 4:
   name: !secret zone_4_name
@@ -25,6 +28,7 @@
   longitude: !secret zone_4_longitude
   radius: !secret zone_4_radius
   icon: !secret zone_4_icon
+  passive: !secret zone_4_passive
 
 - zone 5:
   name: !secret zone_5_name
@@ -32,6 +36,7 @@
   longitude: !secret zone_5_longitude
   radius: !secret zone_5_radius
   icon: !secret zone_5_icon
+  passive: !secret zone_5_passive
 
 - zone 6:
   name: !secret zone_6_name
@@ -39,6 +44,7 @@
   longitude: !secret zone_6_longitude
   radius: !secret zone_6_radius
   icon: !secret zone_6_icon
+  passive: !secret zone_6_passive
 
 - zone 7:
   name: !secret zone_7_name
@@ -46,6 +52,7 @@
   longitude: !secret zone_7_longitude
   radius: !secret zone_7_radius
   icon: !secret zone_7_icon
+  passive: !secret zone_7_passive
 
 - zone 8:
   name: !secret zone_8_name
@@ -53,6 +60,7 @@
   longitude: !secret zone_8_longitude
   radius: !secret zone_8_radius
   icon: !secret zone_8_icon
+  passive: !secret zone_8_passive
 
 - zone 9:
   name: !secret zone_9_name
@@ -60,6 +68,7 @@
   longitude: !secret zone_9_longitude
   radius: !secret zone_9_radius
   icon: !secret zone_9_icon
+  passive: !secret zone_9_passive
 
 - zone 10:
   name: !secret zone_10_name
@@ -67,6 +76,7 @@
   longitude: !secret zone_10_longitude
   radius: !secret zone_10_radius
   icon: !secret zone_10_icon
+  passive: !secret zone_10_passive
 
 - zone 11:
   name: !secret zone_11_name
@@ -74,6 +84,7 @@
   longitude: !secret zone_11_longitude
   radius: !secret zone_11_radius
   icon: !secret zone_11_icon
+  passive: !secret zone_11_passive
 
 - zone 12:
   name: !secret zone_12_name
@@ -81,6 +92,7 @@
   longitude: !secret zone_12_longitude
   radius: !secret zone_12_radius
   icon: !secret zone_12_icon
+  passive: !secret zone_12_passive
 
 - zone 13:
   name: !secret zone_13_name
@@ -88,6 +100,7 @@
   longitude: !secret zone_13_longitude
   radius: !secret zone_13_radius
   icon: !secret zone_13_icon
+  passive: !secret zone_13_passive
 
 - zone 14:
   name: !secret zone_14_name
@@ -95,3 +108,4 @@
   longitude: !secret zone_14_longitude
   radius: !secret zone_14_radius
   icon: !secret zone_14_icon
+  passive: !secret zone_14_passive
