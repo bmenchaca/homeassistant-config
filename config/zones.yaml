@@ -86,34 +86,34 @@
   icon: !secret zone_10_icon
   passive: !secret zone_10_passive
 
-- zone 11:
-  name: !secret zone_11_name
-  latitude: !secret zone_11_latitude
-  longitude: !secret zone_11_longitude
-  radius: !secret zone_11_radius
-  icon: !secret zone_11_icon
-  passive: !secret zone_11_passive
+#- zone 11:
+#  name: !secret zone_11_name
+#  latitude: !secret zone_11_latitude
+#  longitude: !secret zone_11_longitude
+#  radius: !secret zone_11_radius
+#  icon: !secret zone_11_icon
+#  passive: !secret zone_11_passive
 
-- zone 12:
-  name: !secret zone_12_name
-  latitude: !secret zone_12_latitude
-  longitude: !secret zone_12_longitude
-  radius: !secret zone_12_radius
-  icon: !secret zone_12_icon
-  passive: !secret zone_12_passive
+#- zone 12:
+#  name: !secret zone_12_name
+#  latitude: !secret zone_12_latitude
+#  longitude: !secret zone_12_longitude
+#  radius: !secret zone_12_radius
+#  icon: !secret zone_12_icon
+#  passive: !secret zone_12_passive
 
-- zone 13:
-  name: !secret zone_13_name
-  latitude: !secret zone_13_latitude
-  longitude: !secret zone_13_longitude
-  radius: !secret zone_13_radius
-  icon: !secret zone_13_icon
-  passive: !secret zone_13_passive
+#- zone 13:
+#  name: !secret zone_13_name
+#  latitude: !secret zone_13_latitude
+#  longitude: !secret zone_13_longitude
+#  radius: !secret zone_13_radius
+#  icon: !secret zone_13_icon
+#  passive: !secret zone_13_passive
 
-- zone 14:
-  name: !secret zone_14_name
-  latitude: !secret zone_14_latitude
-  longitude: !secret zone_14_longitude
-  radius: !secret zone_14_radius
-  icon: !secret zone_14_icon
-  passive: !secret zone_14_passive
+#- zone 14:
+#  name: !secret zone_14_name
+#  latitude: !secret zone_14_latitude
+#  longitude: !secret zone_14_longitude
+#  radius: !secret zone_14_radius
+#  icon: !secret zone_14_icon
+#  passive: !secret zone_14_passive
