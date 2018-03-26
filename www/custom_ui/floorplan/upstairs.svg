@@ -47,17 +47,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="627.27092"
-     inkscape:cy="379.12475"
+     inkscape:cx="620.90696"
+     inkscape:cy="374.175"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      scale-x="1"
-     inkscape:window-width="1258"
-     inkscape:window-height="1196"
-     inkscape:window-x="1121"
-     inkscape:window-y="11"
+     inkscape:window-width="1624"
+     inkscape:window-height="1425"
+     inkscape:window-x="3137"
+     inkscape:window-y="4"
      inkscape:window-maximized="0"
      inkscape:lockguides="true"
      inkscape:snap-global="false" />
@@ -591,19 +591,35 @@
        style="stroke-width:2"
        inkscape:connector-curvature="0"
        d="m 650.98497,272.30001 a 2,2 0 0 0 -2,2 2,2 0 0 0 2,2 2,2 0 0 0 2,-2 2,2 0 0 0 -2,-2 m 1,-18 c 9,0 9.22,7.14 4.5,9.5 -1.98,0.98 -2.86,3.08 -3.24,4.94 0.96,0.4 1.8,1.02 2.44,1.82 7.4,-4 15.36,-2.42 15.36,4.74 0,9 -7.14,9.2 -9.5,4.46 -1,-1.98 -3.12,-2.86 -4.98,-3.24 -0.4,0.96 -1.02,1.78 -1.82,2.46 3.98,7.38 2.4,15.32 -4.76,15.32 -9,0 -9.18,-7.16 -4.46,-9.52 1.96,-0.98 2.84,-3.06 3.24,-4.9 -0.98,-0.4 -1.84,-1.04 -2.48,-1.84 -7.38,3.96 -15.3,2.4 -15.3,-4.74 0,-9 7.12,-9.22 9.48,-4.48 1,1.98 3.1,2.84 4.96,3.22 0.38,-0.96 1.02,-1.8 1.84,-2.44 -3.98,-7.38 -2.4,-15.3 4.72,-15.3 z"
-       id="path4077" />
+       id="switch.game_room_fan_switch"
+       inkscape:label="#path4077">
+      <title
+         id="title498">Game Room Fan</title>
+    </path>
     <path
-       id="path4083"
+       id="switch.boys_bathroom_lights_switch"
        d="m 428.54056,424.65282 a 7,7 0 0 0 -7,7 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-7 m -3,19 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:label="#path4083">
+      <title
+         id="title435">Boy's Bathroom Lights Switch</title>
+    </path>
     <path
        inkscape:connector-curvature="0"
        d="m 495.7157,448.69445 a 7,7 0 0 0 -7,7 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-7 m -3,19 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       id="path4085" />
+       id="switch.boys_hall_light_switch"
+       inkscape:label="#path4085">
+      <title
+         id="title437">Boy's Hall Light Switch</title>
+    </path>
     <path
-       id="path4087"
+       id="switch.gallery_hall_lights_switch"
        d="m 635.72284,414.04622 a 7,7 0 0 0 -7,7 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-7 m -3,19 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:label="#path4087">
+      <title
+         id="title496">Gallery Hall Lights</title>
+    </path>
     <path
        inkscape:connector-curvature="0"
        d="m 635.72284,484.04979 a 7,7 0 0 0 -7,7 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-7 m -3,19 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"

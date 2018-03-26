@@ -59,18 +59,18 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.5600001"
-     inkscape:cx="582.24113"
-     inkscape:cy="343.98444"
+     inkscape:zoom="1.2800001"
+     inkscape:cx="490.00759"
+     inkscape:cy="268.43674"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      scale-x="1"
-     inkscape:window-width="1116"
-     inkscape:window-height="1201"
-     inkscape:window-x="3"
-     inkscape:window-y="-1"
+     inkscape:window-width="1491"
+     inkscape:window-height="1439"
+     inkscape:window-x="4661"
+     inkscape:window-y="1"
      inkscape:window-maximized="0"
      inkscape:lockguides="true"
      inkscape:snap-global="false"
@@ -711,9 +711,9 @@
        inkscape:label="#path8704"
        inkscape:connector-curvature="0"
        d="m 706.43108,596.49305 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       id="path137">
+       id="switch.entry_light_switch">
       <title
-         id="title135">Guest Hall Lights</title>
+         id="title135">Entry Light Switch</title>
     </path>
     <path
        id="path141"
@@ -727,9 +727,9 @@
        inkscape:label="#path8704"
        inkscape:connector-curvature="0"
        d="m 808.12763,475.7933 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       id="path145">
+       id="switch.dining_room_lights_switch">
       <title
-         id="title143">Guest Hall Lights</title>
+         id="title143">Dining Room Lights Switch</title>
     </path>
     <path
        id="path149"
@@ -743,9 +743,9 @@
        inkscape:label="#path8704"
        inkscape:connector-curvature="0"
        d="m 551.52522,366.13651 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       id="path153">
+       id="switch.family_room_mantle_light_switch">
       <title
-         id="title151">Guest Hall Lights</title>
+         id="title151">Family Room Mantle Light</title>
     </path>
     <path
        id="path157"
@@ -756,8 +756,11 @@
          id="title155">Guest Hall Lights</title>
     </path>
     <g
-       id="g163"
-       transform="translate(-179.26262,-462.38153)">
+       id="switch.family_room_fan_switch"
+       transform="translate(-179.26262,-462.38153)"
+       inkscape:label="#g163">
+      <title
+         id="title494">Family Room Fan</title>
       <path
          id="path161"
          d="m 809.71814,740.01265 a 1.9970043,2.0000011 0 0 0 -1.99708,2 1.9970043,2.0000011 0 0 0 1.99708,2 1.9970043,2.0000011 0 0 0 1.99696,-2 1.9970043,2.0000011 0 0 0 -1.99696,-2 m 0.99845,-17.99999 c 8.98654,0 9.20624,7.14001 4.49324,9.49999 -1.97703,0.98 -2.85564,3.08 -3.2351,4.94 0.95852,0.4 1.79728,1.02 2.43635,1.82 7.38889,-4 15.33697,-2.42 15.33697,4.74 0,9 -7.12928,9.20001 -9.48572,4.46 -0.99854,-1.98 -3.11536,-2.86 -4.97264,-3.23999 -0.39931,0.96 -1.01842,1.78 -1.81723,2.45999 3.97408,7.38 2.39639,15.32001 -4.75286,15.32001 -8.98655,0 -9.1663,-7.16 -4.45329,-9.52001 1.95704,-0.98 2.83567,-3.06 3.23507,-4.89999 -0.97846,-0.40001 -1.83721,-1.04001 -2.47626,-1.84001 -7.36894,3.96001 -15.27707,2.4 -15.27707,-4.74 0,-9 7.10932,-9.22 9.46576,-4.48 0.99854,1.98 3.09537,2.84 4.95266,3.22 0.37934,-0.96 1.01841,-1.8 1.83721,-2.44 -3.97408,-7.37998 -2.39641,-15.29999 4.71291,-15.29999 z"
@@ -788,9 +791,9 @@
        inkscape:label="#path8704"
        inkscape:connector-curvature="0"
        d="m 802.32716,130.52632 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       id="path175">
+       id="switch.breakfast_lights_switch">
       <title
-         id="title173">Guest Hall Lights</title>
+         id="title173">Breakfast Lights Switch</title>
     </path>
     <path
        inkscape:label="#path8704"
@@ -861,34 +864,21 @@
       <title
          id="title207">Guest Hall Lights</title>
     </path>
-    <g
-       id="g215"
-       transform="translate(-483.9927,-253.01163)">
-      <path
-         id="path213"
-         d="m 809.71814,740.01265 a 1.9970043,2.0000011 0 0 0 -1.99708,2 1.9970043,2.0000011 0 0 0 1.99708,2 1.9970043,2.0000011 0 0 0 1.99696,-2 1.9970043,2.0000011 0 0 0 -1.99696,-2 m 0.99845,-17.99999 c 8.98654,0 9.20624,7.14001 4.49324,9.49999 -1.97703,0.98 -2.85564,3.08 -3.2351,4.94 0.95852,0.4 1.79728,1.02 2.43635,1.82 7.38889,-4 15.33697,-2.42 15.33697,4.74 0,9 -7.12928,9.20001 -9.48572,4.46 -0.99854,-1.98 -3.11536,-2.86 -4.97264,-3.23999 -0.39931,0.96 -1.01842,1.78 -1.81723,2.45999 3.97408,7.38 2.39639,15.32001 -4.75286,15.32001 -8.98655,0 -9.1663,-7.16 -4.45329,-9.52001 1.95704,-0.98 2.83567,-3.06 3.23507,-4.89999 -0.97846,-0.40001 -1.83721,-1.04001 -2.47626,-1.84001 -7.36894,3.96001 -15.27707,2.4 -15.27707,-4.74 0,-9 7.10932,-9.22 9.46576,-4.48 0.99854,1.98 3.09537,2.84 4.95266,3.22 0.37934,-0.96 1.01841,-1.8 1.83721,-2.44 -3.97408,-7.37998 -2.39641,-15.29999 4.71291,-15.29999 z"
-         inkscape:connector-curvature="0"
-         style="stroke-width:1.99850214"
-         inkscape:label="#path7838">
-        <title
-           id="title211">Guest Fan and Lights</title>
-      </path>
-    </g>
     <path
        inkscape:label="#path8704"
        inkscape:connector-curvature="0"
        d="m 284.97911,678.81029 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       id="path219">
+       id="switch.garage_lights_switch">
       <title
-         id="title217">Guest Hall Lights</title>
+         id="title217">Garage Lights</title>
     </path>
     <path
-       id="path223"
+       id="switch.front_porch_lights_switch"
        d="m 594.33832,716.92776 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
        inkscape:connector-curvature="0"
        inkscape:label="#path8704">
       <title
-         id="title221">Guest Hall Lights</title>
+         id="title221">Front Porch Lights</title>
     </path>
     <g
        id="g332"
@@ -904,8 +894,11 @@
       </path>
     </g>
     <g
-       transform="translate(-483.9927,-253.01163)"
-       id="g4029">
+       transform="translate(-498.0552,-259.26163)"
+       id="switch.craft_room_fan_switch"
+       inkscape:label="#g4029">
+      <title
+         id="title439">Craft Room Fan Switch</title>
       <path
          inkscape:label="#path7838"
          style="stroke-width:1.99850214"
@@ -923,6 +916,41 @@
        id="path4081">
       <title
          id="title4079">Guest Hall Lights</title>
+    </path>
+    <path
+       id="path443"
+       d="m 342.65781,435.24658 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path8704">
+      <title
+         id="title441">Guest Hall Lights</title>
+    </path>
+    <path
+       inkscape:label="#path8704"
+       inkscape:connector-curvature="0"
+       d="m 380.15781,495.40283 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
+       id="switch.craft_room_sewing_lamp_switch"
+       inkscape:transform-center-x="50.781248"
+       inkscape:transform-center-y="-46.874998">
+      <title
+         id="title445">Guest Hall Lights</title>
+    </path>
+    <path
+       id="switch.entry_christmas_tree_outlet_switch"
+       d="m 521.09026,612.98748 v -3.65104 h -8.21528 l 5.86805,-6.08507 h -3.52082 l 5.86805,-6.08507 h -3.52084 l 5.86806,-6.08506 5.86806,6.08506 h -3.52084 l 5.86806,6.08507 h -3.52083 l 5.86805,6.08507 h -8.21528 v 3.65104 z"
+       inkscape:connector-curvature="0"
+       style="stroke-width:1.19511557"
+       inkscape:label="#path477">
+      <title
+         id="title488">Christmas Tree Outlet Switch</title>
+    </path>
+    <path
+       id="switch.garage_outdoor_lights_switch"
+       d="m 485.76035,793.65404 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path8704">
+      <title
+         id="title500">Garage Outdoor Lights</title>
     </path>
   </g>
 </svg>
