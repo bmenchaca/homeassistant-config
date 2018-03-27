@@ -85,11 +85,11 @@
 
 /* Light */
 .light-off {
-  fill: #C3B7F4 !important;
+  fill: #FFFFFF !important;
 }
 
 .light-on {
-  fill: #F8D2B9 !important;
+  fill: #FFCC33 !important;
 }
 
 /* Doorbell */
@@ -155,14 +155,14 @@
 }
 
 .fan-on {
-  fill: #ff8a65 !important;
+  fill: #ffcc33 !important;
   transform-box: fill-box;
   transform-origin: center;
   -webkit-animation: rotation 2s infinite linear;
 }
 
 .fan-off {
-  fill: #424242 !important;
+  fill: #FFFFFF !important;
 }
 
 /* SVG shapes */
