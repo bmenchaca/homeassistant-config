@@ -145,6 +145,24 @@
   fill: #006633 !important;
 }
 
+/*
+ * Make things disappear/appear based on sensor readings.
+ */
+.existant {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.non-existant {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.unknown-existance {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
 @keyframes rotation {
   from {
     transform: rotate(0deg);
