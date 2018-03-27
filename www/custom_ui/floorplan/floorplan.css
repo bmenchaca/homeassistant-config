@@ -85,7 +85,7 @@
 
 /* Light */
 .light-off {
-  fill: #FFFFFF !important;
+  fill: #000000 !important;
 }
 
 .light-on {
@@ -162,7 +162,7 @@
 }
 
 .fan-off {
-  fill: #FFFFFF !important;
+  fill: #000000 !important;
 }
 
 /* SVG shapes */
