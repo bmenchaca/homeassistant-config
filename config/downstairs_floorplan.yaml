@@ -47,7 +47,11 @@
 
         - name: Light Switches
           entities:
+            - light.family_room_fan_lights_level
             - light.master_bath_vanity_lights_dimmer_level
+            - light.master_fan_lights_dimmer_level
+            - switch.back_porch_light_switch
+            - switch.breakfast_lights_switch
             - switch.craft_room_sewing_lamp_switch
             - switch.dining_room_lights_switch
             - switch.entry_christmas_tree_outlet_switch
@@ -58,18 +62,15 @@
             - switch.garage_outdoor_lights_switch
             - switch.guest_hall_lights_switch
             - switch.guest_bathroom_lights_switch
-            - switch.master_lavatory_light_switch
-            - switch.master_bath_tub_light_switch
-            - switch.master_closet_light_switch
-            - light.master_fan_lights_dimmer_level
-            - switch.back_porch_light_switch
-            - switch.breakfast_lights_switch
             - switch.kitchen_lights_switch
-            - switch.pantry_lights_switch
-            - switch.master_hall_lights_switch
-            - switch.stairs_light_switch
             - switch.laundry_room_closet_lights_switch
             - switch.laundry_room_lights_switch
+            - switch.master_bath_tub_light_switch
+            - switch.master_closet_light_switch
+            - switch.master_hall_lights_switch
+            - switch.master_lavatory_light_switch
+            - switch.pantry_lights_switch
+            - switch.stairs_light_switch
 
           states:
             - state: 'on'
