@@ -31,6 +31,18 @@
               to_state: 'on'
               duration: 1
 
+        - name: Existance Sensors
+          entities:
+            - sensor.susan_garage_car_present
+            - sensor.ben_garage_car_present
+          states:
+            - state: 'Yes'
+              class: 'existant'
+            - state: 'No'
+              class: 'non-existant'
+            - state: 'n/a'
+              class: 'unknown-existance'
+
         - name: Fans
           entities:
             - switch.guest_fan_and_lights_switch
