@@ -14,7 +14,7 @@
    viewBox="0 0 1024 768"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
    sodipodi:docname="upstairs.svg">
   <defs
      id="defs2">
@@ -47,17 +47,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="620.90696"
-     inkscape:cy="374.175"
+     inkscape:cx="732.98338"
+     inkscape:cy="289.32219"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      scale-x="1"
      inkscape:window-width="1624"
-     inkscape:window-height="1425"
-     inkscape:window-x="3137"
-     inkscape:window-y="4"
+     inkscape:window-height="1396"
+     inkscape:window-x="922"
+     inkscape:window-y="0"
      inkscape:window-maximized="0"
      inkscape:lockguides="true"
      inkscape:snap-global="false" />
@@ -571,22 +571,38 @@
        id="path219"
        inkscape:connector-curvature="0" />
     <path
-       id="path4041"
+       id="switch.office_fan_switch"
        d="m 453.19209,271.57818 a 2,2 0 0 0 -2,2 2,2 0 0 0 2,2 2,2 0 0 0 2,-2 2,2 0 0 0 -2,-2 m 1,-18 c 9,0 9.22,7.14 4.5,9.5 -1.98,0.98 -2.86,3.08 -3.24,4.94 0.96,0.4 1.8,1.02 2.44,1.82 7.4,-4 15.36,-2.42 15.36,4.74 0,9 -7.14,9.2 -9.5,4.46 -1,-1.98 -3.12,-2.86 -4.98,-3.24 -0.4,0.96 -1.02,1.78 -1.82,2.46 3.98,7.38 2.4,15.32 -4.76,15.32 -9,0 -9.18,-7.16 -4.46,-9.52 1.96,-0.98 2.84,-3.06 3.24,-4.9 -0.98,-0.4 -1.84,-1.04 -2.48,-1.84 -7.38,3.96 -15.3,2.4 -15.3,-4.74 0,-9 7.12,-9.22 9.48,-4.48 1,1.98 3.1,2.84 4.96,3.22 0.38,-0.96 1.02,-1.8 1.84,-2.44 -3.98,-7.38 -2.4,-15.3 4.72,-15.3 z"
        inkscape:connector-curvature="0"
-       style="stroke-width:2" />
+       style="stroke-width:2"
+       inkscape:label="#path4041">
+      <title
+         id="title581">Office Fan</title>
+    </path>
     <path
-       id="path4062"
+       id="light.office_lights_dimmer_level"
        d="m 451.29287,295.57818 a 7,7 0 0 0 -7,7 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-7 m -3,19 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:label="#path4062">
+      <title
+         id="title583">Office Lights Dimmer</title>
+    </path>
     <path
        inkscape:connector-curvature="0"
        d="m 523.99997,339.80001 a 7,7 0 0 0 -7,7 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-7 m -3,19 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       id="path4073" />
+       id="switch.office_lamp_switch"
+       inkscape:label="#path4073">
+      <title
+         id="title585">Office Floor Lamp</title>
+    </path>
     <path
-       id="path4075"
+       id="light.game_room_fan_lights_dimmer_level"
        d="m 649.49996,297.80001 a 7,7 0 0 0 -7,7 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-7 m -3,19 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       inkscape:label="#path4075">
+      <title
+         id="title648">Game Room Lights Dimmer</title>
+    </path>
     <path
        style="stroke-width:2"
        inkscape:connector-curvature="0"
@@ -623,21 +639,33 @@
     <path
        inkscape:connector-curvature="0"
        d="m 635.72284,484.04979 a 7,7 0 0 0 -7,7 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-7 m -3,19 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       id="path4089" />
+       id="switch.stairs_light_switch"
+       inkscape:label="#path4089">
+      <title
+         id="title650">Stairs Light</title>
+    </path>
     <path
        style="stroke-width:2"
        inkscape:connector-curvature="0"
        d="m 444.70681,591.89754 a 2,2 0 0 0 -2,2 2,2 0 0 0 2,2 2,2 0 0 0 2,-2 2,2 0 0 0 -2,-2 m 1,-18 c 9,0 9.22,7.14 4.5,9.5 -1.98,0.98 -2.86,3.08 -3.24,4.94 0.96,0.4 1.8,1.02 2.44,1.82 7.4,-4 15.36,-2.42 15.36,4.74 0,9 -7.14,9.2 -9.5,4.46 -1,-1.98 -3.12,-2.86 -4.98,-3.24 -0.4,0.96 -1.02,1.78 -1.82,2.46 3.98,7.38 2.4,15.32 -4.76,15.32 -9,0 -9.18,-7.16 -4.46,-9.52 1.96,-0.98 2.84,-3.06 3.24,-4.9 -0.98,-0.4 -1.84,-1.04 -2.48,-1.84 -7.38,3.96 -15.3,2.4 -15.3,-4.74 0,-9 7.12,-9.22 9.48,-4.48 1,1.98 3.1,2.84 4.96,3.22 0.38,-0.96 1.02,-1.8 1.84,-2.44 -3.98,-7.38 -2.4,-15.3 4.72,-15.3 z"
        id="path4093" />
     <path
-       id="path4095"
+       id="switch.heidis_room_lights_switch"
        d="m 835.02974,570.68434 a 2,2 0 0 0 -2,2 2,2 0 0 0 2,2 2,2 0 0 0 2,-2 2,2 0 0 0 -2,-2 m 1,-18 c 9,0 9.22,7.14 4.5,9.5 -1.98,0.98 -2.86,3.08 -3.24,4.94 0.96,0.4 1.8,1.02 2.44,1.82 7.4,-4 15.36,-2.42 15.36,4.74 0,9 -7.14,9.2 -9.5,4.46 -1,-1.98 -3.12,-2.86 -4.98,-3.24 -0.4,0.96 -1.02,1.78 -1.82,2.46 3.98,7.38 2.4,15.32 -4.76,15.32 -9,0 -9.18,-7.16 -4.46,-9.52 1.96,-0.98 2.84,-3.06 3.24,-4.9 -0.98,-0.4 -1.84,-1.04 -2.48,-1.84 -7.38,3.96 -15.3,2.4 -15.3,-4.74 0,-9 7.12,-9.22 9.48,-4.48 1,1.98 3.1,2.84 4.96,3.22 0.38,-0.96 1.02,-1.8 1.84,-2.44 -3.98,-7.38 -2.4,-15.3 4.72,-15.3 z"
        inkscape:connector-curvature="0"
-       style="stroke-width:2" />
+       style="stroke-width:2"
+       inkscape:label="#path4095">
+      <title
+         id="title654">Heidi's Fan and Lights</title>
+    </path>
     <path
        inkscape:connector-curvature="0"
        d="m 779.26551,385.05484 a 7,7 0 0 0 -7,7 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-7 m -3,19 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       id="path4097" />
+       id="switch.girls_hall_light_switch"
+       inkscape:label="#path4097">
+      <title
+         id="title652">Girls Hall Lights</title>
+    </path>
     <path
        id="path4099"
        d="m 872.6036,347.57818 a 7,7 0 0 0 -7,7 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-7 m -3,19 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
@@ -679,5 +707,13 @@
        id="path4117"
        d="m 419.34818,486.87821 a 7,7 0 0 0 -7,7 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-7 m -3,19 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
        inkscape:connector-curvature="0" />
+    <path
+       id="light.hue_go_1"
+       d="m 393.85847,184.2912 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
+       inkscape:connector-curvature="0"
+       inkscape:label="#path635">
+      <title
+         id="title646">Office Hue Go</title>
+    </path>
   </g>
 </svg>

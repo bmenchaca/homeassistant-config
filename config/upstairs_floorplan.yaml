@@ -24,6 +24,7 @@
         - name: Fans
           entities:
             - switch.game_room_fan_switch
+            - switch.office_fan_switch
           states:
             - state: 'on'
               class: 'fan-on'
@@ -35,9 +36,16 @@
 
         - name: Light Switches
           entities:
+            - light.game_room_fan_lights_dimmer_level
+            - light.hue_go_1
+            - light.office_lights_dimmer_level
             - switch.boys_bathroom_lights_switch
             - switch.boys_hall_light_switch
             - switch.gallery_hall_lights_switch
+            - switch.girls_hall_light_switch
+            - switch.heidis_room_lights_switch
+            - switch.office_lamp_switch
+            - switch.stairs_light_switch
           states:
             - state: 'on'
               class: 'light-on'
