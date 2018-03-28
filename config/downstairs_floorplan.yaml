@@ -13,6 +13,20 @@
 
       groups:
 
+        - name: Door Sensors
+          entities:
+            - binary_sensor.master_closet_door_sensor
+            - binary_sensor.pantry_door_sensor
+            - binary_sensor.laundry_room_closet_door_sensor
+            - binary_sensor.front_door
+            - binary_sensor.back_door
+            - binary_sensor.garage_door
+          states:
+            - state: 'on'
+              class: 'door-opened'
+            - state: 'off'
+              class: 'door-closed'
+
         - name: Binary Sensors
           entities:
             - binary_sensor.guest_occupancy
