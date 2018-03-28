@@ -198,7 +198,7 @@
 }
 
 .door-opened {
-  fill: #CC0000 !important;
+  stroke: #CC0000 !important;
   transform-box: fill-box;
   animation-duration: 4s;
   animation-name: rotate90;
@@ -206,7 +206,7 @@
 }
 
 .door-closed {
-  fill: #000000 !important;
+  stroke: #000000 !important;
   transform-box: fill-box;
   animation-duration: 4s;
   animation-name: rotateReset90;
@@ -227,7 +227,7 @@
 }
 
 #binary_sensor.pantry_door_sensor {
-  transform-origin: bottom left;
+  transform-origin: bottom right;
 }
 
 /* SVG shapes */
