@@ -59,9 +59,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.5600002"
-     inkscape:cx="761.88847"
-     inkscape:cy="529.7259"
+     inkscape:zoom="28.963096"
+     inkscape:cx="465.31699"
+     inkscape:cy="338.71427"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1046,8 +1046,8 @@
          id="title4799">Master Closet Door</title>
     </path>
     <path
-       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 462.30465,519.22188 h 24.60937 -0.19531"
+       style="fill:none;stroke:#000000;stroke-width:1.0042001px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 462.09749,519.22188 h 24.81653 -0.19695"
        id="binary_sensor.garage_door"
        inkscape:connector-curvature="0"
        inkscape:label="#path4801">
