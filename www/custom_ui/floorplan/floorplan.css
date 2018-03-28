@@ -145,6 +145,14 @@
   fill: #006633 !important;
 }
 
+.security-window-opened {
+  fill: #CC0000 !important;
+}
+
+.security-window-closed {
+  fill: #00CC00 !important;
+}
+
 /*
  * Make things disappear/appear based on sensor readings.
  */
@@ -213,12 +221,16 @@
 }
 
 #binary_sensor.garage_door,
-#binary_sensor.laundry_room_closet_door_sensor,
-#binary_sensor.back_door {
+#binary_sensor.laundry_room_closet_door_sensor {
   transform-origin: top left;
 }
 
 #binary_sensor.front_door {
+  transform-origin: top right;
+}
+
+#binary_sensor.back_door {
+  transform: rotate(180deg);
   transform-origin: top right;
 }
 
@@ -227,7 +239,7 @@
 }
 
 #binary_sensor.pantry_door_sensor {
-  transform-origin: bottom right;
+  transform-origin: top right;
 }
 
 /* SVG shapes */

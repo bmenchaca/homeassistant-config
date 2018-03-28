@@ -59,9 +59,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8101935"
-     inkscape:cx="543.99666"
-     inkscape:cy="379.71744"
+     inkscape:zoom="3.620387"
+     inkscape:cx="806.88751"
+     inkscape:cy="640.59352"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -332,11 +332,6 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 885.24998,572.79999 v -175.5 0 0"
-       id="path5973"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 734.74998,572.79999 v -9.5 0"
        id="path5975"
        inkscape:connector-curvature="0" />
@@ -432,11 +427,6 @@
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="M 884.94411,398.2915 V 178.3813"
-       id="path6027"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
        d="m 884.94411,354.09732 h -24.04163 v 0"
        id="path6029"
        inkscape:connector-curvature="0" />
@@ -456,23 +446,13 @@
        id="path6035"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 884.74998,178.3 h -18.25"
-       id="path6037"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 866.24998,99.300004 0.25,78.999996"
-       id="path6039"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 866.24998,99.300004 -131.5,0.25"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 866.24158,99.310716 -25.03789,0.03327"
        id="path6041"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
-       d="m 734.74998,178.3 v -8.5"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 734.74998,179.27656 V 169.8"
        id="path6043"
        inkscape:connector-curvature="0" />
     <path
@@ -1039,7 +1019,7 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 299.21873,360.23752 h 23.43749 v 0"
-       id="binary_sensor.master_closet_door_sensor"
+       id="binary.sensor.master_closet_door_sensor"
        inkscape:connector-curvature="0"
        inkscape:label="#path4797">
       <title
@@ -1064,8 +1044,8 @@
          id="title4807">Laundry Room Closet Door</title>
     </path>
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.02019346px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 697.21818,660.62812 h 21.14114 v 0 0 0"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 698.04682,660.62812 h 20.3125 v 0 0 0"
        id="binary_sensor.front_door"
        inkscape:connector-curvature="0"
        inkscape:label="#path4809">
@@ -1090,5 +1070,96 @@
       <title
          id="title4819">Pantry Door</title>
     </path>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2.00888586;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 884.98826,177.34277 v 221.26668 0"
+       id="path230"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 884.90367,397.485 0.39062,175.78124"
+       id="path1037"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 866.21087,178.20629 v -13.83705 0 0"
+       id="path1039"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 885.93743,178.20629 h -20.70312 v 0 0"
+       id="path1043"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1045"
+       d="m 866.01556,111.88432 v -13.560843 0 0"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="binary_sensor.breakfast_window_3"
+       width="4.1003127"
+       height="22.609293"
+       x="864.06311"
+       y="112.32092"
+       inkscape:label="#rect1047">
+      <title
+         id="title1067">Breakfast Window 3</title>
+    </rect>
+    <path
+       inkscape:connector-curvature="0"
+       id="path1049"
+       d="m 758.62361,99.687825 -24.841,0.255608"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       y="759.02106"
+       x="-102.00486"
+       height="29.676165"
+       width="3.9856312"
+       id="binary_sensor.breakfast_window_1"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="rotate(-90.038253)"
+       inkscape:label="#rect1051">
+      <title
+         id="title1063">Breakfast Window 1</title>
+    </rect>
+    <rect
+       transform="rotate(-90.038253)"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="binary_sensor.breakfast_window_2"
+       width="3.9856312"
+       height="29.676165"
+       x="-102.03961"
+       y="811.07184"
+       inkscape:label="#rect1053">
+      <title
+         id="title1065">Breakfast Window 2</title>
+    </rect>
+    <path
+       inkscape:connector-curvature="0"
+       id="path1055"
+       d="m 810.71835,99.452393 -21.46212,-0.05477"
+       style="fill:none;stroke:#000000;stroke-width:2.00445986;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       y="141.17987"
+       x="864.05774"
+       height="22.620041"
+       width="4.010747"
+       id="binary_sensor.breakfast_window_4"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="#rect1057">
+      <title
+         id="title1069">Breakfast Window 4</title>
+    </rect>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 866.01556,111.88432 v -13.560843 0 0"
+       id="path1059"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1061"
+       d="m 866.11914,140.71411 v -5.55065 0 0"
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
 </svg>
