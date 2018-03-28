@@ -59,9 +59,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.240774"
-     inkscape:cx="716.34697"
-     inkscape:cy="141.3444"
+     inkscape:zoom="1.8101935"
+     inkscape:cx="543.99666"
+     inkscape:cy="379.71744"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1039,7 +1039,7 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 299.21873,360.23752 h 23.43749 v 0"
-       id="binary.sensor.master_closet_door_sensor"
+       id="binary_sensor.master_closet_door_sensor"
        inkscape:connector-curvature="0"
        inkscape:label="#path4797">
       <title
