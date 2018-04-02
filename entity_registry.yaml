@@ -1,111 +1,3 @@
-light.guest_1:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:5d:bb:86-0b
-light.guest_4:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:39:e0:8c-0b
-light.hannah_color:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:54:ea:b9-0b
-light.heidi_color:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:54:ea:75-0b
-light.master_bath_color:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:50:ec:35-0b
-light.heidi_lamp:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:4a:b8:a4-0b
-light.game_room_4:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:94:5b:a0-0b
-light.master_hall_2:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:e5:1a:28-0b
-light.hannah_2:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:0a:f9:aa-0b
-light.noah_color:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:4c:e4:9a-0b
-light.master_hall_3:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:f2:6f:3b-0b
-light.guest_2:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:03:dd:f5:1e-0b
-light.heidi_go:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:01:18:21:80-0b
-light.noah_1:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:37:ef:56-0b
-light.game_room_2:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:8c:33:dd-0b
-light.heidi_2:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:5d:ac:e2-0b
-light.hannah_lamp:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:3f:3a:3a-0b
-light.noah_2:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:37:ef:10-0b
-light.master_hall_1:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:a9:61:8c-0b
-light.family_room_flood:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:e5:20:2c-0b
-light.gallery_flood:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:f2:6f:2f-0b
-light.noah_lamp:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:96:41:e0-0b
-light.game_room_3:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:8c:36:1e-0b
-light.hannah_1:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:0a:ec:90-0b
-light.guest_3:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:03:94:31:58-0b
-light.heidi_1:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:39:e4:69-0b
-light.game_room_1:
-  name:
-  platform: hue
-  unique_id: 00:17:88:01:02:8c:31:ef-0b
 sensor.netatmo_outdoor_temperature:
   name:
   platform: netatmo
@@ -1182,3 +1074,267 @@ sensor.boys_bathroom_lights_burglar_2:
   name:
   platform: zwave
   unique_id: 82-144115189457633441
+light.office_lights_level:
+  name:
+  platform: zwave
+  unique_id: 83-72057595435253761
+light.office_lights_level_2:
+  name:
+  platform: zwave
+  unique_id: 83-144115189473181697
+sensor.office_lights_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 83-72057595436482561
+sensor.office_lights_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 83-72057595436482577
+sensor.office_lights_alarm_type_2:
+  name:
+  platform: zwave
+  unique_id: 83-144115189474410497
+sensor.office_lights_alarm_level_2:
+  name:
+  platform: zwave
+  unique_id: 83-144115189474410513
+sensor.office_lights_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 83-72057595436482593
+sensor.office_lights_burglar:
+  name:
+  platform: zwave
+  unique_id: 83-72057595436482721
+sensor.office_lights_sourcenodeid_2:
+  name:
+  platform: zwave
+  unique_id: 83-144115189474410529
+sensor.office_lights_burglar_2:
+  name:
+  platform: zwave
+  unique_id: 83-144115189474410657
+switch.boys_bathroom_lights_switch_3:
+  name:
+  platform: zwave
+  unique_id: 84-72057595452014592
+switch.boys_bathroom_lights_switch_4:
+  name:
+  platform: zwave
+  unique_id: 84-144115189489942528
+sensor.boys_bathroom_lights_alarm_type_3:
+  name:
+  platform: zwave
+  unique_id: 84-72057595453259777
+sensor.boys_bathroom_lights_alarm_level_3:
+  name:
+  platform: zwave
+  unique_id: 84-72057595453259793
+sensor.boys_bathroom_lights_alarm_type_4:
+  name:
+  platform: zwave
+  unique_id: 84-144115189491187713
+sensor.boys_bathroom_lights_alarm_level_4:
+  name:
+  platform: zwave
+  unique_id: 84-144115189491187729
+sensor.boys_bathroom_lights_sourcenodeid_3:
+  name:
+  platform: zwave
+  unique_id: 84-72057595453259809
+sensor.boys_bathroom_lights_burglar_3:
+  name:
+  platform: zwave
+  unique_id: 84-72057595453259937
+sensor.boys_bathroom_lights_sourcenodeid_4:
+  name:
+  platform: zwave
+  unique_id: 84-144115189491187745
+sensor.boys_bathroom_lights_burglar_4:
+  name:
+  platform: zwave
+  unique_id: 84-144115189491187873
+binary_sensor.heidi_room_multisensor_sensor:
+  name:
+  platform: zwave
+  unique_id: 85-72057595468972032
+sensor.heidi_room_multisensor_temperature:
+  name:
+  platform: zwave
+  unique_id: 85-72057595468988434
+sensor.heidi_room_multisensor_luminance:
+  name:
+  platform: zwave
+  unique_id: 85-72057595468988466
+sensor.heidi_room_multisensor_relative_humidity:
+  name:
+  platform: zwave
+  unique_id: 85-72057595468988498
+sensor.heidi_room_multisensor_ultraviolet:
+  name:
+  platform: zwave
+  unique_id: 85-72057595468988850
+sensor.heidi_room_multisensor_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 85-72057595470036993
+sensor.heidi_room_multisensor_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 85-72057595470037009
+sensor.heidi_room_multisensor_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 85-72057595470037025
+sensor.heidi_room_multisensor_burglar:
+  name:
+  platform: zwave
+  unique_id: 85-72057595470037153
+switch.stairs_light_switch_3:
+  name:
+  platform: zwave
+  unique_id: 86-72057595485569024
+switch.stairs_light_switch_4:
+  name:
+  platform: zwave
+  unique_id: 86-144115189523496960
+sensor.stairs_light_alarm_type_3:
+  name:
+  platform: zwave
+  unique_id: 86-72057595486814209
+sensor.stairs_light_alarm_level_3:
+  name:
+  platform: zwave
+  unique_id: 86-72057595486814225
+sensor.stairs_light_alarm_type_4:
+  name:
+  platform: zwave
+  unique_id: 86-144115189524742145
+sensor.stairs_light_alarm_level_4:
+  name:
+  platform: zwave
+  unique_id: 86-144115189524742161
+sensor.stairs_light_sourcenodeid_3:
+  name:
+  platform: zwave
+  unique_id: 86-72057595486814241
+sensor.stairs_light_burglar_3:
+  name:
+  platform: zwave
+  unique_id: 86-72057595486814369
+sensor.stairs_light_sourcenodeid_4:
+  name:
+  platform: zwave
+  unique_id: 86-144115189524742177
+sensor.stairs_light_burglar_4:
+  name:
+  platform: zwave
+  unique_id: 86-144115189524742305
+light.heidi_go:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:01:18:21:80-0b
+light.game_room_3:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:8c:36:1e-0b
+light.guest_1:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:5d:bb:86-0b
+light.heidi_color:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:54:ea:75-0b
+light.noah_color:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:4c:e4:9a-0b
+light.gallery_flood:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:f2:6f:2f-0b
+light.hannah_1:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:0a:ec:90-0b
+light.master_hall_1:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:a9:61:8c-0b
+light.heidi_2:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:5d:ac:e2-0b
+light.game_room_2:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:8c:33:dd-0b
+light.hannah_2:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:0a:f9:aa-0b
+light.family_room_flood:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:e5:20:2c-0b
+light.master_hall_3:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:f2:6f:3b-0b
+light.guest_2:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:03:dd:f5:1e-0b
+light.heidi_1:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:39:e4:69-0b
+light.noah_lamp:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:96:41:e0-0b
+light.master_hall_2:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:e5:1a:28-0b
+light.hannah_color:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:54:ea:b9-0b
+light.guest_4:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:39:e0:8c-0b
+light.noah_2:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:37:ef:10-0b
+light.hannah_lamp:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:3f:3a:3a-0b
+light.heidi_lamp:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:4a:b8:a4-0b
+light.guest_3:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:03:94:31:58-0b
+light.noah_1:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:37:ef:56-0b
+light.game_room_1:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:8c:31:ef-0b
+light.game_room_4:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:94:5b:a0-0b
+light.master_bath_color:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:02:50:ec:35-0b
