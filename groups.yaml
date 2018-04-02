@@ -41,7 +41,8 @@ ben_garage_door:
 garage:
   name: Garage
   entities:
-    - switch.garage_lights_switch
+    - switch.garage_lights_44
+    - switch.outdoor_lights_53
 
 craft_room:
   name: Craft Room
@@ -50,36 +51,45 @@ craft_room:
     - switch.craft_room_fan_39
     - switch.craft_sewing_lamp_67
     - media_player.stick
+    - binary_sensor.craft_room_window_1
+    - binary_sensor.craft_room_window_2
 
 guest_room:
   name: Guest Room
   entities:
-    - binary_sensor.guest_occupancy
+    - switch.guest_smart_plug
+    - switch.guest_fan_and_lights_switch
     - light.guest
     - light.guest_1
     - light.guest_2
     - light.guest_3
     - light.guest_4
-    - switch.guest_fan_and_lights_switch
-    - switch.guest_smart_plug
+    - binary_sensor.guest_occupancy
+    - binary_sensor.guest_window_1
+    - binary_sensor.guest_window_2
+    - binary_sensor.guest_window_3
 
 guest_hall:
   name: Guest Hall
   entities:
-    - switch.guest_hall_lights_switch
+    - switch.guest_hall_light_63
 
 guest_bath:
   name: Guest Bath
   entities:
-    - switch.guest_bathroom_lights_switch
+    - switch.guest_bathroom_64
 
 entry_room:
   name: Entry Room
   entities:
-    - switch.entry_light_switch
-    - switch.entry_christmas_tree_outlet_switch
+    - switch.entry_lights_46
+    - switch.christmas_tree_54
     - binary_sensor.entry_room_occupancy
-    - camera.entry_hall
+    - binary_sensor.entry_glass
+    - binary_sensor.entry_motion
+    - binary_sensor.entry_window_1
+    - binary_sensor.entry_window_2
+    #- camera.entry_hall
 
 dining_room:
   name: Dining Room
@@ -130,7 +140,7 @@ back_porch:
 
 back_yard_sprinklers:
   name: Back Yard Sprinklers
-  entities:
+  ntities:
     - switch.around_pool_back
     - switch.back_east_lawn
     - switch.back_west_near_gate
