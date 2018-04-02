@@ -140,7 +140,7 @@ back_porch:
 
 back_yard_sprinklers:
   name: Back Yard Sprinklers
-  ntities:
+  entities:
     - switch.around_pool_back
     - switch.back_east_lawn
     - switch.back_west_near_gate
