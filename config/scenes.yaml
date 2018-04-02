@@ -4,16 +4,16 @@
 
 - name: craft_room_switch_off
   entities:
-    switch.craft_room_fan_switch: off
-    switch.craft_room_sewing_lamp_switch: off
-    light.craft_room_large_lamp_level:
+    switch.craft_room_fan_39: off
+    switch.craft_sewing_lamp_67: off
+    light.craft_floor_lamp_66:
       state: off
     
 - name: craft_room_switch_on
   entities:
-    switch.craft_room_fan_switch: on
-    switch.craft_room_sewing_lamp_switch: on
-    light.craft_room_large_lamp_level:
+    switch.craft_room_fan_39: on
+    switch.craft_sewing_lamp_67: on
+    light.craft_floor_lamp_66:
       state: on
     
 - name: game_room_off
@@ -45,20 +45,6 @@
     light.game_room_fan_lights_dimmer_level:
       state: on
     light.game_room: on
-    
-- name: craft_room_switch_off
-  entities:
-    switch.craft_room_fan_switch: off
-    switch.craft_room_sewing_lamp_switch: off
-    light.craft_room_large_lamp_level:
-      state: off
-    
-- name: craft_room_switch_on
-  entities:
-    switch.craft_room_fan_switch: on
-    switch.craft_room_sewing_lamp_switch: on
-    light.craft_room_large_lamp_level:
-      state: on
     
 - name: evening_tv_time
   entities:
