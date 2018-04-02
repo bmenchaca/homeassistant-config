@@ -1,5 +1,3 @@
-- platform: abode
-
 - platform: ring
   monitored_conditions:
     - ding
