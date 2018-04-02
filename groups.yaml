@@ -46,9 +46,9 @@ garage:
 craft_room:
   name: Craft Room
   entities:
-    - light.craft_room_large_lamp_level
-    - switch.craft_room_fan_switch
-    - switch.craft_room_sewing_lamp_switch
+    - light.craft_floor_lamp_66
+    - switch.craft_room_fan_39
+    - switch.craft_sewing_lamp_67
     - media_player.stick
 
 guest_room:
