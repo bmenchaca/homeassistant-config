@@ -266,8 +266,8 @@ office:
     - binary_sensor.office_occupancy
     - light.office_lights_dimmer_level
     - media_player.office
-    - switch.office_fan_switch
-    - switch.office_lamp_switch
+    - switch.office_fan_34
+    - switch.office_lamp_35
     - camera.guest_hall
     #- camera.office
 
@@ -302,7 +302,7 @@ master_hall:
 master_lavatory:
   name: Master Lavatory
   entities:
-    - switch.master_lavatory_68
+    - switch.master_lavatory_42
 
 current_weather:
   name: Current Weather

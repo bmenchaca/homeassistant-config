@@ -51,7 +51,7 @@ switch.craft_room_fan_39:
   icon: mdi:fan
 switch.game_room_fan_switch:
   icon: mdi:fan
-switch.office_fan_switch:
+switch.office_fan_34:
   icon: mdi:fan
   haaska_name: Office Fan
 switch.master_fan_switch:
@@ -72,11 +72,11 @@ switch.noahs_hall_light_switch:
   icon: mdi:lightbulb
 switch.gallery_hall_light_switch:
   icon: mdi:lightbulb
-switch.office_lamp_switch:
+switch.office_lamp_35:
   icon: mdi:lightbulb
 switch.master_closet_light_68:
   icon: mdi:lightbulb
-switch.master_lavatory_68:
+switch.master_lavatory_42:
   icon: mdi:lightbulb
 switch.kitchen_light_56:
   icon: mdi:lightbulb
