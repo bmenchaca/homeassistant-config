@@ -97,7 +97,7 @@
             - switch.mantle_flood_light_58
             - switch.front_porch_lights_switch
             - switch.garage_lights_44
-            - switch.garage_outdoor_lights_switch
+            - switch.garage_outdoor_light_53
             - switch.guest_hall_light_63
             - switch.guest_bathroom_64
             - switch.kitchen_light_56
@@ -107,7 +107,7 @@
             - switch.master_closet_light_68
             - switch.master_hall_lights_switch
             - switch.master_lavatory_42
-            - switch.pantry_lights_switch
+            - switch.pantry_light_61
             - switch.stairs_light_switch
 
           states:

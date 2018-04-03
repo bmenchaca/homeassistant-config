@@ -133,7 +133,7 @@ kitchen:
   name: Kitchen
   entities:
     - switch.kitchen_light_56
-    - switch.pantry_lights_switch
+    - switch.pantry_light_61
     - binary_sensor.pantry_door_sensor
 
 laundry_room:
@@ -172,7 +172,7 @@ front_porch:
 front_yard:
   name: Front Yard
   entities:
-    - switch.garage_outdoor_lights_switch
+    - switch.garage_outdoor_light_53
     - switch.front_bushes
     - switch.front_lawn
     - switch.east_lawn

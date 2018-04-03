@@ -6,7 +6,7 @@
 #    to: 'off'
 #  action:
 #    service: switch.turn_off
-#    entity_id: switch.pantry_lights_switch
+#    entity_id: switch.pantry_light_61
 
 #- id: pantry_door_open
 #  alias: Turn on Pantry Light when Pantry Door opens
@@ -16,7 +16,7 @@
 #    to: 'on'
 #  action:
 #    service: switch.turn_on
-#    entity_id: switch.pantry_lights_switch
+#    entity_id: switch.pantry_light_61
 
 #- id: craft_room_switch_off
 #  alias: Turn off All Craft Room Switches when Main Switch Turned Off
@@ -262,7 +262,7 @@
 #    event: sunset
 #  action:
 #    service: switch.turn_on
-#    entity_id: switch.garage_outdoor_lights_switch
+#    entity_id: switch.garage_outdoor_light_53
 
 #- id: garage_lights_off_at_sunrise
 #  alias: Turn off Garage Carriage Lights at Sunrise
@@ -271,7 +271,7 @@
 #    event: sunrise
 #  action:
 #    service: switch.turn_off
-#    entity_id: switch.garage_outdoor_lights_switch
+#    entity_id: switch.garage_outdoor_light_53
 
 #- id: guest_lights_off_when_unoccupied
 #  alias: Turn off Guest Lights 3 minutes after last movement
