@@ -225,9 +225,18 @@ binary_sensor.hannah_window_1:
   icon: mdi:window-closed
 binary_sensor.hannah_window_2:
   icon: mdi:window-closed
-binary_sensor.play_room_window_1:
+binary_sensor.game_room_window_1:
   icon: mdi:window-closed
-binary_sensor.play_room_window_2:
+binary_sensor.game_room_window_2:
   icon: mdi:window-closed
+binary_sensor.game_room_window_3:
+  icon: mdi:window-closed
+# Abode Doors
+binary_sensor.garage_door:
+  icon: mdi:door
+binary_sensor.back_door:
+  icon: mdi:door
+binary_sensor.front_door:
+  icon: mdi:door
 
 
