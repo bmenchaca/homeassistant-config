@@ -350,39 +350,39 @@ sensor.gallery_hsm200_burglar:
   name:
   platform: zwave
   unique_id: 40-72057594715062433
-binary_sensor.multisensor_1_sensor:
+binary_sensor.heidi_room_multisensor_sensor:
   name:
   platform: zwave
   unique_id: 45-72057594797883392
-sensor.multisensor_1_temperature:
+sensor.heidi_room_multisensor_temperature:
   name:
   platform: zwave
   unique_id: 45-72057594797899794
-sensor.multisensor_1_luminance:
+sensor.heidi_room_multisensor_luminance:
   name:
   platform: zwave
   unique_id: 45-72057594797899826
-sensor.multisensor_1_relative_humidity:
+sensor.heidi_room_multisensor_relative_humidity:
   name:
   platform: zwave
   unique_id: 45-72057594797899858
-sensor.multisensor_1_ultraviolet:
+sensor.heidi_room_multisensor_ultraviolet:
   name:
   platform: zwave
   unique_id: 45-72057594797900210
-sensor.multisensor_1_alarm_type:
+sensor.heidi_room_multisensor_alarm_type:
   name:
   platform: zwave
   unique_id: 45-72057594798948353
-sensor.multisensor_1_alarm_level:
+sensor.heidi_room_multisensor_alarm_level:
   name:
   platform: zwave
   unique_id: 45-72057594798948369
-sensor.multisensor_1_sourcenodeid:
+sensor.heidi_room_multisensor_sourcenodeid:
   name:
   platform: zwave
   unique_id: 45-72057594798948385
-sensor.multisensor_1_burglar:
+sensor.heidi_room_multisensor_burglar:
   name:
   platform: zwave
   unique_id: 45-72057594798948513
