@@ -238,5 +238,13 @@ binary_sensor.back_door:
   icon: mdi:door
 binary_sensor.front_door:
   icon: mdi:door
+# Abode keypad
+binary_sensor.laundry_room_keypad:
+  icon: mdi:dialpad          
+#Abode Keyfob
+binary_sensor.ben_keyfob:
+  icon: mdi:remote
+binary_sensor.susan_keyfob:
+  icon: mdi:remote
 
 
