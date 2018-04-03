@@ -80,7 +80,7 @@
     switch.christmas_tree_54: off
     light.family_room_lights_59:
       state: off
-    switch.family_room_mantle_light_switch: off
+    switch.mantle_flood_light_58: off
     switch.back_porch_light_switch: off
     switch.front_porch_light_switch: off
     switch.garage_lights_44: off

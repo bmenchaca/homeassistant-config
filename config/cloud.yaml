@@ -49,7 +49,7 @@ alexa:
       name: Entry Light
     switch.family_room_fan_55:
       name: Family Room Fan
-    switch.family_room_mantle_light_switch:
+    switch.mantle_flood_light_58:
       name: Family Room Mantle
     switch.front_porch_lights_switch:
       name: Front Porch Lights

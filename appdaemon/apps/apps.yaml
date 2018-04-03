@@ -15,15 +15,15 @@ laundry_room_closet_sensor_light:
   class: SensorLight
   module: sensor_light
   sensor: binary_sensor.laundry_room_closet_door_sensor
-  entity_on: switch.laundry_room_closet_lights_switch
-  entity_off: switch.laundry_room_closet_lights_switch
+  entity_on: switch.laundry_closet_light_65
+  entity_off: switch.laundry_closet_light_65
 
 master_closet_sensor_light:
   class: SensorLight
   module: sensor_light
   sensor: binary_sensor.master_closet_door_sensor
-  entity_on: switch.master_closet_light_switch
-  entity_off: switch.master_closet_light_switch
+  entity_on: switch.master_closet_light_68
+  entity_off: switch.master_closet_light_68
 
 #  
 ###############################################################################

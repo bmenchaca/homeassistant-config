@@ -703,7 +703,7 @@
        inkscape:label="#path8704"
        inkscape:connector-curvature="0"
        d="m 551.52522,366.13651 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       id="switch.family_room_mantle_light_switch">
+       id="switch.mantle_flood_light_58">
       <title
          id="title151">Family Room Mantle Light</title>
     </path>
@@ -759,7 +759,7 @@
        inkscape:label="#path8704"
        inkscape:connector-curvature="0"
        d="m 563.12619,486.84185 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       id="switch.laundry_room_closet_lights_switch">
+       id="switch.laundry_closet_light_65">
       <title
          id="title177">Laundry Room Closet Lights</title>
     </path>
@@ -806,12 +806,12 @@
        inkscape:label="#path8704"
        inkscape:connector-curvature="0"
        d="m 257.50157,301.26221 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       id="switch.master_bath_tub_light_switch">
+       id="switch.master_bathtub_light_41">
       <title
          id="title199">Master Bath Tub Light</title>
     </path>
     <path
-       id="switch.master_closet_light_switch"
+       id="switch.master_closet_light_68"
        d="m 291.6755,389.1806 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
        inkscape:connector-curvature="0"
        inkscape:label="#path8704">
@@ -822,7 +822,7 @@
        inkscape:label="#path8704"
        inkscape:connector-curvature="0"
        d="m 251.25157,193.44971 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       id="switch.master_lavatory_light_switch">
+       id="switch.master_lavatory_68">
       <title
          id="title207">Master Lavatory Lights</title>
     </path>

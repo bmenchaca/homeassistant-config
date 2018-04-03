@@ -142,7 +142,7 @@ laundry_room:
     - binary_sensor.laundry_room_occupancy
     - binary_sensor.laundry_room_closet_door_sensor
     - switch.laundry_room_lights_switch
-    - switch.laundry_room_closet_lights_switch
+    - switch.laundry_closet_light_65
     
 back_porch:
   name: Back Porch
@@ -288,7 +288,7 @@ master_closet:
   name: Master Closet
   entities:
     - binary_sensor.master_closet_door_sensor
-    - switch.master_closet_light_switch
+    - switch.master_closet_light_68
 
 master_hall:
   name: Master Hall
@@ -302,7 +302,7 @@ master_hall:
 master_lavatory:
   name: Master Lavatory
   entities:
-    - switch.master_lavatory_light_switch
+    - switch.master_lavatory_68
 
 current_weather:
   name: Current Weather

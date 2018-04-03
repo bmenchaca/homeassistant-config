@@ -94,19 +94,19 @@
             - switch.dining_room_lights_switch
             - switch.christmas_tree_54
             - switch.entry_lights_46
-            - switch.family_room_mantle_light_switch
+            - switch.mantle_flood_light_58
             - switch.front_porch_lights_switch
             - switch.garage_lights_44
             - switch.garage_outdoor_lights_switch
             - switch.guest_hall_light_63
             - switch.guest_bathroom_64
             - switch.kitchen_light_56
-            - switch.laundry_room_closet_lights_switch
+            - switch.laundry_closet_light_65
             - switch.laundry_room_lights_switch
-            - switch.master_bath_tub_light_switch
-            - switch.master_closet_light_switch
+            - switch.master_bathtub_light_41
+            - switch.master_closet_light_68
             - switch.master_hall_lights_switch
-            - switch.master_lavatory_light_switch
+            - switch.master_lavatory_68
             - switch.pantry_lights_switch
             - switch.stairs_light_switch
 
