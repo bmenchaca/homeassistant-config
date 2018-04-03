@@ -144,6 +144,7 @@ laundry_room:
     - binary_sensor.laundry_room_closet_door_sensor
     - switch.laundry_room_lights_switch
     - switch.laundry_closet_light_65
+    - binary_sensor.garage_door
     
 back_porch:
   name: Back Porch
@@ -169,6 +170,8 @@ front_porch:
   name: Front Porch
   entities:
     - switch.front_porch_lights_switch
+    - binary_sensor.ring_front_door_motion
+    - binary_sensor.ring_front_door_ding  
 
 front_yard:
   name: Front Yard
