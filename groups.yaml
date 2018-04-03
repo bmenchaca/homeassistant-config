@@ -149,7 +149,7 @@ laundry_room:
 back_porch:
   name: Back Porch
   entities:
-    - switch.back_porch_light_switch
+    - switch.back_porch_light_62
 
 back_yard_sprinklers:
   name: Back Yard Sprinklers

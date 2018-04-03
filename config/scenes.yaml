@@ -81,7 +81,7 @@
     light.family_room_lights_59:
       state: off
     switch.mantle_flood_light_58: off
-    switch.back_porch_light_switch: off
+    switch.back_porch_light_62: off
     switch.front_porch_light_switch: off
     switch.garage_lights_44: off
     cover.ben_garage: closed
