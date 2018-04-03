@@ -132,7 +132,7 @@ stairs:
 kitchen:
   name: Kitchen
   entities:
-    - switch.kitchen_lights_switch
+    - switch.kitchen_light_56
     - switch.pantry_lights_switch
     - binary_sensor.pantry_door_sensor
 
@@ -212,7 +212,7 @@ girls_hallway:
 heidi_room:
   name: Heidi's Room
   entities:
-    - switch.heidis_room_lights_switch
+    - switch.heidi_fan_and_lights_36
     - light.heidi
     - light.heidi_1
     - light.heidi_2

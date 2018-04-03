@@ -53,13 +53,13 @@
     light.gallery: off
     light.game_room: off
     switch.master_hall_lights_switch: off
-    switch.kitchen_lights_switch: off
+    switch.kitchen_light_56: off
     switch.dining_room_lights_switch: off
     switch.stairs_light_switch: off
     switch.breakfast_lights_switch: off
     switch.entry_lights_46: off
-    switch.guest_bathroom_lights_switch: off
-    switch.guest_hall_lights_switch: off
+    switch.guest_bathroom_64: off
+    switch.guest_hall_light_63: off
     light.family_room_lights_59:
       state: off
     light.mantle_light:
@@ -73,7 +73,7 @@
     switch.stairs_light_switch: off
     light.game_room: off
     switch.master_hall_lights_switch: off
-    switch.kitchen_lights_switch: off
+    switch.kitchen_light_56: off
     switch.dining_room_lights_switch: off
     switch.breakfast_lights_switch: off
     switch.entry_lights_46: off
@@ -83,14 +83,14 @@
     switch.family_room_mantle_light_switch: off
     switch.back_porch_light_switch: off
     switch.front_porch_light_switch: off
-    switch.garage_lights_switch: off
+    switch.garage_lights_44: off
     cover.ben_garage: closed
     cover.susan_garage: closed
 
 - name: everyone_away
   entities:
-    switch.garage_lights_switch: off
+    switch.garage_lights_44: off
 
 - name: someone_arriving_home
   entities:
-    switch.garage_lights_switch: on
+    switch.garage_lights_44: on
