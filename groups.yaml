@@ -95,11 +95,19 @@ dining_room:
   name: Dining Room
   entities:
     - switch.dining_room_lights_switch
+    - binary_sensor.dining_room_1
+    - binary_sensor.dining_room_2
+    - binary_sensor.dining_room_3
 
 breakfast_room:
   name: Breakfast Room
   entities:
     - switch.breakfast_lights_switch
+    - binary_sensor.back_door
+    - binary_sensor.breakfast_window_1
+    - binary_sensor.breakfast_window_2
+    - binary_sensor.breakfast_window_3
+    - binary_sensor.breakfast_window_4
 
 family_room:
   name: Family Room
@@ -112,6 +120,9 @@ family_room:
     - sensor.netatmo_indoor_co2
     - sensor.netatmo_indoor_noise
     - scene.evening_tv_time
+    - binary_sensor.family_room_1
+    - binary_sensor.family_room_2
+    - binary_sensor.family_room_glass
 
 stairs:
   name: Stairs
@@ -211,6 +222,8 @@ heidi_room:
     - binary_sensor.multisensor_1_sensor
     - sensor.multisensor_1_temperature
     - sensor.multisensor_1_relative_humidity
+    - binary_sensor.heidi_window_1
+    - binary_sensor.heidi_window_2
 
 hannah_room:
   name: Hannah's Room
@@ -223,6 +236,8 @@ hannah_room:
     - binary_sensor.multisensor_3_sensor
     - sensor.multisensor_3_temperature
     - sensor.multisensor_3_relative_humidity
+    - binary_sensor.hannah_window_1
+    - binary_sensor.hannah_window_2
 
 gallery:
   name: Gallery
