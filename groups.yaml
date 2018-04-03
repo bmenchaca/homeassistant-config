@@ -224,9 +224,9 @@ heidi_room:
     - light.heidi_color
     - light.heidi_lamp
     - light.heidi_go
-    - binary_sensor.multisensor_1_sensor
-    - sensor.multisensor_1_temperature
-    - sensor.multisensor_1_relative_humidity
+    - binary_sensor.heidi_room_multisensor_1_sensor
+    - sensor.heidi_room_multisensor_temperature
+    - sensor.heidi_room_multisensor_relative_humidity
     - binary_sensor.heidi_window_1
     - binary_sensor.heidi_window_2
 
