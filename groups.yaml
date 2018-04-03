@@ -85,19 +85,20 @@ entry_room:
     - switch.entry_lights_46
     - switch.christmas_tree_54
     - binary_sensor.entry_room_occupancy
-    - binary_sensor.entry_glass
+    - binary_sensor.front_door
     - binary_sensor.entry_motion
     - binary_sensor.entry_window_1
     - binary_sensor.entry_window_2
+    - binary_sensor.entry_glass
     #- camera.entry_hall
 
 dining_room:
   name: Dining Room
   entities:
     - switch.dining_room_lights_switch
-    - binary_sensor.dining_room_1
-    - binary_sensor.dining_room_2
-    - binary_sensor.dining_room_3
+    - binary_sensor.dining_room_window_1
+    - binary_sensor.dining_room_window_2
+    - binary_sensor.dining_room_window_3
 
 breakfast_room:
   name: Breakfast Room
@@ -120,8 +121,8 @@ family_room:
     - sensor.netatmo_indoor_co2
     - sensor.netatmo_indoor_noise
     - scene.evening_tv_time
-    - binary_sensor.family_room_1
-    - binary_sensor.family_room_2
+    - binary_sensor.family_window_1
+    - binary_sensor.family_window_2
     - binary_sensor.family_room_glass
 
 stairs:
@@ -190,6 +191,7 @@ noah_room:
     - binary_sensor.multisensor_2_sensor
     - sensor.multisensor_2_temperature
     - sensor.multisensor_2_relative_humidity
+    - binary_sensor.noah_room_window
 
 boys_bathroom:
   name: Boy's Bathroom
@@ -259,6 +261,9 @@ game_room:
     - light.game_room_2
     - light.game_room_3
     - light.game_room_4
+    - binary_sensor.game_room_window_1
+    - binary_sensor.game_room_window_2
+    - binary_sensor.game_room_window_3
 
 office:
   name: Office
@@ -270,6 +275,8 @@ office:
     - switch.office_lamp_35
     - camera.guest_hall
     #- camera.office
+    - binary_sensor.office_window_1
+    - binary_sensor.office_window_2
 
 master:
   name: Master
@@ -277,6 +284,9 @@ master:
     - binary_sensor.master_occupancy
     - light.master_fan_lights_37
     - switch.master_fan_switch
+    - binary_sensor.master_window_1
+    - binary_sensor.master_window_2
+    - binary_sensor.master_window_3
 
 master_bath:
   name: Master Bath
