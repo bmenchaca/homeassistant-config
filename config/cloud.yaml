@@ -3,9 +3,9 @@ alexa:
     include_entities:
       - light.family_room_lights_59
       - light.craft_floor_lamp_66
-      - light.game_room_fan_lights_dimmer_level
-      - light.master_bath_vanity_lights_dimmer_level
-      - light.master_fan_lights_dimmer_level
+      - light.game_room_fan_lights_43
+      - light.master_bath_vanity_40
+      - light.master_fan_lights_37
       - light.office_lights_dimmer_level
     include_domains:
       - scene
@@ -29,11 +29,11 @@ alexa:
     #  description: The light in the kitchen
     light.craft_floor_lamp_66:
       name: Craft Room Large Lamp
-    light.game_room_fan_lights_dimmer_level:
+    light.game_room_fan_lights_43:
       name: Game Room Lights
-    light.master_bath_vanity_lights_dimmer_level:
+    light.master_bath_vanity_40:
       name: Master Bath Lights
-    light.master_fan_lights_dimmer_level:
+    light.master_fan_lights_37:
       name: Master Fan Lights
     light.office_lights_dimmer_level:
       name: Office Lights

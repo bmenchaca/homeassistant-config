@@ -36,7 +36,7 @@
 
         - name: Light Switches
           entities:
-            - light.game_room_fan_lights_dimmer_level
+            - light.game_room_fan_lights_43
             - light.hue_go_1
             - light.office_lights_dimmer_level
             - switch.boys_bathroom_lights_switch

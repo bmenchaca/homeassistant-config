@@ -253,7 +253,7 @@ game_room:
   entities:
     - binary_sensor.game_room_occupancy
     - switch.game_room_fan_switch
-    - light.game_room_fan_lights_dimmer_level
+    - light.game_room_fan_lights_43
     - light.game_room
     - light.game_room_1
     - light.game_room_2
@@ -275,14 +275,14 @@ master:
   name: Master
   entities:
     - binary_sensor.master_occupancy
-    - light.master_fan_lights_dimmer_level
+    - light.master_fan_lights_37
     - switch.master_fan_switch
 
 master_bath:
   name: Master Bath
   entities:
     - light.master_bath
-    - light.master_bath_vanity_lights_dimmer_level
+    - light.master_bath_vanity_40
 
 master_closet:
   name: Master Closet

@@ -20,7 +20,7 @@
   entities:
     switch.game_room_fan_switch: off
     light.game_room: off
-    #    light.game_room_fan_lights_dimmer_level:
+    #    light.game_room_fan_lights_43:
     #  state: off
   
 - name: christmas_lights_daytime
@@ -42,7 +42,7 @@
 - name: game_room_on
   entities:
     switch.game_room_fan_switch: on
-    light.game_room_fan_lights_dimmer_level:
+    light.game_room_fan_lights_43:
       state: on
     light.game_room: on
     
