@@ -77,7 +77,7 @@ guest_hall:
 guest_bath:
   name: Guest Bath
   entities:
-    - switch.guest_bathroom_64
+    - switch.guest_bathroom_light_64
 
 entry_room:
   name: Entry Room

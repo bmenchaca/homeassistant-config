@@ -58,7 +58,7 @@
     switch.stairs_light_switch: off
     switch.breakfast_lights_switch: off
     switch.entry_lights_46: off
-    switch.guest_bathroom_64: off
+    switch.guest_bathroom_light_64: off
     switch.guest_hall_light_63: off
     light.family_room_lights_59:
       state: off

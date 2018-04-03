@@ -676,7 +676,7 @@
        style="stroke-width:0.96808797"
        transform="matrix(0.69080185,-0.72304412,0.71432957,0.69980945,0,0)" />
     <path
-       id="switch.guest_bathroom_64"
+       id="switch.guest_bathroom_light_64"
        d="m 828.50139,596.88367 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
        inkscape:connector-curvature="0"
        inkscape:label="#path8704">
