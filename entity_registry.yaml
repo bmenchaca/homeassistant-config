@@ -862,42 +862,6 @@ sensor.master_closet_door_power_management:
   name:
   platform: zwave
   unique_id: 78-72057595352596657
-switch.boys_bathroom_light_switch:
-  name:
-  platform: zwave
-  unique_id: 79-144115189406056448
-sensor.boys_bathroom_light_alarm_type:
-  name:
-  platform: zwave
-  unique_id: 79-72057595369373697
-sensor.boys_bathroom_light_alarm_level:
-  name:
-  platform: zwave
-  unique_id: 79-72057595369373713
-sensor.boys_bathroom_light_alarm_type_2:
-  name:
-  platform: zwave
-  unique_id: 79-144115189407301633
-sensor.boys_bathroom_light_alarm_level_2:
-  name:
-  platform: zwave
-  unique_id: 79-144115189407301649
-sensor.boys_bathroom_light_sourcenodeid:
-  name:
-  platform: zwave
-  unique_id: 79-72057595369373729
-sensor.boys_bathroom_light_burglar:
-  name:
-  platform: zwave
-  unique_id: 79-72057595369373857
-sensor.boys_bathroom_light_sourcenodeid_2:
-  name:
-  platform: zwave
-  unique_id: 79-144115189407301665
-sensor.boys_bathroom_light_burglar_2:
-  name:
-  platform: zwave
-  unique_id: 79-144115189407301793
 switch.boys_hall_light_switch_2:
   name:
   platform: zwave
@@ -918,10 +882,6 @@ sensor.boys_hall_light_burglar_2:
   name:
   platform: zwave
   unique_id: 73-144115189306638497
-switch.boys_bathroom_light_switch_2:
-  name:
-  platform: zwave
-  unique_id: 79-72057595368128512
 switch.girls_hall_light_switch:
   name:
   platform: zwave
@@ -954,86 +914,6 @@ light.hue_go_1:
   name:
   platform: hue
   unique_id: 00:17:88:01:01:18:59:66-0b
-light.office_lights_dimmer_level:
-  name:
-  platform: zwave
-  unique_id: 81-72057595401699329
-light.office_lights_dimmer_level_2:
-  name:
-  platform: zwave
-  unique_id: 81-144115189439627265
-sensor.office_lights_dimmer_alarm_type:
-  name:
-  platform: zwave
-  unique_id: 81-72057595402928129
-sensor.office_lights_dimmer_alarm_level:
-  name:
-  platform: zwave
-  unique_id: 81-72057595402928145
-sensor.office_lights_dimmer_alarm_type_2:
-  name:
-  platform: zwave
-  unique_id: 81-144115189440856065
-sensor.office_lights_dimmer_alarm_level_2:
-  name:
-  platform: zwave
-  unique_id: 81-144115189440856081
-sensor.office_lights_dimmer_sourcenodeid:
-  name:
-  platform: zwave
-  unique_id: 81-72057595402928161
-sensor.office_lights_dimmer_burglar:
-  name:
-  platform: zwave
-  unique_id: 81-72057595402928289
-sensor.office_lights_dimmer_sourcenodeid_2:
-  name:
-  platform: zwave
-  unique_id: 81-144115189440856097
-sensor.office_lights_dimmer_burglar_2:
-  name:
-  platform: zwave
-  unique_id: 81-144115189440856225
-switch.boys_bathroom_lights_switch:
-  name:
-  platform: zwave
-  unique_id: 82-72057595418460160
-switch.boys_bathroom_lights_switch_2:
-  name:
-  platform: zwave
-  unique_id: 82-144115189456388096
-sensor.boys_bathroom_lights_alarm_type:
-  name:
-  platform: zwave
-  unique_id: 82-72057595419705345
-sensor.boys_bathroom_lights_alarm_level:
-  name:
-  platform: zwave
-  unique_id: 82-72057595419705361
-sensor.boys_bathroom_lights_alarm_type_2:
-  name:
-  platform: zwave
-  unique_id: 82-144115189457633281
-sensor.boys_bathroom_lights_alarm_level_2:
-  name:
-  platform: zwave
-  unique_id: 82-144115189457633297
-sensor.boys_bathroom_lights_sourcenodeid:
-  name:
-  platform: zwave
-  unique_id: 82-72057595419705377
-sensor.boys_bathroom_lights_burglar:
-  name:
-  platform: zwave
-  unique_id: 82-72057595419705505
-sensor.boys_bathroom_lights_sourcenodeid_2:
-  name:
-  platform: zwave
-  unique_id: 82-144115189457633313
-sensor.boys_bathroom_lights_burglar_2:
-  name:
-  platform: zwave
-  unique_id: 82-144115189457633441
 light.office_lights_level:
   name:
   platform: zwave
@@ -1074,43 +954,43 @@ sensor.office_lights_burglar_2:
   name:
   platform: zwave
   unique_id: 83-144115189474410657
-switch.boys_bathroom_lights_switch_3:
+switch.boys_bathroom_lights_switch:
   name:
   platform: zwave
   unique_id: 84-72057595452014592
-switch.boys_bathroom_lights_switch_4:
+switch.boys_bathroom_lights_switch_2:
   name:
   platform: zwave
   unique_id: 84-144115189489942528
-sensor.boys_bathroom_lights_alarm_type_3:
+sensor.boys_bathroom_lights_alarm_type:
   name:
   platform: zwave
   unique_id: 84-72057595453259777
-sensor.boys_bathroom_lights_alarm_level_3:
+sensor.boys_bathroom_lights_alarm_level:
   name:
   platform: zwave
   unique_id: 84-72057595453259793
-sensor.boys_bathroom_lights_alarm_type_4:
+sensor.boys_bathroom_lights_alarm_type_2:
   name:
   platform: zwave
   unique_id: 84-144115189491187713
-sensor.boys_bathroom_lights_alarm_level_4:
+sensor.boys_bathroom_lights_alarm_level_2:
   name:
   platform: zwave
   unique_id: 84-144115189491187729
-sensor.boys_bathroom_lights_sourcenodeid_3:
+sensor.boys_bathroom_lights_sourcenodeid:
   name:
   platform: zwave
   unique_id: 84-72057595453259809
-sensor.boys_bathroom_lights_burglar_3:
+sensor.boys_bathroom_lights_burglar:
   name:
   platform: zwave
   unique_id: 84-72057595453259937
-sensor.boys_bathroom_lights_sourcenodeid_4:
+sensor.boys_bathroom_lights_sourcenodeid_2:
   name:
   platform: zwave
   unique_id: 84-144115189491187745
-sensor.boys_bathroom_lights_burglar_4:
+sensor.boys_bathroom_lights_burglar_2:
   name:
   platform: zwave
   unique_id: 84-144115189491187873
