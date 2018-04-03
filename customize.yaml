@@ -175,3 +175,59 @@ sensor.noah_bathroom_light_alarm_type:
   hidden: true
 switch.outdoor_lights_53:
   friendly_name: Garage Outdoor Lights
+
+# Windows through Abode
+binary_sensor.craft_room_window_1:
+  icon: mdi:window-closed
+binary_sensor.craft_room_window_2:
+  icon: mdi:window-closed
+binary_sensor.breakfast_window_1:
+  icon: mdi:window-closed
+binary_sensor.breakfast_window_2:
+  icon: mdi:window-closed
+binary_sensor.breakfast_window_3:
+  icon: mdi:window-closed
+binary_sensor.breakfast_window_4:
+  icon: mdi:window-closed
+binary_sensor.dining_room_window_1:
+  icon: mdi:window-closed
+binary_sensor.dining_room_window_2:
+  icon: mdi:window-closed
+binary_sensor.dining_room_window_3:
+  icon: mdi:window-closed
+binary_sensor.family_window_1:
+  icon: mdi:window-closed
+binary_sensor.family_window_2:
+  icon: mdi:window-closed
+binary_sensor.entry_window_1:
+  icon: mdi:window-closed
+binary_sensor.entry_window_2:
+  icon: mdi:window-closed
+binary_sensor.guest_window_1:
+  icon: mdi:window-closed
+binary_sensor.guest_window_2:
+  icon: mdi:window-closed
+binary_sensor.guest_window_3:
+  icon: mdi:window-closed
+binary_sensor.master_window_1:
+  icon: mdi:window-closed
+binary_sensor.master_window_2:
+  icon: mdi:window-closed
+binary_sensor.master_window_3:
+  icon: mdi:window-closed
+binary_sensor.noah_room_window:
+  icon: mdi:window-closed
+binary_sensor.office_window_1:
+  icon: mdi:window-closed
+binary_sensor.office_window_2:
+  icon: mdi:window-closed
+binary_sensor.hannah_window_1:
+  icon: mdi:window-closed
+binary_sensor.hannah_window_2:
+  icon: mdi:window-closed
+binary_sensor.play_room_window_1:
+  icon: mdi:window-closed
+binary_sensor.play_room_window_2:
+  icon: mdi:window-closed
+
+
