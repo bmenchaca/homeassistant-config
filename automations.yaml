@@ -22,14 +22,14 @@
 #  alias: Turn off All Craft Room Switches when Main Switch Turned Off
 #  trigger:
 #    platform: state
-#    entity_id: switch.craft_room_fan_switch
+#    entity_id: switch.craft_room_fan_39
 #    from: 'on'
 #    to: 'off'
 #  action:
 #    service: scene.turn_on
 #    entity_id: scene.craft_room_switch_off
 #  - service: switch.turn_off
-#    entity_id: switch.craft_room_sewing_lamp_switch
+#    entity_id: switch.craft_sewing_lamp_67
 #  - service: light.turn_off
 #    entity_id: light.craft_floor_lamp_66
   
@@ -37,14 +37,14 @@
 #  alias: Turn on All Craft Room Switches when Main Switch Turned On
 #  trigger:
 #    platform: state
-#    entity_id: switch.craft_room_fan_switch
+#    entity_id: switch.craft_room_fan_39
 #    from: 'off'
 #    to: 'on'
 #  action:
 #    service: scene.turn_on
 #    entity_id: scene.craft_room_switch_on
   #  - service: switch.turn_on
-  #    entity_id: switch.craft_room_sewing_lamp_switch
+  #    entity_id: switch.craft_sewing_lamp_67
   #  - service: light.turn_on
   #    entity_id: light.craft_floor_lamp_66
   

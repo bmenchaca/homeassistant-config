@@ -54,7 +54,7 @@ christmas_lights_at_night:
 craft_room_switch_on:
   class: Sequence
   module: sequence
-  input: switch.craft_room_fan_switch
+  input: switch.craft_room_fan_39
   state: "on"
   sequence:
     - entity: scene.craft_room_switch_on
@@ -64,7 +64,7 @@ craft_room_switch_on:
 craft_room_switch_off:
   class: Sequence
   module: sequence
-  input: switch.craft_room_fan_switch
+  input: switch.craft_room_fan_39
   state: "off"
   sequence:
     - entity: scene.craft_room_switch_off

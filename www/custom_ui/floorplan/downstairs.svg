@@ -716,7 +716,7 @@
          id="title155">Family Room Dimmer</title>
     </path>
     <g
-       id="switch.family_room_fan_switch"
+       id="switch.family_room_fan_55"
        transform="translate(-179.26262,-462.38153)"
        inkscape:label="#g163">
       <title
@@ -862,7 +862,7 @@
        inkscape:label="#path8704"
        inkscape:connector-curvature="0"
        d="m 380.15781,495.40283 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
-       id="switch.craft_room_sewing_lamp_switch"
+       id="switch.craft_sewing_lamp_67"
        inkscape:transform-center-x="50.781248"
        inkscape:transform-center-y="-46.874998">
       <title
@@ -902,7 +902,7 @@
       </path>
     </g>
     <g
-       id="switch.entry_light_switch"
+       id="switch.entry_lights_46"
        inkscape:label="#g226">
       <title
          id="title228">Entry Lights</title>
@@ -932,7 +932,7 @@
          id="title230">Back Porch Light</title>
     </path>
     <path
-       id="switch.craft_room_fan_switch"
+       id="switch.craft_room_fan_39"
        d="m 306.07873,495.11251 a 2,2 0 0 0 -2,2 2,2 0 0 0 2,2 2,2 0 0 0 2,-2 2,2 0 0 0 -2,-2 m 1,-18 c 9,0 9.22,7.14 4.5,9.5 -1.98,0.98 -2.86,3.08 -3.24,4.94 0.96,0.4 1.8,1.02 2.44,1.82 7.4,-4 15.36,-2.42 15.36,4.74 0,9 -7.14,9.2 -9.5,4.46 -1,-1.98 -3.12,-2.86 -4.98,-3.24 -0.4,0.96 -1.02,1.78 -1.82,2.46 3.98,7.38 2.4,15.32 -4.76,15.32 -9,0 -9.18,-7.16 -4.46,-9.52 1.96,-0.98 2.84,-3.06 3.24,-4.9 -0.98,-0.4 -1.84,-1.04 -2.48,-1.84 -7.38,3.96 -15.3,2.4 -15.3,-4.74 0,-9 7.12,-9.22 9.48,-4.48 1,1.98 3.1,2.84 4.96,3.22 0.38,-0.96 1.02,-1.8 1.84,-2.44 -3.98,-7.38 -2.4,-15.3 4.72,-15.3 z"
        inkscape:connector-curvature="0"
        style="stroke-width:2"

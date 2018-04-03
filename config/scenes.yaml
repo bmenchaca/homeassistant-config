@@ -57,7 +57,7 @@
     switch.dining_room_lights_switch: off
     switch.stairs_light_switch: off
     switch.breakfast_lights_switch: off
-    switch.entry_light_switch: off
+    switch.entry_lights_46: off
     switch.guest_bathroom_lights_switch: off
     switch.guest_hall_lights_switch: off
     light.family_room_lights_59:
@@ -76,7 +76,7 @@
     switch.kitchen_lights_switch: off
     switch.dining_room_lights_switch: off
     switch.breakfast_lights_switch: off
-    switch.entry_light_switch: off
+    switch.entry_lights_46: off
     switch.christmas_tree_54: off
     light.family_room_lights_59:
       state: off
