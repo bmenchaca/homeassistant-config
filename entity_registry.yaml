@@ -350,46 +350,6 @@ sensor.gallery_hsm200_burglar:
   name:
   platform: zwave
   unique_id: 40-72057594715062433
-switch.stairs_light_switch:
-  name:
-  platform: zwave
-  unique_id: 41-72057594730594304
-switch.stairs_light_switch_2:
-  name:
-  platform: zwave
-  unique_id: 41-144115188768522240
-sensor.stairs_light_alarm_type:
-  name:
-  platform: zwave
-  unique_id: 41-72057594731839489
-sensor.stairs_light_alarm_level:
-  name:
-  platform: zwave
-  unique_id: 41-72057594731839505
-sensor.stairs_light_alarm_type_2:
-  name:
-  platform: zwave
-  unique_id: 41-144115188769767425
-sensor.stairs_light_alarm_level_2:
-  name:
-  platform: zwave
-  unique_id: 41-144115188769767441
-sensor.stairs_light_sourcenodeid:
-  name:
-  platform: zwave
-  unique_id: 41-72057594731839521
-sensor.stairs_light_burglar:
-  name:
-  platform: zwave
-  unique_id: 41-72057594731839649
-sensor.stairs_light_sourcenodeid_2:
-  name:
-  platform: zwave
-  unique_id: 41-144115188769767457
-sensor.stairs_light_burglar_2:
-  name:
-  platform: zwave
-  unique_id: 41-144115188769767585
 binary_sensor.multisensor_1_sensor:
   name:
   platform: zwave
@@ -1190,43 +1150,43 @@ sensor.heidi_room_multisensor_burglar:
   name:
   platform: zwave
   unique_id: 85-72057595470037153
-switch.stairs_light_switch_3:
+switch.stairs_light_switch:
   name:
   platform: zwave
   unique_id: 86-72057595485569024
-switch.stairs_light_switch_4:
+switch.stairs_light_switch_2:
   name:
   platform: zwave
   unique_id: 86-144115189523496960
-sensor.stairs_light_alarm_type_3:
+sensor.stairs_light_alarm_type:
   name:
   platform: zwave
   unique_id: 86-72057595486814209
-sensor.stairs_light_alarm_level_3:
+sensor.stairs_light_alarm_level:
   name:
   platform: zwave
   unique_id: 86-72057595486814225
-sensor.stairs_light_alarm_type_4:
+sensor.stairs_light_alarm_type_2:
   name:
   platform: zwave
   unique_id: 86-144115189524742145
-sensor.stairs_light_alarm_level_4:
+sensor.stairs_light_alarm_level_2:
   name:
   platform: zwave
   unique_id: 86-144115189524742161
-sensor.stairs_light_sourcenodeid_3:
+sensor.stairs_light_sourcenodeid:
   name:
   platform: zwave
   unique_id: 86-72057595486814241
-sensor.stairs_light_burglar_3:
+sensor.stairs_light_burglar:
   name:
   platform: zwave
   unique_id: 86-72057595486814369
-sensor.stairs_light_sourcenodeid_4:
+sensor.stairs_light_sourcenodeid_2:
   name:
   platform: zwave
   unique_id: 86-144115189524742177
-sensor.stairs_light_burglar_4:
+sensor.stairs_light_burglar_2:
   name:
   platform: zwave
   unique_id: 86-144115189524742305
