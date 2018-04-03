@@ -31,7 +31,7 @@
 #  - service: switch.turn_off
 #    entity_id: switch.craft_room_sewing_lamp_switch
 #  - service: light.turn_off
-#    entity_id: light.craft_room_large_lamp_level
+#    entity_id: light.craft_floor_lamp_66
   
 #- id: craft_room_switch_on
 #  alias: Turn on All Craft Room Switches when Main Switch Turned On
@@ -46,7 +46,7 @@
   #  - service: switch.turn_on
   #    entity_id: switch.craft_room_sewing_lamp_switch
   #  - service: light.turn_on
-  #    entity_id: light.craft_room_large_lamp_level
+  #    entity_id: light.craft_floor_lamp_66
   
 # Upstairs Night Lights Off
 #- id: boys_hall_night_light_off
@@ -339,7 +339,7 @@
 #   event: sunset
 # action:
 #   service: switch.turn_on
-#   entity_id: switch.entry_christmas_tree_outlet_switch
+#   entity_id: switch.christmas_tree_54
 
 #- id: christmas_lights_off_sunset
 #  alias: "Turn off Christmas Lights at night"
@@ -348,7 +348,7 @@
 #   at: "22:30:00"
 # action:
 #   service: switch.turn_off
-#   entity_id: switch.entry_christmas_tree_outlet_switch
+#   entity_id: switch.christmas_tree_54
 
 #- id: ben_garage_night_warning
 #  alias: "Ben's Garage Door is Open at Night"

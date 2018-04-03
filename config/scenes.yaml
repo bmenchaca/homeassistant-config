@@ -25,11 +25,11 @@
   
 - name: christmas_lights_daytime
   entities:
-    switch.entry_christmas_tree_outlet_switch: off
+    switch.christmas_tree_54: off
 
 - name: christmas_lights_nighttime
   entities:
-    switch.entry_christmas_tree_outlet_switch: on
+    switch.christmas_tree_54: on
 
 - name: garage_outdoor_lights_daytime
   entities:
@@ -60,7 +60,7 @@
     switch.entry_light_switch: off
     switch.guest_bathroom_lights_switch: off
     switch.guest_hall_lights_switch: off
-    light.family_room_fan_lights_level:
+    light.family_room_lights_59:
       state: off
     light.mantle_light:
       state: on
@@ -77,8 +77,8 @@
     switch.dining_room_lights_switch: off
     switch.breakfast_lights_switch: off
     switch.entry_light_switch: off
-    switch.entry_christmas_tree_outlet_switch: off
-    light.family_room_fan_lights_level:
+    switch.christmas_tree_54: off
+    light.family_room_lights_59:
       state: off
     switch.family_room_mantle_light_switch: off
     switch.back_porch_light_switch: off

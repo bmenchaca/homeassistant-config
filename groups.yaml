@@ -114,7 +114,7 @@ family_room:
   entities:
     - media_player.living
     - switch.family_room_fan_switch
-    - light.family_room_fan_lights_level
+    - light.family_room_lights_59
     - light.mantle_light
     - sensor.netatmo_indoor_temperature
     - sensor.netatmo_indoor_co2

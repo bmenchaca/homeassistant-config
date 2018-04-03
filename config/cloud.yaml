@@ -1,8 +1,8 @@
 alexa:
   filter:
     include_entities:
-      - light.family_room_fan_lights_level
-      - light.craft_room_large_lamp_level
+      - light.family_room_lights_59
+      - light.craft_floor_lamp_66
       - light.game_room_fan_lights_dimmer_level
       - light.master_bath_vanity_lights_dimmer_level
       - light.master_fan_lights_dimmer_level
@@ -24,10 +24,10 @@ alexa:
       - switch.stairs_light_switch_2
     #exclude_domains:
   entity_config:
-    light.family_room_fan_lights_level:
+    light.family_room_lights_59:
       name: Family Room Lights
     #  description: The light in the kitchen
-    light.craft_room_large_lamp_level:
+    light.craft_floor_lamp_66:
       name: Craft Room Large Lamp
     light.game_room_fan_lights_dimmer_level:
       name: Game Room Lights

@@ -85,14 +85,14 @@
 
         - name: Light Switches
           entities:
-            - light.family_room_fan_lights_level
+            - light.family_room_lights_59
             - light.master_bath_vanity_lights_dimmer_level
             - light.master_fan_lights_dimmer_level
             - switch.back_porch_light_switch
             - switch.breakfast_lights_switch
             - switch.craft_room_sewing_lamp_switch
             - switch.dining_room_lights_switch
-            - switch.entry_christmas_tree_outlet_switch
+            - switch.christmas_tree_54
             - switch.entry_light_switch
             - switch.family_room_mantle_light_switch
             - switch.front_porch_lights_switch
