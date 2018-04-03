@@ -33,6 +33,11 @@
             - binary_sensor.breakfast_window_2
             - binary_sensor.breakfast_window_3
             - binary_sensor.breakfast_window_4
+            - binary_sensor.family_window_1
+            - binary_sensor.family_window_2
+            - binary_sensor.guest_window_1
+            - binary_sensor.guest_window_2
+            - binary_sensor.guest_window_3
           states:
             - state: 'on'
               class: 'security-window-opened'
