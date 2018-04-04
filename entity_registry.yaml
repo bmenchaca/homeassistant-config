@@ -353,39 +353,39 @@ sensor.gallery_hsm200_burglar:
 binary_sensor.heidi_room_multisensor_sensor:
   name:
   platform: zwave
-  unique_id: 45-72057594797883392
+  unique_id: 85-72057595468972032
 sensor.heidi_room_multisensor_temperature:
   name:
   platform: zwave
-  unique_id: 45-72057594797899794
+  unique_id: 85-72057595468988434
 sensor.heidi_room_multisensor_luminance:
   name:
   platform: zwave
-  unique_id: 45-72057594797899826
+  unique_id: 85-72057595468988466
 sensor.heidi_room_multisensor_relative_humidity:
   name:
   platform: zwave
-  unique_id: 45-72057594797899858
+  unique_id: 85-72057595468988498
 sensor.heidi_room_multisensor_ultraviolet:
   name:
   platform: zwave
-  unique_id: 45-72057594797900210
+  unique_id: 85-72057595468988850
 sensor.heidi_room_multisensor_alarm_type:
   name:
   platform: zwave
-  unique_id: 45-72057594798948353
+  unique_id: 85-72057595470036993
 sensor.heidi_room_multisensor_alarm_level:
   name:
   platform: zwave
-  unique_id: 45-72057594798948369
+  unique_id: 85-72057595470037009
 sensor.heidi_room_multisensor_sourcenodeid:
   name:
   platform: zwave
-  unique_id: 45-72057594798948385
+  unique_id: 85-72057595470037025
 sensor.heidi_room_multisensor_burglar:
   name:
   platform: zwave
-  unique_id: 45-72057594798948513
+  unique_id: 85-72057595470037153
 binary_sensor.multisensor_3_sensor:
   name:
   platform: zwave
@@ -614,46 +614,6 @@ sensor.pantry_door_power_management:
   name:
   platform: zwave
   unique_id: 59-72057595033829553
-switch.front_porch_lights_switch:
-  name:
-  platform: zwave
-  unique_id: 61-72057595066138624
-switch.front_porch_lights_switch_2:
-  name:
-  platform: zwave
-  unique_id: 61-144115189104066560
-sensor.front_porch_lights_alarm_type:
-  name:
-  platform: zwave
-  unique_id: 61-72057595067383809
-sensor.front_porch_lights_alarm_level:
-  name:
-  platform: zwave
-  unique_id: 61-72057595067383825
-sensor.front_porch_lights_alarm_type_2:
-  name:
-  platform: zwave
-  unique_id: 61-144115189105311745
-sensor.front_porch_lights_alarm_level_2:
-  name:
-  platform: zwave
-  unique_id: 61-144115189105311761
-sensor.front_porch_lights_sourcenodeid:
-  name:
-  platform: zwave
-  unique_id: 61-72057595067383841
-sensor.front_porch_lights_burglar:
-  name:
-  platform: zwave
-  unique_id: 61-72057595067383969
-sensor.front_porch_lights_sourcenodeid_2:
-  name:
-  platform: zwave
-  unique_id: 61-144115189105311777
-sensor.front_porch_lights_burglar_2:
-  name:
-  platform: zwave
-  unique_id: 61-144115189105311905
 binary_sensor.laundry_room_closet_door_sensor:
   name:
   platform: zwave
@@ -814,26 +774,6 @@ sensor.girls_hall_light_burglar_2:
   name:
   platform: zwave
   unique_id: 75-144115189340192929
-switch.boys_hall_light_switch:
-  name:
-  platform: zwave
-  unique_id: 73-144115189305393152
-sensor.boys_hall_light_burglar:
-  name:
-  platform: zwave
-  unique_id: 73-72057595268710561
-sensor.boys_hall_light_alarm_type:
-  name:
-  platform: zwave
-  unique_id: 73-144115189306638337
-sensor.boys_hall_light_alarm_level:
-  name:
-  platform: zwave
-  unique_id: 73-144115189306638353
-sensor.boys_hall_light_sourcenodeid:
-  name:
-  platform: zwave
-  unique_id: 73-144115189306638369
 binary_sensor.master_closet_door_sensor:
   name:
   platform: zwave
@@ -862,26 +802,6 @@ sensor.master_closet_door_power_management:
   name:
   platform: zwave
   unique_id: 78-72057595352596657
-switch.boys_hall_light_switch_2:
-  name:
-  platform: zwave
-  unique_id: 73-72057595267465216
-sensor.boys_hall_light_alarm_type_2:
-  name:
-  platform: zwave
-  unique_id: 73-72057595268710401
-sensor.boys_hall_light_alarm_level_2:
-  name:
-  platform: zwave
-  unique_id: 73-72057595268710417
-sensor.boys_hall_light_sourcenodeid_2:
-  name:
-  platform: zwave
-  unique_id: 73-72057595268710433
-sensor.boys_hall_light_burglar_2:
-  name:
-  platform: zwave
-  unique_id: 73-144115189306638497
 switch.girls_hall_light_switch:
   name:
   platform: zwave
@@ -994,42 +914,6 @@ sensor.boys_bathroom_lights_burglar_2:
   name:
   platform: zwave
   unique_id: 84-144115189491187873
-binary_sensor.heidi_room_multisensor_sensor:
-  name:
-  platform: zwave
-  unique_id: 85-72057595468972032
-sensor.heidi_room_multisensor_temperature:
-  name:
-  platform: zwave
-  unique_id: 85-72057595468988434
-sensor.heidi_room_multisensor_luminance:
-  name:
-  platform: zwave
-  unique_id: 85-72057595468988466
-sensor.heidi_room_multisensor_relative_humidity:
-  name:
-  platform: zwave
-  unique_id: 85-72057595468988498
-sensor.heidi_room_multisensor_ultraviolet:
-  name:
-  platform: zwave
-  unique_id: 85-72057595468988850
-sensor.heidi_room_multisensor_alarm_type:
-  name:
-  platform: zwave
-  unique_id: 85-72057595470036993
-sensor.heidi_room_multisensor_alarm_level:
-  name:
-  platform: zwave
-  unique_id: 85-72057595470037009
-sensor.heidi_room_multisensor_sourcenodeid:
-  name:
-  platform: zwave
-  unique_id: 85-72057595470037025
-sensor.heidi_room_multisensor_burglar:
-  name:
-  platform: zwave
-  unique_id: 85-72057595470037153
 switch.stairs_light_switch:
   name:
   platform: zwave
@@ -1178,3 +1062,83 @@ light.master_bath_color:
   name:
   platform: hue
   unique_id: 00:17:88:01:02:50:ec:35-0b
+switch.boys_hall_light_switch:
+  name:
+  platform: zwave
+  unique_id: 88-72057595519123456
+switch.boys_hall_light_switch_2:
+  name:
+  platform: zwave
+  unique_id: 88-144115189557051392
+sensor.boys_hall_light_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 88-72057595520368641
+sensor.boys_hall_light_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 88-72057595520368657
+sensor.boys_hall_light_alarm_type_2:
+  name:
+  platform: zwave
+  unique_id: 88-144115189558296577
+sensor.boys_hall_light_alarm_level_2:
+  name:
+  platform: zwave
+  unique_id: 88-144115189558296593
+sensor.boys_hall_light_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 88-72057595520368673
+sensor.boys_hall_light_burglar:
+  name:
+  platform: zwave
+  unique_id: 88-72057595520368801
+sensor.boys_hall_light_sourcenodeid_2:
+  name:
+  platform: zwave
+  unique_id: 88-144115189558296609
+sensor.boys_hall_light_burglar_2:
+  name:
+  platform: zwave
+  unique_id: 88-144115189558296737
+switch.front_porch_light_switch:
+  name:
+  platform: zwave
+  unique_id: 89-72057595535900672
+switch.front_porch_light_switch_2:
+  name:
+  platform: zwave
+  unique_id: 89-144115189573828608
+sensor.front_porch_light_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 89-72057595537145857
+sensor.front_porch_light_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 89-72057595537145873
+sensor.front_porch_light_alarm_type_2:
+  name:
+  platform: zwave
+  unique_id: 89-144115189575073793
+sensor.front_porch_light_alarm_level_2:
+  name:
+  platform: zwave
+  unique_id: 89-144115189575073809
+sensor.front_porch_light_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 89-72057595537145889
+sensor.front_porch_light_burglar:
+  name:
+  platform: zwave
+  unique_id: 89-72057595537146017
+sensor.front_porch_light_sourcenodeid_2:
+  name:
+  platform: zwave
+  unique_id: 89-144115189575073825
+sensor.front_porch_light_burglar_2:
+  name:
+  platform: zwave
+  unique_id: 89-144115189575073953
