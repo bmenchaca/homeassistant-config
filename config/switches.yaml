@@ -1,7 +1,7 @@
 # This does not work due to a permissions problem accessing a .cache dir
-- platform: rachio
-  access_token: !secret rachio_access_token
-  manual_run_mins: 10
+#- platform: rachio
+#  access_token: !secret rachio_access_token
+#  manual_run_mins: 10
   
 - platform: tplink
   host: 192.168.7.126
