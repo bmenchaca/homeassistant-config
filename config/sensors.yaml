@@ -49,7 +49,7 @@
   resources:
     - type: processor_use
     - type: memory_free
-    - type: disk_free
+    #- type: disk_free
       arg: /
 
 #- platform: usps
