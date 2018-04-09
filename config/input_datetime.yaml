@@ -1,0 +1,10 @@
+downstairs_last_motion_datetime:
+  name: Last Downstairs Motion
+  has_date: true
+  has_time: true
+
+upstairs_last_motion_datetime:
+  name: Last Upstairs Motion
+  has_date: true
+  has_time: true
+
