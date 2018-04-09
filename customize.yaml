@@ -159,7 +159,7 @@ switch.master_hall_lights_switch_2:
   hidden: true
 switch.stairs_light_switch_2:
   hidden: true
-lights.office_lights_level_2:
+light.office_lights_level_2:
   hidden: true
 sensor.master_hall_lights_alarm_level:
   hidden: true
