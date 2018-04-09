@@ -250,6 +250,7 @@ gallery:
   entities:
     - binary_sensor.gallery_occupancy
     - switch.gallery_hall_lights_switch
+    - light.gallery
     - light.gallery_flood
     - sensor.gallery_hsm200_temperature
     - camera.gallery
@@ -277,6 +278,8 @@ office:
     - media_player.office
     - switch.office_fan_34
     - switch.office_lamp_35
+    - light.office
+    - light.office_go
     - camera.guest_hall
     #- camera.office
     - binary_sensor.office_window_1
@@ -296,6 +299,7 @@ master_bath:
   name: Master Bath
   entities:
     - switch.master_bathtub_light_41
+    - light.master_bath
     - light.master_bath_color
     - light.master_bath_vanity_40
 
