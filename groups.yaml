@@ -279,7 +279,7 @@ office:
     - switch.office_fan_34
     - switch.office_lamp_35
     - light.office
-    - light.office_go
+    - light.hue_go_1
     - camera.guest_hall
     #- camera.office
     - binary_sensor.office_window_1
