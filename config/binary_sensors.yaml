@@ -16,6 +16,17 @@
 
 - platform: template
   sensors:
+    dining_roomt_occupancy:
+      friendly_name: 'Dining Occupancy'
+      value_template: >-
+        {%- if is_state("sensor.dining_room_lights_burglar", "8") -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
+
+- platform: template
+  sensors:
     laundry_room_occupancy:
       friendly_name: 'Laundry Room Occupancy'
       value_template: >-
@@ -60,7 +71,7 @@
 
 - platform: template
   sensors:
-    master_hall_occupancy:
+    stairs_occupancy:
       friendly_name: 'Stairs Occupancy'
       value_template: >-
         {%- if is_state("sensor.stairs_light_burglar", "8") -%}
@@ -68,12 +79,24 @@
         {%- else -%}
           False
         {%- endif -%}
+
 - platform: template
   sensors:
     gallery_occupancy:
       friendly_name: 'Gallery Occupancy'
       value_template: >-
         {%- if is_state("sensor.gallery_hall_lights_burglar", "8") -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
+
+- platform: template
+  sensors:
+    family_room_occupancy:
+      friendly_name: 'Family Room Occupancy'
+      value_template: >-
+        {%- if is_state("sensor.breakfast_lights_burglar", "8") -%}
           True
         {%- else -%}
           False
