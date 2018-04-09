@@ -17,6 +17,12 @@ light.master_bath:
 light.master_hall:
   friendly_name: All Master Hall Lights
   hidden: true
+# Hide hue group for a room
+light.family_room:
+  hidden: true
+light.group_for_wakeup:
+  hidden: true          
+
 binary_sensor.heidi_room_multisensor_sensor:
   friendly_name: Heidi's Room Motion Sensor
 sensor.heidi_room_multisensor_temperature:
@@ -127,6 +133,10 @@ switch.zone_13:
   haaska_hidden: true
 switch.zone_14:
   hidden: true
+switch.boys_bathroom_lights_switch_2:
+  hidden: true
+switch.boys_hall_light_switch_2:
+  hidden: true
 switch.breakfast_lights_switch_2:
   hidden: true
 switch.dining_room_lights_switch_2:
@@ -136,6 +146,8 @@ switch.front_porch_light_switch_2:
 switch.gallery_hall_lights_switch_2:
   hidden: true
 switch.game_room_fan_switch_2:
+  hidden: true
+switch.girls_hall_light_switch_2:
   hidden: true
 switch.guest_fan_and_lights_switch_2:
   hidden: true
