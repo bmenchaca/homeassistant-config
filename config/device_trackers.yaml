@@ -1,5 +1,7 @@
 - platform: owntracks
   waypoints: False
+  track_new_devices: False
+  #consider_home: 60
 
 #- platform: nmap_tracker
 #  hosts:
