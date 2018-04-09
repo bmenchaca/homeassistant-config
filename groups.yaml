@@ -375,6 +375,18 @@ system_switches:
     - switch.office_control_p4_33
     - switch.office_control_strip_29
 
+downstairs_occupancy:
+  name: Downstairs Occupancy
+  entities:
+    - binary_sensor.stairs_occupancy
+    - binary_sensor.guest_occupancy
+
+upstairs_occupancy:
+  name: Upstairs Occupancy
+  entities:
+    - binary_sensor.gallery_occupancy
+
+
 # Views      
 downstairs_view:
   name: Downstairs
@@ -450,3 +462,9 @@ weather_view:
     - group.today_forecast
     - group.future_forecast
 
+occupancy_view:
+  name: Occupancy
+  view: yes
+  entities:
+    - group.downstairs_occupancy
+    - group.upstairs_occupancy
