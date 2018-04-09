@@ -359,13 +359,6 @@ future_forecast:
     - sensor.pws_weather_5d
     - sensor.pws_weather_5n
 
-
-family:
-  name: Family Presence
-  entities:
-    - sensor.ben_presence
-    - sensor.susan_presence
-
 usage_info:
   name: System Usage
   entities:
