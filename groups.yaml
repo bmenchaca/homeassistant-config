@@ -358,11 +358,6 @@ family:
     - sensor.ben_presence
     - sensor.susan_presence
 
-system:
-  name: System
-  entities:
-    - binary_sensor.cpu_overload
-
 # Views      
 downstairs_view:
   name: Downstairs
@@ -422,6 +417,18 @@ back_yard_view:
     - group.back_porch
     - group.back_yard_sprinklers
     - group.garden
+
+system_view:
+  name: System
+  view: yes
+  entities:
+    - sensor.memory_free_
+    - sensor.processor_use
+    - switch.office_control_p1_30
+    - switch.office_control_p2_31
+    - switch.office_control_p3_32
+    - switch.office_control_p4_33
+    - switch.office_control_strip_29
 
 weather_view:
   name: Weather
