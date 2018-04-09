@@ -358,6 +358,13 @@ family:
     - sensor.ben_presence
     - sensor.susan_presence
 
+usage_info:
+  name: System Usage
+  entities:
+    - sensor.processor_use
+    - sensor.memory_free_
+    - sensor.memory_free
+
 # Views      
 downstairs_view:
   name: Downstairs
@@ -422,8 +429,7 @@ system_view:
   name: System
   view: yes
   entities:
-    - sensor.memory_free_
-    - sensor.processor_use
+    - group.usage_info
     - switch.office_control_p1_30
     - switch.office_control_p2_31
     - switch.office_control_p3_32
@@ -438,10 +444,3 @@ weather_view:
     - group.today_forecast
     - group.future_forecast
 
-family_view:
-  name: Family
-  view: yes
-  entities:
-    - sensor.ben_presence
-    - sensor.susan_presence
-    - device_tracker.heidi_android
