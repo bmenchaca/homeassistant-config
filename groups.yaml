@@ -57,7 +57,7 @@ craft_room:
 guest_room:
   name: Guest Room
   entities:
-    - switch.guest_smart_plug
+    - switch.guest_heater
     - switch.guest_fan_and_lights_switch
     - light.guest
     - light.guest_1
@@ -115,8 +115,9 @@ family_room:
   entities:
     - media_player.living
     - switch.family_room_fan_55
+    - switch.mantle_flood_light_58
     - light.family_room_lights_59
-    - light.mantle_light
+    - light.family_room_flood
     - sensor.netatmo_indoor_temperature
     - sensor.netatmo_indoor_co2
     - sensor.netatmo_indoor_noise
@@ -200,7 +201,7 @@ boys_bathroom:
   name: Boy's Bathroom
   entities:
     - binary_sensor.boys_bathroom_occupancy
-    - switch.boys_bathroom_light_switch
+    - switch.boys_bathroom_lights_switch
 
 boys_hallway:
   name: Boy's Hall
@@ -294,7 +295,8 @@ master:
 master_bath:
   name: Master Bath
   entities:
-    - light.master_bath
+    - switch.master_bathtub_light_41
+    - light.master_bath_color
     - light.master_bath_vanity_40
 
 master_closet:
@@ -365,6 +367,15 @@ usage_info:
     - sensor.memory_free_
     - sensor.memory_free
 
+system_switches:
+  name: System Switches
+  entities:
+    - switch.office_control_p1_30
+    - switch.office_control_p2_31
+    - switch.office_control_p3_32
+    - switch.office_control_p4_33
+    - switch.office_control_strip_29
+
 # Views      
 downstairs_view:
   name: Downstairs
@@ -430,11 +441,7 @@ system_view:
   view: yes
   entities:
     - group.usage_info
-    - switch.office_control_p1_30
-    - switch.office_control_p2_31
-    - switch.office_control_p3_32
-    - switch.office_control_p4_33
-    - switch.office_control_strip_29
+    - group.system_switches
 
 weather_view:
   name: Weather
