@@ -50,7 +50,7 @@
     - type: processor_use
     - type: memory_free
     #- type: disk_free
-      arg: /
+    #  arg: /
 
 #- platform: usps
 #  username: !secret usps_username
