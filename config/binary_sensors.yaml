@@ -5,18 +5,6 @@
 
 - platform: template
   sensors:
-    cpu_overload:
-      friendly_name: 'CPU Above 25%'
-      value_template: >-
-        {%- if states('sensor.cpu_use')|int >= 25 -%}
-          True
-        {%- else -%}
-          False
-        {%- endif -%}
-#      value_template: "{{ states('sensor.cpu_use')|int >= 25 }}"
-
-- platform: template
-  sensors:
     guest_occupancy:
       friendly_name: 'Guest Occupancy'
       value_template: >-
