@@ -309,6 +309,7 @@ master_hall:
   name: Master Hall
   entities:
     - binary_sensor.master_hall_occupancy
+    - switch.master_hall_lights_switch
     - light.master_hall_lights
     - light.master_hall_1
     - light.master_hall_2
