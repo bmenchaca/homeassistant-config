@@ -29,17 +29,17 @@ sensor.heidi_room_multisensor_temperature:
   friendly_name: Heidi's Room Temperature
 sensor.heidi_room_multisensor_relative_humidity:
   friendly_name: Heidi's Room Relative Humidity
-binary_sensor.multisensor_2_sensor:
+binary_sensor.noah_room_multisensor_sensor:
   friendly_name: Noah's Room Motion Sensor
-sensor.multisensor_2_temperature:
+sensor.noah_room_multisensor_temperature:
   friendly_name: Noah's Room Temperature
-sensor.multisensor_2_relative_humidity:
+sensor.noah_room_multisensor_relative_humidity:
   friendly_name: Noah's Room Relative Humidity
-binary_sensor.multisensor_3_sensor:
+binary_sensor.hannah_room_multisensor_sensor:
   friendly_name: Hannah's Room Motion Sensor
-sensor.multisensor_3_temperature:
+sensor.hannah_room_multisensor_temperature:
   friendly_name: Hannah's Room Temperature
-sensor.multisensor_3_relative_humidity:
+sensor.hannah_room_multisensor_relative_humidity:
   friendly_name: Hannah's Room Relative Humidity
 binary_sensor.gallery_hsm200_sensor:
   hidden: true

@@ -386,75 +386,75 @@ sensor.heidi_room_multisensor_burglar:
   name:
   platform: zwave
   unique_id: 85-72057595470037153
-binary_sensor.multisensor_3_sensor:
+binary_sensor.hannah_room_multisensor_sensor:
   name:
   platform: zwave
   unique_id: 46-72057594814660608
-sensor.multisensor_3_temperature:
+sensor.hannah_room_multisensor_temperature:
   name:
   platform: zwave
   unique_id: 46-72057594814677010
-sensor.multisensor_3_luminance:
+sensor.hannah_room_multisensor_luminance:
   name:
   platform: zwave
   unique_id: 46-72057594814677042
-sensor.multisensor_3_relative_humidity:
+sensor.hannah_room_multisensor_relative_humidity:
   name:
   platform: zwave
   unique_id: 46-72057594814677074
-sensor.multisensor_3_ultraviolet:
+sensor.hannah_room_multisensor_ultraviolet:
   name:
   platform: zwave
   unique_id: 46-72057594814677426
-sensor.multisensor_3_alarm_type:
+sensor.hannah_room_multisensor_alarm_type:
   name:
   platform: zwave
   unique_id: 46-72057594815725569
-sensor.multisensor_3_alarm_level:
+sensor.hannah_room_multisensor_alarm_level:
   name:
   platform: zwave
   unique_id: 46-72057594815725585
-sensor.multisensor_3_sourcenodeid:
+sensor.hannah_room_multisensor_sourcenodeid:
   name:
   platform: zwave
   unique_id: 46-72057594815725601
-sensor.multisensor_3_burglar:
+sensor.hannah_room_multisensor_burglar:
   name:
   platform: zwave
   unique_id: 46-72057594815725729
-binary_sensor.multisensor_2_sensor:
+binary_sensor.noah_room_multisensor_sensor:
   name:
   platform: zwave
   unique_id: 47-72057594831437824
-sensor.multisensor_2_temperature:
+sensor.noah_room_multisensor_temperature:
   name:
   platform: zwave
   unique_id: 47-72057594831454226
-sensor.multisensor_2_luminance:
+sensor.noah_room_multisensor_luminance:
   name:
   platform: zwave
   unique_id: 47-72057594831454258
-sensor.multisensor_2_relative_humidity:
+sensor.noah_room_multisensor_relative_humidity:
   name:
   platform: zwave
   unique_id: 47-72057594831454290
-sensor.multisensor_2_ultraviolet:
+sensor.noah_room_multisensor_ultraviolet:
   name:
   platform: zwave
   unique_id: 47-72057594831454642
-sensor.multisensor_2_alarm_type:
+sensor.noah_room_multisensor_alarm_type:
   name:
   platform: zwave
   unique_id: 47-72057594832502785
-sensor.multisensor_2_alarm_level:
+sensor.noah_room_multisensor_alarm_level:
   name:
   platform: zwave
   unique_id: 47-72057594832502801
-sensor.multisensor_2_sourcenodeid:
+sensor.noah_room_multisensor_sourcenodeid:
   name:
   platform: zwave
   unique_id: 47-72057594832502817
-sensor.multisensor_2_burglar:
+sensor.noah_room_multisensor_burglar:
   name:
   platform: zwave
   unique_id: 47-72057594832502945

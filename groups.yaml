@@ -193,9 +193,9 @@ noah_room:
     - light.noah_2
     - light.noah_color
     - light.noah_lamp
-    - binary_sensor.multisensor_2_sensor
-    - sensor.multisensor_2_temperature
-    - sensor.multisensor_2_relative_humidity
+    - binary_sensor.noah_room_multisensor_sensor
+    - sensor.noah_room_multisensor_temperature
+    - sensor.noah_room_multisensor_relative_humidity
     - binary_sensor.noah_room_window
 
 boys_bathroom:
@@ -240,9 +240,9 @@ hannah_room:
     - light.hannah_2
     - light.hannah_color
     - light.hannah_lamp
-    - binary_sensor.multisensor_3_sensor
-    - sensor.multisensor_3_temperature
-    - sensor.multisensor_3_relative_humidity
+    - binary_sensor.hannah_room_multisensor_sensor
+    - sensor.hannah_room_multisensor_temperature
+    - sensor.hannah_room_multisensor_relative_humidity
     - binary_sensor.hannah_window_1
     - binary_sensor.hannah_window_2
 
@@ -378,13 +378,27 @@ system_switches:
 downstairs_occupancy:
   name: Downstairs Occupancy
   entities:
-    - binary_sensor.stairs_occupancy
+    - binary_sensor.dining_room_occupancy
+    - binary_sensor.entry_room_occupancy
+    - binary_sensor.family_room_occupancy
     - binary_sensor.guest_occupancy
+    - binary_sensor.laundry_room_occupancy
+    - binary_sensor.master_hall_occupancy
+    - binary_sensor.master_occupancy
+    - binary_sensor.stairs_occupancy
 
 upstairs_occupancy:
   name: Upstairs Occupancy
   entities:
+    - binary_sensor.boys_hall_occupancy
+    - binary_sensor.boys_bathroom_occupancy
     - binary_sensor.gallery_occupancy
+    - binary_sensor.game_room_occupancy
+    - binary_sensor.girls_hall_occupancy
+    - binary_sensor.heidi_room_multisensor_sensor
+    - binary_sensor.noah_room_multisensor_sensor
+    - binary_sensor.noah_room_multisensor3sensor
+    - binary_sensor.office_occupancy
 
 
 # Views      
