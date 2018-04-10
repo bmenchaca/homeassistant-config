@@ -1,4 +1,5 @@
 *
+!options.xml
 !.gitignore
 !.travis.yml
 !*.yaml
