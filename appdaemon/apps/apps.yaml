@@ -1,5 +1,10 @@
 # FIXME: Add a nighttime warning if Ben or Susan's Garage door is open.
 
+#downstairs_last_motion:
+#  class: PirLastMotion
+#  module: pir_last_motion
+#  input_sensors: binary_sensor.guest_occupancy, binary_sensor.entry_occupancy
+#  output_sensor: sensor.downstairs_last_motion
 
 ###############################################################################
 # Door Automations
