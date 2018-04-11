@@ -14,9 +14,9 @@
   hidden: true
 "sensor.*_power_management*":
   hidden: true
-"sensor.multisensor_*_luminance":
+"sensor.*_multisensor_luminance":
   hidden: true
-"sensor.multisensor_*_ultraviolet":
+"sensor.*_multisensor_ultraviolet":
   hidden: true
 "sensor.netatmo_*door_*_*":
   hidden: true
