@@ -26,8 +26,8 @@ map:
 updater:
 config:
 sun:
-history: !include /config/history.yaml
-logbook: !include /config/logbook.yaml
+history: !include config/history.yaml
+logbook: !include config/logbook.yaml
 panel_custom: !include config/panel_custom.yaml
 frontend: !include config/frontend.yaml
 cloud: !include config/cloud.yaml
