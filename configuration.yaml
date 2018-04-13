@@ -25,9 +25,9 @@ zeroconf:
 map:
 updater:
 history:
-logbook:
 config:
 sun:
+logbook: !include /config/logbook.yaml
 panel_custom: !include config/panel_custom.yaml
 frontend: !include config/frontend.yaml
 cloud: !include config/cloud.yaml
