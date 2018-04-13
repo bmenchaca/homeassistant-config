@@ -1,3 +1,26 @@
 purge_interval: 1
-purge_keep_days: 10
+purge_keep_days: 7
 db_url: !secret db_url
+include:
+  domains:
+    - switch
+    - light
+    - binary_sensor
+#exclude:
+ #  entities:
+    #sensor.pws_weather
+    #sensor.pws_alerts
+    #sensor.pws_precip_1d
+    #sensor.pws_precip_1d_in
+    #sensor.pws_precip_today_in    
+    #sensor.pws_temp_f
+    #sensor.pws_temp_high_1d_f
+    #sensor.pws_temp_low_1d_f
+    #sensor.pws_weather_1d
+    #sensor.pws_weather_1n
+    #sensor.pws_weather_2d
+    #sensor.pws_weather_2n
+    #sensor.pws_weather_3d
+    #sensor.pws_weather_3n
+    #sensor.pws_wind_1d_mph
+    #sensor.pws_wind_mph
