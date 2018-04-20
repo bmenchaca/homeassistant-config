@@ -1,1 +1,3 @@
 default: warning
+logs:
+  homeassistant.components.mqtt: info
