@@ -161,7 +161,7 @@ laundry_room_motion_light:
   off_delay: 60
 
 craft_room_motion_lights:
-  class; SensorLight
+  class: SensorLight
   module: sensor_light
   sensor: binary_sensor.craft_room_occupancy
   entity_on: scene.craft_room_switch_on

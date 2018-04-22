@@ -142,10 +142,6 @@ switch.entry_christmas_tree_outlet_switch:
   name:
   platform: zwave
   unique_id: 21-72057594395049984
-switch.garage_lights_switch:
-  name:
-  platform: zwave
-  unique_id: 23-72057594428604416
 switch.garage_outdoor_lights_switch:
   name:
   platform: zwave
@@ -1110,11 +1106,11 @@ sensor.front_porch_light_burglar_2:
   name:
   platform: zwave
   unique_id: 89-144115189575073953
-switch.garage_lights_switch_2:
+switch.garage_lights_switch:
   name:
   platform: zwave
   unique_id: 90-72057595552677888
-switch.garage_lights_switch_3:
+switch.garage_lights_switch_2:
   name:
   platform: zwave
   unique_id: 90-144115189590605824
