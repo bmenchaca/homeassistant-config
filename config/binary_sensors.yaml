@@ -60,6 +60,28 @@
 
 - platform: template
   sensors:
+    master_bath_occupancy:
+      friendly_name: 'Master Bath Occupancy'
+      value_template: >-
+        {%- if is_state("sensor.master_bathtub_light_burglar", "8") -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
+
+- platform: template
+  sensors:
+    entry_room_occupancy:
+      friendly_name: 'Entry Room Occupancy'
+      value_template: >-
+        {%- if is_state("sensor.front_porch_lights_burglar", "8") -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
+
+- platform: template
+  sensors:
     entry_room_occupancy:
       friendly_name: 'Entry Room Occupancy'
       value_template: >-
@@ -75,6 +97,17 @@
       friendly_name: 'Master Hall Occupancy'
       value_template: >-
         {%- if is_state("sensor.master_hall_lights_burglar", "8") -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
+
+- platform: template
+  sensors:
+    garage_occupancy:
+      friendly_name: 'Garage Occupancy'
+      value_template: >-
+        {%- if is_state("sensor.garage_lights_burglar", "8") -%}
           True
         {%- else -%}
           False

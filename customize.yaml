@@ -64,7 +64,7 @@ switch.master_fan_switch:
   icon: mdi:fan
 switch.craft_sewing_lamp_67:
   icon: mdi:lightbulb
-switch.garage_lights_44:
+switch.garage_lights_switch:
   icon: mdi:lightbulb
 switch.garage_outdoor_light_53:
   icon: mdi:lightbulb

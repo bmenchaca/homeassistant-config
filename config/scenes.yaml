@@ -83,14 +83,14 @@
     switch.family_room_mantle_light_switch: off
     switch.back_porch_light_62: off
     switch.front_porch_light_switch: off
-    switch.garage_lights_44: off
+    switch.garage_lights_switch: off
     cover.ben_garage: closed
     cover.susan_garage: closed
 
 - name: everyone_away
   entities:
-    switch.garage_lights_44: off
+    switch.garage_lights_switch: off
 
 - name: someone_arriving_home
   entities:
-    switch.garage_lights_44: on
+    switch.garage_lights_switch: on

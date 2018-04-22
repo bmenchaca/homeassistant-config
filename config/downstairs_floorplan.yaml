@@ -101,14 +101,14 @@
             - switch.entry_lights_46
             - switch.family_room_mantle_light_switch
             - switch.front_porch_light_switch
-            - switch.garage_lights_44
+            - switch.garage_lights_switch
             - switch.garage_outdoor_light_53
             - switch.guest_hall_light_63
             - switch.guest_batroom_lights_switch
             - switch.kitchen_light_56
             - switch.laundry_closet_light_65
             - switch.laundry_room_lights_switch
-            - switch.master_bathtub_light_41
+            - switch.master_bathtub_light_switch
             - switch.master_closet_light_68
             - switch.master_hall_lights_switch
             - switch.master_lavatory_42

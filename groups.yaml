@@ -41,7 +41,7 @@ ben_garage_door:
 garage:
   name: Garage
   entities:
-    - switch.garage_lights_44
+    - switch.garage_lights_switch
     - switch.outdoor_lights_53
 
 craft_room:
@@ -301,7 +301,7 @@ master:
 master_bath:
   name: Master Bath
   entities:
-    - switch.master_bathtub_light_41
+    - switch.master_bathtub_light_switch
     - light.master_bath
     - light.master_bath_color
     - light.master_bath_vanity_40
