@@ -4,14 +4,14 @@
 
 - name: craft_room_switch_off
   entities:
-    switch.craft_room_fan_39: off
+    switch.craft_room_fan_and_lights_switch: off
     switch.craft_sewing_lamp_67: off
     light.craft_floor_lamp_66:
       state: off
     
 - name: craft_room_switch_on
   entities:
-    switch.craft_room_fan_39: on
+    switch.craft_room_fan_and_lights_switch: on
     switch.craft_sewing_lamp_67: on
     light.craft_floor_lamp_66:
       state: on
@@ -58,7 +58,7 @@
     switch.stairs_light_switch: off
     switch.breakfast_lights_switch: off
     switch.entry_lights_46: off
-    switch.guest_bathroom_light_64: off
+    switch.guest_batroom_lights_switch: off
     switch.guest_hall_light_63: off
     light.family_room_lights_59:
       state: off
@@ -80,7 +80,7 @@
     switch.christmas_tree_54: off
     light.family_room_lights_59:
       state: off
-    switch.mantle_flood_light_58: off
+    switch.family_room_mantle_light_switch: off
     switch.back_porch_light_62: off
     switch.front_porch_light_switch: off
     switch.garage_lights_44: off

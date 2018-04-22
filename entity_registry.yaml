@@ -114,10 +114,6 @@ light.master_fan_lights_dimmer_level:
   name:
   platform: zwave
   unique_id: 5-72057594126630913
-switch.craft_room_fan_switch:
-  name:
-  platform: zwave
-  unique_id: 7-72057594160168960
 light.master_bath_vanity_lights_dimmer_level:
   name:
   platform: zwave
@@ -322,34 +318,6 @@ sensor.breakfast_lights_burglar_2:
   name:
   platform: zwave
   unique_id: 39-144115188736213153
-binary_sensor.gallery_hsm200_sensor:
-  name:
-  platform: zwave
-  unique_id: 40-72057594713997312
-sensor.gallery_hsm200_temperature:
-  name:
-  platform: zwave
-  unique_id: 40-72057594714013714
-sensor.gallery_hsm200_luminance:
-  name:
-  platform: zwave
-  unique_id: 40-72057594714013746
-sensor.gallery_hsm200_alarm_type:
-  name:
-  platform: zwave
-  unique_id: 40-72057594715062273
-sensor.gallery_hsm200_alarm_level:
-  name:
-  platform: zwave
-  unique_id: 40-72057594715062289
-sensor.gallery_hsm200_sourcenodeid:
-  name:
-  platform: zwave
-  unique_id: 40-72057594715062305
-sensor.gallery_hsm200_burglar:
-  name:
-  platform: zwave
-  unique_id: 40-72057594715062433
 binary_sensor.heidi_room_multisensor_sensor:
   name:
   platform: zwave
@@ -1142,3 +1110,207 @@ sensor.front_porch_light_burglar_2:
   name:
   platform: zwave
   unique_id: 89-144115189575073953
+switch.garage_lights_switch_2:
+  name:
+  platform: zwave
+  unique_id: 90-72057595552677888
+switch.garage_lights_switch_3:
+  name:
+  platform: zwave
+  unique_id: 90-144115189590605824
+sensor.garage_lights_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 90-72057595553923073
+sensor.garage_lights_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 90-72057595553923089
+sensor.garage_lights_alarm_type_2:
+  name:
+  platform: zwave
+  unique_id: 90-144115189591851009
+sensor.garage_lights_alarm_level_2:
+  name:
+  platform: zwave
+  unique_id: 90-144115189591851025
+sensor.garage_lights_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 90-72057595553923105
+sensor.garage_lights_burglar:
+  name:
+  platform: zwave
+  unique_id: 90-72057595553923233
+sensor.garage_lights_sourcenodeid_2:
+  name:
+  platform: zwave
+  unique_id: 90-144115189591851041
+sensor.garage_lights_burglar_2:
+  name:
+  platform: zwave
+  unique_id: 90-144115189591851169
+switch.family_room_mantle_light_switch_2:
+  name:
+  platform: zwave
+  unique_id: 91-72057595569455104
+switch.family_room_mantle_light_switch_3:
+  name:
+  platform: zwave
+  unique_id: 91-144115189607383040
+sensor.family_room_mantle_light_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 91-72057595570700289
+sensor.family_room_mantle_light_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 91-72057595570700305
+sensor.family_room_mantle_light_alarm_type_2:
+  name:
+  platform: zwave
+  unique_id: 91-144115189608628225
+sensor.family_room_mantle_light_alarm_level_2:
+  name:
+  platform: zwave
+  unique_id: 91-144115189608628241
+sensor.family_room_mantle_light_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 91-72057595570700321
+sensor.family_room_mantle_light_burglar:
+  name:
+  platform: zwave
+  unique_id: 91-72057595570700449
+sensor.family_room_mantle_light_sourcenodeid_2:
+  name:
+  platform: zwave
+  unique_id: 91-144115189608628257
+sensor.family_room_mantle_light_burglar_2:
+  name:
+  platform: zwave
+  unique_id: 91-144115189608628385
+switch.guest_bathroom_lights_switch_2:
+  name:
+  platform: zwave
+  unique_id: 92-72057595586232320
+switch.guest_bathroom_lights_switch_3:
+  name:
+  platform: zwave
+  unique_id: 92-144115189624160256
+sensor.guest_bathroom_lights_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 92-72057595587477505
+sensor.guest_bathroom_lights_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 92-72057595587477521
+sensor.guest_bathroom_lights_alarm_type_2:
+  name:
+  platform: zwave
+  unique_id: 92-144115189625405441
+sensor.guest_bathroom_lights_alarm_level_2:
+  name:
+  platform: zwave
+  unique_id: 92-144115189625405457
+sensor.guest_bathroom_lights_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 92-72057595587477537
+sensor.guest_bathroom_lights_burglar:
+  name:
+  platform: zwave
+  unique_id: 92-72057595587477665
+sensor.guest_bathroom_lights_sourcenodeid_2:
+  name:
+  platform: zwave
+  unique_id: 92-144115189625405473
+sensor.guest_bathroom_lights_burglar_2:
+  name:
+  platform: zwave
+  unique_id: 92-144115189625405601
+switch.craft_room_fan_and_lights_switch:
+  name:
+  platform: zwave
+  unique_id: 93-72057595603009536
+switch.craft_room_fan_and_lights_switch_2:
+  name:
+  platform: zwave
+  unique_id: 93-144115189640937472
+sensor.craft_room_fan_and_lights_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 93-72057595604254721
+sensor.craft_room_fan_and_lights_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 93-72057595604254737
+sensor.craft_room_fan_and_lights_alarm_type_2:
+  name:
+  platform: zwave
+  unique_id: 93-144115189642182657
+sensor.craft_room_fan_and_lights_alarm_level_2:
+  name:
+  platform: zwave
+  unique_id: 93-144115189642182673
+sensor.craft_room_fan_and_lights_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 93-72057595604254753
+sensor.craft_room_fan_and_lights_burglar:
+  name:
+  platform: zwave
+  unique_id: 93-72057595604254881
+sensor.craft_room_fan_and_lights_sourcenodeid_2:
+  name:
+  platform: zwave
+  unique_id: 93-144115189642182689
+sensor.craft_room_fan_and_lights_burglar_2:
+  name:
+  platform: zwave
+  unique_id: 93-144115189642182817
+switch.master_bathtub_light_switch:
+  name:
+  platform: zwave
+  unique_id: 94-72057595619786752
+switch.master_bathtub_light_switch_2:
+  name:
+  platform: zwave
+  unique_id: 94-144115189657714688
+sensor.master_bathtub_light_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 94-72057595621031937
+sensor.master_bathtub_light_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 94-72057595621031953
+sensor.master_bathtub_light_alarm_type_2:
+  name:
+  platform: zwave
+  unique_id: 94-144115189658959873
+sensor.master_bathtub_light_alarm_level_2:
+  name:
+  platform: zwave
+  unique_id: 94-144115189658959889
+sensor.master_bathtub_light_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 94-72057595621031969
+sensor.master_bathtub_light_burglar:
+  name:
+  platform: zwave
+  unique_id: 94-72057595621032097
+sensor.master_bathtub_light_sourcenodeid_2:
+  name:
+  platform: zwave
+  unique_id: 94-144115189658959905
+sensor.master_bathtub_light_burglar_2:
+  name:
+  platform: zwave
+  unique_id: 94-144115189658960033
+switch.family_room_fan_switch_2:
+  name:
+  platform: zwave
+  unique_id: 95-72057595636563968

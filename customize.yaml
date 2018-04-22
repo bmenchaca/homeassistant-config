@@ -51,9 +51,9 @@ camera.entry_hall:
   friendly_name: Entry Hall Camera
 scene.evening_tv_time:
   friendly_name: Evening TV Time
-switch.family_room_fan_55:
+switch.family_room_fan_switch:
   icon: mdi:fan
-switch.craft_room_fan_39:
+switch.craft_room_fan_and_lights_switch:
   icon: mdi:fan
 switch.game_room_fan_switch:
   icon: mdi:fan

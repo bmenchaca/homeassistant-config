@@ -59,7 +59,7 @@ christmas_lights_at_night:
 craft_room_switch_on:
   class: Sequence
   module: sequence
-  input: switch.craft_room_fan_39
+  input: switch.craft_room_fan_and_lights_switch
   state: "on"
   sequence:
     - entity: scene.craft_room_switch_on
@@ -69,7 +69,7 @@ craft_room_switch_on:
 craft_room_switch_off:
   class: Sequence
   module: sequence
-  input: switch.craft_room_fan_39
+  input: switch.craft_room_fan_and_lights_switch
   state: "off"
   sequence:
     - entity: scene.craft_room_switch_off
@@ -144,6 +144,14 @@ game_room_motion_light_daytime:
   constrain_input_select: input_select.house_mode,Morning,Day
   off_delay: 600
 
+guest_bathroom_motion_light:
+  class: SensorLight
+  module: sensor_light
+  sensor: binary_sensor.guest_bathroom_occupancy
+  entity_on: switch.guest_bathroom_lights_switch
+  entity_off: switch.guest_bathroom_lights_switch
+  off_delay: 60
+
 laundry_room_motion_light:
   class: SensorLight
   module: sensor_light
@@ -151,6 +159,14 @@ laundry_room_motion_light:
   entity_on: switch.laundry_room_lights_switch
   entity_off: switch.laundry_room_lights_switch
   off_delay: 60
+
+craft_room_motion_lights:
+  class; SensorLight
+  module: sensor_light
+  sensor: binary_sensor.craft_room_occupancy
+  entity_on: scene.craft_room_switch_on
+  #entity_off: switch.laundry_room_lights_switch
+  #off_delay: 60
 
 #
 ###############################################################################

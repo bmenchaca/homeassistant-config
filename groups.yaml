@@ -48,7 +48,7 @@ craft_room:
   name: Craft Room
   entities:
     - light.craft_floor_lamp_66
-    - switch.craft_room_fan_39
+    - switch.craft_room_fan_and_lights_switch
     - switch.craft_sewing_lamp_67
     - media_player.stick
     - binary_sensor.craft_room_window_1
@@ -77,7 +77,7 @@ guest_hall:
 guest_bath:
   name: Guest Bath
   entities:
-    - switch.guest_bathroom_light_64
+    - switch.guest_batroom_lights_switch
 
 entry_room:
   name: Entry Room
@@ -115,8 +115,8 @@ family_room:
   name: Family Room
   entities:
     - media_player.living
-    - switch.family_room_fan_55
-    #- switch.mantle_flood_light_58
+    - switch.family_room_fan_switch
+    #- switch.family_room_mantle_light_switch
     - light.family_room_lights_59
     #- light.family_room_flood
     - light.mantle_light

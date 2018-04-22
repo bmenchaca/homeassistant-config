@@ -41,15 +41,15 @@ alexa:
       name: Back Porch Lights
     switch.breakfast_lights_switch:
       name: Breakfast Lights
-    switch.craft_room_fan_39:
+    switch.craft_room_fan_and_lights_switch:
       name: Craft Room Fan
     switch.craft_sewing_lamp_67:
       name: Craft Room Sewing Lamp
     switch.entry_lights_46:
       name: Entry Light
-    switch.family_room_fan_55:
+    switch.family_room_fan_switch:
       name: Family Room Fan
-    switch.mantle_flood_light_58:
+    switch.family_room_mantle_light_switch:
       name: Family Room Mantle
     switch.front_porch_light_switch:
       name: Front Porch Lights

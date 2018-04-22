@@ -22,7 +22,7 @@
 #  alias: Turn off All Craft Room Switches when Main Switch Turned Off
 #  trigger:
 #    platform: state
-#    entity_id: switch.craft_room_fan_39
+#    entity_id: switch.craft_room_fan_and_lights_switch
 #    from: 'on'
 #    to: 'off'
 #  action:
@@ -37,7 +37,7 @@
 #  alias: Turn on All Craft Room Switches when Main Switch Turned On
 #  trigger:
 #    platform: state
-#    entity_id: switch.craft_room_fan_39
+#    entity_id: switch.craft_room_fan_and_lights_switch
 #    from: 'off'
 #    to: 'on'
 #  action:
