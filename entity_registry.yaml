@@ -158,10 +158,6 @@ switch.back_porch_light_switch:
   name:
   platform: zwave
   unique_id: 28-72057594512490496
-switch.family_room_mantle_light_switch:
-  name:
-  platform: zwave
-  unique_id: 30-72057594546044928
 switch.office_lamp_switch:
   name:
   platform: zwave
@@ -506,10 +502,6 @@ switch.guest_hall_lights_switch:
   name:
   platform: zwave
   unique_id: 55-72057594965475328
-switch.guest_bathroom_lights_switch:
-  name:
-  platform: zwave
-  unique_id: 56-72057594982252544
 switch.laundry_room_lights_switch:
   name:
   platform: zwave
@@ -1146,11 +1138,11 @@ sensor.garage_lights_burglar_2:
   name:
   platform: zwave
   unique_id: 90-144115189591851169
-switch.family_room_mantle_light_switch_2:
+switch.family_room_mantle_light_switch:
   name:
   platform: zwave
   unique_id: 91-72057595569455104
-switch.family_room_mantle_light_switch_3:
+switch.family_room_mantle_light_switch_2:
   name:
   platform: zwave
   unique_id: 91-144115189607383040
@@ -1186,11 +1178,11 @@ sensor.family_room_mantle_light_burglar_2:
   name:
   platform: zwave
   unique_id: 91-144115189608628385
-switch.guest_bathroom_lights_switch_2:
+switch.guest_bathroom_lights_switch:
   name:
   platform: zwave
   unique_id: 92-72057595586232320
-switch.guest_bathroom_lights_switch_3:
+switch.guest_bathroom_lights_switch_2:
   name:
   platform: zwave
   unique_id: 92-144115189624160256
