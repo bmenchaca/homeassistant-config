@@ -264,4 +264,8 @@ binary_sensor.susan_keyfob:
 binary_sensor.gallery_siren:
   icon: mdi:speaker-wireless
 
-
+zone.home:
+  beacon:
+     uuid: E3867230-91FE-4788-AA02-717ABA4C8E5A
+     major: 1
+     minor: 11
