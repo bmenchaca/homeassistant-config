@@ -14,7 +14,7 @@ ben_presence_dropdown:
     - Just Arrived
     - Just Left
     - Away
-    - Extended Away
+    - Work
 
 susan_presence_dropdown:
   name: Susan Presence
@@ -23,13 +23,12 @@ susan_presence_dropdown:
     - Just Arrived
     - Just Left
     - Away
-    - Extended Away
 
-any_presence_dropdown:
-  name: Any Presence
+heidi_presence_dropdown:
+  name: Heidi Presence
   options:
-    - Active
-    - Nap
-    - Sleep
+    - Home
+    - Just Arrived
+    - Just Left
     - Away
-    - Extended Away
+    - School
