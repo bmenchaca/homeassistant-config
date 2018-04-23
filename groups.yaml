@@ -23,6 +23,9 @@
 #    - sensor.ups
 #    - sensor.usps_mail
 #    - sensor.usps_packages
+#
+
+ben: device_tracker.ben_ha_iphone, device_tracker.acf9320b92834db89f3da79cdd092ffe
 
 susan_garage_door:
   name: Susan Garage
@@ -41,12 +44,14 @@ ben_garage_door:
 garage:
   name: Garage
   entities:
+    - binary_sensor.garage_occupancy
     - switch.garage_lights_switch
     - switch.outdoor_lights_53
 
 craft_room:
   name: Craft Room
   entities:
+    - binary_sensor.craft_room_occupancy
     - light.craft_floor_lamp_66
     - switch.craft_room_fan_and_lights_switch
     - switch.craft_sewing_lamp_67
@@ -77,7 +82,8 @@ guest_hall:
 guest_bath:
   name: Guest Bath
   entities:
-    - switch.guest_batroom_lights_switch
+    - binary_sensor.guest_bathroom_occupancy
+    - switch.guest_bathroom_lights_switch
 
 entry_room:
   name: Entry Room
@@ -301,6 +307,7 @@ master:
 master_bath:
   name: Master Bath
   entities:
+    - binary_sensor.master_bath_occupancy
     - switch.master_bathtub_light_switch
     - light.master_bath
     - light.master_bath_color
@@ -380,13 +387,17 @@ system_switches:
 downstairs_occupancy:
   name: Downstairs Occupancy
   entities:
+    - binary_sensor.craft_room_occupancy
     - binary_sensor.dining_room_occupancy
     - binary_sensor.entry_room_occupancy
     - binary_sensor.family_room_occupancy
+    - binary_sensor.garage_occupancy
     - binary_sensor.guest_occupancy
+    - binary_sensor.guest_bathroom_occupancy
     - binary_sensor.laundry_room_occupancy
     - binary_sensor.master_hall_occupancy
     - binary_sensor.master_occupancy
+    - binary_sensor.master_bath_occupancy
     - binary_sensor.stairs_occupancy
 
 upstairs_occupancy:
