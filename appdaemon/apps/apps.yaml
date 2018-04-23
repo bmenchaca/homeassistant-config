@@ -144,13 +144,21 @@ game_room_motion_light_daytime:
   constrain_input_select: input_select.house_mode,Morning,Day
   off_delay: 600
 
+garage_motion_light:
+  class: SensorLight
+  module: sensor_light
+  sensor: binary_sensor.garage_occupancy
+  entity_on: switch.garage_lights_switch
+  entity_off: switch.garage_lights_switch
+  off_delay: 600
+
 guest_bathroom_motion_light:
   class: SensorLight
   module: sensor_light
   sensor: binary_sensor.guest_bathroom_occupancy
   entity_on: switch.guest_bathroom_lights_switch
   entity_off: switch.guest_bathroom_lights_switch
-  off_delay: 60
+  off_delay: 600
 
 laundry_room_motion_light:
   class: SensorLight
@@ -168,13 +176,6 @@ craft_room_motion_lights:
   #entity_off: switch.laundry_room_lights_switch
   #off_delay: 60
 
-garage_motion_light:
-  class: SensorLight
-  module: sensor_light
-  sensor: binary_sensor.garage_occupancy
-  entity_on: switch.garage_lights_switch
-  entity_off: switch.garage_lights_switch
-  off_delay: 600
 #
 ###############################################################################
 
