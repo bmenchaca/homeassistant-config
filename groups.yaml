@@ -28,7 +28,7 @@
 ben_presence: 
   name: Ben Presence
   entities:
-   - binary_sensor.ben_presence
+   - binary_sensor.ben_at_home
    - device_tracker.ben_ha_iphone
    - device_tracker.acf9320b92834db89f3da79cdd092ffe
    - device_tracker.beacon_ben_home
