@@ -6,6 +6,7 @@ include:
     - switch
     - light
     - binary_sensor
+    - device_tracker
 #exclude:
  #  entities:
     #sensor.pws_weather
