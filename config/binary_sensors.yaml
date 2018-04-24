@@ -215,7 +215,7 @@
 
 - platform: bayesian
   prior: 0.5
-  name: 'Ben Presence'
+  name: 'Ben at Home'
   probability_threshold: 0.9
   observations:
     - entity_id: 'device_tracker.nmap_bens_iphone'
