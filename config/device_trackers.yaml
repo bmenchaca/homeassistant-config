@@ -3,13 +3,14 @@
     - minivan
     - avalon
 
+# This is specific to iphones only
 - platform: nmap_tracker
-  scan_options: " --privileged -sP "
-  hosts:
-  - !secret device_ip_susans_iphone 
-  - !secret device_ip_bens_iphone
-  - !secret device_ip_heidis_iphone
+  scan_options: " --privileged -p 62078 "
   track_new_devices: yes
+  hosts:
+   - !secret device_ip_susans_iphone 
+   - !secret device_ip_bens_iphone
+   - !secret device_ip_heidis_iphone
 
 #- platform: owntracks
 #  waypoints: False
