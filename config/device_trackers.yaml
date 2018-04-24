@@ -3,6 +3,14 @@
     - minivan
     - avalon
 
+- platform: nmap_tracker
+  scan_options: " --privileged -sP "
+  hosts:
+  - !secret device_ip_susans_iphone 
+  - !secret device_ip_bens_iphone
+  - !secret device_ip_heidis_iphone
+  track_new_devices: yes
+
 #- platform: owntracks
 #  waypoints: False
 #  track_new_devices: False
