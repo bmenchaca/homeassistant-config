@@ -6,15 +6,6 @@ susan_ha_iphone:
   track: true
   vendor:
 
-heidi_iphone:
-  hide_if_away: false
-  icon:
-  mac:
-  name: Heidi
-  picture: /local/heidi.png
-  track: true
-  vendor:
-
 acf9320b92834db89f3da79cdd092ffe:
   hide_if_away: false
   icon:
@@ -69,5 +60,29 @@ cab02f4d94ab43e09ca603aef8faa57b:
   icon:
   mac:
   name: Susan Geofency GPS
+  picture:
+  track: true
+
+nmap_susans_iphone:
+  hide_if_away: false
+  icon:
+  mac: 70:70:0d:ec:b5:03
+  name: Susan iPhone NMap
+  picture:
+  track: true
+
+nmap_bens_iphone:
+  hide_if_away: false
+  icon:
+  mac: b0:48:1a:c7:a2:83
+  name: Ben iPhone NMap
+  picture:
+  track: true
+
+nmap_heidis_iphone:
+  hide_if_away: false
+  icon:
+  mac: 74:8d:08:31:ab:9d
+  name: Heidi iPhone NMap
   picture:
   track: true
