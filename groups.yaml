@@ -25,7 +25,14 @@
 #    - sensor.usps_packages
 #
 
-ben: device_tracker.ben_ha_iphone, device_tracker.acf9320b92834db89f3da79cdd092ffe, device_tracker.beacon_ben_home, device_tracker.nmap_bens_iphone
+ben_presence: 
+  name: Ben Presence
+  entities:
+   - binary_sensor.ben_presence
+   - device_tracker.ben_ha_iphone
+   - device_tracker.acf9320b92834db89f3da79cdd092ffe
+   - device_tracker.beacon_ben_home
+   - device_tracker.nmap_bens_iphone
 
 susan: device_tracker.susan_ha_iphone, device_tracker.cab02f4d94ab43e09ca603aef8faa57b, device_tracker.beacon_susan_home, device_tracker.nmap_susans_iphone
 
