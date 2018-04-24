@@ -212,3 +212,29 @@
         {%- else -%}
           False
         {%- endif -%}
+
+- platform: bayesian
+  prior: 0.5
+  name: 'Ben Presence'
+  probability_threshold: 0.9
+  observations:
+    - entity_id: 'device_tracker.nmap_bens_iphone'
+      prob_given_true: 0.9
+      prob_given_false: 0.1
+      platform: 'state'
+      to_state: 'home'
+    - entity_id: 'device_tracker.beacon_ben_home'
+      prob_given_true: 0.9
+      prob_given_false: 0.2
+      platform: 'state'
+      to_state: 'home'
+    - entity_id: 'device_tracker.acf9320b92834db89f3da79cdd092ffe'
+      prob_given_true: 0.8
+      prob_given_false: 0.3
+      platform: 'state'
+      to_state: 'home'
+    - entity_id: 'device_tracker.ben_ha_iphone'
+      prob_given_true: 0.8
+      prob_given_false: 0.3
+      platform: 'state'
+      to_state: 'home'
