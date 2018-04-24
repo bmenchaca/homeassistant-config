@@ -25,7 +25,7 @@
 #    - sensor.usps_packages
 #
 
-ben: device_tracker.ben_ha_iphone, device_tracker.acf9320b92834db89f3da79cdd092ffe
+ben: device_tracker.ben_ha_iphone, device_tracker.acf9320b92834db89f3da79cdd092ffe, device_tracker.beacon_ben_home
 
 susan_garage_door:
   name: Susan Garage
