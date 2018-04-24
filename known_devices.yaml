@@ -1,0 +1,73 @@
+susan_ha_iphone:
+  hide_if_away: false
+  mac: !secret device_mac_susan_iphone
+  name: Susan HA iPhone App
+  picture: /local/susan.png
+  track: true
+  vendor:
+
+heidi_iphone:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Heidi
+  picture: /local/heidi.png
+  track: true
+  vendor:
+
+acf9320b92834db89f3da79cdd092ffe:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Ben GeoFency GPS
+  picture: /local/ben.png
+  track: true
+
+ben_ha_iphone:
+  hide_if_away: false
+  icon:
+  mac: !secret device_mac_ben_iphone
+  name: Ben HA iPhone App
+  picture: /local/ben.png
+  track: true
+  vendor:
+
+beacon_ben_home:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Ben Geofency Home Beacon
+  picture:
+  track: true
+
+beacon_heidi_home:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Heidi Geofency Home Beacon
+  picture:
+  track: true
+
+0f37f6226f6e4e39a254ce222bdf30ba:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Heidi Geofency GPS
+  picture:
+  track: true
+
+beacon_susan_home:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Susan Geofency Home Beacon
+  picture:
+  track: true
+
+cab02f4d94ab43e09ca603aef8faa57b:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Susan Geofency GPS
+  picture:
+  track: true
