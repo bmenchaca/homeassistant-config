@@ -238,3 +238,50 @@
       prob_given_false: 0.3
       platform: 'state'
       to_state: 'home'
+
+- platform: bayesian
+  prior: 0.5
+  name: 'Susan at Home'
+  probability_threshold: 0.9
+  observations:
+    - entity_id: 'device_tracker.nmap_susans_iphone'
+      prob_given_true: 0.9
+      prob_given_false: 0.1
+      platform: 'state'
+      to_state: 'home'
+    - entity_id: 'device_tracker.beacon_susan_home'
+      prob_given_true: 0.9
+      prob_given_false: 0.2
+      platform: 'state'
+      to_state: 'home'
+    - entity_id: 'device_tracker.cab02f4d94ab43e09ca603aef8faa57b'
+      prob_given_true: 0.8
+      prob_given_false: 0.3
+      platform: 'state'
+      to_state: 'home'
+    - entity_id: 'device_tracker.susan_ha_iphone'
+      prob_given_true: 0.8
+      prob_given_false: 0.3
+      platform: 'state'
+      to_state: 'home'
+
+- platform: bayesian
+  prior: 0.5
+  name: 'Heidi at Home'
+  probability_threshold: 0.9
+  observations:
+    - entity_id: 'device_tracker.nmap_heidis_iphone'
+      prob_given_true: 0.9
+      prob_given_false: 0.1
+      platform: 'state'
+      to_state: 'home'
+    - entity_id: 'device_tracker.beacon_heidi_home'
+      prob_given_true: 0.9
+      prob_given_false: 0.2
+      platform: 'state'
+      to_state: 'home'
+    - entity_id: 'device_tracker.0f37f6226f6e4e39a254ce222bdf30ba'
+      prob_given_true: 0.8
+      prob_given_false: 0.3
+      platform: 'state'
+      to_state: 'home'

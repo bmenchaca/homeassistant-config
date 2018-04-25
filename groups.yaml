@@ -34,12 +34,23 @@ ben_presence:
    - device_tracker.beacon_ben_home
    - device_tracker.nmap_bens_iphone
 
-susan: device_tracker.susan_ha_iphone, device_tracker.cab02f4d94ab43e09ca603aef8faa57b, device_tracker.beacon_susan_home, device_tracker.nmap_susans_iphone
+susan_presence:
+  name: Susan Presence
+  entities:
+    - binary_sensor.susan_at_home
+    - device_tracker.susan_ha_iphone
+    - device_tracker.cab02f4d94ab43e09ca603aef8faa57b
+    - device_tracker.beacon_susan_home
+    - device_tracker.nmap_susans_iphone
 
-
-heidi: device_tracker.heidi_ha_iphone, device_tracker.0f37f6226f6e4e39a254ce222bdf30ba, device_tracker.beacon_heidi_home, device_tracker.nmap_heidis_iphone
-
-
+heidi_presence:
+  name: Heidi Presence
+  entities:
+    - binary_sensor.heidi_at_home
+    - device_tracker.heidi_ha_iphone
+    - device_tracker.0f37f6226f6e4e39a254ce222bdf30ba
+    - device_tracker.beacon_heidi_home
+    - device_tracker.nmap_heidis_iphone
 
 susan_garage_door:
   name: Susan Garage
