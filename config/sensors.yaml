@@ -7,25 +7,25 @@
 #    - volume
 #    - wifi_signal_category
 
-- platform: wunderground
-  api_key: !secret wunderground_api_key
-  monitored_conditions:
-    - temp_f
-    - wind_mph
-    - precip_today_in
-    - alerts
-    - temp_high_1d_f
-    - temp_low_1d_f
-    - precip_1d
-    - precip_1d_in
-    - wind_1d_mph
-    - weather
-    - weather_1d
-    - weather_1n
-    - weather_2d
-    - weather_2n
-    - weather_3d
-    - weather_3n
+#- platform: wunderground
+#  api_key: !secret wunderground_api_key
+#  monitored_conditions:
+#    - temp_f
+#    - wind_mph
+#    - precip_today_in
+#    - alerts
+#    - temp_high_1d_f
+#    - temp_low_1d_f
+#    - precip_1d
+#    - precip_1d_in
+#    - wind_1d_mph
+#    - weather
+#    - weather_1d
+#    - weather_1n
+#    - weather_2d
+#    - weather_2n
+#    - weather_3d
+#    - weather_3n
 
 - platform: netatmo
   modules:
