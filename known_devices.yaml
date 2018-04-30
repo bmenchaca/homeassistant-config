@@ -86,3 +86,27 @@ nmap_heidis_iphone:
   name: Heidi iPhone NMap
   picture:
   track: true
+
+ben_arp:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Ben ARP Request
+  picture:
+  track: true
+
+heidi_arp:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Heidi ARP Request
+  picture:
+  track: true
+
+susan_arp:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Susan ARP Request
+  picture:
+  track: true

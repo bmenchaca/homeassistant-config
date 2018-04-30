@@ -12,6 +12,13 @@
    - !secret device_ip_bens_iphone
    - !secret device_ip_heidis_iphone
 
+- platform: arping
+  hosts:
+   susan_arp: !secret device_ip_susans_iphone 
+   ben_arp: !secret device_ip_bens_iphone
+   heidi_arp: !secret device_ip_heidis_iphone
+
+
 #- platform: owntracks
 #  waypoints: False
 #  track_new_devices: False
