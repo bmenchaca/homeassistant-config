@@ -66,7 +66,6 @@ cab02f4d94ab43e09ca603aef8faa57b:
 arp_ben_iphone:
   hide_if_away: false
   icon:
-  mac:
   mac: b0:48:1a:c7:a2:83
   name: ARP Ben iPhone
   picture:
@@ -87,3 +86,4 @@ arp_susan_iphone:
   name: ARP Susan iPhone
   picture:
   track: true
+
