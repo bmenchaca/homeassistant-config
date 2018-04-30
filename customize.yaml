@@ -263,6 +263,13 @@ binary_sensor.susan_keyfob:
 # Abode Siren
 binary_sensor.gallery_siren:
   icon: mdi:speaker-wireless
+# Presence Sensors
+binary_sensor.ben_at_home:
+  device_class: presence
+binary_sensor.susan_at_home:
+  device_class: presence
+binary_sensor.heidi_at_home:
+  device_class: presence
 
 zone.home:
   beacon:
