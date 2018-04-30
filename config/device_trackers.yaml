@@ -1,6 +1,9 @@
 - platform: geofency
   consider_home: 60
 
+- platform: proximity_events
+  consider_home: 60
+
 - platform: arping
   consider_home: 60
   count: 2
