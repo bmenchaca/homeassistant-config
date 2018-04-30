@@ -136,7 +136,7 @@
         {%- if states.cover.susan_garage %}
           {% if states.cover.susan_garage.attributes["door_state"] == "open" %}
             n/a
-          {% elif ((states.cover.susan_garage.attributes["distance_sensor"] > 75) and (states.cover.susan_garage.attributes["distance_sensor"] < 125)) %}
+          {% elif ((states.cover.susan_garage.attributes["distance_sensor"] > 75) and (states.cover.susan_garage.attributes["distance_sensor"] < 180)) %}
             Yes
           {% else %}
             No
@@ -150,7 +150,7 @@
         {%- if states.cover.ben_garage %}
           {% if states.cover.ben_garage.attributes["door_state"] == "open" %}
             n/a
-          {% elif ((states.cover.ben_garage.attributes["distance_sensor"] > 70) and (states.cover.ben_garage.attributes["distance_sensor"] < 160)) %}
+          {% elif ((states.cover.ben_garage.attributes["distance_sensor"] > 70) and (states.cover.ben_garage.attributes["distance_sensor"] < 200)) %}
             Yes
           {% else %}
             No
@@ -159,105 +159,106 @@
           n/a
         {% endif %}
 
-- platform: mqtt
-  state_topic: 'bt_location/owner/garage/b0:48:1a:c7:a3:2c'
-  value_template: ' {{ value_json.confidence }} '
-  unit_of_measurement: '%'
-  name: 'Garage BT Ben'
 
-- platform: mqtt
-  state_topic: 'bt_location/owner/back_door/b0:48:1a:c7:a3:2c'
-  value_template: ' {{ value_json.confidence }} '
-  unit_of_measurement: '%'
-  name: 'Back Door BT Ben'
-
-- platform: mqtt
-  state_topic: 'bt_location/owner/front_door/b0:48:1a:c7:a3:2c'
-  value_template: ' {{ value_json.confidence }} '
-  unit_of_measurement: '%'
-  name: 'Front Door BT Ben'
-
-- platform: mqtt
-  state_topic: 'bt_location/owner/master/b0:48:1a:c7:a3:2c'
-  value_template: ' {{ value_json.confidence }} '
-  unit_of_measurement: '%'
-  name: 'Master BT Ben'
-
-- platform: mqtt
-  state_topic: 'bt_location/owner/garage/70:70:0d:ec:b5:04'
-  value_template: ' {{ value_json.confidence }} '
-  unit_of_measurement: '%'
-  name: 'Garage BT Susan'
-
-- platform: mqtt
-  state_topic: 'bt_location/owner/back_door/70:70:0d:ec:b5:04'
-  value_template: ' {{ value_json.confidence }} '
-  unit_of_measurement: '%'
-  name: 'Back Door BT Susan'
-
-- platform: mqtt
-  state_topic: 'bt_location/owner/front_door/70:70:0d:ec:b5:04'
-  value_template: ' {{ value_json.confidence }} '
-  unit_of_measurement: '%'
-  name: 'Front Door BT Susan'
-
-- platform: mqtt
-  state_topic: 'bt_location/owner/master/70:70:0d:ec:b5:04'
-  value_template: ' {{ value_json.confidence }} '
-  unit_of_measurement: '%'
-  name: 'Master BT Susan'
-
-- platform: mqtt
-  state_topic: 'bt_location/owner/garage/74:8d:08:31:ab:9e'
-  value_template: ' {{ value_json.confidence }} '
-  unit_of_measurement: '%'
-  name: 'Garage BT Heidi'
-
-- platform: mqtt
-  state_topic: 'bt_location/owner/back_door/74:8d:08:31:ab:9e'
-  value_template: ' {{ value_json.confidence }} '
-  unit_of_measurement: '%'
-  name: 'Back Door BT Heidi'
-
-- platform: mqtt
-  state_topic: 'bt_location/owner/front_door/74:8d:08:31:ab:9e'
-  value_template: ' {{ value_json.confidence }} '
-  unit_of_measurement: '%'
-  name: 'Front Door BT Heidi'
-
-- platform: mqtt
-  state_topic: 'bt_location/owner/master/74:8d:08:31:ab:9e'
-  value_template: ' {{ value_json.confidence }} '
-  unit_of_measurement: '%'
-  name: 'Master BT Heidi'
-
-- platform: min_max
-  name: "Ben BT Occupancy Confidence"
-  type: max
-  round_digits: 0
-  entity_ids:
-    - sensor.garage_bt_ben
-    - sensor.back_door_bt_ben
-    - sensor.front_door_bt_ben
-    - sensor.master_bt_ben
-
-- platform: min_max
-  name: "Susan BT Occupancy Confidence"
-  type: max
-  round_digits: 0
-  entity_ids:
-    - sensor.garage_bt_susan
-    - sensor.back_door_bt_susan
-    - sensor.front_door_bt_susan
-    - sensor.master_bt_susan
-
-- platform: min_max
-  name: "Heidi BT Occupancy Confidence"
-  type: max
-  round_digits: 0
-  entity_ids:
-    - sensor.garage_bt_heidi
-    - sensor.back_door_bt_heidi
-    - sensor.front_door_bt_heidi
-    - sensor.master_bt_heidi
-
+#- platform: mqtt
+#  state_topic: 'bt_location/owner/garage/b0:48:1a:c7:a3:2c'
+#  value_template: ' {{ value_json.confidence }} '
+#  unit_of_measurement: '%'
+#  name: 'Garage BT Ben'
+#
+#- platform: mqtt
+#  state_topic: 'bt_location/owner/back_door/b0:48:1a:c7:a3:2c'
+#  value_template: ' {{ value_json.confidence }} '
+#  unit_of_measurement: '%'
+#  name: 'Back Door BT Ben'
+#
+#- platform: mqtt
+#  state_topic: 'bt_location/owner/front_door/b0:48:1a:c7:a3:2c'
+#  value_template: ' {{ value_json.confidence }} '
+#  unit_of_measurement: '%'
+#  name: 'Front Door BT Ben'
+#
+#- platform: mqtt
+#  state_topic: 'bt_location/owner/master/b0:48:1a:c7:a3:2c'
+#  value_template: ' {{ value_json.confidence }} '
+#  unit_of_measurement: '%'
+#  name: 'Master BT Ben'
+#
+#- platform: mqtt
+#  state_topic: 'bt_location/owner/garage/70:70:0d:ec:b5:04'
+#  value_template: ' {{ value_json.confidence }} '
+#  unit_of_measurement: '%'
+#  name: 'Garage BT Susan'
+#
+#- platform: mqtt
+#  state_topic: 'bt_location/owner/back_door/70:70:0d:ec:b5:04'
+#  value_template: ' {{ value_json.confidence }} '
+#  unit_of_measurement: '%'
+#  name: 'Back Door BT Susan'
+#
+#- platform: mqtt
+#  state_topic: 'bt_location/owner/front_door/70:70:0d:ec:b5:04'
+#  value_template: ' {{ value_json.confidence }} '
+#  unit_of_measurement: '%'
+#  name: 'Front Door BT Susan'
+#
+#- platform: mqtt
+#  state_topic: 'bt_location/owner/master/70:70:0d:ec:b5:04'
+#  value_template: ' {{ value_json.confidence }} '
+#  unit_of_measurement: '%'
+#  name: 'Master BT Susan'
+#
+#- platform: mqtt
+#  state_topic: 'bt_location/owner/garage/74:8d:08:31:ab:9e'
+#  value_template: ' {{ value_json.confidence }} '
+#  unit_of_measurement: '%'
+#  name: 'Garage BT Heidi'
+#
+#- platform: mqtt
+#  state_topic: 'bt_location/owner/back_door/74:8d:08:31:ab:9e'
+#  value_template: ' {{ value_json.confidence }} '
+#  unit_of_measurement: '%'
+#  name: 'Back Door BT Heidi'
+#
+#- platform: mqtt
+#  state_topic: 'bt_location/owner/front_door/74:8d:08:31:ab:9e'
+#  value_template: ' {{ value_json.confidence }} '
+#  unit_of_measurement: '%'
+#  name: 'Front Door BT Heidi'
+#
+#- platform: mqtt
+#  state_topic: 'bt_location/owner/master/74:8d:08:31:ab:9e'
+#  value_template: ' {{ value_json.confidence }} '
+#  unit_of_measurement: '%'
+#  name: 'Master BT Heidi'
+#
+#- platform: min_max
+#  name: "Ben BT Occupancy Confidence"
+#  type: max
+#  round_digits: 0
+#  entity_ids:
+#    - sensor.garage_bt_ben
+#    - sensor.back_door_bt_ben
+#    - sensor.front_door_bt_ben
+#    - sensor.master_bt_ben
+#
+#- platform: min_max
+#  name: "Susan BT Occupancy Confidence"
+#  type: max
+#  round_digits: 0
+#  entity_ids:
+#    - sensor.garage_bt_susan
+#    - sensor.back_door_bt_susan
+#    - sensor.front_door_bt_susan
+#    - sensor.master_bt_susan
+#
+#- platform: min_max
+#  name: "Heidi BT Occupancy Confidence"
+#  type: max
+#  round_digits: 0
+#  entity_ids:
+#    - sensor.garage_bt_heidi
+#    - sensor.back_door_bt_heidi
+#    - sensor.front_door_bt_heidi
+#    - sensor.master_bt_heidi
+#
