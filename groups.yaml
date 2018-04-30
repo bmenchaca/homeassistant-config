@@ -404,6 +404,15 @@ upstairs_occupancy:
     - binary_sensor.hannah_room_multisensor_sensor
     - binary_sensor.office_occupancy
 
+device_charging:
+  name: IOS Device Charging
+  entities:
+    - sensor.yo_mama_battery_level
+    - sensor.yo_mama_battery_state
+    - sensor.bens_iphone_battery_level
+    - sensor.bens_iphone_battery_state
+    - sensor.bens_ipad_battery_level
+    - sensor.bens_ipad_battery_state
 
 # Views      
 downstairs_view:
