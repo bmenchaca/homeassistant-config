@@ -17,11 +17,33 @@ light.master_bath:
 light.master_hall:
   friendly_name: All Master Hall Lights
   hidden: true
+switch.outdoor_lights_53:
+  friendly_name: Garage Outdoor Lights
 # Hide hue group for a room
 light.family_room:
   hidden: true
 light.group_for_wakeup:
   hidden: true          
+
+# Abode Keyfob
+binary_sensor.ben_keyfob:
+  icon: mdi:remote
+  device_class: connectivity
+binary_sensor.susan_keyfob:
+  icon: mdi:remote
+  device_class: connectivity
+# Abode Siren
+binary_sensor.gallery_siren:
+  icon: mdi:speaker-wireless
+  device_class: connectivity
+# Abode keypad
+binary_sensor.laundry_room_keypad:
+  icon: mdi:dialpad
+  device_class: connectivity
+binary_sensor.living_room_motion:
+  device_class: connectivity
+binary_sensor.master_hall_motion:
+  device_class: connectivity
 
 binary_sensor.heidi_room_multisensor_sensor:
   friendly_name: Heidi's Room Motion Sensor
@@ -187,8 +209,17 @@ sensor.noah_bathroom_light_alarm_level:
   hidden: true
 sensor.noah_bathroom_light_alarm_type:
   hidden: true
-switch.outdoor_lights_53:
-  friendly_name: Garage Outdoor Lights
+sun.sun:
+  hidden: true
+sensor.bens_iphone_battery_level_2:
+  hidden: true
+sensor.bens_iphone_battery_state_2:
+  hidden: true
+sensor.yo_mama_battery_level_2:
+  hidden: true
+sensor.yo_mama_battery_state_2:
+  hidden: true
+
 
 # Windows through Abode
 binary_sensor.craft_room_window_1:
@@ -252,17 +283,6 @@ binary_sensor.back_door:
   icon: mdi:door
 binary_sensor.front_door:
   icon: mdi:door
-# Abode keypad
-binary_sensor.laundry_room_keypad:
-  icon: mdi:dialpad          
-# Abode Keyfob
-binary_sensor.ben_keyfob:
-  icon: mdi:remote
-binary_sensor.susan_keyfob:
-  icon: mdi:remote
-# Abode Siren
-binary_sensor.gallery_siren:
-  icon: mdi:speaker-wireless
 # Presence Sensors
 binary_sensor.ben_at_home:
   device_class: presence
