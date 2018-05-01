@@ -218,7 +218,7 @@
   name: 'Ben at Home'
   probability_threshold: 0.9
   observations:
-    - entity_id: 'device_tracker.nmap_bens_iphone'
+    - entity_id: 'device_tracker.arp_bens_iphone'
       prob_given_true: 0.9
       prob_given_false: 0.1
       platform: 'state'
@@ -244,7 +244,7 @@
   name: 'Susan at Home'
   probability_threshold: 0.9
   observations:
-    - entity_id: 'device_tracker.nmap_susans_iphone'
+    - entity_id: 'device_tracker.arp_susan_iphone'
       prob_given_true: 0.9
       prob_given_false: 0.1
       platform: 'state'
@@ -270,7 +270,7 @@
   name: 'Heidi at Home'
   probability_threshold: 0.9
   observations:
-    - entity_id: 'device_tracker.nmap_heidis_iphone'
+    - entity_id: 'device_tracker.arp_heidi_iphone'
       prob_given_true: 0.9
       prob_given_false: 0.1
       platform: 'state'
