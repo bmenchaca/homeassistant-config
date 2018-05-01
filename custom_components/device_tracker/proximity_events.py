@@ -53,9 +53,9 @@ LOCATION_ATTRS = [ ATTR_EVENT_LATITUDE, ATTR_EVENT_LONGITUDE,
 
 ATTR_EVENT_ADDRESS = 'event_address'
 
-GEOFENCE_ENTRY = 'Geofence:Entry'
+GEOFENCE_ENTER = 'Geofence:Enter'
 GEOFENCE_EXIT = 'Geofence:Exit'
-BEACON_ENTRY = 'Beacon:Entry'
+BEACON_ENTER = 'Beacon:Enter'
 BEACON_EXIT = 'Beacon:Exit'
 
 URL = '/api/proximity_events'
@@ -80,20 +80,20 @@ class ProximityEventsView(HomeAssistantView):
     @asyncio.coroutine
     def post(self, request):
         """Handle Proximity Events requests."""
-        data = yield from request.post()
+        data = yield from request.json()
         hass = request.app['hass']
 
         data = self._validate_data(data)
         if not data:
             return ("Invalid data", HTTP_UNPROCESSABLE_ENTITY)
 
-        if data['event_type'] in [ GEOFENCE_ENTRY, BEACON_ENTRY ]: 
+        if data['event_type'] in [ GEOFENCE_ENTER, BEACON_ENTER ]: 
             location_name = data['trigger_name']
         else:
             location_name = STATE_NOT_HOME
-            if ATTR_EVENT_LATITUDE in data:
-                data[ATTR_LATITUDE] = data[ATTR_EVENT_LATITUDE]
-                data[ATTR_LONGITUDE] = data[ATTR_EVENT_LONGITUDE]
+        if ATTR_EVENT_LATITUDE in data:
+            data[ATTR_LATITUDE] = data[ATTR_EVENT_LATITUDE]
+            data[ATTR_LONGITUDE] = data[ATTR_EVENT_LONGITUDE]
 
         return (yield from self._set_location(hass, data, location_name))
 
@@ -116,6 +116,7 @@ class ProximityEventsView(HomeAssistantView):
             _LOGGER.debug("%s is not a supported trigger", data['trigger_type'])
 
         if not valid:
+            _LOGGER.debug(data)
             return False
 
         data['trigger_name'] = slugify(data['trigger_name'])
@@ -132,13 +133,13 @@ class ProximityEventsView(HomeAssistantView):
     @staticmethod
     def _device_name(data):
         """Return name of device tracker."""
-        return data['trigger_name']
+        return "%s_%s" % (data['trigger_type'], data['trigger_name'])
 
     @asyncio.coroutine
     def _set_location(self, hass, data, location_name):
         """Fire HA event to set location."""
         device = self._device_name(data)
-
+        
         yield from hass.async_add_job(
             partial(self.see, dev_id=device,
                     gps=(data[ATTR_LATITUDE], data[ATTR_LONGITUDE]),
