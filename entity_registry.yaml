@@ -1286,14 +1286,6 @@ switch.family_room_fan_switch_2:
   name:
   platform: zwave
   unique_id: 95-72057595636563968
-sensor.bens_iphone_battery_level:
-  name:
-  platform: ios
-  unique_id: level_ben_ha_iphone
-sensor.bens_iphone_battery_state:
-  name:
-  platform: ios
-  unique_id: state_ben_ha_iphone
 sensor.yo_mama_battery_state:
   name:
   platform: ios
@@ -1302,3 +1294,27 @@ sensor.yo_mama_battery_level:
   name:
   platform: ios
   unique_id: level_susan_ha_iphone
+sensor.bens_iphone_battery_level:
+  name:
+  platform: ios
+  unique_id: level_ben_ha_iphone
+sensor.bens_iphone_battery_state:
+  name:
+  platform: ios
+  unique_id: state_ben_ha_iphone
+sensor.bens_iphone_battery_state_2:
+  name:
+  platform: ios
+  unique_id: state_bens_iphone
+sensor.yo_mama_battery_state_2:
+  name:
+  platform: ios
+  unique_id: state_Susan-iphone
+sensor.bens_iphone_battery_level_2:
+  name:
+  platform: ios
+  unique_id: level_bens_iphone
+sensor.yo_mama_battery_level_2:
+  name:
+  platform: ios
+  unique_id: level_Susan-iphone
