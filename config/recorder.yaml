@@ -3,6 +3,7 @@ purge_keep_days: 7
 db_url: !secret db_url
 include:
   domains:
+    - cover
     - switch
     - light
     - binary_sensor
