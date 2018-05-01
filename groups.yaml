@@ -414,6 +414,17 @@ device_charging:
     - sensor.bens_ipad_battery_level
     - sensor.bens_ipad_battery_state
 
+security_devices:
+   name: Security Devices
+   entities:
+     - alarm_control_panel.home_alarm
+     - binary_sensor.ben_keyfob
+     - binary_sensor.susan_keyfob
+     - binary_sensor.gallery_siren
+     - binary_sensor.laundry_room_keypad
+     - binary_sensor.living_room_motion
+     - binary_sensor.master_hall_motion
+
 # Views      
 downstairs_view:
   name: Downstairs
