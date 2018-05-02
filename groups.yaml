@@ -325,6 +325,7 @@ master:
     - binary_sensor.master_occupancy
     - light.master_fan_lights_37
     - switch.master_fan_switch
+    - sensor.master_hsm200_temperature
     - binary_sensor.master_window_1
     - binary_sensor.master_window_2
     - binary_sensor.master_window_3

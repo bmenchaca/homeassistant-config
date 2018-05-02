@@ -52,7 +52,8 @@
     master_occupancy:
       friendly_name: 'Master Occupancy'
       value_template: >-
-        {%- if is_state("sensor.master_fan_burglar", "8") -%}
+        {%- if (is_state("sensor.master_fan_burglar", "8") or
+                is_state("sensor.master_hsm200_burglar", "8")) -%}
           True
         {%- else -%}
           False
@@ -152,7 +153,7 @@
       friendly_name: 'Family Room Occupancy'
       value_template: >-
         {%- if (is_state("sensor.breakfast_lights_burglar", "8") or
-               is_state("sensor.family_room_mantle_light_burglar", "8")) -%}
+                is_state("sensor.family_room_mantle_light_burglar", "8")) -%}
           True
         {%- else -%}
           False
@@ -218,9 +219,9 @@
   name: 'Ben at Home'
   probability_threshold: 0.9
   observations:
-    - entity_id: 'device_tracker.arp_bens_iphone'
+    - entity_id: 'device_tracker.arp_ben_iphone'
       prob_given_true: 0.9
-      prob_given_false: 0.1
+      prob_given_false: 0.3
       platform: 'state'
       to_state: 'home'
     - entity_id: 'device_tracker.beacon_ben_home'
@@ -246,7 +247,7 @@
   observations:
     - entity_id: 'device_tracker.arp_susan_iphone'
       prob_given_true: 0.9
-      prob_given_false: 0.1
+      prob_given_false: 0.3
       platform: 'state'
       to_state: 'home'
     - entity_id: 'device_tracker.beacon_susan_home'
@@ -272,7 +273,7 @@
   observations:
     - entity_id: 'device_tracker.arp_heidi_iphone'
       prob_given_true: 0.9
-      prob_given_false: 0.1
+      prob_given_false: 0.3
       platform: 'state'
       to_state: 'home'
     - entity_id: 'device_tracker.beacon_heidi_home'

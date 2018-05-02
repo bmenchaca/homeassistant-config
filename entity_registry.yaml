@@ -1318,3 +1318,131 @@ sensor.yo_mama_battery_level_2:
   name:
   platform: ios
   unique_id: level_Susan-iphone
+switch.switch:
+  name:
+  platform: zwave
+  unique_id: 96-72057595653341184
+sensor.alarm_type:
+  name:
+  platform: zwave
+  unique_id: 96-72057595654586369
+sensor.alarm_level:
+  name:
+  platform: zwave
+  unique_id: 96-72057595654586385
+sensor.unknown:
+  name:
+  platform: zwave
+  unique_id: 96-72057595653554178
+sensor.neo_coolcam_power_plug_12a_power:
+  name:
+  platform: zwave
+  unique_id: 96-72057595653554306
+sensor.neo_coolcam_power_plug_12a_voltage:
+  name:
+  platform: zwave
+  unique_id: 96-72057595653554434
+sensor.neo_coolcam_power_plug_12a_current:
+  name:
+  platform: zwave
+  unique_id: 96-72057595653554498
+sensor.neo_coolcam_power_plug_12a_exporting:
+  name:
+  platform: zwave
+  unique_id: 96-72057595653554688
+sensor.neo_coolcam_power_plug_12a_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 96-72057595654586401
+sensor.neo_coolcam_power_plug_12a_power_management:
+  name:
+  platform: zwave
+  unique_id: 96-72057595654586545
+binary_sensor.gallery_hsm200_sensor:
+  name:
+  platform: zwave
+  unique_id: 40-72057594713997312
+sensor.gallery_hsm200_temperature:
+  name:
+  platform: zwave
+  unique_id: 40-72057594714013714
+sensor.gallery_hsm200_luminance:
+  name:
+  platform: zwave
+  unique_id: 40-72057594714013746
+sensor.gallery_hsm200_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 40-72057594715062273
+sensor.gallery_hsm200_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 40-72057594715062289
+sensor.gallery_hsm200_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 40-72057594715062305
+sensor.gallery_hsm200_burglar:
+  name:
+  platform: zwave
+  unique_id: 40-72057594715062433
+sensor.guest_room_heater_plug_previous_reading:
+  name:
+  platform: zwave
+  unique_id: 96-72057595653554194
+sensor.guest_room_heater_plug_interval:
+  name:
+  platform: zwave
+  unique_id: 96-72057595653554211
+sensor.guest_room_heater_plug_previous_reading_2:
+  name:
+  platform: zwave
+  unique_id: 96-72057595653554322
+sensor.guest_room_heater_plug_interval_2:
+  name:
+  platform: zwave
+  unique_id: 96-72057595653554339
+sensor.guest_room_heater_plug_previous_reading_3:
+  name:
+  platform: zwave
+  unique_id: 96-72057595653554450
+sensor.guest_room_heater_plug_interval_3:
+  name:
+  platform: zwave
+  unique_id: 96-72057595653554467
+sensor.guest_room_heater_plug_previous_reading_4:
+  name:
+  platform: zwave
+  unique_id: 96-72057595653554514
+sensor.guest_room_heater_plug_interval_4:
+  name:
+  platform: zwave
+  unique_id: 96-72057595653554531
+binary_sensor.master_hsm200_sensor:
+  name:
+  platform: zwave
+  unique_id: 97-72057595670298624
+sensor.master_hsm200_temperature:
+  name:
+  platform: zwave
+  unique_id: 97-72057595670315026
+sensor.master_hsm200_luminance:
+  name:
+  platform: zwave
+  unique_id: 97-72057595670315058
+sensor.master_hsm200_alarm_type:
+  name:
+  platform: zwave
+  unique_id: 97-72057595671363585
+sensor.master_hsm200_alarm_level:
+  name:
+  platform: zwave
+  unique_id: 97-72057595671363601
+sensor.master_hsm200_sourcenodeid:
+  name:
+  platform: zwave
+  unique_id: 97-72057595671363617
+sensor.master_hsm200_burglar:
+  name:
+  platform: zwave
+  unique_id: 97-72057595671363745
