@@ -176,6 +176,8 @@ craft_room_motion_lights:
   #entity_off: switch.laundry_room_lights_switch
   #off_delay: 60
 
+
+
 #
 ###############################################################################
 
