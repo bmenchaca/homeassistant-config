@@ -24,6 +24,13 @@ light.family_room:
   hidden: true
 light.group_for_wakeup:
   hidden: true          
+# Using burglar for HSM200, don't need Binary Sensor as well
+binary_sensor.master_hsm200_sensor:
+  hidden: true
+sensor.master_hsm200_luminance:
+  hidden: true
+sensor.unknown:
+  hidden: true
 
 # Abode Keyfob
 binary_sensor.ben_keyfob:
