@@ -1318,43 +1318,43 @@ sensor.yo_mama_battery_level_2:
   name:
   platform: ios
   unique_id: level_Susan-iphone
-switch.switch:
+switch.guest_room_heater_plug_switch:
   name:
   platform: zwave
   unique_id: 96-72057595653341184
-sensor.alarm_type:
+sensor.guest_room_heater_plug_alarm_type:
   name:
   platform: zwave
   unique_id: 96-72057595654586369
-sensor.alarm_level:
+sensor.guest_room_heater_plug_alarm_level:
   name:
   platform: zwave
   unique_id: 96-72057595654586385
-sensor.unknown:
+sensor.guest_room_heater_plug_kwh:
   name:
   platform: zwave
   unique_id: 96-72057595653554178
-sensor.neo_coolcam_power_plug_12a_power:
+sensor.guest_room_heater_plug_power:
   name:
   platform: zwave
   unique_id: 96-72057595653554306
-sensor.neo_coolcam_power_plug_12a_voltage:
+sensor.guest_room_heater_plug_voltage:
   name:
   platform: zwave
   unique_id: 96-72057595653554434
-sensor.neo_coolcam_power_plug_12a_current:
+sensor.guest_room_heater_plug_current:
   name:
   platform: zwave
   unique_id: 96-72057595653554498
-sensor.neo_coolcam_power_plug_12a_exporting:
+sensor.guest_room_heater_plug_exporting:
   name:
   platform: zwave
   unique_id: 96-72057595653554688
-sensor.neo_coolcam_power_plug_12a_sourcenodeid:
+sensor.guest_room_heater_plug_sourcenodeid:
   name:
   platform: zwave
   unique_id: 96-72057595654586401
-sensor.neo_coolcam_power_plug_12a_power_management:
+sensor.guest_room_heater_plug_power_management:
   name:
   platform: zwave
   unique_id: 96-72057595654586545
