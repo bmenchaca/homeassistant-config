@@ -62,8 +62,7 @@
     switch.guest_hall_light_63: off
     light.family_room_lights_59:
       state: off
-    light.mantle_light:
-      state: on
+    switch.family_room_mantle_light_switch: on
 
 - name: house_bed_time
   entities:

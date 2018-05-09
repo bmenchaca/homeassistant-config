@@ -147,10 +147,9 @@ family_room:
   entities:
     - media_player.living
     - switch.family_room_fan_switch
-    #- switch.family_room_mantle_light_switch
+    - switch.family_room_mantle_light_switch
     - light.family_room_lights_59
     #- light.family_room_flood
-    - light.mantle_light
     - binary_sensor.family_room_occupancy  
     - sensor.netatmo_indoor_temperature
     - sensor.netatmo_indoor_co2
