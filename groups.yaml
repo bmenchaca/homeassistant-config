@@ -117,9 +117,9 @@ entry_room:
     - switch.christmas_tree_54
     - binary_sensor.entry_room_occupancy
     - binary_sensor.front_door
-    - binary_sensor.entry_motion
     - binary_sensor.entry_window_1
     - binary_sensor.entry_window_2
+    - binary_sensor.entry_motion
     - binary_sensor.entry_glass
     #- camera.entry_hall
 

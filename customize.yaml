@@ -51,6 +51,8 @@ binary_sensor.living_room_motion:
   device_class: connectivity
 binary_sensor.master_hall_motion:
   device_class: connectivity
+binary_sensor.entry_motion:
+  device_class: connectivity
 
 binary_sensor.heidi_room_multisensor_sensor:
   friendly_name: Heidi's Room Motion Sensor
