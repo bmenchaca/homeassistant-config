@@ -28,16 +28,16 @@
 ben_presence: 
   name: Ben Presence
   entities:
-   - binary_sensor.ben_at_home
-   - device_tracker.ben_ha_iphone
-   - device_tracker.acf9320b92834db89f3da79cdd092ffe
-   - device_tracker.beacon_ben_home
-   - device_tracker.arp_ben_iphone
+    - input_select.ben_presence_dropdown
+    - device_tracker.ben_ha_iphone
+    - device_tracker.acf9320b92834db89f3da79cdd092ffe
+    - device_tracker.beacon_ben_home
+    - device_tracker.arp_ben_iphone
 
 susan_presence:
   name: Susan Presence
   entities:
-    - binary_sensor.susan_at_home
+    - input_select.susan_presence_dropdown
     - device_tracker.susan_ha_iphone
     - device_tracker.cab02f4d94ab43e09ca603aef8faa57b
     - device_tracker.beacon_susan_home
@@ -46,7 +46,7 @@ susan_presence:
 heidi_presence:
   name: Heidi Presence
   entities:
-    - binary_sensor.heidi_at_home
+    - input_select.heidi_presence_dropdown
     - device_tracker.heidi_ha_iphone
     - device_tracker.0f37f6226f6e4e39a254ce222bdf30ba
     - device_tracker.beacon_heidi_home
