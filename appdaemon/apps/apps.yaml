@@ -7,6 +7,56 @@
 #  output_sensor: sensor.downstairs_last_motion
 
 ###############################################################################
+# Presence Automations
+# 
+ben_presence_aggregator:
+  class: PresenceAggregator
+  module: presence_aggregator
+  trackers:
+    - device_tracker.acf9320b92834db89f3da79cdd092ffe
+    - device_tracker.beacon_ben_home
+    - device_tracker.arp_ben_iphone 
+  presence_select: input_select.ben_presence_dropdown
+  home_consensus: 2
+  away_consensus: 2
+  away_delay: 120
+  #home_delay: 
+  #home_state: 
+  #delay_state:
+
+susan_presence_aggregator:
+  class: PresenceAggregator
+  module: presence_aggregator
+  trackers:
+    - device_tracker.cab02f4d94ab43e09ca603aef8faa57b
+    - device_tracker.beacon_susan_home
+    - device_tracker.arp_susan_iphone
+  presence_select: input_select.susan_presence_dropdown
+  home_consensus: 2
+  away_consensus: 2
+  away_delay: 120
+  #home_delay:
+  #home_state:
+  #delay_state:
+
+heidi_presence_aggregator:
+  class: PresenceAggregator
+  module: presence_aggregator
+  trackers:
+    - device_tracker.0f37f6226f6e4e39a254ce222bdf30ba
+    - device_tracker.beacon_heidi_home
+    - device_tracker.arp_heidi_iphone
+  presence_select: input_select.heidi_presence_dropdown
+  home_consensus: 2
+  away_consensus: 2
+  away_delay: 120
+  #home_delay:
+  #home_state:
+  #delay_state:
+#  
+###############################################################################
+
+###############################################################################
 # Door Automations
 # 
 pantry_sensor_light:
@@ -168,13 +218,13 @@ laundry_room_motion_light:
   entity_off: switch.laundry_room_lights_switch
   off_delay: 60
 
-craft_room_motion_lights:
-  class: SensorLight
-  module: sensor_light
-  sensor: binary_sensor.craft_room_occupancy
-  entity_on: scene.craft_room_switch_on
-  #entity_off: switch.laundry_room_lights_switch
-  #off_delay: 60
+#craft_room_motion_lights:
+#  class: SensorLight
+#  module: sensor_light
+#  sensor: binary_sensor.craft_room_occupancy
+#  entity_on: scene.craft_room_switch_on
+#  #entity_off: scene.craft_room_switch_on
+#  #off_delay: 60
 
 
 
