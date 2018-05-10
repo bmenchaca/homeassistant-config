@@ -14,6 +14,7 @@
 #        {%- if is_state('switch.family_room_mantle_light_switch', 'off') -%}
 #          {{ 0 }}
 #        {%- elif states.light.family_room_flood -%}
+#          {{ states(light.family_room_flood.attributes.brightness) }}
 #          {{ states.light.family_room_flood.attributes.brightness }}
 #        {%- else -%}
 #          {{ 0 }}
