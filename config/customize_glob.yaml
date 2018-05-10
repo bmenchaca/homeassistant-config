@@ -20,3 +20,5 @@
   hidden: true
 "sensor.netatmo_*door_*_*":
   hidden: true
+"sensor.guest_room_heater_plug_*":
+  hidden: true
