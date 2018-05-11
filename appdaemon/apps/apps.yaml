@@ -13,46 +13,46 @@ ben_presence_aggregator:
   class: PresenceAggregator
   module: presence_aggregator
   trackers:
-    - device_tracker.acf9320b92834db89f3da79cdd092ffe
-    - device_tracker.beacon_ben_home
-    - device_tracker.arp_ben_iphone 
+    device_tracker.acf9320b92834db89f3da79cdd092ffe: "Home"
+    device_tracker.beacon_ben_home: "ben_home"
+    device_tracker.arp_ben_iphone: "Home"
   presence_select: input_select.ben_presence_dropdown
   home_consensus: 2
   away_consensus: 2
   away_delay: 120
   #home_delay: 
   #home_state: 
-  #delay_state:
+  #away_state:
 
 susan_presence_aggregator:
   class: PresenceAggregator
   module: presence_aggregator
   trackers:
-    - device_tracker.cab02f4d94ab43e09ca603aef8faa57b
-    - device_tracker.beacon_susan_home
-    - device_tracker.arp_susan_iphone
+    device_tracker.cab02f4d94ab43e09ca603aef8faa57b: "Home"
+    device_tracker.beacon_susan_home: "susan_home"
+    device_tracker.arp_susan_iphone: "Home"
   presence_select: input_select.susan_presence_dropdown
   home_consensus: 2
   away_consensus: 2
   away_delay: 120
   #home_delay:
   #home_state:
-  #delay_state:
+  #away_state:
 
 heidi_presence_aggregator:
   class: PresenceAggregator
   module: presence_aggregator
   trackers:
-    - device_tracker.0f37f6226f6e4e39a254ce222bdf30ba
-    - device_tracker.beacon_heidi_home
-    - device_tracker.arp_heidi_iphone
+    device_tracker.0f37f6226f6e4e39a254ce222bdf30ba: "Home"
+    device_tracker.beacon_heidi_home: "heidi_home"
+    device_tracker.arp_heidi_iphone: "Home"
   presence_select: input_select.heidi_presence_dropdown
   home_consensus: 2
   away_consensus: 2
   away_delay: 120
   #home_delay:
   #home_state:
-  #delay_state:
+  #away_state:
 #  
 ###############################################################################
 
