@@ -3,6 +3,7 @@
     - ding
     - motion
 
+#Occupancy Template Sensors
 - platform: template
   sensors:
     guest_occupancy:
@@ -13,9 +14,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
     guest_bathroom_occupancy:
       friendly_name: 'Guest Bathroom Occupancy'
       value_template: >-
@@ -24,9 +22,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
     dining_room_occupancy:
       friendly_name: 'Dining Occupancy'
       value_template: >-
@@ -35,9 +30,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
     laundry_room_occupancy:
       friendly_name: 'Laundry Room Occupancy'
       value_template: >-
@@ -46,9 +38,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
     master_occupancy:
       friendly_name: 'Master Occupancy'
       value_template: >-
@@ -58,9 +47,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
     master_bath_occupancy:
       friendly_name: 'Master Bath Occupancy'
       value_template: >-
@@ -69,9 +55,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
     entry_room_occupancy:
       friendly_name: 'Entry Room Occupancy'
       value_template: >-
@@ -80,20 +63,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
-    entry_room_occupancy:
-      friendly_name: 'Entry Room Occupancy'
-      value_template: >-
-        {%- if is_state("sensor.front_porch_lights_burglar", "8") -%}
-          True
-        {%- else -%}
-          False
-        {%- endif -%}
-
-- platform: template
-  sensors:
     master_hall_occupancy:
       friendly_name: 'Master Hall Occupancy'
       value_template: >-
@@ -102,9 +71,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
     garage_occupancy:
       friendly_name: 'Garage Occupancy'
       value_template: >-
@@ -115,9 +81,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
     craft_room_occupancy:
       friendly_name: 'Craft Room Occupancy'
       value_template: >-
@@ -126,9 +89,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
     stairs_occupancy:
       friendly_name: 'Stairs Occupancy'
       value_template: >-
@@ -137,9 +97,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
     gallery_occupancy:
       friendly_name: 'Gallery Occupancy'
       value_template: >-
@@ -148,9 +105,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
     family_room_occupancy:
       friendly_name: 'Family Room Occupancy'
       value_template: >-
@@ -160,9 +114,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
     game_room_occupancy:
       friendly_name: 'Game Room Occupancy'
       value_template: >-
@@ -171,9 +122,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
     boys_bathroom_occupancy:
       friendly_name: "Boys Bathroom Occupancy"
       value_template: >-
@@ -182,9 +130,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
     boys_hall_occupancy:
       friendly_name: 'Boys Hall Occupancy'
       value_template: >-
@@ -193,9 +138,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
     office_occupancy:
       friendly_name: 'Office Occupancy'
       value_template: >-
@@ -204,9 +146,6 @@
         {%- else -%}
           False
         {%- endif -%}
-
-- platform: template
-  sensors:
     girls_hall_occupancy:
       friendly_name: "Girls Hall Occupancy"
       value_template: >-
@@ -216,75 +155,34 @@
           False
         {%- endif -%}
 
-#- platform: bayesian
-#  prior: 0.5
-#  name: 'Ben at Home'
-#  probability_threshold: 0.9
-#  observations:
-#    - entity_id: 'device_tracker.arp_ben_iphone'
-#      prob_given_true: 0.9
-#      prob_given_false: 0.3
-#      platform: 'state'
-#      to_state: 'home'
-#    - entity_id: 'device_tracker.beacon_ben_home'
-#      prob_given_true: 0.9
-#      prob_given_false: 0.2
-#      platform: 'state'
-#      to_state: 'home'
-#    - entity_id: 'device_tracker.acf9320b92834db89f3da79cdd092ffe'
-#      prob_given_true: 0.8
-#      prob_given_false: 0.3
-#      platform: 'state'
-#      to_state: 'home'
-#    - entity_id: 'device_tracker.ben_ha_iphone'
-#      prob_given_true: 0.8
-#      prob_given_false: 0.3
-#      platform: 'state'
-#      to_state: 'home'
+# Presence Home or Away
+- platform: template
+  sensors:
+    ben_at_home:
+      friendly_name: "Ben at Home"
+      device_class: presence
+      value_template: >-
+        {%- if is_state("input_select.ben_presence_dropdown", "Home") -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
+    susan_at_home:
+      friendly_name: "Susan at Home"
+      device_class: presence
+      value_template: >-
+        {%- if is_state("input_select.susan_presence_dropdown", "Home") -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
+    heidi_at_home:
+      friendly_name: "Heidi at Home"
+      device_class: presence
+      value_template: >-
+        {%- if is_state("input_select.heidi_presence_dropdown", "Home") -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
 
-#- platform: bayesian
-#  prior: 0.5
-#  name: 'Susan at Home'
-#  probability_threshold: 0.9
-#  observations:
-#    - entity_id: 'device_tracker.arp_susan_iphone'
-#      prob_given_true: 0.9
-#      prob_given_false: 0.3
-#      platform: 'state'
-#      to_state: 'home'
-#    - entity_id: 'device_tracker.beacon_susan_home'
-#      prob_given_true: 0.9
-#      prob_given_false: 0.2
-#      platform: 'state'
-#      to_state: 'home'
-#    - entity_id: 'device_tracker.cab02f4d94ab43e09ca603aef8faa57b'
-#      prob_given_true: 0.8
-#      prob_given_false: 0.3
-#      platform: 'state'
-#      to_state: 'home'
-#    - entity_id: 'device_tracker.susan_ha_iphone'
-#      prob_given_true: 0.8
-#      prob_given_false: 0.3
-#      platform: 'state'
-#      to_state: 'home'
-
-#- platform: bayesian
-#  prior: 0.5
-#  name: 'Heidi at Home'
-#  probability_threshold: 0.9
-#  observations:
-#    - entity_id: 'device_tracker.arp_heidi_iphone'
-#      prob_given_true: 0.9
-#      prob_given_false: 0.3
-#      platform: 'state'
-#      to_state: 'home'
-#    - entity_id: 'device_tracker.beacon_heidi_home'
-#      prob_given_true: 0.9
-#      prob_given_false: 0.2
-#      platform: 'state'
-#      to_state: 'home'
-#    - entity_id: 'device_tracker.0f37f6226f6e4e39a254ce222bdf30ba'
-#      prob_given_true: 0.8
-#      prob_given_false: 0.3
-#      platform: 'state'
-#      to_state: 'home'
