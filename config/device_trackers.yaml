@@ -4,13 +4,21 @@
 - platform: proximity_events
   consider_home: 60
 
-- platform: arping
-  consider_home: 60
-  count: 2
-  hosts:
-   arp_susan_iphone: !secret device_ip_susans_iphone 
-   arp_ben_iphone: !secret device_ip_bens_iphone
-   arp_heidi_iphone: !secret device_ip_heidis_iphone
+- platform: unifi
+  host: !secret device_ip_unifi_controller
+  username: !secret unifi_controller_username
+  password: !secret unifi_controller_password
+  ssid_filter:
+    - 'MerlinHome'
+    - 'MerlinKids'
+
+#- platform: arping
+#  consider_home: 60
+#  count: 2
+#  hosts:
+#   arp_susan_iphone: !secret device_ip_susans_iphone
+#   arp_ben_iphone: !secret device_ip_bens_iphone
+#   arp_heidi_iphone: !secret device_ip_heidis_iphone
 
 
 #- platform: owntracks
