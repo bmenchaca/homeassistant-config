@@ -62,28 +62,3 @@ cab02f4d94ab43e09ca603aef8faa57b:
   name: Susan Geofency GPS
   picture:
   track: true
-
-arp_ben_iphone:
-  hide_if_away: false
-  icon:
-  mac:
-  name: ARP Ben iPhone
-  picture:
-  track: true
-
-arp_heidi_iphone:
-  hide_if_away: false
-  icon:
-  mac:
-  name: ARP Heidi iPhone
-  picture:
-  track: true
-
-arp_susan_iphone:
-  hide_if_away: false
-  icon:
-  mac:
-  name: ARP Susan iPhone
-  picture:
-  track: true
-
