@@ -311,6 +311,13 @@ input_select.susan_presence_dropdown:
 input_select.heidi_presence_dropdown:
   hidden: true
 
+# Hide Phone App Device Trackers
+device_tracker.ben_ha_iphone:
+  hidden: true
+device_tracker.susan_ha_iphone:
+  hidden: true
+
+
 # House Mode Selector prettiness
 input_select.house_mode:
   friendly_name: "House Time of Day"
