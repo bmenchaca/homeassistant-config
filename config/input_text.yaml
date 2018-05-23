@@ -1,7 +1,0 @@
-downstairs_last_motion_room:
-  name: Last Downstairs Room with Motion
-  initial: Unknown
-
-upstairs_last_motion_room:
-  name: Last Upstairs Room with Motion
-  initial: Unknown
