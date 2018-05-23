@@ -1,26 +1,31 @@
 house_mode:
   name: House Mode
+  friendly_name: House Mode
   options:
     - Morning
     - Day
+    - Naptime
+    - Afternoon
     - Evening
     - Night
-    - Naptime
 
 ben_presence_dropdown:
   name: Ben Presence
+  friendly_name: Ben Presence
   options:
     - Home
     - Away
 
 susan_presence_dropdown:
   name: Susan Presence
+  friendly_name: Susan Presence
   options:
     - Home
     - Away
 
 heidi_presence_dropdown:
   name: Heidi Presence
+  friendly_name: Heidi Presence
   options:
     - Home
     - Away
