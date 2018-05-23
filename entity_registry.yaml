@@ -1406,3 +1406,135 @@ sensor.master_hsm200_burglar:
   name:
   platform: zwave
   unique_id: 97-72057595671363745
+light.guest_bath_color:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:04:62:04:64-0b
+light.guest_bath_1:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:03:fa:dc:b7-0b
+light.guest_bath_2:
+  name:
+  platform: hue
+  unique_id: 00:17:88:01:03:85:55:fb-0b
+zwave.hapi_controller:
+  name:
+  platform: zwave
+  unique_id: node-1
+zwave.guest_fan_and_lights:
+  name:
+  platform: zwave
+  unique_id: node-36
+zwave.dining_room_lights:
+  name:
+  platform: zwave
+  unique_id: node-38
+zwave.breakfast_lights:
+  name:
+  platform: zwave
+  unique_id: node-39
+zwave.gallery_hsm200:
+  name:
+  platform: zwave
+  unique_id: node-40
+zwave.hannah_multisensor:
+  name:
+  platform: zwave
+  unique_id: node-46
+zwave.noah_multisensor:
+  name:
+  platform: zwave
+  unique_id: node-47
+zwave.master_hall_lights:
+  name:
+  platform: zwave
+  unique_id: node-48
+zwave.gallery_hall_lights:
+  name:
+  platform: zwave
+  unique_id: node-51
+zwave.laundry_room_lights:
+  name:
+  platform: zwave
+  unique_id: node-57
+zwave.pantry_door:
+  name:
+  platform: zwave
+  unique_id: node-59
+zwave.laundry_room_closet_door:
+  name:
+  platform: zwave
+  unique_id: node-62
+zwave.game_room_fan:
+  name:
+  platform: zwave
+  unique_id: node-67
+zwave.master_fan:
+  name:
+  platform: zwave
+  unique_id: node-69
+zwave.girls_hall_light:
+  name:
+  platform: zwave
+  unique_id: node-75
+zwave.master_closet_door:
+  name:
+  platform: zwave
+  unique_id: node-78
+zwave.office_lights:
+  name:
+  platform: zwave
+  unique_id: node-83
+zwave.boys_bathroom_lights:
+  name:
+  platform: zwave
+  unique_id: node-84
+zwave.heidi_room_multisensor:
+  name:
+  platform: zwave
+  unique_id: node-85
+zwave.stairs_light:
+  name:
+  platform: zwave
+  unique_id: node-86
+zwave.boys_hall_light:
+  name:
+  platform: zwave
+  unique_id: node-88
+zwave.front_porch_light:
+  name:
+  platform: zwave
+  unique_id: node-89
+zwave.garage_lights:
+  name:
+  platform: zwave
+  unique_id: node-90
+zwave.family_room_mantle_light:
+  name:
+  platform: zwave
+  unique_id: node-91
+zwave.guest_bathroom_lights:
+  name:
+  platform: zwave
+  unique_id: node-92
+zwave.craft_room_fan_and_lights:
+  name:
+  platform: zwave
+  unique_id: node-93
+zwave.master_bathtub_light:
+  name:
+  platform: zwave
+  unique_id: node-94
+zwave.family_room_fan:
+  name:
+  platform: zwave
+  unique_id: node-95
+zwave.guest_room_heater_plug:
+  name:
+  platform: zwave
+  unique_id: node-96
+zwave.master_hsm200:
+  name:
+  platform: zwave
+  unique_id: node-97
