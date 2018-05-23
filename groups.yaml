@@ -31,7 +31,6 @@ ben_presence:
     - binary_sensor.ben_at_home
     - device_tracker.acf9320b92834db89f3da79cdd092ffe
     - device_tracker.beacon_ben_home
-    - device_tracker.ben_ha_iphone
 
 susan_presence:
   name: Susan Presence
@@ -39,7 +38,6 @@ susan_presence:
     - binary_sensor.susan_at_home
     - device_tracker.cab02f4d94ab43e09ca603aef8faa57b
     - device_tracker.beacon_susan_home
-    - device_tracker.susan_ha_iphone
 
 heidi_presence:
   name: Heidi Presence
@@ -47,7 +45,6 @@ heidi_presence:
     - binary_sensor.heidi_at_home
     - device_tracker.0f37f6226f6e4e39a254ce222bdf30ba
     - device_tracker.beacon_heidi_home
-    - device_tracker.heidi_ha_iphone
 
 susan_garage_door:
   name: Susan Garage
