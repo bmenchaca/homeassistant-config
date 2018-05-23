@@ -8,6 +8,7 @@
   host: !secret device_ip_unifi_controller
   username: !secret unifi_controller_username
   password: !secret unifi_controller_password
+  verify_ssl: False
   ssid_filter:
     - 'MerlinHome'
     - 'MerlinKids'
