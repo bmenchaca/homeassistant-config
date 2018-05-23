@@ -303,6 +303,14 @@ binary_sensor.susan_at_home:
   device_class: presence
 binary_sensor.heidi_at_home:
   device_class: presence
+# Hide Presence Input Selectors
+input_select.ben_presence_dropdown:
+  hidden: true
+input_select.susan_presence_dropdown:
+  hidden: true
+input_select.heidi_presence_dropdown:
+  hidden: true
+
 
 zone.home:
   beacon:
