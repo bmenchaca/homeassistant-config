@@ -62,3 +62,35 @@ cab02f4d94ab43e09ca603aef8faa57b:
   name: Susan Geofency GPS
   picture:
   track: true
+
+bens_ipad:
+  hide_if_away: false
+  icon:
+  mac: 90:8D:6C:3A:23:E7
+  name: Ben's iPad
+  picture:
+  track: false
+
+heidisipad:
+  hide_if_away: false
+  icon:
+  mac: E8:B2:AC:9D:8F:3C
+  name: Heidis-iPad
+  picture:
+  track: false
+
+hp_wireless_printer:
+  hide_if_away: false
+  icon:
+  mac: A0:8C:FD:B6:8D:A1
+  name: HP Wireless Printer
+  picture:
+  track: false
+
+susan_laptop:
+  hide_if_away: false
+  icon:
+  mac: FC:F8:AE:25:B3:EF
+  name: Susan Laptop
+  picture:
+  track: false
