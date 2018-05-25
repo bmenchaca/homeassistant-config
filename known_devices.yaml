@@ -94,3 +94,51 @@ susan_laptop:
   name: Susan Laptop
   picture:
   track: false
+
+noahsipad:
+  hide_if_away: false
+  icon:
+  mac: 34:7C:25:14:8C:AC
+  name: Noahs-iPad
+  picture:
+  track: false
+
+ipad2:
+  hide_if_away: false
+  icon:
+  mac: 34:7C:25:14:81:DD
+  name: iPad-2
+  picture:
+  track: false
+
+44650d81d2d5:
+  hide_if_away: false
+  icon:
+  mac: 44:65:0D:81:D2:D5
+  name: 44650d81d2d5
+  picture:
+  track: true
+
+74754833cbc5:
+  hide_if_away: false
+  icon:
+  mac: 74:75:48:33:CB:C5
+  name: 74754833cbc5
+  picture:
+  track: true
+
+38f73d58aea5:
+  hide_if_away: false
+  icon:
+  mac: 38:F7:3D:58:AE:A5
+  name: 38f73d58aea5
+  picture:
+  track: true
+
+c02t77h2gtfm:
+  hide_if_away: false
+  icon:
+  mac: 78:4F:43:84:2F:53
+  name: C02T77H2GTFM
+  picture:
+  track: true
