@@ -1,11 +1,3 @@
-susan_ha_iphone:
-  hide_if_away: false
-  mac: !secret device_mac_susan_iphone
-  name: Susan HA iPhone App
-  picture: /local/susan.png
-  track: true
-  vendor:
-
 acf9320b92834db89f3da79cdd092ffe:
   hide_if_away: false
   icon:
@@ -13,15 +5,6 @@ acf9320b92834db89f3da79cdd092ffe:
   name: Ben GeoFency GPS
   picture: /local/ben.png
   track: true
-
-ben_ha_iphone:
-  hide_if_away: false
-  icon:
-  mac: !secret device_mac_ben_iphone
-  name: Ben HA iPhone App
-  picture: /local/ben.png
-  track: true
-  vendor:
 
 beacon_ben_home:
   hide_if_away: false
@@ -95,19 +78,19 @@ susan_laptop:
   picture:
   track: false
 
-noahsipad:
+noah_ipad:
   hide_if_away: false
   icon:
   mac: 34:7C:25:14:8C:AC
-  name: Noahs-iPad
+  name: Noah's iPad
   picture:
   track: false
 
-ipad2:
+hannah_ipad:
   hide_if_away: false
   icon:
   mac: 34:7C:25:14:81:DD
-  name: iPad-2
+  name: Hannah's iPad
   picture:
   track: false
 
@@ -115,9 +98,9 @@ ipad2:
   hide_if_away: false
   icon:
   mac: 44:65:0D:81:D2:D5
-  name: 44650d81d2d5
+  name: Unknown Amazon Device
   picture:
-  track: true
+  track: false
 
 74754833cbc5:
   hide_if_away: false
@@ -135,10 +118,26 @@ ipad2:
   picture:
   track: true
 
-c02t77h2gtfm:
+ben_work_laptop:
   hide_if_away: false
   icon:
   mac: 78:4F:43:84:2F:53
-  name: C02T77H2GTFM
+  name: Ben's Work Laptop
+  picture:
+  track: false
+
+heidi_iphone:
+  hide_if_away: false
+  icon:
+  mac: 74:8D:08:31:AB:9D
+  name: Heidi's iPhone
+  picture:
+  track: true
+
+bens_iphone:
+  hide_if_away: false
+  icon:
+  mac: B0:48:1A:C7:A2:83
+  name: Ben's iPhone
   picture:
   track: true
