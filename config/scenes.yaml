@@ -86,6 +86,15 @@
     cover.ben_garage: closed
     cover.susan_garage: closed
 
+- name: night_switches
+  entities:
+    switch.noahs_hall_light_switch: off
+    switch.girls_hall_light_switch: off
+    # These are on because we will turn the lights off with hue
+    switch.gallery_hall_light_switch: on
+    switch.guest_bathroom_lights_switch: on
+
+
 - name: everyone_away
   entities:
     switch.garage_lights_switch: off

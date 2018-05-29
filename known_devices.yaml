@@ -141,3 +141,27 @@ bens_iphone:
   name: Ben's iPhone
   picture:
   track: true
+
+susan_ha_iphone:
+  hide_if_away: false
+  icon:
+  mac:
+  name: susan ha iphone
+  picture:
+  track: true
+
+susans_iphone:
+  hide_if_away: false
+  icon:
+  mac: 70:70:0D:EC:B5:03
+  name: Susan's iPhone
+  picture:
+  track: true
+
+ben_ha_iphone:
+  hide_if_away: false
+  icon:
+  mac:
+  name: ben ha iphone
+  picture:
+  track: true
