@@ -327,3 +327,27 @@ zone.home:
      uuid: E3867230-91FE-4788-AA02-717ABA4C8E5A
      major: 1
      minor: 11
+
+# Netatmo
+sensor.netatmo_indoor_humidity:
+  hidden: true      
+sensor.netatmo_indoor_humidity_2:
+  hidden: true      
+sensor.netatmo_indoor_pressure:
+  hidden: true
+sensor.netatmo_indoor_wifi:
+  hidden: true
+sensor.netatmo_outdoor_battery:
+  hidden: true
+sensor.netatmo_outdoor_battery_2:
+  hidden: true
+sensor.netatmo_outdoor_humidity:
+  hidden: true
+sensor.netatmo_outdoor_humidity_2:
+  hidden: true
+sensor.netatmo_outdoor_radio:
+  hidden: true
+sensor.netatmo_outdoor_temperature:
+  hidden: true
+sensor.netatmo_outdoor_temperature_2:
+  hidden: true
