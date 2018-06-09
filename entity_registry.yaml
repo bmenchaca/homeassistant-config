@@ -106,10 +106,6 @@ switch.garage_outdoor_lights_switch:
   name:
   platform: zwave
   unique_id: 24-72057594445381632
-switch.family_room_fan_switch:
-  name:
-  platform: zwave
-  unique_id: 26-72057594478936064
 light.family_room_fan_lights_level:
   name:
   platform: zwave
@@ -646,6 +642,9 @@ sensor.master_fan_burglar_2:
   name:
   platform: zwave
   unique_id: 69-144115189239529633
+#switch.master_fan_switch:
+#  name: Master Fan Switch
+#  platform: zwave
 media_player.master_bathroom:
   name:
   platform: sonos
@@ -1242,7 +1241,7 @@ sensor.master_bathtub_light_burglar_2:
   name:
   platform: zwave
   unique_id: 94-144115189658960033
-switch.family_room_fan_switch_2:
+switch.family_room_fan_switch:
   name:
   platform: zwave
   unique_id: 95-72057595636563968
