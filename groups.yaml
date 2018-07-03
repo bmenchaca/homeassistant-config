@@ -84,8 +84,8 @@ craft_room:
 guest_room:
   name: Guest Room
   entities:
-    - switch.guest_heater
     - switch.guest_fan_and_lights_switch
+    - switch.guest_room_heater_plug_switch
     - light.guest
     - light.guest_1
     - light.guest_2
@@ -369,10 +369,10 @@ usage_info:
 system_switches:
   name: System Switches
   entities:
-    - switch.office_control_p1_30
-    - switch.office_control_p2_31
-    - switch.office_control_p3_32
-    - switch.office_control_p4_33
+    - switch.office_p1_hapi_30
+    - switch.office_p2_oldhapi_31
+    - switch.office_p3_pihole_32
+    - switch.office_p4_fasthapi_33
     - switch.office_control_strip_29
 
 downstairs_occupancy:
