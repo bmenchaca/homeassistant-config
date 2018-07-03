@@ -22,10 +22,8 @@
 #   arp_heidi_iphone: !secret device_ip_heidis_iphone
 
 
-#- platform: owntracks
-#  waypoints: False
-#  track_new_devices: False
-  #consider_home: 60
+- platform: owntracks
+  waypoints: False
 
 # This is specific to iphones only
 #- platform: nmap_tracker
