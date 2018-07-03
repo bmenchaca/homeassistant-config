@@ -6,35 +6,11 @@ acf9320b92834db89f3da79cdd092ffe:
   picture: /local/ben.png
   track: true
 
-beacon_ben_home:
-  hide_if_away: false
-  icon:
-  mac:
-  name: Ben Geofency Home Beacon
-  picture:
-  track: true
-
-beacon_heidi_home:
-  hide_if_away: false
-  icon:
-  mac:
-  name: Heidi Geofency Home Beacon
-  picture:
-  track: true
-
 0f37f6226f6e4e39a254ce222bdf30ba:
   hide_if_away: false
   icon:
   mac:
   name: Heidi Geofency GPS
-  picture:
-  track: true
-
-beacon_susan_home:
-  hide_if_away: false
-  icon:
-  mac:
-  name: Susan Geofency Home Beacon
   picture:
   track: true
 
