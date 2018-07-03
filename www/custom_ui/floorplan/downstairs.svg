@@ -14,7 +14,7 @@
    viewBox="0 0 1024 768"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.2 5c3e80d, 2017-08-06"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)"
    sodipodi:docname="downstairs.svg">
   <defs
      id="defs2">
@@ -59,9 +59,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.240774"
-     inkscape:cx="801.03411"
-     inkscape:cy="70.590307"
+     inkscape:zoom="0.90509675"
+     inkscape:cx="343.13214"
+     inkscape:cy="172.61847"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -69,8 +69,8 @@
      scale-x="1"
      inkscape:window-width="1584"
      inkscape:window-height="1396"
-     inkscape:window-x="873"
-     inkscape:window-y="0"
+     inkscape:window-x="3542"
+     inkscape:window-y="124"
      inkscape:window-maximized="0"
      inkscape:lockguides="true"
      inkscape:snap-global="false"
@@ -831,7 +831,7 @@
     </path>
     <path
        id="switch.front_porch_light_switch"
-       d="m 594.33832,716.92776 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
+       d="m 590.19512,716.92776 a 7,7 0 0 0 -7,6.99999 c 0,2.38 1.19,4.47 3,5.74 v 2.26 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2.26 c 1.81,-1.27 3,-3.36 3,-5.74 a 7,7 0 0 0 -7,-6.99999 m -3,18.99999 a 1,1 0 0 0 1,1 h 4 a 1,1 0 0 0 1,-1 v -1 h -6 z"
        inkscape:connector-curvature="0"
        inkscape:label="#path8704">
       <title
@@ -937,7 +937,7 @@
     </path>
     <g
        id="sensor.ben_garage_car_present"
-       transform="matrix(-0.00310781,-0.38127964,0.38127964,-0.00310781,331.81218,746.59428)"
+       transform="matrix(-0.00310781,-0.38127964,0.38127964,-0.00310781,339.81218,746.59428)"
        inkscape:label="#g4717">
       <title
          id="title4795">Ben's Car</title>
@@ -1247,6 +1247,168 @@
        transform="matrix(0.72654727,0.68711649,-0.68695983,0.72669539,0,0)">
       <title
          id="title1076">Guest Window 1</title>
+    </rect>
+    <rect
+       y="420.97787"
+       x="883.17822"
+       height="22.620041"
+       width="4.010747"
+       id="binary_sensor.dining_room_window_1"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="#rect1057">
+      <title
+         id="title1069-1">Dining Room Window 1</title>
+    </rect>
+    <rect
+       y="447.17914"
+       x="883.26764"
+       height="73.976196"
+       width="4.0379791"
+       id="binary_sensor.dining_room_window_2"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="#rect1057">
+      <title
+         id="title1069-3">Dining Room Window 2</title>
+    </rect>
+    <rect
+       y="525.66284"
+       x="883.25909"
+       height="22.620041"
+       width="4.010747"
+       id="binary_sensor.dining_room_window_3"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="#rect1057">
+      <title
+         id="title1069-8">Dining Room Window 3</title>
+    </rect>
+    <rect
+       inkscape:label="#rect1051"
+       transform="matrix(-5.5726581e-4,-0.99999984,0.99999968,-7.9987421e-4,0,0)"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.00000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="binary_sensor.master_window_3"
+       width="3.813978"
+       height="23.703283"
+       x="-180.51508"
+       y="480.94446">
+      <title
+         id="title1052-3">Master Window 3</title>
+    </rect>
+    <rect
+       y="392.04001"
+       x="-180.45197"
+       height="23.494007"
+       width="3.9613037"
+       id="binary_sensor.master_window_1"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.00000002;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(-5.3180332e-4,-0.99999986,0.99999965,-8.381718e-4,0,0)"
+       inkscape:label="#rect1051">
+      <title
+         id="title1056-5">Master Window 1</title>
+    </rect>
+    <rect
+       inkscape:label="#rect1051"
+       transform="matrix(-0.00121992,-0.99999926,0.99999993,-3.6538339e-4,0,0)"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.00000018;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="binary_sensor.master_window_2"
+       width="3.9859667"
+       height="54.229698"
+       x="-180.30562"
+       y="421.18393">
+      <title
+         id="title1064-2">Master Window 2</title>
+    </rect>
+    <rect
+       inkscape:label="#rect1051"
+       transform="matrix(0.99999841,0.00178088,-0.00251282,0.99999684,0,0)"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:0.98611379;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="master_bath_inoperable"
+       width="3.8750401"
+       height="54.243595"
+       x="233.75612"
+       y="284.41492">
+      <title
+         id="title1064-2-6">Master Bath Window</title>
+    </rect>
+    <rect
+       y="587.6828"
+       x="883.26605"
+       height="36.338322"
+       width="3.7802432"
+       id="binary_sensor.guest_bath_1"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="#rect1057">
+      <title
+         id="title1069-8-6">Guest Bath 1</title>
+    </rect>
+    <rect
+       inkscape:label="#rect1051"
+       transform="matrix(-0.00241792,-0.99999708,0.99999998,-1.8434909e-4,0,0)"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.00000119;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="cover.ben_garage"
+       width="3.7416692"
+       height="100.89644"
+       x="-784.86255"
+       y="388.3392">
+      <title
+         id="title1064-6">Ben Garage Door</title>
+    </rect>
+    <rect
+       inkscape:label="#rect1051"
+       transform="matrix(-0.00663552,-0.99997798,1,-6.7173827e-5,0,0)"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1.00001085;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="cover.susan_garage"
+       width="3.4537318"
+       height="255.58284"
+       x="-861.42725"
+       y="111.74817">
+      <title
+         id="title1064-6-7">Susan Garage Door</title>
+    </rect>
+    <rect
+       y="466.48404"
+       x="232.48418"
+       height="39.177597"
+       width="4.0301895"
+       id="binary_sensor.craft_room_window_2"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:0.96981031;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="#rect1057">
+      <title
+         id="title1069-3-8">Dining Room Window 2</title>
+    </rect>
+    <rect
+       y="507.91608"
+       x="232.41512"
+       height="39.177597"
+       width="4.0301895"
+       id="binary_sensor.craft_room_window_1"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:0.96981031;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:label="#rect1057">
+      <title
+         id="title1069-3-8-7">Craft Room Window 1</title>
+    </rect>
+    <rect
+       inkscape:label="#rect1053"
+       y="616.63062"
+       x="-689.47437"
+       height="25.665182"
+       width="4.04813"
+       id="binary_sensor.entry_window_1"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(-5.6848894e-4,-0.99999984,0.99999969,-7.840859e-4,0,0)">
+      <title
+         id="title1068-1">Entry Window 1</title>
+    </rect>
+    <rect
+       inkscape:label="#rect1053"
+       y="536.71802"
+       x="-689.41187"
+       height="25.665182"
+       width="4.04813"
+       id="binary_sensor.entry_window_2"
+       style="opacity:1;fill:#0000ff;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       transform="matrix(-5.6848894e-4,-0.99999984,0.99999969,-7.840859e-4,0,0)">
+      <title
+         id="title1068-9">Entry Window 2</title>
     </rect>
   </g>
 </svg>
