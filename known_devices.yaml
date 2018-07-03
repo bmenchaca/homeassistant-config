@@ -106,7 +106,7 @@ heidi_iphone:
   hide_if_away: false
   icon:
   mac: 74:8D:08:31:AB:9D
-  name: Heidi's iPhone
+  name: Heidi's iPhone Wifi
   picture:
   track: true
 
@@ -114,7 +114,7 @@ bens_iphone:
   hide_if_away: false
   icon:
   mac: B0:48:1A:C7:A2:83
-  name: Ben's iPhone
+  name: Ben's iPhone Wifi
   picture:
   track: true
 
@@ -130,7 +130,7 @@ susans_iphone:
   hide_if_away: false
   icon:
   mac: 70:70:0D:EC:B5:03
-  name: Susan's iPhone
+  name: Susan's iPhone Wifi
   picture:
   track: true
 
@@ -302,18 +302,20 @@ beacon_heidi_back_door:
   picture:
   track: true
 
+# Home Assistant App
 ben_iphone:
   hide_if_away: false
   icon:
   mac:
   name: ben
   picture:
-  track: true
+  track: false
 
+# Home Assistant App
 susan_iphone:
   hide_if_away: false
   icon:
   mac:
   name: susan
   picture:
-  track: true
+  track: false
