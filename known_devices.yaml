@@ -102,21 +102,21 @@ hannah_ipad:
   picture:
   track: false
 
-74754833cbc5:
+noah_kindle:
   hide_if_away: false
   icon:
   mac: 74:75:48:33:CB:C5
-  name: 74754833cbc5
+  name: Noah's Kindle
   picture:
-  track: true
+  track: false
 
-38f73d58aea5:
+hannah_kindle:
   hide_if_away: false
   icon:
   mac: 38:F7:3D:58:AE:A5
-  name: 38f73d58aea5
+  name: Hannah's Kindle
   picture:
-  track: true
+  track: false
 
 ben_work_laptop:
   hide_if_away: false
@@ -163,5 +163,181 @@ ben_ha_iphone:
   icon:
   mac:
   name: ben ha iphone
+  picture:
+  track: true
+
+susan_macbook:
+  hide_if_away: false
+  icon:
+  mac: 78:4F:43:7C:D5:AC
+  name: Susan MacBook
+  picture:
+  track: false
+
+laptopmn2hlo43:
+  hide_if_away: false
+  icon:
+  mac: 10:F0:05:82:EE:93
+  name: Heidi's Laptop
+  picture:
+  track: false
+
+beacon_ben_girls_hall:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon ben girls hall
+  picture:
+  track: true
+
+beacon_ben_master:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon ben master
+  picture:
+  track: true
+
+beacon_ben_boys_hall:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon ben boys hall
+  picture:
+  track: true
+
+beacon_ben_garage:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon ben garage
+  picture:
+  track: true
+
+beacon_susan_boys_hall:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon susan boys hall
+  picture:
+  track: true
+
+beacon_susan_master:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon susan master
+  picture:
+  track: true
+
+beacon_susan_back_door:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon susan back door
+  picture:
+  track: true
+
+beacon_susan_girls_hall:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon susan girls hall
+  picture:
+  track: true
+
+beacon_susan_garage:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon susan garage
+  picture:
+  track: true
+
+beacon_susan_front_entry:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon susan front entry
+  picture:
+  track: true
+
+beacon_ben_back_door:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon ben back door
+  picture:
+  track: true
+
+beacon_ben_front_entry:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon ben front entry
+  picture:
+  track: true
+
+beacon_heidi_boys_hall:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon heidi boys hall
+  picture:
+  track: true
+
+beacon_heidi_front_entry:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon heidi front entry
+  picture:
+  track: true
+
+beacon_heidi_master:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon heidi master
+  picture:
+  track: true
+
+beacon_heidi_garage:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon heidi garage
+  picture:
+  track: true
+
+beacon_heidi_girls_hall:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon heidi girls hall
+  picture:
+  track: true
+
+beacon_heidi_back_door:
+  hide_if_away: false
+  icon:
+  mac:
+  name: beacon heidi back door
+  picture:
+  track: true
+
+ben_iphone:
+  hide_if_away: false
+  icon:
+  mac:
+  name: ben
+  picture:
+  track: true
+
+susan_iphone:
+  hide_if_away: false
+  icon:
+  mac:
+  name: susan
   picture:
   track: true
