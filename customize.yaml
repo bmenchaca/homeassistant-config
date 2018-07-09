@@ -361,3 +361,25 @@ switch.guest_bathroom_lights_switch_2:
   hidden: true
 switch.master_bathtub_light_switch_2:
   hidden: true
+
+device_tracker.heidi_iphone:
+  icon: mdi:wifi
+device_tracker.bens_iphone:
+  icon: mdi:wifi
+device_tracker.susans_iphone:
+  icon: mdi:wifi
+binary_sensor.ben_beacon_home:
+  icon: mdi:bluetooth
+binary_sensor.susan_beacon_home:
+  icon: mdi:bluetooth
+binary_sensor.heidi_beacon_home:
+  icon: mdi:bluetooth
+device_tracker.0f37f6226f6e4e39a254ce222bdf30ba:
+  icon: mdi:map-marker
+device_tracker.acf9320b92834db89f3da79cdd092ffe:
+  icon: mdi:map-marker
+device_tracker.cab02f4d94ab43e09ca603aef8faa57b:
+  icon: mdi:map-marker
+
+
+
