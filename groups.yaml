@@ -388,7 +388,7 @@ system_switches:
   name: System Switches
   entities:
     - switch.office_p1_hapi_30
-    - switch.office_p2_oldhapi_31
+    - switch.office_p2_pihole_2_31
     - switch.office_p3_pihole_32
     - switch.office_p4_fasthapi_33
     - switch.office_control_strip_29
