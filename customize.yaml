@@ -381,5 +381,17 @@ device_tracker.acf9320b92834db89f3da79cdd092ffe:
 device_tracker.cab02f4d94ab43e09ca603aef8faa57b:
   icon: mdi:map-marker
 
-
+# Hide Ring Sensors
+sensor.ring_front_door_battery:
+  hidden: true
+sensor.ring_front_door_last_activity:
+  hidden: true
+sensor.ring_front_door_last_ding:
+  hidden: true
+sensor.ring_front_door_last_motion:
+  hidden: true
+sensor.ring_front_door_volume:
+  hidden: true
+sensor.ring_front_door_wifi_signal_category:
+  hidden: true
 
