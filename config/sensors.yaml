@@ -1,11 +1,11 @@
-#- platform: ring
-#  monitored_conditions:
-#    - battery
-#    - last_activity
-#    - last_ding
-#    - last_motion
-#    - volume
-#    - wifi_signal_category
+- platform: ring
+  monitored_conditions:
+    - battery
+    - last_activity
+    - last_ding
+    - last_motion
+    - volume
+    - wifi_signal_category
 
 #- platform: wunderground
 #  api_key: !secret wunderground_api_key
