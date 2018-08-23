@@ -8,6 +8,7 @@ include:
     - light
     - binary_sensor
     - device_tracker
+    - input_boolean
 #exclude:
  #  entities:
     #sensor.pws_weather
