@@ -319,3 +319,11 @@ susan_iphone:
   name: susan
   picture:
   track: false
+
+dianasiphone:
+  hide_if_away: false
+  icon:
+  mac: 68:EF:43:3C:D8:63
+  name: Dianas-iPhone
+  picture:
+  track: false
