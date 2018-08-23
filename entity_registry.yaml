@@ -1,1539 +1,1920 @@
 media_player.family_room:
+  config_entry_id:
   name:
   platform: sonos
   unique_id: RINCON_949F3E6FB10901400
 switch.west_side_pool:
+  config_entry_id:
   name:
   platform: rachio
   unique_id: ab390c9d-96a9-444a-afb6-4519adc37147-d6b88af9-d9f6-4291-acf7-219ca606f816
 switch.drip_around_pool:
+  config_entry_id:
   name:
   platform: rachio
   unique_id: ab390c9d-96a9-444a-afb6-4519adc37147-977ca1e1-ae43-49fb-9c8e-e4fe074f8c55
 switch.zone_15:
+  config_entry_id:
   name:
   platform: rachio
   unique_id: ab390c9d-96a9-444a-afb6-4519adc37147-388b4d8c-d55b-4aee-957c-dd8aa32a560d
 switch.front_lawn:
+  config_entry_id:
   name:
   platform: rachio
   unique_id: ab390c9d-96a9-444a-afb6-4519adc37147-89580943-f5aa-4e7b-9d3d-44e71fd5bb38
 switch.back_yard_middle:
+  config_entry_id:
   name:
   platform: rachio
   unique_id: ab390c9d-96a9-444a-afb6-4519adc37147-5b986c0a-321a-4f71-a215-a6f067311770
 switch.around_pool_back:
+  config_entry_id:
   name:
   platform: rachio
   unique_id: ab390c9d-96a9-444a-afb6-4519adc37147-17e3f2f2-9dea-43da-b0f8-461df9b3435a
 switch.back_west_near_gate:
+  config_entry_id:
   name:
   platform: rachio
   unique_id: ab390c9d-96a9-444a-afb6-4519adc37147-f0dbe5f6-d86c-4cd2-b135-30d74aeef602
 switch.zone_16:
+  config_entry_id:
   name:
   platform: rachio
   unique_id: ab390c9d-96a9-444a-afb6-4519adc37147-0712859f-f256-4b3e-bcd4-6d0e5e88b367
 switch.front_west:
+  config_entry_id:
   name:
   platform: rachio
   unique_id: ab390c9d-96a9-444a-afb6-4519adc37147-9fa5475d-0574-4e26-9e31-f35c671a313d
 switch.zone_13:
+  config_entry_id:
   name:
   platform: rachio
   unique_id: ab390c9d-96a9-444a-afb6-4519adc37147-c7a2bb2c-8b90-4c54-9b0a-ed0b0f32e874
 switch.zone_14:
+  config_entry_id:
   name:
   platform: rachio
   unique_id: ab390c9d-96a9-444a-afb6-4519adc37147-8c021ef4-5f35-4846-9e0a-eb4294263676
 switch.back_east_lawn:
+  config_entry_id:
   name:
   platform: rachio
   unique_id: ab390c9d-96a9-444a-afb6-4519adc37147-bac897c9-b118-44ea-94b3-8ff9fc19afb7
 switch.east_lawn:
+  config_entry_id:
   name:
   platform: rachio
   unique_id: ab390c9d-96a9-444a-afb6-4519adc37147-d6639ee5-ff8c-4305-ade0-897360ecb85a
 switch.front_bushes:
+  config_entry_id:
   name:
   platform: rachio
   unique_id: ab390c9d-96a9-444a-afb6-4519adc37147-8cc3d436-cda9-4fdc-86b3-117400b075dc
 switch.garden:
+  config_entry_id:
   name:
   platform: rachio
   unique_id: ab390c9d-96a9-444a-afb6-4519adc37147-ac75d099-e102-4f3f-a56c-ee83c1099d81
 switch.east_near_house:
+  config_entry_id:
   name:
   platform: rachio
   unique_id: ab390c9d-96a9-444a-afb6-4519adc37147-a9cb8689-3b48-466f-b18e-bee33a2da0b2
 switch.master_closet_light_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 2-72057594076282880
 light.master_fan_lights_dimmer_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 5-72057594126630913
 light.master_bath_vanity_lights_dimmer_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 8-72057594176962561
 switch.master_bath_tub_light_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 9-72057594193723392
 switch.master_lavatory_light_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 10-72057594210500608
 light.craft_room_large_lamp_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 11-72057594227294209
 light.game_room_fan_lights_dimmer_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 12-72057594244071425
 switch.entry_light_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 19-72057594361495552
 switch.entry_christmas_tree_outlet_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 21-72057594395049984
 switch.garage_outdoor_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 24-72057594445381632
 light.family_room_fan_lights_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 27-72057594495729665
 switch.back_porch_light_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 28-72057594512490496
 switch.office_lamp_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 33-72057594596376576
 switch.pantry_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 34-72057594613153792
 switch.noahs_bathroom_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 35-72057594629931008
 switch.guest_fan_and_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 36-72057594646708224
 switch.guest_fan_and_lights_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 36-144115188684636160
 switch.guest_fan_and_lights_switch_3:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 36-216172782722564096
 sensor.guest_fan_and_lights_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 36-72057594647953409
 sensor.guest_fan_and_lights_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 36-72057594647953425
 sensor.guest_fan_and_lights_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 36-144115188685881345
 sensor.guest_fan_and_lights_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 36-144115188685881361
 sensor.guest_fan_and_lights_alarm_type_3:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 36-216172782723809281
 sensor.guest_fan_and_lights_alarm_level_3:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 36-216172782723809297
 sensor.guest_fan_and_lights_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 36-72057594647953441
 sensor.guest_fan_and_lights_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 36-72057594647953569
 sensor.guest_fan_and_lights_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 36-144115188685881377
 sensor.guest_fan_and_lights_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 36-144115188685881505
 switch.dining_room_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 38-72057594680262656
 switch.dining_room_lights_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 38-144115188718190592
 sensor.dining_room_lights_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 38-72057594681507841
 sensor.dining_room_lights_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 38-72057594681507857
 sensor.dining_room_lights_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 38-144115188719435777
 sensor.dining_room_lights_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 38-144115188719435793
 sensor.dining_room_lights_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 38-72057594681507873
 sensor.dining_room_lights_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 38-72057594681508001
 sensor.dining_room_lights_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 38-144115188719435809
 sensor.dining_room_lights_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 38-144115188719435937
 switch.breakfast_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 39-72057594697039872
 switch.breakfast_lights_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 39-144115188734967808
 sensor.breakfast_lights_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 39-72057594698285057
 sensor.breakfast_lights_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 39-72057594698285073
 sensor.breakfast_lights_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 39-144115188736212993
 sensor.breakfast_lights_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 39-144115188736213009
 sensor.breakfast_lights_alarm_type_3:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 39-216172782774140929
 sensor.breakfast_lights_alarm_level_3:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 39-216172782774140945
 sensor.breakfast_lights_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 39-72057594698285089
 sensor.breakfast_lights_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 39-72057594698285217
 sensor.breakfast_lights_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 39-144115188736213025
 sensor.breakfast_lights_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 39-144115188736213153
 binary_sensor.heidi_room_multisensor_sensor:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 85-72057595468972032
 sensor.heidi_room_multisensor_temperature:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 85-72057595468988434
 sensor.heidi_room_multisensor_luminance:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 85-72057595468988466
 sensor.heidi_room_multisensor_relative_humidity:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 85-72057595468988498
 sensor.heidi_room_multisensor_ultraviolet:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 85-72057595468988850
 sensor.heidi_room_multisensor_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 85-72057595470036993
 sensor.heidi_room_multisensor_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 85-72057595470037009
 sensor.heidi_room_multisensor_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 85-72057595470037025
 sensor.heidi_room_multisensor_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 85-72057595470037153
 binary_sensor.hannah_room_multisensor_sensor:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 46-72057594814660608
 sensor.hannah_room_multisensor_temperature:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 46-72057594814677010
 sensor.hannah_room_multisensor_luminance:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 46-72057594814677042
 sensor.hannah_room_multisensor_relative_humidity:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 46-72057594814677074
 sensor.hannah_room_multisensor_ultraviolet:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 46-72057594814677426
 sensor.hannah_room_multisensor_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 46-72057594815725569
 sensor.hannah_room_multisensor_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 46-72057594815725585
 sensor.hannah_room_multisensor_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 46-72057594815725601
 sensor.hannah_room_multisensor_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 46-72057594815725729
 binary_sensor.noah_room_multisensor_sensor:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 47-72057594831437824
 sensor.noah_room_multisensor_temperature:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 47-72057594831454226
 sensor.noah_room_multisensor_luminance:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 47-72057594831454258
 sensor.noah_room_multisensor_relative_humidity:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 47-72057594831454290
 sensor.noah_room_multisensor_ultraviolet:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 47-72057594831454642
 sensor.noah_room_multisensor_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 47-72057594832502785
 sensor.noah_room_multisensor_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 47-72057594832502801
 sensor.noah_room_multisensor_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 47-72057594832502817
 sensor.noah_room_multisensor_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 47-72057594832502945
 switch.master_hall_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 48-72057594848034816
 switch.master_hall_lights_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 48-144115188885962752
 sensor.master_hall_lights_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 48-72057594849280001
 sensor.master_hall_lights_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 48-72057594849280017
 sensor.master_hall_lights_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 48-144115188887207937
 sensor.master_hall_lights_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 48-144115188887207953
 sensor.master_hall_lights_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 48-72057594849280033
 sensor.master_hall_lights_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 48-72057594849280161
 sensor.master_hall_lights_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 48-144115188887207969
 sensor.master_hall_lights_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 48-144115188887208097
 switch.gallery_hall_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 51-72057594898366464
 switch.gallery_hall_lights_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 51-144115188936294400
 sensor.gallery_hall_lights_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 51-72057594899611649
 sensor.gallery_hall_lights_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 51-72057594899611665
 sensor.gallery_hall_lights_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 51-144115188937539585
 sensor.gallery_hall_lights_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 51-144115188937539601
 sensor.gallery_hall_lights_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 51-72057594899611681
 sensor.gallery_hall_lights_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 51-72057594899611809
 sensor.gallery_hall_lights_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 51-144115188937539617
 sensor.gallery_hall_lights_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 51-144115188937539745
 switch.guest_hall_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 55-72057594965475328
 switch.laundry_room_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 57-72057594999029760
 switch.laundry_room_lights_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 57-144115189036957696
 sensor.laundry_room_lights_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 57-72057595000274945
 sensor.laundry_room_lights_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 57-72057595000274961
 sensor.laundry_room_lights_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 57-144115189038202881
 sensor.laundry_room_lights_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 57-144115189038202897
 sensor.laundry_room_lights_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 57-72057595000274977
 sensor.laundry_room_lights_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 57-72057595000275105
 sensor.laundry_room_lights_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 57-144115189038202913
 sensor.laundry_room_lights_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 57-144115189038203041
 binary_sensor.pantry_door_sensor:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 59-72057595032764416
 sensor.pantry_door_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 59-72057595033829377
 sensor.pantry_door_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 59-72057595033829393
 sensor.pantry_door_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 59-72057595033829409
 sensor.pantry_door_access_control:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 59-72057595033829521
 sensor.pantry_door_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 59-72057595033829537
 sensor.pantry_door_power_management:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 59-72057595033829553
 binary_sensor.laundry_room_closet_door_sensor:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 62-72057595083096064
 sensor.laundry_room_closet_door_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 62-72057595084161025
 sensor.laundry_room_closet_door_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 62-72057595084161041
 sensor.laundry_room_closet_door_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 62-72057595084161057
 sensor.laundry_room_closet_door_access_control:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 62-72057595084161169
 sensor.laundry_room_closet_door_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 62-72057595084161185
 sensor.laundry_room_closet_door_power_management:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 62-72057595084161201
 switch.laundry_room_closet_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 64-72057595116470272
 switch.heidis_room_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 65-72057595133247488
 switch.craft_room_sewing_lamp_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 66-72057595150024704
 switch.game_room_fan_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 67-72057595166801920
 switch.game_room_fan_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 67-144115189204729856
 sensor.game_room_fan_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 67-72057595168047105
 sensor.game_room_fan_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 67-72057595168047121
 sensor.game_room_fan_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 67-144115189205975041
 sensor.game_room_fan_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 67-144115189205975057
 sensor.game_room_fan_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 67-72057595168047137
 sensor.game_room_fan_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 67-72057595168047265
 sensor.game_room_fan_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 67-144115189205975073
 sensor.game_room_fan_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 67-144115189205975201
 switch.kitchen_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 68-72057595183579136
 sensor.master_fan_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 69-72057595201601537
 sensor.master_fan_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 69-72057595201601553
 sensor.master_fan_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 69-144115189239529473
 sensor.master_fan_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 69-144115189239529489
 sensor.master_fan_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 69-72057595201601569
 sensor.master_fan_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 69-72057595201601697
 sensor.master_fan_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 69-144115189239529505
 sensor.master_fan_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 69-144115189239529633
-#switch.master_fan_switch:
-#  name: Master Fan Switch
-#  platform: zwave
 media_player.master_bathroom:
+  config_entry_id:
   name:
   platform: sonos
   unique_id: RINCON_7828CA098D4601400
 media_player.game_room:
+  config_entry_id:
   name:
   platform: sonos
   unique_id: RINCON_7828CA098D9601400
 switch.girls_hall_light_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 75-144115189338947584
 sensor.girls_hall_light_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 75-72057595302264833
 sensor.girls_hall_light_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 75-72057595302264849
 sensor.girls_hall_light_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 75-144115189340192769
 sensor.girls_hall_light_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 75-144115189340192785
 sensor.girls_hall_light_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 75-72057595302264865
 sensor.girls_hall_light_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 75-72057595302264993
 sensor.girls_hall_light_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 75-144115189340192801
 sensor.girls_hall_light_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 75-144115189340192929
 binary_sensor.master_closet_door_sensor:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 78-72057595351531520
 sensor.master_closet_door_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 78-72057595352596481
 sensor.master_closet_door_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 78-72057595352596497
 sensor.master_closet_door_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 78-72057595352596513
 sensor.master_closet_door_access_control:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 78-72057595352596625
 sensor.master_closet_door_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 78-72057595352596641
 sensor.master_closet_door_power_management:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 78-72057595352596657
 switch.girls_hall_light_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 75-72057595301019648
 sensor.bens_ipad_battery_state:
+  config_entry_id:
   name:
   platform: ios
   unique_id: state_bens_ipad
 sensor.bens_ipad_battery_level:
+  config_entry_id:
   name:
   platform: ios
   unique_id: level_bens_ipad
 light.hue_go_1:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:01:18:59:66-0b
 light.office_lights_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 83-72057595435253761
 light.office_lights_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 83-144115189473181697
 sensor.office_lights_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 83-72057595436482561
 sensor.office_lights_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 83-72057595436482577
 sensor.office_lights_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 83-144115189474410497
 sensor.office_lights_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 83-144115189474410513
 sensor.office_lights_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 83-72057595436482593
 sensor.office_lights_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 83-72057595436482721
 sensor.office_lights_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 83-144115189474410529
 sensor.office_lights_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 83-144115189474410657
 switch.boys_bathroom_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 84-72057595452014592
 switch.boys_bathroom_lights_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 84-144115189489942528
 sensor.boys_bathroom_lights_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 84-72057595453259777
 sensor.boys_bathroom_lights_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 84-72057595453259793
 sensor.boys_bathroom_lights_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 84-144115189491187713
 sensor.boys_bathroom_lights_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 84-144115189491187729
 sensor.boys_bathroom_lights_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 84-72057595453259809
 sensor.boys_bathroom_lights_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 84-72057595453259937
 sensor.boys_bathroom_lights_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 84-144115189491187745
 sensor.boys_bathroom_lights_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 84-144115189491187873
 switch.stairs_light_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 86-72057595485569024
 switch.stairs_light_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 86-144115189523496960
 sensor.stairs_light_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 86-72057595486814209
 sensor.stairs_light_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 86-72057595486814225
 sensor.stairs_light_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 86-144115189524742145
 sensor.stairs_light_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 86-144115189524742161
 sensor.stairs_light_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 86-72057595486814241
 sensor.stairs_light_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 86-72057595486814369
 sensor.stairs_light_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 86-144115189524742177
 sensor.stairs_light_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 86-144115189524742305
 light.heidi_go:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:01:18:21:80-0b
 light.game_room_3:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:8c:36:1e-0b
 light.guest_1:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:5d:bb:86-0b
 light.heidi_color:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:54:ea:75-0b
 light.noah_color:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:4c:e4:9a-0b
 light.gallery_flood:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:f2:6f:2f-0b
 light.hannah_1:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:0a:ec:90-0b
 light.master_hall_1:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:a9:61:8c-0b
 light.heidi_2:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:5d:ac:e2-0b
 light.game_room_2:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:8c:33:dd-0b
 light.hannah_2:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:0a:f9:aa-0b
 light.family_room_flood:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:e5:20:2c-0b
 light.master_hall_3:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:f2:6f:3b-0b
 light.guest_2:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:03:dd:f5:1e-0b
 light.heidi_1:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:39:e4:69-0b
 light.noah_lamp:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:96:41:e0-0b
 light.master_hall_2:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:e5:1a:28-0b
 light.hannah_color:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:54:ea:b9-0b
 light.guest_4:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:39:e0:8c-0b
 light.noah_2:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:37:ef:10-0b
 light.hannah_lamp:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:3f:3a:3a-0b
 light.heidi_lamp:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:4a:b8:a4-0b
 light.guest_3:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:03:94:31:58-0b
 light.noah_1:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:37:ef:56-0b
 light.game_room_1:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:8c:31:ef-0b
 light.game_room_4:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:94:5b:a0-0b
 light.master_bath_color:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:02:50:ec:35-0b
 switch.boys_hall_light_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 88-72057595519123456
 switch.boys_hall_light_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 88-144115189557051392
 sensor.boys_hall_light_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 88-72057595520368641
 sensor.boys_hall_light_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 88-72057595520368657
 sensor.boys_hall_light_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 88-144115189558296577
 sensor.boys_hall_light_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 88-144115189558296593
 sensor.boys_hall_light_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 88-72057595520368673
 sensor.boys_hall_light_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 88-72057595520368801
 sensor.boys_hall_light_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 88-144115189558296609
 sensor.boys_hall_light_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 88-144115189558296737
 switch.front_porch_light_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 89-72057595535900672
 switch.front_porch_light_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 89-144115189573828608
 sensor.front_porch_light_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 89-72057595537145857
 sensor.front_porch_light_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 89-72057595537145873
 sensor.front_porch_light_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 89-144115189575073793
 sensor.front_porch_light_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 89-144115189575073809
 sensor.front_porch_light_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 89-72057595537145889
 sensor.front_porch_light_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 89-72057595537146017
 sensor.front_porch_light_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 89-144115189575073825
 sensor.front_porch_light_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 89-144115189575073953
 switch.garage_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 90-72057595552677888
 switch.garage_lights_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 90-144115189590605824
 sensor.garage_lights_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 90-72057595553923073
 sensor.garage_lights_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 90-72057595553923089
 sensor.garage_lights_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 90-144115189591851009
 sensor.garage_lights_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 90-144115189591851025
 sensor.garage_lights_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 90-72057595553923105
 sensor.garage_lights_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 90-72057595553923233
 sensor.garage_lights_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 90-144115189591851041
 sensor.garage_lights_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 90-144115189591851169
 switch.family_room_mantle_light_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 91-72057595569455104
 switch.family_room_mantle_light_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 91-144115189607383040
 sensor.family_room_mantle_light_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 91-72057595570700289
 sensor.family_room_mantle_light_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 91-72057595570700305
 sensor.family_room_mantle_light_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 91-144115189608628225
 sensor.family_room_mantle_light_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 91-144115189608628241
 sensor.family_room_mantle_light_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 91-72057595570700321
 sensor.family_room_mantle_light_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 91-72057595570700449
 sensor.family_room_mantle_light_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 91-144115189608628257
 sensor.family_room_mantle_light_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 91-144115189608628385
 switch.guest_bathroom_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 92-72057595586232320
 switch.guest_bathroom_lights_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 92-144115189624160256
 sensor.guest_bathroom_lights_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 92-72057595587477505
 sensor.guest_bathroom_lights_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 92-72057595587477521
 sensor.guest_bathroom_lights_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 92-144115189625405441
 sensor.guest_bathroom_lights_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 92-144115189625405457
 sensor.guest_bathroom_lights_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 92-72057595587477537
 sensor.guest_bathroom_lights_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 92-72057595587477665
 sensor.guest_bathroom_lights_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 92-144115189625405473
 sensor.guest_bathroom_lights_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 92-144115189625405601
 switch.craft_room_fan_and_lights_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 93-72057595603009536
 switch.craft_room_fan_and_lights_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 93-144115189640937472
 sensor.craft_room_fan_and_lights_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 93-72057595604254721
 sensor.craft_room_fan_and_lights_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 93-72057595604254737
 sensor.craft_room_fan_and_lights_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 93-144115189642182657
 sensor.craft_room_fan_and_lights_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 93-144115189642182673
 sensor.craft_room_fan_and_lights_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 93-72057595604254753
 sensor.craft_room_fan_and_lights_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 93-72057595604254881
 sensor.craft_room_fan_and_lights_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 93-144115189642182689
 sensor.craft_room_fan_and_lights_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 93-144115189642182817
 switch.master_bathtub_light_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 94-72057595619786752
 switch.master_bathtub_light_switch_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 94-144115189657714688
 sensor.master_bathtub_light_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 94-72057595621031937
 sensor.master_bathtub_light_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 94-72057595621031953
 sensor.master_bathtub_light_alarm_type_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 94-144115189658959873
 sensor.master_bathtub_light_alarm_level_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 94-144115189658959889
 sensor.master_bathtub_light_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 94-72057595621031969
 sensor.master_bathtub_light_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 94-72057595621032097
 sensor.master_bathtub_light_sourcenodeid_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 94-144115189658959905
 sensor.master_bathtub_light_burglar_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 94-144115189658960033
 switch.family_room_fan_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 95-72057595636563968
 sensor.yo_mama_battery_state:
+  config_entry_id:
   name:
   platform: ios
   unique_id: state_susan_ha_iphone
 sensor.yo_mama_battery_level:
+  config_entry_id:
   name:
   platform: ios
   unique_id: level_susan_ha_iphone
 sensor.bens_iphone_battery_level:
+  config_entry_id:
   name:
   platform: ios
   unique_id: level_ben_ha_iphone
 sensor.bens_iphone_battery_state:
+  config_entry_id:
   name:
   platform: ios
   unique_id: state_ben_ha_iphone
 sensor.bens_iphone_battery_state_2:
+  config_entry_id:
   name:
   platform: ios
   unique_id: state_bens_iphone
 sensor.yo_mama_battery_state_2:
+  config_entry_id:
   name:
   platform: ios
   unique_id: state_Susan-iphone
 sensor.bens_iphone_battery_level_2:
+  config_entry_id:
   name:
   platform: ios
   unique_id: level_bens_iphone
 sensor.yo_mama_battery_level_2:
+  config_entry_id:
   name:
   platform: ios
   unique_id: level_Susan-iphone
 switch.guest_room_heater_plug_switch:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595653341184
 sensor.guest_room_heater_plug_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595654586369
 sensor.guest_room_heater_plug_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595654586385
 sensor.guest_room_heater_plug_kwh:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595653554178
 sensor.guest_room_heater_plug_power:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595653554306
 sensor.guest_room_heater_plug_voltage:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595653554434
 sensor.guest_room_heater_plug_current:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595653554498
 sensor.guest_room_heater_plug_exporting:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595653554688
 sensor.guest_room_heater_plug_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595654586401
 sensor.guest_room_heater_plug_power_management:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595654586545
 binary_sensor.gallery_hsm200_sensor:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 40-72057594713997312
 sensor.gallery_hsm200_temperature:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 40-72057594714013714
 sensor.gallery_hsm200_luminance:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 40-72057594714013746
 sensor.gallery_hsm200_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 40-72057594715062273
 sensor.gallery_hsm200_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 40-72057594715062289
 sensor.gallery_hsm200_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 40-72057594715062305
 sensor.gallery_hsm200_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 40-72057594715062433
 sensor.guest_room_heater_plug_previous_reading:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595653554194
 sensor.guest_room_heater_plug_interval:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595653554211
 sensor.guest_room_heater_plug_previous_reading_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595653554322
 sensor.guest_room_heater_plug_interval_2:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595653554339
 sensor.guest_room_heater_plug_previous_reading_3:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595653554450
 sensor.guest_room_heater_plug_interval_3:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595653554467
 sensor.guest_room_heater_plug_previous_reading_4:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595653554514
 sensor.guest_room_heater_plug_interval_4:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 96-72057595653554531
 binary_sensor.master_hsm200_sensor:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 97-72057595670298624
 sensor.master_hsm200_temperature:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 97-72057595670315026
 sensor.master_hsm200_luminance:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 97-72057595670315058
 sensor.master_hsm200_alarm_type:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 97-72057595671363585
 sensor.master_hsm200_alarm_level:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 97-72057595671363601
 sensor.master_hsm200_sourcenodeid:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 97-72057595671363617
 sensor.master_hsm200_burglar:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: 97-72057595671363745
 light.guest_bath_color:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:04:62:04:64-0b
 light.guest_bath_1:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:03:fa:dc:b7-0b
 light.guest_bath_2:
+  config_entry_id: eb3b64c4ce6d4f74aec77418fafdc467
   name:
   platform: hue
   unique_id: 00:17:88:01:03:85:55:fb-0b
 zwave.hapi_controller:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-1
 zwave.guest_fan_and_lights:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-36
 zwave.dining_room_lights:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-38
 zwave.breakfast_lights:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-39
 zwave.gallery_hsm200:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-40
 zwave.hannah_multisensor:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-46
 zwave.noah_multisensor:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-47
 zwave.master_hall_lights:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-48
 zwave.gallery_hall_lights:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-51
 zwave.laundry_room_lights:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-57
 zwave.pantry_door:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-59
 zwave.laundry_room_closet_door:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-62
 zwave.game_room_fan:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-67
 zwave.master_fan:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-69
 zwave.girls_hall_light:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-75
 zwave.master_closet_door:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-78
 zwave.office_lights:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-83
 zwave.boys_bathroom_lights:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-84
 zwave.heidi_room_multisensor:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-85
 zwave.stairs_light:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-86
 zwave.boys_hall_light:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-88
 zwave.front_porch_light:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-89
 zwave.garage_lights:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-90
 zwave.family_room_mantle_light:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-91
 zwave.guest_bathroom_lights:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-92
 zwave.craft_room_fan_and_lights:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-93
 zwave.master_bathtub_light:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-94
 zwave.family_room_fan:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-95
 zwave.guest_room_heater_plug:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-96
 zwave.master_hsm200:
+  config_entry_id:
   name:
   platform: zwave
   unique_id: node-97
