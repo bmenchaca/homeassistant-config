@@ -32,7 +32,7 @@ panel_custom: !include config/panel_custom.yaml
 frontend: !include config/frontend.yaml
 cloud: !include config/cloud.yaml
 input_select: !include config/input_select.yaml
-input_boolean: !include config/input_boolean.yaml
+#input_boolean: !include config/input_boolean.yaml
 #input_text: !include config/input_text.yaml
 #input_datetime: !include config/input_datetime.yaml
 vacuum: !include config/vacuum.yaml
