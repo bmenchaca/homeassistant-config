@@ -4,7 +4,7 @@ acf9320b92834db89f3da79cdd092ffe:
   mac:
   name: Ben GeoFency GPS
   picture: /local/ben.png
-  track: true
+  track: false
 
 0f37f6226f6e4e39a254ce222bdf30ba:
   hide_if_away: false
@@ -12,7 +12,7 @@ acf9320b92834db89f3da79cdd092ffe:
   mac:
   name: Heidi Geofency GPS
   picture:
-  track: true
+  track: false
 
 cab02f4d94ab43e09ca603aef8faa57b:
   hide_if_away: false
@@ -20,7 +20,7 @@ cab02f4d94ab43e09ca603aef8faa57b:
   mac:
   name: Susan Geofency GPS
   picture:
-  track: true
+  track: false
 
 bens_ipad:
   hide_if_away: false
@@ -327,3 +327,27 @@ dianasiphone:
   name: Dianas-iPhone
   picture:
   track: false
+
+life360_ben:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Ben Life360
+  picture: https://www.life360.com/img/user_images/43d037ee-f34f-4903-b640-0800b338e2f3/772b2fa2-6347-4434-b106-31dcc53a340c.jpg?fd=2
+  track: true
+
+life360_susan:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Susan Life360
+  picture: https://www.life360.com/img/user_images/7a837a8d-528a-4c69-988c-56fec74f32e8/3eb627bc-2476-41eb-9697-26d78a417f74.jpg?fd=2
+  track: true
+
+life360_heidi:
+  hide_if_away: false
+  icon:
+  mac:
+  name: Heidi Life360
+  picture: https://www.life360.com/img/user_images/0284feff-8955-43a7-a79c-64f21ca15347/c22bf9b7-6fd9-4c43-9c8c-4a7586d48aec.jpg?fd=2
+  track: true
