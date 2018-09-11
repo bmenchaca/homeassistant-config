@@ -395,3 +395,10 @@ sensor.ring_front_door_volume:
 sensor.ring_front_door_wifi_signal_category:
   hidden: true
 
+# Life360 Device Trackers
+device_tracker.life360_ben:
+  friendly_name: Ben Life360
+device_tracker.life360_susan:
+  friendly_name: Susan Life360
+device_tracker.life360_heidi:
+  friendly_name: Heidi Life360
