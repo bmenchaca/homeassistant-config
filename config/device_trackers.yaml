@@ -13,6 +13,15 @@
     - 'MerlinHome'
     - 'MerlinKids'
 
+- platform: life360
+  username: !secret life360_username
+  password: !secret life360_password
+  prefix: life360
+  show_as_state: places, driving, moving
+  max_gps_accuracy: 200
+  max_update_wait:
+    minutes: 30
+
 #- platform: arping
 #  consider_home: 60
 #  count: 2
