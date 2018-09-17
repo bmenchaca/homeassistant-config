@@ -122,6 +122,7 @@
       friendly_name: 'Garage Occupancy'
       value_template: >-
         {%- if (is_state("sensor.garage_lights_burglar", "8") or
+                is_state("binary_sensor.garage_door", "on") or
                 not is_state("cover.ben_garage", "closed") or
                 not is_state("cover.susan_garage", "closed")) -%}
           True
