@@ -1,2 +1,7 @@
 #- platform: arlo
 #  ffmpeg_arguments: '-pred 1 -q:v 2'
+- platform: onvif
+  host: 192.168.11.110
+  name: Alibi NVR
+  username: !secret alibi_username
+  password: !secret alibi_password
