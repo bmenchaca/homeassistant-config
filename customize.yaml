@@ -19,31 +19,25 @@ light.master_hall:
   hidden: true
 switch.outdoor_lights_53:
   friendly_name: Garage Outdoor Lights
-# Hide hue group for a room
 light.family_room:
   hidden: true
 light.group_for_wakeup:
-  hidden: true          
-# Using burglar for HSM200, don't need Binary Sensor as well
+  hidden: true
 binary_sensor.master_hsm200_sensor:
   hidden: true
 sensor.master_hsm200_luminance:
   hidden: true
 sensor.unknown:
   hidden: true
-
-# Abode Keyfob
 binary_sensor.ben_keyfob:
   icon: mdi:remote
   device_class: connectivity
 binary_sensor.susan_keyfob:
   icon: mdi:remote
   device_class: connectivity
-# Abode Siren
 binary_sensor.gallery_siren:
   icon: mdi:speaker-wireless
   device_class: connectivity
-# Abode keypad
 binary_sensor.laundry_room_keypad:
   icon: mdi:dialpad
   device_class: connectivity
@@ -53,11 +47,8 @@ binary_sensor.master_hall_motion:
   device_class: connectivity
 binary_sensor.entry_motion:
   device_class: connectivity
-
-# Device Class
 binary_sensor.pantry_door_sensor:
   device_class: door
-
 binary_sensor.heidi_room_multisensor_sensor:
   friendly_name: Heidi's Room Motion Sensor
 sensor.heidi_room_multisensor_temperature:
@@ -232,9 +223,6 @@ sensor.yo_mama_battery_level_2:
   hidden: true
 sensor.yo_mama_battery_state_2:
   hidden: true
-
-
-# Windows through Abode
 binary_sensor.craft_room_window_1:
   icon: mdi:window-closed
 binary_sensor.craft_room_window_2:
@@ -289,50 +277,39 @@ binary_sensor.game_room_window_2:
   icon: mdi:window-closed
 binary_sensor.game_room_window_3:
   icon: mdi:window-closed
-# Abode Doors
 binary_sensor.garage_door:
   icon: mdi:door
 binary_sensor.back_door:
   icon: mdi:door
 binary_sensor.front_door:
   icon: mdi:door
-# Presence Sensors
 binary_sensor.ben_at_home:
   device_class: presence
 binary_sensor.susan_at_home:
   device_class: presence
 binary_sensor.heidi_at_home:
   device_class: presence
-# Hide Presence Input Selectors
 input_select.ben_presence_dropdown:
   hidden: true
 input_select.susan_presence_dropdown:
   hidden: true
 input_select.heidi_presence_dropdown:
   hidden: true
-
-# Hide Phone App Device Trackers
 device_tracker.ben_ha_iphone:
   hidden: true
 device_tracker.susan_ha_iphone:
   hidden: true
-
-
-# House Mode Selector prettiness
 input_select.house_mode:
-  friendly_name: "House Time of Day"
-
+  friendly_name: House Time of Day
 zone.home:
   beacon:
-     uuid: E3867230-91FE-4788-AA02-717ABA4C8E5A
-     major: 1
-     minor: 11
-
-# Netatmo
+    uuid: E3867230-91FE-4788-AA02-717ABA4C8E5A
+    major: 1
+    minor: 11
 sensor.netatmo_indoor_humidity:
-  hidden: true      
+  hidden: true
 sensor.netatmo_indoor_humidity_2:
-  hidden: true      
+  hidden: true
 sensor.netatmo_indoor_pressure:
   hidden: true
 sensor.netatmo_indoor_wifi:
@@ -361,7 +338,6 @@ switch.guest_bathroom_lights_switch_2:
   hidden: true
 switch.master_bathtub_light_switch_2:
   hidden: true
-
 device_tracker.heidi_iphone:
   icon: mdi:wifi
 device_tracker.bens_iphone:
@@ -380,8 +356,6 @@ device_tracker.acf9320b92834db89f3da79cdd092ffe:
   icon: mdi:map-marker
 device_tracker.cab02f4d94ab43e09ca603aef8faa57b:
   icon: mdi:map-marker
-
-# Hide Ring Sensors
 sensor.ring_front_door_battery:
   hidden: true
 sensor.ring_front_door_last_activity:
@@ -394,11 +368,15 @@ sensor.ring_front_door_volume:
   hidden: true
 sensor.ring_front_door_wifi_signal_category:
   hidden: true
-
-# Life360 Device Trackers
 device_tracker.life360_ben:
   friendly_name: Ben Life360
 device_tracker.life360_susan:
   friendly_name: Susan Life360
 device_tracker.life360_heidi:
   friendly_name: Heidi Life360
+sensor.cpu_load_total:
+  friendly_name: Synology CPU Load
+sensor.volume_used_volume_2:
+  friendly_name: Synology Storage Used
+sensor.memory_usage_real:
+  friendly_name: Synology Memory Usage
