@@ -381,12 +381,18 @@ master_lavatory:
   entities:
     - switch.master_lavatory_42
 
-usage_info:
-  name: System Usage
+hapi_usage_info:
+  name: HAPI System Usage
   entities:
     - sensor.processor_use
-    - sensor.memory_free_
     - sensor.memory_free
+
+synology_usage_info:
+  name: Synology System Usage
+  entities:
+    - sensor.cpu_load_total
+    - sensor.memory_usage_real
+    - sensor.volume_used_volume_2
 
 system_switches:
   name: System Switches
@@ -511,7 +517,8 @@ system_view:
   name: System
   view: yes
   entities:
-    - group.usage_info
+    - group.hapi_usage_info
+    - group.synology_usage_info
     - group.system_switches
 
 occupancy_view:
