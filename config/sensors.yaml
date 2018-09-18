@@ -291,5 +291,4 @@
   monitored_conditions:
     - cpu_total_load
     - memory_real_usage
-    - network_up
     - volume_percentage_used
