@@ -504,6 +504,11 @@ front_yard_view:
  entities:
    - group.front_porch
    - group.front_yard
+   - camera.east_side_yard_camera
+   - camera.front_east_guest_camera
+   - camera.front_door_camera
+   - camera.front_driveway_camera
+   - camera.front_west_gate_camera
 
 back_yard_view:
   name: Back Yard
@@ -512,6 +517,11 @@ back_yard_view:
     - group.back_porch
     - group.back_yard_sprinklers
     - group.garden
+    - camera.back_east_gate_camera
+    - camera.back_pool_camera
+    - camera.back_deck_camera
+    - camera.back_playscape_camera
+    - camera.back_west_garden_camera
 
 system_view:
   name: System
