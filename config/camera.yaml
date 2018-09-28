@@ -1,12 +1,60 @@
 #- platform: arlo
 #  ffmpeg_arguments: '-pred 1 -q:v 2'
-- platform: onvif
-  host: 192.168.11.110
-  port: 1050
-  name: Alibi NVR
-  username: !secret alibi_username
-  password: !secret alibi_password
+
+#- platform: onvif
+#  host: 192.168.11.110
+#  port: 1050
+#  name: Alibi NVR
+#  username: !secret alibi_username
+#  password: !secret alibi_password
+
+- platform: ffmpeg
+  input: !secret alibi_rtsp_camera_1
+  extra_arguments: -pred 1 -q:v 2
+  name: East Side Yard Camera
 
 - platform: ffmpeg
   input: !secret alibi_rtsp_camera_2
+  extra_arguments: -pred 1 -q:v 2
   name: Front Driveway Camera
+
+- platform: ffmpeg
+  input: !secret alibi_rtsp_camera_3
+  extra_arguments: -pred 1 -q:v 2
+  name: West Gate Camera
+
+- platform: ffmpeg
+  input: !secret alibi_rtsp_camera_4
+  extra_arguments: -pred 1 -q:v 2
+  name: Back Pool Camera
+
+- platform: ffmpeg
+  input: !secret alibi_rtsp_camera_5
+  extra_arguments: -pred 1 -q:v 2
+  name: Front East Guest Camera
+
+- platform: ffmpeg
+  input: !secret alibi_rtsp_camera_6
+  extra_arguments: -pred 1 -q:v 2
+  name: Front Door Camera
+
+- platform: ffmpeg
+  input: !secret alibi_rtsp_camera_7
+  extra_arguments: -pred 1 -q:v 2
+  name: Back Playscape Camera
+
+- platform: ffmpeg
+  input: !secret alibi_rtsp_camera_8
+  extra_arguments: -pred 1 -q:v 2
+  name: Back Deck Camera
+
+- platform: ffmpeg
+  input: !secret alibi_rtsp_camera_9
+  extra_arguments: -pred 1 -q:v 2
+  name: Back East Gate Camera
+
+- platform: ffmpeg
+  input: !secret alibi_rtsp_camera_10
+  extra_arguments: -pred 1 -q:v 2
+  name: Back West Garden Camera
+
