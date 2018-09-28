@@ -2,6 +2,11 @@
 #  ffmpeg_arguments: '-pred 1 -q:v 2'
 - platform: onvif
   host: 192.168.11.110
+  port: 1050
   name: Alibi NVR
   username: !secret alibi_username
   password: !secret alibi_password
+
+- platform: ffmpeg
+  input: !secret alibi_rtsp_camera_2
+  name: Front Driveway Camera
