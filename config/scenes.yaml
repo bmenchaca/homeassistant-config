@@ -59,7 +59,7 @@
     switch.breakfast_lights_switch: off
     switch.entry_lights_46: off
     switch.guest_batroom_lights_switch: off
-    switch.guest_hall_light_63: off
+    switch.guest_hall_lights_switch_2: off
     light.family_room_lights_59:
       state: off
     switch.family_room_mantle_light_switch: on
@@ -83,6 +83,7 @@
     switch.back_porch_light_62: off
     switch.front_porch_light_switch: off
     switch.garage_lights_switch: off
+    switch.guest_hall_lights_switch_2: off
     cover.ben_garage: closed
     cover.susan_garage: closed
 
