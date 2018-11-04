@@ -10,3 +10,5 @@ server_port: !secret http_port
 cors_allowed_origins:
   - https://reformedreality.com
   - http://reformedreality.com
+trusted_networks:
+  - 192.168.0.0/16

@@ -12,6 +12,10 @@ homeassistant:
   time_zone: !secret timezone
   customize: !include customize.yaml
   customize_glob: !include config/customize_glob.yaml
+  auth_providers:
+    - type: homeassistant
+    - type: legacy_api_password
+    - type: trusted_networks
 
 # Allow IOS device autodiscovery and location tracking
 ios:
