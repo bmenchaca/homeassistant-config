@@ -90,7 +90,7 @@
 
         - name: Light Switches
           entities:
-            - light.family_room_lights_59
+            - light.family_room_lights_level
             - light.master_bath_vanity_40
             - light.master_fan_lights_37
             - switch.back_porch_light_62
