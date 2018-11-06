@@ -206,6 +206,7 @@ back_porch:
   name: Back Porch
   entities:
     - switch.back_porch_light_62
+    - camera.back_deck_camera
 
 back_yard_sprinklers:
   name: Back Yard Sprinklers
@@ -221,17 +222,24 @@ garden:
   name: Garden
   entities:
     - switch.garden
+    - camera.back_west_garden_camera
 
 front_porch:
   name: Front Porch
   entities:
     - switch.front_porch_light_switch
+    - camera.front_door
+    - camera.front_door_camera
     - binary_sensor.ring_front_door_motion
     - binary_sensor.ring_front_door_ding  
 
 front_yard:
   name: Front Yard
   entities:
+    - camera.east_side_yard_camera
+    - camera.front_east_guest_camera
+    - camera.front_driveway_camera
+    - camera.west_gate_camera
     - switch.garage_outdoor_light_53
     - switch.front_bushes
     - switch.front_lawn
@@ -502,13 +510,13 @@ front_yard_view:
  name: Front Yard
  view: yes
  entities:
-   - group.front_porch
    - group.front_yard
-   - camera.east_side_yard_camera
-   - camera.front_east_guest_camera
-   - camera.front_door_camera
-   - camera.front_driveway_camera
-   - camera.front_west_gate_camera
+
+front_porch_view:
+  name: Front Porch
+  view: yes
+  entities:
+    - group.front_porch
 
 back_yard_view:
   name: Back Yard
@@ -519,9 +527,7 @@ back_yard_view:
     - group.garden
     - camera.back_east_gate_camera
     - camera.back_pool_camera
-    - camera.back_deck_camera
     - camera.back_playscape_camera
-    - camera.back_west_garden_camera
 
 system_view:
   name: System
