@@ -114,7 +114,7 @@ switch.pantry_light_61:
   icon: mdi:lightbulb
 switch.gallery_hall_lights_switch:
   icon: mdi:lightbulb
-switch.entry_lights_46:
+switch.entry_hall_lights_switch:
   icon: mdi:lightbulb
 switch.dining_room_lights_switch:
   icon: mdi:lightbulb
