@@ -351,3 +351,35 @@ life360_heidi:
   name: Heidi Life360
   picture: https://www.life360.com/img/user_images/0284feff-8955-43a7-a79c-64f21ca15347/c22bf9b7-6fd9-4c43-9c8c-4a7586d48aec.jpg?fd=2
   track: true
+
+kitchen_echo:
+  hide_if_away: false
+  icon:
+  mac: 50:DC:E7:A9:AC:97
+  name: Kitchen Echo
+  picture:
+  track: true
+
+hp_color_laser_mfpm477fdw:
+  hide_if_away: false
+  icon:
+  mac: 74:40:BB:09:A2:67
+  name: HP Color Laser MFPM477fdw
+  picture:
+  track: true
+
+sonoszp:
+  hide_if_away: false
+  icon:
+  mac: 94:9F:3E:DE:2C:B1
+  name: SonosZP
+  picture:
+  track: true
+
+master_roku:
+  hide_if_away: false
+  icon:
+  mac: 88:DE:A9:2C:78:C5
+  name: Master Roku
+  picture:
+  track: true
