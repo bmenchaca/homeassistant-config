@@ -37,7 +37,7 @@ alexa:
       name: Master Fan Lights
     light.office_lights_level:
       name: Office Lights
-    switch.back_porch_light_62:
+    switch.back_porch_light_switch_2:
       name: Back Porch Lights
     switch.breakfast_lights_switch:
       name: Breakfast Lights

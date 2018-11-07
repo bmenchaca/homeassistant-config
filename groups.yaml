@@ -205,7 +205,7 @@ laundry_room:
 back_porch:
   name: Back Porch
   entities:
-    - switch.back_porch_light_62
+    - switch.back_porch_light_switch_2
     - camera.back_deck_camera
 
 back_yard_sprinklers:
