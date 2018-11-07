@@ -281,7 +281,7 @@ girls_hallway:
 heidi_room:
   name: Heidi's Room
   entities:
-    - switch.heidi_fan_and_lights_36
+    - switch.heidi_room_fan_and_light_switch
     - light.heidi
     - light.heidi_1
     - light.heidi_2
