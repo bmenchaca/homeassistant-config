@@ -181,7 +181,7 @@
 #   to: 'off'
 # action:
 #   service: switch.turn_off
-#   entity_id: switch.laundry_closet_light_65
+#   entity_id: switch.laundry_room_closet_light_switch
 
 #- id: laundry_room_closet_door_open
 #  alias: Turn on Laundry Room Closet Light when Laundry Room Closet Door opens
@@ -191,7 +191,7 @@
 #   to: 'on'
 # action:
 #   service: switch.turn_on
-#   entity_id: switch.laundry_closet_light_65
+#   entity_id: switch.laundry_room_closet_light_switch
 
 #- id: master_hall_light_off
 #  alias: Turn off Master Hall Lights 5 minutes after last movement

@@ -106,7 +106,7 @@
             - switch.guest_hall_lights_switch_2
             - switch.guest_batroom_lights_switch
             - switch.kitchen_light_56
-            - switch.laundry_closet_light_65
+            - switch.laundry_room_closet_light_switch
             - switch.laundry_room_lights_switch
             - switch.master_bathtub_light_switch
             - switch.master_closet_light_68
