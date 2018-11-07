@@ -136,7 +136,7 @@ entry_room:
   name: Entry Room
   entities:
     - switch.entry_lights_46
-    - switch.christmas_tree_54
+    - switch.entry_christmas_lights_switch
     - binary_sensor.entry_room_occupancy
     - binary_sensor.front_door
     - binary_sensor.entry_window_1

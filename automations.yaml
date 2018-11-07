@@ -339,7 +339,7 @@
 #   event: sunset
 # action:
 #   service: switch.turn_on
-#   entity_id: switch.christmas_tree_54
+#   entity_id: switch.entry_christmas_lights_switch
 
 #- id: christmas_lights_off_sunset
 #  alias: "Turn off Christmas Lights at night"
@@ -348,7 +348,7 @@
 #   at: "22:30:00"
 # action:
 #   service: switch.turn_off
-#   entity_id: switch.christmas_tree_54
+#   entity_id: switch.entry_christmas_lights_switch
 
 #- id: ben_garage_night_warning
 #  alias: "Ben's Garage Door is Open at Night"
