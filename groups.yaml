@@ -405,11 +405,11 @@ synology_usage_info:
 system_switches:
   name: System Switches
   entities:
-    - switch.office_p1_hapi_30
-    - switch.office_p2_pihole_2_31
-    - switch.office_p3_pihole_32
-    - switch.office_p4_fasthapi_33
-    - switch.office_control_strip_29
+    - switch.office_power_strip_switch_2
+    - switch.office_power_strip_switch_3
+    - switch.office_power_strip_switch_4
+    - switch.office_power_strip_switch_5
+    - switch.office_power_strip_switch
 
 downstairs_occupancy:
   name: Downstairs Occupancy
