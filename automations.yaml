@@ -6,7 +6,7 @@
 #    to: 'off'
 #  action:
 #    service: switch.turn_off
-#    entity_id: switch.pantry_light_61
+#    entity_id: switch.kitchen_pantry_light_switch
 
 #- id: pantry_door_open
 #  alias: Turn on Pantry Light when Pantry Door opens
@@ -16,7 +16,7 @@
 #    to: 'on'
 #  action:
 #    service: switch.turn_on
-#    entity_id: switch.pantry_light_61
+#    entity_id: switch.kitchen_pantry_light_switch
 
 #- id: craft_room_switch_off
 #  alias: Turn off All Craft Room Switches when Main Switch Turned Off

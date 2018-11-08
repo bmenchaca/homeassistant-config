@@ -112,7 +112,7 @@
             - switch.master_closet_light_68
             - switch.master_hall_lights_switch
             - switch.master_lavatory_42
-            - switch.pantry_light_61
+            - switch.kitchen_pantry_light_switch
             - switch.stairs_light_switch
 
           states:
