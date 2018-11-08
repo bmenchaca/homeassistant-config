@@ -127,7 +127,7 @@
 #    before: '6:30:00'
 #  action:
 #    service: light.turn_off
-#    entity_id: light.game_room_fan_lights_43
+#    entity_id: light.game_room_lights_level
 
 #- id: laundry_room_light_off
 #  alias: Turn off Laundry Room Lights 5 minutes after last movement
