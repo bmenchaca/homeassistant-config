@@ -83,7 +83,7 @@ switch.craft_room_fan_and_lights_switch:
   icon: mdi:fan
 switch.game_room_fan_switch:
   icon: mdi:fan
-switch.office_fan_34:
+switch.office_fan_switch:
   icon: mdi:fan
   haaska_name: Office Fan
 switch.master_fan_switch:

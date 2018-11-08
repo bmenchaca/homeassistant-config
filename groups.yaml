@@ -339,7 +339,7 @@ office:
     - binary_sensor.office_occupancy
     - light.office_lights_level
     - media_player.office
-    - switch.office_fan_34
+    - switch.office_fan_switch
     - switch.office_lamp_35
     - light.office
     - light.hue_go_1
