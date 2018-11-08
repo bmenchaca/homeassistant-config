@@ -19,7 +19,7 @@ alexa:
       - switch.game_room_fan_switch_2
       - switch.guest_fan_and_lights_switch_2
       - switch.guest_fan_and_lights_switch_3
-      - switch.laundry_room_lights_switch_2
+      - switch.laundry_room_light_switch_2
       - switch.master_hall_lights_switch_2
       - switch.stairs_light_switch_2
     #exclude_domains:

@@ -139,7 +139,7 @@
 #      minutes: 5
 #  action:
 #    service: switch.turn_off
-#    entity_id: switch.laundry_room_lights_switch
+#    entity_id: switch.laundry_room_light_switch
 
 #- id: laundry_room_light_on
 #  alias: Turn on Laundry Room Lights when someone is in the room
@@ -149,7 +149,7 @@
 #    to: 'on'
 #  action:
 #    service: switch.turn_on
-#    entity_id: switch.laundry_room_lights_switch
+#    entity_id: switch.laundry_room_light_switch
 
 #- id: game_room_lights_off
 #  alias: Turn off Game Room Lights when noone is in the room

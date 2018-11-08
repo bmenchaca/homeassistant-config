@@ -383,3 +383,11 @@ master_roku:
   name: Master Roku
   picture:
   track: true
+
+f0a225cee352:
+  hide_if_away: false
+  icon:
+  mac: F0:A2:25:CE:E3:52
+  name: f0a225cee352
+  picture:
+  track: true
