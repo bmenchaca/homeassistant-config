@@ -105,7 +105,7 @@
             - switch.garage_outdoor_light_53
             - switch.guest_hall_lights_switch_2
             - switch.guest_batroom_lights_switch
-            - switch.kitchen_light_56
+            - switch.kitchen_light_switch
             - switch.laundry_room_closet_light_switch
             - switch.laundry_room_lights_switch
             - switch.master_bathtub_light_switch

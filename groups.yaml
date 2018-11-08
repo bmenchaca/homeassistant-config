@@ -189,7 +189,7 @@ stairs:
 kitchen:
   name: Kitchen
   entities:
-    - switch.kitchen_light_56
+    - switch.kitchen_light_switch
     - switch.pantry_light_61
     - binary_sensor.pantry_door_sensor
 
