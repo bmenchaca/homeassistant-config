@@ -340,7 +340,7 @@ office:
     - light.office_lights_level
     - media_player.office
     - switch.office_fan_switch
-    - switch.office_lamp_35
+    - switch.office_lamp_switch_2
     - light.office
     - light.hue_go_1
     - camera.guest_hall
