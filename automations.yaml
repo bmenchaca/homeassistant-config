@@ -262,7 +262,7 @@
 #    event: sunset
 #  action:
 #    service: switch.turn_on
-#    entity_id: switch.garage_outdoor_light_53
+#    entity_id: switch.garage_outdoor_light_switch
 
 #- id: garage_lights_off_at_sunrise
 #  alias: Turn off Garage Carriage Lights at Sunrise
@@ -271,7 +271,7 @@
 #    event: sunrise
 #  action:
 #    service: switch.turn_off
-#    entity_id: switch.garage_outdoor_light_53
+#    entity_id: switch.garage_outdoor_light_switch
 
 #- id: guest_lights_off_when_unoccupied
 #  alias: Turn off Guest Lights 3 minutes after last movement

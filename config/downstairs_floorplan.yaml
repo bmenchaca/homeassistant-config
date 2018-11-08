@@ -102,7 +102,7 @@
             - switch.family_room_mantle_light_switch
             - switch.front_porch_light_switch
             - switch.garage_lights_switch
-            - switch.garage_outdoor_light_53
+            - switch.garage_outdoor_light_switch
             - switch.guest_hall_lights_switch_2
             - switch.guest_batroom_lights_switch
             - switch.kitchen_light_switch
