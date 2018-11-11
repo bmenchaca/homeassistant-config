@@ -1,7 +1,7 @@
 alexa:
   filter:
     include_entities:
-      - light.family_room_lights_level
+      - light.family_room_lights_level_2
       - light.craft_floor_lamp_66
       - light.game_room_lights_level
       - light.master_bath_vanity_40
@@ -24,7 +24,7 @@ alexa:
       - switch.stairs_light_switch_2
     #exclude_domains:
   entity_config:
-    light.family_room_lights_level:
+    light.family_room_lights_level_2:
       name: Family Room Lights
     #  description: The light in the kitchen
     light.craft_floor_lamp_66:
