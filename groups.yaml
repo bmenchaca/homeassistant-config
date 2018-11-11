@@ -135,7 +135,7 @@ guest_bath:
 entry_room:
   name: Entry Room
   entities:
-    - switch.entry_lights_46
+    - switch.entry_hall_lights_switch
     - switch.entry_christmas_lights_switch
     - binary_sensor.entry_room_occupancy
     - binary_sensor.front_door
