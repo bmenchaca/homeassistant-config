@@ -1,21 +1,3 @@
-#zwave:
-# name: ZWave
-# icon: mdi:router-wireless
-# entities:
-#   - zwave.craft_room_fan
-#   - zwave.craft_room_sewing_lamp_dimmer
-#   - zwave.zwave.game_room_fan
-#   - zwave.game_room_fan_lights_dimmer
-#   - zwave.girls_hall_light
-#   - zwave.hapi_controller
-#   - zwave.master_bath_tub_light
-#   - zwave.master_bath_vanity_lights_dimmer
-#   - zwave.master_closet_light
-#   - zwave.master_fan
-#   - zwave.master_fan_lights_dimmer
-#   - zwave.master_lavatory_light
-#   - zwave.boys_hall_light
-
 #packages:
 #  name: Packages
 #  entities:
@@ -366,7 +348,7 @@ master_bath:
     - switch.master_bathtub_light_switch
     - light.master_bath
     - light.master_bath_color
-    - light.master_bath_vanity_40
+    - light.master_bath_vanity_lights_level
 
 master_closet:
   name: Master Closet

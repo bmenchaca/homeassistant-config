@@ -91,7 +91,7 @@
         - name: Light Switches
           entities:
             - light.family_room_lights_level_2
-            - light.master_bath_vanity_40
+            - light.master_bath_vanity_lights_level
             - light.master_fan_lights_level
             - switch.back_porch_light_switch_2
             - switch.breakfast_lights_switch

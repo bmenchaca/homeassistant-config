@@ -4,7 +4,7 @@ alexa:
       - light.family_room_lights_level_2
       - light.craft_room_floor_lamp_level
       - light.game_room_lights_level
-      - light.master_bath_vanity_40
+      - light.master_bath_vanity_lights_level
       - light.master_fan_lights_level
       - light.office_lights_level
     include_domains:
@@ -31,7 +31,7 @@ alexa:
       name: Craft Room Large Lamp
     light.game_room_lights_level:
       name: Game Room Lights
-    light.master_bath_vanity_40:
+    light.master_bath_vanity_lights_level:
       name: Master Bath Lights
     light.master_fan_lights_level:
       name: Master Fan Lights
