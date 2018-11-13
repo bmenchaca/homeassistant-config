@@ -29,7 +29,7 @@
 #    service: scene.turn_on
 #    entity_id: scene.craft_room_switch_off
 #  - service: switch.turn_off
-#    entity_id: switch.craft_sewing_lamp_67
+#    entity_id: switch.craft_room_sewing_lamp_switch_2
 #  - service: light.turn_off
 #    entity_id: light.craft_room_floor_lamp_level
   
@@ -44,7 +44,7 @@
 #    service: scene.turn_on
 #    entity_id: scene.craft_room_switch_on
   #  - service: switch.turn_on
-  #    entity_id: switch.craft_sewing_lamp_67
+  #    entity_id: switch.craft_room_sewing_lamp_switch_2
   #  - service: light.turn_on
   #    entity_id: light.craft_room_floor_lamp_level
   
