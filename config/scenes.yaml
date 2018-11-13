@@ -59,6 +59,7 @@
     switch.girls_hall_light_switch: off
     light.gallery: off
     light.game_room: off
+    switch.back_porch_light_switch_2: off
     switch.master_hall_lights_switch: off
     switch.kitchen_light_switch: off
     switch.dining_room_lights_switch: off
@@ -67,8 +68,7 @@
     switch.entry_hall_lights_switch: off
     switch.guest_batroom_lights_switch: off
     switch.guest_hall_lights_switch_2: off
-    switch.family_room_lights_switch:
-      state: off
+    light.family_room_lights_level_2: off
     switch.family_room_mantle_light_switch: on
 
 - name: house_bed_time
@@ -84,8 +84,7 @@
     switch.breakfast_lights_switch: off
     switch.entry_hall_lights_switch: off
     switch.entry_christmas_lights_switch: off
-    switch.family_room_lights_switch:
-      state: off
+    light.family_room_lights_level_2: off
     switch.family_room_mantle_light_switch: off
     switch.back_porch_light_switch_2: off
     switch.front_porch_light_switch: off
