@@ -31,7 +31,7 @@
 #  - service: switch.turn_off
 #    entity_id: switch.craft_sewing_lamp_67
 #  - service: light.turn_off
-#    entity_id: light.craft_floor_lamp_66
+#    entity_id: light.craft_room_floor_lamp_level
   
 #- id: craft_room_switch_on
 #  alias: Turn on All Craft Room Switches when Main Switch Turned On
@@ -46,7 +46,7 @@
   #  - service: switch.turn_on
   #    entity_id: switch.craft_sewing_lamp_67
   #  - service: light.turn_on
-  #    entity_id: light.craft_floor_lamp_66
+  #    entity_id: light.craft_room_floor_lamp_level
   
 # Upstairs Night Lights Off
 #- id: boys_hall_night_light_off

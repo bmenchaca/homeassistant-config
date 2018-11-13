@@ -96,7 +96,7 @@ craft_room:
   name: Craft Room
   entities:
     - binary_sensor.craft_room_occupancy
-    - light.craft_floor_lamp_66
+    - light.craft_room_floor_lamp_level
     - switch.craft_room_fan_and_lights_switch
     - switch.craft_sewing_lamp_67
     - media_player.stick

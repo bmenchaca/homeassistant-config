@@ -6,14 +6,14 @@
   entities:
     switch.craft_room_fan_and_lights_switch: off
     switch.craft_sewing_lamp_67: off
-    light.craft_floor_lamp_66:
+    light.craft_room_floor_lamp_level:
       state: off
     
 - name: craft_room_switch_on
   entities:
     switch.craft_room_fan_and_lights_switch: on
     switch.craft_sewing_lamp_67: on
-    light.craft_floor_lamp_66:
+    light.craft_room_floor_lamp_level:
       state: on
 
 - name: family_room_lights_off

@@ -391,3 +391,11 @@ f0a225cee352:
   name: f0a225cee352
   picture:
   track: true
+
+laptopkv3vakqh:
+  hide_if_away: false
+  icon:
+  mac: 10:F0:05:82:EE:C0
+  name: LAPTOP-KV3VAKQH
+  picture:
+  track: true

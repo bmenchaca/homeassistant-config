@@ -2,7 +2,7 @@ alexa:
   filter:
     include_entities:
       - light.family_room_lights_level_2
-      - light.craft_floor_lamp_66
+      - light.craft_room_floor_lamp_level
       - light.game_room_lights_level
       - light.master_bath_vanity_40
       - light.master_fan_lights_37
@@ -27,7 +27,7 @@ alexa:
     light.family_room_lights_level_2:
       name: Family Room Lights
     #  description: The light in the kitchen
-    light.craft_floor_lamp_66:
+    light.craft_room_floor_lamp_level:
       name: Craft Room Large Lamp
     light.game_room_lights_level:
       name: Game Room Lights
