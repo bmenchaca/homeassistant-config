@@ -15,6 +15,13 @@
     switch.craft_sewing_lamp_67: on
     light.craft_floor_lamp_66:
       state: on
+
+- name: family_room_lights_off
+  entities:
+    switch.breakfast_lights_switch: off
+    switch.kitchen_light_switch: off
+    switch.back_porch_light_switch_2: off
+    light.family_room_lights_level_2: off
     
 - name: game_room_off
   entities:
