@@ -369,7 +369,7 @@ master_hall:
 master_lavatory:
   name: Master Lavatory
   entities:
-    - switch.master_lavatory_42
+    - switch.master_lavatory_lights_switch
 
 hapi_usage_info:
   name: HAPI System Usage
