@@ -243,7 +243,7 @@
 #    to: 'on'
 #  action:
 #    service: switch.turn_on
-#    entity_id: switch.master_closet_light_68
+#    entity_id: switch.master_closet_lights_switch
 
 #- id: master_closet_door_close
 #  alias: Turn off Master Closet Lights when Master Closet Door closes
@@ -253,7 +253,7 @@
 #    to: 'off'
 #  action:
 #    service: switch.turn_off
-#    entity_id: switch.master_closet_light_68
+#    entity_id: switch.master_closet_lights_switch
 
 #- id: garage_lights_on_at_dusk
 #  alias: Turn on Garage Carriage Lights at Dusk
