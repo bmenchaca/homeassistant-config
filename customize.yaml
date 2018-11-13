@@ -126,7 +126,7 @@ switch.laundry_room_closet_light_switch:
   icon: mdi:lightbulb
 switch.back_porch_light_switch_2:
   icon: mdi:lightbulb
-switch.guest_hall_light_63:
+switch.guest_hall_lights_switch_2:
   icon: mdi:lightbulb
 switch.around_pool_back:
   icon: mdi:water
