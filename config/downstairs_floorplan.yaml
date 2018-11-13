@@ -92,7 +92,7 @@
           entities:
             - light.family_room_lights_level_2
             - light.master_bath_vanity_40
-            - light.master_fan_lights_37
+            - light.master_fan_lights_level
             - switch.back_porch_light_switch_2
             - switch.breakfast_lights_switch
             - switch.craft_room_sewing_lamp_switch_2

@@ -352,7 +352,7 @@ master:
   name: Master
   entities:
     - binary_sensor.master_occupancy
-    - light.master_fan_lights_37
+    - light.master_fan_lights_level
     - switch.master_fan_switch
     - sensor.master_hsm200_temperature
     - binary_sensor.master_window_1
