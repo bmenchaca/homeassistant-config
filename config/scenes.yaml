@@ -21,7 +21,14 @@
     switch.breakfast_lights_switch: off
     switch.kitchen_light_switch: off
     switch.back_porch_light_switch_2: off
-    light.family_room_lights_level_2: off
+    light.family_room_lights_level_2:
+      state: off
+
+- name: entry_hall_off
+  entities:
+    switch.entry_hall_lights_switch: off
+    light.entry_hall_lamp_level:
+      state: off
     
 - name: game_room_off
   entities:
