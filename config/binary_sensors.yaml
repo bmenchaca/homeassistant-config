@@ -80,7 +80,7 @@
     laundry_room_occupancy:
       friendly_name: 'Laundry Room Occupancy'
       value_template: >-
-        {%- if is_state("sensor.laundry_room_lights_burglar", "8") -%}
+        {%- if is_state("sensor.laundry_room_light_burglar", "8") -%}
           True
         {%- else -%}
           False
