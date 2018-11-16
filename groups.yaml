@@ -265,6 +265,7 @@ heidi_room:
   name: Heidi's Room
   entities:
     - switch.heidi_room_fan_and_light_switch
+    - switch.heidi_room_heater_switch
     - light.heidi
     - light.heidi_1
     - light.heidi_2
