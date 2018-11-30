@@ -69,7 +69,7 @@ downloader: !include config/downloader.yaml
 #vera: !include config/vera.yaml
 abode: !include config/abode.yaml
 google: !include config/google.yaml
-geofency:
+#geofency:
 
 # Text to Speech
 #tts: !include config/tts.yaml
