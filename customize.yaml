@@ -17,8 +17,6 @@ light.master_bath:
 light.master_hall:
   friendly_name: All Master Hall Lights
   hidden: true
-switch.outdoor_lights_53:
-  friendly_name: Garage Outdoor Lights
 light.family_room:
   hidden: true
 light.group_for_wakeup:
