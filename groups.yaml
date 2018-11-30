@@ -110,6 +110,7 @@ guest_bath:
   entities:
     - binary_sensor.guest_bathroom_occupancy
     - switch.guest_bathroom_lights_switch
+    - light.guest_bath
     - light.guest_bath_1
     - light.guest_bath_2
     - light.guest_bath_color
