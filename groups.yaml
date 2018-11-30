@@ -273,6 +273,8 @@ heidi_room:
     - light.heidi_color
     - light.heidi_lamp
     - light.heidi_go
+    - light.heidi_bed_lightstrip
+    - light.hue_lightstrip_plus_1
     - binary_sensor.heidi_room_multisensor_1_sensor
     - sensor.heidi_room_multisensor_temperature
     - sensor.heidi_room_multisensor_relative_humidity
