@@ -358,7 +358,7 @@ kitchen_echo:
   mac: 50:DC:E7:A9:AC:97
   name: Kitchen Echo
   picture:
-  track: true
+  track: false
 
 hp_color_laser_mfpm477fdw:
   hide_if_away: false
@@ -366,7 +366,7 @@ hp_color_laser_mfpm477fdw:
   mac: 74:40:BB:09:A2:67
   name: HP Color Laser MFPM477fdw
   picture:
-  track: true
+  track: false
 
 sonoszp:
   hide_if_away: false
@@ -374,7 +374,7 @@ sonoszp:
   mac: 94:9F:3E:DE:2C:B1
   name: SonosZP
   picture:
-  track: true
+  track: false
 
 master_roku:
   hide_if_away: false
@@ -382,7 +382,7 @@ master_roku:
   mac: 88:DE:A9:2C:78:C5
   name: Master Roku
   picture:
-  track: true
+  track: false
 
 f0a225cee352:
   hide_if_away: false
@@ -390,7 +390,7 @@ f0a225cee352:
   mac: F0:A2:25:CE:E3:52
   name: f0a225cee352
   picture:
-  track: true
+  track: false
 
 laptopkv3vakqh:
   hide_if_away: false
@@ -398,4 +398,28 @@ laptopkv3vakqh:
   mac: 10:F0:05:82:EE:C0
   name: LAPTOP-KV3VAKQH
   picture:
-  track: true
+  track: false
+
+b0fc0d3cab1a:
+  hide_if_away: false
+  icon:
+  mac: B0:FC:0D:3C:AB:1A
+  name: b0fc0d3cab1a
+  picture:
+  track: false
+
+susans_ipad:
+  hide_if_away: false
+  icon:
+  mac: 24:24:0E:25:05:8A
+  name: Susan's iPad
+  picture:
+  track: false
+
+ipad:
+  hide_if_away: false
+  icon:
+  mac: 08:F6:9C:3E:21:C5
+  name: iPad
+  picture:
+  track: false
