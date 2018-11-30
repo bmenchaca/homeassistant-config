@@ -22,3 +22,9 @@
   hidden: true
 "sensor.guest_room_heater_plug_*":
   hidden: true
+"sensor.*_power_strip_previous*":
+  hidden: true
+"sensor.*_power_strip_power*":
+  hidden: true
+"sensor.*_power_strip_energy*":
+  hidden: true
