@@ -30,6 +30,7 @@ map:
 updater:
 config:
 sun:
+http: !include config/http.yaml
 history: !include config/history.yaml
 logbook: !include config/logbook.yaml
 panel_custom: !include config/panel_custom.yaml
@@ -43,7 +44,6 @@ vacuum: !include config/vacuum.yaml
 zwave: !include config/zwave.yaml
 hue: !include config/hue.yaml
 logger: !include config/logger.yaml
-http: !include config/http.yaml
 mqtt: !include config/mqtt.yaml
 recorder: !include config/recorder.yaml
 group: !include groups.yaml
