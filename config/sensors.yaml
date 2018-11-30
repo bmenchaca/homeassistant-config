@@ -293,11 +293,11 @@
     - memory_real_usage
     - volume_percentage_used
 
-- platform: sql
-  db_url: !secret db_url
-  scan_interval: 7200
-  queries:
-    - name: hass_db_size
-      query: 'SELECT table_schema "database", Round(Sum(data_length + index_length) / 1024 / 1024, 1) "value" FROM information_schema.tables WHERE table_schema="My_Hass_DB" GROUP BY table_schema'
-      column: 'value'
-      unit_of_measurement: MiB
+#- platform: sql
+#  db_url: !secret db_url
+#  scan_interval: 7200
+#  queries:
+#    - name: hass_db_size
+#      query: 'SELECT table_schema "database", Round(Sum(data_length + index_length) / 1024 / 1024, 1) "value" FROM information_schema.tables WHERE table_schema="My_Hass_DB" GROUP BY table_schema'
+#      column: 'value'
+#      unit_of_measurement: MiB
