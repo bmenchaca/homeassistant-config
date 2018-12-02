@@ -190,6 +190,7 @@ back_porch:
   name: Back Porch
   entities:
     - switch.back_porch_light_switch_2
+    - light.back_porch_bar_lightstrip
     - camera.back_deck_camera
 
 back_yard_sprinklers:
@@ -274,7 +275,6 @@ heidi_room:
     - light.heidi_lamp
     - light.heidi_go
     - light.heidi_bed_lightstrip
-    - light.hue_lightstrip_plus_1
     - binary_sensor.heidi_room_multisensor_1_sensor
     - sensor.heidi_room_multisensor_temperature
     - sensor.heidi_room_multisensor_relative_humidity
@@ -289,6 +289,7 @@ hannah_room:
     - light.hannah_2
     - light.hannah_color
     - light.hannah_lamp
+    - light.hannah_bed_lightstrip
     - binary_sensor.hannah_room_multisensor_sensor
     - sensor.hannah_room_multisensor_temperature
     - sensor.hannah_room_multisensor_relative_humidity
@@ -329,7 +330,7 @@ office:
     - switch.office_fan_switch
     - switch.office_lamp_switch_2
     - light.office
-    - light.hue_go_1
+    - light.office_hue_go
     - camera.guest_hall
     #- camera.office
     - binary_sensor.office_window_1
