@@ -1,5 +1,0 @@
-- cal_id: !secret google_oauth_client_id
-  entities:
-  - device_id: calendar_all_events
-    name: All Ben's Events
-    track: true
