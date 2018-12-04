@@ -17,13 +17,13 @@ ben_presence:
     - binary_sensor.ben_at_home
     - device_tracker.life360_ben
     - device_tracker.bens_iphone
-    - binary_sensor.ben_beacon_home
-    - device_tracker.beacon_ben_back_door
-    - device_tracker.beacon_ben_boys_hall
-    - device_tracker.beacon_ben_front_entry
-    - device_tracker.beacon_ben_garage
-    - device_tracker.beacon_ben_girls_hall
-    - device_tracker.beacon_ben_master
+#    - binary_sensor.ben_beacon_home
+#    - device_tracker.beacon_ben_back_door
+#    - device_tracker.beacon_ben_boys_hall
+#    - device_tracker.beacon_ben_front_entry
+#    - device_tracker.beacon_ben_garage
+#    - device_tracker.beacon_ben_girls_hall
+#    - device_tracker.beacon_ben_master
 
 susan_presence:
   name: Susan Presence
@@ -31,13 +31,13 @@ susan_presence:
     - binary_sensor.susan_at_home
     - device_tracker.life360_susan
     - device_tracker.susans_iphone
-    - binary_sensor.susan_beacon_home
-    - device_tracker.beacon_susan_back_door
-    - device_tracker.beacon_susan_boys_hall
-    - device_tracker.beacon_susan_front_entry
-    - device_tracker.beacon_susan_garage
-    - device_tracker.beacon_susan_girls_hall
-    - device_tracker.beacon_susan_master
+#    - binary_sensor.susan_beacon_home
+#    - device_tracker.beacon_susan_back_door
+#    - device_tracker.beacon_susan_boys_hall
+#    - device_tracker.beacon_susan_front_entry
+#    - device_tracker.beacon_susan_garage
+#    - device_tracker.beacon_susan_girls_hall
+#    - device_tracker.beacon_susan_master
 
 heidi_presence:
   name: Heidi Presence
@@ -45,13 +45,13 @@ heidi_presence:
     - binary_sensor.heidi_at_home
     - device_tracker.life360_heidi
     - device_tracker.heidi_iphone
-    - binary_sensor.heidi_beacon_home
-    - device_tracker.beacon_heidi_back_door
-    - device_tracker.beacon_heidi_boys_hall
-    - device_tracker.beacon_heidi_front_entry
-    - device_tracker.beacon_heidi_garage
-    - device_tracker.beacon_heidi_girls_hall
-    - device_tracker.beacon_heidi_master
+#    - binary_sensor.heidi_beacon_home
+#    - device_tracker.beacon_heidi_back_door
+#    - device_tracker.beacon_heidi_boys_hall
+#    - device_tracker.beacon_heidi_front_entry
+#    - device_tracker.beacon_heidi_garage
+#    - device_tracker.beacon_heidi_girls_hall
+#    - device_tracker.beacon_heidi_master
 
 susan_garage_door:
   name: Susan Garage
