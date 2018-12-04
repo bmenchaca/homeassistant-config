@@ -342,12 +342,12 @@ device_tracker.bens_iphone:
   icon: mdi:wifi
 device_tracker.susans_iphone:
   icon: mdi:wifi
-binary_sensor.ben_beacon_home:
-  icon: mdi:bluetooth
-binary_sensor.susan_beacon_home:
-  icon: mdi:bluetooth
-binary_sensor.heidi_beacon_home:
-  icon: mdi:bluetooth
+#binary_sensor.ben_beacon_home:
+#  icon: mdi:bluetooth
+#binary_sensor.susan_beacon_home:
+#  icon: mdi:bluetooth
+#binary_sensor.heidi_beacon_home:
+#  icon: mdi:bluetooth
 device_tracker.0f37f6226f6e4e39a254ce222bdf30ba:
   icon: mdi:map-marker
 device_tracker.acf9320b92834db89f3da79cdd092ffe:
