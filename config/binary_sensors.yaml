@@ -204,33 +204,33 @@
         {%- endif -%}
 
 # Presence Home or Away
-- platform: template
-  sensors:
-    ben_at_home:
-      friendly_name: "Ben at Home"
-      device_class: presence
-      value_template: >-
-        {%- if is_state("input_select.ben_presence_dropdown", "Home") -%}
-          True
-        {%- else -%}
-          False
-        {%- endif -%}
-    susan_at_home:
-      friendly_name: "Susan at Home"
-      device_class: presence
-      value_template: >-
-        {%- if is_state("input_select.susan_presence_dropdown", "Home") -%}
-          True
-        {%- else -%}
-          False
-        {%- endif -%}
-    heidi_at_home:
-      friendly_name: "Heidi at Home"
-      device_class: presence
-      value_template: >-
-        {%- if is_state("input_select.heidi_presence_dropdown", "Home") -%}
-          True
-        {%- else -%}
-          False
-        {%- endif -%}
-
+#- platform: template
+#  sensors:
+#    ben_at_home:
+#      friendly_name: "Ben at Home"
+#      device_class: presence
+#      value_template: >-
+#        {%- if is_state("input_select.ben_presence_dropdown", "Home") -%}
+#          True
+#        {%- else -%}
+#          False
+#        {%- endif -%}
+#    susan_at_home:
+#      friendly_name: "Susan at Home"
+#      device_class: presence
+#      value_template: >-
+#        {%- if is_state("input_select.susan_presence_dropdown", "Home") -%}
+#          True
+#        {%- else -%}
+#          False
+#        {%- endif -%}
+#    heidi_at_home:
+#      friendly_name: "Heidi at Home"
+#      device_class: presence
+#      value_template: >-
+#        {%- if is_state("input_select.heidi_presence_dropdown", "Home") -%}
+#          True
+#        {%- else -%}
+#          False
+#        {%- endif -%}
+        

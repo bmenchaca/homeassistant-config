@@ -8,20 +8,20 @@ house_mode:
     - Evening
     - Night
 
-ben_presence_dropdown:
-  name: Ben Presence
-  options:
-    - Home
-    - Away
+#ben_presence_dropdown:
+#  name: Ben Presence
+#  options:
+#    - Home
+#    - Away
 
-susan_presence_dropdown:
-  name: Susan Presence
-  options:
-    - Home
-    - Away
+#susan_presence_dropdown:
+#  name: Susan Presence
+#  options:
+#    - Home
+#    - Away
 
-heidi_presence_dropdown:
-  name: Heidi Presence
-  options:
-    - Home
-    - Away
+#heidi_presence_dropdown:
+#  name: Heidi Presence
+#  options:
+#    - Home
+#    - Away
