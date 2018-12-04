@@ -202,6 +202,34 @@
         {%- else -%}
           False
         {%- endif -%}
+# Presence
+    ben_at_home:
+      friendly_name: "Ben at Home"
+      device_class: presence
+      value_template: >-
+        {%- if is_state("device_tracker.life360_ben", "home") -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
+    susan_at_home:
+      friendly_name: "Susan at Home"
+      device_class: presence
+      value_template: >-
+        {%- if is_state("device_tracker.life360_susan", "home") -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
+    heidi_at_home:
+      friendly_name: "Heidi at Home"
+      device_class: presence
+      value_template: >-
+        {%- if is_state("device_tracker.life360_heidi", "home") -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
 
 # Presence Home or Away
 #- platform: template
