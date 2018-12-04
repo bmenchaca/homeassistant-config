@@ -1,8 +1,8 @@
-- platform: geofency
-  consider_home: 60
+#- platform: geofency
+#  consider_home: 60
 
-- platform: proximity_events
-  consider_home: 60
+#- platform: proximity_events
+#  consider_home: 60
 
 - platform: unifi
   host: !secret device_ip_unifi_controller
@@ -30,9 +30,6 @@
 #   arp_ben_iphone: !secret device_ip_bens_iphone
 #   arp_heidi_iphone: !secret device_ip_heidis_iphone
 
-
-- platform: owntracks
-  waypoints: False
 
 # This is specific to iphones only
 #- platform: nmap_tracker
