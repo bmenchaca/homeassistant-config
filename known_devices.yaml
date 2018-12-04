@@ -164,7 +164,7 @@ beacon_ben_girls_hall:
   mac:
   name: beacon ben girls hall
   picture:
-  track: true
+  track: false
 
 beacon_ben_master:
   hide_if_away: false
@@ -172,7 +172,7 @@ beacon_ben_master:
   mac:
   name: beacon ben master
   picture:
-  track: true
+  track: false
 
 beacon_ben_boys_hall:
   hide_if_away: false
@@ -180,7 +180,7 @@ beacon_ben_boys_hall:
   mac:
   name: beacon ben boys hall
   picture:
-  track: true
+  track: false
 
 beacon_ben_garage:
   hide_if_away: false
@@ -188,7 +188,7 @@ beacon_ben_garage:
   mac:
   name: beacon ben garage
   picture:
-  track: true
+  track: false
 
 beacon_susan_boys_hall:
   hide_if_away: false
@@ -196,7 +196,7 @@ beacon_susan_boys_hall:
   mac:
   name: beacon susan boys hall
   picture:
-  track: true
+  track: false
 
 beacon_susan_master:
   hide_if_away: false
@@ -204,7 +204,7 @@ beacon_susan_master:
   mac:
   name: beacon susan master
   picture:
-  track: true
+  track: false
 
 beacon_susan_back_door:
   hide_if_away: false
@@ -212,7 +212,7 @@ beacon_susan_back_door:
   mac:
   name: beacon susan back door
   picture:
-  track: true
+  track: false
 
 beacon_susan_girls_hall:
   hide_if_away: false
@@ -220,7 +220,7 @@ beacon_susan_girls_hall:
   mac:
   name: beacon susan girls hall
   picture:
-  track: true
+  track: false
 
 beacon_susan_garage:
   hide_if_away: false
@@ -228,7 +228,7 @@ beacon_susan_garage:
   mac:
   name: beacon susan garage
   picture:
-  track: true
+  track: false
 
 beacon_susan_front_entry:
   hide_if_away: false
@@ -236,7 +236,7 @@ beacon_susan_front_entry:
   mac:
   name: beacon susan front entry
   picture:
-  track: true
+  track: false
 
 beacon_ben_back_door:
   hide_if_away: false
@@ -244,7 +244,7 @@ beacon_ben_back_door:
   mac:
   name: beacon ben back door
   picture:
-  track: true
+  track: false
 
 beacon_ben_front_entry:
   hide_if_away: false
@@ -252,7 +252,7 @@ beacon_ben_front_entry:
   mac:
   name: beacon ben front entry
   picture:
-  track: true
+  track: false
 
 beacon_heidi_boys_hall:
   hide_if_away: false
@@ -260,7 +260,7 @@ beacon_heidi_boys_hall:
   mac:
   name: beacon heidi boys hall
   picture:
-  track: true
+  track: false
 
 beacon_heidi_front_entry:
   hide_if_away: false
@@ -268,7 +268,7 @@ beacon_heidi_front_entry:
   mac:
   name: beacon heidi front entry
   picture:
-  track: true
+  track: false
 
 beacon_heidi_master:
   hide_if_away: false
@@ -276,7 +276,7 @@ beacon_heidi_master:
   mac:
   name: beacon heidi master
   picture:
-  track: true
+  track: false
 
 beacon_heidi_garage:
   hide_if_away: false
@@ -284,7 +284,7 @@ beacon_heidi_garage:
   mac:
   name: beacon heidi garage
   picture:
-  track: true
+  track: false
 
 beacon_heidi_girls_hall:
   hide_if_away: false
@@ -292,7 +292,7 @@ beacon_heidi_girls_hall:
   mac:
   name: beacon heidi girls hall
   picture:
-  track: true
+  track: false
 
 beacon_heidi_back_door:
   hide_if_away: false
@@ -300,7 +300,7 @@ beacon_heidi_back_door:
   mac:
   name: beacon heidi back door
   picture:
-  track: true
+  track: false
 
 # Home Assistant App
 ben_iphone:
