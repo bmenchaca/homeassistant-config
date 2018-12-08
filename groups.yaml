@@ -191,6 +191,7 @@ back_porch:
   entities:
     - switch.back_porch_light_switch_2
     - light.back_porch_bar_lightstrip
+    - light.back_porch_bar_lightstrip_2
     - camera.back_deck_camera
 
 back_yard_sprinklers:
