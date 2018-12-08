@@ -297,7 +297,7 @@ device_tracker.ben_ha_iphone:
   hidden: true
 device_tracker.susan_ha_iphone:
   hidden: true
-input_select.house_mode:
+input_select.house_time_of_day:
   friendly_name: House Time of Day
 zone.home:
   beacon:

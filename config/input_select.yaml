@@ -1,5 +1,5 @@
-house_mode:
-  name: House Mode
+house_time_of_day:
+  name: House Time of Day
   options:
     - Morning
     - Day
