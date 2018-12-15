@@ -106,6 +106,9 @@
     switch.front_porch_light_switch: off
     switch.garage_lights_switch: off
     switch.guest_hall_lights_switch_2: off
+    switch.boys_hall_light_switch: off
+    switch.girls_hall_light_switch: off
+    light.office_lights_level: off
     light.back_porch: off
     cover.ben_garage: closed
     cover.susan_garage: closed
@@ -126,3 +129,15 @@
 - name: someone_arriving_home
   entities:
     switch.garage_lights_switch: on
+
+- name: guest_bath_night_time
+  entities:
+    switch.guest_bathroom_lights_switch: on
+    light.guest_bath_1: off
+    light.guest_bath_2: off
+    light.guest_bath_color:
+      state: on
+      brightness: 10
+      rgb_color: [20, 0, 0]
+
+
