@@ -423,3 +423,11 @@ ipad:
   name: iPad
   picture:
   track: false
+
+cc9ea219d2d9:
+  hide_if_away: false
+  icon:
+  mac: CC:9E:A2:19:D2:D9
+  name: Ben's Kindle
+  picture:
+  track: false
