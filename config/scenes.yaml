@@ -89,6 +89,8 @@
 
 - name: house_bed_time
   entities:
+    # Which of these two is correct?
+    switch.boys_hall_light_switch: off
     switch.noahs_hall_light_switch: off
     switch.girls_hall_light_switch: off
     light.gallery: off
@@ -106,8 +108,6 @@
     switch.front_porch_light_switch: off
     switch.garage_lights_switch: off
     switch.guest_hall_lights_switch_2: off
-    switch.boys_hall_light_switch: off
-    switch.girls_hall_light_switch: off
     light.office_lights_level: off
     light.back_porch: off
     cover.ben_garage: closed
