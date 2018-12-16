@@ -68,7 +68,7 @@ ring: !include config/ring.yaml
 downloader: !include config/downloader.yaml
 #vera: !include config/vera.yaml
 abode: !include config/abode.yaml
-google: !include config/google.yaml
+#google: !include config/google.yaml
 #geofency:
 #owntracks: !include config/owntracks.yaml
 
