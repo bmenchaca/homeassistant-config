@@ -506,8 +506,9 @@
 - id: house_tod_schoolday_evening
   alias: "House ToD Schoolday Evening"
   trigger:
-    platform: time
-    at: "19:15"
+    platform: sun
+    event: sunset
+    offset: "00:00:00"
   condition:
     condition: state
     entity_id: "binary_sensor.workday_sensor"
@@ -521,8 +522,9 @@
 - id: house_tod_weekend_evening
   alias: "House ToD Weekend Evening"
   trigger:
-    platform: time
-    at: "19:15"
+    platform: sun
+    event: sunset
+    offset: "00:00:00"
   condition:
     condition: state
     entity_id: "binary_sensor.workday_sensor"
