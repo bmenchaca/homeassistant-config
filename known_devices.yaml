@@ -431,3 +431,35 @@ cc9ea219d2d9:
   name: Ben's Kindle
   picture:
   track: false
+
+iphone:
+  hide_if_away: false
+  icon:
+  mac: C0:A5:3E:91:F3:83
+  name: iPhone
+  picture:
+  track: false
+
+Karen's iPhone:
+  hide_if_away: false
+  icon:
+  mac: 38:89:2C:50:1E:54
+  name: kmadds-iPhone
+  picture:
+  track: false
+
+hhcpf188lrj:
+  hide_if_away: false
+  icon:
+  mac: 74:70:FD:A6:EE:1A
+  name: HHC-PF188LRJ
+  picture:
+  track: false
+
+awair_master:
+  hide_if_away: false
+  icon:
+  mac: 70:88:6B:11:25:57
+  name: Awair-Glow-8624
+  picture:
+  track: false
