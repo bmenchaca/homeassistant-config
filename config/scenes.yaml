@@ -29,16 +29,6 @@
     switch.entry_hall_lights_switch: off
     light.entry_hall_lamp_level: off
 
-- name: back_porch_on
-  entities:
-    switch.back_porch_light_switch_2: on
-    light.back_porch_bar_lightstrip: on
-
-- name: back_porch_off
-  entities:
-    switch.back_porch_light_switch_2: off
-    light.back_porch_bar_lightstrip: off
-
 - name: game_room_off
   entities:
     switch.game_room_fan_switch: off
@@ -68,6 +58,17 @@
     light.game_room_lights_level:
       state: on
     light.game_room: on
+
+- name: deck_lights_evening_on
+  entities:
+    switch.back_porch_light_switch_2: on
+    light.upper_deck_bar_lightstrip: on
+    light.upper_deck_bar_lightstrip_2: on
+    light.upper_deck_breakfast_stairs_lightstrip: on
+    light.upper_deck_tree_spot_light: on
+    light.lower_deck_railing_lightstrip: on
+    light.lower_deck_stairs_bollard: on
+    light.back_porch_light: on
     
 - name: evening_tv_time
   entities:
