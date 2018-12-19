@@ -199,8 +199,6 @@ sensor.master_hall_lights_burglar:
   hidden: true
 sensor.master_hall_lights_burglar_2:
   hidden: true
-sensor.gameroom_hsm200_luminance:
-  hidden: true
 sensor.noah_hall_light_alarm_level:
   hidden: true
 sensor.noah_hall_light_alarm_type:
