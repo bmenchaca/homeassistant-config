@@ -23,9 +23,9 @@ light.family_room_flood:
   hidden: true
 light.group_for_wakeup:
   hidden: true
-binary_sensor.master_hsm200_sensor:
+binary_sensor.gameroom_hsm200_sensor:
   hidden: true
-sensor.master_hsm200_luminance:
+sensor.gameroom_hsm200_luminance:
   hidden: true
 sensor.unknown:
   hidden: true
@@ -67,8 +67,6 @@ sensor.hannah_room_multisensor_temperature:
   friendly_name: Hannah's Room Temperature
 sensor.hannah_room_multisensor_relative_humidity:
   friendly_name: Hannah's Room Relative Humidity
-binary_sensor.gallery_hsm200_sensor:
-  hidden: true
 camera.guest_hall:
   friendly_name: Office Camera
 camera.gallery:
@@ -201,7 +199,7 @@ sensor.master_hall_lights_burglar:
   hidden: true
 sensor.master_hall_lights_burglar_2:
   hidden: true
-sensor.gallery_hsm200_luminance:
+sensor.gameroom_hsm200_luminance:
   hidden: true
 sensor.noah_hall_light_alarm_level:
   hidden: true
