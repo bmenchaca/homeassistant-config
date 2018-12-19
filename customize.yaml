@@ -328,6 +328,8 @@ sensor.netatmo_outdoor_temperature:
   hidden: true
 sensor.netatmo_outdoor_temperature_2:
   hidden: true
+sensor.awair_master_score:
+  hidden: true
 switch.craft_room_fan_and_lights_switch_2:
   hidden: true
 switch.family_room_mantle_light_switch_2:
