@@ -11,6 +11,7 @@
   access_token: !secret awair_access_token
   devices:
     - uuid: !secret awair_master_uuid
+    - uuid: !secret awair_office_uuid
 
 #- platform: wunderground
 #  api_key: !secret wunderground_api_key
