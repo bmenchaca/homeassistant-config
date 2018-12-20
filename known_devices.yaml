@@ -463,3 +463,11 @@ awair_master:
   name: Awair-Glow-8624
   picture:
   track: false
+
+awairglow7657:
+  hide_if_away: false
+  icon:
+  mac: 70:88:6B:11:24:32
+  name: Awair-Glow-7657
+  picture:
+  track: false
