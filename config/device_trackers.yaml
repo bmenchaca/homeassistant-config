@@ -22,6 +22,10 @@
   max_update_wait:
     minutes: 30
 
+- platform: tile
+  username: !secret tile_username
+  password: !secret tile_password
+
 #- platform: arping
 #  consider_home: 60
 #  count: 2
