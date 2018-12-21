@@ -60,6 +60,7 @@ kids_devices:
     - device_tracker.tile_p06f364c2a3e399f0f5079525a41aed76
     - device_tracker.tile_44bf20dd5507338c
 
+susan_garage_door:
   name: Susan Garage
   entities:
     - cover.susan_garage
