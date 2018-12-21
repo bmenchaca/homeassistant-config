@@ -66,7 +66,7 @@ hannah_ipad:
   hide_if_away: false
   icon:
   mac: 34:7C:25:14:81:DD
-  name: Hannah's iPad
+  name: Hannah's iPad Tile
   picture:
   track: false
 
@@ -484,7 +484,7 @@ tile_p9acec416cba1d37e70e0192fb3a5b551:
   hide_if_away: false
   icon: mdi:view-grid
   mac:
-  name: Ben's Phone Tile
+  name: Ben's iPhone Tile
   picture:
   track: true
 
@@ -493,5 +493,37 @@ tile_p06f364c2a3e399f0f5079525a41aed76:
   icon: mdi:view-grid
   mac:
   name: Hannah's iPad
+  picture:
+  track: true
+
+tile_pdaf1b0360af0a6940c3d2231d49d5cf5:
+  hide_if_away: false
+  icon: mdi:view-grid
+  mac:
+  name: Heidi's iPad Tile
+  picture:
+  track: true
+
+tile_pe1e095a955334be2829088853f71b848:
+  hide_if_away: false
+  icon: mdi:view-grid
+  mac:
+  name: Noah's iPad Tile
+  picture:
+  track: true
+
+tile_3f81a6eedb424947:
+  hide_if_away: false
+  icon: mdi:view-grid
+  mac:
+  name: Susan's Keys Tile
+  picture:
+  track: true
+
+tile_p69f5d20ffc73bc8f110f816fb4513a23:
+  hide_if_away: false
+  icon: mdi:view-grid
+  mac:
+  name: Susan's iPhone Tile
   picture:
   track: true
