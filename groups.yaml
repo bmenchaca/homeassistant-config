@@ -54,7 +54,12 @@ heidi_presence:
 #    - device_tracker.beacon_heidi_girls_hall
 #    - device_tracker.beacon_heidi_master
 
-susan_garage_door:
+kids_devices:
+  name: Kids Devices
+  entities:
+    - device_tracker.tile_p06f364c2a3e399f0f5079525a41aed76
+    - device_tracker.tile_44bf20dd5507338c
+
   name: Susan Garage
   entities:
     - cover.susan_garage
