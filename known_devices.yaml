@@ -487,3 +487,11 @@ tile_p9acec416cba1d37e70e0192fb3a5b551:
   name: Ben's Phone Tile
   picture:
   track: true
+
+tile_p06f364c2a3e399f0f5079525a41aed76:
+  hide_if_away: false
+  icon: mdi:view-grid
+  mac:
+  name: Hannah's iPad
+  picture:
+  track: true
