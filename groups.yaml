@@ -16,7 +16,7 @@ ben_presence:
   entities:
     - binary_sensor.ben_at_home
     - device_tracker.life360_ben
-    - device_tracker.bens_iphone
+    - device_tracker.tile_p9acec416cba1d37e70e0192fb3a5b5519acec416cba1d37e70e0192fb3a5b551
 #    - binary_sensor.ben_beacon_home
 #    - device_tracker.beacon_ben_back_door
 #    - device_tracker.beacon_ben_boys_hall
@@ -30,7 +30,6 @@ susan_presence:
   entities:
     - binary_sensor.susan_at_home
     - device_tracker.life360_susan
-    - device_tracker.susans_iphone
 #    - binary_sensor.susan_beacon_home
 #    - device_tracker.beacon_susan_back_door
 #    - device_tracker.beacon_susan_boys_hall
@@ -332,8 +331,10 @@ office:
     - switch.office_lamp_switch_2
     - light.office
     - light.office_hue_go
-    - camera.guest_hall
-    #- camera.office
+    - sensor.awair_office_temperature
+    - sensor.awair_office_humidity
+    - sensor.awair_office_co2
+    - sensor.awair_office_voc
     - binary_sensor.office_window_1
     - binary_sensor.office_window_2
 
