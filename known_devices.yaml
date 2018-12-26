@@ -527,3 +527,19 @@ tile_p69f5d20ffc73bc8f110f816fb4513a23:
   name: Susan's iPhone Tile
   picture:
   track: true
+
+xboxone:
+  hide_if_away: false
+  icon:
+  mac: 28:16:A8:D5:10:3F
+  name: Family Room XBox One
+  picture:
+  track: false
+
+ipad2:
+  hide_if_away: false
+  icon:
+  mac: 08:F6:9C:19:19:C4
+  name: Mimi's iPad
+  picture:
+  track: false
