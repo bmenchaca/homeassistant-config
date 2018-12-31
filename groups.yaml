@@ -204,6 +204,8 @@ back_porch:
     - switch.back_porch_light_switch_2
     - light.back_porch_bar_lightstrip
     - light.back_porch_bar_lightstrip_2
+    - light.lower_deck_railing_lightstrip
+    - light.lower_deck_stairs_lightstrip
     - camera.back_deck_camera
 
 back_yard_sprinklers:
