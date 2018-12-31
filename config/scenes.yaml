@@ -67,6 +67,7 @@
     light.upper_deck_breakfast_stairs_lightstrip: on
     light.upper_deck_tree_spot_light: on
     light.lower_deck_railing_lightstrip: on
+    light.lower_deck_stairs_lightstrip: on
     light.lower_deck_stairs_bollard: on
     light.back_porch_light: on
     
