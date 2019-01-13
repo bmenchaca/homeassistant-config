@@ -3,6 +3,8 @@
 #  token: !secret xiaomi_vacuum_access_token
 
 - platform: roomba
+  name: Downstairs Roomba
   host: !secret roomba_downstairs_ip
   username: !secret roomba_username
   password: !secret roomba_password
+  continuous: false
