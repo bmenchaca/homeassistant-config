@@ -1,11 +1,16 @@
-- name: downstairs
-  sidebar_title: Downstairs Floorplan
-  sidebar_icon: mdi:home
-  url_path: downstairs
-  config: !include downstairs_floorplan.yaml
+#- name: downstairs
+#  sidebar_title: Downstairs Floorplan
+#  sidebar_icon: mdi:home
+#  url_path: downstairs
+#  config: !include downstairs_floorplan.yaml
 
-- name: upstairs
-  sidebar_title: Upstairs Floorplan
-  sidebar_icon: mdi:home
-  url_path: upstairs
-  config: !include upstairs_floorplan.yaml
+#- name: upstairs
+#  sidebar_title: Upstairs Floorplan
+#  sidebar_icon: mdi:home
+#  url_path: upstairs
+#  config: !include upstairs_floorplan.yaml
+
+- name: zwavegraph2
+  sidebar_title: ZWave Graph2
+  sidebar_icon: mdi:access-point-network
+  url_path: zwave
