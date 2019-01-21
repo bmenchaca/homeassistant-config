@@ -33,24 +33,6 @@
 #    - weather_3d
 #    - weather_3n
 
-#- platform: netatmo
-#  modules:
-#    Indoor:
-#      - temperature
-#      - humidity
-#      - noise
-#    Outdoor:
-#      - temperature
-#      - humidity
-#      - battery_vp
-
-        #- platform: arlo
-        #  monitored_conditions:
-        #    - captured_today
-        #    - last_capture
-        #    - battery_level
-  
-
 - platform: systemmonitor
   resources:
     - type: processor_use
