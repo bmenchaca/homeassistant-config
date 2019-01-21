@@ -70,6 +70,9 @@
     light.lower_deck_stairs_lightstrip: on
     light.lower_deck_stairs_bollard: on
     light.back_porch_light: on
+    light.pool_pump_garden_deck: on
+    light.pool_pump_garden_center: on
+    light.pool_pump_garden_gate: on
     
 - name: evening_tv_time
   entities:
