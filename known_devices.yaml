@@ -543,3 +543,83 @@ ipad2:
   name: Mimi's iPad
   picture:
   track: false
+
+amazon0c61004fa:
+  hide_if_away: false
+  icon:
+  mac: 24:4C:E3:94:A8:1C
+  name: Noah's Echo Dot
+  picture:
+  track: false
+
+amazon1726bdb5f:
+  hide_if_away: false
+  icon:
+  mac: C4:95:00:6C:5B:A3
+  name: Heidi's Echo Dot
+  picture:
+  track: false
+
+amazond88c17e1e:
+  hide_if_away: false
+  icon:
+  mac: 50:DC:E7:0B:BB:9F
+  name: Hannah's Echo Dot
+  picture:
+  track: false
+
+irobot7259c588d12f4154a6ead227:
+  hide_if_away: false
+  icon:
+  mac: 50:14:79:0E:D5:94
+  name: Downstairs Roomba
+  picture:
+  track: false
+
+tile_p_daf1b0360af0a6940c3d2231d49d5cf5:
+  hide_if_away: false
+  icon: mdi:view-grid
+  mac:
+  name: tile p daf1b0360af0a6940c3d2231d49d5cf5
+  picture:
+  track: false
+
+tile_p_06f364c2a3e399f0f5079525a41aed76:
+  hide_if_away: false
+  icon: mdi:view-grid
+  mac:
+  name: tile p 06f364c2a3e399f0f5079525a41aed76
+  picture:
+  track: false
+
+tile_p_69f5d20ffc73bc8f110f816fb4513a23:
+  hide_if_away: false
+  icon: mdi:view-grid
+  mac:
+  name: tile p 69f5d20ffc73bc8f110f816fb4513a23
+  picture:
+  track: false
+
+tile_p_9acec416cba1d37e70e0192fb3a5b551:
+  hide_if_away: false
+  icon: mdi:view-grid
+  mac:
+  name: tile p 9acec416cba1d37e70e0192fb3a5b551
+  picture:
+  track: false
+
+tile_p_e1e095a955334be2829088853f71b848:
+  hide_if_away: false
+  icon: mdi:view-grid
+  mac:
+  name: tile p e1e095a955334be2829088853f71b848
+  picture:
+  track: false
+
+saraaliasiphone:
+  hide_if_away: false
+  icon:
+  mac: 24:F0:94:11:72:8E
+  name: SaraAliasiPhone
+  picture:
+  track: false
