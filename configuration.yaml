@@ -13,7 +13,7 @@ homeassistant:
   customize_glob: !include config/customize_glob.yaml
 
 # Allow IOS device autodiscovery and location tracking
-#ios:
+ios:
 zeroconf:
 # Show links to resources in log and frontend
 #introduction:
