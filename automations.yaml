@@ -63,7 +63,7 @@
 #    before: '6:30:00'
 #  action:
 #    service: switch.turn_off
-#    entity_id: switch.boys_hall_light_switch
+#    entity_id: switch.boys_hall_light
 
 #- id: boys_bathroom_night_light_off
 #  alias: Turn off Boys Bathroom Lights 2 minutes after last movement at night

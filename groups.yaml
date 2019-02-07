@@ -270,7 +270,7 @@ boys_hallway:
   name: Boy's Hall
   entities:
     - binary_sensor.boys_hall_occupancy
-    - switch.boys_hall_light_switch
+    - switch.boys_hall_light
 
 girls_hallway:
   name: Girls Hall

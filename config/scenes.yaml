@@ -95,7 +95,7 @@
 - name: house_bed_time
   entities:
     # Which of these two is correct?
-    switch.boys_hall_light_switch: off
+    switch.boys_hall_light: off
     switch.noahs_hall_light_switch: off
     switch.girls_hall_light_switch: off
     light.gallery: off

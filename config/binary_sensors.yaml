@@ -180,7 +180,7 @@
     boys_hall_occupancy:
       friendly_name: 'Boys Hall Occupancy'
       value_template: >-
-        {%- if is_state("sensor.boys_hall_light_burglar", "8") -%}
+        {%- if is_state("sensor.boys_hall_burglar", "8") -%}
           True
         {%- else -%}
           False
