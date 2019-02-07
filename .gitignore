@@ -1,6 +1,6 @@
 *
-!options.xml
 !.gitignore
+!*.xml
 !.travis.yml
 !*.yaml
 !*.html
