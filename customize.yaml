@@ -100,7 +100,7 @@ switch.noahs_hall_light_switch:
   icon: mdi:lightbulb
 switch.gallery_hall_light_switch:
   icon: mdi:lightbulb
-switch.office_lamp_switch_2:
+switch.office_lamp:
   icon: mdi:lightbulb
 switch.master_closet_lights_switch:
   icon: mdi:lightbulb

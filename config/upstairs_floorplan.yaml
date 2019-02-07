@@ -44,7 +44,7 @@
             - switch.boys_hall_light_switch
             - switch.gallery_hall_lights_switch
             - switch.girls_hall_light_switch
-            - switch.office_lamp_switch_2
+            - switch.office_lamp
             #- switch.office_fan_switch
             - switch.stairs_light_switch
           states:

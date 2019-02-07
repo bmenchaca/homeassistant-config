@@ -343,7 +343,7 @@ office:
     - light.office_lights_level
     - media_player.office
     - switch.office_fan_switch
-    - switch.office_lamp_switch_2
+    - switch.office_lamp
     - light.office
     - light.office_hue_go
     - sensor.awair_office_temperature
