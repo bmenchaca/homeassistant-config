@@ -13,7 +13,7 @@ homeassistant:
   customize_glob: !include config/customize_glob.yaml
 
 # Allow IOS device autodiscovery and location tracking
-ios:
+#ios:
 zeroconf:
 # Show links to resources in log and frontend
 #introduction:
@@ -39,7 +39,7 @@ input_select: !include config/input_select.yaml
 zwave: !include config/zwave.yaml
 hue: !include config/hue.yaml
 logger: !include config/logger.yaml
-mqtt: !include config/mqtt.yaml
+#mqtt: !include config/mqtt.yaml
 recorder: !include config/recorder.yaml
 group: !include groups.yaml
 cover: !include config/covers.yaml
