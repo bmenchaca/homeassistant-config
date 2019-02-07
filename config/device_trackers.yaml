@@ -4,14 +4,14 @@
 #- platform: proximity_events
 #  consider_home: 60
 
-#- platform: unifi
-#  host: !secret device_ip_unifi_controller
-#  username: !secret unifi_controller_username
-#  password: !secret unifi_controller_password
-#  verify_ssl: False
-#  ssid_filter:
-#    - 'MerlinHome'
-#    - 'MerlinKids'
+- platform: unifi
+  host: !secret device_ip_unifi_controller
+  username: !secret unifi_controller_username
+  password: !secret unifi_controller_password
+  verify_ssl: False
+  ssid_filter:
+    - 'MerlinHome'
+    - 'MerlinKids'
 
 - platform: life360
   username: !secret life360_username
