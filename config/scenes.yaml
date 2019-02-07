@@ -113,7 +113,7 @@
     switch.front_porch_light_switch: off
     switch.garage_lights_switch: off
     switch.guest_hall_lights_switch_2: off
-    light.office_lights_level: off
+    light.office_fan_dimmer: off
     light.back_porch: off
     cover.ben_garage: closed
     cover.susan_garage: closed

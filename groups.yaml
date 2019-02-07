@@ -340,7 +340,7 @@ office:
   name: Office
   entities:
     - binary_sensor.office_occupancy
-    - light.office_lights_level
+    - light.office_fan_dimmer
     - media_player.office
     - switch.office_fan_switch
     - switch.office_lamp
