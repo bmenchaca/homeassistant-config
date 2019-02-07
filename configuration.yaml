@@ -60,7 +60,7 @@ alarm_control_panel: !include config/alarm_control_panel.yaml
 camera: !include config/camera.yaml
 notify: !include config/notify.yaml
 ring: !include config/ring.yaml
-downloader: !include config/downloader.yaml
+#downloader: !include config/downloader.yaml
 #vera: !include config/vera.yaml
 abode: !include config/abode.yaml
 #google: !include config/google.yaml
