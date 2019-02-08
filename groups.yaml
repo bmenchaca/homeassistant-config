@@ -299,8 +299,7 @@ game_room:
   entities:
     - binary_sensor.game_room_occupancy
     - switch.game_room_fan
-    - light.game_room_lights_level
-    - light.game_room
+    - light.game_room_fan
     - light.game_room_1
     - light.game_room_2
     - light.game_room_3
@@ -319,7 +318,6 @@ office:
     - switch.office_fan_switch
     - switch.office_lamp
     - switch.office_heater
-    - light.office
     - light.office_hue_go
     - sensor.awair_office_temperature
     - sensor.awair_office_humidity

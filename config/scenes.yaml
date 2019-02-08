@@ -33,7 +33,7 @@
   entities:
     switch.game_room_fan: off
     light.game_room: off
-    #    light.game_room_lights_level:
+    #    light.game_room_fan:
     #  state: off
   
 - name: christmas_lights_daytime
@@ -55,7 +55,7 @@
 - name: game_room_on
   entities:
     switch.game_room_fan: on
-    light.game_room_lights_level:
+    light.game_room_fan:
       state: on
     light.game_room: on
 
@@ -76,10 +76,10 @@
     
 - name: evening_tv_time
   entities:
-    switch.noahs_hall_light_switch: off
+    switch.boys_hall_light: off
     switch.girls_hall_lights: off
     light.gallery_flood: off
-    light.game_room: off
+    light.game_room_fan: off
     switch.back_porch_light_switch_2: off
     switch.master_hall_lights_switch: off
     switch.kitchen_light_switch: off
@@ -94,13 +94,11 @@
 
 - name: house_bed_time
   entities:
-    # Which of these two is correct?
     switch.boys_hall_light: off
-    switch.noahs_hall_light_switch: off
     switch.girls_hall_lights: off
     light.gallery_flood: off
     switch.stairs_light_switch: off
-    light.game_room: off
+    light.game_room_fan: off
     switch.master_hall_lights_switch: off
     switch.kitchen_light_switch: off
     switch.dining_room_lights_switch: off
