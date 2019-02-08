@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- To be effective, this file should be placed in the user data folder specified in the Options::Create method -->
 <Options xmlns='http://code.google.com/p/open-zwave/'>
-  <Option name="logging" value="false" />
+  <Option name="Logging" value="true" />
+  <!-- 0=no logging, 1=All, 2=Fatal only, 3=Error and Higher, -->
+  <!-- 4=Warning and Higher, 5=Alert and Higher, 6=Info and Higher, -->
+  <!-- 7=Detailed and Higher, 8=Debug and Higher, 9=Protocol and Higher -->
+  <Option name="SaveLogLevel" value="8" />
   <Option name="Associate" value="true" />
   <Option name="NotifyTransactions" value="false" />
   <Option name="DriverMaxAttempts" value="5" />
