@@ -344,6 +344,7 @@ office:
     - media_player.office
     - switch.office_fan_switch
     - switch.office_lamp
+    - switch.office_heater
     - light.office
     - light.office_hue_go
     - sensor.awair_office_temperature
