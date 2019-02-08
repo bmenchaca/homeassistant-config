@@ -3,5 +3,6 @@ include:
     - binary_sensor
     - light    
     - switch
+    - sensor
     - device_tracker
     - cover

@@ -2,6 +2,7 @@ include:
   domains:
     - cover
     - binary_sensor
+    - sensor
     - light    
     - switch
     - device_tracker      
