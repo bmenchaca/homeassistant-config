@@ -272,14 +272,14 @@
 #    - sensor.master_bt_heidi
 #
 
-- platform: synologydsm
-  host: !secret device_ip_synology
-  username: !secret synology_username
-  password: !secret synology_password
-  monitored_conditions:
-    - cpu_total_load
-    - memory_real_usage
-    - volume_percentage_used
+#- platform: synologydsm
+#  host: !secret device_ip_synology
+#  username: !secret synology_username
+#  password: !secret synology_password
+#  monitored_conditions:
+#    - cpu_total_load
+#    - memory_real_usage
+#    - volume_percentage_used
 
 #- platform: sql
 #  db_url: !secret db_url
