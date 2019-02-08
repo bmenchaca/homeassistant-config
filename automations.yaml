@@ -111,7 +111,7 @@
 #    before: '6:30:00'
 #  action:
 #    service: switch.turn_off
-#    entity_id: switch.gallery_hall_lights_switch
+#    entity_id: switch.gallery_lights
 
 #- id: game_room_night_light_off
 #  alias: Turn off Game Room Lights 2 minutes after last movement at night

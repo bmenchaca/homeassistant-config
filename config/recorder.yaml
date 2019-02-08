@@ -6,6 +6,8 @@ include:
     - cover
     - switch
     - light
+    - sensor
+    - device_tracker
     - binary_sensor
     - device_tracker
     - input_boolean

@@ -315,10 +315,8 @@ gallery:
   name: Gallery
   entities:
     - binary_sensor.gallery_occupancy
-    - switch.gallery_hall_lights_switch
-    - light.gallery
+    - switch.gallery_lights
     - light.gallery_flood
-    - camera.gallery
 
 game_room:
   name: Game Room

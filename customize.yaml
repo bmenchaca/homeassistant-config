@@ -98,7 +98,7 @@ switch.noahs_bathroom_lights_switch:
   icon: mdi:lightbulb
 switch.noahs_hall_light_switch:
   icon: mdi:lightbulb
-switch.gallery_hall_light_switch:
+switch.gallery_lights:
   icon: mdi:lightbulb
 switch.office_lamp:
   icon: mdi:lightbulb
@@ -109,8 +109,6 @@ switch.master_lavatory_lights_switch:
 switch.kitchen_light_switch:
   icon: mdi:lightbulb
 switch.kitchen_pantry_light_switch:
-  icon: mdi:lightbulb
-switch.gallery_hall_lights_switch:
   icon: mdi:lightbulb
 switch.entry_hall_lights_switch:
   icon: mdi:lightbulb
@@ -165,7 +163,7 @@ switch.dining_room_lights_switch_2:
   hidden: true
 switch.front_porch_light_switch_2:
   hidden: true
-switch.gallery_hall_lights_switch_2:
+switch.gallery_lights_2:
   hidden: true
 switch.game_room_fan_switch_2:
   hidden: true

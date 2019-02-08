@@ -78,7 +78,7 @@
   entities:
     switch.noahs_hall_light_switch: off
     switch.girls_hall_light_switch: off
-    light.gallery: off
+    light.gallery_flood: off
     light.game_room: off
     switch.back_porch_light_switch_2: off
     switch.master_hall_lights_switch: off
@@ -98,7 +98,7 @@
     switch.boys_hall_light: off
     switch.noahs_hall_light_switch: off
     switch.girls_hall_light_switch: off
-    light.gallery: off
+    light.gallery_flood: off
     switch.stairs_light_switch: off
     light.game_room: off
     switch.master_hall_lights_switch: off
@@ -123,7 +123,7 @@
     switch.noahs_hall_light_switch: off
     switch.girls_hall_light_switch: off
     # These are on because we will turn the lights off with hue
-    switch.gallery_hall_light_switch: on
+    switch.gallery_lights: on
     switch.guest_bathroom_lights_switch: on
 
 
