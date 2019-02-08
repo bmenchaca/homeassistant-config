@@ -77,7 +77,7 @@
 - name: evening_tv_time
   entities:
     switch.noahs_hall_light_switch: off
-    switch.girls_hall_light_switch: off
+    switch.girls_hall_lights: off
     light.gallery_flood: off
     light.game_room: off
     switch.back_porch_light_switch_2: off
@@ -97,7 +97,7 @@
     # Which of these two is correct?
     switch.boys_hall_light: off
     switch.noahs_hall_light_switch: off
-    switch.girls_hall_light_switch: off
+    switch.girls_hall_lights: off
     light.gallery_flood: off
     switch.stairs_light_switch: off
     light.game_room: off
@@ -121,7 +121,7 @@
 - name: night_switches
   entities:
     switch.noahs_hall_light_switch: off
-    switch.girls_hall_light_switch: off
+    switch.girls_hall_lights: off
     # These are on because we will turn the lights off with hue
     switch.gallery_lights: on
     switch.guest_bathroom_lights_switch: on

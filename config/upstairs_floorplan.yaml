@@ -43,7 +43,7 @@
             - switch.boys_bathroom_light
             - switch.boys_hall_light
             - switch.gallery_lights
-            - switch.girls_hall_light_switch
+            - switch.girls_hall_lights
             - switch.office_lamp
             #- switch.office_fan_switch
             - switch.stairs_light_switch
