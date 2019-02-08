@@ -188,7 +188,7 @@
     office_occupancy:
       friendly_name: 'Office Occupancy'
       value_template: >-
-        {%- if is_state("sensor.office_fan_burglar", "8") -%}
+        {%- if is_state("sensor.office_fan_lights_burglar", "8") -%}
           True
         {%- else -%}
           False
