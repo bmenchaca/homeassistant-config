@@ -23,10 +23,6 @@ light.family_room_flood:
   hidden: true
 light.group_for_wakeup:
   hidden: true
-binary_sensor.game_room_multisensor_motion:
-  hidden: true
-sensor.game_room_multisensor_luminance:
-  hidden: true
 sensor.unknown:
   hidden: true
 binary_sensor.ben_keyfob:
