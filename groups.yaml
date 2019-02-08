@@ -264,7 +264,7 @@ boys_bathroom:
   name: Boy's Bathroom
   entities:
     - binary_sensor.boys_bathroom_occupancy
-    - switch.boys_bathroom_lights_switch
+    - switch.boys_bathroom_light
 
 boys_hallway:
   name: Boy's Hall

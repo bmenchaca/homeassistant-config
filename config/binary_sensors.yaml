@@ -172,7 +172,7 @@
     boys_bathroom_occupancy:
       friendly_name: "Boys Bathroom Occupancy"
       value_template: >-
-        {%- if is_state("sensor.boys_bathroom_light_burglar", "8") -%}
+        {%- if is_state("sensor.boys_bathroom_burglar", "8") -%}
           True
         {%- else -%}
           False
