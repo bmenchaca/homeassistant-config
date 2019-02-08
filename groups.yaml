@@ -7,9 +7,6 @@
 #    - sensor.usps_packages
 #
 #
-# Ben Geofency - device_tracker.acf9320b92834db89f3da79cdd092ffe
-# Susan Geofency - device_tracker.cab02f4d94ab43e09ca603aef8faa57b
-# Heidi Geofency - device_tracker.0f37f6226f6e4e39a254ce222bdf30ba
 
 ben_presence: 
   name: Ben Presence
@@ -18,13 +15,6 @@ ben_presence:
     - device_tracker.life360_ben
     - device_tracker.bens_iphone
     - device_tracker.tile_p9acec416cba1d37e70e0192fb3a5b551
-#    - binary_sensor.ben_beacon_home
-#    - device_tracker.beacon_ben_back_door
-#    - device_tracker.beacon_ben_boys_hall
-#    - device_tracker.beacon_ben_front_entry
-#    - device_tracker.beacon_ben_garage
-#    - device_tracker.beacon_ben_girls_hall
-#    - device_tracker.beacon_ben_master
 
 susan_presence:
   name: Susan Presence
@@ -34,13 +24,6 @@ susan_presence:
     - device_tracker.susans_iphone
     - device_tracker.tile_3f81a6eedb424947
     - device_tracker.tile_p69f5d20ffc73bc8f110f816fb4513a23
-#    - binary_sensor.susan_beacon_home
-#    - device_tracker.beacon_susan_back_door
-#    - device_tracker.beacon_susan_boys_hall
-#    - device_tracker.beacon_susan_front_entry
-#    - device_tracker.beacon_susan_garage
-#    - device_tracker.beacon_susan_girls_hall
-#    - device_tracker.beacon_susan_master
 
 heidi_presence:
   name: Heidi Presence
@@ -49,13 +32,6 @@ heidi_presence:
     - device_tracker.life360_heidi
     - device_tracker.heidi_iphone
     - device_tracker.tile_pdaf1b0360af0a6940c3d2231d49d5cf5
-#    - binary_sensor.heidi_beacon_home
-#    - device_tracker.beacon_heidi_back_door
-#    - device_tracker.beacon_heidi_boys_hall
-#    - device_tracker.beacon_heidi_front_entry
-#    - device_tracker.beacon_heidi_garage
-#    - device_tracker.beacon_heidi_girls_hall
-#    - device_tracker.beacon_heidi_master
 
 kids_devices:
   name: Kids Devices
@@ -276,7 +252,7 @@ girls_hallway:
   name: Girls Hall
   entities:
     - binary_sensor.girls_hall_occupancy
-    - switch.girls_hall_light_switch
+    - switch.girls_hall_lights
 
 heidi_room:
   name: Heidi's Room
