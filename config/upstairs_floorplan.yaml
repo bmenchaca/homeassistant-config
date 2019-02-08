@@ -25,7 +25,7 @@
           entities:
             - switch.game_room_fan_switch
             - switch.office_fan_switch
-            - switch.heidi_room_fan_and_light_switch
+            - switch.heidis_room_fan_and_lights
           states:
             - state: 'on'
               class: 'fan-on'
