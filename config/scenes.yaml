@@ -31,7 +31,7 @@
 
 - name: game_room_off
   entities:
-    switch.game_room_fan_switch: off
+    switch.game_room_fan: off
     light.game_room: off
     #    light.game_room_lights_level:
     #  state: off
@@ -54,7 +54,7 @@
 
 - name: game_room_on
   entities:
-    switch.game_room_fan_switch: on
+    switch.game_room_fan: on
     light.game_room_lights_level:
       state: on
     light.game_room: on

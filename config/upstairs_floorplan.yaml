@@ -23,7 +23,7 @@
 
         - name: Fans
           entities:
-            - switch.game_room_fan_switch
+            - switch.game_room_fan
             - switch.office_fan_switch
             - switch.heidis_room_fan_and_lights
           states:

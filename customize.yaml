@@ -79,7 +79,7 @@ switch.family_room_fan_switch:
   icon: mdi:fan
 switch.craft_room_fan_and_lights_switch:
   icon: mdi:fan
-switch.game_room_fan_switch:
+switch.game_room_fan:
   icon: mdi:fan
 switch.office_fan_switch:
   icon: mdi:fan
@@ -165,7 +165,7 @@ switch.front_porch_light_switch_2:
   hidden: true
 switch.gallery_lights_2:
   hidden: true
-switch.game_room_fan_switch_2:
+switch.game_room_fan_2:
   hidden: true
 switch.girls_hall_lights_2:
   hidden: true

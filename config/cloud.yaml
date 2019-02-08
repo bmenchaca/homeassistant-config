@@ -16,7 +16,7 @@ alexa:
       - switch.dining_room_lights_switch_2
       - switch.front_porch_light_switch_2
       - switch.gallery_lights_2
-      - switch.game_room_fan_switch_2
+      - switch.game_room_fan_2
       - switch.guest_fan_and_lights_switch_2
       - switch.guest_fan_and_lights_switch_3
       - switch.laundry_room_light_switch_2
@@ -55,7 +55,7 @@ alexa:
       name: Front Porch Lights
     switch.gallery_lights:
       name: Gallery Hall Lights
-    switch.game_room_fan_switch:
+    switch.game_room_fan:
       name: Game Room Fan
 
     #switch.stairs:

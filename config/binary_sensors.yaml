@@ -117,7 +117,7 @@
     game_room_occupancy:
       friendly_name: 'Game Room Occupancy'
       value_template: >-
-        {%- if is_state("sensor.game_room_fan_burglar", "8") -%}
+        {%- if is_state("sensor.game_room_fan_switch_burglar", "8") -%}
           True
         {%- else -%}
           False
