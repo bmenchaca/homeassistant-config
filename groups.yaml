@@ -78,7 +78,6 @@ guest_room:
   entities:
     - switch.guest_fan_and_lights_switch
     - switch.guest_room_heater_plug_switch
-    - light.guest
     - light.guest_1
     - light.guest_2
     - light.guest_3
@@ -98,7 +97,6 @@ guest_bath:
   entities:
     - binary_sensor.guest_bathroom_occupancy
     - switch.guest_bathroom_lights_switch
-    - light.guest_bath
     - light.guest_bath_1
     - light.guest_bath_2
     - light.guest_bath_color
@@ -226,7 +224,6 @@ front_yard:
 noah_room:
   name: Noah's Room
   entities:
-    - light.noah
     - light.noah_1
     - light.noah_2
     - light.noah_color
@@ -259,7 +256,6 @@ heidi_room:
   entities:
     - switch.heidis_room_fan_and_lights
     - switch.heidi_room_heater_switch
-    - light.heidi
     - light.heidi_1
     - light.heidi_2
     - light.heidi_color
@@ -275,7 +271,6 @@ heidi_room:
 hannah_room:
   name: Hannah's Room
   entities:
-    - light.hannah
     - light.hannah_1
     - light.hannah_2
     - light.hannah_color
@@ -374,22 +369,6 @@ hapi_usage_info:
   entities:
     - sensor.processor_use
     - sensor.memory_free
-
-synology_usage_info:
-  name: Synology System Usage
-  entities:
-    - sensor.cpu_load_total
-    - sensor.memory_usage_real
-    - sensor.volume_used_volume_2
-
-system_switches:
-  name: System Switches
-  entities:
-    - switch.office_power_strip_switch_2
-    - switch.office_power_strip_switch_3
-    - switch.office_power_strip_switch_4
-    - switch.office_power_strip_switch_5
-    - switch.office_power_strip_switch
 
 downstairs_occupancy:
   name: Downstairs Occupancy
