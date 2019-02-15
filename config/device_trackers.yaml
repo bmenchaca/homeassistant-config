@@ -20,8 +20,8 @@
   add_zones: false
   show_as_state: places, driving, moving
   max_gps_accuracy: 200
-  max_update_wait:
-    minutes: 30
+  #max_update_wait:
+  #  minutes: 30
 
 - platform: tile
   username: !secret tile_username
