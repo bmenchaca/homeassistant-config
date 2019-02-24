@@ -17,7 +17,7 @@
     guest_bathroom_occupancy:
       friendly_name: 'Guest Bathroom Occupancy'
       value_template: >-
-        {%- if is_state("sensor.guest_bathroom_lights_burglar", "8") -%}
+        {%- if is_state("sensor.guest_bath_lights_burglar", "8") -%}
           True
         {%- else -%}
           False
