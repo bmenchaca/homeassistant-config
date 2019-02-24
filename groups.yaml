@@ -75,7 +75,7 @@ guest_room:
   name: Guest Room
   entities:
     - switch.guest_fan_and_lights
-    - switch.guest_room_heater_plug_switch
+    - switch.guest_heater
     - light.guest_1
     - light.guest_2
     - light.guest_3
