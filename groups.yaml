@@ -76,10 +76,7 @@ guest_room:
   entities:
     - switch.guest_fan_and_lights
     - switch.guest_heater
-    - light.guest_1
-    - light.guest_2
-    - light.guest_3
-    - light.guest_4
+    - light.guest
     - binary_sensor.guest_occupancy
     - binary_sensor.guest_window_1
     - binary_sensor.guest_window_2
