@@ -38,11 +38,11 @@
   
 - name: christmas_lights_daytime
   entities:
-    switch.entry_christmas_lights_switch: off
+    switch.entry_christmas_lights: off
 
 - name: christmas_lights_nighttime
   entities:
-    switch.entry_christmas_lights_switch: on
+    switch.entry_christmas_lights: on
 
 - name: garage_outdoor_lights_daytime
   entities:
@@ -104,7 +104,7 @@
     switch.dining_room_lights_switch: off
     switch.breakfast_lights_switch: off
     switch.entry_lights: off
-    switch.entry_christmas_lights_switch: off
+    switch.entry_christmas_lights: off
     light.family_room_lights_level_2: off
     switch.family_room_mantle_light_switch: off
     switch.back_porch_light_switch_2: off

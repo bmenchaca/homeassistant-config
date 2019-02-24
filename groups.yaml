@@ -103,7 +103,7 @@ entry_room:
   name: Entry Room
   entities:
     - switch.entry_lights
-    - switch.entry_christmas_lights_switch
+    - switch.entry_christmas_lights
     - light.entry_hall_lamp_level
     - binary_sensor.entry_room_occupancy
     - binary_sensor.front_door
@@ -111,7 +111,6 @@ entry_room:
     - binary_sensor.entry_window_2
     - binary_sensor.entry_motion
     - binary_sensor.entry_glass
-    #- camera.entry_hall
 
 dining_room:
   name: Dining Room

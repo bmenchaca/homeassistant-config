@@ -97,7 +97,7 @@
             - switch.breakfast_lights_switch
             - switch.craft_sewing_lights
             - switch.dining_room_lights_switch
-            - switch.entry_christmas_lights_switch
+            - switch.entry_christmas_lights
             - switch.entry_lights
             - switch.family_room_mantle_light_switch
             - switch.front_porch_light_switch
