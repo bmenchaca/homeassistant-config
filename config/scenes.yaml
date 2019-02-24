@@ -26,7 +26,7 @@
 
 - name: entry_hall_off
   entities:
-    switch.entry_hall_lights_switch: off
+    switch.entry_lights: off
     light.entry_hall_lamp_level: off
 
 - name: game_room_off
@@ -86,7 +86,7 @@
     switch.dining_room_lights_switch: off
     switch.stairs_light_switch: off
     switch.breakfast_lights_switch: off
-    switch.entry_hall_lights_switch: off
+    switch.entry_lights: off
     switch.guest_batroom_lights_switch: off
     switch.guest_hall_lights_switch_2: off
     light.family_room_lights_level_2: off
@@ -103,7 +103,7 @@
     switch.kitchen_light_switch: off
     switch.dining_room_lights_switch: off
     switch.breakfast_lights_switch: off
-    switch.entry_hall_lights_switch: off
+    switch.entry_lights: off
     switch.entry_christmas_lights_switch: off
     light.family_room_lights_level_2: off
     switch.family_room_mantle_light_switch: off

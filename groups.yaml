@@ -65,9 +65,9 @@ garage:
 craft_room:
   name: Craft Room
   entities:
-    - binary_sensor.craft_room_occupancy
     - switch.craft_fan_and_lights
     - switch.craft_sewing_lights
+    - binary_sensor.craft_room_occupancy
     - binary_sensor.craft_room_window_1
     - binary_sensor.craft_room_window_2
 
@@ -102,7 +102,7 @@ guest_bath:
 entry_room:
   name: Entry Room
   entities:
-    - switch.entry_hall_lights_switch
+    - switch.entry_lights
     - switch.entry_christmas_lights_switch
     - light.entry_hall_lamp_level
     - binary_sensor.entry_room_occupancy
