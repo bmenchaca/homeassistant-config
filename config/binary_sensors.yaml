@@ -84,7 +84,7 @@
     craft_room_occupancy:
       friendly_name: 'Craft Room Occupancy'
       value_template: >-
-        {%- if is_state("sensor.craft_room_fan_and_lights_burglar", "8") -%}
+        {%- if is_state("sensor.craft_lights_burglar", "8") -%}
           True
         {%- else -%}
           False
