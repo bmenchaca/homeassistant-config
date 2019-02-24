@@ -27,7 +27,7 @@
 - name: entry_hall_off
   entities:
     switch.entry_lights: off
-    light.entry_hall_lamp_level: off
+    light.entry_lamp: off
 
 - name: game_room_off
   entities:
