@@ -8,4 +8,5 @@
 !*.py
 !*/
 !www/**
+deps/**
 secrets.yaml
