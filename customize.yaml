@@ -165,9 +165,9 @@ switch.game_room_fan_2:
   hidden: true
 switch.girls_hall_lights_2:
   hidden: true
-switch.guest_fan_and_lights_switch_2:
+switch.guest_fan_and_lights_2:
   hidden: true
-switch.guest_fan_and_lights_switch_3:
+switch.guest_fan_and_lights_3:
   hidden: true
 switch.laundry_room_light_switch_2:
   hidden: true
