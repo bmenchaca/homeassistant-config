@@ -78,7 +78,7 @@
           entities:
             - switch.guest_fan_and_lights_switch
             - switch.family_room_fan_switch
-            - switch.craft_room_fan_and_lights_switch
+            - switch.craft_fan_and_lights
           states:
             - state: 'on'
               class: 'fan-on'

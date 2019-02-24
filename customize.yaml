@@ -73,7 +73,7 @@ scene.evening_tv_time:
   friendly_name: Evening TV Time
 switch.family_room_fan_switch:
   icon: mdi:fan
-switch.craft_room_fan_and_lights_switch:
+switch.craft_fan_and_lights:
   icon: mdi:fan
 switch.game_room_fan:
   icon: mdi:fan
@@ -322,7 +322,7 @@ sensor.awair_master_score:
   hidden: true
 sensor.awair_office_score:
   hidden: true
-switch.craft_room_fan_and_lights_switch_2:
+switch.craft_fan_and_lights_2:
   hidden: true
 switch.family_room_mantle_light_switch_2:
   hidden: true

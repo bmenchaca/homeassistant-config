@@ -4,14 +4,14 @@
 
 - name: craft_room_switch_off
   entities:
-    switch.craft_room_fan_and_lights_switch: off
+    switch.craft_fan_and_lights: off
     switch.craft_sewing_lights: off
     light.craft_room_floor_lamp_level:
       state: off
     
 - name: craft_room_switch_on
   entities:
-    switch.craft_room_fan_and_lights_switch: on
+    switch.craft_fan_and_lights: on
     switch.craft_sewing_lights: on
     light.craft_room_floor_lamp_level:
       state: on
