@@ -68,7 +68,7 @@ craft_room:
     - binary_sensor.craft_room_occupancy
     - light.craft_room_floor_lamp_level
     - switch.craft_room_fan_and_lights_switch
-    - switch.craft_room_sewing_lamp_switch_2
+    - switch.craft_sewing_lights
     - media_player.stick
     - binary_sensor.craft_room_window_1
     - binary_sensor.craft_room_window_2

@@ -82,7 +82,7 @@ switch.office_fan_switch:
   haaska_name: Office Fan
 switch.master_fan_switch:
   icon: mdi:fan
-switch.craft_room_sewing_lamp_switch_2:
+switch.craft_sewing_lights:
   icon: mdi:lightbulb
 switch.garage_lights_switch:
   icon: mdi:lightbulb
