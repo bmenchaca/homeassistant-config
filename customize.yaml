@@ -108,7 +108,7 @@ switch.kitchen_pantry_light_switch:
   icon: mdi:lightbulb
 switch.entry_lights:
   icon: mdi:lightbulb
-switch.dining_room_lights_switch:
+switch.dining_room_lights:
   icon: mdi:lightbulb
 switch.breakfast_lights_switch:
   icon: mdi:lightbulb
@@ -155,7 +155,7 @@ switch.boys_hall_light_2:
   hidden: true
 switch.breakfast_lights_switch_2:
   hidden: true
-switch.dining_room_lights_switch_2:
+switch.dining_room_lights_2:
   hidden: true
 switch.front_porch_light_switch_2:
   hidden: true

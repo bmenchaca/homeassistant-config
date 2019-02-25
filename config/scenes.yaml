@@ -79,7 +79,7 @@
     switch.back_porch_light_switch_2: off
     switch.master_hall_lights_switch: off
     switch.kitchen_light_switch: off
-    switch.dining_room_lights_switch: off
+    switch.dining_room_lights: off
     switch.stairs_light_switch: off
     switch.breakfast_lights_switch: off
     switch.entry_lights: off
@@ -97,7 +97,7 @@
     light.game_room_fan: off
     switch.master_hall_lights_switch: off
     switch.kitchen_light_switch: off
-    switch.dining_room_lights_switch: off
+    switch.dining_room_lights: off
     switch.breakfast_lights_switch: off
     switch.entry_lights: off
     switch.entry_christmas_lights: off
