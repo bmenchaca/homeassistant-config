@@ -91,7 +91,7 @@ guest_bath:
   name: Guest Bath
   entities:
     - binary_sensor.guest_bathroom_occupancy
-    - switch.guest_bathroom_lights_switch
+    - switch.guest_bath_lights
     - light.guest_bath_1
     - light.guest_bath_2
     - light.guest_bath_color

@@ -328,7 +328,7 @@ switch.family_room_mantle_light_switch_2:
   hidden: true
 switch.garage_lights_switch_2:
   hidden: true
-switch.guest_bathroom_lights_switch_2:
+switch.guest_bath_lights_2:
   hidden: true
 switch.master_bathtub_light_switch_2:
   hidden: true

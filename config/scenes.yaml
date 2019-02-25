@@ -118,7 +118,7 @@
     switch.girls_hall_lights: off
     # These are on because we will turn the lights off with hue
     switch.gallery_lights: on
-    switch.guest_bathroom_lights_switch: on
+    switch.guest_bath_lights: on
 
 
 - name: everyone_away
@@ -131,7 +131,7 @@
 
 - name: guest_bath_night_time
   entities:
-    switch.guest_bathroom_lights_switch: on
+    switch.guest_bath_lights: on
     light.guest_bath_1: off
     light.guest_bath_2: off
     light.guest_bath_color:
