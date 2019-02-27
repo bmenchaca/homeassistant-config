@@ -1032,7 +1032,7 @@
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 537.89058,488.36251 v 19.14062 0"
-       id="binary_sensor.laundry_room_closet_door_sensor"
+       id="binary_sensor.laundry_closet_door"
        inkscape:connector-curvature="0"
        inkscape:label="#path4805">
       <title
