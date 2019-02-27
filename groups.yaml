@@ -155,7 +155,7 @@ kitchen:
   entities:
     - switch.kitchen_lights
     - switch.kitchen_pantry_lights
-    - binary_sensor.pantry_door_sensor
+    - binary_sensor.pantry_door
 
 laundry_room:
   name: Laundry Room

@@ -43,7 +43,7 @@ binary_sensor.master_hall_motion:
   device_class: connectivity
 binary_sensor.entry_motion:
   device_class: connectivity
-binary_sensor.pantry_door_sensor:
+binary_sensor.pantry_door:
   device_class: door
 binary_sensor.heidi_room_multisensor_sensor:
   friendly_name: Heidi's Room Motion Sensor
