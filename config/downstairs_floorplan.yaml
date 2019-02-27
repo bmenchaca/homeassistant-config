@@ -15,7 +15,7 @@
 
         - name: Door Sensors
           entities:
-            - binary_sensor.master_closet_door_sensor
+            - binary_sensor.master_closet_door
             - binary_sensor.pantry_door
             - binary_sensor.laundry_closet_door
             - binary_sensor.front_door
