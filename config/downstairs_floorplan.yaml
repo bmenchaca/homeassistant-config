@@ -105,7 +105,7 @@
             - switch.garage_carriage_lights
             - switch.guest_hallway_lights
             - switch.guest_batroom_lights_switch
-            - switch.kitchen_light_switch
+            - switch.kitchen_lights
             - switch.laundry_closet_lights
             - switch.laundry_lights
             - switch.master_bathtub_light_switch

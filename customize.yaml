@@ -102,7 +102,7 @@ switch.master_closet_lights_switch:
   icon: mdi:lightbulb
 switch.master_lavatory_lights_switch:
   icon: mdi:lightbulb
-switch.kitchen_light_switch:
+switch.kitchen_lights:
   icon: mdi:lightbulb
 switch.kitchen_pantry_light_switch:
   icon: mdi:lightbulb
