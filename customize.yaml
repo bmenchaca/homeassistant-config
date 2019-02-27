@@ -86,7 +86,7 @@ switch.craft_sewing_lights:
   icon: mdi:lightbulb
 switch.garage_lights:
   icon: mdi:lightbulb
-switch.garage_outdoor_light_switch:
+switch.garage_carriage_lights:
   icon: mdi:lightbulb
 switch.front_porch_light_switch:
   icon: mdi:lightbulb

@@ -42,11 +42,11 @@
 
 - name: garage_outdoor_lights_daytime
   entities:
-    switch.garage_outdoor_light_switch: off
+    switch.garage_carriage_lights: off
 
 - name: garage_outdoor_lights_nighttime
   entities:
-    switch.garage_outdoor_light_switch: on
+    switch.garage_carriage_lights: on
 
 - name: game_room_on
   entities:

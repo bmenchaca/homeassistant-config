@@ -60,7 +60,7 @@ garage:
   entities:
     - binary_sensor.garage_occupancy
     - switch.garage_lights
-    - switch.garage_outdoor_light_switch
+    - switch.garage_carriage_lights
 
 craft_room:
   name: Craft Room
@@ -208,7 +208,7 @@ front_yard:
     - camera.front_east_guest_camera
     - camera.front_driveway_camera
     - camera.west_gate_camera
-    - switch.garage_outdoor_light_switch
+    - switch.garage_carriage_lights
     - switch.front_bushes
     - switch.front_lawn
     - switch.east_lawn
