@@ -114,7 +114,7 @@ switch.breakfast_lights_switch:
   icon: mdi:lightbulb
 switch.laundry_lights:
   icon: mdi:lightbulb
-switch.laundry_room_closet_light_switch:
+switch.laundry_closet_lights:
   icon: mdi:lightbulb
 switch.back_porch_light_switch_2:
   icon: mdi:lightbulb
