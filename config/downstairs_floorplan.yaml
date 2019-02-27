@@ -109,7 +109,7 @@
             - switch.laundry_closet_lights
             - switch.laundry_lights
             - switch.master_bathtub_light_switch
-            - switch.master_closet_lights_switch
+            - switch.master_closet_lights
             - switch.master_hall_lights_switch
             - switch.master_lavatory_lights_switch
             - switch.kitchen_pantry_light_switch

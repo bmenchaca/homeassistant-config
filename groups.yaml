@@ -341,7 +341,7 @@ master_closet:
   name: Master Closet
   entities:
     - binary_sensor.master_closet_door
-    - switch.master_closet_lights_switch
+    - switch.master_closet_lights
 
 master_hall:
   name: Master Hall

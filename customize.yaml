@@ -98,7 +98,7 @@ switch.gallery_lights:
   icon: mdi:lightbulb
 switch.office_lamp:
   icon: mdi:lightbulb
-switch.master_closet_lights_switch:
+switch.master_closet_lights:
   icon: mdi:lightbulb
 switch.master_lavatory_lights_switch:
   icon: mdi:lightbulb
