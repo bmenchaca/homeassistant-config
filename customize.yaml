@@ -84,7 +84,7 @@ switch.master_fan_switch:
   icon: mdi:fan
 switch.craft_sewing_lights:
   icon: mdi:lightbulb
-switch.garage_lights_switch:
+switch.garage_lights:
   icon: mdi:lightbulb
 switch.garage_outdoor_light_switch:
   icon: mdi:lightbulb
@@ -326,7 +326,7 @@ switch.craft_fan_and_lights_2:
   hidden: true
 switch.family_room_mantle_light_switch_2:
   hidden: true
-switch.garage_lights_switch_2:
+switch.garage_lights_2:
   hidden: true
 switch.guest_bath_lights_2:
   hidden: true

@@ -105,7 +105,7 @@
     switch.family_room_mantle_light_switch: off
     switch.back_porch_light_switch_2: off
     switch.front_porch_light_switch: off
-    switch.garage_lights_switch: off
+    switch.garage_lights: off
     switch.guest_hallway_lights: off
     light.office_fan_dimmer: off
     light.back_porch: off
@@ -123,11 +123,11 @@
 
 - name: everyone_away
   entities:
-    switch.garage_lights_switch: off
+    switch.garage_lights: off
 
 - name: someone_arriving_home
   entities:
-    switch.garage_lights_switch: on
+    switch.garage_lights: on
 
 - name: guest_bath_night_time
   entities:

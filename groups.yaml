@@ -59,7 +59,7 @@ garage:
   name: Garage
   entities:
     - binary_sensor.garage_occupancy
-    - switch.garage_lights_switch
+    - switch.garage_lights
     - switch.garage_outdoor_light_switch
 
 craft_room:
