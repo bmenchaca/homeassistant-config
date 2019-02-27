@@ -2,7 +2,7 @@ alexa:
   filter:
     include_entities:
       - light.family_room_lights_level_2
-      - light.game_room_fan
+      - light.game_room
       - light.master_bath_vanity_lights_level
       - light.master_fan_lights_level
       - light.office_fan_dimmer
@@ -25,7 +25,7 @@ alexa:
   entity_config:
     light.family_room_lights_level_2:
       name: Family Room Lights
-    light.game_room_fan:
+    light.game_room:
       name: Game Room Lights
     light.master_bath_vanity_lights_level:
       name: Master Bath Lights

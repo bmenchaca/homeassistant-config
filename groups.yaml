@@ -288,7 +288,7 @@ game_room:
   entities:
     - binary_sensor.game_room_occupancy
     - switch.game_room_fan
-    - light.game_room_fan
+    - light.game_room
     - light.game_room_1
     - light.game_room_2
     - light.game_room_3

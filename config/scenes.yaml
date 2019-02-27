@@ -29,7 +29,7 @@
   entities:
     switch.game_room_fan: off
     light.game_room: off
-    #    light.game_room_fan:
+    #    light.game_room:
     #  state: off
   
 - name: christmas_lights_daytime
@@ -51,7 +51,7 @@
 - name: game_room_on
   entities:
     switch.game_room_fan: on
-    light.game_room_fan:
+    light.game_room:
       state: on
     light.game_room: on
 
@@ -75,7 +75,7 @@
     switch.boys_hall_light: off
     switch.girls_hall_lights: off
     light.gallery_flood: off
-    light.game_room_fan: off
+    light.game_room: off
     switch.back_porch_light_switch_2: off
     switch.master_hall_lights_switch: off
     switch.kitchen_lights: off
@@ -94,7 +94,7 @@
     switch.girls_hall_lights: off
     light.gallery_flood: off
     switch.stairs_light_switch: off
-    light.game_room_fan: off
+    light.game_room: off
     switch.master_hall_lights_switch: off
     switch.kitchen_lights: off
     switch.dining_room_lights: off
