@@ -112,7 +112,7 @@ switch.dining_room_lights:
   icon: mdi:lightbulb
 switch.breakfast_lights_switch:
   icon: mdi:lightbulb
-switch.laundry_room_light_switch:
+switch.laundry_lights:
   icon: mdi:lightbulb
 switch.laundry_room_closet_light_switch:
   icon: mdi:lightbulb
@@ -169,7 +169,7 @@ switch.guest_fan_and_lights_2:
   hidden: true
 switch.guest_fan_and_lights_3:
   hidden: true
-switch.laundry_room_light_switch_2:
+switch.laundry_lights_2:
   hidden: true
 switch.master_hall_lights_switch_2:
   hidden: true

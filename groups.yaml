@@ -162,7 +162,7 @@ laundry_room:
   entities:
     - binary_sensor.laundry_room_occupancy
     - binary_sensor.laundry_closet_door
-    - switch.laundry_room_light_switch
+    - switch.laundry_lights
     - switch.laundry_room_closet_light_switch
     - binary_sensor.garage_door
     
