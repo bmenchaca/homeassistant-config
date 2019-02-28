@@ -177,7 +177,7 @@ garden:
 front_porch:
   name: Front Porch
   entities:
-    - switch.front_porch_light_switch
+    - switch.front_porch_lights
     - camera.front_door
     - camera.front_door_camera
     - binary_sensor.ring_front_door_motion

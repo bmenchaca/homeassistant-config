@@ -13,7 +13,7 @@ alexa:
     exclude_entities:
       - switch.breakfast_lights_2
       - switch.dining_room_lights_2
-      - switch.front_porch_light_switch_2
+      - switch.front_porch_lights_2
       - switch.gallery_lights_2
       - switch.game_room_fan_2
       - switch.guest_fan_and_lights_2
@@ -47,7 +47,7 @@ alexa:
       name: Family Room Fan
     switch.family_mantle_lights:
       name: Family Room Mantle
-    switch.front_porch_light_switch:
+    switch.front_porch_lights:
       name: Front Porch Lights
     switch.gallery_lights:
       name: Gallery Hall Lights

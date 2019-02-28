@@ -100,7 +100,7 @@
             - switch.entry_christmas_lights
             - switch.entry_lights
             - switch.family_mantle_lights
-            - switch.front_porch_light_switch
+            - switch.front_porch_lights
             - switch.garage_lights
             - switch.garage_carriage_lights
             - switch.guest_hallway_lights

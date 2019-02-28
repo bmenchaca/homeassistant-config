@@ -104,7 +104,7 @@
     light.family_room_dimmer: off
     switch.family_mantle_lights: off
     switch.back_porch_light_switch_2: off
-    switch.front_porch_light_switch: off
+    switch.front_porch_lights: off
     switch.garage_lights: off
     switch.guest_hallway_lights: off
     light.office_fan_dimmer: off
