@@ -86,7 +86,7 @@
     switch.guest_batroom_lights_switch: off
     switch.guest_hallway_lights: off
     light.family_room_lights_level_2: off
-    switch.family_room_mantle_light_switch: on
+    switch.family_mantle_lights: on
 
 - name: house_bed_time
   entities:
@@ -102,7 +102,7 @@
     switch.entry_lights: off
     switch.entry_christmas_lights: off
     light.family_room_lights_level_2: off
-    switch.family_room_mantle_light_switch: off
+    switch.family_mantle_lights: off
     switch.back_porch_light_switch_2: off
     switch.front_porch_light_switch: off
     switch.garage_lights: off

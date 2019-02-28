@@ -131,7 +131,7 @@ family_room:
   entities:
     - media_player.living
     - switch.family_room_fan_switch
-    - switch.family_room_mantle_light_switch
+    - switch.family_mantle_lights
     - light.family_room_lights_level_2
     #- light.family_room_flood
     - binary_sensor.family_room_occupancy  

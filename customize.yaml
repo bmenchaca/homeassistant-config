@@ -324,7 +324,7 @@ sensor.awair_office_score:
   hidden: true
 switch.craft_fan_and_lights_2:
   hidden: true
-switch.family_room_mantle_light_switch_2:
+switch.family_mantle_lights_2:
   hidden: true
 switch.garage_lights_2:
   hidden: true

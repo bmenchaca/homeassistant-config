@@ -99,7 +99,7 @@
             - switch.dining_room_lights
             - switch.entry_christmas_lights
             - switch.entry_lights
-            - switch.family_room_mantle_light_switch
+            - switch.family_mantle_lights
             - switch.front_porch_light_switch
             - switch.garage_lights
             - switch.garage_carriage_lights
