@@ -227,15 +227,10 @@ heidi_room:
   entities:
     - switch.heidis_room_fan_and_lights
     - switch.heidi_heater
-    - light.heidi_1
-    - light.heidi_2
-    - light.heidi_color
-    - light.heidi_lamp
-    - light.heidi_go
-    - light.heidi_bed_lightstrip
+    - light.heidi
     - binary_sensor.heidi_room_multisensor_1_sensor
     - sensor.heidi_room_multisensor_temperature
-    - sensor.heidi_room_multisensor_relative_humidity
+    - sensor.heidi_multisensor_humidity
     - binary_sensor.heidi_window_1
     - binary_sensor.heidi_window_2
 
