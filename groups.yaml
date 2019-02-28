@@ -228,7 +228,7 @@ heidi_room:
     - switch.heidis_room_fan_and_lights
     - switch.heidi_heater
     - light.heidi
-    - binary_sensor.heidi_room_multisensor_1_sensor
+    - binary_sensor.heidi_room_multisensor_motion
     - sensor.heidi_multisensor_temperature
     - sensor.heidi_multisensor_humidity
     - binary_sensor.heidi_window_1
