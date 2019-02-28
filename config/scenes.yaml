@@ -80,7 +80,7 @@
     switch.master_hall_lights_switch: off
     switch.kitchen_lights: off
     switch.dining_room_lights: off
-    switch.stairs_light_switch: off
+    switch.stairs_lights: off
     switch.breakfast_lights: off
     switch.entry_lights: off
     switch.guest_batroom_lights_switch: off
@@ -93,7 +93,7 @@
     switch.boys_hall_light: off
     switch.girls_hall_lights: off
     light.gallery_flood: off
-    switch.stairs_light_switch: off
+    switch.stairs_lights: off
     light.game_room: off
     switch.master_hall_lights_switch: off
     switch.kitchen_lights: off

@@ -173,7 +173,7 @@ switch.laundry_lights_2:
   hidden: true
 switch.master_hall_lights_switch_2:
   hidden: true
-switch.stairs_light_switch_2:
+switch.stairs_lights_2:
   hidden: true
 light.office_fan_dimmer_2:
   hidden: true

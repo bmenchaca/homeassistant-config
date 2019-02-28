@@ -141,7 +141,7 @@ family_room:
 stairs:
   name: Stairs
   entities:
-    - switch.stairs_light_switch
+    - switch.stairs_lights
 
 kitchen:
   name: Kitchen
