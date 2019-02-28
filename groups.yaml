@@ -195,10 +195,7 @@ front_yard:
 noah_room:
   name: Noah's Room
   entities:
-    - light.noah_1
-    - light.noah_2
-    - light.noah_color
-    - light.noah_lamp
+    - light.noah
     - binary_sensor.noah_room_multisensor_sensor
     - sensor.noah_room_multisensor_temperature
     - sensor.noah_room_multisensor_relative_humidity
@@ -228,7 +225,7 @@ heidi_room:
     - switch.heidis_room_fan_and_lights
     - switch.heidi_heater
     - light.heidi
-    - binary_sensor.heidi_room_multisensor_motion
+    - binary_sensor.heidi_multisensor_motion
     - sensor.heidi_multisensor_temperature
     - sensor.heidi_multisensor_humidity
     - binary_sensor.heidi_window_1
@@ -237,11 +234,7 @@ heidi_room:
 hannah_room:
   name: Hannah's Room
   entities:
-    - light.hannah_1
-    - light.hannah_2
-    - light.hannah_color
-    - light.hannah_lamp
-    - light.hannah_bed_lightstrip
+    - light.hannah
     - binary_sensor.hannah_room_multisensor_sensor
     - sensor.hannah_room_multisensor_temperature
     - sensor.hannah_room_multisensor_relative_humidity
