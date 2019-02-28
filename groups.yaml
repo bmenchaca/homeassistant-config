@@ -191,11 +191,6 @@ front_yard:
     - camera.front_driveway_camera
     - camera.west_gate_camera
     - switch.garage_carriage_lights
-    - switch.front_bushes
-    - switch.front_lawn
-    - switch.east_lawn
-    - switch.east_near_house
-    - switch.front_west
 
 noah_room:
   name: Noah's Room
@@ -231,7 +226,7 @@ heidi_room:
   name: Heidi's Room
   entities:
     - switch.heidis_room_fan_and_lights
-    - switch.heidi_room_heater_switch
+    - switch.heidi_heater
     - light.heidi_1
     - light.heidi_2
     - light.heidi_color
