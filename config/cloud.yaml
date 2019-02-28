@@ -43,7 +43,7 @@ alexa:
       name: Craft Room Sewing Lamp
     switch.entry_lights:
       name: Entry Light
-    switch.family_room_fan_switch:
+    switch.family_fan:
       name: Family Room Fan
     switch.family_mantle_lights:
       name: Family Room Mantle
