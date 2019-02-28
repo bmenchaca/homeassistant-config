@@ -119,7 +119,7 @@ dining_room:
 breakfast_room:
   name: Breakfast Room
   entities:
-    - switch.breakfast_lights_switch
+    - switch.breakfast_lights
     - binary_sensor.back_door
     - binary_sensor.breakfast_window_1
     - binary_sensor.breakfast_window_2

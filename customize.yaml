@@ -110,7 +110,7 @@ switch.entry_lights:
   icon: mdi:lightbulb
 switch.dining_room_lights:
   icon: mdi:lightbulb
-switch.breakfast_lights_switch:
+switch.breakfast_lights:
   icon: mdi:lightbulb
 switch.laundry_lights:
   icon: mdi:lightbulb
@@ -153,7 +153,7 @@ switch.boys_bathroom_light_2:
   hidden: true
 switch.boys_hall_light_2:
   hidden: true
-switch.breakfast_lights_switch_2:
+switch.breakfast_lights_2:
   hidden: true
 switch.dining_room_lights_2:
   hidden: true

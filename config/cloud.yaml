@@ -11,7 +11,7 @@ alexa:
       - switch
       - cover
     exclude_entities:
-      - switch.breakfast_lights_switch_2
+      - switch.breakfast_lights_2
       - switch.dining_room_lights_2
       - switch.front_porch_light_switch_2
       - switch.gallery_lights_2
@@ -35,7 +35,7 @@ alexa:
       name: Office Lights
     switch.back_porch_light_switch_2:
       name: Back Porch Lights
-    switch.breakfast_lights_switch:
+    switch.breakfast_lights:
       name: Breakfast Lights
     switch.craft_fan_and_lights:
       name: Craft Room Fan
