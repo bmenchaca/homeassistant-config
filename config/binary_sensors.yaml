@@ -109,7 +109,7 @@
       friendly_name: 'Family Room Occupancy'
       value_template: >-
         {%- if (is_state("sensor.breakfast_lights_burglar", "8") or
-                is_state("sensor.family_room_mantle_light_burglar", "8")) -%}
+                is_state("sensor.family_mantle_lights_burglar", "8")) -%}
           True
         {%- else -%}
           False
