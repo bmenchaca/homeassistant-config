@@ -132,13 +132,9 @@ family_room:
     - media_player.living
     - switch.family_room_fan_switch
     - switch.family_mantle_lights
-    - light.family_room_lights_level_2
-    #- light.family_room_flood
-    - binary_sensor.family_room_occupancy  
-    - sensor.netatmo_indoor_temperature
-    - sensor.netatmo_indoor_co2
-    - sensor.netatmo_indoor_noise
+    - light.family_room_dimmer
     - scene.evening_tv_time
+    - binary_sensor.family_room_occupancy  
     - binary_sensor.family_window_1
     - binary_sensor.family_window_2
     - binary_sensor.family_room_glass
