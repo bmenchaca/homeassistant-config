@@ -91,7 +91,7 @@
         - name: Light Switches
           entities:
             - light.family_room_dimmer
-            - light.master_bath_vanity_lights_level
+            - light.master_bath_vanity_dimmer
             - light.master_fan_lights_dimmer
             - switch.back_porch_lights
             - switch.breakfast_lights
@@ -108,7 +108,7 @@
             - switch.kitchen_lights
             - switch.laundry_closet_lights
             - switch.laundry_lights
-            - switch.master_bathtub_light_switch
+            - switch.master_bath_tub_lights
             - switch.master_closet_lights
             - switch.master_hall_lights_switch
             - switch.master_lavatory_lights_switch

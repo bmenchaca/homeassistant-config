@@ -330,7 +330,7 @@ switch.garage_lights_2:
   hidden: true
 switch.guest_bath_lights_2:
   hidden: true
-switch.master_bathtub_light_switch_2:
+switch.master_bath_tub_lights_2:
   hidden: true
 device_tracker.heidi_iphone:
   icon: mdi:wifi
