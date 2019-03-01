@@ -51,25 +51,24 @@
 - name: game_room_on
   entities:
     switch.game_room_fan: on
-    light.game_room:
-      state: on
     light.game_room: on
 
-- name: deck_lights_evening_on
-  entities:
-    switch.back_porch_lights: on
-    light.upper_deck_bar_lightstrip: on
-    light.upper_deck_bar_lightstrip_2: on
-    light.upper_deck_breakfast_stairs_lightstrip: on
-    light.upper_deck_tree_spot_light: on
-    light.lower_deck_railing_lightstrip: on
-    light.lower_deck_stairs_lightstrip: on
-    light.lower_deck_stairs_bollard: on
-    light.back_porch_light: on
-    light.pool_pump_garden_deck: on
-    light.pool_pump_garden_center: on
-    light.pool_pump_garden_gate: on
-    
+- name: backyard_lights_evening_on
+  alias: Backyard Lights Evening On
+  sequence:
+    - switch.back_porch_lights: on
+    - service: hue.hue_activate_scene
+      data:
+        group_name: "Back Yard"
+        # One of Arctic aurora, Bright, Concentrate, Cool white, Dimmed, Energize, Nightlight, Read, Relax, Savanna sunset, Spring blossom, Tropical twilight
+        scene_name: "Tropical twilight"
+
+- name: backyard_lights_off
+  alias: Backyard Lights Off
+  sequence: 
+    - switch.back_porch_lights: off
+    - light.back_yard: off
+         
 - name: evening_tv_time
   entities:
     switch.boys_hall_light: off

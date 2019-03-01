@@ -159,20 +159,33 @@ laundry_room:
     - binary_sensor.laundry_closet_door
     - binary_sensor.garage_door
     
-back_porch:
-  name: Back Porch
+deck:
+  name: Deck
   entities:
     - switch.back_porch_lights
-    - light.back_porch_bar_lightstrip
-    - light.back_porch_bar_lightstrip_2
-    - light.lower_deck_railing_lightstrip
-    - light.lower_deck_stairs_lightstrip
+    - light.deck_bar_lightstrip
+    - light.deck_bar_lightstrip_2
+    - light.deck_lower_railing_lightstrip
+    - light.deck_lower_lightstrip
+    - light.deck_breakfast_stairs_lightstrip
+    - light.deck_big_tree_spot
+    - light.deck_pool_stairs_calla
     - camera.back_deck_camera
 
 garden:
   name: Garden
   entities:
     - camera.back_west_garden_camera
+    - camera.back_playscape_camera
+
+back_yard:
+  name: Back Yard
+  entities:
+    - light.pool_pump_center_calla
+    - light.pool_pump_deck_calla
+    - light.pool_pump_gate_calla
+    - camera.back_east_gate_camera
+    - camera.back_pool_camera
 
 front_porch:
   name: Front Porch
@@ -376,6 +389,7 @@ security_devices:
      - binary_sensor.living_room_motion
      - binary_sensor.master_hall_motion
 
+
 # Views      
 downstairs_view:
   name: Downstairs
@@ -437,11 +451,9 @@ back_yard_view:
   name: Back Yard
   view: yes
   entities:
-    - group.back_porch
+    - group.deck
     - group.garden
-    - camera.back_east_gate_camera
-    - camera.back_pool_camera
-    - camera.back_playscape_camera
+    - group.back_yard
 
 system_view:
   name: System
