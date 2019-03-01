@@ -294,10 +294,10 @@ master:
   entities:
     - light.master_fan_lights_dimmer
     - switch.master_fan
-    - sensor.awair_master_temperature
-    - sensor.awair_master_humidity
-    - sensor.awair_master_co2
-    - sensor.awair_master_voc
+    - sensor.master_awair_temperature
+    - sensor.master_awair_humidity
+    - sensor.master_awair_co2
+    - sensor.master_awair_voc
     - binary_sensor.master_occupancy
     - binary_sensor.master_window_1
     - binary_sensor.master_window_2
