@@ -24,7 +24,7 @@
         - name: Fans
           entities:
             - switch.game_room_fan
-            - switch.office_fan_switch
+            - switch.office_fan
             - switch.heidis_room_fan_and_lights
           states:
             - state: 'on'
@@ -45,7 +45,7 @@
             - switch.gallery_lights
             - switch.girls_hall_lights
             - switch.office_lamp
-            #- switch.office_fan_switch
+            #- switch.office_fan
             - switch.stairs_lights
           states:
             - state: 'on'

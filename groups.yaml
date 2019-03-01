@@ -275,17 +275,16 @@ game_room:
 office:
   name: Office
   entities:
-    - binary_sensor.office_occupancy
     - light.office_fan_dimmer
-    - media_player.office
-    - switch.office_fan_switch
+    - switch.office_fan
     - switch.office_lamp
     - switch.office_heater
-    - light.office_hue_go
-    - sensor.awair_office_temperature
-    - sensor.awair_office_humidity
-    - sensor.awair_office_co2
-    - sensor.awair_office_voc
+    - light.office
+    - sensor.office_awair_temperature
+    - sensor.office_awair_humidity
+    - sensor.office_awair_co2
+    - sensor.office_awair_voc
+    - binary_sensor.office_occupancy
     - binary_sensor.office_window_1
     - binary_sensor.office_window_2
 
