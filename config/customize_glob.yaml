@@ -6,6 +6,14 @@
   hidden: true
 "sensor.*_sourcenodeid*":
   hidden: true
+"sensor.*_burglar*":
+  hidden: true
+"sensor.*_access_control*":
+  hidden: true
+"sensor.*_power_management*":
+  hidden: true
+"sensor.*_interval*":
+  hidden: true
 "sensor.*_multisensor_luminance":
   hidden: true
 "sensor.*_multisensor_ultraviolet":
