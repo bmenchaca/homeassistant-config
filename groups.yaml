@@ -305,7 +305,7 @@ master:
 master_bath:
   name: Master Bath
   entities:
-    - light.master_bath_vanity_dimmer
+    - light.master_vanity_dimmer
     - switch.master_bath_tub_lights
     - light.master_tub_color_bulb
     - binary_sensor.master_bath_occupancy
