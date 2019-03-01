@@ -108,7 +108,7 @@ heidi_iphone:
   mac: 74:8D:08:31:AB:9D
   name: Heidi's iPhone Wifi
   picture:
-  track: true
+  track: false
 
 bens_iphone:
   hide_if_away: false
@@ -116,7 +116,7 @@ bens_iphone:
   mac: B0:48:1A:C7:A2:83
   name: Ben's iPhone Wifi
   picture:
-  track: true
+  track: false
 
 susan_ha_iphone:
   hide_if_away: false
@@ -132,7 +132,7 @@ susans_iphone:
   mac: 70:70:0D:EC:B5:03
   name: Susan's iPhone Wifi
   picture:
-  track: true
+  track: false
 
 ben_ha_iphone:
   hide_if_away: false
