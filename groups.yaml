@@ -328,12 +328,6 @@ master_lavatory:
   entities:
     - switch.master_lavatory_lights
 
-hapi_usage_info:
-  name: HAPI System Usage
-  entities:
-    - sensor.processor_use
-    - sensor.memory_free
-
 downstairs_occupancy:
   name: Downstairs Occupancy
   entities:
@@ -449,14 +443,6 @@ back_yard_view:
     - group.deck
     - group.garden
     - group.back_yard
-
-system_view:
-  name: System
-  view: yes
-  entities:
-    - group.hapi_usage_info
-    - group.synology_usage_info
-    - group.system_switches
 
 occupancy_view:
   name: Occupancy
