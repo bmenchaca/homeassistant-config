@@ -35,15 +35,15 @@
 #    master_hall_lights:
 #      friendly_name: "Master Hall Light"
 #      value_template:
-#        " {{ is_state('switch.master_hall_lights_switch', 'on') }} "
+#        " {{ is_state('switch.master_hall_lights', 'on') }} "
 #      turn_on:
 #        service: switch.turn_on
-#        entity_id: switch.master_hall_lights_switch
+#        entity_id: switch.master_hall_lights
 #      turn_off:
 #        service: switch.turn_off
-#        entity_id: switch.master_hall_lights_switch
+#        entity_id: switch.master_hall_lights
 #      level_template: >-
-#        {%- if is_state('switch.master_hall_lights_switch', 'off') -%}
+#        {%- if is_state('switch.master_hall_lights', 'off') -%}
 #          {{ 0 }}
 #        {%- elif states.light.master_hall -%}
 #          {{ states.light.master_hall.attributes.brightness }}

@@ -19,7 +19,7 @@ alexa:
       - switch.guest_fan_and_lights_2
       - switch.guest_fan_and_lights_3
       - switch.laundry_lights_2
-      - switch.master_hall_lights_switch_2
+      - switch.master_hall_lights_2
       - switch.stairs_lights_2
     #exclude_domains:
   entity_config:

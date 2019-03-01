@@ -171,7 +171,7 @@ switch.guest_fan_and_lights_3:
   hidden: true
 switch.laundry_lights_2:
   hidden: true
-switch.master_hall_lights_switch_2:
+switch.master_hall_lights_2:
   hidden: true
 switch.stairs_lights_2:
   hidden: true
