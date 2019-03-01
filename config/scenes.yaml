@@ -17,8 +17,7 @@
     switch.breakfast_lights: off
     switch.kitchen_lights: off
     switch.back_porch_lights: off
-    light.family_room_dimmer:
-      state: off
+    light.family_room_dimmer: off
 
 - name: entry_hall_off
   entities:
@@ -29,8 +28,6 @@
   entities:
     switch.game_room_fan: off
     light.game_room: off
-    #    light.game_room:
-    #  state: off
   
 - name: christmas_lights_daytime
   entities:
@@ -55,19 +52,15 @@
 
 - name: backyard_lights_evening_on
   alias: Backyard Lights Evening On
-  sequence:
-    - switch.back_porch_lights: on
-    - service: hue.hue_activate_scene
-      data:
-        group_name: "Back Yard"
-        # One of Arctic aurora, Bright, Concentrate, Cool white, Dimmed, Energize, Nightlight, Read, Relax, Savanna sunset, Spring blossom, Tropical twilight
-        scene_name: "Tropical twilight"
+  entities: 
+    switch.back_porch_lights: on
+    light.back_yard: on
 
 - name: backyard_lights_off
-  alias: Backyard Lights Off
-  sequence: 
-    - switch.back_porch_lights: off
-    - light.back_yard: off
+  alias: Back Yard Lights Off
+  entities: 
+    switch.back_porch_lights: off
+    light.back_yard: off
          
 - name: evening_tv_time
   entities:
@@ -107,7 +100,7 @@
     switch.garage_lights: off
     switch.guest_hallway_lights: off
     light.office_fan_dimmer: off
-    light.back_porch: off
+    light.back_yard: off
     cover.ben_garage: closed
     cover.susan_garage: closed
 
