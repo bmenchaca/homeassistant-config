@@ -4,7 +4,7 @@ alexa:
       - light.family_room_dimmer
       - light.game_room
       - light.master_bath_vanity_lights_level
-      - light.master_fan_lights_level
+      - light.master_fan_lights_dimmer
       - light.office_fan_dimmer
     include_domains:
       - scene
@@ -29,7 +29,7 @@ alexa:
       name: Game Room Lights
     light.master_bath_vanity_lights_level:
       name: Master Bath Lights
-    light.master_fan_lights_level:
+    light.master_fan_lights_dimmer:
       name: Master Fan Lights
     light.office_fan_dimmer:
       name: Office Lights

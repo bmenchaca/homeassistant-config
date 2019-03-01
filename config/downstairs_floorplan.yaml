@@ -92,7 +92,7 @@
           entities:
             - light.family_room_dimmer
             - light.master_bath_vanity_lights_level
-            - light.master_fan_lights_level
+            - light.master_fan_lights_dimmer
             - switch.back_porch_lights
             - switch.breakfast_lights
             - switch.craft_sewing_lights
