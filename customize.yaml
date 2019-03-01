@@ -4,7 +4,7 @@ sensor.susan_presence:
   entity_picture: /local/susan.png
 light.mantle_light:
   friendly_name: Family Room Mantle Light
-light.master_hall_lights:
+light.master_hall:
   friendly_name: Master Hall Lights
 light.noah:
   friendly_name: All Noah's Lights

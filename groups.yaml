@@ -320,7 +320,7 @@ master_hall:
   name: Master Hall
   entities:
     - switch.master_hall_lights
-    - light.master_hall_lights
+    - light.master_hall
     - binary_sensor.master_hall_occupancy
 
 master_lavatory:
