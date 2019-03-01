@@ -111,7 +111,7 @@
             - switch.master_bath_tub_lights
             - switch.master_closet_lights
             - switch.master_hall_lights
-            - switch.master_lavatory_lights_switch
+            - switch.master_lavatory_lights
             - switch.kitchen_pantry_light_switch
             - switch.stairs_lights
 
