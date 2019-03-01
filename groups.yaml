@@ -209,9 +209,9 @@ noah_room:
   name: Noah's Room
   entities:
     - light.noah
-    - binary_sensor.noah_room_multisensor_sensor
-    - sensor.noah_room_multisensor_temperature
-    - sensor.noah_room_multisensor_relative_humidity
+    - binary_sensor.noah_multisensor_motion
+    - sensor.noah_multisensor_temperature
+    - sensor.noah_multisensor_humidity
     - binary_sensor.noah_room_window
 
 boys_bathroom:
@@ -353,7 +353,7 @@ upstairs_occupancy:
     - binary_sensor.game_room_occupancy
     - binary_sensor.girls_hall_occupancy
     - binary_sensor.heidi_room_multisensor_sensor
-    - binary_sensor.noah_room_multisensor_sensor
+    - binary_sensor.noah_multisensor_motion
     - binary_sensor.hannah_room_multisensor_sensor
     - binary_sensor.office_occupancy
 
