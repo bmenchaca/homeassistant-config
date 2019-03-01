@@ -352,7 +352,7 @@ upstairs_occupancy:
     - binary_sensor.gallery_occupancy
     - binary_sensor.game_room_occupancy
     - binary_sensor.girls_hall_occupancy
-    - binary_sensor.heidi_room_multisensor_sensor
+    - binary_sensor.heidi_multisensor_motion
     - binary_sensor.noah_multisensor_motion
     - binary_sensor.hannah_multisensor_motion
     - binary_sensor.office_occupancy
