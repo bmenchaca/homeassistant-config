@@ -116,7 +116,7 @@ switch.laundry_lights:
   icon: mdi:lightbulb
 switch.laundry_closet_lights:
   icon: mdi:lightbulb
-switch.back_porch_light_switch_2:
+switch.back_porch_lights:
   icon: mdi:lightbulb
 switch.guest_hallway_lights:
   icon: mdi:lightbulb

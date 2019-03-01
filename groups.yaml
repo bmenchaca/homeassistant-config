@@ -162,7 +162,7 @@ laundry_room:
 back_porch:
   name: Back Porch
   entities:
-    - switch.back_porch_light_switch_2
+    - switch.back_porch_lights
     - light.back_porch_bar_lightstrip
     - light.back_porch_bar_lightstrip_2
     - light.lower_deck_railing_lightstrip

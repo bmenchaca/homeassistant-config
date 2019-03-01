@@ -33,7 +33,7 @@ alexa:
       name: Master Fan Lights
     light.office_fan_dimmer:
       name: Office Lights
-    switch.back_porch_light_switch_2:
+    switch.back_porch_lights:
       name: Back Porch Lights
     switch.breakfast_lights:
       name: Breakfast Lights
