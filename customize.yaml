@@ -57,11 +57,11 @@ sensor.noah_multisensor_temperature:
   friendly_name: Noah's Room Temperature
 sensor.noah_multisensor_humidity:
   friendly_name: Noah's Room Relative Humidity
-binary_sensor.hannah_room_multisensor_sensor:
+binary_sensor.hannah_multisensor_motion:
   friendly_name: Hannah's Room Motion Sensor
-sensor.hannah_room_multisensor_temperature:
+sensor.hannah_multisensor_temperature:
   friendly_name: Hannah's Room Temperature
-sensor.hannah_room_multisensor_relative_humidity:
+sensor.hannah_multisensor_humidity:
   friendly_name: Hannah's Room Relative Humidity
 camera.guest_hall:
   friendly_name: Office Camera

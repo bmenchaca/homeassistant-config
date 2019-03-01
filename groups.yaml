@@ -248,9 +248,9 @@ hannah_room:
   name: Hannah's Room
   entities:
     - light.hannah
-    - binary_sensor.hannah_room_multisensor_sensor
-    - sensor.hannah_room_multisensor_temperature
-    - sensor.hannah_room_multisensor_relative_humidity
+    - binary_sensor.hannah_multisensor_motion
+    - sensor.hannah_multisensor_temperature
+    - sensor.hannah_multisensor_humidity
     - binary_sensor.hannah_window_1
     - binary_sensor.hannah_window_2
 
@@ -354,7 +354,7 @@ upstairs_occupancy:
     - binary_sensor.girls_hall_occupancy
     - binary_sensor.heidi_room_multisensor_sensor
     - binary_sensor.noah_multisensor_motion
-    - binary_sensor.hannah_room_multisensor_sensor
+    - binary_sensor.hannah_multisensor_motion
     - binary_sensor.office_occupancy
 
 device_charging:
