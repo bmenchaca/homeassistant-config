@@ -124,7 +124,7 @@ susan_ha_iphone:
   mac:
   name: susan ha iphone
   picture:
-  track: true
+  track: false
 
 susans_iphone:
   hide_if_away: false
@@ -140,7 +140,7 @@ ben_ha_iphone:
   mac:
   name: ben ha iphone
   picture:
-  track: true
+  track: false
 
 susan_macbook:
   hide_if_away: false
