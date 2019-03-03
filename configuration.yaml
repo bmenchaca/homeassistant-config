@@ -21,6 +21,8 @@ zeroconf:
 #conversation:
 # Auto-discover new or changed services
 #discovery:
+lovelace:
+  mode: yaml
 map:
 updater:
 config:
