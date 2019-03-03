@@ -1,0 +1,41 @@
+views:
+title: main
+icon: mdi:home-outline
+cards:
+  - type: glance
+    title: Office
+    show_state: false
+    entities:
+      - entity: light.office_fan_dimmer
+        name: Fan Lights
+        icon: mdi:ceiling-light
+        tap_action:
+          action: toggle
+      - entity: switch.office_fan
+        name: Fan
+        icon: mdi:fan
+        tap_action:
+          action: toggle
+      - entity: switch.office_lamp
+        name: Floor Lamp
+        icon: mdi:floor-lamp
+        tap_action:
+          action: toggle
+      - entity: light.office_go
+        name: Go Lamp
+        icon: mdi:desk-lamp
+        tap_action:
+          action: toggle
+      - entity: switch.office_heater
+        name: Heater
+        icon: mdi:radiator
+        tap_action:
+          action: toggle
+      - sensor.office_awair_temperature
+      - sensor.office_awair_co2
+      - sensor.office_awair_voc
+      - entity: binary_sensor.office_occupancy
+        name: Occupancy
+        icon: mdi:motion-sensor
+      - binary_sensor.office_window_1
+      - binary_sensor.office_window_2
