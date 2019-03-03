@@ -21,12 +21,11 @@ zeroconf:
 #conversation:
 # Auto-discover new or changed services
 #discovery:
-lovelace:
-  mode: yaml
 map:
 updater:
 config:
 sun:
+lovelace: !include config/lovelace.yaml
 http: !include config/http.yaml
 history: !include config/history.yaml
 logbook: !include config/logbook.yaml
@@ -63,8 +62,8 @@ camera: !include config/camera.yaml
 notify: !include config/notify.yaml
 ring: !include config/ring.yaml
 #downloader: !include config/downloader.yaml
-#vera: !include config/vera.yaml
 abode: !include config/abode.yaml
+system_health:
 #google: !include config/google.yaml
 #owntracks: !include config/owntracks.yaml
 
