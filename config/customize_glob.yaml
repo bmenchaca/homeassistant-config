@@ -14,6 +14,16 @@
   hidden: true
 "sensor.*_interval*":
   hidden: true
+"sensor.*_awair_score*":
+  hidden: true
+"sensor.*_voltage":
+  hidden: true
+"sensor.*_current":
+  hidden: true
+"sensor.*_exporting":
+  hidden: true
+"sensor.*_reading*":
+  hidden: true
 "sensor.*_multisensor_luminance":
   hidden: true
 "sensor.*_multisensor_ultraviolet":
