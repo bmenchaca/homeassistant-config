@@ -54,6 +54,22 @@
 
 - platform: template
   sensors:
+    office_temperature:
+      friendly_name: 'Office Temperature'
+      value_template: " {{ states('sensor.office_awair_temperature') | round(1) }} "
+    office_humidity:
+      friendly_name: 'Office Humidity'
+      value_template: " {{ states('sensor.office_awair_humidity') | round(1) }} "
+    master_temperature:
+      friendly_name: 'Master Temperature'
+      value_template: " {{ states('sensor.master_awair_temperature') | round(1) }} "
+    master_humidity:
+      friendly_name: 'Master Humidity'
+      value_template: " {{ states('sensor.master_awair_humidity') | round(1) }} "
+
+
+- platform: template
+  sensors:
     susan_garage_status:
       friendly_name: 'Susan Door Status'
       value_template: >-
