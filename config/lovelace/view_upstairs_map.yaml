@@ -1,0 +1,12 @@
+title: Upstairs Floorplan
+icon: mdi:home-outline
+cards:
+  - type: picture-elements
+    image: /local/upstairs.svg
+    title: Upstairs
+    elements:
+      - type: state-icon
+        entity: binary_sensor.office_occupancy
+        tap_action: more_info
+        style: { top: 50%,left: 50% }
+            

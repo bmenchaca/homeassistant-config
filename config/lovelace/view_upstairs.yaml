@@ -1,0 +1,81 @@
+title: main
+icon: mdi:home-outline
+cards:
+  - type: glance
+    title: Office
+    show_state: false
+    entities:
+      - entity: light.office_fan_dimmer
+        name: Fan Lights
+        icon: mdi:ceiling-light
+        tap_action:
+          action: toggle
+      - entity: switch.office_fan
+        name: Fan
+        icon: mdi:fan
+        tap_action:
+          action: toggle
+      - entity: switch.office_lamp
+        name: Floor Lamp
+        icon: mdi:floor-lamp
+        tap_action:
+          action: toggle
+      - entity: light.office_go
+        name: Go Lamp
+        icon: mdi:desk-lamp
+        tap_action:
+          action: toggle
+      - entity: switch.office_heater
+        name: Heater
+        icon: mdi:radiator
+        tap_action:
+          action: toggle
+      - entity: binary_sensor.office_occupancy
+        name: Occupancy
+        icon: mdi:walk
+      - sensor.office_awair_temperature
+      - sensor.office_awair_humidity
+          #      - sensor.office_awair_co2
+          #      - sensor.office_awair_voc
+      - binary_sensor.office_window_1
+      - binary_sensor.office_window_2
+  - type: glance
+    title: Boy's Hall
+    show_state: false
+    entities:
+      - entity: switch.boys_hall_light
+        name: Light Switch
+        icon: mdi:ceiling-light
+        tap_action:
+          action: toggle
+      - entity: binary_sensor.boys_hall_occupancy
+        name: Occupancy
+        icon: mdi:walk
+  - type: glance
+    title: Boy's Bathroom
+    show_state: false
+    entities:
+      - entity: switch.boys_bathroom_light
+        name: Light Switch
+        icon: mdi:ceiling-light
+        tap_action:
+          action: toggle
+      - entity: binary_sensor.boys_bathroom_occupancy
+        name: Occupancy
+        icon: mdi:walk
+  - type: glance
+    title: Noah's Room
+    show_state: false
+    entities:
+      - entity: light.noah
+        name: All Lights
+        icon: mdi:ceiling-light
+        tap_action:
+          action: toggle
+      - entity: binary_sensor.noah_multisensor_motion
+        name: Occupancy
+        icon: mdi:walk
+      - sensor.noah_multisensor_temperature
+      - entity: sensor.noah_multisensor_humidity
+        name: Humidity
+        icon: mdi:water-percent
