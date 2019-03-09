@@ -10,7 +10,7 @@ homeassistant:
   unit_system: imperial
   time_zone: !secret timezone
   customize: !include customize.yaml
-  customize_glob: !include config/customize_glob.yaml
+  #customize_glob: !include config/customize_glob.yaml
 
 # Allow IOS device autodiscovery and location tracking
 #ios:
