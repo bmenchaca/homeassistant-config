@@ -1,12 +1,144 @@
 title: Upstairs Floorplan
 icon: mdi:home-outline
+panel: true
 cards:
-  - type: picture-elements
-    image: /local/upstairs.svg
-    title: Upstairs
-    elements:
-      - type: state-icon
-        entity: binary_sensor.office_occupancy
-        tap_action: more_info
-        style: { top: 50%,left: 50% }
-            
+  - type: vertical-stack
+    cards:
+    - type: custom:plan-coordinates
+    - type: picture-elements
+      image: /local/upstairs.svg
+      title: Upstairs
+      elements:
+###############################################################################
+# Office Elements
+###############################################################################
+        - type: state-icon
+          entity: light.office_fan_lights
+          tap_action:
+            action: toggle
+          style: 
+            left: 82.75%
+            top: 78.5%
+            transform: scale(2, 2)
+        - type: image
+          entity: switch.office_fan
+          tap_action:
+            action: toggle
+          state_image:
+            "on": /local/fan.gif
+            "off": /local/fan-off.png
+          style: 
+            left: 84%
+            top: 75%
+        - type: state-icon
+          entity: switch.office_heater
+          tap_action:
+            action: toggle
+          style:
+            left: 94%
+            top: 95.25%
+            transform: scale(2, 2)
+        - type: state-icon
+          entity: switch.office_lamp
+          tap_action:
+            action: toggle
+          style: 
+            left: 68.75%
+            top: 95%
+            transform: scale(2, 2)
+        - type: image
+          entity: binary_sensor.office_window_1
+          filter: opacity(0.3)
+          state_image:
+            "on": /local/window-open.png
+            "off": /local/window-closed.png
+          state_filter:
+            "on": opacity(1)
+          style:  
+            left: 92%
+            top: 98%
+        - type: image
+          entity: binary_sensor.office_window_2
+          filter: opacity(0.3)
+          state_image:
+            "on": /local/window-open.png
+            "off": /local/window-closed.png
+          state_filter:
+            "on": opacity(1)
+          style:  
+            left: 76%
+            top: 98%
+        - type: state-icon
+          entity: light.office_go
+          tap_action:
+            action: toggle
+          style:
+            left: 96%
+            top: 91%
+            transform: scale(2, 2)
+        - type: state-label
+          entity: sensor.office_temperature
+          suffix: "F"
+          style:
+            left: 71%
+            top: 60%
+            text-align: left
+        - type: state-label
+          entity: sensor.office_humidity
+          suffix: "%"
+          style:
+            left: 71%
+            top: 61.5%
+            text-align: left
+###############################################################################
+# Boy's Hall Elements
+###############################################################################
+        - type: state-icon
+          entity: switch.boys_hall_light
+          tap_action:
+            action: toggle
+          style:
+            left: 78%
+            top: 48%
+            transform: scale(2, 2)
+###############################################################################
+# Boy's Bathroom Elements
+###############################################################################
+        - type: state-icon
+          entity: switch.boys_bathroom_light
+          tap_action:
+            action: toggle
+          style:
+            left: 84%
+            top: 49.5%
+            transform: scale(2, 2)
+###############################################################################
+# Noah's Room Elements
+###############################################################################
+        - type: state-label
+          entity: sensor.noah_multisensor_temperature
+          style:
+            left: 74.5%
+            top: 23%
+            text-align: left
+        - type: state-label
+          entity: sensor.noah_multisensor_humidity
+          style:
+            left: 74.5%
+            top: 24.5%
+            text-align: left
+        - type: image
+          entity: binary_sensor.noah_room_window_2
+          filter: opacity(0.3)
+          state_image:
+            "on": /local/window-open.png
+            "off": /local/window-closed.png
+          state_filter:
+            "on": opacity(1)
+          style:  
+            left: 88.25%
+            top: 2%
+###############################################################################
+# Gallery Elements
+###############################################################################
+

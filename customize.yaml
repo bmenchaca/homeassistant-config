@@ -2,7 +2,7 @@ binary_sensor.office_occupancy:
   icon: mdi:walk
 switch.office_fan:
   icon: mdi:fan
-light.office_fan_dimmer:
+light.office_fan_lights:
   icon: mdi:ceiling-light
 switch.office_heater:
   icon: mdi:radiator

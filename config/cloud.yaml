@@ -5,7 +5,7 @@ alexa:
       - light.game_room
       - light.master_vanity_dimmer
       - light.master_fan_lights_dimmer
-      - light.office_fan_dimmer
+      - light.office_fan_lights
     include_domains:
       - scene
       - switch
@@ -31,7 +31,7 @@ alexa:
       name: Master Bath Lights
     light.master_fan_lights_dimmer:
       name: Master Fan Lights
-    light.office_fan_dimmer:
+    light.office_fan_lights:
       name: Office Lights
     switch.back_porch_lights:
       name: Back Porch Lights

@@ -5,7 +5,7 @@ cards:
     title: Office
     show_state: false
     entities:
-      - entity: light.office_fan_dimmer
+      - entity: light.office_fan_lights
         name: Fan Lights
         icon: mdi:ceiling-light
         tap_action:
