@@ -12,3 +12,9 @@ binary_sensor.office_window_1:
   icon: mdi:window-closed
 binary_sensor.office_window_2:
   icon: mdi:window-closed
+light.office_go:
+  icon: mdi:desk-lamp
+switch.boys_hall_light:
+  icon: mdi:lightbulb
+switch.boys_bathroom_light:
+  icon: mdi:lightbulb
