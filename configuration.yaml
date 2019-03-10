@@ -9,6 +9,7 @@ homeassistant:
   # metric for Metric, imperial for Imperial
   unit_system: imperial
   time_zone: !secret timezone
+  customize: !include customize.yaml
 
 # Allow IOS device autodiscovery and location tracking
 #ios:
