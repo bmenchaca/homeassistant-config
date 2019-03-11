@@ -30,14 +30,16 @@ cards:
           style: 
             left: 84%
             top: 75%
-        - type: state-icon
+        - type: image
           entity: switch.office_heater
           tap_action:
             action: toggle
+          state_image:
+            "on": /local/radiator-on.png
+            "off": /local/radiator-off.png
           style:
-            left: 94%
-            top: 95.25%
-            transform: scale(2, 2)
+            left: 95%
+            top: 96%
         - type: state-icon
           entity: switch.office_lamp
           tap_action:
@@ -141,4 +143,127 @@ cards:
 ###############################################################################
 # Gallery Elements
 ###############################################################################
-
+        - type: state-icon
+          entity: switch.gallery_lights
+          tap_action:
+            action: toggle
+          style: 
+            left: 48.50%
+            top: 48%
+            transform: scale(2, 2)
+###############################################################################
+# Girl's Hall Elements
+###############################################################################
+        - type: state-icon
+          entity: switch.girls_hall_lights
+          tap_action:
+            action: toggle
+          style:
+            right: 70%
+            top: 52%
+            transform: scale(2, 2)
+###############################################################################
+# Game Room Elements
+###############################################################################
+        - type: state-icon
+          entity: light.game_room_fan
+          tap_action:
+            action: toggle
+          style: 
+            left: 48.50%
+            top: 78.5%
+            transform: scale(2, 2)
+        - type: image
+          entity: switch.game_room_fan
+          tap_action:
+            action: toggle
+          state_image:
+            "on": /local/fan.gif
+            "off": /local/fan-off.png
+          style: 
+            left: 50%
+            top: 75%
+        - type: image
+          entity: binary_sensor.game_room_window_1
+          filter: opacity(0.3)
+          state_image:
+            "on": /local/window-open.png
+            "off": /local/window-closed.png
+          state_filter:
+            "on": opacity(1)
+          style:  
+            left: 57.75%
+            top: 98%
+        - type: image
+          entity: binary_sensor.game_room_window_2
+          filter: opacity(0.3)
+          state_image:
+            "on": /local/window-open.png
+            "off": /local/window-closed.png
+          state_filter:
+            "on": opacity(1)
+          style:  
+            left: 50%
+            top: 98%
+        - type: image
+          entity: binary_sensor.game_room_window_3
+          filter: opacity(0.3)
+          state_image:
+            "on": /local/window-open.png
+            "off": /local/window-closed.png
+          state_filter:
+            "on": opacity(1)
+          style:  
+            left: 42%
+            top: 98%
+###############################################################################
+# Stairs Elements
+###############################################################################
+        - type: state-icon
+          entity: switch.stairs_lights
+          tap_action:
+            action: toggle
+          style: 
+            left: 48.50%
+            top: 36%
+            transform: scale(2, 2)
+###############################################################################
+# Hannah's Room Elements
+###############################################################################
+        - type: state-label
+          entity: sensor.hannah_multisensor_temperature
+          style:
+            left: 4%
+            top: 74%
+            text-align: left
+        - type: state-label
+          entity: sensor.hannah_multisensor_humidity
+          style:
+            left: 4%
+            top: 75.5%
+            text-align: left
+###############################################################################
+# Heidi's Room Elements
+###############################################################################
+        - type: state-label
+          entity: sensor.heidi_multisensor_temperature
+          style:
+            left: 26%
+            top: 15%
+            text-align: left
+        - type: state-label
+          entity: sensor.heidi_multisensor_humidity
+          style:
+            left: 26%
+            top: 16.5%
+            text-align: left
+        - type: image
+          entity: switch.heidi_heater
+          tap_action:
+            action: toggle
+          state_image:
+            "on": /local/radiator-on.png
+            "off": /local/radiator-off.png
+          style:
+            left: 28%
+            top: 28%

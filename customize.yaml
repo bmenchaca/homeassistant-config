@@ -18,3 +18,13 @@ switch.boys_hall_light:
   icon: mdi:lightbulb
 switch.boys_bathroom_light:
   icon: mdi:lightbulb
+switch.girls_hall_lights:
+  icon: mdi:lightbulb
+switch.game_room_fan:
+  icon: mdi:ceiling-light
+light.game_room_fan:
+  icon: mdi:ceiling-light
+switch.gallery_lights:
+  icon: mdi:ceiling-light
+switch.stairs_lights:
+  icon: mdi:ceiling-light
