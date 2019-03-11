@@ -225,7 +225,7 @@ cards:
             action: toggle
           style: 
             left: 48.50%
-            top: 36%
+            top: 35%
             transform: scale(2, 2)
 ###############################################################################
 # Hannah's Room Elements
@@ -267,3 +267,19 @@ cards:
           style:
             left: 28%
             top: 28%
+        - type: state-icon
+          entity: light.heidi_bed_lightstrip
+          tap_action:
+            action: toggle
+          style: 
+            left: 10.5%
+            top: 5.5%
+            transform: scale(2, 2)
+        - type: state-icon
+          entity: switch.heidi_stairs_lights
+          tap_action:
+            action: toggle
+          style: 
+            left: 48.50%
+            top: 35%
+            transform: scale(2, 2)

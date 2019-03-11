@@ -28,3 +28,5 @@ switch.gallery_lights:
   icon: mdi:ceiling-light
 switch.stairs_lights:
   icon: mdi:ceiling-light
+light.heidi_bed_lightstrip:
+  icon: mdi:light-switch
