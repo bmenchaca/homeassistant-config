@@ -91,3 +91,107 @@
         data_template:
           brightness: " {{ brightness }} "
 
+# Fan Light Groups
+- platform: group
+  name: Heidi Fan Lights
+  entities:
+    - light.heidi_fan_bulb_1
+    - light.heidi_fan_bulb_2
+    - light.heidi_fan_bulb_color
+
+- platform: group
+  name: Noah Fan Lights
+  entities:
+    - light.noah_fan_bulb_1
+    - light.noah_fan_bulb_2
+    - light.noah_fan_bulb_color
+
+- platform: group
+  name: Hannah Fan Lights
+  entities:
+    - light.hannah_fan_bulb_1
+    - light.hannah_fan_bulb_2
+    - light.hannah_fan_bulb_color
+
+- platform: group
+  name: Guest Fan Lights
+  entities:
+    - light.guest_fan_bulb_1
+    - light.guest_fan_bulb_2
+    - light.guest_fan_bulb_3
+    - light.guest_fan_bulb_4
+
+# Room Light Groups
+- platform: group
+  name: Heidi Room Lights
+  entities:
+    - light.heidi_fan_bulb_1
+    - light.heidi_fan_bulb_2
+    - light.heidi_fan_bulb_color
+    - light.heidi_go
+    - light.heidi_bed_lightstrip
+    - light.heidi_closet
+
+- platform: group
+  name: Hannah Room Lights
+  entities:
+    - light.hannah_fan_bulb_1
+    - light.hannah_fan_bulb_2
+    - light.hannah_fan_bulb_color
+    - light.hannah_bed_lightstrip
+    - light.hannah_lamp
+
+- platform: group
+  name: Noah Room Lights
+  entities:
+    - light.noah_fan_bulb_1
+    - light.noah_fan_bulb_2
+    - light.noah_fan_bulb_color
+    - light.noah_bed_lightstrip
+    - light.noah_lamp
+
+- platform: group
+  name: Master Hall Lights
+  entities:
+    - light.master_hall_bulb_1
+    - light.master_hall_bulb_2
+    - light.master_hall_bulb_3
+  
+- platform: group
+  name: Guest Bath Lights
+  entities:
+    - light.guest_bath_bulb_1
+    - light.guest_bath_bulb_2
+    - light.guest_bath_bulb_color
+
+- platform: group
+  name: Back Yard Lights
+  entities:
+    - light.pool_pump_center_calla
+    - light.pool_pump_deck_calla
+    - light.pool_pump_gate_calla
+    - light.deck_pool_stairs_calla
+    - light.deck_big_tree_spot
+    - light.deck_bar_lightstrip
+    - light.deck_bar_lightstrip_2
+    - light.deck_breakfast_stairs_lightstrip
+    - light.deck_lower_railing_lightstrip
+    - light.deck_lower_lightstrip
+    - light.back_porch_light
+
+- platform: group
+  name: Pool Pump Lights
+  entities:
+    - light.pool_pump_center_calla
+    - light.pool_pump_deck_calla
+    - light.pool_pump_gate_calla
+
+- platform: group
+  name: Back Deck Lights
+  entities:
+    - light.deck_bar_lightstrip
+    - light.deck_bar_lightstrip_2
+    - light.deck_breakfast_stairs_lightstrip
+    - light.deck_lower_railing_lightstrip
+    - light.deck_lower_lightstrip
+    - light.back_porch_light
