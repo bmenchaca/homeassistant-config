@@ -276,10 +276,20 @@ cards:
             top: 5.5%
             transform: scale(2, 2)
         - type: state-icon
-          entity: switch.heidi_stairs_lights
+          entity: light.heidi_fan_lights
           tap_action:
             action: toggle
           style: 
-            left: 48.50%
-            top: 35%
+            left: 13.75%
+            top: 23%
             transform: scale(2, 2)
+        - type: image
+          entity: switch.heidi_fan_and_lights
+          tap_action:
+            action: toggle
+          state_image:
+            "on": /local/fan.gif
+            "off": /local/fan-off.png
+          style: 
+            left: 15%
+            top: 21%
