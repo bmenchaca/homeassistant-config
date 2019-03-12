@@ -13,7 +13,7 @@ binary_sensor.office_window_1:
 binary_sensor.office_window_2:
   icon: mdi:window-closed
 light.office_go:
-  icon: mdi:desk-lamp
+  icon: mdi:wall-sconce-variant
 switch.boys_hall_light:
   icon: mdi:lightbulb
 switch.boys_bathroom_light:
@@ -29,4 +29,6 @@ switch.gallery_lights:
 switch.stairs_lights:
   icon: mdi:ceiling-light
 light.heidi_bed_lightstrip:
-  icon: mdi:light-switch
+  icon: mdi:lightbulb
+light.heidi_fan_lights:
+  icon: mdi:ceiling-light
