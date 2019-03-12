@@ -1,0 +1,20 @@
+title: Upstairs Floorplan
+icon: mdi:home-outline
+panel: true
+cards:
+  - type: vertical-stack
+    cards:
+    - type: custom:plan-coordinates
+    - type: picture-elements
+      image: /local/upstairs.svg
+      title: Upstairs
+      elements:
+###############################################################################
+# Office Elements
+###############################################################################
+        - type: state-icon
+          entity: light.office_fan_lights
+          tap_action:
+            action: toggle
+          style: 
+            left: 82.75%
