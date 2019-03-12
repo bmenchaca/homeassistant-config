@@ -6,15 +6,88 @@ cards:
     cards:
     - type: custom:plan-coordinates
     - type: picture-elements
-      image: /local/upstairs.svg
-      title: Upstairs
+      image: /local/downstairs.svg
+      title: Downstairs
       elements:
 ###############################################################################
-# Office Elements
+# Stairs Elements
 ###############################################################################
         - type: state-icon
-          entity: light.office_fan_lights
+          entity: switch.stairs_lights
           tap_action:
             action: toggle
           style: 
-            left: 82.75%
+            left: 44.5%
+            top: 60%
+            transform: scale(2, 2)
+###############################################################################
+# Porch Elements
+###############################################################################
+        - type: state-icon
+          entity: switch.front_porch_lights
+          tap_action:
+            action: toggle
+          style: 
+            left: 14%
+            top: 62%
+            transform: scale(2, 2)
+###############################################################################
+# Entry Elements
+###############################################################################
+        - type: state-icon
+          entity: switch.entry_lights
+          tap_action:
+            action: toggle
+          style: 
+            left: 29.25%
+            top: 73%
+            transform: scale(2, 2)
+        - type: state-icon
+          entity: switch.entry_lights
+          tap_action:
+            action: toggle
+          style: 
+            left: 51.5%
+            top: 73%
+            transform: scale(2, 2)
+        - type: state-icon
+          entity: light.entry_lamp
+          tap_action:
+            action: toggle
+          style: 
+            left: 40%
+            top: 50%
+            transform: scale(2, 2)
+        - type: image
+          entity: binary_sensor.entry_window_1
+          filter: opacity(0.3)
+          state_image:
+            "on": /local/window-open.png
+            "off": /local/window-closed.png
+          state_filter:
+            "on": opacity(1)
+          style:  
+            left: 22%
+            top: 64%
+        - type: image
+          entity: binary_sensor.entry_window_2
+          filter: opacity(0.3)
+          state_image:
+            "on": /local/window-open.png
+            "off": /local/window-closed.png
+          state_filter:
+            "on": opacity(1)
+          style:  
+            left: 22%
+            top: 54.5%
+###############################################################################
+# Guest Hall Elements
+###############################################################################
+        - type: state-icon
+          entity: switch.guest_hall_lights
+          tap_action:
+            action: toggle
+          style: 
+            left: 29.25%
+            top: 81%
+            transform: scale(2, 2)

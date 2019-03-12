@@ -76,7 +76,7 @@
     switch.breakfast_lights: off
     switch.entry_lights: off
     switch.guest_batroom_lights_switch: off
-    switch.guest_hallway_lights: off
+    switch.guest_hall_lights: off
     light.family_room_dimmer: off
     switch.family_mantle_lights: on
 
@@ -98,7 +98,7 @@
     switch.back_porch_lights: off
     switch.front_porch_lights: off
     switch.garage_lights: off
-    switch.guest_hallway_lights: off
+    switch.guest_hall_lights: off
     light.office_fan_lights: off
     light.back_yard: off
     cover.ben_garage: closed

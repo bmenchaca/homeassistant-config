@@ -85,7 +85,7 @@ guest_room:
 guest_hall:
   name: Guest Hall
   entities:
-    - switch.guest_hallway_lights
+    - switch.guest_hall_lights
 
 guest_bath:
   name: Guest Bath

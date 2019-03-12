@@ -38,3 +38,9 @@ light.noah_fan_lights:
   icon: mdi:ceiling-light
 light.hannah_fan_lights:
   icon: mdi:ceiling-light
+switch.front_porch_lights:
+  icon: mdi:ceiling-light
+switch.entry_lights:
+  icon: mdi:ceiling-light
+light.entry_lamp:
+  icon: mdi:floor-lamp

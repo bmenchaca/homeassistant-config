@@ -103,7 +103,7 @@
             - switch.front_porch_lights
             - switch.garage_lights
             - switch.garage_carriage_lights
-            - switch.guest_hallway_lights
+            - switch.guest_hall_lights
             - switch.guest_batroom_lights_switch
             - switch.kitchen_lights
             - switch.laundry_closet_lights
