@@ -44,3 +44,5 @@ switch.entry_lights:
   icon: mdi:ceiling-light
 light.entry_lamp:
   icon: mdi:floor-lamp
+switch.guest_hall_lights:
+  icon: mdi:ceiling-light

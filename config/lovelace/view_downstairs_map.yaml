@@ -91,3 +91,14 @@ cards:
             left: 29.25%
             top: 81%
             transform: scale(2, 2)
+###############################################################################
+# Guest Bath Elements
+###############################################################################
+        - type: state-icon
+          entity: switch.guest_bath_lights
+          tap_action:
+            action: toggle
+          style: 
+            left: 29.25%
+            top: 81%
+            transform: scale(2, 2)
