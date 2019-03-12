@@ -32,3 +32,9 @@ light.heidi_bed_lightstrip:
   icon: mdi:lightbulb
 light.heidi_fan_lights:
   icon: mdi:ceiling-light
+light.noah_lamp:
+  icon: mdi:lamp
+light.noah_fan_lights:
+  icon: mdi:ceiling-light
+light.hannah_fan_lights:
+  icon: mdi:ceiling-light

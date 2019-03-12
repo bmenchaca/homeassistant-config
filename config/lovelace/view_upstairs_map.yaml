@@ -75,7 +75,7 @@ cards:
           tap_action:
             action: toggle
           style:
-            left: 96%
+            left: 95.5%
             top: 91%
             transform: scale(2, 2)
         - type: state-label
@@ -140,6 +140,30 @@ cards:
           style:  
             left: 88.25%
             top: 2%
+        - type: state-icon
+          entity: light.noah_lamp
+          tap_action:
+            action: toggle
+          style:
+            left: 73%
+            top: 18%
+            transform: scale(2, 2)
+        - type: state-icon
+          entity: light.noah_bed_lightstrip
+          tap_action:
+            action: toggle
+          style:
+            left: 95%
+            top: 12%
+            transform: scale(2, 2)
+        - type: state-icon
+          entity: light.noah_fan_lights
+          tap_action:
+            action: toggle
+          style:
+            left: 85%
+            top: 20%
+            transform: scale(2, 2)
 ###############################################################################
 # Gallery Elements
 ###############################################################################
@@ -242,6 +266,52 @@ cards:
             left: 4%
             top: 75.5%
             text-align: left
+        - type: state-icon
+          entity: light.hannah_fan_lights
+          tap_action:
+            action: toggle
+          style: 
+            left: 14%
+            top: 78.5%
+            transform: scale(2, 2)
+        - type: state-icon
+          entity: light.hannah_lamp
+          tap_action:
+            action: toggle
+          style: 
+            left: 3%
+            top: 92%
+            transform: scale(2, 2)
+        - type: state-icon
+          entity: light.hannah_bed_lightstrip
+          tap_action:
+            action: toggle
+          style: 
+            left: 19%
+            top: 93%
+            transform: scale(2, 2)
+        - type: image
+          entity: binary_sensor.hannah_window_1
+          filter: opacity(0.3)
+          state_image:
+            "on": /local/window-open.png
+            "off": /local/window-closed.png
+          state_filter:
+            "on": opacity(1)
+          style:  
+            left: 5.5%
+            top: 95.75%
+        - type: image
+          entity: binary_sensor.hannah_window_2
+          filter: opacity(0.3)
+          state_image:
+            "on": /local/window-open.png
+            "off": /local/window-closed.png
+          state_filter:
+            "on": opacity(1)
+          style:  
+            left: 2%
+            top: 92%
 ###############################################################################
 # Heidi's Room Elements
 ###############################################################################
@@ -293,3 +363,25 @@ cards:
           style: 
             left: 15%
             top: 21%
+        - type: image
+          entity: binary_sensor.heidi_window_1
+          filter: opacity(0.3)
+          state_image:
+            "on": /local/window-open.png
+            "off": /local/window-closed.png
+          state_filter:
+            "on": opacity(1)
+          style:  
+            left: 2%
+            top: 27.75%
+        - type: image
+          entity: binary_sensor.heidi_window_2
+          filter: opacity(0.3)
+          state_image:
+            "on": /local/window-open.png
+            "off": /local/window-closed.png
+          state_filter:
+            "on": opacity(1)
+          style:  
+            left: 2%
+            top: 9.75%
