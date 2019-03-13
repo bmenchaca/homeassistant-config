@@ -54,13 +54,16 @@
   alias: Backyard Lights Evening On
   entities: 
     switch.back_porch_lights: on
-    light.back_yard: on
+    light.back_yard_lights:
+      state: on
+      color_temp: 429
+      brightness: 254
 
 - name: backyard_lights_off
   alias: Back Yard Lights Off
   entities: 
     switch.back_porch_lights: off
-    light.back_yard: off
+    light.back_yard_lights: off
          
 - name: evening_tv_time
   entities:
@@ -100,7 +103,7 @@
     switch.garage_lights: off
     switch.guest_hall_lights: off
     light.office_fan_lights: off
-    light.back_yard: off
+    light.back_yard_lights: off
     cover.ben_garage: closed
     cover.susan_garage: closed
 
