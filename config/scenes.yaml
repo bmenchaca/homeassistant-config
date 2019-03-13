@@ -131,7 +131,6 @@
     light.guest_bath_2: off
     light.guest_bath_color:
       state: on
-      brightness: 10
-      rgb_color: [20, 0, 0]
+      rgb_color: [10, 0, 0]
 
 
