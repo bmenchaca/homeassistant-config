@@ -8,6 +8,7 @@
 !*.py
 !*/
 !submodules/**
+!custom_components/**
 !www/**
 deps/**
 secrets.yaml
