@@ -1,6 +1,6 @@
 [submodule "submodules/custom_updater"]
 	path = submodules/custom_updater
 	url = git@github.com:custom-components/custom_updater.git
-[submodule "submodules/homeassistant-config"]
-	path = submodules/homeassistant-config
+[submodule "submodules/pnbruckner-homeassistant-config"]
+	path = submodules/pnbruckner-homeassistant-config
 	url = git@github.com:pnbruckner/homeassistant-config.git
