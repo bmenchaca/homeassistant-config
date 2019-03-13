@@ -1,0 +1,6 @@
+[submodule "submodules/entity-controller"]
+	path = submodules/entity-controller
+	url = git@github.com:danobot/entity-controller.git
+[submodule "submodules/custom_updater"]
+	path = submodules/custom_updater
+	url = git@github.com:custom-components/custom_updater.git
