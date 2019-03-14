@@ -48,3 +48,5 @@ switch.guest_hall_lights:
   icon: mdi:ceiling-light
 switch.guest_bath_lights:
   icon: mdi:lightbulb
+light.guest_fan_lights:
+  icon: mdi:ceiling-light
