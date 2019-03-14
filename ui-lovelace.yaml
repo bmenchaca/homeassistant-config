@@ -3,5 +3,6 @@ resources:
     type: js
 
 views:
+  - !include config/lovelace/overview.yaml
   - !include config/lovelace/view_downstairs_map.yaml
   - !include config/lovelace/view_upstairs_map.yaml
