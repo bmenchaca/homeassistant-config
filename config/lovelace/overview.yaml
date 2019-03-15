@@ -1,24 +1,74 @@
 title: Overview
 icon: mdi:monitor
-panel: true
 cards:
   - type: custom:mini-graph-card
     name: Master Temperature
     entities:
-      - sensor.master_temperature
+      - sensor.master_awair_temperature
     points_per_hour: 1
     hours_to_show: 24
     animate: true
-    height: 50
-    lower_bound: 65
-    upper_bound: 80
+    extrema: true
+    decimals: 1
   - type: custom:mini-graph-card
-    name: Master Temperature
+    name: Guest Temperature
     entities:
-      - sensor.guest_temperature
+      - sensor.guest_awair_temperature
     points_per_hour: 1
     hours_to_show: 24
     animate: true
-    height: 50
-    lower_bound: 65
-    upper_bound: 80
+    extrema: true
+    decimals: 1
+  - type: custom:mini-graph-card
+    name: Office Temperature
+    entities:
+      - sensor.office_awair_temperature
+    points_per_hour: 1
+    hours_to_show: 24
+    animate: true
+    extrema: true
+    decimals: 1
+  - type: custom:mini-graph-card
+    name: Heidi's Room Temperature
+    entities:
+      - sensor.heidi_multisensor_temperature
+    points_per_hour: 1
+    hours_to_show: 24
+    color: 
+    animate: true
+    extrema: true
+    decimals: 1
+  - type: custom:mini-graph-card
+    name: Noah's Room Temperature
+    entities:
+      - sensor.noah_multisensor_temperature
+    points_per_hour: 1
+    hours_to_show: 24
+    color: 
+    animate: true
+    extrema: true
+    decimals: 1
+  - type: custom:mini-graph-card
+    name: Hannah's Room Temperature
+    entities:
+      - sensor.hannah_multisensor_temperature
+    points_per_hour: 1
+    hours_to_show: 24
+    color: 
+    animate: true
+    extrema: true
+    decimals: 1
+  - type: custom:surveillance-card
+    thumb_interval: 5
+    update_interval: 2
+    cameras:
+      - entity: camera.front_east_guest_camera
+      - entity: camera.front_door_camera
+      - entity: camera.front_driveway_camera
+      - entity: camera.west_gate_camera
+      - entity: camera.back_deck_camera
+      - entity: camera.back_east_gate_camera
+      - entity: camera.back_playscape_camera
+      - entity: camera.back_pool_camera
+      - entity: camera.back_west_garden_camera
+      - entity: camera.east_side_yard_camera
