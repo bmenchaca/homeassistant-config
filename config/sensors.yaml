@@ -12,6 +12,7 @@
   devices:
     - uuid: !secret awair_master_uuid
     - uuid: !secret awair_office_uuid
+    - uuid: !secret awair_guest_uuid
 
 #- platform: wunderground
 #  api_key: !secret wunderground_api_key
@@ -66,6 +67,12 @@
     master_humidity:
       friendly_name: 'Master Humidity'
       value_template: " {{ states('sensor.master_awair_humidity') | round(1) }} "
+    guest_temperature:
+      friendly_name: 'Guest Temperature'
+      value_template: " {{ states('sensor.guest_awair_temperature') | round(1) }} "
+    guest_humidity:
+      friendly_name: 'Guest Humidity'
+      value_template: " {{ states('sensor.guest_awair_humidity') | round(1) }} "
 
 
 - platform: template
