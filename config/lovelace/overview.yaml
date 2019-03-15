@@ -2,8 +2,23 @@ title: Overview
 icon: mdi:monitor
 panel: true
 cards:
-  - type: vertical-stack
-    cards:
-      - type: custom:mini-graph-card
-        entities:
-          - sensor.master_awair_temperature
+  - type: custom:mini-graph-card
+    name: Master Temperature
+    entities:
+      - sensor.master_temperature
+    points_per_hour: 1
+    hours_to_show: 24
+    animate: true
+    height: 50
+    lower_bound: 65
+    upper_bound: 80
+  - type: custom:mini-graph-card
+    name: Master Temperature
+    entities:
+      - sensor.guest_temperature
+    points_per_hour: 1
+    hours_to_show: 24
+    animate: true
+    height: 50
+    lower_bound: 65
+    upper_bound: 80
