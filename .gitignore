@@ -10,5 +10,9 @@
 !submodules/**
 !custom_components/**
 !www/**
+*.pyc
+**__pycache__/
 deps/**
 secrets.yaml
+  
+
