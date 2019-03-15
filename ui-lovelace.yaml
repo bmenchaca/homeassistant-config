@@ -3,8 +3,7 @@ resources:
     type: js
   - url: /local/mini-graph-card-bundle.js?v=0.3.0
     type: module
-
 views:
   - !include config/lovelace/overview.yaml
-  - !include config/lovelace/view_downstairs_map.yaml
-  - !include config/lovelace/view_upstairs_map.yaml
+  - !include config/lovelace/downstairs_map.yaml
+  - !include config/lovelace/upstairs_map.yaml
