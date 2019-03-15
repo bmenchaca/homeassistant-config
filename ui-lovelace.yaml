@@ -1,6 +1,8 @@
 resources:
   - url: /local/plan-coordinates.js?v=1
     type: js
+  - url: /local/mini-graph-card-bundle.js?v=0.3.0
+    type: module
 
 views:
   - !include config/lovelace/overview.yaml
