@@ -4,3 +4,12 @@
 [submodule "submodules/pnbruckner-homeassistant-config"]
 	path = submodules/pnbruckner-homeassistant-config
 	url = git@github.com:pnbruckner/homeassistant-config.git
+[submodule "submodules/lovelace-card-tools"]
+	path = submodules/lovelace-card-tools
+	url = git@github.com:thomasloven/lovelace-card-tools.git
+[submodule "submodules/lovelace-popup-card"]
+	path = submodules/lovelace-popup-card
+	url = git@github.com:thomasloven/lovelace-popup-card.git
+[submodule "submodules/compact-custom-header"]
+	path = submodules/compact-custom-header
+	url = git@github.com:maykar/compact-custom-header.git
