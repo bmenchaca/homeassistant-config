@@ -3,6 +3,11 @@
     - ding
     - motion
 
+- platform: hikvision
+  host: !secret alibi_dvr_ip
+  username: !secret alibi_rtsp_username
+  password: !secret alibi_rtsp_password
+
 #Occupancy Template Sensors
 - platform: template
   sensors:

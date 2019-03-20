@@ -13,3 +13,6 @@
 [submodule "submodules/compact-custom-header"]
 	path = submodules/compact-custom-header
 	url = git@github.com:maykar/compact-custom-header.git
+[submodule "submodules/alexa_media_player"]
+	path = submodules/alexa_media_player
+	url = git@github.com:keatontaylor/alexa_media_player.git
