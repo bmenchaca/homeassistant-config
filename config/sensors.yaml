@@ -147,19 +147,19 @@
         {% endif %}
 
 - platform: waze_travel_time
-  name: "Ben to Home"
+  name: "Waze Ben to Home"
   origin: device_tracker.life360_ben
   destination: zone.home
   region: 'US'
 
 - platform: waze_travel_time
-  name: "Susan to Home"
+  name: "Waze Susan to Home"
   origin: device_tracker.life360_susan
   destination: zone.home
   region: 'US'
 
 - platform: waze_travel_time
-  name: "Heidi to Home"
+  name: "Waze Heidi to Home"
   origin: device_tracker.life360_heidi
   destination: zone.home
   region: 'US'
