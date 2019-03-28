@@ -54,7 +54,7 @@
   alias: Backyard Lights Evening On
   entities: 
     switch.back_porch_lights: on
-    light.back_yard_lights:
+    light.back_yard:
       state: on
       color_temp: 429
       brightness: 254
