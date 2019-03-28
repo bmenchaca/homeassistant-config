@@ -59,6 +59,7 @@ camera: !include config/camera.yaml
 notify: !include config/notify.yaml
 ring: !include config/ring.yaml
 abode: !include config/abode.yaml
+rachio: !include config/rachio.yaml
 system_health:
 #google: !include config/google.yaml
 
