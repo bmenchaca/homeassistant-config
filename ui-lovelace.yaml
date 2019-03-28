@@ -14,5 +14,6 @@ resources:
 views:
   - !include config/lovelace/phone.yaml
   - !include config/lovelace/overview.yaml
+  - !include config/lovelace/downstairs-security.yaml
   #- !include config/lovelace/downstairs_map.yaml
   #- !include config/lovelace/upstairs_map.yaml
