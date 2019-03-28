@@ -1,0 +1,24 @@
+title: Upstairs Floorplan
+icon: mdi:shield-home
+panel: true
+cards:
+  - type: picture-elements
+    image: /local/images/downstairs-security.png
+    title: Downstairs
+    elements:
+###############################################################################
+# Stairs Elements
+###############################################################################
+      - type: image
+        entity: binary_sensor.driveway_motion
+        #filter: opacity(1.0)
+        filter: opacity(1.0)
+        image: /local/images/driveway-motion.png
+        aspect_ratio: 100%
+        state_filter:
+          "on": opacity(1)
+        style: 
+          #left: 0px
+          #top: 0px
+          #transform: translate(1, 1)
+          #z-index: 10
