@@ -26,7 +26,7 @@ cards:
       - type: image
         entity: binary_sensor.back_gate_yard_motion
         filter: opacity(0)
-        image: /local/images/back-gate-yard-motion.png
+        image: /local/images/back-gate-motion.png
         tap_action:
           action: none
         hold_action:
@@ -269,6 +269,153 @@ cards:
 ###############################################################################
 # Camera Clickable Overlays
 ###############################################################################
+      # Driveway Camera Clickable Overlay
+      - type: image
+        image: /local/images/camera-button-overlay.png
+        #image: /local/images/camera-button-overlay-visible.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        style: 
+          height: 3.81%
+          width: 3.33%
+          left: 83.8%
+          top: 18%
+          transform: none
+      # Guest Front Camera Clickable Overlay
+      - type: image
+        image: /local/images/camera-button-overlay.png
+        #image: /local/images/camera-button-overlay-visible.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        style: 
+          height: 3.81%
+          width: 3.33%
+          left: 12.1%
+          top: 18.15%
+          transform: none
+      # Front Porch Camera Clickable Overlay
+      - type: image
+        image: /local/images/camera-button-overlay.png
+        #image: /local/images/camera-button-overlay-visible.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        style: 
+          height: 3.81%
+          width: 3.33%
+          left: 47.35%
+          top: 30.5%
+          transform: none
+      # Gate Side Yard Clickable Overlay
+      - type: image
+        image: /local/images/camera-button-overlay.png
+        #image: /local/images/camera-button-overlay-visible.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        style: 
+          height: 3.81%
+          width: 3.33%
+          left: 87.3%
+          top: 37.15%
+          transform: none
+      # Gate Back Yard Clickable Overlay
+      - type: image
+        image: /local/images/camera-button-overlay.png
+        #image: /local/images/camera-button-overlay-visible.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        style: 
+          height: 3.81%
+          width: 3.33%
+          left: 78.96%
+          top: 73.5%
+          transform: none
+      # Pool Clickable Overlay
+      - type: image
+        image: /local/images/camera-button-overlay.png
+        #image: /local/images/camera-button-overlay-visible.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        style: 
+          height: 3.81%
+          width: 3.33%
+          left: 74.8%
+          top: 77.5%
+          transform: none
+      # Deck Clickable Overlay
+      - type: image
+        image: /local/images/camera-button-overlay.png
+        #image: /local/images/camera-button-overlay-visible.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        style: 
+          height: 3.81%
+          width: 3.33%
+          left: 29.95%
+          top: 77.02%
+          transform: none
+      # Playscape Clickable Overlay
+      - type: image
+        image: /local/images/camera-button-overlay.png
+        #image: /local/images/camera-button-overlay-visible.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        style: 
+          height: 3.81%
+          width: 3.33%
+          left: 13.2%
+          top: 77.75%
+          transform: none
+      # Garden Back Yard Clickable Overlay
+      - type: image
+        image: /local/images/camera-button-overlay.png
+        #image: /local/images/camera-button-overlay-visible.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        style: 
+          height: 3.81%
+          width: 3.33%
+          left: 9.1%
+          top: 74%
+          transform: none
+      # Garden Side Yard Clickable Overlay
+      - type: image
+        image: /local/images/camera-button-overlay.png
+        #image: /local/images/camera-button-overlay-visible.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        style: 
+          height: 3.81%
+          width: 3.33%
+          left: 10.4%
+          top: 41.65%
+          transform: none
+###############################################################################
 ###############################################################################
 # Indoor Downstairs Motion
+###############################################################################
+###############################################################################
+# Indoor Downstairs Doors
+###############################################################################
+###############################################################################
+# Indoor Downstairs Windows
 ###############################################################################
