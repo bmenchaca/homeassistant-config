@@ -138,7 +138,7 @@ cards:
       - type: image
         entity: binary_sensor.front_guest_only_motion
         filter: opacity(0)
-        image: /local/images/front-yard-motion.png
+        image: /local/images/guest-front-motion.png
         tap_action:
           action: none
         hold_action:
