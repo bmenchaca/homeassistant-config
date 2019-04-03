@@ -165,7 +165,6 @@
     garden_side_and_front_guest_motion:
       friendly_name: 'Garden Side and Front Guest Motion'
       value_template: >-
-      value_template: >-
         {%- if (is_state("binary_sensor.garden_side_yard_motion", "true") and
                 is_state("binary_sensor.front_yard_motion", "true")) -%}
           True
@@ -174,7 +173,6 @@
         {%- endif -%}
     garden_side_only_motion:
       friendly_name: 'Garden Side Only Motion'
-      value_template: >-
       value_template: >-
         {%- if (is_state("binary_sensor.garden_side_yard_motion", "true") and
                 is_state("binary_sensor.front_yard_motion", "false")) -%}
@@ -185,13 +183,32 @@
     front_guest_only_motion:
       friendly_name: 'Front Guest Only Motion'
       value_template: >-
-      value_template: >-
         {%- if (is_state("binary_sensor.front_yard_motion", "true") and
-                is_state("binary_sensor.garden_side_yard_motion", "false")) -%}
+                (is_state("binary_sensor.garden_side_yard_motion", "false") and
+                is_state("binary_sensor.driveway_motion", "false"))) -%}
           True
         {%- else -%}
           False
         {%- endif -%}
+    guest_front_and_driveway_motion:
+      friendly_name: 'Guest Front and Driveway Motion'
+      value_template: >-
+        {%- if (is_state("binary_sensor.front_yard_motion", "true") and
+                is_state("binary_sensor.driveway_motion", "true")) -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
+    driveway_only_motion:
+      friendly_name: 'Driveway Only Motion'
+      value_template: >-
+        {%- if (is_state("binary_sensor.driveway_motion", "true") and
+                is_state("binary_sensor.front_yard_motion", "false")) -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
+
 # Presence
     ben_at_home:
       friendly_name: "Ben at Home"
