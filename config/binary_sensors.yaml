@@ -218,10 +218,19 @@
           False
         {%- endif -%}
     pool_and_back_gate_motion:
-      friendly_name: 'Driveway Only Motion'
+      friendly_name: 'Pool and Back Gate Motion'
       value_template: >-
         {%- if (is_state("binary_sensor.pool_motion", "true") and
                 is_state("binary_sensor.back_gate_motion", "true")) -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
+    deck_and_pool_motion:
+      friendly_name: 'Deck and Pool Motion'
+      value_template: >-
+        {%- if (is_state("binary_sensor.pool_motion", "true") and
+                is_state("binary_sensor.deck_motion", "true")) -%}
           True
         {%- else -%}
           False
