@@ -162,6 +162,15 @@
 # Camera Motion
 # FIXME: If there is an "and" sensor, add another motion sensor that removes
 # both of the component sensors.
+    breakfast_motion:
+      friendly_name: 'Breakfast Motion'
+      value_template: >-
+        {%- if is_state("sensor.breakfast_lights_burglar", "8") -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
+
     garden_side_and_front_guest_motion:
       friendly_name: 'Garden Side and Front Guest Motion'
       value_template: >-
@@ -208,7 +217,15 @@
         {%- else -%}
           False
         {%- endif -%}
-
+    pool_and_back_gate_motion:
+      friendly_name: 'Driveway Only Motion'
+      value_template: >-
+        {%- if (is_state("binary_sensor.pool_motion", "true") and
+                is_state("binary_sensor.back_gate_motion", "true")) -%}
+          True
+        {%- else -%}
+          False
+        {%- endif -%}
 # Presence
     ben_at_home:
       friendly_name: "Ben at Home"
