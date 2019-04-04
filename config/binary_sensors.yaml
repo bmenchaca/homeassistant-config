@@ -170,12 +170,12 @@
         {%- else -%}
           False
         {%- endif -%}
-
+    # Format from www.home-assistant.io/components/binary_sensor.template/
     garden_side_and_front_guest_motion:
       friendly_name: 'Garden Side and Front Guest Motion'
       value_template: >-
-        {%- if (is_state("binary_sensor.garden_side_yard_motion", "on") and
-                is_state("binary_sensor.front_yard_motion", "on")) -%}
+        {{ is_state("binary_sensor.garden_side_yard_motion", "on") and
+           is_state("binary_sensor.front_yard_motion", "on") }}
           True
         {%- else -%}
           False
