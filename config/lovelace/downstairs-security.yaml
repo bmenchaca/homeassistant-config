@@ -41,6 +41,21 @@ cards:
           z-index: 10
           transform: none
       - type: image
+        entity: binary_sensor.pool_and_back_gate_motion
+        filter: opacity(0)
+        image: /local/images/pool-and-back-gate-motion.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 10
+          transform: none
+      - type: image
         entity: binary_sensor.back_garden_motion
         filter: opacity(0)
         image: /local/images/garden-yard-motion.png
@@ -486,9 +501,24 @@ cards:
           z-index: 30
           transform: none
 ###############################################################################
-###############################################################################
 # Indoor Downstairs Motion
 ###############################################################################
+      - type: image
+        entity: binary_sensor.breakfast_motion
+        filter: opacity(0)
+        image: /local/images/breakfast-motion.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 10
+          transform: none
+
 ###############################################################################
 # Indoor Downstairs Doors
 ###############################################################################
