@@ -209,7 +209,7 @@
       device_class: motion
       value_template: >-
         {{ is_state("binary_sensor.pool_motion", "on") and
-           is_state("binary_sensor.back_gate_motion", "on")) }}
+           is_state("binary_sensor.back_gate_yard_motion", "on") }}
 
     deck_and_pool_motion:
       friendly_name: 'Deck and Pool Motion'
