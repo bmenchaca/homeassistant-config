@@ -159,74 +159,64 @@
         {%- else -%}
           False
         {%- endif -%}
+
 # Camera Motion
-# FIXME: If there is an "and" sensor, add another motion sensor that removes
-# both of the component sensors.
     breakfast_motion:
       friendly_name: 'Breakfast Motion'
+      device_class: motion
       value_template: >-
-        {%- if is_state("sensor.breakfast_lights_burglar", "8") -%}
-          True
-        {%- else -%}
-          False
-        {%- endif -%}
+        {{ is_state("sensor.breakfast_lights_burglar", "8") }}
+
     # Format from www.home-assistant.io/components/binary_sensor.template/
     garden_side_and_front_guest_motion:
       friendly_name: 'Garden Side and Front Guest Motion'
+      device_class: motion
       value_template: >-
         {{ is_state("binary_sensor.garden_side_yard_motion", "on") and
            is_state("binary_sensor.front_yard_motion", "on") }}
+
     garden_side_only_motion:
       friendly_name: 'Garden Side Only Motion'
+      device_class: motion
       value_template: >-
-        {%- if (is_state("binary_sensor.garden_side_yard_motion", "on") and
-                is_state("binary_sensor.front_yard_motion", "off")) -%}
-          True
-        {%- else -%}
-          False
-        {%- endif -%}
+        {{ is_state("binary_sensor.garden_side_yard_motion", "on") and
+           is_state("binary_sensor.front_yard_motion", "off") }}
+
     front_guest_only_motion:
       friendly_name: 'Front Guest Only Motion'
+      device_class: motion
       value_template: >-
-        {%- if (is_state("binary_sensor.front_yard_motion", "on") and
-                (is_state("binary_sensor.garden_side_yard_motion", "off") and
-                is_state("binary_sensor.driveway_motion", "off"))) -%}
-          True
-        {%- else -%}
-          False
-        {%- endif -%}
+        {{ is_state("binary_sensor.front_yard_motion", "on") and
+           is_state("binary_sensor.garden_side_yard_motion", "off") and
+           is_state("binary_sensor.driveway_motion", "off") }}
+
     guest_front_and_driveway_motion:
       friendly_name: 'Guest Front and Driveway Motion'
+      device_class: motion
       value_template: >-
-        {%- if (is_state("binary_sensor.front_yard_motion", "on") and
-                is_state("binary_sensor.driveway_motion", "on")) -%}
-          True
-        {%- else -%}
-          False
-        {%- endif -%}
+        {{ is_state("binary_sensor.front_yard_motion", "on") and
+           is_state("binary_sensor.driveway_motion", "on") }}
+
     driveway_only_motion:
       friendly_name: 'Driveway Only Motion'
+      device_class: motion
       value_template: >-
-        {%- if (is_state("binary_sensor.driveway_motion", "on") and
-                is_state("binary_sensor.front_yard_motion", "off")) -%}
-          True
-        {%- else -%}
-          False
-        {%- endif -%}
+        {{ is_state("binary_sensor.driveway_motion", "on") and
+           is_state("binary_sensor.front_yard_motion", "off") }}
+
     pool_and_back_gate_motion:
       friendly_name: 'Pool and Back Gate Motion'
+      device_class: motion
       value_template: >-
         {{ is_state("binary_sensor.pool_motion", "on") and
            is_state("binary_sensor.back_gate_motion", "on")) }}
+
     deck_and_pool_motion:
       friendly_name: 'Deck and Pool Motion'
+      device_class: motion
       value_template: >-
-        {%- if (is_state("binary_sensor.pool_motion", "on") and
-                is_state("binary_sensor.deck_motion", "on")) -%}
-          True
-        {%- else -%}
-          False
-        {%- endif -%}
+        {{ is_state("binary_sensor.pool_motion", "on") and
+           is_state("binary_sensor.deck_motion", "on") }}
 # Presence
     ben_at_home:
       friendly_name: "Ben at Home"
@@ -256,37 +246,6 @@
           False
         {%- endif -%}
 
-# Presence Home or Away
-#- platform: template
-#  sensors:
-#    ben_at_home:
-#      friendly_name: "Ben at Home"
-#      device_class: presence
-#      value_template: >-
-#        {%- if is_state("input_select.ben_presence_dropdown", "Home") -%}
-#          True
-#        {%- else -%}
-#          False
-#        {%- endif -%}
-#    susan_at_home:
-#      friendly_name: "Susan at Home"
-#      device_class: presence
-#      value_template: >-
-#        {%- if is_state("input_select.susan_presence_dropdown", "Home") -%}
-#          True
-#        {%- else -%}
-#          False
-#        {%- endif -%}
-#    heidi_at_home:
-#      friendly_name: "Heidi at Home"
-#      device_class: presence
-#      value_template: >-
-#        {%- if is_state("input_select.heidi_presence_dropdown", "Home") -%}
-#          True
-#        {%- else -%}
-#          False
-#        {%- endif -%}
-        
 - platform: workday
   country: US
   workdays: [mon, tue, wed, thu, fri]
