@@ -216,12 +216,8 @@
     pool_and_back_gate_motion:
       friendly_name: 'Pool and Back Gate Motion'
       value_template: >-
-        {%- if (is_state("binary_sensor.pool_motion", "on") and
-                is_state("binary_sensor.back_gate_motion", "on")) -%}
-          True
-        {%- else -%}
-          False
-        {%- endif -%}
+        {{ is_state("binary_sensor.pool_motion", "on") and
+           is_state("binary_sensor.back_gate_motion", "on")) }}
     deck_and_pool_motion:
       friendly_name: 'Deck and Pool Motion'
       value_template: >-
