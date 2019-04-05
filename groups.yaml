@@ -133,7 +133,6 @@ family_room:
     - switch.family_fan
     - switch.family_mantle_lights
     - scene.evening_tv_time
-    - binary_sensor.family_room_occupancy  
     - binary_sensor.family_window_1
     - binary_sensor.family_window_2
     - binary_sensor.family_room_glass
@@ -334,7 +333,6 @@ downstairs_occupancy:
     - binary_sensor.craft_room_occupancy
     - binary_sensor.dining_room_occupancy
     - binary_sensor.entry_room_occupancy
-    - binary_sensor.family_room_occupancy
     - binary_sensor.garage_occupancy
     - binary_sensor.guest_occupancy
     - binary_sensor.guest_bathroom_occupancy
