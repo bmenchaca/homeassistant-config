@@ -1,11 +1,32 @@
 title: Lights
 icon: mdi:lightbulb
 cards:
-  - type: vertical-stack
-    show-header: false
-    cards:
-      - type: entity-filter
-        name: Non-Bedroom Lights
-        show_state: false
-        entities: 
+  - type: entity-filter
+    card:
+      title: Public Area Lights
+      show_header_toggle: true
+    show_empty: false
+    entities:
+      - switch.gallery_lights
+      - switch.boys_hall_light
+      - switch.boys_bathroom_light
+      - switch.girls_hall_lights
+      - light.game_room_fan
+      - switch.master_hall_lights
+      - switch.kitchen_lights
+      - switch.dining_room_lights
+      - switch.stairs_lights
+      - switch.breakfast_lights
+      - switch.entry_lights
+      - switch.guest_bath_lights
+      - switch.guest_hall_lights
+      - light.family_room_dimmer
+      - switch.family_mantle_dimmer
+      - switch.back_porch_lights
+      - light.back_yard_lights
+      - light.office_fan_lights
+      - switch.garage_lights
+      - switch.front_porch_lights
+    state_filter:
+      - "on"
 
