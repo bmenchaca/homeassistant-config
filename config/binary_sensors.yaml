@@ -185,6 +185,12 @@
       value_template: >-
         {{ is_state("sensor.dining_room_lights_burglar", "8") }}
 
+    stairs_motion:
+      friendly_name: 'Stairs Motion'
+      device_class: motion
+      value_template: >-
+        {{ is_state("sensor.stairs_lights_burglar", "8") }}
+
 ###############################################################################
 # Camera Motion
 ###############################################################################
