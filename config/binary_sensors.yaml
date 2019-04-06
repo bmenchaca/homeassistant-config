@@ -204,6 +204,12 @@
         {{ is_state("sensor.dining_room_lights_burglar", "8") and
            is_state("sensor.stairs_lights_burglar", "8") }}
 
+    garage_motion:
+      friendly_name: 'Garage Motion'
+      device_class: motion
+      value_template: >-
+        {{ is_state("sensor.garage_lights_burglar", "8") }}
+
 
 ###############################################################################
 # Camera Motion

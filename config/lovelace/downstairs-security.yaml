@@ -638,6 +638,21 @@ cards:
           top: 0%
           z-index: 10
           transform: none
+      - type: image
+        entity: binary_sensor.garage_motion
+        filter: opacity(0)
+        image: /local/images/garage-motion.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 10
+          transform: none
 
 ###############################################################################
 # Indoor Downstairs Doors
