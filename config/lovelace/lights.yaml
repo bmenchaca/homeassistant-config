@@ -4,6 +4,8 @@ cards:
   - type: vertical-stack
     show-header: false
     cards:
-      - type: glance
+      - type: entity-filter
+        name: Non-Bedroom Lights
         show_state: false
+        entities: 
 
