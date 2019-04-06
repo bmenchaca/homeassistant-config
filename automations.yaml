@@ -165,17 +165,29 @@
       entity_id: input_select.house_time_of_day
       option: "Night"
 
-#- id: backyard_lights_on_when_back_door_open
-#  alias: "Evening Back Yard Lights When Door Opened"
-#  trigger:
-#    platform: state
-#    entity_id: binary_sensor.back_door
-#    to: 'true'
-#  condition:
-#    condition: sun
-#    after: sunset
-#    after_offset: "-01:00:00"
-#  action:
-#    service: homeassistant.turn_on
-#    entity_id: scene.backyard_lights_evening_on
+- id: backyard_lights_on_when_back_door_open
+  alias: "Evening Back Yard Lights When Door Opened"
+  trigger:
+    platform: state
+    entity_id: binary_sensor.back_door
+    to: 'true'
+  condition:
+    condition: sun
+    after: sunset
+    after_offset: "-01:00:00"
+  action:
+    service: homeassistant.turn_on
+    entity_id: scene.backyard_lights_evening_on
+
+- id: backyard_lights_vacancy_off
+  alias: "Back Yard Lights Off When Movement Stopped"
+  trigger:
+    platform: state
+    entity_id: binary_sensor.deck_motion
+    to: 'off'
+    for:
+      minutes: 5
+  action:
+    service: scene.turn_off
+    entity_id: scene.backyard_lights_off
 

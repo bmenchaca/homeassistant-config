@@ -118,37 +118,37 @@
       friendly_name: 'Boys Hall Motion'
       device_class: motion
       value_template: >-
-        {{ is_state('sensor.boys_hall_burglar", "8") }}
+        {{ is_state("sensor.boys_hall_burglar", "8") }}
 
     boys_bathroom_motion:
       friendly_name: 'Boys Bathroom Motion'
       device_class: motion
       value_template: >-
-        {{ is_state('sensor.boys_bathroom_burglar", "8") }}
+        {{ is_state("sensor.boys_bathroom_burglar", "8") }}
 
     gallery_motion:
       friendly_name: 'Gallery Motion'
       device_class: motion
       value_template: >-
-        {{ is_state('sensor.gallery_lights_burglar", "8") }}
+        {{ is_state("sensor.gallery_lights_burglar", "8") }}
 
     game_room_motion:
       friendly_name: 'Game Room Motion'
       device_class: motion
       value_template: >-
-        {{ is_state('sensor.game_room_fan_burglar", "8") }}
+        {{ is_state("sensor.game_room_fan_burglar", "8") }}
 
     girls_hall_motion:
       friendly_name: 'Girls Hall Motion'
       device_class: motion
       value_template: >-
-        {{ is_state('sensor.girls_hall_lights_burglar", "8") }}
+        {{ is_state("sensor.girls_hall_lights_burglar", "8") }}
 
     office_motion:
       friendly_name: 'Office Motion'
       device_class: motion
       value_template: >-
-        {{ is_state('sensor.office_fan_switch_burglar", "8") }}
+        {{ is_state("sensor.office_fan_switch_burglar", "8") }}
 
 ###############################################################################
 # Camera Motion
