@@ -1,5 +1,3 @@
-binary_sensor.office_occupancy:
-  icon: mdi:walk
 switch.office_fan:
   icon: mdi:fan
 light.office_fan_lights:

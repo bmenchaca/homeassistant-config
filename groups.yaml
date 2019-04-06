@@ -58,7 +58,6 @@ ben_garage_door:
 garage:
   name: Garage
   entities:
-    - binary_sensor.garage_occupancy
     - switch.garage_lights
     - switch.garage_carriage_lights
 
@@ -67,7 +66,6 @@ craft_room:
   entities:
     - switch.craft_fan_and_lights
     - switch.craft_sewing_lights
-    - binary_sensor.craft_room_occupancy
     - binary_sensor.craft_room_window_1
     - binary_sensor.craft_room_window_2
 
@@ -77,7 +75,6 @@ guest_room:
     - switch.guest_fan_and_lights
     - switch.guest_heater
     - light.guest
-    - binary_sensor.guest_occupancy
     - binary_sensor.guest_window_1
     - binary_sensor.guest_window_2
     - binary_sensor.guest_window_3
@@ -90,7 +87,6 @@ guest_hall:
 guest_bath:
   name: Guest Bath
   entities:
-    - binary_sensor.guest_bathroom_occupancy
     - switch.guest_bath_lights
     - light.guest_bath
 
@@ -100,7 +96,6 @@ entry_room:
     - switch.entry_lights
     - switch.entry_christmas_lights
     - light.entry_lamp
-    - binary_sensor.entry_room_occupancy
     - binary_sensor.front_door
     - binary_sensor.entry_window_1
     - binary_sensor.entry_window_2
@@ -111,7 +106,6 @@ dining_room:
   name: Dining Room
   entities:
     - switch.dining_room_lights
-    - binary_sensor.dining_room_occupancy
     - binary_sensor.dining_room_window_1
     - binary_sensor.dining_room_window_2
     - binary_sensor.dining_room_window_3
@@ -154,7 +148,6 @@ laundry_room:
   entities:
     - switch.laundry_lights
     - switch.laundry_closet_lights
-    - binary_sensor.laundry_room_occupancy
     - binary_sensor.laundry_closet_door
     - binary_sensor.garage_door
     
@@ -216,19 +209,16 @@ noah_room:
 boys_bathroom:
   name: Boy's Bathroom
   entities:
-    - binary_sensor.boys_bathroom_occupancy
     - switch.boys_bathroom_light
 
 boys_hallway:
   name: Boy's Hall
   entities:
-    - binary_sensor.boys_hall_occupancy
     - switch.boys_hall_light
 
 girls_hallway:
   name: Girls Hall
   entities:
-    - binary_sensor.girls_hall_occupancy
     - switch.girls_hall_lights
 
 heidi_room:
@@ -256,14 +246,12 @@ hannah_room:
 gallery:
   name: Gallery
   entities:
-    - binary_sensor.gallery_occupancy
     - switch.gallery_lights
     - light.gallery
 
 game_room:
   name: Game Room
   entities:
-    - binary_sensor.game_room_occupancy
     - switch.game_room_fan
     - light.game_room_fan
     - light.game_room
@@ -283,7 +271,6 @@ office:
     - sensor.office_awair_humidity
     - sensor.office_awair_co2
     - sensor.office_awair_voc
-    - binary_sensor.office_occupancy
     - binary_sensor.office_window_1
     - binary_sensor.office_window_2
 
@@ -296,7 +283,6 @@ master:
     - sensor.master_awair_humidity
     - sensor.master_awair_co2
     - sensor.master_awair_voc
-    - binary_sensor.master_occupancy
     - binary_sensor.master_window_1
     - binary_sensor.master_window_2
     - binary_sensor.master_window_3
@@ -307,7 +293,6 @@ master_bath:
     - light.master_vanity_dimmer
     - switch.master_bath_tub_lights
     - light.master_tub_color_bulb
-    - binary_sensor.master_bath_occupancy
 
 master_closet:
   name: Master Closet
@@ -320,40 +305,11 @@ master_hall:
   entities:
     - switch.master_hall_lights
     - light.master_hall
-    - binary_sensor.master_hall_occupancy
 
 master_lavatory:
   name: Master Lavatory
   entities:
     - switch.master_lavatory_lights
-
-downstairs_occupancy:
-  name: Downstairs Occupancy
-  entities:
-    - binary_sensor.craft_room_occupancy
-    - binary_sensor.dining_room_occupancy
-    - binary_sensor.entry_room_occupancy
-    - binary_sensor.garage_occupancy
-    - binary_sensor.guest_occupancy
-    - binary_sensor.guest_bathroom_occupancy
-    - binary_sensor.laundry_room_occupancy
-    - binary_sensor.master_hall_occupancy
-    - binary_sensor.master_occupancy
-    - binary_sensor.master_bath_occupancy
-    - binary_sensor.stairs_occupancy
-
-upstairs_occupancy:
-  name: Upstairs Occupancy
-  entities:
-    - binary_sensor.boys_hall_occupancy
-    - binary_sensor.boys_bathroom_occupancy
-    - binary_sensor.gallery_occupancy
-    - binary_sensor.game_room_occupancy
-    - binary_sensor.girls_hall_occupancy
-    - binary_sensor.heidi_multisensor_motion
-    - binary_sensor.noah_multisensor_motion
-    - binary_sensor.hannah_multisensor_motion
-    - binary_sensor.office_occupancy
 
 security_devices:
    name: Security Devices
@@ -431,11 +387,3 @@ back_yard_view:
     - group.deck
     - group.garden
     - group.back_yard
-
-occupancy_view:
-  name: Occupancy
-  view: yes
-  entities:
-    - group.downstairs_occupancy
-    - group.upstairs_occupancy
-

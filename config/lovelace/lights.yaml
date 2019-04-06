@@ -1,0 +1,9 @@
+title: Lights
+icon: mdi:lightbulb
+cards:
+  - type: vertical-stack
+    show-header: false
+    cards:
+      - type: glance
+        show_state: false
+
