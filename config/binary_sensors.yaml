@@ -169,6 +169,11 @@
         {{ is_state("sensor.breakfast_lights_burglar", "8") and
            is_state("sensor.family_mantle_lights_burglar", "8") }}
 
+    craft_motion:
+      friendly_name: 'Craft Room Motion'
+      value_template: >-
+        {{ is_state("sensor.craft_lights_burglar", "8") }}
+
 # Camera Motion
     # Format from www.home-assistant.io/components/binary_sensor.template/
     garden_side_and_front_guest_motion:
