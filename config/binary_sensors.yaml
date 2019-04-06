@@ -151,7 +151,9 @@
           False
         {%- endif -%}
 
+###############################################################################
 # Indoor Region Motion
+###############################################################################
     breakfast_motion:
       friendly_name: 'Breakfast Motion'
       device_class: motion
@@ -160,22 +162,32 @@
 
     family_mantle_motion:
       friendly_name: 'Family Mantle Motion'
+      device_class: motion
       value_template: >-
         {{ is_state("sensor.family_mantle_lights_burglar", "8") }}
 
     family_mantle_and_breakfast_motion:
       friendly_name: 'Family and Breakfast Motion'
+      device_class: motion
       value_template: >-
         {{ is_state("sensor.breakfast_lights_burglar", "8") and
            is_state("sensor.family_mantle_lights_burglar", "8") }}
 
     craft_motion:
       friendly_name: 'Craft Room Motion'
+      device_class: motion
       value_template: >-
         {{ is_state("sensor.craft_lights_burglar", "8") }}
 
+    dining_motion:
+      friendly_name: 'Dining Room Motion'
+      device_class: motion
+      value_template: >-
+        {{ is_state("sensor.dining_room_lights_burglar", "8") }}
+
+###############################################################################
 # Camera Motion
-    # Format from www.home-assistant.io/components/binary_sensor.template/
+###############################################################################
     garden_side_and_front_guest_motion:
       friendly_name: 'Garden Side and Front Guest Motion'
       device_class: motion
