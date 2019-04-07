@@ -48,3 +48,21 @@ switch.guest_bath_lights:
   icon: mdi:lightbulb
 light.guest_fan_lights:
   icon: mdi:ceiling-light
+switch.master_hall_lights:
+  icon: mdi:lightbulb
+switch.kitchen_lights:
+  icon: mdi:lightbulb
+switch.breakfast_lights:
+  icon: mdi:lightbulb
+switch.kitchen_pantry_light:
+  icon: mdi:lightbulb
+switch.family_fan:
+  icon: mdi:fan
+switch.family_mantle_lights:
+  icon: mdi:track-light
+switch.dining_room_lights:
+  icon: mdi:candle
+switch.guest_fan_and_lights:
+  icon: mdi:fan
+light.family_room_dimmer:
+  icon: mdi:ceiling-light
