@@ -78,7 +78,7 @@
 - platform: template
   sensors:
     susan_garage_status:
-      friendly_name: 'Susan Door Status'
+      friendly_name: 'Susan Garage Door Status'
       value_template: >-
         {%- if states.cover.susan_garage %}
           {% if states.cover.susan_garage.attributes["door_state"] == "open" %}
@@ -97,7 +97,7 @@
         {% endif %}
 
     ben_garage_status:
-      friendly_name: 'Ben Door Status'
+      friendly_name: 'Ben Garage Door Status'
       value_template: >-
         {%- if states.cover.ben_garage %}
           {% if states.cover.ben_garage.attributes["door_state"] == "open" %}
