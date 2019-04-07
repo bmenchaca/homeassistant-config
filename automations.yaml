@@ -191,3 +191,27 @@
     service: scene.turn_off
     entity_id: scene.backyard_lights_off
 
+- id: heidi_heater_thermostat_off
+  alias: "Heidi Heater Thermostat Off"
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.heidi_multisensor_temperature
+    above: 72.0
+    for:
+      minutes: 5
+  action:
+    service: homeassistant.turn_off
+    entity_id: switch.heidi_heater
+    
+- id: heidi_heater_thermostat_on
+  alias: "Heidi Heater Thermostat On"
+  trigger:
+    platform: numeric_state
+    entity_id: sensor.heidi_multisensor_temperature
+    below: 70.0
+    for:
+      minutes: 5
+  action:
+    service: homeassistant.turn_on
+    entity_id: switch.heidi_heater
+
