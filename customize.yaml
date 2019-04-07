@@ -66,3 +66,20 @@ switch.guest_fan_and_lights:
   icon: mdi:fan
 light.family_room_dimmer:
   icon: mdi:ceiling-light
+switch.laundry_lights:
+  icon: mdi:lightbulb
+switch.laundry_closet_lights:
+  icon: mdi:lightbulb
+switch.garage_lights:
+  icon: mdi:lightbulb
+switch.master_fan:
+  icon: mdi:fan
+switch.craft_fan:
+  icon: mdi:fan
+switch.craft_sewing_lights:
+  icon: mdi:floor-lamp
+switch.master_bath_tub_lights:
+  icon: mdi:track-light
+switch.master_closet_lights:
+  icon: mdi:ceiling-light
+

@@ -8,10 +8,16 @@ cards:
     entities:
       - entity: switch.kitchen_lights
         name: Kitchen
+        tap_action:
+          action: toggle
       - entity: switch.kitchen_pantry_light
         name: Pantry
+        tap_action:
+          action: toggle
       - entity: switch.breakfast_lights
         name: Breakfast
+        tap_action:
+          action: toggle
   - type: glance
     title:  Family Room
     show_header_toggle: true
@@ -19,10 +25,16 @@ cards:
     entities:
       - entity: light.family_room_dimmer
         name: Fan Dimmer
+        tap_action:
+          action: toggle
       - entity: switch.family_fan
         name: Fan
+        tap_action:
+          action: toggle
       - entity: switch.family_mantle_lights
         name: Mantle
+        tap_action:
+          action: toggle
   - type: glance
     title: Entry and Dining
     show_header_toggle: true
@@ -30,10 +42,20 @@ cards:
     entities:
       - entity: switch.entry_lights
         name: Entry Chandelier
+        tap_action:
+          action: toggle
       - entity: light.entry_lamp
         name: Lamp Dimmer
+        tap_action:
+          action: toggle
       - entity: switch.dining_room_lights
         name: Dining Chandelier
+        tap_action:
+          action: toggle
+      - entity: switch.front_porch_lights
+        name: Front Porch
+        tap_action:
+          action: toggle
   - type: glance
     title: Guest
     show_header_toggle: true
@@ -41,13 +63,103 @@ cards:
     entities:
       - entity: switch.guest_fan_and_lights
         name: Fan and Lights
+        tap_action:
+          action: toggle
       - entity: light.guest_fan_lights
         name: Fan Dimmer
+        tap_action:
+          action: toggle
       - entity: switch.guest_bath_lights
         name: Bath Vanity
+        tap_action:
+          action: toggle
       - entity: switch.guest_hall_lights
         name: Hall
+        tap_action:
+          action: toggle
+  - type: glance
+    title: Master Hall and Stairs
+    show_header_toggle: true
+    show_state: false
+    entities:
+      - entity: switch.master_hall_lights
+        name: Hall Lights
+        tap_action:
+          action: toggle
+      - entity: light.master_hall
+        name: Hall Dimmer
+        tap_action:
+          action: toggle
+      - entity: switch.stairs_lights
+        name: Stairs Light
+        tap_action:
+          action: toggle
+  - type: glance
+    title: Laundry and Garage
+    show_header_toggle: true
+    show_state: false
+    entities:
+      - entity: switch.laundry_lights
+        name: Laundry
+        tap_action:
+          action: toggle
+      - entity: switch.laundry_closet_lights
+        name: Closet
+        tap_action:
+          action: toggle
+      - entity: switch.garage_lights
+        name: Garage
+        tap_action:
+          action: toggle
+  - type: glance
+    title: Master and Craft Room
+    show_header_toggle: true
+    show_state: false
+    entities:
+      - entity: switch.master_fan
+        name: Master Fan
+        tap_action:
+          action: toggle
+      - entity: light.master_fan_lights_dimmer
+        name: Fan Dimmer
+        tap_action:
+          action: toggle  
+      - entity: switch.craft_fan_and_lights
+        name: Craft Fan
+        tap_action:
+          action: toggle
+      - entity: switch.craft_sewing_lights
+        name: Sewing Lamp
+        tap_action:
+          action: toggle
+
+  - type: glance
+    title:  Master Bath and Closet
+    show_header_toggle: true
+    show_state: false
+    entities:
+      - entity: light.master_vanity_dimmer
+        name: Vanity Dimmer
+        tap_action:
+          action: toggle  
+      - entity: switch.master_bath_tub_lights
+        name: Tub Light
+        tap_action:
+          action: toggle  
+      - entity: light.master_tub_color_bulb
+        name: Tub Dimmer
+        tap_action:
+          action: toggle  
+      - entity: switch.master_closet_lights
+        name: Closet
+        tap_action:
+          action: toggle  
+
+
+
+
       
+
 
 #  - type: 
 #      - switch.gallery_lights
