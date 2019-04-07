@@ -1,32 +1,74 @@
 title: Lights
 icon: mdi:lightbulb
 cards:
-  - type: entity-filter
-    card:
-      title: Public Area Lights
-      show_header_toggle: true
-    show_empty: false
+  - type: glance
+    title: Kitchen and Breakfast
+    show_header_toggle: true
+    show_state: false
     entities:
-      - switch.gallery_lights
-      - switch.boys_hall_light
-      - switch.boys_bathroom_light
-      - switch.girls_hall_lights
-      - light.game_room_fan
-      - switch.master_hall_lights
-      - switch.kitchen_lights
-      - switch.dining_room_lights
-      - switch.stairs_lights
-      - switch.breakfast_lights
-      - switch.entry_lights
-      - switch.guest_bath_lights
-      - switch.guest_hall_lights
-      - light.family_room_dimmer
-      - switch.family_mantle_dimmer
-      - switch.back_porch_lights
-      - light.back_yard_lights
-      - light.office_fan_lights
-      - switch.garage_lights
-      - switch.front_porch_lights
-    state_filter:
-      - "on"
+      - entity: switch.kitchen_lights
+        name: Kitchen
+      - entity: switch.kitchen_pantry_light
+        name: Pantry
+      - entity: switch.breakfast_lights
+        name: Breakfast
+  - type: glance
+    title:  Family Room
+    show_header_toggle: true
+    show_state: false
+    entities:
+      - entity: light.family_room_dimmer
+        name: Fan Dimmer
+      - entity: switch.family_fan
+        name: Fan
+      - entity: switch.family_mantle_lights
+        name: Mantle
+  - type: glance
+    title: Entry and Dining
+    show_header_toggle: true
+    show_state: false
+    entities:
+      - entity: switch.entry_lights
+        name: Entry Chandelier
+      - entity: light.entry_lamp
+        name: Lamp Dimmer
+      - entity: switch.dining_room_lights
+        name: Dining Chandelier
+  - type: glance
+    title: Guest
+    show_header_toggle: true
+    show_state: false
+    entities:
+      - entity: switch.guest_fan_and_lights
+        name: Fan and Lights
+      - entity: light.guest_fan_lights
+        name: Fan Dimmer
+      - entity: switch.guest_bath_lights
+        name: Bath Vanity
+      - entity: switch.guest_hall_lights
+        name: Hall
+      
+
+#  - type: 
+#      - switch.gallery_lights
+#      - switch.boys_hall_light
+#      - switch.boys_bathroom_light
+#      - switch.girls_hall_lights
+#      - light.game_room_fan
+#      - switch.master_hall_lights
+#      - switch.dining_room_lights
+#      - switch.stairs_lights
+#      - switch.breakfast_lights
+#      - switch.entry_lights
+#      - switch.guest_bath_lights
+#      - switch.guest_hall_lights
+#      - light.family_room_dimmer
+#      - switch.family_mantle_dimmer
+#      - switch.back_porch_lights
+#      - light.back_yard_lights
+#      - light.office_fan_lights
+#      - switch.garage_lights
+#      - switch.front_porch_lights
+#    state_filter:
+#      - "on"
 

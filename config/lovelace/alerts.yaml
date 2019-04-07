@@ -1,0 +1,80 @@
+title: Alerts
+icon: mdi:alert
+cards:
+  - type: entity-filter
+    card:
+      title: Open Windows and Doors
+      show_header_toggle: false
+    show_empty: false
+    entities:
+      - sensor.ben_garage_status
+      - sensor.susan_garage_status
+      - binary_sensor.back_door
+      - binary_sensor.breakfast_window_1
+      - binary_sensor.breakfast_window_2
+      - binary_sensor.breakfast_window_3
+      - binary_sensor.breakfast_window_4
+      - binary_sensor.craft_room_window_1
+      - binary_sensor.craft_room_window_2
+      - binary_sensor.dining_room_window_1
+      - binary_sensor.dining_room_window_2
+      - binary_sensor.dining_room_window_3
+      - binary_sensor.entry_window_1
+      - binary_sensor.entry_window_2
+      - binary_sensor.family_window_1
+      - binary_sensor.family_window_2
+      - binary_sensor.front_door
+      - binary_sensor.game_room_window_1
+      - binary_sensor.game_room_window_2
+      - binary_sensor.game_room_window_3
+      - binary_sensor.garage_door
+      - binary_sensor.guest_window_1
+      - binary_sensor.guest_window_2
+      - binary_sensor.guest_window_3
+      - binary_sensor.hannah_window_1
+      - binary_sensor.hannah_window_2
+      - binary_sensor.heidi_attic_door
+      - binary_sensor.heidi_window_1
+      - binary_sensor.heidi_window_2
+      - binary_sensor.master_window_1
+      - binary_sensor.master_window_2
+      - binary_sensor.master_window_3
+      - binary_sensor.noah_room_window_1
+      - binary_sensor.noah_room_window_2
+      - binary_sensor.office_window_1
+      - binary_sensor.office_window_2
+      - switch.office_heater
+      - switch.heidi_heater
+      - switch.guest_heater
+    state_filter:
+      - "on"
+      - "Open"
+  - type: entity-filter
+    card:
+      title: Public Area Lights
+      show_header_toggle: true
+    show_empty: false
+    entities:
+      - switch.gallery_lights
+      - switch.boys_hall_light
+      - switch.boys_bathroom_light
+      - switch.girls_hall_lights
+      - light.game_room_fan
+      - switch.master_hall_lights
+      - switch.kitchen_lights
+      - switch.dining_room_lights
+      - switch.stairs_lights
+      - switch.breakfast_lights
+      - switch.entry_lights
+      - switch.guest_bath_lights
+      - switch.guest_hall_lights
+      - light.family_room_dimmer
+      - switch.family_mantle_dimmer
+      - switch.back_porch_lights
+      - light.back_yard_lights
+      - light.office_fan_lights
+      - switch.garage_lights
+      - switch.front_porch_lights
+    state_filter:
+      - "on"
+
