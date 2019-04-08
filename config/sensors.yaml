@@ -148,7 +148,7 @@
 
 - platform: waze_travel_time
   name: "Waze Ben to Home"
-  origin: device_tracker.life360_ben
+  origin: device_tracker.life360_ben_menchaca
   destination: zone.home
   region: 'US'
 

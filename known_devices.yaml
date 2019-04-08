@@ -184,7 +184,7 @@ dianasiphone:
   picture:
   track: false
 
-life360_ben:
+life360_ben_menchaca:
   hide_if_away: false
   icon:
   mac:
@@ -479,3 +479,4 @@ saraaliasiphone:
   name: SaraAliasiPhone
   picture:
   track: false
+

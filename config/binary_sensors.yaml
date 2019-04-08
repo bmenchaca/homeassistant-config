@@ -207,7 +207,7 @@
       friendly_name: "Ben at Home"
       device_class: presence
       value_template: >-
-        {%- if is_state("device_tracker.life360_ben", "home") -%}
+        {%- if is_state("device_tracker.life360_ben_menchaca", "home") -%}
           True
         {%- else -%}
           False
