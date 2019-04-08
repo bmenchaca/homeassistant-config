@@ -188,7 +188,7 @@
     for:
       minutes: 5
   action:
-    service: scene.turn_off
+    service: scene.turn_on
     entity_id: scene.backyard_lights_off
 
 - id: heidi_heater_thermostat_off
