@@ -1,7 +1,7 @@
-- platform: ring
-  monitored_conditions:
-    - ding
-    - motion
+#- platform: ring
+#  monitored_conditions:
+#    - ding
+#    - motion
 
 - platform: hikvision
   host: !secret alibi_dvr_ip
