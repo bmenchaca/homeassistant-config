@@ -153,55 +153,36 @@
 ###############################################################################
 # Camera Motion
 ###############################################################################
-    garden_side_and_front_guest_motion:
-      friendly_name: 'Garden Side and Front Guest Motion'
+    garden_side_and_front_guest_field_motion:
+      friendly_name: 'Garden Side and Front Guest Field Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("binary_sensor.garden_side_yard_motion", "on") and
-           is_state("binary_sensor.front_yard_motion", "on") }}
+        {{ is_state("binary_sensor.garden_side_yard_field_motion", "on") and
+           is_state("binary_sensor.guest_front_yard_field_motion", "on") }}
 
-    garden_side_only_motion:
-      friendly_name: 'Garden Side Only Motion'
+    guest_front_and_driveway_field_motion:
+      friendly_name: 'Guest Front and Driveway Field Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("binary_sensor.garden_side_yard_motion", "on") and
-           is_state("binary_sensor.front_yard_motion", "off") }}
+        {{ is_state("binary_sensor.guest_front_yard_field_motion", "on") and
+           is_state("binary_sensor.driveway_field_motion", "on") }}
 
-    front_guest_only_motion:
-      friendly_name: 'Front Guest Only Motion'
+    pool_and_back_gate_field_motion:
+      friendly_name: 'Pool and Back Gate Field Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("binary_sensor.front_yard_motion", "on") and
-           is_state("binary_sensor.garden_side_yard_motion", "off") and
-           is_state("binary_sensor.driveway_motion", "off") }}
+        {{ is_state("binary_sensor.pool_field_motion", "on") and
+           is_state("binary_sensor.back_gate_yard_field_motion", "on") }}
 
-    guest_front_and_driveway_motion:
-      friendly_name: 'Guest Front and Driveway Motion'
+    deck_and_pool_field_motion:
+      friendly_name: 'Deck and Pool Field Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("binary_sensor.front_yard_motion", "on") and
-           is_state("binary_sensor.driveway_motion", "on") }}
-
-    driveway_only_motion:
-      friendly_name: 'Driveway Only Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("binary_sensor.driveway_motion", "on") and
-           is_state("binary_sensor.front_yard_motion", "off") }}
-
-    pool_and_back_gate_motion:
-      friendly_name: 'Pool and Back Gate Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("binary_sensor.pool_motion", "on") and
-           is_state("binary_sensor.back_gate_yard_motion", "on") }}
-
-    deck_and_pool_motion:
-      friendly_name: 'Deck and Pool Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("binary_sensor.pool_motion", "on") and
-           is_state("binary_sensor.deck_motion", "on") }}
+        {{ is_state("binary_sensor.pool_field_motion", "on") and
+           is_state("binary_sensor.deck_field_motion", "on") }}
+###############################################################################
+# Camera Field Entry
+###############################################################################
 # Presence
     ben_at_home:
       friendly_name: "Ben at Home"

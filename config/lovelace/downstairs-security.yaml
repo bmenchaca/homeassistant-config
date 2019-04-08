@@ -10,53 +10,8 @@ cards:
 # Outdoor Camera Motion
 ###############################################################################
       - type: image
-        #entity: binary_sensor.driveway_only_motion
-        entity: binary_sensor.driveway_motion
-        filter: opacity(0)
-        image: /local/images/driveway-motion.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        state_filter:
-          "on": opacity(1)
-        style: 
-          left: 0%
-          top: 0%
-          z-index: 10
-          transform: none
-      - type: image
-        entity: binary_sensor.back_gate_yard_motion
-        filter: opacity(0)
-        image: /local/images/back-gate-motion.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        state_filter:
-          "on": opacity(1)
-        style: 
-          left: 0%
-          top: 0%
-          z-index: 10
-          transform: none
-      - type: image
-        entity: binary_sensor.pool_and_back_gate_motion
-        filter: opacity(0)
-        image: /local/images/pool-and-back-gate-motion.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        state_filter:
-          "on": opacity(1)
-        style: 
-          left: 0%
-          top: 0%
-          z-index: 10
-          transform: none
-      - type: image
-        entity: binary_sensor.back_garden_motion
+        #entity: binary_sensor.back_garden_motion
+        entity: binary_sensor.back_garden_yard_field_motion
         filter: opacity(0)
         image: /local/images/garden-yard-motion.png
         tap_action:
@@ -71,9 +26,10 @@ cards:
           z-index: 10
           transform: none
       - type: image
-        entity: binary_sensor.garden_side_and_front_guest_motion
+        #entity: binary_sensor.back_gate_yard_motion
+        entity: binary_sensor.back_gate_yard_field_motion
         filter: opacity(0)
-        image: /local/images/garden-side-and-front-guest-motion.png
+        image: /local/images/back-gate-motion.png
         tap_action:
           action: none
         hold_action:
@@ -86,54 +42,8 @@ cards:
           z-index: 10
           transform: none
       - type: image
-        entity: binary_sensor.guest_front_and_driveway_motion
-        filter: opacity(0)
-        image: /local/images/guest-front-and-driveway-motion.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        state_filter:
-          "on": opacity(1)
-        style: 
-          left: 0%
-          top: 0%
-          z-index: 10
-          transform: none
-      - type: image
-        # Use this if you want only this region when the neighbor fires too
-        #entity: binary_sensor.garden_side_only_motion
-        entity: binary_sensor.garden_side_yard_motion
-        filter: opacity(0)
-        image: /local/images/garden-side-yard-motion.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        state_filter:
-          "on": opacity(1)
-        style: 
-          left: 0%
-          top: 0%
-          z-index: 10
-          transform: none
-      - type: image
-        entity: binary_sensor.playscape_motion
-        filter: opacity(0)
-        image: /local/images/playscape-motion.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        state_filter:
-          "on": opacity(1)
-        style: 
-          left: 0%
-          top: 0%
-          z-index: 10
-          transform: none
-      - type: image
-        entity: binary_sensor.deck_motion
+        #entity: binary_sensor.deck_motion
+        entity: binary_sensor.deck_field_motion
         filter: opacity(0)
         image: /local/images/deck-motion.png
         tap_action:
@@ -147,8 +57,8 @@ cards:
           top: 0%
           z-index: 10
           transform: none
-      - type: image
-        entity: binary_sensor.deck_and_pool_motion
+        #entity: binary_sensor.deck_and_pool_motion
+        entity: binary_sensor.deck_and_pool_field_motion
         filter: opacity(0)
         image: /local/images/deck-and-pool-motion.png
         tap_action:
@@ -163,9 +73,11 @@ cards:
           z-index: 10
           transform: none
       - type: image
-        entity: binary_sensor.pool_motion
+        #entity: binary_sensor.driveway_only_motion
+        #entity: binary_sensor.driveway_motion
+        entity: binary_sensor.driveway_field_motion
         filter: opacity(0)
-        image: /local/images/pool-motion.png
+        image: /local/images/driveway-motion.png
         tap_action:
           action: none
         hold_action:
@@ -178,22 +90,8 @@ cards:
           z-index: 10
           transform: none
       - type: image
-        entity: binary_sensor.gate_side_yard_motion
-        filter: opacity(0)
-        image: /local/images/gate-side-yard-motion.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        state_filter:
-          "on": opacity(1)
-        style: 
-          left: 0%
-          top: 0%
-          z-index: 10
-          transform: none
-      - type: image
-        entity: binary_sensor.front_porch_motion
+        #entity: binary_sensor.front_porch_motion
+        entity: binary_sensor.front_porch_field_motion
         filter: opacity(0)
         image: /local/images/front-porch-motion.png
         tap_action:
@@ -208,9 +106,9 @@ cards:
           z-index: 10
           transform: none
       - type: image
-        # Use this if you want only this region when the neighbor fires too
         #entity: binary_sensor.front_guest_only_motion
-        entity: binary_sensor.front_yard_motion
+        #entity: binary_sensor.front_yard_motion
+        entity: binary_sensor.guest_front_yard_field_motion
         filter: opacity(0)
         image: /local/images/guest-front-motion.png
         tap_action:
@@ -225,9 +123,25 @@ cards:
           z-index: 10
           transform: none
       - type: image
-        # Use this if you want only this region when the neighbor fires too
+        #entity: binary_sensor.garden_side_and_front_guest_motion
+        entity: binary_sensor.garden_side_and_front_guest_field_motion
+        filter: opacity(0)
+        image: /local/images/garden-side-and-front-guest-motion.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 10
+          transform: none
+      - type: image
         #entity: binary_sensor.garden_side_only_motion
-        entity: binary_sensor.garden_side_yard_motion
+        #entity: binary_sensor.garden_side_yard_motion
+        entity: binary_sensor.garden_side_yard_field_motion
         filter: opacity(0)
         image: /local/images/garden-side-yard-motion.png
         tap_action:
@@ -241,8 +155,40 @@ cards:
           top: 0%
           z-index: 10
           transform: none
+        #entity: binary_sensor.gate_side_yard_motion
+        entity: binary_sensor.gate_side_yard_field_motion
+        filter: opacity(0)
+        image: /local/images/gate-side-yard-motion.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 10
+          transform: none
       - type: image
-        entity: binary_sensor.playscape_motion
+        #entity: binary_sensor.guest_front_and_driveway_motion
+        entity: binary_sensor.guest_front_and_driveway_field_motion
+        filter: opacity(0)
+        image: /local/images/guest-front-and-driveway-motion.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 10
+          transform: none
+      - type: image
+        #entity: binary_sensor.playscape_motion
+        entity: binary_sensor.back_playscape_field_motion
         filter: opacity(0)
         image: /local/images/playscape-motion.png
         tap_action:
@@ -257,9 +203,10 @@ cards:
           z-index: 10
           transform: none
       - type: image
-        entity: binary_sensor.deck_motion
+        #entity: binary_sensor.pool_and_back_gate_motion
+        entity: binary_sensor.pool_and_back_gate_field_motion
         filter: opacity(0)
-        image: /local/images/deck-motion.png
+        image: /local/images/pool-and-back-gate-motion.png
         tap_action:
           action: none
         hold_action:
@@ -272,71 +219,10 @@ cards:
           z-index: 10
           transform: none
       - type: image
-        entity: binary_sensor.pool_motion
+        #entity: binary_sensor.pool_motion
+        entity: binary_sensor.pool_field_motion
         filter: opacity(0)
         image: /local/images/pool-motion.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        state_filter:
-          "on": opacity(1)
-        style: 
-          left: 0%
-          top: 0%
-          z-index: 10
-          transform: none
-      - type: image
-        entity: binary_sensor.gate_side_yard_motion
-        filter: opacity(0)
-        image: /local/images/gate-side-yard-motion.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        state_filter:
-          "on": opacity(1)
-        style: 
-          left: 0%
-          top: 0%
-          z-index: 10
-          transform: none
-      - type: image
-        entity: binary_sensor.front_porch_motion
-        filter: opacity(0)
-        image: /local/images/front-porch-motion.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        state_filter:
-          "on": opacity(1)
-        style: 
-          left: 0%
-          top: 0%
-          z-index: 10
-          transform: none
-      - type: image
-        # Use this if you want only this region when the neighbor fires too
-        #entity: binary_sensor.front_guest_only_motion
-        entity: binary_sensor.front_yard_motion
-        filter: opacity(0)
-        image: /local/images/guest-front-motion.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        state_filter:
-          "on": opacity(1)
-        style: 
-          left: 0%
-          top: 0%
-          z-index: 10
-          transform: none
-      - type: image
-        entity: binary_sensor.garden_side_and_front_guest_motion
-        filter: opacity(0)
-        image: /local/images/garden-side-and-front-guest-motion.png
         tap_action:
           action: none
         hold_action:
