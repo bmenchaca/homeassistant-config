@@ -1,2 +1,4 @@
 ignore:
   - samsung_tv
+  - plex
+  - roku
