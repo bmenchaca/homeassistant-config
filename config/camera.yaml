@@ -8,9 +8,9 @@
 #  username: !secret alibi_username
 #  password: !secret alibi_password
 
-- platform: ring
-  ffmpeg_arguments: -pred 1 -q:v 2
-  scan_interval: 90
+#- platform: ring
+#  ffmpeg_arguments: -pred 1 -q:v 2
+#  scan_interval: 90
 
 - platform: ffmpeg
   input: !secret alibi_rtsp_camera_1
