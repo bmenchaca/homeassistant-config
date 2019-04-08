@@ -1,4 +1,4 @@
 ignore:
   - samsung_tv
-  - plex
+  - plex_mediaserver
   - roku
