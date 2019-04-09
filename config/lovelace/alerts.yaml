@@ -7,8 +7,8 @@ cards:
       show_header_toggle: false
     show_empty: true
     entities:
-      - sensor.ben_garage_status
-      - sensor.susan_garage_status
+      - cover.ben_garage
+      - cover.susan_garage
       - binary_sensor.back_door
       - binary_sensor.breakfast_window_1
       - binary_sensor.breakfast_window_2
@@ -48,7 +48,7 @@ cards:
       - switch.guest_heater
     state_filter:
       - "on"
-      - "Open"
+      - "open"
   - type: entity-filter
     card:
       title: Public Area Lights
