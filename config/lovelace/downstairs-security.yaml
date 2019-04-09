@@ -156,6 +156,7 @@ cards:
           top: 0%
           z-index: 10
           transform: none
+      - type: image
         #entity: binary_sensor.gate_side_yard_motion
         entity: binary_sensor.gate_side_yard_field_motion
         filter: opacity(0)
@@ -602,8 +603,157 @@ cards:
           transform: none
 
 ###############################################################################
-# Indoor Downstairs Doors
+# Indoor Downstairs Cars 
 ###############################################################################
+      - type: image
+        entity: sensor.ben_garage_car_present
+        image: /local/images/camry-in-garage.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "Yes": opacity(1)
+          "No": opacity(0)
+          "n/a": opacity(.25)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: sensor.susan_garage_car_present
+        image: /local/images/sienna-in-garage.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "Yes": opacity(1)
+          "No": opacity(0)
+          "n/a": opacity(.25)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+###############################################################################
+# Indoor Downstairs Doors 
+###############################################################################
+      - type: image
+        entity: cover.ben_garage
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_image:
+          "closed": /local/images/ben-garage-door-closed.png
+          "open": /local/images/ben-garage-door-open.png
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: cover.susan_garage
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_image:
+          "closed": /local/images/susan-garage-door-closed.png
+          "open": /local/images/susan-garage-door-open.png
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.front_door
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_image:
+          "off": /local/images/front-door-closed.png
+          "on": /local/images/front-door-open.png
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.garage_door
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_image:
+          "off": /local/images/door-to-garage-closed.png
+          "on": /local/images/door-to-garage-open.png
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.back_door
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_image:
+          "off": /local/images/back-door-closed.png
+          "on": /local/images/back-door-open.png
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.laundry_closet_door
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_image:
+          "off": /local/images/laundry-closet-door-closed.png
+          "on": /local/images/laundry-closet-door-open.png
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.master_closet_door
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_image:
+          "off": /local/images/master-closet-door-closed.png
+          "on": /local/images/master-closet-door-open.png
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.pantry_door
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_image:
+          "off": /local/images/pantry-door-closed.png
+          "on": /local/images/pantry-door-open.png
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+
+
 ###############################################################################
 # Indoor Downstairs Windows
 ###############################################################################
