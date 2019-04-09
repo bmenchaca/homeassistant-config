@@ -13,13 +13,13 @@ binary_sensor.office_window_2:
 light.office_go:
   icon: mdi:wall-sconce-variant
 switch.boys_hall_light:
-  icon: mdi:lightbulb
+  icon: mdi:candle
 switch.boys_bathroom_light:
   icon: mdi:lightbulb
 switch.girls_hall_lights:
-  icon: mdi:lightbulb
+  icon: mdi:candle
 switch.game_room_fan:
-  icon: mdi:ceiling-light
+  icon: mdi:fan
 light.game_room_fan:
   icon: mdi:ceiling-light
 switch.gallery_lights:
@@ -82,4 +82,9 @@ switch.master_bath_tub_lights:
   icon: mdi:track-light
 switch.master_closet_lights:
   icon: mdi:ceiling-light
-
+light.heidi_closet:
+  icon: mdi:ceiling-light
+switch.heidi_heater:
+  icon: mdi:radiator
+light.heidi_go:
+  icon: mdi:mdi:wall-sconce-variant
