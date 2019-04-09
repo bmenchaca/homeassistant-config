@@ -57,6 +57,7 @@ cards:
           top: 0%
           z-index: 10
           transform: none
+      - type: image
         #entity: binary_sensor.deck_and_pool_motion
         entity: binary_sensor.deck_and_pool_field_motion
         filter: opacity(0)
