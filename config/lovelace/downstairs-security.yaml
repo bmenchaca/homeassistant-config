@@ -752,8 +752,291 @@ cards:
           top: 0%
           z-index: 20
           transform: none
-
-
 ###############################################################################
 # Indoor Downstairs Windows
 ###############################################################################
+      - type: image
+        entity: binary_sensor.breakfast_window_1
+        image: /local/images/breakfast-window-1-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.breakfast_window_2
+        image: /local/images/breakfast-window-2-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.breakfast_window_3
+        image: /local/images/breakfast-window-3-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.breakfast_window_4
+        image: /local/images/breakfast-window-4-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.craft_room_window_1
+        image: /local/images/craft-window-1-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.craft_room_window_2
+        image: /local/images/craft-window-2-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.dining_room_window_1
+        image: /local/images/dining-window-1-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.dining_room_window_2
+        image: /local/images/dining-window-2-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.dining_room_window_3
+        image: /local/images/dining-window-3-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.entry_window_1
+        image: /local/images/entry-window-1-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.entry_window_2
+        image: /local/images/entry-window-2-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.family_window_1
+        image: /local/images/family-window-1-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.family_window_2
+        image: /local/images/family-window-2-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.guest_window_1
+        image: /local/images/guest-window-1-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.guest_window_2
+        image: /local/images/guest-window-2-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.guest_window_3
+        image: /local/images/guest-window-3-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.master_window_1
+        image: /local/images/master-window-1-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.master_window_2
+        image: /local/images/master-window-2-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
+      - type: image
+        entity: binary_sensor.master_window_3
+        image: /local/images/master-window-3-open.png
+        filter: opacity(0)
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          left: 0%
+          top: 0%
+          z-index: 20
+          transform: none
