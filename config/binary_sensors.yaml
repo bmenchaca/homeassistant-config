@@ -211,7 +211,14 @@
         {%- else -%}
           False
         {%- endif -%}
-
+###############################################################################
+# Workday and Bedtime
+###############################################################################
 - platform: workday
   country: US
   workdays: [mon, tue, wed, thu, fri]
+
+- platform: tod
+  name: Bedtime
+  after: '21:30'
+  before: '6:00'
