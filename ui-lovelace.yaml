@@ -12,9 +12,9 @@ resources:
   - url: /local/popup-card.js?v=0.0.1
     type: module
 views:
-  - !include config/lovelace/downstairs-security.yaml
   - !include config/lovelace/lights.yaml
   - !include config/lovelace/alerts.yaml
+  - !include config/lovelace/downstairs-security.yaml
   #- !include config/lovelace/phone.yaml
   #- !include config/lovelace/overview.yaml
   #- !include config/lovelace/downstairs_map.yaml
