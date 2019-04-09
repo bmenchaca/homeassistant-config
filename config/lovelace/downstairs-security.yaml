@@ -613,8 +613,8 @@ cards:
         hold_action:
           action: none
         state_filter:
-          "Yes": opacity(1)
-          "No": opacity(0)
+          "yes": opacity(1)
+          "no": opacity(0)
           "n/a": opacity(.25)
         style: 
           left: 0%
@@ -629,8 +629,8 @@ cards:
         hold_action:
           action: none
         state_filter:
-          "Yes": opacity(1)
-          "No": opacity(0)
+          "yes": opacity(1)
+          "no": opacity(0)
           "n/a": opacity(.25)
         style: 
           left: 0%
