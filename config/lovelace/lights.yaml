@@ -174,10 +174,6 @@ cards:
         name: Go
         tap_action:
           action: toggle  
-      - entity: switch.office_heater
-        name: Heater
-        tap_action:
-          action: toggle
       - entity: switch.boys_bathroom_light
         name: Bath Lights
         tap_action:
