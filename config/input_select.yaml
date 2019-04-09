@@ -1,13 +1,3 @@
-house_time_of_day:
-  name: House Time of Day
-  options:
-    - Morning
-    - Day
-    - Naptime
-    - Afternoon
-    - Evening
-    - Night
-
 #ben_presence_dropdown:
 #  name: Ben Presence
 #  options:
