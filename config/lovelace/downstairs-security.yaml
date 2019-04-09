@@ -256,10 +256,7 @@ cards:
       - type: image
         image: /local/images/camera-button-overlay.png
         #image: /local/images/camera-button-overlay-visible.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
+        entity: camera.front_driveway_camera
         style: 
           height: 3.81%
           width: 3.33%
@@ -271,10 +268,7 @@ cards:
       - type: image
         image: /local/images/camera-button-overlay.png
         #image: /local/images/camera-button-overlay-visible.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
+        entity: camera.front_east_guest_camera
         style: 
           height: 3.81%
           width: 3.33%
@@ -286,10 +280,7 @@ cards:
       - type: image
         image: /local/images/camera-button-overlay.png
         #image: /local/images/camera-button-overlay-visible.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
+        entity: camera.front_door_camera
         style: 
           height: 3.81%
           width: 3.33%
@@ -301,10 +292,7 @@ cards:
       - type: image
         image: /local/images/camera-button-overlay.png
         #image: /local/images/camera-button-overlay-visible.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
+        entity: camera.west_gate_camera
         style: 
           height: 3.81%
           width: 3.33%
@@ -316,10 +304,7 @@ cards:
       - type: image
         image: /local/images/camera-button-overlay.png
         #image: /local/images/camera-button-overlay-visible.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
+        entity: camera.back_east_gate_camera
         style: 
           height: 3.81%
           width: 3.33%
@@ -331,10 +316,7 @@ cards:
       - type: image
         image: /local/images/camera-button-overlay.png
         #image: /local/images/camera-button-overlay-visible.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
+        entity: camera.back_pool_camera
         style: 
           height: 3.81%
           width: 3.33%
@@ -346,10 +328,7 @@ cards:
       - type: image
         image: /local/images/camera-button-overlay.png
         #image: /local/images/camera-button-overlay-visible.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
+        entity: camera.back_deck_camera
         style: 
           height: 3.81%
           width: 3.33%
@@ -361,10 +340,7 @@ cards:
       - type: image
         image: /local/images/camera-button-overlay.png
         #image: /local/images/camera-button-overlay-visible.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
+        entity: camera.back_playscape_camera
         style: 
           height: 3.81%
           width: 3.33%
@@ -376,10 +352,7 @@ cards:
       - type: image
         image: /local/images/camera-button-overlay.png
         #image: /local/images/camera-button-overlay-visible.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
+        entity: camera.back_west_garden_camera
         style: 
           height: 3.81%
           width: 3.33%
@@ -391,10 +364,7 @@ cards:
       - type: image
         image: /local/images/camera-button-overlay.png
         #image: /local/images/camera-button-overlay-visible.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
+        entity: camera.east_side_yard_camera
         style: 
           height: 3.81%
           width: 3.33%
