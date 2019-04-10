@@ -50,6 +50,70 @@
     switch.game_room_fan: on
     light.game_room: on
 
+- name: gallery_day_time
+  entities:
+    switch.gallery_lights: on
+    light.gallery:
+      state: on
+      color_temp: 429
+      brightness: 254
+
+- name: gallery_night_time
+  entities:
+    switch.gallery_lights: on
+    light.gallery:
+      state: on
+      color_temp: 500
+      brightness: 5
+
+- name: game_room_not_night
+  entities:
+    light.game_room_fan:
+      state: on
+      brightness: 100
+
+- name: game_room_night
+  entities:
+    light.game_room_fan:
+      state: on
+      brightness: 5
+
+- name: guest_bath_night
+  entities:
+    switch.guest_bath_lights: on
+    light.guest_bath_bulb_1: off
+    light.guest_bath_bulb_2: off
+    light.guest_bath_bulb_color:
+      state: on
+      rgb_color: [10, 0, 0]
+      brightness: 5
+
+- name: guest_bath_not_night
+  entities:
+    switch.guest_bath_lights: on
+    light.guest_bath:
+      state: on
+      color_temp: 429
+      brightness: 254
+
+- name: master_hall_night
+  entities:
+    switch.master_hall_lights: on
+    light.master_hall_bulb_1: off
+    light.master_hall_bulb_3: off
+    light.master_hall_bulb_2:
+      state: on
+      color_temp: 500
+      brightness: 5
+
+- name: master_hall_not_night
+  entities:
+    switch.master_hall_lights: on
+    light.master_hall:
+      state: on
+      color_temp: 429
+      brightness: 254
+
 - name: backyard_lights_evening_on
   alias: Backyard Lights Evening On
   entities: 
