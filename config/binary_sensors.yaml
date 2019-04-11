@@ -220,5 +220,5 @@
 
 - platform: tod
   name: Bedtime
-  after: '21:30'
-  before: '6:00'
+  after: '21:00'
+  before: '6:30'
