@@ -85,8 +85,8 @@
     light.guest_bath_bulb_2: off
     light.guest_bath_bulb_color:
       state: on
-      rgb_color: [10, 0, 0]
-      brightness: 5
+      color_temp: 500
+      brightness: 2
 
 - name: guest_bath_not_night
   entities:
@@ -104,7 +104,7 @@
     light.master_hall_bulb_2:
       state: on
       color_temp: 500
-      brightness: 5
+      brightness: 2
 
 - name: master_hall_not_night
   entities:
@@ -186,14 +186,4 @@
 - name: someone_arriving_home
   entities:
     switch.garage_lights: on
-
-- name: guest_bath_night_time
-  entities:
-    switch.guest_bath_lights: on
-    light.guest_bath_1: off
-    light.guest_bath_2: off
-    light.guest_bath_color:
-      state: on
-      rgb_color: [10, 0, 0]
-
 
