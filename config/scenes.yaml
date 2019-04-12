@@ -114,6 +114,14 @@
       color_temp: 429
       brightness: 254
 
+- name: family_night
+  entities:
+    switch.family_mantle_lights: on
+    light.family_mantle_bulb:
+      state: on
+      color_temp: 500
+      brightness: 2
+
 - name: backyard_lights_evening_on
   alias: Backyard Lights Evening On
   entities: 
