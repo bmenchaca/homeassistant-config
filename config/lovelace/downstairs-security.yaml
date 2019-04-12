@@ -614,7 +614,9 @@ cards:
           action: none
         state_filter:
           "yes": opacity(1)
+          "Yes": opacity(1)
           "no": opacity(0)
+          "No": opacity(0)
           "n/a": opacity(.25)
         style: 
           left: 0%
@@ -630,7 +632,9 @@ cards:
           action: none
         state_filter:
           "yes": opacity(1)
+          "Yes": opacity(1)
           "no": opacity(0)
+          "No": opacity(0)
           "n/a": opacity(.25)
         style: 
           left: 0%
