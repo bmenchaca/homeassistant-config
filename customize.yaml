@@ -90,3 +90,5 @@ light.heidi_go:
   icon: mdi:mdi:wall-sconce-variant
 input_boolean.bedtime:
   hidden: true
+switch.master_hall_lights:
+  icon: mdi:ceiling-light
