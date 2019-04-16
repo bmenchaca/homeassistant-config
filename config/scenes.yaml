@@ -188,6 +188,63 @@
     switch.gallery_lights: on
     switch.guest_bath_lights: on
 
+- name: bedtime_dimmed_lights
+  entities:
+    light.guest_bath_bulb_1: off
+    light.guest_bath_bulb_2: off
+    light.guest_bath_bulb_color:
+      state: on
+      brightness: 5
+      kelvin: 2000
+    light.master_hall_bulb_1: off
+    light.master_hall_bulb_3: off
+    light.master_hall_bulb_2:
+      state: on
+      brightness: 5
+      kelvin: 2000
+    light.gallery_flood_bulb:
+      state: on
+      brightness: 5
+      kelvin: 2000
+    light.family_mantle_bulb: 
+      state: on
+      brightness: 5
+      kelvin: 2000
+
+- name: daytime_regular_lights
+  entities:
+    light.guest_bath_bulb_1:
+      state: on
+      brightness: 100
+      kelvin: 3000
+    light.guest_bath_bulb_2:
+      state: on
+      brightness: 100
+      kelvin: 3000
+    light.guest_bath_bulb_color:
+      state: on
+      brightness: 100
+      kelvin: 3000
+    light.master_hall_bulb_1:
+      state: on
+      brightness: 100
+      kelvin: 3000
+    light.master_hall_bulb_3:
+      state: on
+      brightness: 100
+      kelvin: 3000
+    light.master_hall_bulb_2:
+      state: on
+      brightness: 100
+      kelvin: 3000
+    light.gallery_flood_bulb:
+      state: on
+      brightness: 100
+      kelvin: 3000
+    light.family_mantle_bulb: 
+      state: on
+      brightness: 100
+      kelvin: 3000
 
 - name: everyone_away
   entities:

@@ -322,6 +322,13 @@ security_devices:
      - binary_sensor.living_room_motion
      - binary_sensor.master_hall_motion
 
+bedtime_switches:
+  name: Switches on at Bedtime
+  entities:
+    - switch.master_hall_lights
+    - switch.guest_bath_lights
+    - switch.gallery_lights
+    - switch.family_mantle_lights
 
 # Views      
 downstairs_view:

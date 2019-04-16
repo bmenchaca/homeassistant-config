@@ -1,0 +1,29 @@
+prepare_for_bedtime:
+  alias: Prepare for Bedtime
+  sequence:
+    - service: home_assistant.turn_on
+      data:
+        entity_id: group.bedtime_switches
+    - delay: 00:00:05
+    - service: scene.turn_on
+      data:
+        entity_id: scene.bedtime_dimmed_lights
+    - delay: 00:00:05
+    - service: home_assistant.turn_off
+      data:
+        entity_id: light.bedtime_dimmed_lights
+
+prepare_for_daytime:
+  alias: Prepare for Daytime
+  sequence:
+    - service: home_assistant.turn_on
+      data:
+        entity_id: group.bedtime_switches
+    - delay: 00:00:05
+    - service: scene.turn_on
+      data:
+        entity_id: daytime_regular_lights    
+    - delay: 00:00:05
+    - service: home_assistant.turn_off
+      data:
+        entity_id: light.bedtime_dimmed_lights
