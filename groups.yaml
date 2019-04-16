@@ -253,7 +253,7 @@ game_room:
   name: Game Room
   entities:
     - switch.game_room_fan
-    - light.game_room_fan
+    - switch.game_room_lights
     - light.game_room
     - binary_sensor.game_room_window_1
     - binary_sensor.game_room_window_2

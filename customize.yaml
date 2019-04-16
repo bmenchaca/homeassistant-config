@@ -20,7 +20,7 @@ switch.girls_hall_lights:
   icon: mdi:candle
 switch.game_room_fan:
   icon: mdi:fan
-light.game_room_fan:
+switch.game_room_lights:
   icon: mdi:ceiling-light
 switch.gallery_lights:
   icon: mdi:ceiling-light
@@ -49,7 +49,7 @@ switch.guest_bath_lights:
 light.guest_fan_lights:
   icon: mdi:ceiling-light
 switch.master_hall_lights:
-  icon: mdi:lightbulb
+  icon: mdi:ceiling-light
 switch.kitchen_lights:
   icon: mdi:lightbulb
 switch.breakfast_lights:
@@ -90,5 +90,5 @@ light.heidi_go:
   icon: mdi:mdi:wall-sconce-variant
 input_boolean.bedtime:
   hidden: true
-switch.master_hall_lights:
+switch.game_room_lights:
   icon: mdi:ceiling-light

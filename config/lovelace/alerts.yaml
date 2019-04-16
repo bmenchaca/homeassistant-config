@@ -59,7 +59,7 @@ cards:
       - switch.boys_hall_light
       - switch.boys_bathroom_light
       - switch.girls_hall_lights
-      - light.game_room_fan
+      - switch.game_room_lights
       - switch.master_hall_lights
       - switch.kitchen_lights
       - switch.dining_room_lights

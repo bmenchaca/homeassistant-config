@@ -201,7 +201,7 @@ cards:
 # Game Room Elements
 ###############################################################################
         - type: state-icon
-          entity: light.game_room_fan
+          entity: switch.game_room_lights
           tap_action:
             action: toggle
           hold_action:

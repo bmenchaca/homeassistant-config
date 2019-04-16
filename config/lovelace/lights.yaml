@@ -141,7 +141,7 @@ cards:
     show_header_toggle: true
     show_state: false
     entities:
-      - entity: light.game_room_fan
+      - entity: switch.game_room_lights
         name: Game Light
         tap_action:
           action: toggle  
