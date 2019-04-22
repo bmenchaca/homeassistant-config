@@ -10,6 +10,7 @@ alexa:
       - scene
       - switch
       - cover
+      - script
     exclude_entities:
       - switch.breakfast_lights_2
       - switch.dining_room_lights_2
@@ -53,6 +54,12 @@ alexa:
       name: Gallery Hall Lights
     switch.game_room_fan:
       name: Game Room Fan
+    script.family_room_tv_power_toggle:
+      name: Family Room TV Power
+    script.family_room_tv_hdmi_1:
+      name: Family Room TV HDMI 1
+    script.family_room_tv_hdmi_2:
+      name: Family Room TV HDMI 2
 
     #switch.stairs:
     #  display_categories: LIGHT
