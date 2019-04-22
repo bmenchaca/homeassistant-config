@@ -1,29 +1,42 @@
 prepare_for_bedtime:
   alias: Prepare for Bedtime
   sequence:
-    - service: home_assistant.turn_on
+    - service: homeassistant.turn_on
       data:
         entity_id: group.bedtime_switches
     - delay: 00:00:05
     - service: scene.turn_on
       data:
         entity_id: scene.bedtime_dimmed_lights
-    - delay: 00:00:05
-    - service: home_assistant.turn_off
-      data:
-        entity_id: light.bedtime_dimmed_lights
 
 prepare_for_daytime:
   alias: Prepare for Daytime
   sequence:
-    - service: home_assistant.turn_on
+    - service: homeassistant.turn_on
       data:
         entity_id: group.bedtime_switches
     - delay: 00:00:05
     - service: scene.turn_on
       data:
-        entity_id: daytime_regular_lights    
-    - delay: 00:00:05
-    - service: home_assistant.turn_off
+        entity_id: scene.daytime_regular_lights    
+
+family_room_tv_power_toggle:
+  sequence:
+    - service: switch.broadlink_send_packet_192_168_76_2
       data:
-        entity_id: light.bedtime_dimmed_lights
+        packet:
+          - "JgBGAJSREDgROBI1ExARERIPEw8QExI2EjUTNRASERISDxMPEBMSEBMPERESNRM1EBMQEhM1EzUQOBE4EhERDxA4ETgSEREADQUAAA=="
+
+family_room_tv_hdmi_1:
+  sequence:
+    - service: switch.broadlink_send_packet_192_168_76_2
+      data:
+        packet:
+          - "JgBGAJKVETYTNRM1EBMREg8SEhERDxA4ETgRNhMPEw8QExIREQ8TNRATEhERNRMPEDgROBI1ExAQOBI1Ew8TNRATEhERDxMADQUAAA=="
+
+family_room_tv_hdmi_2:
+  sequence:
+    - service: switch.broadlink_send_packet_192_168_76_2
+      data:
+        packet:
+          - "JgBGAJGUETgSNRE4ERESDxMPEBMQEhI1EzUQOBESEBIREhEPEw8QExI3ETYSNRM1EDgREhE2EzUQEhATEhERDxMPEDkREhEADQUAAA=="
