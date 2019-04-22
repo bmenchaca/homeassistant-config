@@ -69,16 +69,10 @@
 - name: game_room_not_night
   entities:
     switch.game_room_lights: on
-    light.game_room:
-      state: on
-      brightness: 100
 
 - name: game_room_night
   entities:
     switch.game_room_lights: on
-    light.game_room:
-      state: on
-      brightness: 5
 
 - name: guest_bath_night
   entities:
