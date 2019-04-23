@@ -1,6 +1,5 @@
-roku:
-  - host: family_room_roku_ip
-  - host: craft_room_roku_host_ip
-  - host: master_roku_host_ip
-  - host: office_roku_host_ip
-  - host: guest_room_roku_host_ip
+- host: family_room_roku_ip
+- host: craft_room_roku_host_ip
+- host: master_roku_host_ip
+- host: office_roku_host_ip
+- host: guest_room_roku_host_ip
