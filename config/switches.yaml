@@ -13,7 +13,7 @@
   type: rm_mini
   friendly_name: "Family Room Broadlink RM Mini"
   switches:
-    tv_family_roomn:
+    family_room_tv_power:
       friendly_name: "Family Room TV Power"
       command_on: 'JgBGAJGSEzYTNBQ0FA8UDxQPFA8UERM0ETcROBISEg8UDxQPFA8UNBQPERMSNRE4ERISEhI1Ew8UNBQ0FA8UDxQ0ETcRExEADQUAAA=='
       command_off: 'JgBGAJSREDgROBI1ExARERIPEw8QExI2EjUTNRASERISDxMPEBMSEBMPERESNRM1EBMQEhM1EzUQOBE4EhERDxA4ETgSEREADQUAAA=='
