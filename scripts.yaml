@@ -20,13 +20,21 @@ prepare_for_daytime:
       data:
         entity_id: scene.daytime_regular_lights    
 
-family_room_tv_power_toggle:
-  alias: Family Room TV Power
+family_room_tv_power_off:
+  alias: Family Room TV Power Off
   sequence:
     - service: switch.broadlink_send_packet_192_168_76_2
       data:
         packet:
           - "JgBGAJSREDgROBI1ExARERIPEw8QExI2EjUTNRASERISDxMPEBMSEBMPERESNRM1EBMQEhM1EzUQOBE4EhERDxA4ETgSEREADQUAAA=="
+
+family_room_tv_power_on:
+  alias: Family Room TV Power On
+  sequence:
+    - service: switch.broadlink_send_packet_192_168_76_2
+      data:
+        packet:
+          - "JgBGAJGSEzYTNBQ0FA8UDxQPFA8UERM0ETcROBISEg8UDxQPFA8UNBQPERMSNRE4ERISEhI1Ew8UNBQ0FA8UDxQ0ETcRExEADQUAAA==" 
 
 family_room_tv_hdmi_1:
   alias: Family Room TV HDMI 1
