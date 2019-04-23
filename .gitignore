@@ -14,5 +14,6 @@
 **__pycache__/
 deps/**
 secrets.yaml
+zwcfg_*
   
 
