@@ -1,22 +1,36 @@
 title: TVs and Speakers
 icon: mdi:remote
 cards:
-  - type: entities
-    title: Family Room TV
-    show_header_toggle: false
-    entities:
-      - script.family_room_tv_power_toggle
-      - script.family_room_tv_hdmi_1
-      - script.family_room_tv_hdmi_2
-  - type: custom:mini-media-player
-    entity: media_player.deck
-  - type: custom:mini-media-player
-    entity: media_player.family_room_sonos
-  - type: custom:mini-media-player
-    entity: media_player.game_room_sonos
-  - type: custom:mini-media-player
-    entity: media_player.guest_sonos
-  - type: custom:mini-media-player
-    entity: media_player.master_bathroom_sonos
-  - type: custom:mini-media-player
-    entity: media_player.master_sonos
+  - type: vertical-stack
+    cards:
+      - type: entities
+        title: Family Room TV
+        show_header_toggle: false
+        entities:
+          - switch.family_room_tv_power
+          - script.family_room_tv_power_on
+          - script.family_room_tv_power_off
+          - script.family_room_tv_hdmi_1
+          - script.family_room_tv_hdmi_2
+      - type: custom:mini-media-player
+        entity: media_player.deck
+      - type: custom:mini-media-player
+        entity: media_player.family_room_sonos
+      - type: custom:mini-media-player
+        entity: media_player.game_room_sonos
+      - type: custom:mini-media-player
+        entity: media_player.guest_sonos
+      - type: custom:mini-media-player
+        entity: media_player.master_bathroom_sonos
+      - type: custom:mini-media-player
+        entity: media_player.master_sonos
+      - type: custom:mini-media-player
+        entity: media_player.family_roku
+      - type: custom:mini-media-player
+        entity: media_player.master_roku
+      - type: custom:mini-media-player
+        entity: media_player.guest
+      - type: custom:mini-media-player
+        entity: media_player.office_roku_stick
+      - type: custom:mini-media-player
+        entity: media_player.craft_room_roku_stick
