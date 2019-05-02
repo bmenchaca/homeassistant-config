@@ -90,3 +90,16 @@
   action:
     service: script.turn_on
     entity_id: script.prepare_for_daytime
+
+- id: noah_lights_off_at_bedtime
+  alias: "Turn Noah Lights Off at Bedtime"
+  trigger:
+    - platform: time
+      at: '20:00:00'
+  condition:
+    condition: state
+    entity_id: binary_sensor.workday_sensor
+    state: 'on'
+  action:
+    service: light.turn_off
+    entity_id: light.noah
