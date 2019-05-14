@@ -90,7 +90,7 @@
     light.guest_bath:
       state: on
       color_temp: 429
-      brightness: 254
+      brightness: 255
 
 - name: master_hall_night
   entities:
@@ -108,7 +108,7 @@
     light.master_hall:
       state: on
       color_temp: 429
-      brightness: 254
+      brightness: 255
 
 - name: family_night
   entities:
@@ -125,7 +125,7 @@
     light.back_yard:
       state: on
       color_temp: 429
-      brightness: 254
+      brightness: 255
 
 - name: backyard_lights_off
   alias: Back Yard Lights Off
