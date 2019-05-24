@@ -19,6 +19,10 @@ prepare_for_daytime:
     - service: scene.turn_on
       data:
         entity_id: scene.daytime_regular_lights    
+    - delay: 00:00:05
+    - service: homeassistant.turn_off
+      data:
+        entity_id: group.bedtime_switches
 
 family_room_tv_power_off:
   alias: Family Room TV Power Off
