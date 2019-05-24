@@ -222,23 +222,18 @@
     light.master_hall_bulb_1:
       state: on
       brightness: 100
-      kelvin: 3000
     light.master_hall_bulb_3:
       state: on
       brightness: 100
-      kelvin: 3000
     light.master_hall_bulb_2:
       state: on
       brightness: 100
-      kelvin: 3000
     light.gallery_flood_bulb:
       state: on
       brightness: 100
-      kelvin: 3000
     light.family_mantle_bulb: 
       state: on
       brightness: 100
-      kelvin: 3000
 
 - name: everyone_away
   entities:
