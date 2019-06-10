@@ -92,24 +92,6 @@
       color_temp: 429
       brightness: 255
 
-- name: master_hall_night
-  entities:
-    switch.master_hall_lights: on
-    light.master_hall_bulb_1: off
-    light.master_hall_bulb_3: off
-    light.master_hall_bulb_2:
-      state: on
-      color_temp: 500
-      brightness: 2
-
-- name: master_hall_not_night
-  entities:
-    switch.master_hall_lights: on
-    light.master_hall:
-      state: on
-      color_temp: 429
-      brightness: 255
-
 - name: family_night
   entities:
     switch.family_mantle_lights: on
@@ -179,7 +161,6 @@
     switch.noahs_hall_light_switch: off
     switch.girls_hall_lights: off
     # These are on because we will turn the lights off with hue
-    switch.gallery_lights: on
     switch.guest_bath_lights: on
 
 - name: bedtime_dimmed_lights
@@ -187,12 +168,6 @@
     light.guest_bath_bulb_1: off
     light.guest_bath_bulb_2: off
     light.guest_bath_bulb_color:
-      state: on
-      brightness: 5
-      kelvin: 2000
-    light.master_hall_bulb_1: off
-    light.master_hall_bulb_3: off
-    light.master_hall_bulb_2:
       state: on
       brightness: 5
       kelvin: 2000
@@ -219,15 +194,6 @@
       state: on
       brightness: 100
       kelvin: 3000
-    light.master_hall_bulb_1:
-      state: on
-      brightness: 100
-    light.master_hall_bulb_3:
-      state: on
-      brightness: 100
-    light.master_hall_bulb_2:
-      state: on
-      brightness: 100
     light.gallery_flood_bulb:
       state: on
       brightness: 100
