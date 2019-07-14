@@ -196,7 +196,7 @@
         {{ is_state("binary_sensor.pool_field_motion", "on") and
            is_state("binary_sensor.deck_field_motion", "on") }}
 ###############################################################################
-# Camera Field Entry
+# Life360
 ###############################################################################
 # Presence
     ben_at_home:
@@ -226,6 +226,22 @@
         {%- else -%}
           False
         {%- endif -%}
+
+###############################################################################
+# Garage Door Open
+###############################################################################
+    ben_garage:
+      friendly_name: "Ben Garage"
+      device_class: garage_door
+      value_template: >-
+        {{ not is_state("sensor.ben_garage_status", "Closed") }}  
+
+    susan_garage:
+      friendly_name: "Susan Garage"
+      device_class: garage_door
+      value_template: >-
+        {{ not is_state("sensor.susan_garage_status", "Closed") }}  
+
 ###############################################################################
 # Workday and Bedtime
 ###############################################################################
