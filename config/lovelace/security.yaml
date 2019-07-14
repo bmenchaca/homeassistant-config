@@ -73,6 +73,7 @@ cards:
   - type: entity-filter
     card:
       title: Downstairs Motion
+      show_header_toggle: false
     show_empty: true
     entities:
       - binary_sensor.entry_motion
@@ -96,6 +97,7 @@ cards:
   - type: entity-filter
     card:
       title: Upstairs Motion
+      show_header_toggle: false
     show_empty: true
     entities:
       - binary_sensor.gallery_motion
