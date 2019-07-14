@@ -115,7 +115,7 @@
       friendly_name: 'Laundry Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("sensor.laundry_lights_burglar", "8") }}
+        {{ is_state("sensor.laundry_lights_switch_burglar", "8") }}
 
     master_hall_motion:
       friendly_name: 'Master Hall Motion'
