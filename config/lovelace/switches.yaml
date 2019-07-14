@@ -1,0 +1,93 @@
+title: Lights
+icon: mdi:light-switch
+cards:
+  - type: vertical-stack
+    cards:
+      - type: glance
+        title: Garage
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: cover.ben_garage
+            name: Ben Garage Door
+            tap_action:
+              action: toggle  
+          - entity: cover.susan_garage
+            name: Susan Garage Door
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title: Family, Kitchen and Breakfast
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: switch.family_fan
+            name: Family Fan
+            tap_action:
+              action: toggle
+          - entity: switch.family_room_tv_power
+            name: Family TV
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title: Guest, Entry and Dining
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: switch.guest_fan_and_lights
+            name: Guest Fan and Lights
+            tap_action:
+              action: toggle
+          - entity: switch.guest_heater
+            name: Guest Heater
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title: Office and Game Room
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: switch.game_room_fan
+            name: Game Room Fan
+            tap_action:
+              action: toggle
+          - entity: switch.office_fan
+            name: Office Fan
+            tap_action:
+              action: toggle
+          - entity: switch.office_heater
+            name: Office Heater
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title: Kid's Rooms
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: switch.heidi_fan_and_lights
+            name: Heidi Fan and Lights
+            tap_action:
+              action: toggle  
+          - entity: switch.heidi_heater
+            name: Heidi Heater
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title: Master
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: switch.master_fan
+            name: Master Fan
+            tap_action:
+              action: toggle
+          - entity: switch.craft_fan_and_lights
+            name: Craft Fan and Lights
+            tap_action:
+              action: toggle
+
