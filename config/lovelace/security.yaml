@@ -1,0 +1,108 @@
+title: Security
+icon: mdi:motion-sensor
+cards:
+  - type: entity-filter
+    card:
+      title: Outdoor Motion
+      show_header_toggle: false
+    show_empty: true
+    entities:
+      - binary_sensor.driveway_field_motion
+      - binary_sensor.deck_field_motion
+      - binary_sensor.deck_and_pool_field_motion
+      - binary_sensor.pool_and_back_gate_field_motion
+      - binary_sensor.back_gate_yard_field_motion
+      - binary_sensor.pool_field_motion
+      - binary_sensor.back_playscape_field_motion
+      - binary_sensor.back_garden_yard_field_motion
+      - binary_sensor.front_porch_field_motion
+      - binary_sensor.guest_front_yard_field_motion
+      - binary_sensor.garden_side_and_front_guest_field_motion
+      - binary_sensor.garden_side_yard_field_motion
+      - binary_sensor.gate_side_yard_field_motion
+      - binary_sensor.guest_front_and_driveway_field_motion
+    state_filter:
+      - "on"
+
+  - type: entity-filter
+    card:
+      title: Perimeter Doors and Windows
+      show_header_toggle: false
+    show_empty: true
+    entities:
+      - cover.ben_garage
+      - cover.susan_garage
+      - binary_sensor.back_door
+      - binary_sensor.breakfast_window_1
+      - binary_sensor.breakfast_window_2
+      - binary_sensor.breakfast_window_3
+      - binary_sensor.breakfast_window_4
+      - binary_sensor.craft_room_window_1
+      - binary_sensor.craft_room_window_2
+      - binary_sensor.dining_room_window_1
+      - binary_sensor.dining_room_window_2
+      - binary_sensor.dining_room_window_3
+      - binary_sensor.entry_window_1
+      - binary_sensor.entry_window_2
+      - binary_sensor.family_window_1
+      - binary_sensor.family_window_2
+      - binary_sensor.front_door
+      - binary_sensor.game_room_window_1
+      - binary_sensor.game_room_window_2
+      - binary_sensor.game_room_window_3
+      - binary_sensor.garage_door
+      - binary_sensor.guest_window_1
+      - binary_sensor.guest_window_2
+      - binary_sensor.guest_window_3
+      - binary_sensor.hannah_window_1
+      - binary_sensor.hannah_window_2
+      - binary_sensor.heidi_attic_door
+      - binary_sensor.heidi_window_1
+      - binary_sensor.heidi_window_2
+      - binary_sensor.master_window_1
+      - binary_sensor.master_window_2
+      - binary_sensor.master_window_3
+      - binary_sensor.noah_room_window_1
+      - binary_sensor.noah_room_window_2
+      - binary_sensor.office_window_1
+      - binary_sensor.office_window_2
+    state_filter:
+      - "on"
+      - "open"
+
+  - type: entity-filter
+    card:
+      title: Downstairs Motion
+    show_empty: true
+    entities:
+      - binary_sensor.entry_motion
+      - binary_sensor.breakfast_motion
+      - binary_sensor.garage_motion
+      - binary_sensor.family_mantle_motion
+      - binary_sensor.family_mantle_and_breakfast_motion
+      - binary_sensor.dining_motion
+      - binary_sensor.dining_and_stairs_motion
+      - binary_sensor.stairs_motion
+      - binary_sensor.master_hall_motion
+      - binary_sensor.laundry_motion
+      - binary_sensor.master_motion
+      - binary_sensor.craft_motion
+      - binary_sensor.master_bath_motion
+      - binary_sensor.guest_bath_motion
+      - binary_sensor.guest_motion
+    state_filter:
+      - "on"
+
+  - type: entity-filter
+    card:
+      title: Upstairs Motion
+    show_empty: true
+    entities:
+      - binary_sensor.gallery_motion
+      - binary_sensor.game_room_motion
+      - binary_sensor.girls_hall_motion
+      - binary_sensor.boys_bathroom_motion
+      - binary_sensor.boys_hall_motion
+      - binary_sensor.office_motion
+    state_filter:
+      - "on"

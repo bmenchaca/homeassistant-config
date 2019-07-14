@@ -1,0 +1,25 @@
+title: People
+icon: mdi:account-multiple
+cards:
+  - type: vertical-stack
+    cards:
+      - type: glance
+        title: People
+        show_header_toggle: true
+        #show_state: false
+        entities:
+          - entity: device_tracker.life360_ben_menchaca
+            name: Ben
+          - entity: device_tracker.life360_susan
+            name: Susan
+          - entity: device_tracker.life360_heidi
+            name: Heidi
+
+      - type: map
+        aspect_ratio: 16:9
+        default_zoom: 8
+        entities:
+          - device_tracker.life360_ben_menchaca
+          - device_tracker.life360_susan
+          - device_tracker.life360_heidi
+          - zone.home

@@ -15,6 +15,8 @@ views:
   - !include config/lovelace/lights.yaml
   - !include config/lovelace/switches.yaml
   - !include config/lovelace/av.yaml
+  - !include config/lovelace/people.yaml
+  - !include config/lovelace/security.yaml
   - !include config/lovelace/downstairs-security.yaml
   - !include config/lovelace/alerts.yaml
   #- !include config/lovelace/phone.yaml
