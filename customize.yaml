@@ -90,3 +90,11 @@ light.heidi_go:
   icon: mdi:mdi:wall-sconce-variant
 input_boolean.bedtime:
   hidden: true
+switch.guest_heater:
+  icon: mdi:radiator
+switch.family_room_tv_power:
+  icon: mdi:television
+switch.heidi_fan_and_lights:
+  icon: mdi:fan
+switch.craft_fan_and_lights:
+  icon: mdi:fan
