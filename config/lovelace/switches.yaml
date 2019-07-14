@@ -11,7 +11,7 @@ cards:
           - entity: cover.ben_garage
             name: Ben Garage Door
             tap_action:
-              action: toggle  
+              action: toggle
           - entity: cover.susan_garage
             name: Susan Garage Door
             tap_action:
