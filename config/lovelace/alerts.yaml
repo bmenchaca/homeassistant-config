@@ -3,12 +3,21 @@ icon: mdi:alert
 cards:
   - type: entity-filter
     card:
+      type: glance
+      title: Garage Doors
+    show_empty: true
+    entities:
+      - entity: cover.ben_garage
+      - entity: cover.susan_garage
+    state_filter:
+      - "on"
+      - "open"
+  - type: entity-filter
+    card:
       title: Open Windows and Doors
       show_header_toggle: false
     show_empty: true
     entities:
-      - cover.ben_garage
-      - cover.susan_garage
       - binary_sensor.back_door
       - binary_sensor.breakfast_window_1
       - binary_sensor.breakfast_window_2
@@ -68,7 +77,7 @@ cards:
       - switch.entry_lights
       - switch.guest_bath_lights
       - switch.guest_hall_lights
-      - light.family_room_dimmer
+      - switch.family_fan_lights
       - switch.family_mantle_dimmer
       - switch.back_porch_lights
       - light.back_yard_lights

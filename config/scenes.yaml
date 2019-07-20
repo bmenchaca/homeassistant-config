@@ -17,7 +17,7 @@
     switch.breakfast_lights: off
     switch.kitchen_lights: off
     switch.back_porch_lights: off
-    light.family_room_dimmer: off
+    switch.family_fan_lights: off
 
 - name: entry_hall_off
   entities:
@@ -130,7 +130,7 @@
     switch.entry_lights: off
     switch.guest_bath_lights: off
     switch.guest_hall_lights: off
-    light.family_room_dimmer: off
+    switch.family_fan_lights: off
     switch.family_mantle_lights: on
 
 - name: house_bed_time
@@ -145,7 +145,7 @@
     switch.breakfast_lights: off
     switch.entry_lights: off
     switch.entry_christmas_lights: off
-    light.family_room_dimmer: off
+    switch_family_fan_lights: off
     switch.family_mantle_lights: off
     switch.back_porch_lights: off
     switch.front_porch_lights: off

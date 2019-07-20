@@ -64,7 +64,9 @@ switch.dining_room_lights:
   icon: mdi:candle
 switch.guest_fan_and_lights:
   icon: mdi:fan
-light.family_room_dimmer:
+switch.family_fan_lights:
+  icon: mdi:ceiling-light
+light.family_fan_lights:
   icon: mdi:ceiling-light
 switch.laundry_lights:
   icon: mdi:lightbulb

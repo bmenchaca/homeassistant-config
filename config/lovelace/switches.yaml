@@ -23,7 +23,11 @@ cards:
         show_state: false
         entities:
           - entity: switch.family_fan
-            name: Family Fan
+            name: Fan
+            tap_action:
+              action: toggle
+          - entity: switch.family_fan_lights
+            name: Fan Lights
             tap_action:
               action: toggle
           - entity: switch.family_room_tv_power

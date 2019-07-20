@@ -123,7 +123,8 @@ breakfast_room:
 family_room:
   name: Family Room
   entities:
-    - light.family_room_dimmer
+    - switch.family_fan_lights
+    - light.family_fan_lights
     - switch.family_fan
     - switch.family_mantle_lights
     - scene.evening_tv_time

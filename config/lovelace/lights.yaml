@@ -20,8 +20,8 @@ cards:
             name: Breakfast
             tap_action:
               action: toggle
-          - entity: light.family_room_dimmer
-            name: Fan Dimmer
+          - entity: light.family_fan_lights
+            name: Fan Lights
             tap_action:
               action: toggle
           - entity: switch.family_mantle_lights
