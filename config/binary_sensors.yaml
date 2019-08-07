@@ -252,4 +252,4 @@
 - platform: tod
   name: Bedtime
   after: '21:30'
-  before: '7:00'
+  before: '7:30'
