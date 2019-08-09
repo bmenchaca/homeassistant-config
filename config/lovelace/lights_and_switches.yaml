@@ -1,0 +1,320 @@
+title: Lights and Switches
+icon: mdi:light-switch
+cards:
+  - type: vertical-stack
+    cards:
+      - type: glance
+        title: Family Room
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: switch.family_fan
+            name: Fan
+            tap_action:
+              action: toggle
+          - entity: switch.family_fan_lights
+            name: Fan Lights
+            tap_action:
+              action: toggle
+          - entity: light.family_fan_lights
+            name: Fan Lights
+            tap_action:
+              action: toggle
+          - entity: switch.family_mantle_lights
+            name: Mantle
+            tap_action:
+              action: toggle
+          - entity: switch.family_room_tv_power
+            name: Family TV
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title: Kitchen and Breakfast
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: switch.kitchen_lights
+            name: Kitchen
+            tap_action:
+              action: toggle
+          - entity: switch.kitchen_pantry_light
+            name: Pantry
+            tap_action:
+              action: toggle
+          - entity: switch.breakfast_lights
+            name: Breakfast
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title: Entry and Dining
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: switch.entry_lights
+            name: Entry Chandelier
+            tap_action:
+              action: toggle
+          - entity: light.entry_lamp
+            name: Lamp Dimmer
+            tap_action:
+              action: toggle
+          - entity: switch.dining_room_lights
+            name: Dining Chandelier
+            tap_action:
+              action: toggle
+          - entity: switch.front_porch_lights
+            name: Front Porch
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title: Guest Room and Bath
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: switch.guest_fan_and_lights
+            name: Fan and Lights
+            tap_action:
+              action: toggle
+          - entity: light.guest_fan_lights
+            name: Fan Dimmer
+            tap_action:
+              action: toggle
+          - entity: switch.guest_heater
+            name: Heater
+            tap_action:
+              action: toggle
+          - entity: switch.guest_bath_lights
+            name: Bath Switch
+            tap_action:
+              action: toggle
+          - entity: light.guest_bath
+            name: Bath Dimmer
+            tap_action:
+              action: toggle
+          - entity: switch.guest_hall_lights
+            name: Hall
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title: Master Hall and Stairs
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: switch.master_hall_lights
+            name: Hall Lights
+            tap_action:
+              action: toggle
+          - entity: light.master_hall
+            name: Hall Dimmer
+            tap_action:
+              action: toggle
+          - entity: switch.stairs_lights
+            name: Stairs Light
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title: Master and Craft Room
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: switch.master_fan
+            name: Master Fan
+            tap_action:
+              action: toggle
+          - entity: light.master_fan_lights_dimmer
+            name: Fan Dimmer
+            tap_action:
+              action: toggle  
+          - entity: switch.craft_fan_and_lights
+            name: Craft Fan
+            tap_action:
+              action: toggle
+          - entity: switch.craft_sewing_lights
+            name: Sewing Lamp
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title:  Master Bath and Closet
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: light.master_vanity_dimmer
+            name: Vanity Dimmer
+            tap_action:
+              action: toggle  
+          - entity: switch.master_bath_tub_lights
+            name: Tub Light
+            tap_action:
+              action: toggle  
+          - entity: light.master_tub_color_bulb
+            name: Tub Dimmer
+            tap_action:
+              action: toggle  
+          - entity: switch.master_closet_lights
+            name: Closet
+            tap_action:
+              action: toggle  
+
+      - type: glance
+        title: Laundry and Garage
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: cover.ben_garage
+            name: Ben Garage Door
+            tap_action:
+              action: toggle
+          - entity: cover.susan_garage
+            name: Susan Garage Door
+            tap_action:
+              action: toggle
+          - entity: switch.laundry_lights
+            name: Laundry
+            tap_action:
+              action: toggle
+          - entity: switch.laundry_closet_lights
+            name: Closet
+            tap_action:
+              action: toggle
+          - entity: switch.garage_lights
+            name: Garage
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title: Gallery, Halls, and Boy's Bath
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: switch.gallery_lights
+            name: Gallery Light
+            tap_action:
+              action: toggle  
+          - entity: light.gallery
+            name: Gallery Dimmer
+            tap_action:
+              action: toggle 
+          - entity: switch.girls_hall_lights
+            name: Girls Hall
+            tap_action:
+              action: toggle 
+          - entity: switch.boys_hall_light
+            name: Boys Hall
+            tap_action:
+              action: toggle 
+          - entity: switch.boys_bathroom_light
+            name: Bath Lights
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title: Game Room
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: switch.game_room_lights
+            name: Game Light
+            tap_action:
+              action: toggle  
+          - entity: light.game_room
+            name: Game Dimmer
+            tap_action:
+              action: toggle
+          - entity: switch.game_room_fan
+            name: Game Room Fan
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title: Office
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: switch.office_fan
+            name: Office Fan
+            tap_action:
+              action: toggle
+          - entity: light.office_fan_lights
+            name: Fan Lights
+            tap_action:
+              action: toggle  
+          - entity: switch.office_heater
+            name: Office Heater
+            tap_action:
+              action: toggle
+          - entity: light.office_go
+            name: Go
+            tap_action:
+              action: toggle  
+
+      - type: glance
+        title: Heidi's Room
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: switch.heidi_fan_and_lights
+            name: Heidi Fan and Lights
+            tap_action:
+              action: toggle  
+          - entity: light.heidi_fan_lights
+            name: Fan Lights
+            tap_action:
+              action: toggle
+          - entity: light.heidi_bed_lightstrip
+            name: Bed
+            tap_action:
+              action: toggle  
+          - entity: light.heidi_closet
+            name: Closet
+            tap_action:
+              action: toggle
+          - entity: light.heidi_go
+            name: Go
+            tap_action:
+              action: toggle
+          - entity: switch.heidi_heater
+            name: Heidi Heater
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title: Noah's Room
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: light.noah_fan_lights
+            name: Fan Lights
+            tap_action:
+              action: toggle
+          - entity: light.noah_bed_lightstrip
+            name: Bed
+            tap_action:
+              action: toggle  
+          - entity: light.noah_lamp
+            name: Lamp
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title: Hannah's Room
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: light.hannah_fan_lights
+            name: Fan Lights
+            tap_action:
+              action: toggle
+          - entity: light.hannah_bed_lightstrip
+            name: Bed
+            tap_action:
+              action: toggle  
+          - entity: light.hannah_lamp
+            name: Lamp
+            tap_action:
+              action: toggle
