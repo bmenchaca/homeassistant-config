@@ -12,8 +12,7 @@ resources:
   - url: /local/mini-media-player-bundle.js?1.0.4
     type: module
 views:
-  - !include config/lovelace/lights.yaml
-  - !include config/lovelace/switches.yaml
+  - !include config/lovelace/lights_and_switches.yaml
   - !include config/lovelace/alerts.yaml
   - !include config/lovelace/people.yaml
   - !include config/lovelace/av.yaml
