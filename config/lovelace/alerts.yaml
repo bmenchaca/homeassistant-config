@@ -37,6 +37,7 @@ cards:
       - binary_sensor.game_room_window_2
       - binary_sensor.game_room_window_3
       - binary_sensor.garage_door
+      - binary_sensor.garage_fridge_door
       - binary_sensor.guest_window_1
       - binary_sensor.guest_window_2
       - binary_sensor.guest_window_3
