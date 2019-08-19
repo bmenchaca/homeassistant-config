@@ -86,10 +86,10 @@ cards:
             name: Heater
             tap_action:
               action: toggle
-          - entity: switch.guest_bath_lights
-            name: Bath Switch
-            tap_action:
-              action: toggle
+#          - entity: switch.guest_bath_lights
+#            name: Bath Switch
+#            tap_action:
+#              action: toggle
           - entity: light.guest_bath
             name: Bath Dimmer
             tap_action:
@@ -258,10 +258,10 @@ cards:
         show_header_toggle: true
         show_state: false
         entities:
-          - entity: switch.heidi_fan_and_lights
-            name: Heidi Fan and Lights
-            tap_action:
-              action: toggle  
+          #          - entity: switch.heidi_fan_and_lights
+          #  name: Heidi Fan and Lights
+          #  tap_action:
+          #    action: toggle  
           - entity: light.heidi_fan_lights
             name: Fan Lights
             tap_action:
