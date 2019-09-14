@@ -8,6 +8,23 @@
   username: !secret alibi_rtsp_username
   password: !secret alibi_rtsp_password
 
+###############################################################################
+# Time of day and workday sensors
+###############################################################################
+- platform: workday
+  country: US
+  workdays: [mon, tue, wed, thu, fri]
+
+- platform: tod
+  name: Weekend_Bedtime
+  after: '21:30'
+  before: '7:30'
+
+- platform: tod
+  name: Workday_Bedtime
+  after: '21:00'
+  before: '7:00'
+
 #Occupancy Template Sensors
 - platform: template
   sensors:
@@ -243,7 +260,7 @@
         {{ not is_state("sensor.susan_garage_status", "Closed") }}  
 
 ###############################################################################
-# Workday and Bedtime
+# Combined Weekend and Workday and Bedtime
 ###############################################################################
     bedtime:
       friendly_name: "Bedtime"
@@ -254,16 +271,3 @@
             is_state("binary_sensor.weekend_bedtime", "on")) }}
 
 
-- platform: workday
-  country: US
-  workdays: [mon, tue, wed, thu, fri]
-
-- platform: tod
-  name: Weekend_Bedtime
-  after: '21:30'
-  before: '7:30'
-
-- platform: tod
-  name: Workday_Bedtime
-  after: '21:00'
-  before: '7:00'
