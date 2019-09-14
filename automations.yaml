@@ -70,26 +70,26 @@
     data:
       entity_id: input_boolean.bedtime
 
-- id: set_up_dimmed_lights_at_bedtime
-  alias: "Set Up Dimmed Lights at Bedtime"
-  trigger:
-    platform: state
-    entity_id: binary_sensor.bedtime
-    to: 'on'
-  action:
-    service: script.turn_on
-    entity_id: script.prepare_for_bedtime
+#- id: set_up_dimmed_lights_at_bedtime
+#  alias: "Set Up Dimmed Lights at Bedtime"
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.bedtime
+#    to: 'on'
+#  action:
+#    service: script.turn_on
+#    entity_id: script.prepare_for_bedtime
 
 
-- id: reset_dimmed_bedtime_lights_in_morning
-  alias: "Reset Dimmed Bedtime Lights in the Morning"
-  trigger:
-    platform: state
-    entity_id: binary_sensor.bedtime
-    to: 'off'
-  action:
-    service: script.turn_on
-    entity_id: script.prepare_for_daytime
+#- id: reset_dimmed_bedtime_lights_in_morning
+#  alias: "Reset Dimmed Bedtime Lights in the Morning"
+#  trigger:
+#    platform: state
+#    entity_id: binary_sensor.bedtime
+#    to: 'off'
+#  action:
+#    service: script.turn_on
+#    entity_id: script.prepare_for_daytime
 
 - id: noah_lights_off_at_bedtime
   alias: "Turn Noah Lights Off at Bedtime"
