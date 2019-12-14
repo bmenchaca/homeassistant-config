@@ -9,6 +9,28 @@ prepare_for_bedtime:
       data:
         entity_id: scene.bedtime_dimmed_lights
 
+guest_bath_night_time:
+  alias: Guest Bath Night Time
+  sequence:
+    - service: homeassistant.turn_on
+      data:
+        entity_id: switch.guest_bath_lights
+    - delay: 00:00:02
+    - service: scene.turn_on
+      data:
+        entity_id: scene.guest_bath_night
+
+guest_bath_day_time:
+  alias: Guest Bath Day Time
+  sequence:
+    - service: homeassistant.turn_on
+      data:
+        entity_id: switch.guest_bath_lights
+    - delay: 00:00:02
+    - service: scene.turn_on
+      data:
+        entity_id: scene.guest_bath_day
+
 prepare_for_daytime:
   alias: Prepare for Daytime
   sequence:

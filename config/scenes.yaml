@@ -76,15 +76,15 @@
 
 - name: guest_bath_night
   entities:
-    switch.guest_bath_lights: on
-    light.guest_bath:
+    light.guest_bath_bulb_1: off
+    light.guest_bath_bulb_2: off
+    light.guest_bath_bulb_color:
       state: on
       color_temp: 500
       brightness: 5
 
-- name: guest_bath_not_night
+- name: guest_bath_day
   entities:
-    switch.guest_bath_lights: on
     light.guest_bath:
       state: on
       color_temp: 429
