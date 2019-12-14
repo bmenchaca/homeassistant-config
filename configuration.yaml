@@ -37,7 +37,7 @@ input_boolean: !include config/input_boolean.yaml
 #input_datetime: !include config/input_datetime.yaml
 vacuum: !include config/vacuum.yaml
 zwave: !include config/zwave.yaml
-hue: !include config/hue.yaml
+#hue: !include config/hue.yaml
 logger: !include config/logger.yaml
 #mqtt: !include config/mqtt.yaml
 recorder: !include config/recorder.yaml
@@ -58,12 +58,12 @@ alarm_control_panel: !include config/alarm_control_panel.yaml
 camera: !include config/camera.yaml
 notify: !include config/notify.yaml
 ring: !include config/ring.yaml
-abode: !include config/abode.yaml
+#abode: !include config/abode.yaml
 rachio: !include config/rachio.yaml
 life360: !include config/life360.yaml
 #roku: !include config/roku.yaml
 system_health:
-#google: !include config/google.yaml
+google: !include config/google.yaml
 
 # Text to Speech
 #tts: !include config/tts.yaml

@@ -64,8 +64,22 @@ cards:
             name: Dining Chandelier
             tap_action:
               action: toggle
+
+      - type: glance
+        title: Front Yard
+        show_header_toggle: true
+        show_state: false
+        entities:
           - entity: switch.front_porch_lights
             name: Front Porch
+            tap_action:
+              action: toggle
+          - entity: switch.garage_carriage_lights
+            name: Garage Carriage Lights
+            tap_action:
+              action: toggle
+          - entity: switch.entry_christmas_lights
+            name: Christmas Lights
             tap_action:
               action: toggle
 
@@ -114,6 +128,24 @@ cards:
               action: toggle
           - entity: switch.stairs_lights
             name: Stairs Light
+            tap_action:
+              action: toggle
+
+      - type: glance
+        title: Back Yard
+        show_header_toggle: true
+        show_state: false
+        entities:
+          - entity: light.back_deck_lights
+            name: Back Deck Lights
+            tap_action:
+              action: toggle
+          - entity: light.back_yard
+            name: Back Yard Lights
+            tap_action:
+              action: toggle
+          - entity: switch.back_porch_lights
+            name: Back Porch Light
             tap_action:
               action: toggle
 

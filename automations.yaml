@@ -103,3 +103,7 @@
   action:
     service: light.turn_off
     entity_id: light.noah
+
+#- id: christmas_lights_at_night_after_thanksgiving
+#  alias: "Christmas Lights When Appropriate"
+

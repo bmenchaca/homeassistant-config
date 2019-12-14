@@ -22,7 +22,7 @@ prepare_for_daytime:
     - delay: 00:00:05
     - service: homeassistant.turn_off
       data:
-        entity_id: group.bedtime_switches
+        entity_id: light.guest_bath
 
 family_room_tv_power_off:
   alias: Family Room TV Power Off

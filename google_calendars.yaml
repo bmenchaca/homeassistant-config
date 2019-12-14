@@ -1,0 +1,6 @@
+- cal_id: !secret google_cal_id
+  entities:
+  - device_id: holidays
+    name: Holidays
+    track: true
+    search: "#holiday"

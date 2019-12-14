@@ -26,6 +26,12 @@ switch.gallery_lights:
   icon: mdi:ceiling-light
 switch.stairs_lights:
   icon: mdi:ceiling-light
+switch.back_porch_lights:
+  icon: mdi:wall-sconce
+switch.garage_carriage_lights:
+  icon: mdi:wall-sconce
+switch.entry_christmas_lights:
+  icon: mdi:led-strip-variant
 light.heidi_bed_lightstrip:
   icon: mdi:lightbulb
 light.heidi_fan_lights:
