@@ -76,9 +76,9 @@
 
 - name: guest_bath_night
   entities:
-    light.guest_bath_bulb_1: off
-    light.guest_bath_bulb_2: off
-    light.guest_bath_bulb_color:
+    light.guest_bath_1: off
+    light.guest_bath_2: off
+    light.guest_bath_color:
       state: on
       color_temp: 500
       brightness: 5
