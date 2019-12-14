@@ -63,7 +63,7 @@ rachio: !include config/rachio.yaml
 life360: !include config/life360.yaml
 #roku: !include config/roku.yaml
 system_health:
-google: !include config/google.yaml
+#google: !include config/google.yaml
 
 # Text to Speech
 #tts: !include config/tts.yaml
