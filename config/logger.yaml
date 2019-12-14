@@ -1,5 +1,5 @@
 default: warning
 #default: debug
 logs:
-  homeassistant.components.scene: debug
+  #homeassistant.components.scene: debug
   # homeassistant.components.device_tracker: debug
