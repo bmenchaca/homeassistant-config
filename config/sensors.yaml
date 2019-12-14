@@ -146,24 +146,23 @@
           n/a
         {% endif %}
 
-- platform: waze_travel_time
-  name: "Waze Ben to Home"
-  origin: device_tracker.life360_ben_menchaca
-  destination: zone.home
-  region: 'US'
+#- platform: waze_travel_time
+#  name: "Waze Ben to Home"
+#  origin: device_tracker.life360_ben_menchaca
+#  destination: zone.home
+#  region: 'US'
 
-- platform: waze_travel_time
-  name: "Waze Susan to Home"
-  origin: device_tracker.life360_susan
-  destination: zone.home
-  region: 'US'
+#- platform: waze_travel_time
+#  name: "Waze Susan to Home"
+#  origin: device_tracker.life360_susan
+#  destination: zone.home
+#  region: 'US'
 
-- platform: waze_travel_time
-  name: "Waze Heidi to Home"
-  origin: device_tracker.life360_heidi
-  destination: zone.home
-  region: 'US'
-
+#- platform: waze_travel_time
+#  name: "Waze Heidi to Home"
+#  origin: device_tracker.life360_heidi
+#  destination: zone.home
+#  region: 'US'
 
 #- platform: sql
 #  db_url: !secret db_url
