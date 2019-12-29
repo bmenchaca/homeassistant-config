@@ -174,7 +174,7 @@
       friendly_name: 'Girls Hall Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("sensor.girls_hall_lights_burglar", "8") }}
+        {{ is_state("sensor.girls_hall_burglar", "8") }}
 
     office_motion:
       friendly_name: 'Office Motion'
