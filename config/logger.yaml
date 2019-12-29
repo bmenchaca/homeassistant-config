@@ -1,5 +1,6 @@
 default: warning
 #default: debug
-#logs:
+logs:
+  homeassistant.components.mqtt: debug
   #homeassistant.components.scene: debug
   # homeassistant.components.device_tracker: debug

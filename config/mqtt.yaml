@@ -1,4 +1,3 @@
 broker: !secret mqtt_server
-port: !secret mqtt_port
-client_id: !secret mqtt_client_id
-keepalive: 60
+discovery: true
+discovery_prefix: homeassistant

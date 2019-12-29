@@ -480,3 +480,11 @@ saraaliasiphone:
   picture:
   track: false
 
+
+life360_noah_menchaca:
+  hide_if_away: false
+  icon:
+  mac:
+  name: life360 noah menchaca
+  picture:
+  track: true

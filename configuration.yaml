@@ -28,7 +28,8 @@ lovelace: !include config/lovelace.yaml
 http: !include config/http.yaml
 history: !include config/history.yaml
 logbook: !include config/logbook.yaml
-panel_custom: !include config/panel_custom.yaml
+#panel_custom: !include config/panel_custom.yaml
+panel_iframe: !include config/panel_iframe.yaml
 frontend: !include config/frontend.yaml
 cloud: !include config/cloud.yaml
 #input_select: !include config/input_select.yaml
@@ -36,10 +37,10 @@ input_boolean: !include config/input_boolean.yaml
 #input_text: !include config/input_text.yaml
 #input_datetime: !include config/input_datetime.yaml
 vacuum: !include config/vacuum.yaml
-zwave: !include config/zwave.yaml
+#zwave: !include config/zwave.yaml
 #hue: !include config/hue.yaml
 logger: !include config/logger.yaml
-#mqtt: !include config/mqtt.yaml
+mqtt: !include config/mqtt.yaml
 recorder: !include config/recorder.yaml
 group: !include groups.yaml
 cover: !include config/covers.yaml

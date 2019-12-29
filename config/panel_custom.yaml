@@ -10,7 +10,7 @@
 #  url_path: upstairs
 #  config: !include upstairs_floorplan.yaml
 
-- name: zwavegraph2
-  sidebar_title: ZWave Graph
-  sidebar_icon: mdi:access-point-network
-  url_path: zwave
+#- name: zwavegraph2
+#  sidebar_title: ZWave Graph
+#  sidebar_icon: mdi:access-point-network
+#  url_path: zwave

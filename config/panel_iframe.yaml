@@ -1,0 +1,8 @@
+zwave2mqtt_switches:
+  title: Z-Wave to MQTT Switches
+  icon: mdi:z-wave
+  url: http://192.168.64.110:8091
+zwave2mqtt_sensors:
+  title: Z-Wave to MQTT Sensors
+  icon: mdi:z-wave
+  url: http://192.168.64.111:8091
