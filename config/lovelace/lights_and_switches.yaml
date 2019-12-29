@@ -180,7 +180,7 @@ cards:
             name: Vanity Dimmer
             tap_action:
               action: toggle  
-          - entity: switch.master_bath_tub_lights
+          - entity: switch.master_bathtub_spotlight
             name: Tub Light
             tap_action:
               action: toggle  
