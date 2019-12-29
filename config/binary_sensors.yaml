@@ -81,7 +81,7 @@
       friendly_name: 'Stairs Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("sensor.stairs_lights_burglar", "8") }}
+        {{ is_state("sensor.stairs_burglar", "8") }}
 
     entry_motion:
       friendly_name: 'Entry Motion'
@@ -94,15 +94,15 @@
       device_class: motion
       value_template: >-
         {{ is_state("sensor.dining_room_lights_burglar", "8") and
-           is_state("sensor.stairs_lights_burglar", "8") }}
+           is_state("sensor.stairs_burglar", "8") }}
 
     dining_stairs_or_master_hall_motion:
       friendly_name: 'Dining, Stairs or Master Hall Motion'
       device_class: motion
       value_template: >-
         {{ is_state("sensor.dining_room_lights_burglar", "8") or
-           is_state("sensor.master_hall_lights_burglar", "8") or
-           is_state("sensor.stairs_lights_burglar", "8") }}
+           is_state("sensor.master_hall_burglar", "8") or
+           is_state("sensor.stairs_burglar", "8") }}
 
     garage_motion:
       friendly_name: 'Garage Motion'
@@ -138,7 +138,7 @@
       friendly_name: 'Master Hall Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("sensor.master_hall_lights_burglar", "8") }}
+        {{ is_state("sensor.master_hall_burglar", "8") }}
 
     master_bath_motion:
       friendly_name: 'Master Bath Motion'
