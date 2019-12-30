@@ -196,7 +196,7 @@ cards:
             name: Bath Lights
             tap_action:
               action: toggle
-          - entity: light.office_fan_lights
+          - entity: light.office_fan_lights_dimmer
             name: Fan Lights
             tap_action:
               action: toggle  

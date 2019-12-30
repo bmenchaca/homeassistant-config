@@ -263,7 +263,7 @@ game_room:
 office:
   name: Office
   entities:
-    - light.office_fan_lights
+    - light.office_fan_lights_dimmer
     - switch.office_fan
     - switch.office_lamp
     - switch.office_heater

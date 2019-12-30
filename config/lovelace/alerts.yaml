@@ -82,7 +82,7 @@ cards:
       - switch.family_mantle_dimmer
       - switch.back_porch_lights
       - light.back_yard_lights
-      - light.office_fan_lights
+      - light.office_fan_lights_dimmer
       - switch.garage_lights
       - switch.front_porch_lights
     state_filter:

@@ -49,21 +49,21 @@
       friendly_name: 'Family Mantle Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("sensor.family_mantle_lights_burglar", "8") }}
+        {{ is_state("sensor.family_mantle_burglar", "8") }}
 
     family_mantle_and_breakfast_motion:
       friendly_name: 'Family and Breakfast Motion'
       device_class: motion
       value_template: >-
         {{ is_state("sensor.breakfast_lights_burglar", "8") and
-           is_state("sensor.family_mantle_lights_burglar", "8") }}
+           is_state("sensor.family_mantle_burglar", "8") }}
 
     family_mantle_or_breakfast_motion:
       friendly_name: 'Family or Breakfast Motion'
       device_class: motion
       value_template: >-
         {{ is_state("sensor.breakfast_lights_burglar", "8") or
-           is_state("sensor.family_mantle_lights_burglar", "8") }}
+           is_state("sensor.family_mantle_burglar", "8") }}
 
     craft_motion:
       friendly_name: 'Craft Room Motion'
@@ -87,7 +87,7 @@
       friendly_name: 'Entry Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("sensor.front_porch_lights_burglar", "8") }}
+        {{ is_state("sensor.front_porch_switch_burglar", "8") }}
 
     dining_and_stairs_motion:
       friendly_name: 'Dining and Stairs Motion'
@@ -114,13 +114,13 @@
       friendly_name: 'Guest Bath Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("sensor.guest_bath_lights_burglar", "8") }}
+        {{ is_state("sensor.guest_bath_burglar", "8") }}
 
     guest_motion:
       friendly_name: 'Guest Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("sensor.guest_fan_and_lights_burglar", "8") }}
+        {{ is_state("sensor.guest_burglar", "8") }}
 
     master_motion:
       friendly_name: 'Master Motion'
