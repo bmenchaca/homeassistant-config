@@ -127,6 +127,15 @@
     - light.family_fan_bulb_1
     - light.family_fan_bulb_2
     - light.family_fan_bulb_3
+    - light.family_fan_bulb_4
+
+- platform: group
+  name: Game Room Fan Lights
+  entities:
+    - light.game_fan_bulb_1
+    - light.game_fan_bulb_2
+    - light.game_fan_bulb_3
+    - light.game_fan_bulb_4
 
 # Room Light Groups
 - platform: group
@@ -172,6 +181,13 @@
     - light.guest_bath_bulb_color
 
 - platform: group
+  name: Office Lights
+  entities:
+    - light.office_go
+    - light.office_fan_lights_dimmer
+
+# Outside
+- platform: group
   name: Back Yard Lights
   entities:
     - light.pool_pump_center_calla
@@ -203,6 +219,7 @@
     - light.deck_lower_lightstrip
     - light.back_porch_light
 
+# Other Groups
 - platform: group
   name: Bedtime Dimmed Lights
   entities:
