@@ -130,6 +130,10 @@ cards:
             name: Closet
             tap_action:
               action: toggle  
+          - entity: switch.master_lavatory_lights
+            name: Lavatory
+            tap_action:
+              action: toggle  
 
       - type: glance
         title: Laundry and Garage
