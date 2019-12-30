@@ -56,10 +56,10 @@ cards:
             name: Entry Chandelier
             tap_action:
               action: toggle
-          - entity: light.entry_lamp
-            name: Lamp Dimmer
-            tap_action:
-              action: toggle
+              #- entity: light.entry_lamp
+              #name: Lamp Dimmer
+              #tap_action:
+              #action: toggle
           - entity: switch.dining_room_lights
             name: Dining Chandelier
             tap_action:
@@ -276,7 +276,7 @@ cards:
             name: Office Fan
             tap_action:
               action: toggle
-          - entity: light.office_fan_lights
+          - entity: light.office_fan_lights_dimmer
             name: Fan Lights
             tap_action:
               action: toggle  
