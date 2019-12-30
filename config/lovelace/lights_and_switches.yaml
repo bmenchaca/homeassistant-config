@@ -24,10 +24,10 @@ cards:
             name: Mantle
             tap_action:
               action: toggle
-          - entity: switch.family_room_tv_power
-            name: Family TV
-            tap_action:
-              action: toggle
+#          - entity: switch.family_room_tv_power
+#            name: Family TV
+#            tap_action:
+#              action: toggle
 
       - type: glance
         title: Kitchen and Breakfast
