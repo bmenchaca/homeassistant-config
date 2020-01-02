@@ -86,6 +86,7 @@
 
 - name: guest_bath_day
   entities:
+    switch.guest_bath_lights: on
     light.guest_bath:
       state: on
       color_temp: 429
