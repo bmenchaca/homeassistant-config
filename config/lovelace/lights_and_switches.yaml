@@ -273,7 +273,7 @@ cards:
         show_state: false
         entities:
           - entity: switch.office_fan
-            name: Office Fan
+            name: Fan
             tap_action:
               action: toggle
           - entity: light.office_fan_lights_dimmer
@@ -281,9 +281,13 @@ cards:
             tap_action:
               action: toggle  
           - entity: switch.office_heater
-            name: Office Heater
+            name: Heater
             tap_action:
               action: toggle
+          - entity: switch.office_lamp
+            name: Lamp
+            tap_action:
+              action: toggle  
           - entity: light.office_go
             name: Go
             tap_action:
