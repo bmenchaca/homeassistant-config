@@ -1,5 +1,5 @@
 - id: backyard_lights_on_when_back_door_open
-  alias: "Evening Back Yard Lights When Door Opened"
+  alias: Evening Back Yard Lights When Door Opened
   trigger:
     platform: state
     entity_id: binary_sensor.back_door
@@ -7,13 +7,12 @@
   condition:
     condition: sun
     after: sunset
-    after_offset: "-01:00:00"
+    after_offset: -01:00:00
   action:
     service: homeassistant.turn_on
     entity_id: scene.backyard_lights_evening_on
-
 - id: backyard_lights_vacancy_off
-  alias: "Back Yard Lights Off When Movement Stopped"
+  alias: Back Yard Lights Off When Movement Stopped
   trigger:
     platform: state
     entity_id: binary_sensor.deck_motion
@@ -23,9 +22,8 @@
   action:
     service: scene.turn_on
     entity_id: scene.backyard_lights_off
-
 - id: heidi_heater_thermostat_off
-  alias: "Heidi Heater Thermostat Off"
+  alias: Heidi Heater Thermostat Off
   trigger:
     platform: numeric_state
     entity_id: sensor.heidi_multisensor_temperature
@@ -35,9 +33,8 @@
   action:
     service: homeassistant.turn_off
     entity_id: switch.heidi_heater
-    
 - id: heidi_heater_thermostat_on
-  alias: "Heidi Heater Thermostat On"
+  alias: Heidi Heater Thermostat On
   trigger:
     platform: numeric_state
     entity_id: sensor.heidi_multisensor_temperature
@@ -47,9 +44,8 @@
   action:
     service: homeassistant.turn_on
     entity_id: switch.heidi_heater
-
 - id: mirror_bedtime_input_boolean_on
-  alias: "Mirror House Bedtime On to Input Boolean"
+  alias: Mirror House Bedtime On to Input Boolean
   trigger:
     platform: state
     entity_id: binary_sensor.bedtime
@@ -58,9 +54,8 @@
     service: input_boolean.turn_on
     data:
       entity_id: input_boolean.bedtime
-
 - id: mirror_bedtime_input_boolean_off
-  alias: "Mirror House Bedtime Off to Input Boolean"
+  alias: Mirror House Bedtime Off to Input Boolean
   trigger:
     platform: state
     entity_id: binary_sensor.bedtime
@@ -69,33 +64,11 @@
     service: input_boolean.turn_off
     data:
       entity_id: input_boolean.bedtime
-
-#- id: set_up_dimmed_lights_at_bedtime
-#  alias: "Set Up Dimmed Lights at Bedtime"
-#  trigger:
-#    platform: state
-#    entity_id: binary_sensor.bedtime
-#    to: 'on'
-#  action:
-#    service: script.turn_on
-#    entity_id: script.prepare_for_bedtime
-
-
-#- id: reset_dimmed_bedtime_lights_in_morning
-#  alias: "Reset Dimmed Bedtime Lights in the Morning"
-#  trigger:
-#    platform: state
-#    entity_id: binary_sensor.bedtime
-#    to: 'off'
-#  action:
-#    service: script.turn_on
-#    entity_id: script.prepare_for_daytime
-
 - id: noah_lights_off_at_bedtime
-  alias: "Turn Noah Lights Off at Bedtime"
+  alias: Turn Noah Lights Off at Bedtime
   trigger:
-    - platform: time
-      at: '20:00:00'
+  - platform: time
+    at: '20:00:00'
   condition:
     condition: state
     entity_id: binary_sensor.workday_sensor
@@ -103,7 +76,21 @@
   action:
     service: light.turn_off
     entity_id: light.noah
-
-#- id: christmas_lights_at_night_after_thanksgiving
-#  alias: "Christmas Lights When Appropriate"
-
+- id: '1578857725197'
+  alias: House Bed Time Lights and Security
+  description: ''
+  trigger:
+  - at: '20:30'
+    platform: time
+  condition: []
+  action:
+  - scene: scene.house_bed_time
+- id: '1579134844492'
+  alias: Restart Home Assistant
+  description: Restart Home Assistant Every Day
+  trigger:
+  - at: '3:00:00'
+    platform: time
+  condition: []
+  action:
+  - service: homeassistant.restart
