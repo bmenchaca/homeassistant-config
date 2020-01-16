@@ -137,6 +137,13 @@
     - light.game_fan_bulb_3
     - light.game_fan_bulb_4
 
+- platform: group
+  name: Master Fan Lights
+    - light.master_fan_bulb_1
+    - light.master_fan_bulb_2
+    - light.master_fan_bulb_3
+    - light.master_fan_bulb_4
+
 # Room Light Groups
 - platform: group
   name: Heidi Room Lights
