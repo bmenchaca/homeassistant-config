@@ -139,6 +139,7 @@
 
 - platform: group
   name: Master Fan Lights
+  entities:
     - light.master_fan_bulb_1
     - light.master_fan_bulb_2
     - light.master_fan_bulb_3
