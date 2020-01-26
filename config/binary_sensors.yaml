@@ -39,148 +39,149 @@
 ###############################################################################
 # Indoor Region Motion
 ###############################################################################
-    breakfast_motion:
-      friendly_name: 'Breakfast Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.breakfast_lights_burglar", "8") }}
-
-    family_mantle_motion:
-      friendly_name: 'Family Mantle Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.family_mantle_burglar", "8") }}
-
     family_mantle_and_breakfast_motion:
       friendly_name: 'Family and Breakfast Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("sensor.breakfast_lights_burglar", "8") and
-           is_state("sensor.family_mantle_burglar", "8") }}
+        {{ is_state("binary_sensor.breakfast_motion", "on") and
+           is_state("binary_sensor.family_mantle_motion", "on") }}
 
     family_mantle_or_breakfast_motion:
       friendly_name: 'Family or Breakfast Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("sensor.breakfast_lights_burglar", "8") or
-           is_state("sensor.family_mantle_burglar", "8") }}
-
-    craft_motion:
-      friendly_name: 'Craft Room Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.craft_burglar", "8") }}
-
-    dining_motion:
-      friendly_name: 'Dining Room Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.dining_burglar", "8") }}
-
-    stairs_motion:
-      friendly_name: 'Stairs Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.stairs_burglar", "8") }}
-
-    entry_motion:
-      friendly_name: 'Entry Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.front_porch_switch_burglar", "8") }}
+        {{ is_state("binary_sensor.breakfast_motion", "on") or
+           is_state("binary_sensor.family_mantle_motion", "on") }}
 
     dining_and_stairs_motion:
       friendly_name: 'Dining and Stairs Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("sensor.dining_burglar", "8") and
-           is_state("sensor.stairs_burglar", "8") }}
+        {{ is_state("binary_sensor.dining_motion", "on") and
+           is_state("binary_sensor.stairs_motion", "on") }}
 
     dining_stairs_or_master_hall_motion:
       friendly_name: 'Dining, Stairs or Master Hall Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("sensor.dining_burglar", "8") or
-           is_state("sensor.master_hall_burglar", "8") or
-           is_state("sensor.stairs_burglar", "8") }}
+        {{ is_state("binary_sensor.dining_motion", "on") or
+           is_state("binary_sensor.master_hall_motion", "on") or
+           is_state("binary_sensor.stairs_motion", "on") }}
 
-    garage_motion:
-      friendly_name: 'Garage Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.garage_burglar", "8") }}
+#    breakfast_motion:
+#      friendly_name: 'Breakfast Motion'
+#      device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.breakfast_lights_burglar", "8") }}
 
-    guest_bath_motion:
-      friendly_name: 'Guest Bath Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.guest_bath_burglar", "8") }}
+#    family_mantle_motion:
+#      friendly_name: 'Family Mantle Motion'
+#      device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.family_mantle_burglar", "8") }}
 
-    guest_motion:
-      friendly_name: 'Guest Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.guest_burglar", "8") }}
+#    craft_motion:
+#      friendly_name: 'Craft Room Motion'
+#      device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.craft_burglar", "8") }}
 
-    master_motion:
-      friendly_name: 'Master Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.master_fan_burglar", "8") }}
+#    dining_motion:
+#      friendly_name: 'Dining Room Motion'
+#      device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.dining_burglar", "8") }}
 
-    laundry_motion:
-      friendly_name: 'Laundry Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.laundry_burglar", "8") }}
+#   stairs_motion:
+#      friendly_name: 'Stairs Motion'
+#     device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.stairs_burglar", "8") }}
 
-    master_hall_motion:
-      friendly_name: 'Master Hall Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.master_hall_burglar", "8") }}
+#    entry_motion:
+#      friendly_name: 'Entry Motion'
+#      device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.front_porch_switch_burglar", "8") }}
 
-    master_bath_motion:
-      friendly_name: 'Master Bath Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.master_bath_burglar", "8") }}
+#    garage_motion:
+#      friendly_name: 'Garage Motion'
+#     device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.garage_burglar", "8") }}
 
-    boys_hall_motion:
-      friendly_name: 'Boys Hall Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.boys_hall_burglar", "8") }}
+#    guest_bath_motion:
+#      friendly_name: 'Guest Bath Motion'
+#      device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.guest_bath_burglar", "8") }}
 
-    boys_bathroom_motion:
-      friendly_name: 'Boys Bathroom Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.boys_bathroom_burglar", "8") }}
+#    guest_motion:
+#      friendly_name: 'Guest Motion'
+#     device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.guest_burglar", "8") }}
 
-    gallery_motion:
-      friendly_name: 'Gallery Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.gallery_lights_burglar", "8") }}
+#    master_motion:
+#      friendly_name: 'Master Motion'
+#      device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.master_fan_burglar", "8") }}
 
-    game_room_motion:
-      friendly_name: 'Game Room Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.game_room_fan_burglar", "8") }}
+#    laundry_motion:
+#      friendly_name: 'Laundry Motion'
+#      device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.laundry_burglar", "8") }}
 
-    girls_hall_motion:
-      friendly_name: 'Girls Hall Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.girls_hall_burglar", "8") }}
+#    master_hall_motion:
+#      friendly_name: 'Master Hall Motion'
+#      device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.master_hall_burglar", "8") }}
 
-    office_motion:
-      friendly_name: 'Office Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.office_fan_switch_burglar", "8") }}
+#    master_bath_motion:
+#      friendly_name: 'Master Bath Motion'
+#      device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.master_bath_burglar", "8") }}
+
+#    boys_hall_motion:
+#      friendly_name: 'Boys Hall Motion'
+#      device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.boys_hall_burglar", "8") }}
+
+#    boys_bathroom_motion:
+#      friendly_name: 'Boys Bathroom Motion'
+#      device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.boys_bathroom_burglar", "8") }}
+
+#    gallery_motion:
+#      friendly_name: 'Gallery Motion'
+#      device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.gallery_lights_burglar", "8") }}
+
+#    game_room_motion:
+#      friendly_name: 'Game Room Motion'
+#      device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.game_room_fan_burglar", "8") }}
+
+#    girls_hall_motion:
+#      friendly_name: 'Girls Hall Motion'
+#      device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.girls_hall_burglar", "8") }}
+
+#    office_motion:
+#      friendly_name: 'Office Motion'
+#      device_class: motion
+#      value_template: >-
+#        {{ is_state("sensor.office_fan_switch_burglar", "Motion Detected at Unknown Location") }}
+#        #{{ is_state("sensor.office_fan_switch_burglar", "8") }}
 
 ###############################################################################
 # Camera Motion
@@ -271,3 +272,157 @@
             is_state("binary_sensor.weekend_bedtime", "on")) }}
 
 
+###############################################################################
+# MQTT - Motion
+###############################################################################
+- platform: mqtt
+  name: "Office Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/office_fan/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Game Room Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/game_room_fan/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Girls Hall Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/girls_hall_lighs/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Gallery Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/gallery_lights/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Boys Hall Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/boys_hall_lights/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Boys Bathroom Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/boys_bathroom_lights/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Master Hall Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/master_hall_lights/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Master Bath Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/master_bathtub_lights/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Garage Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/garage_lights/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Guest Bath Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/guest_bath_lights/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Guest Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/guest_fan_and_lights/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Master Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/master_fan/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Laundry Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/laundry_lights/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Craft Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/craft_fan_and_lights/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Dining Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/dining_lights/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Stairs Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/stairs_lights/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Entry Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/front_porch_lights/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Breakfast Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/breakfast_lights/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
+
+- platform: mqtt
+  name: "Family Mantle Motion"
+  device_class: motion
+  value_template: '{{ value }}'
+  state_topic: "zwave_sensors/family_mantle_lights/113/1/7"
+  payload_on: '"Motion Detected at Unknown Location"'
+  payload_off: '"Clear"'
