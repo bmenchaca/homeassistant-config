@@ -27,7 +27,7 @@ switch.gallery_lights:
 switch.stairs_lights:
   icon: mdi:ceiling-light
 switch.back_porch_lights:
-  icon: mdi:wall-sconce
+  icon: mdi:coach-lamp
 switch.garage_carriage_lights:
   icon: mdi:wall-sconce
 switch.entry_christmas_lights:

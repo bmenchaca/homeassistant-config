@@ -44,6 +44,8 @@
   action:
     service: homeassistant.turn_on
     entity_id: switch.heidi_heater
+
+# Ensure Bedtime is mirrored correctly
 - id: mirror_bedtime_input_boolean_on
   alias: Mirror House Bedtime On to Input Boolean
   trigger:
@@ -64,6 +66,7 @@
     service: input_boolean.turn_off
     data:
       entity_id: input_boolean.bedtime
+
 - id: noah_lights_off_at_bedtime
   alias: Turn Noah Lights Off at Bedtime
   trigger:
