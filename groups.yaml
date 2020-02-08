@@ -334,7 +334,6 @@ bedtime_switches:
 # Views      
 downstairs_view:
   name: Downstairs
-  view: yes
   entities:
     - group.master
     - group.master_bath
@@ -355,7 +354,6 @@ downstairs_view:
 
 upstairs_view:
   name: Upstairs
-  view: yes
   entities:
     - group.noah_room
     - group.boys_bathroom
@@ -370,7 +368,6 @@ upstairs_view:
 
 garage_view:
   name: Garage
-  view: yes
   entities:
     - group.susan_garage_door
     - group.ben_garage_door
@@ -378,19 +375,16 @@ garage_view:
 
 front_yard_view:
  name: Front Yard
- view: yes
  entities:
    - group.front_yard
 
 front_porch_view:
   name: Front Porch
-  view: yes
   entities:
     - group.front_porch
 
 back_yard_view:
   name: Back Yard
-  view: yes
   entities:
     - group.deck
     - group.garden
