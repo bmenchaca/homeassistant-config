@@ -1,12 +1,3 @@
-- platform: ring
-  monitored_conditions:
-    - battery
-    - last_activity
-    - last_ding
-    - last_motion
-    - volume
-    - wifi_signal_category
-
 - platform: awair
   access_token: !secret awair_access_token
   devices:
