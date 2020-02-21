@@ -278,7 +278,7 @@ office:
 master:
   name: Master
   entities:
-    - light.master_fan_lights_dimmer
+    - switch.master_fan_lights
     - switch.master_fan
     - sensor.master_awair_temperature
     - sensor.master_awair_humidity

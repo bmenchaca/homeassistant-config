@@ -106,3 +106,5 @@ switch.heidi_fan_and_lights:
   icon: mdi:fan
 switch.craft_fan_and_lights:
   icon: mdi:fan
+switch.master_fan_lights:
+  mdi.ceiling_light

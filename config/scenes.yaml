@@ -24,6 +24,14 @@
     switch.entry_lights: off
     light.entry_lamp: off
 
+- name: master_hall_not_night
+  entities:
+    switch.master_hall_lights: on
+    light.master_hall:
+      state: on
+      color_temp: 429
+      brightness: 254
+
 - name: game_room_off
   entities:
     switch.game_room_fan: off

@@ -158,16 +158,12 @@ cards:
             name: Master Fan
             tap_action:
               action: toggle
-          - entity: light.master_fan_lights_dimmer
-            name: Fan Dimmer
+          - entity: switch.master_fan_lights
+            name: Master Lights
             tap_action:
               action: toggle  
           - entity: switch.craft_fan_and_lights
             name: Craft Fan
-            tap_action:
-              action: toggle
-          - entity: switch.craft_sewing_lights
-            name: Sewing Lamp
             tap_action:
               action: toggle
 

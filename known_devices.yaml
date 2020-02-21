@@ -1,5 +1,4 @@
 acf9320b92834db89f3da79cdd092ffe:
-  hide_if_away: false
   icon:
   mac:
   name: Ben GeoFency GPS
@@ -7,7 +6,6 @@ acf9320b92834db89f3da79cdd092ffe:
   track: false
 
 0f37f6226f6e4e39a254ce222bdf30ba:
-  hide_if_away: false
   icon:
   mac:
   name: Heidi Geofency GPS
@@ -15,7 +13,6 @@ acf9320b92834db89f3da79cdd092ffe:
   track: false
 
 cab02f4d94ab43e09ca603aef8faa57b:
-  hide_if_away: false
   icon:
   mac:
   name: Susan Geofency GPS
@@ -23,7 +20,6 @@ cab02f4d94ab43e09ca603aef8faa57b:
   track: false
 
 bens_ipad:
-  hide_if_away: false
   icon:
   mac: 90:8D:6C:3A:23:E7
   name: Ben's iPad
@@ -31,7 +27,6 @@ bens_ipad:
   track: false
 
 heidisipad:
-  hide_if_away: false
   icon:
   mac: E8:B2:AC:9D:8F:3C
   name: Heidis-iPad
@@ -39,7 +34,6 @@ heidisipad:
   track: false
 
 hp_wireless_printer:
-  hide_if_away: false
   icon:
   mac: A0:8C:FD:B6:8D:A1
   name: HP Wireless Printer
@@ -47,7 +41,6 @@ hp_wireless_printer:
   track: false
 
 susan_laptop:
-  hide_if_away: false
   icon:
   mac: FC:F8:AE:25:B3:EF
   name: Susan Laptop
@@ -55,7 +48,6 @@ susan_laptop:
   track: false
 
 noah_ipad:
-  hide_if_away: false
   icon:
   mac: 34:7C:25:14:8C:AC
   name: Noah's iPad
@@ -63,7 +55,6 @@ noah_ipad:
   track: false
 
 hannah_ipad:
-  hide_if_away: false
   icon:
   mac: 34:7C:25:14:81:DD
   name: Hannah's iPad Tile
@@ -71,7 +62,6 @@ hannah_ipad:
   track: false
 
 44650d81d2d5:
-  hide_if_away: false
   icon:
   mac: 44:65:0D:81:D2:D5
   name: Unknown Amazon Device
@@ -79,7 +69,6 @@ hannah_ipad:
   track: false
 
 noah_kindle:
-  hide_if_away: false
   icon:
   mac: 74:75:48:33:CB:C5
   name: Noah's Kindle
@@ -87,7 +76,6 @@ noah_kindle:
   track: false
 
 hannah_kindle:
-  hide_if_away: false
   icon:
   mac: 38:F7:3D:58:AE:A5
   name: Hannah's Kindle
@@ -95,7 +83,6 @@ hannah_kindle:
   track: false
 
 ben_work_laptop:
-  hide_if_away: false
   icon:
   mac: 78:4F:43:84:2F:53
   name: Ben's Work Laptop
@@ -103,7 +90,6 @@ ben_work_laptop:
   track: false
 
 heidi_iphone:
-  hide_if_away: false
   icon:
   mac: 74:8D:08:31:AB:9D
   name: Heidi's iPhone Wifi
@@ -111,7 +97,6 @@ heidi_iphone:
   track: false
 
 bens_iphone:
-  hide_if_away: false
   icon:
   mac: B0:48:1A:C7:A2:83
   name: Ben's iPhone Wifi
@@ -119,7 +104,6 @@ bens_iphone:
   track: false
 
 susan_ha_iphone:
-  hide_if_away: false
   icon:
   mac:
   name: susan ha iphone
@@ -127,7 +111,6 @@ susan_ha_iphone:
   track: false
 
 susans_iphone:
-  hide_if_away: false
   icon:
   mac: 70:70:0D:EC:B5:03
   name: Susan's iPhone Wifi
@@ -135,7 +118,6 @@ susans_iphone:
   track: false
 
 ben_ha_iphone:
-  hide_if_away: false
   icon:
   mac:
   name: ben ha iphone
@@ -143,7 +125,6 @@ ben_ha_iphone:
   track: false
 
 susan_macbook:
-  hide_if_away: false
   icon:
   mac: 78:4F:43:7C:D5:AC
   name: Susan MacBook
@@ -151,7 +132,6 @@ susan_macbook:
   track: false
 
 laptopmn2hlo43:
-  hide_if_away: false
   icon:
   mac: 10:F0:05:82:EE:93
   name: Heidi's Laptop
@@ -160,7 +140,6 @@ laptopmn2hlo43:
 
 # Home Assistant App
 ben_iphone:
-  hide_if_away: false
   icon:
   mac:
   name: ben
@@ -169,7 +148,6 @@ ben_iphone:
 
 # Home Assistant App
 susan_iphone:
-  hide_if_away: false
   icon:
   mac:
   name: susan
@@ -177,7 +155,6 @@ susan_iphone:
   track: false
 
 dianasiphone:
-  hide_if_away: false
   icon:
   mac: 68:EF:43:3C:D8:63
   name: Dianas-iPhone
@@ -185,7 +162,6 @@ dianasiphone:
   track: false
 
 life360_ben_menchaca:
-  hide_if_away: false
   icon:
   mac:
   name: Ben Life360
@@ -193,7 +169,6 @@ life360_ben_menchaca:
   track: true
 
 life360_susan:
-  hide_if_away: false
   icon:
   mac:
   name: Susan Life360
@@ -201,7 +176,6 @@ life360_susan:
   track: true
 
 life360_heidi:
-  hide_if_away: false
   icon:
   mac:
   name: Heidi Life360
@@ -209,7 +183,6 @@ life360_heidi:
   track: true
 
 kitchen_echo:
-  hide_if_away: false
   icon:
   mac: 50:DC:E7:A9:AC:97
   name: Kitchen Echo
@@ -217,7 +190,6 @@ kitchen_echo:
   track: false
 
 hp_color_laser_mfpm477fdw:
-  hide_if_away: false
   icon:
   mac: 74:40:BB:09:A2:67
   name: HP Color Laser MFPM477fdw
@@ -225,7 +197,6 @@ hp_color_laser_mfpm477fdw:
   track: false
 
 sonoszp:
-  hide_if_away: false
   icon:
   mac: 94:9F:3E:DE:2C:B1
   name: SonosZP
@@ -233,7 +204,6 @@ sonoszp:
   track: false
 
 master_roku:
-  hide_if_away: false
   icon:
   mac: 88:DE:A9:2C:78:C5
   name: Master Roku
@@ -241,7 +211,6 @@ master_roku:
   track: false
 
 f0a225cee352:
-  hide_if_away: false
   icon:
   mac: F0:A2:25:CE:E3:52
   name: f0a225cee352
@@ -249,7 +218,6 @@ f0a225cee352:
   track: false
 
 laptopkv3vakqh:
-  hide_if_away: false
   icon:
   mac: 10:F0:05:82:EE:C0
   name: LAPTOP-KV3VAKQH
@@ -257,7 +225,6 @@ laptopkv3vakqh:
   track: false
 
 b0fc0d3cab1a:
-  hide_if_away: false
   icon:
   mac: B0:FC:0D:3C:AB:1A
   name: b0fc0d3cab1a
@@ -265,7 +232,6 @@ b0fc0d3cab1a:
   track: false
 
 susans_ipad:
-  hide_if_away: false
   icon:
   mac: 24:24:0E:25:05:8A
   name: Susan's iPad
@@ -273,7 +239,6 @@ susans_ipad:
   track: false
 
 ipad:
-  hide_if_away: false
   icon:
   mac: 08:F6:9C:3E:21:C5
   name: iPad
@@ -281,7 +246,6 @@ ipad:
   track: false
 
 cc9ea219d2d9:
-  hide_if_away: false
   icon:
   mac: CC:9E:A2:19:D2:D9
   name: Ben's Kindle
@@ -289,7 +253,6 @@ cc9ea219d2d9:
   track: false
 
 iphone:
-  hide_if_away: false
   icon:
   mac: C0:A5:3E:91:F3:83
   name: iPhone
@@ -297,7 +260,6 @@ iphone:
   track: false
 
 Karen's iPhone:
-  hide_if_away: false
   icon:
   mac: 38:89:2C:50:1E:54
   name: kmadds-iPhone
@@ -305,7 +267,6 @@ Karen's iPhone:
   track: false
 
 hhcpf188lrj:
-  hide_if_away: false
   icon:
   mac: 74:70:FD:A6:EE:1A
   name: HHC-PF188LRJ
@@ -313,7 +274,6 @@ hhcpf188lrj:
   track: false
 
 awair_master:
-  hide_if_away: false
   icon:
   mac: 70:88:6B:11:25:57
   name: Awair-Glow-8624
@@ -321,7 +281,6 @@ awair_master:
   track: false
 
 awairglow7657:
-  hide_if_away: false
   icon:
   mac: 70:88:6B:11:24:32
   name: Awair-Glow-7657
@@ -329,7 +288,6 @@ awairglow7657:
   track: false
 
 tile_44bf20dd5507338c:
-  hide_if_away: false
   icon: mdi:view-grid
   mac:
   name: Noah's Kindle Tile
@@ -337,7 +295,6 @@ tile_44bf20dd5507338c:
   track: true
 
 tile_p9acec416cba1d37e70e0192fb3a5b551:
-  hide_if_away: false
   icon: mdi:view-grid
   mac:
   name: Ben's iPhone Tile
@@ -345,7 +302,6 @@ tile_p9acec416cba1d37e70e0192fb3a5b551:
   track: true
 
 tile_p06f364c2a3e399f0f5079525a41aed76:
-  hide_if_away: false
   icon: mdi:view-grid
   mac:
   name: Hannah's iPad
@@ -353,7 +309,6 @@ tile_p06f364c2a3e399f0f5079525a41aed76:
   track: true
 
 tile_pdaf1b0360af0a6940c3d2231d49d5cf5:
-  hide_if_away: false
   icon: mdi:view-grid
   mac:
   name: Heidi's iPad Tile
@@ -361,7 +316,6 @@ tile_pdaf1b0360af0a6940c3d2231d49d5cf5:
   track: true
 
 tile_pe1e095a955334be2829088853f71b848:
-  hide_if_away: false
   icon: mdi:view-grid
   mac:
   name: Noah's iPad Tile
@@ -369,7 +323,6 @@ tile_pe1e095a955334be2829088853f71b848:
   track: true
 
 tile_3f81a6eedb424947:
-  hide_if_away: false
   icon: mdi:view-grid
   mac:
   name: Susan's Keys Tile
@@ -377,7 +330,6 @@ tile_3f81a6eedb424947:
   track: true
 
 tile_p69f5d20ffc73bc8f110f816fb4513a23:
-  hide_if_away: false
   icon: mdi:view-grid
   mac:
   name: Susan's iPhone Tile
@@ -385,7 +337,6 @@ tile_p69f5d20ffc73bc8f110f816fb4513a23:
   track: true
 
 xboxone:
-  hide_if_away: false
   icon:
   mac: 28:16:A8:D5:10:3F
   name: Family Room XBox One
@@ -393,7 +344,6 @@ xboxone:
   track: false
 
 ipad2:
-  hide_if_away: false
   icon:
   mac: 08:F6:9C:19:19:C4
   name: Mimi's iPad
@@ -401,7 +351,6 @@ ipad2:
   track: false
 
 amazon0c61004fa:
-  hide_if_away: false
   icon:
   mac: 24:4C:E3:94:A8:1C
   name: Noah's Echo Dot
@@ -409,7 +358,6 @@ amazon0c61004fa:
   track: false
 
 amazon1726bdb5f:
-  hide_if_away: false
   icon:
   mac: C4:95:00:6C:5B:A3
   name: Heidi's Echo Dot
@@ -417,7 +365,6 @@ amazon1726bdb5f:
   track: false
 
 amazond88c17e1e:
-  hide_if_away: false
   icon:
   mac: 50:DC:E7:0B:BB:9F
   name: Hannah's Echo Dot
@@ -425,7 +372,6 @@ amazond88c17e1e:
   track: false
 
 irobot7259c588d12f4154a6ead227:
-  hide_if_away: false
   icon:
   mac: 50:14:79:0E:D5:94
   name: Downstairs Roomba
@@ -433,7 +379,6 @@ irobot7259c588d12f4154a6ead227:
   track: false
 
 tile_p_daf1b0360af0a6940c3d2231d49d5cf5:
-  hide_if_away: false
   icon: mdi:view-grid
   mac:
   name: tile p daf1b0360af0a6940c3d2231d49d5cf5
@@ -441,7 +386,6 @@ tile_p_daf1b0360af0a6940c3d2231d49d5cf5:
   track: false
 
 tile_p_06f364c2a3e399f0f5079525a41aed76:
-  hide_if_away: false
   icon: mdi:view-grid
   mac:
   name: tile p 06f364c2a3e399f0f5079525a41aed76
@@ -449,7 +393,6 @@ tile_p_06f364c2a3e399f0f5079525a41aed76:
   track: false
 
 tile_p_69f5d20ffc73bc8f110f816fb4513a23:
-  hide_if_away: false
   icon: mdi:view-grid
   mac:
   name: tile p 69f5d20ffc73bc8f110f816fb4513a23
@@ -457,7 +400,6 @@ tile_p_69f5d20ffc73bc8f110f816fb4513a23:
   track: false
 
 tile_p_9acec416cba1d37e70e0192fb3a5b551:
-  hide_if_away: false
   icon: mdi:view-grid
   mac:
   name: tile p 9acec416cba1d37e70e0192fb3a5b551
@@ -465,7 +407,6 @@ tile_p_9acec416cba1d37e70e0192fb3a5b551:
   track: false
 
 tile_p_e1e095a955334be2829088853f71b848:
-  hide_if_away: false
   icon: mdi:view-grid
   mac:
   name: tile p e1e095a955334be2829088853f71b848
@@ -473,7 +414,6 @@ tile_p_e1e095a955334be2829088853f71b848:
   track: false
 
 saraaliasiphone:
-  hide_if_away: false
   icon:
   mac: 24:F0:94:11:72:8E
   name: SaraAliasiPhone
@@ -482,7 +422,6 @@ saraaliasiphone:
 
 
 life360_noah_menchaca:
-  hide_if_away: false
   icon:
   mac:
   name: life360 noah menchaca

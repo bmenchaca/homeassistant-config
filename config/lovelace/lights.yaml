@@ -97,7 +97,7 @@ cards:
         show_header_toggle: true
         show_state: false
         entities:
-          - entity: light.master_fan_lights_dimmer
+          - entity: switch.master_fan_lights
             name: Fan Dimmer
             tap_action:
               action: toggle  

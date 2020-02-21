@@ -3,7 +3,7 @@ alexa:
     include_entities:
       - light.game_room
       - light.master_vanity_dimmer
-      - light.master_fan_lights_dimmer
+      - switch.master_fan_lights
       - light.office_fan_lights_dimmer
     include_domains:
       - scene
@@ -29,7 +29,7 @@ alexa:
       name: Game Room Lights
     light.master_vanity_dimmer:
       name: Master Bath Lights
-    light.master_fan_lights_dimmer:
+    switch.master_fan_lights:
       name: Master Fan Lights
     light.office_fan_lights_dimmer:
       name: Office Lights
