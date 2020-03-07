@@ -31,3 +31,15 @@
 #   friendly_name: "Family Room Roku Home Button"
 #   command_on: 'JgDYAAABJ5QSExI4EhMSOBITEjgSNxM3EhMSOBITEhMSExMTEjcSOBI4EjgSExITEhMSExITEhQSExITEjcTNxI4EjgSOBI4EgAFDQABJ5QSExI4EhMSOBITEjgSOBI3ExMSNxIUEhMSExITEjgSNxM3EjgSExITEhMSFBITEjcSFBITEjcTNxI4EjgSOBITEgAFDQABJ5QSExI4EhMSOBITEjgSOBI4EhMSOBITEhMSExITEjgSOBI4EjcTExITEhMSExITEjgSExITEjgSOBI3EjgSOBITEgANBQ'
 
+- platform: mqtt
+  name: "Family Fan Lights"
+  payload_off: "false"
+  payload_on: "true"
+  state_on: "true"
+  state_off: "false"
+  value_template: "{{ value }}"
+  state_topic: "zwave_switches/family_fan_lights/37/1/0"
+  command_topic: "zwave_switches/family_fan_lights/37/1/0/set"
+  optimistic: false
+  qos: 0
+  retain: true
