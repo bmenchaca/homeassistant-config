@@ -109,7 +109,6 @@
       brightness: 2
 
 - name: backyard_lights_evening_on
-  alias: Backyard Lights Evening On
   entities: 
     switch.back_porch_lights: on
     light.back_yard:
@@ -118,7 +117,6 @@
       brightness: 255
 
 - name: backyard_lights_off
-  alias: Back Yard Lights Off
   entities: 
     switch.back_porch_lights: off
     light.back_yard_lights: off
