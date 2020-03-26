@@ -23,7 +23,7 @@
 - platform: tod
   name: Workday_Bedtime
   after: '21:00'
-  before: '6:30'
+  before: '7:30'
 
 #Occupancy Template Sensors
 - platform: template
