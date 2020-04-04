@@ -97,3 +97,13 @@
   condition: []
   action:
   - service: homeassistant.restart
+
+- id: living_room_off_on_restart
+  alias: Living Room Off on HA Restart
+  trigger:
+    platform: homeassistant
+    event: start
+  action:
+    - service: switch.turn_off
+      entity_id: switch.family_fan_lights
+
