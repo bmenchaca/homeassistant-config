@@ -607,7 +607,7 @@ cards:
 ###############################################################################
       - type: image
         entity: sensor.ben_garage_car_present
-        image: /local/images/camry-in-garage.png
+        image: /local/images/camry.png
         tap_action:
           action: none
         hold_action:
@@ -619,13 +619,13 @@ cards:
           "No": opacity(0)
           "n/a": opacity(.25)
         style: 
-          left: 0%
-          top: 0%
+          width: 7.5%
+          left: 57.5%
+          top: 37%
           z-index: 20
-          transform: none
       - type: image
         entity: sensor.susan_garage_car_present
-        image: /local/images/sienna-in-garage.png
+        image: /local/images/sienna.png
         tap_action:
           action: none
         hold_action:
@@ -637,10 +637,10 @@ cards:
           "No": opacity(0)
           "n/a": opacity(.25)
         style: 
-          left: 0%
-          top: 0%
+          width: 9.5%
+          left: 75%
+          top: 31%
           z-index: 20
-          transform: none
 ###############################################################################
 # Indoor Downstairs Doors 
 ###############################################################################
@@ -654,10 +654,10 @@ cards:
           "closed": /local/images/ben-garage-door-closed.png
           "open": /local/images/ben-garage-door-open.png
         style: 
-          left: 0%
-          top: 0%
+          width: 9.3%
+          left: 57.21%
+          top: 27.55%
           z-index: 20
-          transform: none
       - type: image
         entity: cover.susan_garage
         tap_action:
@@ -668,10 +668,10 @@ cards:
           "closed": /local/images/susan-garage-door-closed.png
           "open": /local/images/susan-garage-door-open.png
         style: 
-          left: 0%
-          top: 0%
+          width: 17.95%
+          left: 74.58%
+          top: 21.55%
           z-index: 20
-          transform: none
       - type: image
         entity: binary_sensor.front_door
         tap_action:
