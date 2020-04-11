@@ -237,46 +237,55 @@ cards:
           z-index: 10
           transform: none
 ###############################################################################
-# Camera Icons
+# Cameras and Clickable Overlays
 ###############################################################################
+      # Driveway Camera and Clickable Overlay
       - type: image
-        image: /local/images/outdoor-security-camera-icons.png
+        image: /local/images/security-camera-icon.png
+        entity: camera.front_driveway_camera
         tap_action:
           action: none
         hold_action:
           action: none
         style: 
-          left: 0%
-          top: 0%
+          width: 2.5%
+          left: 86%
+          top: 20%
           z-index: 20
-          transform: none
-###############################################################################
-# Camera Clickable Overlays
-###############################################################################
-      # Driveway Camera Clickable Overlay
       - type: image
-        image: /local/images/camera-button-overlay.png
-        #image: /local/images/camera-button-overlay-visible.png
+        image: /local/images/security-camera-overlay.png
         entity: camera.front_driveway_camera
         style: 
-          height: 3.81%
-          width: 3.33%
-          left: 83.8%
-          top: 18%
+          width: 3.5%
+          left: 86%
+          top: 20%
           z-index: 30
-          transform: none
-      # Guest Front Camera Clickable Overlay
+
+      # Guest Front Camera and Clickable Overlay
       - type: image
-        image: /local/images/camera-button-overlay.png
-        #image: /local/images/camera-button-overlay-visible.png
+        image: /local/images/security-camera-icon.png
+        entity: camera.front_east_guest_camera
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        style: 
+          width: 2.5%
+          left: 14.5%
+          top: 20%
+          z-index: 20
+      - type: image
+        image: /local/images/security-camera-overlay.png
         entity: camera.front_east_guest_camera
         style: 
-          height: 3.81%
-          width: 3.33%
-          left: 12.1%
-          top: 18.15%
+          width: 3.5%
+          left: 14.5%
+          top: 20%
           z-index: 30
-          transform: none
+
+      # Front Porch Camera Clickable Overlay
+      - type: image
+
       # Front Porch Camera Clickable Overlay
       - type: image
         image: /local/images/camera-button-overlay.png
@@ -710,10 +719,11 @@ cards:
           "off": /local/images/back-door-closed.png
           "on": /local/images/back-door-open.png
         style: 
-          left: 0%
-          top: 0%
+        style: 
+          width: 3.2%
+          left: 28.1%
+          top: 79.65%
           z-index: 20
-          transform: none
       - type: image
         entity: binary_sensor.laundry_closet_door
         tap_action:
