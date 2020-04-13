@@ -283,45 +283,73 @@ cards:
           top: 20%
           z-index: 30
 
-      # Front Porch Camera Clickable Overlay
+      # Front Porch Camera and Clickable Overlay
       - type: image
-
-      # Front Porch Camera Clickable Overlay
+        image: /local/images/security-camera-icon.png
+        entity: camera.front_door_camera
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        style: 
+          width: 2.5%
+          left: 49.75%
+          top: 32.5%
+          z-index: 20
       - type: image
-        image: /local/images/camera-button-overlay.png
-        #image: /local/images/camera-button-overlay-visible.png
+        image: /local/images/security-camera-overlay.png
         entity: camera.front_door_camera
         style: 
-          height: 3.81%
-          width: 3.33%
-          left: 47.35%
-          top: 30.5%
+          width: 3.5%
+          left: 49.75%
+          top: 32.5%
           z-index: 30
           transform: none
-      # Gate Side Yard Clickable Overlay
+
+      # Gate Side Yard Camera and Clickable Overlay
       - type: image
-        image: /local/images/camera-button-overlay.png
-        #image: /local/images/camera-button-overlay-visible.png
+        image: /local/images/security-camera-icon.png
+        entity: camera.west_gate_camera
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        style: 
+          width: 2.5%
+          left: 88.3%
+          top: 41.5%
+          z-index: 20
+      - type: image
+        image: /local/images/security-camera-overlay.png
         entity: camera.west_gate_camera
         style: 
-          height: 3.81%
-          width: 3.33%
-          left: 87.3%
-          top: 37.15%
+          width: 3.5%
+          left: 88.3%
+          top: 41.5%
           z-index: 30
-          transform: none
-      # Gate Back Yard Clickable Overlay
+
+      # Gate Back Yard Camera and Clickable Overlay
       - type: image
-        image: /local/images/camera-button-overlay.png
-        #image: /local/images/camera-button-overlay-visible.png
+        image: /local/images/security-camera-icon.png
+        entity: camera.back_east_gate_camera
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        style: 
+          width: 2.5%
+          left: 79.5%
+          top: 75.5%
+          z-index: 20
+      - type: image
+        image: /local/images/security-camera-overlay.png
         entity: camera.back_east_gate_camera
         style: 
-          height: 3.81%
-          width: 3.33%
-          left: 78.96%
-          top: 73.5%
+          width: 3.5%
+          left: 79.5%
+          top: 75.5%
           z-index: 30
-          transform: none
+
       # Pool Clickable Overlay
       - type: image
         image: /local/images/camera-button-overlay.png
@@ -691,10 +719,10 @@ cards:
           "off": /local/images/front-door-closed.png
           "on": /local/images/front-door-open.png
         style: 
-          left: 0%
-          top: 0%
+          width: 3.4%
+          left: 33.05%
+          top: 38.5%
           z-index: 20
-          transform: none
       - type: image
         entity: binary_sensor.garage_door
         tap_action:
@@ -718,7 +746,6 @@ cards:
         state_image:
           "off": /local/images/back-door-closed.png
           "on": /local/images/back-door-open.png
-        style: 
         style: 
           width: 3.2%
           left: 28.1%
