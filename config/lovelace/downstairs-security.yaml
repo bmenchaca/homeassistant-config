@@ -248,17 +248,17 @@ cards:
         hold_action:
           action: none
         style: 
-          width: 2.5%
+          width: 3.5%
           left: 86%
-          top: 20%
+          top: 19.5%
           z-index: 20
       - type: image
         image: /local/images/security-camera-overlay.png
         entity: camera.front_driveway_camera
         style: 
-          width: 3.5%
+          width: 5%
           left: 86%
-          top: 20%
+          top: 19.5%
           z-index: 30
 
       # Guest Front Camera and Clickable Overlay
@@ -270,17 +270,17 @@ cards:
         hold_action:
           action: none
         style: 
-          width: 2.5%
+          width: 3.5%
           left: 14.5%
-          top: 20%
+          top: 19.5%
           z-index: 20
       - type: image
         image: /local/images/security-camera-overlay.png
         entity: camera.front_east_guest_camera
         style: 
-          width: 3.5%
+          width: 5%
           left: 14.5%
-          top: 20%
+          top: 19.5%
           z-index: 30
 
       # Front Porch Camera and Clickable Overlay
@@ -292,17 +292,17 @@ cards:
         hold_action:
           action: none
         style: 
-          width: 2.5%
-          left: 49.75%
-          top: 32.5%
+          width: 3.5%
+          left: 49.25%
+          top: 32%
           z-index: 20
       - type: image
         image: /local/images/security-camera-overlay.png
         entity: camera.front_door_camera
         style: 
-          width: 3.5%
-          left: 49.75%
-          top: 32.5%
+          width: 5%
+          left: 49.25%
+          top: 32%
           z-index: 30
           transform: none
 
@@ -315,17 +315,17 @@ cards:
         hold_action:
           action: none
         style: 
-          width: 2.5%
-          left: 88.3%
-          top: 41.5%
+          width: 3.5%
+          left: 88.8%
+          top: 41.0%
           z-index: 20
       - type: image
         image: /local/images/security-camera-overlay.png
         entity: camera.west_gate_camera
         style: 
-          width: 3.5%
-          left: 88.3%
-          top: 41.5%
+          width: 5%
+          left: 88.8%
+          top: 41.0%
           z-index: 30
 
       # Gate Back Yard Camera and Clickable Overlay
@@ -337,43 +337,63 @@ cards:
         hold_action:
           action: none
         style: 
-          width: 2.5%
-          left: 79.5%
-          top: 75.5%
+          width: 3.5%
+          left: 80%
+          top: 73%
           z-index: 20
       - type: image
         image: /local/images/security-camera-overlay.png
         entity: camera.back_east_gate_camera
         style: 
-          width: 3.5%
-          left: 79.5%
-          top: 75.5%
+          width: 5%
+          left: 80%
+          top: 73%
           z-index: 30
 
-      # Pool Clickable Overlay
+      # Pool Camera and Clickable Overlay
       - type: image
-        image: /local/images/camera-button-overlay.png
-        #image: /local/images/camera-button-overlay-visible.png
+        image: /local/images/security-camera-icon.png
+        entity: camera.back_pool_camera
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        style: 
+          width: 3.5%
+          left: 80%
+          top: 77%
+          z-index: 20
+      - type: image
+        image: /local/images/security-camera-overlay.png
         entity: camera.back_pool_camera
         style: 
-          height: 3.81%
-          width: 3.33%
-          left: 74.8%
-          top: 77.5%
+          width: 5%
+          left: 80%
+          top: 77%
           z-index: 30
-          transform: none
-      # Deck Clickable Overlay
+
+      # Deck Camera and Clickable Overlay
       - type: image
-        image: /local/images/camera-button-overlay.png
-        #image: /local/images/camera-button-overlay-visible.png
+        image: /local/images/security-camera-icon.png
+        entity: camera.back_deck_camera
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        style: 
+          width: 3.5%
+          left: 31.6%
+          top: 78.5%
+          z-index: 20
+      - type: image
+        image: /local/images/security-camera-overlay.png
         entity: camera.back_deck_camera
         style: 
-          height: 3.81%
-          width: 3.33%
-          left: 29.95%
-          top: 77.02%
+          width: 5%
+          left: 31.6%
+          top: 78.5%
           z-index: 30
-          transform: none
+
       # Playscape Clickable Overlay
       - type: image
         image: /local/images/camera-button-overlay.png
@@ -386,6 +406,7 @@ cards:
           top: 77.75%
           z-index: 30
           transform: none
+
       # Garden Back Yard Clickable Overlay
       - type: image
         image: /local/images/camera-button-overlay.png
@@ -398,6 +419,7 @@ cards:
           top: 74%
           z-index: 30
           transform: none
+
       # Garden Side Yard Clickable Overlay
       - type: image
         image: /local/images/camera-button-overlay.png
@@ -410,6 +432,8 @@ cards:
           top: 41.65%
           z-index: 30
           transform: none
+
+
 ###############################################################################
 # Indoor Downstairs Motion
 ###############################################################################
