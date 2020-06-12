@@ -44,14 +44,16 @@
   action:
     service: homeassistant.turn_on
     entity_id: switch.heidi_heater
-
-# Ensure Bedtime is mirrored correctly
 - id: mirror_bedtime_input_boolean_on
   alias: Mirror House Bedtime On to Input Boolean
   trigger:
     platform: state
     entity_id: binary_sensor.bedtime
     to: 'on'
+  condition:
+    condition: state
+    entity_id: binary_sensor.bedtime
+    state: 'on'
   action:
     service: input_boolean.turn_on
     data:
@@ -62,11 +64,14 @@
     platform: state
     entity_id: binary_sensor.bedtime
     to: 'off'
+  condition:
+    condition: state
+    entity_id: binary_sensor.bedtime
+    state: 'off'
   action:
     service: input_boolean.turn_off
     data:
       entity_id: input_boolean.bedtime
-
 - id: noah_lights_off_at_bedtime
   alias: Turn Noah Lights Off at Bedtime
   trigger:
@@ -97,13 +102,24 @@
   condition: []
   action:
   - service: homeassistant.restart
-
 - id: living_room_off_on_restart
   alias: Living Room Off on HA Restart
   trigger:
     platform: homeassistant
     event: start
   action:
-    - service: switch.turn_off
-      entity_id: switch.family_fan_lights
-
+  - service: switch.turn_off
+    entity_id: switch.family_fan_lights
+- id: '1592000426606'
+  alias: Open Susan Garage when Susan Arrives Home
+  description: ''
+  trigger:
+  - entity_id: binary_sensor.susan_at_home
+    from: 'off'
+    platform: state
+    to: 'on'
+  condition: []
+  action:
+  - data: {}
+    entity_id: cover.susan_garage
+    service: cover.open_cover

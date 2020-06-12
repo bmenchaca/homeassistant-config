@@ -1,6 +1,4 @@
 resources:
-  #- url: /local/plan-coordinates.js?v=1
-  #  type: js
   - url: /local/mini-graph-card-bundle.js?v=0.3.0
     type: module
   - url: /local/surveillance-card.js?v=0
@@ -11,6 +9,8 @@ resources:
     type: module
   - url: /local/mini-media-player-bundle.js?1.0.4
     type: module
+  #- url: /local/plan-coordinates.js?v=1
+  #  type: js
 views:
   - !include config/lovelace/lights_and_switches.yaml
   - !include config/lovelace/alerts.yaml

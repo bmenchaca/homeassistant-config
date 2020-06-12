@@ -466,7 +466,7 @@ cards:
 ###############################################################################
       - type: image
         entity: binary_sensor.breakfast_motion
-        filter: opacity(0)
+        filter: opacity(1)
         image: /local/images/breakfast-motion.png
         tap_action:
           action: none
@@ -475,13 +475,14 @@ cards:
         state_filter:
           "on": opacity(1)
         style: 
-          left: 0%
-          top: 0%
+          width: 14.13%
+          left: 20.65%
+          top: 57.85%
           z-index: 10
           transform: none
       - type: image
         entity: binary_sensor.family_mantle_motion
-        filter: opacity(0)
+        filter: opacity(1)
         image: /local/images/family-motion.png
         tap_action:
           action: none
@@ -490,13 +491,14 @@ cards:
         state_filter:
           "on": opacity(1)
         style: 
-          left: 0%
-          top: 0%
+          width: 8.19%
+          left: 36.88%
+          top: 57.41%
           z-index: 10
           transform: none
       - type: image
         entity: binary_sensor.family_mantle_and_breakfast_motion
-        filter: opacity(0)
+        filter: opacity(1)
         image: /local/images/breakfast-and-family-motion.png
         tap_action:
           action: none
@@ -505,8 +507,9 @@ cards:
         state_filter:
           "on": opacity(1)
         style: 
-          left: 0%
-          top: 0%
+          width: 11.5%
+          left: 27.22%
+          top: 57.41%
           z-index: 10
           transform: none
       - type: image
