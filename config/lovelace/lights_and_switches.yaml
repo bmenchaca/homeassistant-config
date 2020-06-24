@@ -272,7 +272,7 @@ cards:
             name: Fan
             tap_action:
               action: toggle
-          - entity: light.office_fan_lights_dimmer
+          - entity: switch.office_fan_lights
             name: Fan Lights
             tap_action:
               action: toggle  

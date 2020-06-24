@@ -12,7 +12,7 @@ cards:
 # Office Elements
 ###############################################################################
         - type: state-icon
-          entity: light.office_fan_lights_dimmer
+          entity: switch.office_fan_lights
           tap_action:
             action: toggle
           hold_action:

@@ -24,8 +24,9 @@ map:
 updater:
 config:
 sun:
-resources: !include config/resources.yaml
-lovelace: !include config/lovelace.yaml
+lovelace: 
+  mode: yaml
+  resources: !include config/resources.yaml
 http: !include config/http.yaml
 history: !include config/history.yaml
 logbook: !include config/logbook.yaml
