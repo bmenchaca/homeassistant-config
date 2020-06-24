@@ -44,15 +44,3 @@
   qos: 0
   retain: true
 
-- platform: mqtt
-  name: "Game Room Lights"
-  payload_off: "false"
-  payload_on: "true"
-  state_on: "true"
-  state_off: "false"
-  value_template: "{{ value }}"
-  state_topic: "zwave_switches/game_room_lights/37/1/0"
-  command_topic: "zwave_switches/game_room_lights/37/1/0/set"
-  optimistic: false
-  qos: 0
-  retain: true
