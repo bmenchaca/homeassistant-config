@@ -72,7 +72,7 @@ cards:
       - switch.game_room_lights
       - switch.master_hall_lights
       - switch.kitchen_lights
-      - switch.dining_room_lights
+      - switch.kids_study_lights
       - switch.stairs_lights
       - switch.breakfast_lights
       - switch.entry_lights

@@ -41,7 +41,7 @@ cards:
             name: Lamp Dimmer
             tap_action:
               action: toggle
-          - entity: switch.dining_room_lights
+          - entity: switch.kids_study_lights
             name: Dining Chandelier
             tap_action:
               action: toggle

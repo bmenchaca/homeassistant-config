@@ -12,7 +12,7 @@ alexa:
       - script
     exclude_entities:
       - switch.breakfast_lights_2
-      - switch.dining_room_lights_2
+      - switch.kids_study_lights_2
       - switch.front_porch_lights_2
       - switch.gallery_lights_2
       - switch.game_room_fan_2

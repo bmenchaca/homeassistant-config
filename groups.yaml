@@ -105,7 +105,7 @@ entry_room:
 dining_room:
   name: Dining Room
   entities:
-    - switch.dining_room_lights
+    - switch.kids_study_lights
     - binary_sensor.dining_room_window_1
     - binary_sensor.dining_room_window_2
     - binary_sensor.dining_room_window_3

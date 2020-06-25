@@ -66,8 +66,8 @@ switch.family_fan:
   icon: mdi:fan
 switch.family_mantle_lights:
   icon: mdi:track-light
-switch.dining_room_lights:
-  icon: mdi:candle
+switch.kids_study_lights:
+  icon: mdi:ceiling_light
 switch.guest_fan_and_lights:
   icon: mdi:fan
 switch.family_fan_lights:

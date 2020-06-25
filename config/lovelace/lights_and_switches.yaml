@@ -48,7 +48,7 @@ cards:
               action: toggle
 
       - type: glance
-        title: Entry and Dining
+        title: Entry and Kids Study
         show_header_toggle: true
         show_state: false
         entities:
@@ -60,8 +60,8 @@ cards:
               #name: Lamp Dimmer
               #tap_action:
               #action: toggle
-          - entity: switch.dining_room_lights
-            name: Dining Chandelier
+          - entity: switch.kids_study_lights
+            name: Kids Study Lights
             tap_action:
               action: toggle
 

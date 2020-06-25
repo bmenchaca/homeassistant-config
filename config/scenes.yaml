@@ -130,7 +130,7 @@
     switch.back_porch_lights: off
     switch.master_hall_lights: off
     switch.kitchen_lights: off
-    switch.dining_room_lights: off
+    switch.kids_study_lights: off
     switch.stairs_lights: off
     switch.breakfast_lights: off
     switch.entry_lights: off
