@@ -92,9 +92,9 @@
       value_template: >-
         {{ is_state("sensor.kids_study_burglar", "8") }}
 
-   stairs_motion:
+    stairs_motion:
       friendly_name: 'Stairs Motion'
-     device_class: motion
+      device_class: motion
       value_template: >-
         {{ is_state("sensor.stairs_burglar", "8") }}
 
@@ -106,7 +106,7 @@
 
     garage_motion:
       friendly_name: 'Garage Motion'
-     device_class: motion
+      device_class: motion
       value_template: >-
         {{ is_state("sensor.garage_burglar", "8") }}
 
@@ -118,7 +118,7 @@
 
     guest_motion:
       friendly_name: 'Guest Motion'
-     device_class: motion
+      device_class: motion
       value_template: >-
         {{ is_state("sensor.guest_burglar", "8") }}
 
@@ -241,13 +241,13 @@
 ###############################################################################
 # Garage Door Open
 ###############################################################################
-ben_garage:
+    ben_garage:
       friendly_name: "Ben Garage"
       device_class: garage_door
       value_template: >-
         {{ not is_state("sensor.ben_garage_status", "Closed") }}  
 
-susan_garage:
+    susan_garage:
       friendly_name: "Susan Garage"
       device_class: garage_door
       value_template: >-
