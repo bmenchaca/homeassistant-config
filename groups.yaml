@@ -292,7 +292,7 @@ master_bath:
   name: Master Bath
   entities:
     - light.master_vanity_dimmer
-    - switch.master_bath_tub_lights
+    - switch.master_bathtub_spotlight
     - light.master_tub_color_bulb
 
 master_closet:

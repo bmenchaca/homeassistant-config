@@ -1,6 +1,6 @@
 switch.office_fan:
   icon: mdi:fan
-  switch.office_fan_lights:
+switch.office_fan_lights:
   icon: mdi:ceiling-light
 switch.office_heater:
   icon: mdi:radiator
@@ -67,7 +67,7 @@ switch.family_fan:
 switch.family_mantle_lights:
   icon: mdi:track-light
 switch.kids_study_lights:
-  icon: mdi:ceiling_light
+  icon: mdi:ceiling-light
 switch.guest_fan_and_lights:
   icon: mdi:fan
 switch.family_fan_lights:
