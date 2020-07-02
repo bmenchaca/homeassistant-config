@@ -37,7 +37,7 @@ cards:
             name: Entry Chandelier
             tap_action:
               action: toggle
-          - entity: light.entry_lamp
+          - entity: switch.entry_lamp
             name: Lamp Dimmer
             tap_action:
               action: toggle

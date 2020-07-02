@@ -95,7 +95,7 @@ entry_room:
   entities:
     - switch.entry_lights
     - switch.entry_christmas_lights
-    - light.entry_lamp
+    - switch.entry_lamp
     - binary_sensor.front_door
     - binary_sensor.entry_window_1
     - binary_sensor.entry_window_2

@@ -22,7 +22,7 @@
 - name: entry_hall_off
   entities:
     switch.entry_lights: off
-    light.entry_lamp: off
+    switch.entry_lamp: off
 
 - name: master_hall_not_night
   entities:
