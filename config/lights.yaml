@@ -192,8 +192,6 @@
   name: Office Lights
   entities:
     - light.office_go
-    - switch.office_fan_lights
-    - switch.office_lamp
 
 # Outside
 - platform: group
