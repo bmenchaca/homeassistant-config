@@ -466,7 +466,7 @@ cards:
 ###############################################################################
       - type: image
         entity: binary_sensor.breakfast_motion
-        filter: opacity(1)
+        filter: opacity(0)
         image: /local/images/breakfast-motion.png
         tap_action:
           action: none
@@ -482,7 +482,7 @@ cards:
           transform: none
       - type: image
         entity: binary_sensor.family_mantle_motion
-        filter: opacity(1)
+        filter: opacity(0)
         image: /local/images/family-motion.png
         tap_action:
           action: none
@@ -498,7 +498,7 @@ cards:
           transform: none
       - type: image
         entity: binary_sensor.family_mantle_and_breakfast_motion
-        filter: opacity(1)
+        filter: opacity(0)
         image: /local/images/breakfast-and-family-motion.png
         tap_action:
           action: none
@@ -513,21 +513,6 @@ cards:
           z-index: 10
           transform: none
       - type: image
-        entity: binary_sensor.craft_motion
-        filter: opacity(0)
-        image: /local/images/craft-motion.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        state_filter:
-          "on": opacity(1)
-        style: 
-          left: 0%
-          top: 0%
-          z-index: 10
-          transform: none
-      - type: image
         entity: binary_sensor.dining_motion
         filter: opacity(0)
         image: /local/images/dining-motion.png
@@ -538,23 +523,9 @@ cards:
         state_filter:
           "on": opacity(1)
         style: 
-          left: 0%
-          top: 0%
-          z-index: 10
-          transform: none
-      - type: image
-        entity: binary_sensor.stairs_motion
-        filter: opacity(0)
-        image: /local/images/stairs-motion.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        state_filter:
-          "on": opacity(1)
-        style: 
-          left: 0%
-          top: 0%
+          width: 9.7% 
+          left: 19.11%
+          top: 42.61%
           z-index: 10
           transform: none
       - type: image
@@ -568,8 +539,9 @@ cards:
         state_filter:
           "on": opacity(1)
         style: 
-          left: 0%
-          top: 0%
+          width: 15.55%
+          left: 35.55%
+          top: 33.95%
           z-index: 10
           transform: none
       - type: image
@@ -583,8 +555,57 @@ cards:
         state_filter:
           "on": opacity(1)
         style: 
-          left: 0%
-          top: 0%
+          width: 10.1%
+          left: 26.9%
+          top: 37.26%
+          z-index: 10
+          transform: none
+      - type: image
+        entity: binary_sensor.stairs_motion
+        filter: opacity(0)
+        image: /local/images/stairs-motion.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          width: 15.15%
+          left: 29.17%
+          top: 47.81%
+          z-index: 10
+          transform: none
+      - type: image
+        entity: binary_sensor.master_hall_motion
+        filter: opacity(0)
+        image: /local/images/master-hall-motion.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          width: 10.7%
+          left: 44.4%
+          top: 53.65%
+          z-index: 10
+          transform: none
+      - type: image
+        entity: binary_sensor.laundry_motion
+        filter: opacity(0)
+        image: /local/images/laundry-motion.png
+        tap_action:
+          action: none
+        hold_action:
+          action: none
+        state_filter:
+          "on": opacity(1)
+        style: 
+          width: 10.2%
+          left: 48.28%
+          top: 48.15%
           z-index: 10
           transform: none
       - type: image
@@ -598,13 +619,14 @@ cards:
         state_filter:
           "on": opacity(1)
         style: 
-          left: 0%
-          top: 0%
+          width: 18.5%
+          left: 51.55%
+          top: 38.55%
           z-index: 10
           transform: none
       - type: image
         entity: binary_sensor.guest_bath_motion
-        filter: opacity(0)
+        filter: opacity(1)
         image: /local/images/guest-bath-motion.png
         tap_action:
           action: none
@@ -613,13 +635,14 @@ cards:
         state_filter:
           "on": opacity(1)
         style: 
-          left: 0%
-          top: 0%
+          width: 9.5%
+          left: 14.8%
+          top: 37.39%
           z-index: 10
           transform: none
       - type: image
         entity: binary_sensor.guest_motion
-        filter: opacity(0)
+        filter: opacity(1)
         image: /local/images/guest-motion.png
         tap_action:
           action: none
@@ -648,24 +671,9 @@ cards:
           z-index: 10
           transform: none
       - type: image
-        entity: binary_sensor.laundry_motion
-        filter: opacity(0)
-        image: /local/images/laundry-motion.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        state_filter:
-          "on": opacity(1)
-        style: 
-          left: 0%
-          top: 0%
-          z-index: 10
-          transform: none
-      - type: image
-        entity: binary_sensor.master_hall_motion
-        filter: opacity(0)
-        image: /local/images/master-hall-motion.png
+        entity: binary_sensor.craft_motion
+        filter: opacity(1)
+        image: /local/images/craft-motion.png
         tap_action:
           action: none
         hold_action:
