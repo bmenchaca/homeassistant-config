@@ -626,7 +626,7 @@ cards:
           transform: none
       - type: image
         entity: binary_sensor.guest_bath_motion
-        filter: opacity(1)
+        filter: opacity(0)
         image: /local/images/guest-bath-motion.png
         tap_action:
           action: none
@@ -642,7 +642,7 @@ cards:
           transform: none
       - type: image
         entity: binary_sensor.guest_motion
-        filter: opacity(1)
+        filter: opacity(0)
         image: /local/images/guest-motion.png
         tap_action:
           action: none
@@ -651,8 +651,9 @@ cards:
         state_filter:
           "on": opacity(1)
         style: 
-          left: 0%
-          top: 0%
+          width: 4.5%
+          left: 24.57%
+          top: 27.9%
           z-index: 10
           transform: none
       - type: image
@@ -666,13 +667,14 @@ cards:
         state_filter:
           "on": opacity(1)
         style: 
-          left: 0%
-          top: 0%
+          width: 15.75%
+          left: 49.55%
+          top: 57.45%
           z-index: 10
           transform: none
       - type: image
         entity: binary_sensor.craft_motion
-        filter: opacity(1)
+        filter: opacity(0)
         image: /local/images/craft-motion.png
         tap_action:
           action: none
@@ -681,8 +683,9 @@ cards:
         state_filter:
           "on": opacity(1)
         style: 
-          left: 0%
-          top: 0%
+          width: 15.0%
+          left: 57.95%
+          top: 44.3%
           z-index: 10
           transform: none
       - type: image
@@ -696,8 +699,9 @@ cards:
         state_filter:
           "on": opacity(1)
         style: 
-          left: 0%
-          top: 0%
+          width: 11.75%
+          left: 65.55%
+          top: 61.3%
           z-index: 10
           transform: none
 
