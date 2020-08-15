@@ -105,10 +105,6 @@ cards:
             name: Craft Fan
             tap_action:
               action: toggle
-          - entity: switch.craft_sewing_lights
-            name: Sewing Lamp
-            tap_action:
-              action: toggle
       - type: glance
         title:  Master Bath and Closet
         show_header_toggle: true

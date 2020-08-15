@@ -5,12 +5,11 @@
 - name: craft_room_switch_off
   entities:
     switch.craft_fan_and_lights: off
-    switch.craft_sewing_lights: off
+    light.
     
 - name: craft_room_switch_on
   entities:
     switch.craft_fan_and_lights: on
-    switch.craft_sewing_lights: on
 
 - name: family_room_lights_off
   entities:

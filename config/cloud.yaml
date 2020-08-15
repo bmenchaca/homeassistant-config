@@ -39,8 +39,6 @@ alexa:
       name: Breakfast Lights
     switch.craft_fan_and_lights:
       name: Craft Room Fan
-    switch.craft_sewing_lights:
-      name: Craft Room Sewing Lamp
     switch.entry_lights:
       name: Entry Light
     switch.family_fan:
