@@ -65,6 +65,8 @@ craft_room:
   name: Craft Room
   entities:
     - switch.craft_fan_and_lights
+    - light.craft_ambiance_lamp_1
+    - light.craft_ambiance_lamp_2
     - binary_sensor.craft_room_window_1
     - binary_sensor.craft_room_window_2
 

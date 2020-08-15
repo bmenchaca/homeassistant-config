@@ -5,11 +5,14 @@
 - name: craft_room_switch_off
   entities:
     switch.craft_fan_and_lights: off
-    light.
+    light.craft_ambiance_lamp_1: off
+    light.craft_ambiance_lamp_2: off
     
 - name: craft_room_switch_on
   entities:
     switch.craft_fan_and_lights: on
+    light.craft_ambiance_lamp_1: on
+    light.craft_ambiance_lamp_2: on
 
 - name: family_room_lights_off
   entities:

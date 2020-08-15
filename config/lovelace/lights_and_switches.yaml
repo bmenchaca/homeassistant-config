@@ -64,6 +64,10 @@ cards:
             name: Kids Study Lights
             tap_action:
               action: toggle
+          - entity: light.kids_study
+            name: Kids Desk Lights
+            tap_action:
+              action: toggle
 
       - type: glance
         title: Front Yard
