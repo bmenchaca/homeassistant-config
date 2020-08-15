@@ -106,9 +106,9 @@ dining_room:
   name: Dining Room
   entities:
     - switch.kids_study_lights
-    - binary_sensor.dining_room_window_1
-    - binary_sensor.dining_room_window_2
-    - binary_sensor.dining_room_window_3
+    - binary_sensor.kids_study_window_1
+    - binary_sensor.kids_study_window_2
+    - binary_sensor.kids_study_window_3
 
 breakfast_room:
   name: Breakfast Room
@@ -342,7 +342,7 @@ downstairs_view:
     - group.craft_room
     - group.master_hall
     - group.laundry_room
-    - group.dining_room
+    - group.kids_study
     - group.family_room
     - group.kitchen
     - group.breakfast_room

@@ -953,7 +953,7 @@ cards:
           z-index: 20
           transform: none
       - type: image
-        entity: binary_sensor.dining_room_window_1
+        entity: binary_sensor.kids_study_window_1
         image: /local/images/dining-window-1-open.png
         filter: opacity(0)
         tap_action:
@@ -968,7 +968,7 @@ cards:
           z-index: 20
           transform: none
       - type: image
-        entity: binary_sensor.dining_room_window_2
+        entity: binary_sensor.kids_study_window_2
         image: /local/images/dining-window-2-open.png
         filter: opacity(0)
         tap_action:
@@ -983,7 +983,7 @@ cards:
           z-index: 20
           transform: none
       - type: image
-        entity: binary_sensor.dining_room_window_3
+        entity: binary_sensor.kids_study_window_3
         image: /local/images/dining-window-3-open.png
         filter: opacity(0)
         tap_action:

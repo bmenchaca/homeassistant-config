@@ -25,9 +25,9 @@ cards:
       - binary_sensor.breakfast_window_4
       - binary_sensor.craft_room_window_1
       - binary_sensor.craft_room_window_2
-      - binary_sensor.dining_room_window_1
-      - binary_sensor.dining_room_window_2
-      - binary_sensor.dining_room_window_3
+      - binary_sensor.kids_study_window_1
+      - binary_sensor.kids_study_window_2
+      - binary_sensor.kids_study_window_3
       - binary_sensor.entry_window_1
       - binary_sensor.entry_window_2
       - binary_sensor.family_window_1
