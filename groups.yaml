@@ -106,6 +106,9 @@ dining_room:
   name: Dining Room
   entities:
     - switch.kids_study_lights
+    - light.noah_desk_strip
+    - light.hannah_desk_strip
+    - light.heidi_desk_strip
     - binary_sensor.kids_study_window_1
     - binary_sensor.kids_study_window_2
     - binary_sensor.kids_study_window_3
