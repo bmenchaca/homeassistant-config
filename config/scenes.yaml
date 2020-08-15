@@ -19,6 +19,20 @@
     switch.back_porch_lights: off
     switch.family_fan_lights: off
 
+- name: kids_study_off
+  entities:
+    switch.kids_study_lights: off
+    light.hannah_desk_strip: off
+    light.heidi_desk_strip: off
+    light.noah_desk_strip: off
+
+- name: kids_study_on
+  entities:
+    switch.kids_study_lights: on
+    light.hannah_desk_strip: on
+    light.heidi_desk_strip: on
+    light.noah_desk_strip: on
+
 - name: entry_hall_off
   entities:
     switch.entry_lights: off
