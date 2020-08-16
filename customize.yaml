@@ -11,7 +11,7 @@ binary_sensor.office_window_1:
 binary_sensor.office_window_2:
   icon: mdi:window-closed
 light.office_go:
-  icon: mdi:wall-sconce-variant
+  icon: mdi:wall-sconce-round-variant
 switch.boys_hall_light:
   icon: mdi:candle
 switch.boys_bathroom_light:
@@ -42,6 +42,8 @@ light.noah_fan_lights:
   icon: mdi:ceiling-light
 light.hannah_fan_lights:
   icon: mdi:ceiling-light
+light.kids_study:
+  icon: mdi:led-strip-variant
 switch.front_porch_lights:
   icon: mdi:ceiling-light
 switch.entry_lights:
@@ -93,7 +95,7 @@ light.heidi_closet:
 switch.heidi_heater:
   icon: mdi:radiator
 light.heidi_go:
-  icon: mdi:mdi:wall-sconce-variant
+  icon: mdi:mdi:wall-sconce-round-variant
 input_boolean.bedtime:
   hidden: true
 switch.guest_heater:
