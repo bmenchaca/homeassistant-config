@@ -97,32 +97,9 @@
   alias: Restart Home Assistant
   description: Restart Home Assistant Every Day
   trigger:
-  - at: '3:00:00'
+  - at: '8:30:00'
     platform: time
   condition: []
   action:
   - service: homeassistant.restart
-- id: living_room_off_on_restart
-  alias: Living Room Off on HA Restart
-  trigger:
-    platform: homeassistant
-    event: start
-  action:
-  - service: switch.turn_off
-    entity_id: switch.family_fan_lights
-- id: '1592000426606'
-  alias: Open Susan Garage when Susan Arrives Home
-  description: ''
-  trigger:
-  - entity_id: binary_sensor.susan_at_home
-    from: 'off'
-    platform: state
-    to: 'on'
-  condition:
-  - after: '7:00'
-    before: '21:00'
-    condition: time
-  action:
-  - data: {}
-    entity_id: cover.susan_garage
-    service: cover.open_cover
+  mode: single
