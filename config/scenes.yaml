@@ -35,10 +35,18 @@
     light.heidi_desk_strip: on
     light.noah_desk_strip: on
 
-- name: entry_hall_off
+- name: entry_dining_off
   entities:
+    lights.entry_dining_lamp_1: off
+    lights.entry_dining_lamp_2: off
     switch.entry_lights: off
     switch.entry_lamp: off
+
+- name: entry_dining_on
+  entities:
+    lights.entry_dining_lamp_1: on
+    lights.entry_dining_lamp_2: on
+    switch.entry_lights: on
 
 - name: master_hall_not_night
   entities:
