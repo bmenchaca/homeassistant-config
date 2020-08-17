@@ -51,7 +51,6 @@ zone: !include config/zones.yaml
 sensor: !include config/sensors.yaml
 binary_sensor: !include config/binary_sensors.yaml
 switch: !include config/switches.yaml
-scene: !include config/scenes.yaml
 device_tracker: !include config/device_trackers.yaml
 #media_player: !include config/media_players.yaml
 light: !include config/lights.yaml
