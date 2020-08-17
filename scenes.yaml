@@ -44,9 +44,9 @@
 
 - name: entry_dining_on
   entities:
+    switch.entry_lights: on
     light.entry_dining_lamp_1: on
     light.entry_dining_lamp_2: on
-    switch.entry_lights: on
 
 - name: master_hall_not_night
   entities:
