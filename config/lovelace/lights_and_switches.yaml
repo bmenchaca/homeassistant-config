@@ -292,6 +292,8 @@ cards:
             name: Go
             tap_action:
               action: toggle  
+            hold_action:
+              action: more-info
 
       - type: glance
         title: Heidi's Room
