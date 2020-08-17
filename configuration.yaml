@@ -53,6 +53,7 @@ binary_sensor: !include config/binary_sensors.yaml
 switch: !include config/switches.yaml
 device_tracker: !include config/device_trackers.yaml
 #media_player: !include config/media_players.yaml
+scene: !include scenes.yaml
 light: !include config/lights.yaml
 script: !include scripts.yaml
 ffmpeg: !include config/ffmpeg.yaml
