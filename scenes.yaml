@@ -187,6 +187,22 @@
     light.back_yard_lights: false
     cover.ben_garage: closed
     cover.susan_garage: closed
+    switch.boys_hall_light: false
+    switch.girls_hall_lights: false
+    light.gallery_flood: false
+    light.game_room: false
+    light.guest_bath: false
+    switch.back_porch_lights: false
+    switch.master_hall_lights: false
+    switch.kitchen_lights: false
+    switch.kids_study_lights: false
+    switch.stairs_lights: false
+    switch.breakfast_lights: false
+    switch.entry_lights: false
+    switch.guest_bath_lights: false
+    switch.guest_hall_lights: false
+    switch.family_fan_lights: false
+    switch.family_mantle_lights: true
 - id: 5503849daa445f81c22cfaf35dd3
   name: night_switches
   entities:
