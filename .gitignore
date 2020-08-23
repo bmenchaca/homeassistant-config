@@ -1,7 +1,7 @@
 *
 !.gitignore
-!*.xml
 !.travis.yml
+!*.xml
 !*.yaml
 !*.html
 !*.css
@@ -14,6 +14,5 @@
 **__pycache__/
 deps/**
 secrets.yaml
-zwcfg_*
   
 

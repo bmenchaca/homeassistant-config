@@ -1,258 +1,241 @@
-- id: e1c8266d-f4cf-4065-b04e-94e5c87f78fa
+- id: e1c8266d4cf06504e4e5c87f78fa
   name: guest_unoccupied
   entities:
-    light.guest: off
-
-- id: 4068123d-c58e-466b-b099-28ada9c47ed3
+    light.guest: false
+- id: 4068123d58e66b0998ada9c47ed3
   name: craft_room_switch_off
   entities:
-    switch.craft_fan_and_lights: off
-    light.craft_ambiance_lamp_1: off
-    light.craft_ambiance_lamp_2: off
-    
-- id: 4d9992b8-95c1-47dc-a560-6746551a4637
+    switch.craft_fan_and_lights: false
+    light.craft_ambiance_lamp_1: false
+    light.craft_ambiance_lamp_2: false
+- id: 4d9992b85c17dc560746551a4637
   name: craft_room_switch_on
   entities:
-    switch.craft_fan_and_lights: on
-    light.craft_ambiance_lamp_1: on
-    light.craft_ambiance_lamp_2: on
-
-- id: 1adef16c-5f35-41e7-badd-b2b9d0af963c
+    switch.craft_fan_and_lights: true
+    light.craft_ambiance_lamp_1: true
+    light.craft_ambiance_lamp_2: true
+- id: 1adef16cf351e7add2b9d0af963c
   name: family_room_lights_off
   entities:
-    switch.breakfast_lights: off
-    switch.kitchen_lights: off
-    switch.back_porch_lights: off
-    switch.family_fan_lights: off
-
-- id: 81cd9903-c968-4518-b31e-a4293d6a6adf
+    switch.breakfast_lights: false
+    switch.kitchen_lights: false
+    switch.back_porch_lights: false
+    switch.family_fan_lights: false
+- id: 81cd990396851831e4293d6a6adf
   name: kids_study_off
   entities:
-    switch.kids_study_lights: off
-    light.hannah_desk_strip: off
-    light.heidi_desk_strip: off
-    light.noah_desk_strip: off
-
-- id: b07ee0c7-79e3-4837-a404-2322bf7ed02b
+    switch.kids_study_lights: false
+    light.hannah_desk_strip: false
+    light.heidi_desk_strip: false
+    light.noah_desk_strip: false
+- id: b07ee0c79e3837404322bf7ed02b
   name: kids_study_on
   entities:
-    switch.kids_study_lights: on
-    light.hannah_desk_strip: on
-    light.heidi_desk_strip: on
-    light.noah_desk_strip: on
-
-- id: 27ab6796-1514-4d30-af2f-a4119d17c795
+    switch.kids_study_lights: true
+    light.hannah_desk_strip: true
+    light.heidi_desk_strip: true
+    light.noah_desk_strip: true
+- id: 27ab6796514d30f2f4119d17c795
   name: entry_dining_off
   entities:
-    light.entry_dining_lamp_1: off
-    light.entry_dining_lamp_2: off
-    switch.entry_lights: off
-    switch.entry_lamp: off
-
-- id: 3f5289bb-162c-47f9-97ab-390060c83cd2
+    light.entry_dining_lamp_1: false
+    light.entry_dining_lamp_2: false
+    switch.entry_lights: false
+    switch.entry_lamp: false
+- id: 3f5289bb62c7f97ab90060c83cd2
   name: entry_dining_on
   entities:
-    switch.entry_lights: on
-    light.entry_dining_lamp_1: on
-    light.entry_dining_lamp_2: on
-
-- id: 3bca2a4a-bb13-4e04-bbf1-598150f4f25e
+    switch.entry_lights: true
+    light.entry_dining_lamp_1: true
+    light.entry_dining_lamp_2: true
+- id: 3bca2a4ab13e04bf198150f4f25e
   name: master_hall_not_night
   entities:
-    switch.master_hall_lights: on
+    switch.master_hall_lights: true
     light.master_hall:
-      state: on
+      state: true
       color_temp: 429
       brightness: 254
-
-- id: ff2205d5-3d8f-4abb-9ddb-f454d1444832
+- id: ff2205d5d8fabbddb454d1444832
   name: game_room_off
   entities:
-    switch.game_room_fan: off
-    light.game_room: off
-  
-- id: ba5993c5-becb-423b-a48d-0233832b0708
+    switch.game_room_fan: false
+    light.game_room: false
+- id: ba5993c5ecb23b48d233832b0708
   name: christmas_lights_daytime
   entities:
-    switch.entry_christmas_lights: off
-
-- id: e271341b-72f1-4dcd-99d2-2661b9b4ba29
+    switch.entry_christmas_lights: false
+- id: e271341b2f1dcd9d2661b9b4ba29
   name: christmas_lights_nighttime
   entities:
-    switch.entry_christmas_lights: on
-
-- id: 1ae5d24e-7181-48cc-bc64-dc9c8109f9b0
+    switch.entry_christmas_lights: true
+- id: 1ae5d24e1818ccc64c9c8109f9b0
   name: garage_outdoor_lights_daytime
   entities:
-    switch.garage_carriage_lights: off
-
-- id: b7f0672b-755e-4f5b-89ef-b375ccec730f
+    switch.garage_carriage_lights: false
+- id: b7f0672b55ef5b9ef375ccec730f
   name: garage_outdoor_lights_nighttime
   entities:
-    switch.garage_carriage_lights: on
-
-- id: 8a66e7eb-6061-4eb0-9a44-f627655be2a3
+    switch.garage_carriage_lights: true
+- id: 8a66e7eb061eb0a44627655be2a3
   name: game_room_on
   entities:
-    switch.game_room_fan: on
-    light.game_room: on
-
-- id: f04c059b-4b8a-450e-bc65-c3110f257c80
+    switch.game_room_fan: true
+    light.game_room: true
+- id: f04c059bb8a50ec653110f257c80
   name: gallery_day_time
   entities:
-    switch.gallery_lights: on
+    switch.gallery_lights: true
     light.gallery:
-      state: on
+      state: true
       color_temp: 429
       brightness: 254
-
-- id: 58616776-cb5c-4add-b07a-2a61ec1a3624
+- id: 58616776b5cadd07aa61ec1a3624
   name: gallery_night_time
   entities:
-    switch.gallery_lights: on
+    switch.gallery_lights: true
     light.gallery:
-      state: on
+      state: true
       color_temp: 500
       brightness: 5
-
-- id: 777ae8ee-98dc-4acc-91fb-5e5bd80f64b7
+- id: 777ae8ee8dcacc1fbe5bd80f64b7
   name: game_room_not_night
   entities:
-    switch.game_room_lights: on
-
-- id: 9250abad-03dc-4aaf-9b97-661f1d00862a
+    switch.game_room_lights: true
+- id: 9250abad3dcaafb9761f1d00862a
   name: game_room_night
   entities:
-    switch.game_room_lights: on
-
-- id: ee2c0cb1-3f08-4e51-a227-7aa8adfab535
+    switch.game_room_lights: true
+- id: ee2c0cb1f08e51227aa8adfab535
   name: guest_bath_night
   entities:
-    switch.guest_bath_lights: on
-    light.guest_bath_bulb_1: off
-    light.guest_bath_bulb_2: off
+    switch.guest_bath_lights: true
+    light.guest_bath_bulb_1: false
+    light.guest_bath_bulb_2: false
     light.guest_bath_bulb_color:
-      state: on
+      state: true
       color_temp: 500
       brightness: 5
-
-- id: f89380a6-f70e-4898-934b-d214edf424e2
+- id: f89380a670e89834b214edf424e2
   name: guest_bath_day
   entities:
-    switch.guest_bath_lights: on
+    switch.guest_bath_lights: true
     light.guest_bath:
-      state: on
+      state: true
       color_temp: 429
       brightness: 255
-
-- id: 154ee5bf-77e0-4480-a3c9-d5e6112464a8
-- name: family_night
+- id: 154ee5bf7e04803c95e6112464a8
+  name: family_night
   entities:
-    switch.family_mantle_lights: on
+    switch.family_mantle_lights: true
     light.family_mantle_bulb:
-      state: on
+      state: true
       color_temp: 500
       brightness: 2
-
-- id: 982cfb61-262f-4e79-9599-4787c78a02c2
+- id: 982cfb6162fe79599787c78a02c2
   name: backyard_lights_evening_on
-  entities: 
-    switch.back_porch_lights: on
+  entities:
     light.back_yard:
-      state: on
-      color_temp: 429
       brightness: 255
-
-- id: b40fce40-84fe-4ce8-9071-ea31615d58e1
+      color_temp: 429
+      effect_list:
+      - colorloop
+      - random
+      friendly_name: Back Yard
+      is_hue_group: true
+      max_mireds: 500
+      min_mireds: 153
+      state: 'on'
+      supported_features: 63
+    switch.back_porch_lights:
+      friendly_name: Back Porch Lights Switch
+      icon: mdi:coach-lamp
+      node_id: 35
+      state: 'on'
+      value_id: '72057594629931008'
+      value_index: 0
+      value_instance: 1
+- id: b40fce404fece8071a31615d58e1
   name: backyard_lights_off
-  entities: 
-    switch.back_porch_lights: off
-    light.back_yard_lights: off
-         
-- id: cc944586-ae38-44d3-bb57-63f9f6efcae8
+  entities:
+    switch.back_porch_lights: false
+    light.back_yard_lights: false
+- id: cc944586e384d3b573f9f6efcae8
   name: evening_tv_time
   entities:
-    switch.boys_hall_light: off
-    switch.girls_hall_lights: off
-    light.gallery_flood: off
-    light.game_room: off
-    switch.back_porch_lights: off
-    switch.master_hall_lights: off
-    switch.kitchen_lights: off
-    switch.kids_study_lights: off
-    switch.stairs_lights: off
-    switch.breakfast_lights: off
-    switch.entry_lights: off
-    switch.guest_bath_lights: off
-    switch.guest_hall_lights: off
-    switch.family_fan_lights: off
-    switch.family_mantle_lights: on
-
-- id: 2307c37e-2b43-4759-ba6f-443e1a14b5fd
+    switch.boys_hall_light: false
+    switch.girls_hall_lights: false
+    light.gallery_flood: false
+    light.game_room: false
+    switch.back_porch_lights: false
+    switch.master_hall_lights: false
+    switch.kitchen_lights: false
+    switch.kids_study_lights: false
+    switch.stairs_lights: false
+    switch.breakfast_lights: false
+    switch.entry_lights: false
+    switch.guest_bath_lights: false
+    switch.guest_hall_lights: false
+    switch.family_fan_lights: false
+    switch.family_mantle_lights: true
+- id: 2307c37eb43759a6f43e1a14b5fd
   name: house_bed_time
   entities:
-    switch.garage_carriage_lights: on
-    switch.garage_lights: off
-    switch.front_porch_lights: off
-    light.back_yard_lights: off
+    switch.garage_carriage_lights: true
+    switch.garage_lights: false
+    switch.front_porch_lights: false
+    light.back_yard_lights: false
     cover.ben_garage: closed
     cover.susan_garage: closed
-
-- id: 5503849d-eaa4-445f-a81c-022cfaf35dd3    
+- id: 5503849daa445f81c22cfaf35dd3
   name: night_switches
   entities:
-    switch.noahs_hall_light_switch: off
-    switch.girls_hall_lights: off
-    # These are on because we will turn the lights off with hue
-    switch.guest_bath_lights: on
-
-- id: 6fe9436a-c2e8-4b4d-a70e-e7eb5382adf3
+    switch.noahs_hall_light_switch: false
+    switch.girls_hall_lights: false
+    switch.guest_bath_lights: true
+- id: 6fe9436a2e8b4d70e7eb5382adf3
   name: bedtime_dimmed_lights
   entities:
-    light.guest_bath_bulb_1: off
-    light.guest_bath_bulb_2: off
+    light.guest_bath_bulb_1: false
+    light.guest_bath_bulb_2: false
     light.guest_bath_bulb_color:
-      state: on
+      state: true
       brightness: 5
       kelvin: 2000
     light.gallery_flood_bulb:
-      state: on
+      state: true
       brightness: 5
       kelvin: 2000
-    light.family_mantle_bulb: 
-      state: on
+    light.family_mantle_bulb:
+      state: true
       brightness: 5
       kelvin: 2000
-
-- id: bb99d473-1ecf-4e30-9e3c-8ed7d57b2a5f
+- id: bb99d473ecfe30e3ced7d57b2a5f
   name: daytime_regular_lights
   entities:
     light.guest_bath_bulb_1:
-      state: on
+      state: true
       brightness: 100
       kelvin: 3000
     light.guest_bath_bulb_2:
-      state: on
+      state: true
       brightness: 100
       kelvin: 3000
     light.guest_bath_bulb_color:
-      state: on
+      state: true
       brightness: 100
       kelvin: 3000
     light.gallery_flood_bulb:
-      state: on
+      state: true
       brightness: 100
-    light.family_mantle_bulb: 
-      state: on
+    light.family_mantle_bulb:
+      state: true
       brightness: 100
-
-- id: 5decb633-76c9-496b-ab34-1405cfe5f902
+- id: 5decb6336c996bb34405cfe5f902
   name: everyone_away
   entities:
-    switch.garage_lights: off
-
-- id: 9f358bbb-0151-41ec-80a7-c2663283780a
+    switch.garage_lights: false
+- id: 9f358bbb1511ec0a72663283780a
   name: someone_arriving_home
   entities:
-    switch.garage_lights: on
-
+    switch.garage_lights: true
