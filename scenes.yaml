@@ -178,6 +178,16 @@
     switch.guest_hall_lights: false
     switch.family_fan_lights: false
     switch.family_mantle_lights: true
+- id: 1598657284
+  name: evening_security_check
+  entities:
+    switch.garage_carriage_lights: true
+    switch.garage_lights: false
+    switch.front_porch_lights: false
+    switch.back_porch_lights: false
+    light.back_yard_lights: false
+    cover.ben_garage: closed
+    cover.susan_garage: closed
 - id: 2307c37eb43759a6f43e1a14b5fd
   name: house_bed_time
   entities:
