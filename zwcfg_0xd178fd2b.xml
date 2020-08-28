@@ -21,7 +21,7 @@
 			</CommandClass>
 			<CommandClass id="37" name="COMMAND_CLASS_SWITCH_BINARY" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="bool" genre="user" instance="1" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="True" />
+				<Value type="bool" genre="user" instance="1" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="False" />
 			</CommandClass>
 			<CommandClass id="39" name="COMMAND_CLASS_SWITCH_ALL" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
@@ -46,7 +46,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="0" size="1">
 					<Help>Change the mode of the LED to Status Mode where the LED is illuminated when the load is On, Locator Mode where the LED is illuminated when the Load is Off, or turns off the LED completely for any other setting values.</Help>
 					<Item label="Off" value="0" />
 					<Item label="Status Mode" value="254" />
@@ -152,7 +152,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="3" label="LED Light" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" vindex="0" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="LED Light" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" vindex="2" size="1">
 					<Help>When shipped from the factory, the LED is set to turn ON when the connected light is turned OFF. This is the default setting and can be changed if your primary controller supports the node configuration function. To make the LED turn ON when the light is turned ON, change parameter 3s value to 1. To turn the LED OFF at all times, change parameter 3s value to 2.</Help>
 					<Item label="LED Light on when Z-Wave turned OFF" value="0" />
 					<Item label="LED Light on when Z-Wave turned ON" value="1" />
@@ -257,7 +257,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="3" label="LED Light" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" vindex="0" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="LED Light" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" vindex="2" size="1">
 					<Help>When shipped from the factory, the LED is set to turn ON when the connected light is turned OFF. This is the default setting and can be changed if your primary controller supports the node configuration function. To make the LED turn ON when the light is turned ON, change parameter 3s value to 1. To turn the LED OFF at all times, change parameter 3s value to 2.</Help>
 					<Item label="LED Light on when Z-Wave turned OFF" value="0" />
 					<Item label="LED Light on when Z-Wave turned ON" value="1" />
@@ -337,7 +337,7 @@
 				<Instance index="1" />
 				<Instance index="2" endpoint="1" />
 				<Value type="bool" genre="user" instance="1" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="True" />
-				<Value type="bool" genre="user" instance="2" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="True" />
+				<Value type="bool" genre="user" instance="2" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="False" />
 			</CommandClass>
 			<CommandClass id="39" name="COMMAND_CLASS_SWITCH_ALL" version="1" request_flags="5" innif="true">
 				<Instance index="1" />
@@ -388,7 +388,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -403,7 +403,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
@@ -426,7 +426,7 @@
 				<Value type="byte" genre="user" instance="1" index="0" label="Alarm Type" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="1" index="1" label="Alarm Level" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="1" index="2" label="SourceNodeId" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
-				<Value type="byte" genre="user" instance="1" index="10" label="Burglar" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
+				<Value type="byte" genre="user" instance="1" index="10" label="Burglar" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="8" />
 				<Value type="byte" genre="user" instance="2" index="0" label="Alarm Type" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="2" index="1" label="Alarm Level" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="2" index="2" label="SourceNodeId" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
@@ -566,7 +566,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -581,7 +581,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="1" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
@@ -604,7 +604,7 @@
 				<Value type="byte" genre="user" instance="1" index="0" label="Alarm Type" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="1" index="1" label="Alarm Level" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="1" index="2" label="SourceNodeId" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
-				<Value type="byte" genre="user" instance="1" index="10" label="Burglar" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
+				<Value type="byte" genre="user" instance="1" index="10" label="Burglar" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="8" />
 				<Value type="byte" genre="user" instance="2" index="0" label="Alarm Type" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="2" index="1" label="Alarm Level" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="2" index="2" label="SourceNodeId" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
@@ -744,7 +744,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -782,7 +782,7 @@
 				<Value type="byte" genre="user" instance="1" index="0" label="Alarm Type" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="1" index="1" label="Alarm Level" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="1" index="2" label="SourceNodeId" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
-				<Value type="byte" genre="user" instance="1" index="10" label="Burglar" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
+				<Value type="byte" genre="user" instance="1" index="10" label="Burglar" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="8" />
 				<Value type="byte" genre="user" instance="2" index="0" label="Alarm Type" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="2" index="1" label="Alarm Level" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="2" index="2" label="SourceNodeId" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
@@ -922,7 +922,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -937,7 +937,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
@@ -1100,7 +1100,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -1115,7 +1115,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
@@ -1249,7 +1249,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="0" size="1">
 					<Help>Change the mode of the LED to Status Mode where the LED is illuminated when the load is On, Locator Mode where the LED is illuminated when the Load is Off, or turns off the LED completely for any other setting values.</Help>
 					<Item label="Off" value="0" />
 					<Item label="Status Mode" value="254" />
@@ -1381,7 +1381,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -1396,7 +1396,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="1" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
@@ -1530,7 +1530,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="0" size="1">
 					<Help>Change the mode of the LED to Status Mode where the LED is illuminated when the load is On, Locator Mode where the LED is illuminated when the Load is Off, or turns off the LED completely for any other setting values.</Help>
 					<Item label="Off" value="0" />
 					<Item label="Status Mode" value="254" />
@@ -1588,6 +1588,7 @@
 					<Group index="1" max_associations="5" label="Lifeline" auto="true">
 						<Node id="1" />
 					</Group>
+					<Group index="3" max_associations="5" label="Group 3" auto="false" />
 				</Associations>
 			</CommandClass>
 			<CommandClass id="134" name="COMMAND_CLASS_VERSION" version="1" request_flags="4" innif="true" classgetsupported="false">
@@ -1662,7 +1663,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -1677,7 +1678,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
@@ -1788,7 +1789,7 @@
 			<CommandClass id="37" name="COMMAND_CLASS_SWITCH_BINARY" version="1" request_flags="5" innif="true">
 				<Instance index="1" />
 				<Instance index="2" endpoint="1" />
-				<Value type="bool" genre="user" instance="1" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="False" />
+				<Value type="bool" genre="user" instance="1" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="True" />
 				<Value type="bool" genre="user" instance="2" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="False" />
 			</CommandClass>
 			<CommandClass id="39" name="COMMAND_CLASS_SWITCH_ALL" version="1" request_flags="5" innif="true">
@@ -1840,7 +1841,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -1855,7 +1856,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
@@ -1989,7 +1990,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="0" size="1">
 					<Help>Change the mode of the LED to Status Mode where the LED is illuminated when the load is On, Locator Mode where the LED is illuminated when the Load is Off, or turns off the LED completely for any other setting values.</Help>
 					<Item label="Off" value="0" />
 					<Item label="Status Mode" value="254" />
@@ -2070,7 +2071,7 @@
 				<Instance index="1" />
 				<Instance index="2" endpoint="1" />
 				<Value type="bool" genre="user" instance="1" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="True" />
-				<Value type="bool" genre="user" instance="2" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="False" />
+				<Value type="bool" genre="user" instance="2" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="True" />
 			</CommandClass>
 			<CommandClass id="39" name="COMMAND_CLASS_SWITCH_ALL" version="1" request_flags="5" innif="true">
 				<Instance index="1" />
@@ -2121,7 +2122,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -2136,7 +2137,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
@@ -2245,7 +2246,7 @@
 			</CommandClass>
 			<CommandClass id="37" name="COMMAND_CLASS_SWITCH_BINARY" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="bool" genre="user" instance="1" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="True" />
+				<Value type="bool" genre="user" instance="1" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="False" />
 			</CommandClass>
 			<CommandClass id="39" name="COMMAND_CLASS_SWITCH_ALL" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
@@ -2270,7 +2271,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="0" size="1">
 					<Help>Change the mode of the LED to Status Mode where the LED is illuminated when the load is On, Locator Mode where the LED is illuminated when the Load is Off, or turns off the LED completely for any other setting values.</Help>
 					<Item label="Off" value="0" />
 					<Item label="Status Mode" value="254" />
@@ -2373,7 +2374,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="0" size="1">
 					<Help>Change the mode of the LED to Status Mode where the LED is illuminated when the load is On, Locator Mode where the LED is illuminated when the Load is Off, or turns off the LED completely for any other setting values.</Help>
 					<Item label="Off" value="0" />
 					<Item label="Status Mode" value="254" />
@@ -2505,7 +2506,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -2520,7 +2521,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
@@ -2654,7 +2655,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="0" size="1">
 					<Help>Change the mode of the LED to Status Mode where the LED is illuminated when the load is On, Locator Mode where the LED is illuminated when the Load is Off, or turns off the LED completely for any other setting values.</Help>
 					<Item label="Off" value="0" />
 					<Item label="Status Mode" value="254" />
@@ -2786,7 +2787,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -2801,7 +2802,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="1" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
@@ -2964,7 +2965,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -2979,7 +2980,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="1" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
@@ -3116,7 +3117,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="3" label="LED Light" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" vindex="0" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="LED Light" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" vindex="2" size="1">
 					<Help>When shipped from the factory, the LED is set to turn ON when the connected light is turned OFF. This is the default setting and can be changed if your primary controller supports the node configuration function. To make the LED turn ON when the light is turned ON, change parameter 3s value to 1. To turn the LED OFF at all times, change parameter 3s value to 2.</Help>
 					<Item label="LED Light on when Z-Wave turned OFF" value="0" />
 					<Item label="LED Light on when Z-Wave turned ON" value="1" />
@@ -3209,7 +3210,7 @@
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
 			</CommandClass>
-			<CommandClass id="113" name="COMMAND_CLASS_ALARM" version="5" innif="true">
+			<CommandClass id="113" name="COMMAND_CLASS_ALARM" version="5" request_flags="2" innif="true">
 				<Instance index="1" />
 				<Value type="byte" genre="user" instance="1" index="0" label="Alarm Type" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="1" index="1" label="Alarm Level" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
@@ -3264,7 +3265,7 @@
 				<Instance index="1" />
 				<Value type="byte" genre="user" instance="1" index="0" label="Battery Level" units="%" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="100" />
 			</CommandClass>
-			<CommandClass id="132" name="COMMAND_CLASS_WAKE_UP" version="2" innif="true">
+			<CommandClass id="132" name="COMMAND_CLASS_WAKE_UP" version="2" request_flags="2" innif="true">
 				<Instance index="1" />
 				<Value type="int" genre="system" instance="1" index="0" label="Wake-up Interval" units="Seconds" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="-2147483648" max="2147483647" value="14400" />
 				<Value type="int" genre="system" instance="1" index="1" label="Minimum Wake-up Interval" units="Seconds" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="-2147483648" max="2147483647" value="3600" />
@@ -3327,7 +3328,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="3" label="LED Light" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" vindex="0" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="LED Light" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" vindex="2" size="1">
 					<Help>When shipped from the factory, the LED is set to turn ON when the connected light is turned OFF. This is the default setting and can be changed if your primary controller supports the node configuration function. To make the LED turn ON when the light is turned ON, change parameter 3s value to 1. To turn the LED OFF at all times, change parameter 3s value to 2.</Help>
 					<Item label="LED Light on when Z-Wave turned OFF" value="0" />
 					<Item label="LED Light on when Z-Wave turned ON" value="1" />
@@ -3458,7 +3459,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -3473,7 +3474,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
@@ -3585,7 +3586,7 @@
 			</CommandClass>
 			<CommandClass id="37" name="COMMAND_CLASS_SWITCH_BINARY" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="bool" genre="user" instance="1" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="True" />
+				<Value type="bool" genre="user" instance="1" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="False" />
 			</CommandClass>
 			<CommandClass id="39" name="COMMAND_CLASS_SWITCH_ALL" version="1" request_flags="4">
 				<Instance index="1" />
@@ -3614,7 +3615,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="3" label="LED Light" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="2" vindex="0" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="LED Light" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="2" vindex="2" size="1">
 					<Help>Sets when the LED on the switch is lit.</Help>
 					<Item label="LED on when light off" value="0" />
 					<Item label="LED on when light on" value="1" />
@@ -3687,7 +3688,7 @@
 			</CommandClass>
 		</CommandClasses>
 	</Node>
-	<Node id="29" name="" location="" basic="4" generic="16" specific="1" type="Binary Power Switch" listening="true" frequentListening="false" beaming="true" routing="true" max_baud_rate="40000" version="4" query_stage="Complete">
+	<Node id="29" name="" location="" basic="4" generic="16" specific="1" type="Binary Power Switch" listening="true" frequentListening="false" beaming="true" routing="true" max_baud_rate="40000" version="4" query_stage="Probe">
 		<Manufacturer id="0" name="">
 			<Product type="0" id="0" name="" />
 		</Manufacturer>
@@ -3701,7 +3702,7 @@
 			</CommandClass>
 			<CommandClass id="39" name="COMMAND_CLASS_SWITCH_ALL" version="1">
 				<Instance index="1" />
-				<Value type="list" genre="system" instance="1" index="0" label="Switch All" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" vindex="3" size="1">
+				<Value type="list" genre="system" instance="1" index="0" label="Switch All" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" vindex="0" size="1">
 					<Item label="Disabled" value="0" />
 					<Item label="Off Enabled" value="1" />
 					<Item label="On Enabled" value="2" />
@@ -3710,7 +3711,7 @@
 			</CommandClass>
 		</CommandClasses>
 	</Node>
-	<Node id="30" name="" location="" basic="4" generic="16" specific="1" roletype="5" devicetype="1792" nodetype="0" type="Binary Power Switch" listening="true" frequentListening="false" beaming="true" routing="true" max_baud_rate="40000" version="4" query_stage="Complete">
+	<Node id="30" name="" location="" basic="4" generic="16" specific="1" roletype="5" devicetype="1792" nodetype="0" type="Binary Power Switch" listening="true" frequentListening="false" beaming="true" routing="true" max_baud_rate="40000" version="4" query_stage="CacheLoad">
 		<Manufacturer id="1d" name="Leviton">
 			<Product type="3401" id="1" name="DZ15S-1BZ Decora Smart Switch" />
 		</Manufacturer>
@@ -3745,7 +3746,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="0" size="1">
 					<Help>Change the mode of the LED to Status Mode where the LED is illuminated when the load is On, Locator Mode where the LED is illuminated when the Load is Off, or turns off the LED completely for any other setting values.</Help>
 					<Item label="Off" value="0" />
 					<Item label="Status Mode" value="254" />
@@ -3848,7 +3849,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="0" size="1">
 					<Help>Change the mode of the LED to Status Mode where the LED is illuminated when the load is On, Locator Mode where the LED is illuminated when the Load is Off, or turns off the LED completely for any other setting values.</Help>
 					<Item label="Off" value="0" />
 					<Item label="Status Mode" value="254" />
@@ -3926,7 +3927,7 @@
 			</CommandClass>
 			<CommandClass id="37" name="COMMAND_CLASS_SWITCH_BINARY" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="bool" genre="user" instance="1" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="True" />
+				<Value type="bool" genre="user" instance="1" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="False" />
 			</CommandClass>
 			<CommandClass id="39" name="COMMAND_CLASS_SWITCH_ALL" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
@@ -3951,7 +3952,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="0" size="1">
 					<Help>Change the mode of the LED to Status Mode where the LED is illuminated when the load is On, Locator Mode where the LED is illuminated when the Load is Off, or turns off the LED completely for any other setting values.</Help>
 					<Item label="Off" value="0" />
 					<Item label="Status Mode" value="254" />
@@ -4083,7 +4084,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -4098,7 +4099,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
@@ -4121,7 +4122,7 @@
 				<Value type="byte" genre="user" instance="1" index="0" label="Alarm Type" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="1" index="1" label="Alarm Level" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="1" index="2" label="SourceNodeId" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
-				<Value type="byte" genre="user" instance="1" index="10" label="Burglar" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
+				<Value type="byte" genre="user" instance="1" index="10" label="Burglar" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="8" />
 				<Value type="byte" genre="user" instance="2" index="0" label="Alarm Type" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="2" index="1" label="Alarm Level" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="2" index="2" label="SourceNodeId" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
@@ -4261,7 +4262,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -4490,6 +4491,7 @@
 			<CommandClass id="48" name="COMMAND_CLASS_SENSOR_BINARY" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
 				<Value type="bool" genre="user" instance="1" index="0" label="Sensor" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="False" />
+				<SensorMap index="0" type="25" />
 				<SensorMap index="0" type="255" />
 			</CommandClass>
 			<CommandClass id="90" name="COMMAND_CLASS_DEVICE_RESET_LOCALLY" version="1">
@@ -4504,7 +4506,7 @@
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
 			</CommandClass>
-			<CommandClass id="113" name="COMMAND_CLASS_ALARM" version="5" innif="true">
+			<CommandClass id="113" name="COMMAND_CLASS_ALARM" version="5" request_flags="2" innif="true">
 				<Instance index="1" />
 				<Value type="byte" genre="user" instance="1" index="0" label="Alarm Type" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="1" index="1" label="Alarm Level" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
@@ -4559,7 +4561,7 @@
 				<Instance index="1" />
 				<Value type="byte" genre="user" instance="1" index="0" label="Battery Level" units="%" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="100" />
 			</CommandClass>
-			<CommandClass id="132" name="COMMAND_CLASS_WAKE_UP" version="2" innif="true">
+			<CommandClass id="132" name="COMMAND_CLASS_WAKE_UP" version="2" request_flags="2" innif="true">
 				<Instance index="1" />
 				<Value type="int" genre="system" instance="1" index="0" label="Wake-up Interval" units="Seconds" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="-2147483648" max="2147483647" value="14400" />
 				<Value type="int" genre="system" instance="1" index="1" label="Minimum Wake-up Interval" units="Seconds" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="-2147483648" max="2147483647" value="3600" />
@@ -4610,7 +4612,7 @@
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
 			</CommandClass>
-			<CommandClass id="113" name="COMMAND_CLASS_ALARM" version="5" innif="true">
+			<CommandClass id="113" name="COMMAND_CLASS_ALARM" version="5" request_flags="2" innif="true">
 				<Instance index="1" />
 				<Value type="byte" genre="user" instance="1" index="0" label="Alarm Type" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
 				<Value type="byte" genre="user" instance="1" index="1" label="Alarm Level" units="" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="0" />
@@ -4665,7 +4667,7 @@
 				<Instance index="1" />
 				<Value type="byte" genre="user" instance="1" index="0" label="Battery Level" units="%" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="100" />
 			</CommandClass>
-			<CommandClass id="132" name="COMMAND_CLASS_WAKE_UP" version="2" innif="true">
+			<CommandClass id="132" name="COMMAND_CLASS_WAKE_UP" version="2" request_flags="2" innif="true">
 				<Instance index="1" />
 				<Value type="int" genre="system" instance="1" index="0" label="Wake-up Interval" units="Seconds" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="-2147483648" max="2147483647" value="14400" />
 				<Value type="int" genre="system" instance="1" index="1" label="Minimum Wake-up Interval" units="Seconds" read_only="true" write_only="false" verify_changes="false" poll_intensity="0" min="-2147483648" max="2147483647" value="3600" />
@@ -4725,7 +4727,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="0" size="1">
 					<Help>Change the mode of the LED to Status Mode where the LED is illuminated when the load is On, Locator Mode where the LED is illuminated when the Load is Off, or turns off the LED completely for any other setting values.</Help>
 					<Item label="Off" value="0" />
 					<Item label="Status Mode" value="254" />
@@ -4872,7 +4874,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
@@ -5035,7 +5037,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -5050,7 +5052,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="1" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
@@ -5188,7 +5190,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="byte" genre="config" instance="1" index="1" label="Fade On Time" units="seconds" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="253" value="2">
+				<Value type="byte" genre="config" instance="1" index="1" label="Fade On Time" units="seconds" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="253" value="0">
 					<Help>The amount of time to take to fade the lights from off to on. A value of zero is instant (no fade), values between 1 and 127 represent 1 to 127 seconds, and values from 128 to 253 represent from 1 to 126 minutes.</Help>
 				</Value>
 				<Value type="byte" genre="config" instance="1" index="2" label="Fade Off Time" units="seconds" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="253" value="2">
@@ -5208,13 +5210,13 @@
 					<Item label="Level Indicators Always Off" value="0" />
 					<Item label="Level Indicators Always On" value="255" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="0" size="1">
 					<Help>Change the mode of the LED to Status Mode where the LED is illuminated when the load is On, Locator Mode where the LED is illuminated when the Load is Off, or turns off the LED completely for any other setting values.</Help>
 					<Item label="LED Off" value="0" />
 					<Item label="Status Mode" value="254" />
 					<Item label="Locator Mode" value="255" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="8" label="Load Type" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="2" vindex="0" size="1">
+				<Value type="list" genre="config" instance="1" index="8" label="Load Type" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="2" vindex="1" size="1">
 					<Help>Specify the type of load that this dimmer controls.</Help>
 					<Item label="Incandescent" value="0" />
 					<Item label="LED" value="1" />
@@ -5346,7 +5348,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -5361,7 +5363,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
@@ -5470,7 +5472,7 @@
 			</CommandClass>
 			<CommandClass id="37" name="COMMAND_CLASS_SWITCH_BINARY" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="bool" genre="user" instance="1" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="True" />
+				<Value type="bool" genre="user" instance="1" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="False" />
 			</CommandClass>
 			<CommandClass id="39" name="COMMAND_CLASS_SWITCH_ALL" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
@@ -5495,7 +5497,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="0" size="1">
 					<Help>Change the mode of the LED to Status Mode where the LED is illuminated when the load is On, Locator Mode where the LED is illuminated when the Load is Off, or turns off the LED completely for any other setting values.</Help>
 					<Item label="Off" value="0" />
 					<Item label="Status Mode" value="254" />
@@ -5703,7 +5705,7 @@
 			</CommandClass>
 			<CommandClass id="112" name="COMMAND_CLASS_CONFIGURATION" version="1" request_flags="4" innif="true">
 				<Instance index="1" />
-				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="7" label="Locator LED Status" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" vindex="0" size="1">
 					<Help>Change the mode of the LED to Status Mode where the LED is illuminated when the load is On, Locator Mode where the LED is illuminated when the Load is Off, or turns off the LED completely for any other setting values.</Help>
 					<Item label="Off" value="0" />
 					<Item label="Status Mode" value="254" />
@@ -5784,7 +5786,7 @@
 				<Instance index="1" />
 				<Instance index="2" endpoint="1" />
 				<Value type="bool" genre="user" instance="1" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="False" />
-				<Value type="bool" genre="user" instance="2" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="False" />
+				<Value type="bool" genre="user" instance="2" index="0" label="Switch" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="0" value="True" />
 			</CommandClass>
 			<CommandClass id="39" name="COMMAND_CLASS_SWITCH_ALL" version="1" request_flags="5" innif="true">
 				<Instance index="1" />
@@ -5835,7 +5837,7 @@
 				<Value type="byte" genre="config" instance="1" index="2" label="Brightness" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="0" max="255" value="255">
 					<Help>Valid values are 0-99 or 255 for last dimming level</Help>
 				</Value>
-				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="3" label="Operation Mode" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Help>Motion-sensing mode of operation.</Help>
 					<Item label="Manual" value="1" />
 					<Item label="Vacancy" value="2" />
@@ -5850,7 +5852,7 @@
 					<Item label="Disabled" value="0" />
 					<Item label="Enabled" value="1" />
 				</Value>
-				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="2" size="1">
+				<Value type="list" genre="config" instance="1" index="13" label="Motion sensing sensitivity" units="" read_only="false" write_only="false" verify_changes="false" poll_intensity="0" min="1" max="3" vindex="0" size="1">
 					<Item label="High" value="1" />
 					<Item label="Medium" value="2" />
 					<Item label="Low" value="3" />
