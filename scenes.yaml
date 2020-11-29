@@ -65,10 +65,14 @@
   name: christmas_lights_daytime
   entities:
     switch.entry_christmas_lights: false
+    switch.garage_christmas_lights: false
+    switch.family_christmas_tree: false
 - id: e271341b2f1dcd9d2661b9b4ba29
   name: christmas_lights_nighttime
   entities:
     switch.entry_christmas_lights: true
+    switch.garage_christmas_lights: true
+    switch.family_christmas_tree: true
 - id: 1ae5d24e1818ccc64c9c8109f9b0
   name: garage_outdoor_lights_daytime
   entities:
