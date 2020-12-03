@@ -17,12 +17,12 @@
 
 - platform: tod
   name: weekend_bedtime
-  after: '21:30'
+  after: '21:15'
   before: '8:00'
 
 - platform: tod
   name: workday_bedtime
-  after: '21:30'
+  after: '20:30'
   before: '8:00'
 
 #Occupancy Template Sensors
