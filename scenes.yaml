@@ -21,6 +21,14 @@
     switch.kitchen_lights: false
     switch.back_porch_lights: false
     switch.family_fan_lights: false
+    switch.family_christmas_tree: false
+- id: 2adef16cf351e7add2b9d0af963d
+  name: family_room_lights_on
+  entities:
+    switch.breakfast_lights: true
+    switch.kitchen_lights: true
+    switch.family_fan_lights: true
+    switch.family_christmas_tree: true
 - id: 81cd990396851831e4293d6a6adf
   name: kids_study_off
   entities:
@@ -66,13 +74,11 @@
   entities:
     switch.entry_christmas_lights: false
     switch.garage_christmas_lights: false
-    switch.family_christmas_tree: false
 - id: e271341b2f1dcd9d2661b9b4ba29
   name: christmas_lights_nighttime
   entities:
     switch.entry_christmas_lights: true
     switch.garage_christmas_lights: true
-    switch.family_christmas_tree: true
 - id: 1ae5d24e1818ccc64c9c8109f9b0
   name: garage_outdoor_lights_daytime
   entities:
