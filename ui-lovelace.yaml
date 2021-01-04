@@ -14,8 +14,8 @@ resources:
 views:
   - !include config/lovelace/lights_and_switches.yaml
   - !include config/lovelace/alerts.yaml
-  - !include config/lovelace/people.yaml
-  - !include config/lovelace/av.yaml
+    #- !include config/lovelace/people.yaml
+    #- !include config/lovelace/av.yaml
   - !include config/lovelace/downstairs-security.yaml
   - !include config/lovelace/security.yaml
   #- !include config/lovelace/phone.yaml

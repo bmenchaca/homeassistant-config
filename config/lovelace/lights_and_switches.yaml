@@ -68,6 +68,12 @@ cards:
             name: Kids Desk Lights
             tap_action:
               action: toggle
+          - entity: light.noah_monitor_instance
+            name: Noah Monitor
+            tap_action:
+              action: toggle
+            hold_action:
+              action: more-info
 
       - type: glance
         title: Front Yard
