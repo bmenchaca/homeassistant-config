@@ -92,7 +92,7 @@
     platform: time
   condition: []
   action:
-  - scene: scene.house_bed_time
+  - scene: scene.evening_security_check
 - id: '1579134844492'
   alias: Restart Home Assistant
   description: Restart Home Assistant Every Day

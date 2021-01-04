@@ -131,7 +131,6 @@ family_room:
     - light.family_fan_lights
     - switch.family_fan
     - switch.family_mantle_lights
-    - scene.evening_tv_time
     - binary_sensor.family_window_1
     - binary_sensor.family_window_2
     - binary_sensor.family_room_glass
