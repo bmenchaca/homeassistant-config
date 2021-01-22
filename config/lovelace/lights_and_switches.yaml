@@ -182,8 +182,8 @@ cards:
         show_header_toggle: true
         show_state: false
         entities:
-          - entity: light.master_vanity_dimmer
-            name: Vanity Dimmer
+          - entity: switch.master_vanity_lights
+            name: Vanity Lights
             tap_action:
               action: toggle  
           - entity: switch.master_bathtub_spotlight
