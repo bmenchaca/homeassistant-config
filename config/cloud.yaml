@@ -2,7 +2,7 @@ alexa:
   filter:
     include_entities:
       - light.game_room
-      - light.master_vanity_dimmer
+      - switch.master_vanity_lights
       - switch.master_fan_lights
       - switch.office_fan_lights
     include_domains:
@@ -27,8 +27,8 @@ alexa:
       name: Family Room Lights
     light.game_room:
       name: Game Room Lights
-    light.master_vanity_dimmer:
-      name: Master Bath Lights
+    switch.master_vanity_lights:
+      name: Master Vanity Lights
     switch.master_fan_lights:
       name: Master Fan Lights
     switch.office_fan_lights:
