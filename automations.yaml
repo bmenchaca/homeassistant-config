@@ -109,8 +109,33 @@
   trigger:
     platform: state
     entity_id: switch.office_heater
-    to: 'to'
-    for: "01:00:00"
+    to: to
+    for: 01:00:00
   action:
     service: switch.turn_off
     entity_id: switch.office_heater
+- id: '1610412320301'
+  alias: Lights On with Night Pantry Access
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.pantry_door
+    from: 'off'
+    to: 'on'
+  condition:
+  - condition: time
+    after: '22:30'
+    before: '6:30'
+    weekday:
+    - mon
+    - tue
+    - wed
+    - thu
+    - fri
+    - sat
+    - sun
+  action:
+  - service: scene.turn_on
+    data: {}
+    entity_id: scene.alert_lights
+  mode: single
