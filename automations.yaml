@@ -125,7 +125,7 @@
   condition:
   - condition: time
     after: '22:30'
-    before: '6:30'
+    before: '6:15'
     weekday:
     - mon
     - tue
