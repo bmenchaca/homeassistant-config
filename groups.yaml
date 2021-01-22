@@ -210,8 +210,20 @@ noah_room:
     - sensor.noah_multisensor_humidity
     - binary_sensor.noah_room_window
 
+noah_lights:
+  name: Noah's Lights
+  entities:
+    - light.noah_fan_lights
+    - light.noah_bed_strip
+    - light.noah_lamp
+
 boys_bathroom:
   name: Boy's Bathroom
+  entities:
+    - switch.boys_bathroom_light
+
+boys_bathroom_lights:
+  name: Boy's Bathrooma Lights
   entities:
     - switch.boys_bathroom_light
 
@@ -237,6 +249,14 @@ heidi_room:
     - binary_sensor.heidi_window_1
     - binary_sensor.heidi_window_2
 
+heidi_lights:
+  name: Heidi's Lights
+  entities:
+    - light.heidi_bed_lightstrip
+    - light.heidi_closet
+    - light.heidi_fan_lights
+    - light.heidi_go
+
 hannah_room:
   name: Hannah's Room
   entities:
@@ -247,11 +267,26 @@ hannah_room:
     - binary_sensor.hannah_window_1
     - binary_sensor.hannah_window_2
 
+hannah_lights:
+  name: Hannah's Lights
+  entities:
+    - light.hannah_bed_lightstrip
+    - light.hannah_fan_lights
+    - light.hannah_lamp
+
 gallery:
   name: Gallery
   entities:
     - switch.gallery_lights
     - light.gallery
+
+gallery_and_halls_lights:
+  name: Gallery and Halls Lights
+  entities:
+    - switch.gallery_lights
+    - light.gallery
+    - switch.girls_hall_lights
+    - switch.boys_hall_light
 
 game_room:
   name: Game Room
@@ -262,6 +297,12 @@ game_room:
     - binary_sensor.game_room_window_1
     - binary_sensor.game_room_window_2
     - binary_sensor.game_room_window_3
+
+game_room_lights:
+  name: Game Room Lights
+  entities:
+    - switch.game_room_lights
+    - light.game_room_fan_lights
 
 office:
   name: Office
@@ -277,6 +318,12 @@ office:
     - sensor.office_awair_voc
     - binary_sensor.office_window_1
     - binary_sensor.office_window_2
+
+office_lights:
+  name: Office Lights
+  entities:
+    - switch.office_fan_lights
+    - switch.office_lamp
 
 master:
   name: Master
@@ -294,7 +341,7 @@ master:
 master_bath:
   name: Master Bath
   entities:
-    - light.master_vanity_dimmer
+    - switch.master_vanity_lights
     - switch.master_bathtub_spotlight
     - light.master_tub_color_bulb
 
