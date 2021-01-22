@@ -1,2 +1,4 @@
 bedtime:
   name: Bedtime
+alert_testing:
+  name: Alert Testing
