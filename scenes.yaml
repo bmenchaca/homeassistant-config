@@ -37,13 +37,23 @@
     light.heidi_desk_strip: false
     light.noah_desk_strip: false
     light.noah_monitor_instance: false
+    light.noah_monitor_instance: false
 - id: b07ee0c79e3837404322bf7ed02b
   name: kids_study_on
   entities:
     switch.kids_study_lights: true
-    light.hannah_desk_strip: true
-    light.heidi_desk_strip: true
-    light.noah_desk_strip: true
+    light.hannah_desk_strip:
+      state: true
+      brightness: 110
+      kelvin: 2700
+    light.heidi_desk_strip:
+      state: true
+      brightness: 110
+      kelvin: 2700
+    light.noah_desk_strip:
+      state: true
+      brightness: 110
+      kelvin: 2700
     light.noah_monitor_instance: true
 - id: 27ab6796514d30f2f4119d17c795
   name: entry_dining_off
@@ -56,16 +66,22 @@
   name: entry_dining_on
   entities:
     switch.entry_lights: true
-    light.entry_dining_lamp_1: true
-    light.entry_dining_lamp_2: true
+    light.entry_dining_lamp_1: 
+      state: true
+      brightness: 254
+      kelvin: 3000
+    light.entry_dining_lamp_2:
+      state: true
+      brightness: 254
+      kelvin: 3000
 - id: 3bca2a4ab13e04bf198150f4f25e
   name: master_hall_not_night
   entities:
     switch.master_hall_lights: true
     light.master_hall:
       state: true
-      color_temp: 429
       brightness: 254
+      kelvin: 3000
 - id: ff2205d5d8fabbddb454d1444832
   name: game_room_off
   entities:
@@ -135,7 +151,7 @@
     light.guest_bath:
       state: true
       color_temp: 429
-      brightness: 255
+      brightness: 254
 - id: 154ee5bf7e04803c95e6112464a8
   name: family_night
   entities:
@@ -148,7 +164,7 @@
   name: backyard_lights_evening_on
   entities:
     light.back_yard:
-      brightness: 255
+      brightness: 254
       color_temp: 429
       effect_list:
       - colorloop
@@ -253,22 +269,65 @@
   entities:
     light.guest_bath_bulb_1:
       state: true
-      brightness: 100
+      brightness: 254
       kelvin: 3000
     light.guest_bath_bulb_2:
       state: true
-      brightness: 100
+      brightness: 254
       kelvin: 3000
     light.guest_bath_bulb_color:
       state: true
-      brightness: 100
+      brightness: 254
       kelvin: 3000
     light.gallery_flood_bulb:
       state: true
-      brightness: 100
+      brightness: 254
     light.family_mantle_bulb:
       state: true
-      brightness: 100
+      brightness: 254
+
+- id: ec45377ac4ca4b3583f2158d7dd18550
+  name: alert_lights
+  entities:
+    switch.guest_bath_lights: on
+    light.guest_bath_bulb_1:
+      state: true
+      brightness: 254
+      kelvin: 6000
+    light.guest_bath_bulb_2:
+      state: true
+      brightness: 254
+      kelvin: 6000
+    light.guest_bath_bulb_color:
+      state: true
+      rgb_color: [255,0,0]
+    light.guest:
+      state: true
+      brightness: 254
+      kelvin: 6000
+    switch.stairs_lights: on
+    switch.master_hall_lights: on
+    light.master_hall:
+      state: true
+      brightness: 254
+      kelvin: 6000
+    switch.kids_study_lights: on
+    light.hannah_desk_strip:
+      state: true
+      rgb_color: [255,0,0]
+    light.noah_desk_strip:
+      state: true
+      rgb_color: [255,0,0]
+    light.heidi_desk_strip:
+      state: true
+      rgb_color: [255,0,0]
+    switch.family_fan_lights: on
+    switch.entry_lights: on
+    light.entry_dining:
+      state: true
+      brightness: 254
+      kelvin: 6000
+
 - id: 5decb6336c996bb34405cfe5f902
   name: everyone_away
   entities:
