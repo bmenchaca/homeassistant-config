@@ -37,7 +37,6 @@
     light.heidi_desk_strip: false
     light.noah_desk_strip: false
     light.noah_monitor_instance: false
-    light.noah_monitor_instance: false
 - id: b07ee0c79e3837404322bf7ed02b
   name: kids_study_on
   entities:
