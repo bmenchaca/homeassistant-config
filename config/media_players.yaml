@@ -1,4 +1,0 @@
-#- platform: alexa
-#  email: !secret amazon_email
-#  password: !secret amazon_password
-#  url: amazon.com

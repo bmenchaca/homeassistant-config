@@ -62,7 +62,3 @@
   extra_arguments: -pred 1 -q:v 2
   name: Back West Garden Camera
 
-  #- platform: generic
-  #  name: Back West Garden Camera Stream
-  #still_image_url: !secret alibi_still_camera_10
-  #stream_source: !secret alibi_rtsp_camera_10

@@ -1,13 +1,3 @@
-#packages:
-#  name: Packages
-#  entities:
-#    - sensor.fedex
-#    - sensor.ups
-#    - sensor.usps_mail
-#    - sensor.usps_packages
-#
-#
-
 ben_presence: 
   name: Ben Presence
   entities:

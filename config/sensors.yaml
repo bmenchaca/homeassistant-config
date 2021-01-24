@@ -32,18 +32,6 @@
 #    - type: disk_free
 #      arg: /
 
-#- platform: usps
-#  username: !secret usps_username
-#  password: !secret usps_password
-
-#- platform: ups
-#  username: !secret ups_username
-#  password: !secret ups_password
-
-#- platform: fedex
-#  username: !secret fedex_username
-#  password: !secret fedex_password
-
 - platform: template
   sensors:
     office_temperature:

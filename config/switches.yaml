@@ -1,33 +1,3 @@
 # This does not work due to a permissions problem accessing a .cache dir
-#- platform: rachio
-#  access_token: !secret rachio_access_token
-#  manual_run_mins: 10
   
-#- platform: tplink
-#  host: 192.168.7.126
-#  enable_leds: false
-
-#- platform: broadlink
-#  host: !secret broadlink_family_room_ip
-#  mac: !secret broadlink_family_room_mac
-#  type: rm_mini
-#  friendly_name: "Family Room Broadlink RM Mini"
-#  switches:
-#    family_room_tv_power:
-#      friendly_name: "Family Room TV Power"
-#      command_on: 'JgBGAJGSEzYTNBQ0FA8UDxQPFA8UERM0ETcROBISEg8UDxQPFA8UNBQPERMSNRE4ERISEhI1Ew8UNBQ0FA8UDxQ0ETcRExEADQUAAA=='
-#      command_off: 'JgBGAJSREDgROBI1ExARERIPEw8QExI2EjUTNRASERISDxMPEBMSEBMPERESNRM1EBMQEhM1EzUQOBE4EhERDxA4ETgSEREADQUAAA=='
-    #tv_family_room_hdmi_1:
-    #  friendly_name: "Family Room TV HDMI 1"
-    #  command_on: 'JgBGAJKVETYTNRM1EBMREg8SEhERDxA4ETgRNhMPEw8QExIREQ8TNRATEhERNRMPEDgROBI1ExAQOBI1Ew8TNRATEhERDxMADQUAAA=='
-    # tv_family_room_hdmi_2:
-    #  friendly_name: "Family Room TV HDMI 2"
-    #  command_on: 'JgBGAJGUETgSNRE4ERESDxMPEBMQEhI1EzUQOBESEBIREhEPEw8QExI3ETYSNRM1EDgREhE2EzUQEhATEhERDxMPEDkREhEADQUAAA=='
-#    tv_family_room_volume_up:
-#    tv_family_room_volume_up:
-#      friendly_name: "Family Room TV Volume Up"
-#      command_on: 'JgAsAZOVETgSOBE5ERMRFBITERQRFBE4EjgROBITERQRFBETEhMRORE4EjgRFBEUERQRExITERQRFBEUETgRORE4EjgROBIABgOTlRI4ETgROREUERMSExEUERQROBI4ETgSExITERQRFBEUETgRORE4EhMRFBEUERQRExITERQRFBE4EjgSOBE4ETkRAAYDk5USOBE5ETgRFBEUERQRExITETkROBM3ERQRFBETEhMSExE5ETgSOBEUERQRExITERQRFBEUERMSOBE5ETgSOBE5EQAGA5OVAAE4FBETEhMRHBIJHRISChsTEgsaCRwJQQgTExsvGi8bLxsLEBQZCxITGQwRFBkMERQZMBgTEg0ZEhIMGRMSDBEaEg0ZEhI3EjcTNhI4EjcSExI3EgANBQAAAAAAAAAAAAAAAA'
-# roku_family_room_home:
-#   friendly_name: "Family Room Roku Home Button"
-#   command_on: 'JgDYAAABJ5QSExI4EhMSOBITEjgSNxM3EhMSOBITEhMSExMTEjcSOBI4EjgSExITEhMSExITEhQSExITEjcTNxI4EjgSOBI4EgAFDQABJ5QSExI4EhMSOBITEjgSOBI3ExMSNxIUEhMSExITEjgSNxM3EjgSExITEhMSFBITEjcSFBITEjcTNxI4EjgSOBITEgAFDQABJ5QSExI4EhMSOBITEjgSOBI4EhMSOBITEhMSExITEjgSOBI4EjcTExITEhMSExITEjgSExITEjgSOBI3EjgSOBITEgANBQ'
 

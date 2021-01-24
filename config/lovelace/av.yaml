@@ -32,5 +32,3 @@ cards:
         entity: media_player.guest
       - type: custom:mini-media-player
         entity: media_player.office_roku_stick
-      - type: custom:mini-media-player
-        entity: media_player.craft_room_roku_stick
