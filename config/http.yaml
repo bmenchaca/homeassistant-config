@@ -4,7 +4,7 @@
 #server_host: 127.0.0.1
 #base_url: !secret http_url
 #api_password: !secret http_password
-#ip_ban_enabled: True
+ip_ban_enabled: False
 #login_attempts_threshold: 3
 #server_port: !secret http_port
 #trusted_networks:

@@ -31,9 +31,9 @@ switch.back_porch_lights:
 switch.garage_carriage_lights:
   icon: mdi:wall-sconce
 switch.entry_christmas_lights:
-  icon: mdi:led-strip-variant
+  icon: mdi:string-lights
 light.heidi_bed_lightstrip:
-  icon: mdi:lightbulb
+  icon: mdi:led-strip-variant
 light.heidi_fan_lights:
   icon: mdi:ceiling-light
 light.noah_lamp:

@@ -1,79 +1,106 @@
 prepare_for_bedtime:
   alias: Prepare for Bedtime
   sequence:
-    - service: homeassistant.turn_on
-      data:
-        entity_id: group.bedtime_switches
-    - delay: 00:00:05
-    - service: scene.turn_on
-      data:
-        entity_id: scene.bedtime_dimmed_lights
-
+  - service: homeassistant.turn_on
+    data:
+      entity_id: group.bedtime_switches
+  - delay: 00:00:05
+  - service: scene.turn_on
+    data:
+      entity_id: scene.bedtime_dimmed_lights
 guest_bath_night_time:
   alias: Guest Bath Night Time
   sequence:
-    - service: homeassistant.turn_on
-      data:
-        entity_id: switch.guest_bath_lights
-    - delay: 00:00:02
-    - service: scene.turn_on
-      data:
-        entity_id: scene.guest_bath_night
-
+  - service: homeassistant.turn_on
+    data:
+      entity_id: switch.guest_bath_lights
+  - delay: 00:00:02
+  - service: scene.turn_on
+    data:
+      entity_id: scene.guest_bath_night
 guest_bath_day_time:
   alias: Guest Bath Day Time
   sequence:
-    - service: homeassistant.turn_on
-      data:
-        entity_id: switch.guest_bath_lights
-    - delay: 00:00:02
-    - service: scene.turn_on
-      data:
-        entity_id: scene.guest_bath_day
-
+  - service: homeassistant.turn_on
+    data:
+      entity_id: switch.guest_bath_lights
+  - delay: 00:00:02
+  - service: scene.turn_on
+    data:
+      entity_id: scene.guest_bath_day
 prepare_for_daytime:
   alias: Prepare for Daytime
   sequence:
-    - service: homeassistant.turn_on
-      data:
-        entity_id: group.bedtime_switches
-    - delay: 00:00:05
-    - service: scene.turn_on
-      data:
-        entity_id: scene.daytime_regular_lights    
-    - delay: 00:00:05
-    - service: homeassistant.turn_off
-      data:
-        entity_id: light.guest_bath
-
-family_room_tv_power_off:
-  alias: Family Room TV Power Off
+  - service: homeassistant.turn_on
+    data:
+      entity_id: group.bedtime_switches
+  - delay: 00:00:05
+  - service: scene.turn_on
+    data:
+      entity_id: scene.daytime_regular_lights
+  - delay: 00:00:05
+  - service: homeassistant.turn_off
+    data:
+      entity_id: light.guest_bath
+game_room_screen_down:
+  alias: Game Room Screen Down
   sequence:
-    - service: switch.broadlink_send_packet_192_168_76_2
-      data:
-        packet:
-          - "JgBGAJSREDgROBI1ExARERIPEw8QExI2EjUTNRASERISDxMPEBMSEBMPERESNRM1EBMQEhM1EzUQOBE4EhERDxA4ETgSEREADQUAAA=="
-
-family_room_tv_power_on:
-  alias: Family Room TV Power On
+  - service: remote.send_command
+    data:
+      entity_id: remote.game_room_ir
+      device: screen
+      command: down
+  - delay: 00:00:15
+  - service: remote.send_command
+    data:
+      entity_id: remote.game_room_ir
+      device: screen
+      command: stop
+  mode: single
+  icon: mdi:arrow-down
+game_room_screen_up:
+  alias: Game Room Screen Up
   sequence:
-    - service: switch.broadlink_send_packet_192_168_76_2
-      data:
-        packet:
-          - "JgBGAJGSEzYTNBQ0FA8UDxQPFA8UERM0ETcROBISEg8UDxQPFA8UNBQPERMSNRE4ERISEhI1Ew8UNBQ0FA8UDxQ0ETcRExEADQUAAA==" 
-
-family_room_tv_hdmi_1:
-  alias: Family Room TV HDMI 1
+  - service: remote.send_command
+    data:
+      entity_id: remote.game_room_ir
+      device: screen
+      command: up
+  mode: single
+  icon: mdi:arrow-up
+game_room_media_startup:
+  alias: Game Room Media Startup
   sequence:
-    - service: switch.broadlink_send_packet_192_168_76_2
-      data:
-        packet:
-          - "JgBGAJKVETYTNRM1EBMREg8SEhERDxA4ETgRNhMPEw8QExIREQ8TNRATEhERNRMPEDgROBI1ExAQOBI1Ew8TNRATEhERDxMADQUAAA=="
-
-family_room_tv_hdmi_2:
-  alias: Family Room TV HDMI 2
+  - service: media_player.turn_on
+    data:
+      entity_id: media_player.game_room_receiver
+  - service: media_player.turn_on
+    data:
+      entity_id: media_player.game_room_projector
+  - service: media_player.turn_on
+    data:
+      entity_id: media_player.game_room_roku
+  - service: script.turn_on
+    data: {}
+    entity_id: script.game_room_screen_down
+  - scene: scene.game_room_off
+  mode: single
+  icon: mdi:play-circle-outline
+game_room_media_shutdown:
+  alias: Game Room Media Shutdown
   sequence:
-    - service: switch.broadlink_send_packet_192_168_76_2
-      data:
-        packet:
-          - "JgBGAJGUETgSNRE4ERESDxMPEBMQEhI1EzUQOBESEBIREhEPEw8QExI3ETYSNRM1EDgREhE2EzUQEhATEhERDxMPEDkREhEADQUAAA=="
+  - service: media_player.turn_off
+    data:
+      entity_id: media_player.game_room_receiver
+  - service: media_player.turn_off
+    data:
+      entity_id: media_player.game_room_projector
+  - service: media_player.turn_off
+    data:
+      entity_id: media_player.game_room_roku
+  - service: script.turn_off
+    data: {}
+    entity_id: script.game_room_screen_up
+  - scene: scene.game_room_on
+  mode: single
+  icon: mdi:stop-circle-outline
