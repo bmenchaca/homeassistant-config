@@ -44,15 +44,15 @@
     light.hannah_desk_strip:
       state: true
       brightness: 110
-      kelvin: 2700
+      color_temp: 370
     light.heidi_desk_strip:
       state: true
       brightness: 110
-      kelvin: 2700
+      color_temp: 370
     light.noah_desk_strip:
       state: true
       brightness: 110
-      kelvin: 2700
+      color_temp: 370
     light.noah_monitor_instance: true
 - id: 27ab6796514d30f2f4119d17c795
   name: entry_dining_off
@@ -68,11 +68,11 @@
     light.entry_dining_lamp_1: 
       state: true
       brightness: 254
-      kelvin: 3000
+      color_temp: 333
     light.entry_dining_lamp_2:
       state: true
       brightness: 254
-      kelvin: 3000
+      color_temp: 333
 - id: 3bca2a4ab13e04bf198150f4f25e
   name: master_hall_not_night
   entities:
@@ -80,7 +80,7 @@
     light.master_hall:
       state: true
       brightness: 254
-      kelvin: 3000
+      color_temp: 333
 - id: ff2205d5d8fabbddb454d1444832
   name: game_room_off
   entities:
@@ -254,30 +254,30 @@
     light.guest_bath_bulb_color:
       state: true
       brightness: 5
-      kelvin: 2000
+      color_temp: 500
     light.gallery_flood_bulb:
       state: true
       brightness: 5
-      kelvin: 2000
+      color_temp: 500
     light.family_mantle_bulb:
       state: true
       brightness: 5
-      kelvin: 2000
+      color_temp: 500
 - id: bb99d473ecfe30e3ced7d57b2a5f
   name: daytime_regular_lights
   entities:
     light.guest_bath_bulb_1:
       state: true
       brightness: 254
-      kelvin: 3000
+      color_temp: 333
     light.guest_bath_bulb_2:
       state: true
       brightness: 254
-      kelvin: 3000
+      color_temp: 333
     light.guest_bath_bulb_color:
       state: true
       brightness: 254
-      kelvin: 3000
+      color_temp: 333
     light.gallery_flood_bulb:
       state: true
       brightness: 254
@@ -292,24 +292,24 @@
     light.guest_bath_bulb_1:
       state: true
       brightness: 254
-      kelvin: 6000
+      color_temp: 166
     light.guest_bath_bulb_2:
       state: true
       brightness: 254
-      kelvin: 6000
+      color_temp: 166
     light.guest_bath_bulb_color:
       state: true
       rgb_color: [255,0,0]
     light.guest:
       state: true
       brightness: 254
-      kelvin: 6000
+      color_temp: 166
     switch.stairs_lights: on
     switch.master_hall_lights: on
     light.master_hall:
       state: true
       brightness: 254
-      kelvin: 6000
+      color_temp: 166
     switch.kids_study_lights: on
     light.hannah_desk_strip:
       state: true
@@ -325,7 +325,7 @@
     light.entry_dining:
       state: true
       brightness: 254
-      kelvin: 6000
+      color_temp: 166
 
 - id: 5decb6336c996bb34405cfe5f902
   name: everyone_away
