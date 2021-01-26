@@ -1,0 +1,382 @@
+{
+    "version": 1,
+    "key": "lovelace.lovelace_grid",
+    "data": {
+        "config": {
+            "views": [
+                {
+                    "title": "Home",
+                    "path": "home",
+                    "icon": "mdi:home-outline",
+                    "theme": "slate",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Downstairs"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "navigate",
+                                        "navigation_path": "heidi"
+                                    },
+                                    "entity": "group.heidi_lights",
+                                    "name": "Heidi",
+                                    "icon": "mdi:shoe-sneaker",
+                                    "hold_action": {
+                                        "action": "toggle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "markdown",
+                            "content": "## Upstairs"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "navigate",
+                                        "navigation_path": "heidi"
+                                    },
+                                    "entity": "group.heidi_lights",
+                                    "hold_action": {
+                                        "action": "toggle"
+                                    },
+                                    "icon": "mdi:shoe-sneaker",
+                                    "name": "Heidi"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "navigate",
+                                        "navigation_path": "noah"
+                                    },
+                                    "entity": "group.noah_lights",
+                                    "name": "Noah",
+                                    "icon": "mdi:toy-brick-outline",
+                                    "hold_action": {
+                                        "action": "toggle"
+                                    }
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "navigate",
+                                        "navigation_path": "hannah"
+                                    },
+                                    "entity": "group.hannah_lights",
+                                    "name": "Hannah",
+                                    "icon": "mdi:bow-tie",
+                                    "hold_action": {
+                                        "action": "toggle"
+                                    }
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "navigate",
+                                        "navigation_path": "game"
+                                    },
+                                    "entity": "group.game_room_lights",
+                                    "name": "Game",
+                                    "icon": "mdi:controller-classic-outline",
+                                    "hold_action": {
+                                        "action": "toggle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Heidi",
+                    "path": "heidi",
+                    "icon": "mdi:shoe-sneaker",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.heidi_bed_lightstrip",
+                                    "name": "Bed Lightstrip"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.heidi_fan_lights",
+                                    "name": "Fan Lights"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.heidi_closet",
+                                    "name": "Closet"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.heidi_go",
+                                    "icon": "mdi:wall-sconce-round-variant",
+                                    "name": "Go"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "markdown",
+                            "content": "Environmental"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.heidi_fan_and_lights",
+                                    "name": "Fan and Lights"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.heidi_heater",
+                                    "name": "Heater"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Noah",
+                    "path": "noah",
+                    "icon": "mdi:toy-brick-outline",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.noah_fan_lights",
+                                    "name": "Fan Lights"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.noah_bed_lightstrip",
+                                    "name": "Bed Lights",
+                                    "icon": "mdi:led-strip-variant"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.noah_lamp",
+                                    "name": "Lamp"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Hannah's Room",
+                    "path": "hannah",
+                    "icon": "mdi:bow-tie",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.hannah_fan_lights",
+                                    "name": "Fan Lights"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.hannah_bed_lightstrip",
+                                    "icon": "mdi:led-strip-variant",
+                                    "name": "Bed Lights"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.hannah_lamp",
+                                    "name": "Lamp",
+                                    "icon": "mdi:lamp"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Game Room",
+                    "path": "game",
+                    "icon": "mdi:controller-classic-outline",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Fan and Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.game_room_fan",
+                                    "name": "Fan"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.game_room_lights",
+                                    "name": "Fan Lights Switch"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.game_room_fan_lights",
+                                    "name": "Fan Lights"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "markdown",
+                            "content": "## Media"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "type": "custom:mini-media-player",
+                                    "entity": "media_player.game_room_roku",
+                                    "group": true,
+                                    "hide": {
+                                        "volume": true,
+                                        "source": true,
+                                        "power_state": false
+                                    }
+                                },
+                                {
+                                    "type": "custom:mini-media-player",
+                                    "entity": "media_player.game_room_receiver",
+                                    "group": true,
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    }
+                                },
+                                {
+                                    "type": "custom:mini-media-player",
+                                    "entity": "media_player.game_room_projector",
+                                    "group": true,
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "hide": {
+                                        "controls": true,
+                                        "volume": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "grid",
+                            "columns": 2,
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "script.game_room_media_startup",
+                                    "name": "Media Startup",
+                                    "icon": "mdi:play"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "script.game_room_media_shutdown",
+                                    "name": "Media Shutdown",
+                                    "icon": "mdi:stop"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "script.game_room_screen_down",
+                                    "name": "Screen Down"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "script.game_room_screen_up",
+                                    "name": "Screen Up"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
