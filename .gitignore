@@ -10,6 +10,7 @@
 !submodules/**
 !custom_components/**
 !www/**
+!.storage/lovelace*
 *.pyc
 **__pycache__/
 deps/**
