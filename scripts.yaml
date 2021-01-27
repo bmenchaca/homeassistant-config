@@ -50,7 +50,7 @@ game_room_screen_down:
       entity_id: remote.game_room_ir
       device: screen
       command: down
-  - delay: 00:00:15
+  - delay: 00:00:16
   - service: remote.send_command
     data:
       entity_id: remote.game_room_ir
