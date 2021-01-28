@@ -91,6 +91,32 @@
                                     "hold_action": {
                                         "action": "toggle"
                                     }
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "navigate",
+                                        "navigation_path": "upstairs_halls"
+                                    },
+                                    "entity": "group.gallery_and_halls_lights",
+                                    "name": "Halls",
+                                    "icon": "mdi:fullscreen-exit",
+                                    "hold_action": {
+                                        "action": "toggle"
+                                    }
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "navigate",
+                                        "navigation_path": "boys-bath"
+                                    },
+                                    "entity": "group.boys_bathroom_lights",
+                                    "name": "Boys Bath",
+                                    "icon": "mdi:toilet",
+                                    "hold_action": {
+                                        "action": "toggle"
+                                    }
                                 }
                             ]
                         }
@@ -108,6 +134,7 @@
                         },
                         {
                             "type": "grid",
+                            "columns": 4,
                             "cards": [
                                 {
                                     "type": "button",
@@ -150,6 +177,7 @@
                         },
                         {
                             "type": "grid",
+                            "columns": 4,
                             "cards": [
                                 {
                                     "type": "button",
@@ -179,10 +207,15 @@
                     "cards": [
                         {
                             "type": "markdown",
+                            "content": "# Noah's Room"
+                        },
+                        {
+                            "type": "markdown",
                             "content": "## Lights"
                         },
                         {
                             "type": "grid",
+                            "columns": 4,
                             "cards": [
                                 {
                                     "type": "button",
@@ -221,10 +254,15 @@
                     "cards": [
                         {
                             "type": "markdown",
+                            "content": "# Hannah's Room"
+                        },
+                        {
+                            "type": "markdown",
                             "content": "## Lights"
                         },
                         {
                             "type": "grid",
+                            "columns": 4,
                             "cards": [
                                 {
                                     "type": "button",
@@ -300,39 +338,92 @@
                             "content": "## Media"
                         },
                         {
-                            "type": "entities",
-                            "entities": [
+                            "type": "vertical-stack",
+                            "cards": [
                                 {
-                                    "type": "custom:mini-media-player",
-                                    "entity": "media_player.game_room_roku",
-                                    "group": true,
-                                    "hide": {
-                                        "volume": true,
-                                        "source": true,
-                                        "power_state": false
-                                    }
+                                    "type": "media-control",
+                                    "entity": "media_player.game_room_roku"
                                 },
                                 {
                                     "type": "custom:mini-media-player",
                                     "entity": "media_player.game_room_receiver",
-                                    "group": true,
-                                    "tap_action": {
-                                        "action": "toggle"
+                                    "hide": {
+                                        "volume": false
                                     }
                                 },
                                 {
                                     "type": "custom:mini-media-player",
                                     "entity": "media_player.game_room_projector",
-                                    "group": true,
-                                    "tap_action": {
-                                        "action": "toggle"
-                                    },
                                     "hide": {
-                                        "controls": true,
                                         "volume": true
+                                    },
+                                    "tap_action": {
+                                        "action": "call-service",
+                                        "service": "media_player.toggle"
                                     }
+                                },
+                                {
+                                    "type": "grid",
+                                    "columns": 4,
+                                    "cards": [
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "script.game_room_screen_down",
+                                            "name": "Screen Down"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "script.game_room_screen_up",
+                                            "name": "Screen Up"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "script.game_room_media_startup",
+                                            "name": "Start All",
+                                            "icon": "mdi:play"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "script.game_room_media_shutdown",
+                                            "name": "Stop All",
+                                            "icon": "mdi:stop"
+                                        }
+                                    ]
                                 }
                             ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.game_room_motion"
+                                }
+                            ],
+                            "title": "Security"
+                        }
+                    ]
+                },
+                {
+                    "title": "Upstairs Halls",
+                    "path": "upstairs_halls",
+                    "icon": "mdi:fullscreen-exit",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
                         },
                         {
                             "type": "grid",
@@ -343,36 +434,90 @@
                                     "tap_action": {
                                         "action": "toggle"
                                     },
-                                    "entity": "script.game_room_media_startup",
-                                    "name": "Media Startup",
-                                    "icon": "mdi:play"
+                                    "entity": "switch.gallery_lights",
+                                    "name": "Gallery Lights"
                                 },
                                 {
                                     "type": "button",
                                     "tap_action": {
                                         "action": "toggle"
                                     },
-                                    "entity": "script.game_room_media_shutdown",
-                                    "name": "Media Shutdown",
-                                    "icon": "mdi:stop"
+                                    "entity": "light.gallery",
+                                    "name": "Gallery Bulb"
                                 },
                                 {
                                     "type": "button",
                                     "tap_action": {
                                         "action": "toggle"
                                     },
-                                    "entity": "script.game_room_screen_down",
-                                    "name": "Screen Down"
+                                    "entity": "switch.girls_hall_lights",
+                                    "name": "Girls Hall Lights",
+                                    "icon": "mdi:candle"
                                 },
                                 {
                                     "type": "button",
                                     "tap_action": {
                                         "action": "toggle"
                                     },
-                                    "entity": "script.game_room_screen_up",
-                                    "name": "Screen Up"
+                                    "entity": "switch.boys_hall_light",
+                                    "name": "Boys Hall Lights"
                                 }
                             ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.gallery_motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.boys_hall_motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.girls_hall_motion"
+                                }
+                            ],
+                            "title": "Security"
+                        }
+                    ]
+                },
+                {
+                    "title": "Boys Bathroom",
+                    "path": "boys-bath",
+                    "icon": "mdi:toilet",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "columns": 4,
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.boys_bathroom_light",
+                                    "name": "Vanity Lights",
+                                    "icon": "mdi:vanity-light"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "markdown",
+                            "content": "## Security"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.boys_bathroom_motion"
+                                }
+                            ],
+                            "state_color": true
                         }
                     ]
                 }
