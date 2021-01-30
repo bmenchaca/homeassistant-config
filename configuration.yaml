@@ -49,7 +49,7 @@ light: !include config/lights.yaml
 script: !include scripts.yaml
 ffmpeg: !include config/ffmpeg.yaml
 alarm_control_panel: !include config/alarm_control_panel.yaml
-#camera: !include config/camera.yaml
+camera: !include config/camera.yaml
 ring: !include config/ring.yaml
 rachio: !include config/rachio.yaml
 life360: !include config/life360.yaml
