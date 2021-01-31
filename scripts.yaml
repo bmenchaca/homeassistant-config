@@ -84,21 +84,24 @@ game_room_media_startup:
     data: {}
     entity_id: script.game_room_screen_down
   - scene: scene.game_room_off
+  - service: switch.turn_off
+    data: {}
+    entity_id: switch.entry_lights
+  - service: switch.turn_off
+    data: {}
+    entity_id: switch.gallery_lights
   mode: single
   icon: mdi:play-circle-outline
 game_room_media_shutdown:
   alias: Game Room Media Shutdown
   sequence:
   - service: media_player.turn_off
-    data:
-      entity_id: media_player.game_room_receiver
+    entity_id: media_player.game_room_receiver
   - service: media_player.turn_off
-    data:
-      entity_id: media_player.game_room_projector
+    entity_id: media_player.game_room_projector
   - service: media_player.turn_off
-    data:
-      entity_id: media_player.game_room_roku
-  - service: script.turn_off
+    entity_id: media_player.game_room_roku
+  - service: script.turn_on
     data: {}
     entity_id: script.game_room_screen_up
   - scene: scene.game_room_on
