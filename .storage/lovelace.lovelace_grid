@@ -520,6 +520,79 @@
                             "state_color": true
                         }
                     ]
+                },
+                {
+                    "title": "Office",
+                    "path": "office",
+                    "icon": "mdi:server",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.office_fan_lights",
+                                    "name": "Fan Lights"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.office_lamp",
+                                    "name": "Lamp"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.office_go",
+                                    "name": "Go"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "markdown",
+                            "content": "## Environmental"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.office_fan",
+                                    "name": "Fan"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.office_heater",
+                                    "name": "Heater"
+                                },
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.office_temperature",
+                                    "graph": "line",
+                                    "name": "Temperature",
+                                    "icon": "mdi:thermometer"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }
