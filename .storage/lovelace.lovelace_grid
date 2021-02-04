@@ -117,6 +117,19 @@
                                     "hold_action": {
                                         "action": "toggle"
                                     }
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "navigate",
+                                        "navigation_path": "office"
+                                    },
+                                    "entity": "group.office_lights",
+                                    "icon": "mdi:server",
+                                    "name": "Office",
+                                    "hold_action": {
+                                        "action": "toggle"
+                                    }
                                 }
                             ]
                         }
@@ -566,6 +579,7 @@
                         },
                         {
                             "type": "grid",
+                            "columns": 2,
                             "cards": [
                                 {
                                     "type": "button",
@@ -587,8 +601,30 @@
                                     "type": "sensor",
                                     "entity": "sensor.office_temperature",
                                     "graph": "line",
-                                    "name": "Temperature",
-                                    "icon": "mdi:thermometer"
+                                    "name": "Temp",
+                                    "icon": "mdi:thermometer",
+                                    "unit": "F",
+                                    "detail": 1
+                                },
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.office_volatile_organic_compounds",
+                                    "graph": "line",
+                                    "name": "VOC"
+                                },
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.office_co2",
+                                    "graph": "line",
+                                    "name": "CO2"
+                                },
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.office_humidity",
+                                    "graph": "line",
+                                    "unit": "%",
+                                    "icon": "mdi:water-percent",
+                                    "name": "Humidity"
                                 }
                             ]
                         }
