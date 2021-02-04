@@ -47,10 +47,10 @@
   extra_arguments: -pred 1 -q:v 2
   name: Back Playscape Camera
 
-- platform: ffmpeg
-  input: !secret alibi_rtsp_camera_8
-  extra_arguments: -pred 1 -q:v 2
-  name: Back Deck Camera
+#- platform: ffmpeg
+#  input: !secret alibi_rtsp_camera_8
+#  extra_arguments: -pred 1 -q:v 2
+#  name: Back Deck Camera
 
 - platform: ffmpeg
   input: !secret alibi_rtsp_camera_9
