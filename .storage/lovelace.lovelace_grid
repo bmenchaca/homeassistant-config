@@ -22,11 +22,50 @@
                                     "type": "button",
                                     "tap_action": {
                                         "action": "navigate",
-                                        "navigation_path": "heidi"
+                                        "navigation_path": "kids-study"
                                     },
-                                    "entity": "group.heidi_lights",
-                                    "name": "Heidi",
-                                    "icon": "mdi:shoe-sneaker",
+                                    "entity": "group.kids_study_lights",
+                                    "name": "Kids Study",
+                                    "icon": "mdi:book-outline",
+                                    "hold_action": {
+                                        "action": "toggle"
+                                    }
+                                },
+                                {
+                                    "type": "button",
+                                    "entity": "group.entry_lights",
+                                    "icon": "mdi:ceiling-light",
+                                    "name": "Entry Dining",
+                                    "tap_action": {
+                                        "action": "navigate",
+                                        "navigation_path": "entry-dining"
+                                    },
+                                    "hold_action": {
+                                        "action": "toggle"
+                                    }
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "navigate",
+                                        "navigation_path": "family"
+                                    },
+                                    "entity": "group.family_room_lights",
+                                    "icon": "mdi:television",
+                                    "name": "Family",
+                                    "hold_action": {
+                                        "action": "toggle"
+                                    }
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "navigate",
+                                        "navigation_path": "kitchen"
+                                    },
+                                    "entity": "group.kitchen_lights",
+                                    "icon": "mdi:stove",
+                                    "name": "Kitchen",
                                     "hold_action": {
                                         "action": "toggle"
                                     }
@@ -552,7 +591,7 @@
                                     "tap_action": {
                                         "action": "toggle"
                                     },
-                                    "entity": "switch.office_fan_lights",
+                                    "entity": "light.office_fan_lights",
                                     "name": "Fan Lights"
                                 },
                                 {
@@ -625,6 +664,281 @@
                                     "unit": "%",
                                     "icon": "mdi:water-percent",
                                     "name": "Humidity"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Kids Study",
+                    "path": "kids-study",
+                    "icon": "mdi:book-outline",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.kids_study_lights",
+                                    "icon": "mdi:dome-light",
+                                    "name": "Ceiling Lights"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.heidi_desk_strip",
+                                    "icon": "mdi:led-strip-variant",
+                                    "name": "Heidi Desk"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.noah_desk_strip",
+                                    "icon": "mdi:led-strip-variant",
+                                    "name": "Noah Desk"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.hannah_desk_strip",
+                                    "icon": "mdi:led-strip-variant",
+                                    "name": "Hannah Desk"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.noah_monitor_instance"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.dining_motion",
+                                    "name": "Motion",
+                                    "icon": "mdi:motion-sensor"
+                                },
+                                {
+                                    "entity": "binary_sensor.dining_room_window_1",
+                                    "name": "Window 1"
+                                },
+                                {
+                                    "entity": "binary_sensor.dining_room_window_2",
+                                    "name": "Window 2"
+                                },
+                                {
+                                    "entity": "binary_sensor.dining_room_window_3",
+                                    "name": "Window 3"
+                                }
+                            ],
+                            "title": "Security"
+                        }
+                    ]
+                },
+                {
+                    "title": "Entry Dining",
+                    "path": "entry-dining",
+                    "icon": "mdi:ceiling-light",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.entry_lights",
+                                    "name": "Ceiling Lights"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.entry_dining_lamp_1",
+                                    "name": "Dining Lamp 1"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.entry_dining_lamp_2",
+                                    "name": "Dining Lamp 2"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.entry_lamp",
+                                    "icon": "mdi:floor-lamp-dual",
+                                    "name": "Floor Lamp"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.entry_motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.front_door"
+                                },
+                                {
+                                    "entity": "binary_sensor.entry_window_1"
+                                },
+                                {
+                                    "entity": "binary_sensor.entry_window_2"
+                                },
+                                {
+                                    "entity": "binary_sensor.entry_glass"
+                                }
+                            ],
+                            "title": "Security"
+                        }
+                    ]
+                },
+                {
+                    "title": "Family",
+                    "path": "family",
+                    "icon": "mdi:televison",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights and Switches"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.family_fan",
+                                    "name": "Fan"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.family_fan_lights",
+                                    "name": "Fan Lights"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.family_mantle_lights",
+                                    "icon": "mdi:track-light",
+                                    "name": "Mantle Switch",
+                                    "hold_action": {
+                                        "action": "more-info"
+                                    }
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.family_mantle_bulb",
+                                    "name": "Mantle Dimmer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.family_mantle_motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.family_mantle_and_breakfast_motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.breakfast_motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.family_window_1"
+                                },
+                                {
+                                    "entity": "binary_sensor.family_window_2"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Kitchen",
+                    "path": "kitchen",
+                    "icon": "mdi:stove",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.kitchen_lights",
+                                    "icon": "mdi:wall-sconce-round",
+                                    "name": "Ceiling Lights"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.kitchen_pantry_light",
+                                    "name": "Pantry Light",
+                                    "icon": "mdi:dome-light"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.pantry_door"
+                                },
+                                {
+                                    "entity": "binary_sensor.kitchen_motion",
+                                    "icon": "mdi:motion-sensor",
+                                    "name": "Kitchen Motion"
                                 }
                             ]
                         }

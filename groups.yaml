@@ -93,6 +93,13 @@ entry_room:
     - binary_sensor.entry_motion
     - binary_sensor.entry_glass
 
+entry_lights:
+  name: Entry Lights
+  entities:
+    - switch.entry_lights
+    - switch.entry_lamp
+    - light.entry_dining
+
 dining_room:
   name: Dining Room
   entities:
@@ -103,6 +110,15 @@ dining_room:
     - binary_sensor.kids_study_window_1
     - binary_sensor.kids_study_window_2
     - binary_sensor.kids_study_window_3
+
+kids_study_lights:
+  name: Kids Study Lights
+  entities:
+    - switch.kids_study_lights
+    - light.noah_desk_strip
+    - light.hannah_desk_strip
+    - light.heidi_desk_strip
+    - light.noah_monitor_instance
 
 breakfast_room:
   name: Breakfast Room
@@ -125,6 +141,12 @@ family_room:
     - binary_sensor.family_window_2
     - binary_sensor.family_room_glass
 
+family_room_lights:
+  name: Family Room Lights
+  entities:
+    - switch.family_fan_lights
+    - switch.family_mantle_lights
+
 stairs:
   name: Stairs
   entities:
@@ -136,6 +158,12 @@ kitchen:
     - switch.kitchen_lights
     - switch.kitchen_pantry_light
     - binary_sensor.pantry_door
+
+kitchen_lights:
+  name: Kitchen Lights
+  entities:
+    - switch.kitchen_lights
+    - switch.kitchen_pantry_light
 
 laundry_room:
   name: Laundry Room

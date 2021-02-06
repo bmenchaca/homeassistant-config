@@ -122,14 +122,6 @@
     - light.guest_fan_bulb_4
 
 - platform: group
-  name: Family Fan Lights
-  entities:
-    - light.family_fan_bulb_1
-    - light.family_fan_bulb_2
-    - light.family_fan_bulb_3
-    - light.family_fan_bulb_4
-
-- platform: group
   name: Game Room Fan Lights
   entities:
     - light.game_fan_bulb_1
