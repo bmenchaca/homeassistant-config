@@ -210,6 +210,25 @@ deck:
     - light.deck_pool_stairs_calla
     - camera.back_deck_camera
 
+deck_lights:
+  name: Deck Lights
+  entities:
+    - light.back_porch_light
+    - light.deck_bar_lightstrip
+    - light.deck_bar_lightstrip_2
+    - light.deck_lower_railing_lightstrip
+    - light.deck_lower_lightstrip
+    - light.deck_breakfast_stairs_lightstrip
+
+back_yard_lights:
+  name: Back Yard Lights
+  entities:
+    - light.deck_big_tree_spot
+    - light.deck_pool_stairs_calla
+    - light.pool_pump_center_calla
+    - light.pool_pump_gate_calla
+    - light.pool_pump_deck_calla
+
 garden:
   name: Garden
   entities:
@@ -422,6 +441,12 @@ master_lavatory:
   name: Master Lavatory
   entities:
     - switch.master_lavatory_lights
+
+christmas_outdoor_lights:
+  name: Outdoor Christmas Lights
+  entities:
+    - switch.entry_christmas_lights
+    - switch.garage_christmas_lights
 
 security_devices:
    name: Security Devices

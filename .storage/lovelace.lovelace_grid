@@ -303,6 +303,214 @@
                                             }
                                         }
                                     ]
+                                },
+                                {
+                                    "type": "markdown",
+                                    "content": "## Front Yard"
+                                },
+                                {
+                                    "type": "grid",
+                                    "cards": [
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "switch.garage_carriage_lights",
+                                            "name": "Garage LIghts",
+                                            "icon": "mdi:coach-lamp"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "switch.front_porch_lights",
+                                            "name": "Porch Lights"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "group.christmas_outdoor_lights",
+                                            "name": "Christmas Lights",
+                                            "icon": "mdi:string-lights"
+                                        },
+                                        {
+                                            "type": "picture-entity",
+                                            "entity": "camera.front_door_camera",
+                                            "name": "Front Porch",
+                                            "camera_image": "camera.front_door_camera",
+                                            "show_state": false
+                                        },
+                                        {
+                                            "type": "picture-entity",
+                                            "entity": "camera.front_driveway_camera",
+                                            "name": "Driveway",
+                                            "camera_image": "camera.front_driveway_camera",
+                                            "show_state": false
+                                        },
+                                        {
+                                            "type": "picture-entity",
+                                            "entity": "camera.front_east_guest_camera",
+                                            "name": "Front Yard",
+                                            "camera_image": "camera.front_east_guest_camera",
+                                            "show_state": false
+                                        },
+                                        {
+                                            "type": "picture-entity",
+                                            "entity": "camera.west_gate_camera",
+                                            "name": "West Gate",
+                                            "camera_image": "camera.west_gate_camera",
+                                            "show_state": false
+                                        },
+                                        {
+                                            "type": "picture-entity",
+                                            "entity": "camera.east_side_yard_camera",
+                                            "name": "East Front Yard",
+                                            "camera_image": "camera.east_side_yard_camera",
+                                            "show_state": false
+                                        }
+                                    ],
+                                    "square": false
+                                },
+                                {
+                                    "type": "entities",
+                                    "entities": [
+                                        {
+                                            "entity": "switch.east_lawn",
+                                            "secondary_info": "last-changed",
+                                            "name": "Front East Lawn"
+                                        },
+                                        {
+                                            "entity": "switch.front_bushes",
+                                            "name": "Front Bushes",
+                                            "secondary_info": "last-changed"
+                                        },
+                                        {
+                                            "entity": "switch.front_lawn",
+                                            "secondary_info": "last-changed",
+                                            "name": "Front Lawn"
+                                        },
+                                        {
+                                            "entity": "switch.front_west",
+                                            "name": "Front West Lawn",
+                                            "secondary_info": "last-changed"
+                                        }
+                                    ],
+                                    "title": "Sprinklers"
+                                },
+                                {
+                                    "type": "markdown",
+                                    "content": "## Back Yard"
+                                },
+                                {
+                                    "type": "grid",
+                                    "cards": [
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "switch.back_porch_lights",
+                                            "name": "Back Porch Switch"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "group.deck_lights",
+                                            "name": "Deck Lights",
+                                            "icon": "mdi:lightbulb-group"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "group.back_yard_lights",
+                                            "name": "Yard Lights",
+                                            "icon": "mdi:lightbulb-group"
+                                        },
+                                        {
+                                            "type": "picture-entity",
+                                            "entity": "camera.back_east_gate_camera",
+                                            "name": "Gate",
+                                            "camera_image": "camera.back_east_gate_camera"
+                                        },
+                                        {
+                                            "type": "picture-entity",
+                                            "entity": "camera.back_pool_camera",
+                                            "name": "Pool",
+                                            "camera_image": "camera.back_pool_camera"
+                                        },
+                                        {
+                                            "type": "picture-entity",
+                                            "entity": "camera.back_deck_camera",
+                                            "name": "Deck",
+                                            "camera_image": "camera.back_deck_camera"
+                                        },
+                                        {
+                                            "type": "picture-entity",
+                                            "entity": "camera.back_playscape_camera",
+                                            "name": "Playscape",
+                                            "camera_image": "camera.back_playscape_camera"
+                                        },
+                                        {
+                                            "type": "picture-entity",
+                                            "entity": "camera.back_west_garden_camera",
+                                            "name": "Garden",
+                                            "camera_image": "camera.back_west_garden_camera"
+                                        }
+                                    ],
+                                    "square": false
+                                },
+                                {
+                                    "type": "entities",
+                                    "entities": [
+                                        {
+                                            "entity": "switch.back_west_near_gate",
+                                            "name": "Gate Lawn",
+                                            "secondary_info": "last-changed"
+                                        },
+                                        {
+                                            "entity": "switch.west_side_pool",
+                                            "name": "West Side Pool",
+                                            "secondary_info": "last-changed"
+                                        },
+                                        {
+                                            "entity": "switch.around_pool_back",
+                                            "name": "Pool Rear",
+                                            "secondary_info": "last-changed"
+                                        },
+                                        {
+                                            "entity": "switch.drip_around_pool",
+                                            "name": "Pool Drip",
+                                            "secondary_info": "last-changed"
+                                        },
+                                        {
+                                            "entity": "switch.back_yard_middle",
+                                            "name": "Back Yard Middle",
+                                            "secondary_info": "last-changed"
+                                        },
+                                        {
+                                            "entity": "switch.back_east_lawn",
+                                            "name": "Back Playscape Lawn",
+                                            "secondary_info": "last-changed"
+                                        },
+                                        {
+                                            "entity": "switch.back_west_near_gate",
+                                            "name": "West Bushes near Garden",
+                                            "secondary_info": "last-changed"
+                                        },
+                                        {
+                                            "entity": "switch.garden",
+                                            "name": "Garden",
+                                            "secondary_info": "last-changed"
+                                        }
+                                    ]
                                 }
                             ]
                         }
