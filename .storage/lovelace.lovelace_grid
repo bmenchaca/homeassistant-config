@@ -12,163 +12,232 @@
                     "badges": [],
                     "cards": [
                         {
-                            "type": "markdown",
-                            "content": "## Downstairs"
-                        },
-                        {
-                            "type": "grid",
+                            "type": "vertical-stack",
                             "cards": [
                                 {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "navigate",
-                                        "navigation_path": "kids-study"
-                                    },
-                                    "entity": "group.kids_study_lights",
-                                    "name": "Kids Study",
-                                    "icon": "mdi:book-outline",
-                                    "hold_action": {
-                                        "action": "toggle"
-                                    }
+                                    "type": "markdown",
+                                    "content": "## Downstairs"
                                 },
                                 {
-                                    "type": "button",
-                                    "entity": "group.entry_lights",
-                                    "icon": "mdi:ceiling-light",
-                                    "name": "Entry Dining",
-                                    "tap_action": {
-                                        "action": "navigate",
-                                        "navigation_path": "entry-dining"
-                                    },
-                                    "hold_action": {
-                                        "action": "toggle"
-                                    }
+                                    "type": "grid",
+                                    "cards": [
+                                        {
+                                            "type": "button",
+                                            "entity": "group.entry_lights",
+                                            "icon": "mdi:ceiling-light",
+                                            "name": "Entry Dining",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "entry-dining"
+                                            },
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "kids-study",
+                                                "entity": "group.kids_study_lights"
+                                            },
+                                            "name": "Kids Study",
+                                            "icon": "mdi:book-outline",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "master-hall"
+                                            },
+                                            "entity": "group.master_hall_lights",
+                                            "icon": "mdi:exit-to-app",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "family"
+                                            },
+                                            "entity": "group.family_room_lights",
+                                            "icon": "mdi:television",
+                                            "name": "Family",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "kitchen"
+                                            },
+                                            "entity": "group.kitchen_lights",
+                                            "icon": "mdi:stove",
+                                            "name": "Kitchen",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "breakfast"
+                                            },
+                                            "entity": "switch.breakfast_lights",
+                                            "icon": "mdi:table-chair",
+                                            "name": "Breakfast",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "guest_bath"
+                                            },
+                                            "entity": "group.guest_bath_lights",
+                                            "icon": "mdi:toilet",
+                                            "name": "Guest Bath",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "guest"
+                                            },
+                                            "entity": "group.guest_lights",
+                                            "icon": "mdi:bed",
+                                            "name": "Guest",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "laundry"
+                                            },
+                                            "entity": "group.laundry_lights",
+                                            "name": "Laundry",
+                                            "icon": "mdi:washing-machine",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        }
+                                    ]
                                 },
                                 {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "navigate",
-                                        "navigation_path": "family"
-                                    },
-                                    "entity": "group.family_room_lights",
-                                    "icon": "mdi:television",
-                                    "name": "Family",
-                                    "hold_action": {
-                                        "action": "toggle"
-                                    }
+                                    "type": "markdown",
+                                    "content": "## Upstairs"
                                 },
                                 {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "navigate",
-                                        "navigation_path": "kitchen"
-                                    },
-                                    "entity": "group.kitchen_lights",
-                                    "icon": "mdi:stove",
-                                    "name": "Kitchen",
-                                    "hold_action": {
-                                        "action": "toggle"
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "type": "markdown",
-                            "content": "## Upstairs"
-                        },
-                        {
-                            "type": "grid",
-                            "cards": [
-                                {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "navigate",
-                                        "navigation_path": "heidi"
-                                    },
-                                    "entity": "group.heidi_lights",
-                                    "hold_action": {
-                                        "action": "toggle"
-                                    },
-                                    "icon": "mdi:shoe-sneaker",
-                                    "name": "Heidi"
-                                },
-                                {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "navigate",
-                                        "navigation_path": "noah"
-                                    },
-                                    "entity": "group.noah_lights",
-                                    "name": "Noah",
-                                    "icon": "mdi:toy-brick-outline",
-                                    "hold_action": {
-                                        "action": "toggle"
-                                    }
-                                },
-                                {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "navigate",
-                                        "navigation_path": "hannah"
-                                    },
-                                    "entity": "group.hannah_lights",
-                                    "name": "Hannah",
-                                    "icon": "mdi:bow-tie",
-                                    "hold_action": {
-                                        "action": "toggle"
-                                    }
-                                },
-                                {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "navigate",
-                                        "navigation_path": "game"
-                                    },
-                                    "entity": "group.game_room_lights",
-                                    "name": "Game",
-                                    "icon": "mdi:controller-classic-outline",
-                                    "hold_action": {
-                                        "action": "toggle"
-                                    }
-                                },
-                                {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "navigate",
-                                        "navigation_path": "upstairs_halls"
-                                    },
-                                    "entity": "group.gallery_and_halls_lights",
-                                    "name": "Halls",
-                                    "icon": "mdi:fullscreen-exit",
-                                    "hold_action": {
-                                        "action": "toggle"
-                                    }
-                                },
-                                {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "navigate",
-                                        "navigation_path": "boys-bath"
-                                    },
-                                    "entity": "group.boys_bathroom_lights",
-                                    "name": "Boys Bath",
-                                    "icon": "mdi:toilet",
-                                    "hold_action": {
-                                        "action": "toggle"
-                                    }
-                                },
-                                {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "navigate",
-                                        "navigation_path": "office"
-                                    },
-                                    "entity": "group.office_lights",
-                                    "icon": "mdi:server",
-                                    "name": "Office",
-                                    "hold_action": {
-                                        "action": "toggle"
-                                    }
+                                    "type": "grid",
+                                    "cards": [
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "heidi"
+                                            },
+                                            "entity": "group.heidi_lights",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            },
+                                            "icon": "mdi:shoe-sneaker",
+                                            "name": "Heidi"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "noah"
+                                            },
+                                            "entity": "group.noah_lights",
+                                            "name": "Noah",
+                                            "icon": "mdi:toy-brick-outline",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "hannah"
+                                            },
+                                            "entity": "group.hannah_lights",
+                                            "name": "Hannah",
+                                            "icon": "mdi:bow-tie",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "game"
+                                            },
+                                            "entity": "group.game_room_lights",
+                                            "name": "Game",
+                                            "icon": "mdi:controller-classic-outline",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "upstairs_halls"
+                                            },
+                                            "entity": "group.gallery_and_halls_lights",
+                                            "name": "Halls",
+                                            "icon": "mdi:fullscreen-exit",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "boys-bath"
+                                            },
+                                            "entity": "group.boys_bathroom_lights",
+                                            "name": "Boys Bath",
+                                            "icon": "mdi:toilet",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "office"
+                                            },
+                                            "entity": "group.office_lights",
+                                            "icon": "mdi:server",
+                                            "name": "Office",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
@@ -397,18 +466,12 @@
                                     "entity": "media_player.game_room_roku"
                                 },
                                 {
-                                    "type": "custom:mini-media-player",
-                                    "entity": "media_player.game_room_receiver",
-                                    "hide": {
-                                        "volume": false
-                                    }
+                                    "type": "media-control",
+                                    "entity": "media_player.game_room_receiver"
                                 },
                                 {
-                                    "type": "custom:mini-media-player",
+                                    "type": "media-control",
                                     "entity": "media_player.game_room_projector",
-                                    "hide": {
-                                        "volume": true
-                                    },
                                     "tap_action": {
                                         "action": "call-service",
                                         "service": "media_player.toggle"
@@ -451,6 +514,191 @@
                                             "entity": "script.game_room_media_shutdown",
                                             "name": "Stop All",
                                             "icon": "mdi:stop"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "vertical-stack",
+                            "cards": [
+                                {
+                                    "type": "markdown",
+                                    "content": "## Roku Remote"
+                                },
+                                {
+                                    "type": "grid",
+                                    "cards": [
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.game_room_remote",
+                                                "service_data": {
+                                                    "entity_id": "remote.game_room_roku",
+                                                    "command": "back"
+                                                }
+                                            },
+                                            "entity": "remote.game_room_roku",
+                                            "show_name": false,
+                                            "icon": "mdi:arrow-left-bold"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.game_room_remote",
+                                                "service_data": {
+                                                    "entity_id": "remote.game_room_roku",
+                                                    "command": "up"
+                                                }
+                                            },
+                                            "entity": "remote.game_room_roku",
+                                            "show_name": false,
+                                            "icon": "mdi:chevron-up"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.send_command",
+                                                "service_data": {
+                                                    "entity_id": "remote.game_room_roku",
+                                                    "command": "home"
+                                                }
+                                            },
+                                            "entity": "remote.game_room_roku",
+                                            "icon": "mdi:home-outline",
+                                            "show_name": false,
+                                            "show_state": false
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.game_room_remote",
+                                                "service_data": {
+                                                    "entity_id": "remote.game_room_roku",
+                                                    "command": "left"
+                                                }
+                                            },
+                                            "entity": "remote.game_room_roku",
+                                            "show_name": false,
+                                            "icon": "mdi:chevron-left"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.game_room_remote",
+                                                "service_data": {
+                                                    "entity_id": "remote.game_room_roku",
+                                                    "command": "select"
+                                                }
+                                            },
+                                            "entity": "remote.game_room_roku",
+                                            "show_name": false,
+                                            "icon": "mdi:camera-control"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.send_command",
+                                                "service_data": {
+                                                    "entity_id": "remote.game_room_roku",
+                                                    "command": "home"
+                                                }
+                                            },
+                                            "entity": "remote.game_room_roku",
+                                            "icon": "mdi:chevron-right",
+                                            "show_name": false,
+                                            "show_state": false
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.game_room_remote",
+                                                "service_data": {
+                                                    "entity_id": "remote.game_room_roku",
+                                                    "command": "play"
+                                                }
+                                            },
+                                            "entity": "remote.game_room_roku",
+                                            "show_name": false,
+                                            "icon": "mdi:play"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.game_room_remote",
+                                                "service_data": {
+                                                    "entity_id": "remote.game_room_roku",
+                                                    "command": "down"
+                                                }
+                                            },
+                                            "entity": "remote.game_room_roku",
+                                            "show_name": false,
+                                            "icon": "mdi:chevron-down"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.game_room_remote",
+                                                "service_data": {
+                                                    "entity_id": "remote.game_room_roku",
+                                                    "command": "stop"
+                                                }
+                                            },
+                                            "entity": "remote.game_room_roku",
+                                            "show_name": false,
+                                            "icon": "mdi:stop"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.game_room_remote",
+                                                "service_data": {
+                                                    "entity_id": "remote.game_room_roku",
+                                                    "command": "reverse"
+                                                }
+                                            },
+                                            "entity": "remote.game_room_roku",
+                                            "show_name": false,
+                                            "icon": "mdi:rewind"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.game_room_remote",
+                                                "service_data": {
+                                                    "entity_id": "remote.game_room_roku",
+                                                    "command": "pause"
+                                                }
+                                            },
+                                            "entity": "remote.game_room_roku",
+                                            "show_name": false,
+                                            "icon": "mdi:play-pause"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "call-service",
+                                                "service": "remote.send_command",
+                                                "service_data": {
+                                                    "entity_id": "remote.game_room_roku",
+                                                    "command": "forward"
+                                                }
+                                            },
+                                            "entity": "remote.game_room_roku",
+                                            "icon": "mdi:fast-forward",
+                                            "show_name": false,
+                                            "show_state": false
                                         }
                                     ]
                                 }
@@ -749,6 +997,70 @@
                                 }
                             ],
                             "title": "Security"
+                        },
+                        {
+                            "type": "vertical-stack",
+                            "cards": [
+                                {
+                                    "type": "entity",
+                                    "entity": "sensor.hp_color_laserjet_mfp_m477fdw",
+                                    "name": "Printer"
+                                },
+                                {
+                                    "type": "grid",
+                                    "cards": [
+                                        {
+                                            "type": "gauge",
+                                            "entity": "sensor.hp_color_laserjet_mfp_m477fdw_black_cartridge_hp_cf410x",
+                                            "min": 0,
+                                            "max": 100,
+                                            "name": "Black",
+                                            "severity": {
+                                                "green": 25,
+                                                "yellow": 10,
+                                                "red": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "gauge",
+                                            "entity": "sensor.hp_color_laserjet_mfp_m477fdw_cyan_cartridge_hp_cf411a",
+                                            "min": 0,
+                                            "max": 100,
+                                            "name": "Cyan",
+                                            "severity": {
+                                                "green": 25,
+                                                "yellow": 10,
+                                                "red": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "gauge",
+                                            "entity": "sensor.hp_color_laserjet_mfp_m477fdw_magenta_cartridge_hp_cf413a",
+                                            "min": 0,
+                                            "max": 100,
+                                            "name": "Magenta",
+                                            "severity": {
+                                                "green": 25,
+                                                "yellow": 10,
+                                                "red": 0
+                                            }
+                                        },
+                                        {
+                                            "type": "gauge",
+                                            "entity": "sensor.hp_color_laserjet_mfp_m477fdw_yellow_cartridge_hp_cf412a",
+                                            "min": 0,
+                                            "max": 100,
+                                            "name": "Yellow",
+                                            "severity": {
+                                                "green": 25,
+                                                "yellow": 10,
+                                                "red": 0
+                                            }
+                                        }
+                                    ],
+                                    "columns": 4
+                                }
+                            ]
                         }
                     ]
                 },
@@ -826,7 +1138,7 @@
                 {
                     "title": "Family",
                     "path": "family",
-                    "icon": "mdi:televison",
+                    "icon": "mdi:television",
                     "badges": [],
                     "cards": [
                         {
@@ -875,6 +1187,10 @@
                             ]
                         },
                         {
+                            "type": "media-control",
+                            "entity": "media_player.family_room"
+                        },
+                        {
                             "type": "entities",
                             "entities": [
                                 {
@@ -892,7 +1208,8 @@
                                 {
                                     "entity": "binary_sensor.family_window_2"
                                 }
-                            ]
+                            ],
+                            "title": "Security"
                         }
                     ]
                 },
@@ -933,14 +1250,294 @@
                             "type": "entities",
                             "entities": [
                                 {
-                                    "entity": "binary_sensor.pantry_door"
-                                },
-                                {
-                                    "entity": "binary_sensor.kitchen_motion",
-                                    "icon": "mdi:motion-sensor",
-                                    "name": "Kitchen Motion"
+                                    "entity": "binary_sensor.pantry_door",
+                                    "secondary_info": "last-changed"
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Breakfast",
+                    "path": "breakfast",
+                    "icon": "mdi:table-chair",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.breakfast_lights",
+                                    "icon": "mdi:wall-sconce-round",
+                                    "name": "Ceiling Lights"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.back_door"
+                                },
+                                {
+                                    "entity": "binary_sensor.breakfast_window_1"
+                                },
+                                {
+                                    "entity": "binary_sensor.breakfast_window_2"
+                                },
+                                {
+                                    "entity": "binary_sensor.breakfast_window_3"
+                                },
+                                {
+                                    "entity": "binary_sensor.breakfast_window_4"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Master Hall",
+                    "path": "master-hall",
+                    "icon": "mdi:exit-to-app",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.master_hall_lights",
+                                    "name": "Lights Switch"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.master_hall",
+                                    "icon": "mdi:lightbulb-group",
+                                    "name": "Lights Dimmer"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.master_hall_motion",
+                                    "icon": "mdi:motion-sensor"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Guest Bath",
+                    "path": "guest-bath",
+                    "icon": "mdi:toilet",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.guest_bath_lights",
+                                    "icon": "mdi:vanity-light",
+                                    "name": "Vanity Switch"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.guest_bath_lights",
+                                    "name": "Vanity Lights"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.guest_hall_lights",
+                                    "icon": "mdi:dome-light",
+                                    "name": "Hall LIghts"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.guest_bath_motion",
+                                    "secondary_info": "last-changed",
+                                    "name": "Bathroom Motion",
+                                    "icon": "mdi:motion-sensor"
+                                }
+                            ],
+                            "title": "Security"
+                        }
+                    ]
+                },
+                {
+                    "title": "Guest",
+                    "path": "guest",
+                    "icon": "mdi:bed",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights and Environment"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "light",
+                                    "entity": "light.guest_fan_lights",
+                                    "name": "Lights"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.guest_fan_and_lights",
+                                    "name": "Fan and Lights"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.guest_heater",
+                                    "name": "Heater"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.guest_awair_temperature",
+                                    "graph": "line",
+                                    "name": "Temp"
+                                },
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.guest_awair_humidity",
+                                    "graph": "line",
+                                    "name": "Humidity"
+                                },
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.guest_carbon_dioxide",
+                                    "graph": "line",
+                                    "name": "CO2"
+                                },
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.guest_volatile_organic_compounds",
+                                    "graph": "line",
+                                    "name": "VOC"
+                                }
+                            ],
+                            "columns": 2,
+                            "square": false
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.guest_motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.guest_window_1"
+                                },
+                                {
+                                    "entity": "binary_sensor.guest_window_2"
+                                },
+                                {
+                                    "entity": "binary_sensor.guest_window_3"
+                                }
+                            ],
+                            "title": "Security"
+                        }
+                    ]
+                },
+                {
+                    "title": "Laundry",
+                    "path": "laundry",
+                    "icon": "mdi:washing-machine",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.laundry_lights",
+                                    "name": "Lights",
+                                    "icon": "mdi:dome-light"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.laundry_closet_lights",
+                                    "name": "Closet Lights"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.garage_door",
+                                    "name": "Door to Garage"
+                                },
+                                {
+                                    "entity": "binary_sensor.laundry_motion",
+                                    "name": "Motion",
+                                    "icon": "mdi:motion-sensor"
+                                },
+                                {
+                                    "entity": "binary_sensor.laundry_closet_door",
+                                    "name": "Closet Door"
+                                }
+                            ],
+                            "title": "Security"
                         }
                     ]
                 }

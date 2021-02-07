@@ -76,10 +76,12 @@ switch.family_fan_lights:
   icon: mdi:ceiling-light
 light.family_fan_lights:
   icon: mdi:ceiling-light
-switch.laundry_lights:
-  icon: mdi:lightbulb
-switch.laundry_closet_lights:
-  icon: mdi:lightbulb
+binary_sensor.laundry_closet_door:
+  device_class: door
+binary_sensor.master_closet_door:
+  device_class: door
+binary_sensor.pantry_door:
+  device_class: door
 switch.garage_lights:
   icon: mdi:lightbulb
 switch.master_fan:

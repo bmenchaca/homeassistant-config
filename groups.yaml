@@ -70,6 +70,11 @@ guest_room:
     - binary_sensor.guest_window_2
     - binary_sensor.guest_window_3
 
+guest_lights:
+  name: Guest Lights
+  entities:
+    - light.guest
+
 guest_hall:
   name: Guest Hall
   entities:
@@ -80,6 +85,12 @@ guest_bath:
   entities:
     - switch.guest_bath_lights
     - light.guest_bath
+
+guest_bath_lights:
+  name: Guest Bath Lights
+  entities:
+    - light.guest_bath
+    - switch.guest_hall_lights
 
 entry_room:
   name: Entry Room
@@ -172,6 +183,12 @@ laundry_room:
     - switch.laundry_closet_lights
     - binary_sensor.laundry_closet_door
     - binary_sensor.garage_door
+
+laundry_lights:
+  name: Laundry Lights
+  entities:
+    - switch.laundry_lights
+    - switch.laundry_closet_lights
     
 deck:
   name: Deck
@@ -373,6 +390,12 @@ master_closet:
 
 master_hall:
   name: Master Hall
+  entities:
+    - switch.master_hall_lights
+    - light.master_hall
+
+master_hall_lights:
+  name: Master Hall Lights
   entities:
     - switch.master_hall_lights
     - light.master_hall

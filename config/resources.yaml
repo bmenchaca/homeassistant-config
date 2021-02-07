@@ -1,12 +1,4 @@
-- url: /local/mini-graph-card-bundle.js?v=0.3.0
+- url: /www/community/rgb-light-card
   type: module
-- url: /local/surveillance-card.js?v=0
+- url: /www/community/mini-media-player
   type: module
-- url: /local/compact-custom-header.js?v=0.0.1
-  type: module
-- url: /local/card-tools.js?v=0.0.1
-  type: module
-- url: /local/mini-media-player-bundle.js?1.0.4
-  type: module
-#- url: /local/plan-coordinates.js?v=1
-#  type: js
