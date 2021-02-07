@@ -51,10 +51,11 @@
                                             "type": "button",
                                             "tap_action": {
                                                 "action": "navigate",
-                                                "navigation_path": "master-hall"
+                                                "navigation_path": "stairs"
                                             },
-                                            "entity": "group.master_hall_lights",
-                                            "icon": "mdi:exit-to-app",
+                                            "entity": "switch.stairs_lights",
+                                            "name": "Stairs",
+                                            "icon": "mdi:stairs",
                                             "hold_action": {
                                                 "action": "toggle"
                                             }
@@ -102,11 +103,75 @@
                                             "type": "button",
                                             "tap_action": {
                                                 "action": "navigate",
-                                                "navigation_path": "guest_bath"
+                                                "navigation_path": "master-hall"
                                             },
-                                            "entity": "group.guest_bath_lights",
-                                            "icon": "mdi:toilet",
-                                            "name": "Guest Bath",
+                                            "entity": "group.master_hall_lights",
+                                            "icon": "mdi:exit-to-app",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "laundry"
+                                            },
+                                            "entity": "group.laundry_lights",
+                                            "name": "Laundry",
+                                            "icon": "mdi:washing-machine",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "garage"
+                                            },
+                                            "entity": "switch.garage_lights",
+                                            "name": "Garage",
+                                            "icon": "mdi:garage-variant",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "master"
+                                            },
+                                            "entity": "group.master_lights",
+                                            "name": "Master",
+                                            "icon": "mdi:bed-outline",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "craft"
+                                            },
+                                            "entity": "group.craft_lights",
+                                            "name": "Craft",
+                                            "icon": "mdi:content-cut",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "master-bath"
+                                            },
+                                            "entity": "group.master_bath_lights",
+                                            "icon": "mdi:shower",
+                                            "name": "Master Bath",
                                             "hold_action": {
                                                 "action": "toggle"
                                             }
@@ -128,11 +193,11 @@
                                             "type": "button",
                                             "tap_action": {
                                                 "action": "navigate",
-                                                "navigation_path": "laundry"
+                                                "navigation_path": "guest_bath"
                                             },
-                                            "entity": "group.laundry_lights",
-                                            "name": "Laundry",
-                                            "icon": "mdi:washing-machine",
+                                            "entity": "group.guest_bath_lights",
+                                            "icon": "mdi:toilet",
+                                            "name": "Guest Bath",
                                             "hold_action": {
                                                 "action": "toggle"
                                             }
@@ -1538,6 +1603,323 @@
                                 }
                             ],
                             "title": "Security"
+                        }
+                    ]
+                },
+                {
+                    "title": "Master",
+                    "path": "master",
+                    "icon": "mdi:bed-outline",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Fan and Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.master_fan",
+                                    "name": "Fan"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.master_fan_lights",
+                                    "name": "Fan Lights"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.master_fan_lights",
+                                    "name": "Fan Lights Switch",
+                                    "icon": "mdi:ceiling-light"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "markdown",
+                            "content": "## Environmental"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.master_awair_temperature",
+                                    "graph": "line",
+                                    "name": "Temp"
+                                },
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.master_awair_humidity",
+                                    "graph": "line",
+                                    "name": "Humidity"
+                                },
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.master_carbon_dioxide",
+                                    "graph": "line",
+                                    "name": "CO2"
+                                },
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.master_volatile_organic_compounds",
+                                    "graph": "line",
+                                    "name": "VOC"
+                                }
+                            ],
+                            "columns": 2,
+                            "square": false
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.master_motion",
+                                    "icon": "mdi:motion-sensor",
+                                    "name": "Motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.master_window_1"
+                                },
+                                {
+                                    "entity": "binary_sensor.master_window_2"
+                                },
+                                {
+                                    "entity": "binary_sensor.master_window_3"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Master Bath",
+                    "path": "master-bath",
+                    "icon": "mdi:shower",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.master_vanity_lights",
+                                    "name": "Vanities"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.master_tub_color_bulb",
+                                    "name": "Tub Spotlight",
+                                    "icon": "mdi:track-light"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.master_bathtub_spotlight",
+                                    "icon": "mdi:light-switch",
+                                    "name": "Tub Switch"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.master_lavatory_lights",
+                                    "icon": "mdi:dome-light",
+                                    "name": "Lavatory"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.master_closet_lights",
+                                    "icon": "mdi:dome-light",
+                                    "name": "Closet"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "media-control",
+                            "entity": "media_player.master_bathroom"
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.master_bath_motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.master_closet_door"
+                                }
+                            ],
+                            "title": "Security"
+                        }
+                    ]
+                },
+                {
+                    "title": "Craft",
+                    "path": "craft",
+                    "icon": "mdi:content-cut",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Fan and Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.craft_fan_lights"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.craft_ambiance_lamp_1",
+                                    "name": "Ambiance Lamp 1"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.craft_ambiance_lamp_2",
+                                    "name": "Ambiance Lamp 2"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.craft_fan_and_lights",
+                                    "name": "Fan and Lights",
+                                    "icon": "mdi:light-switch"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.craft_motion"
+                                },
+                                {
+                                    "entity": "binary_sensor.craft_room_window_1"
+                                },
+                                {
+                                    "entity": "binary_sensor.craft_room_window_2"
+                                }
+                            ],
+                            "title": "Security"
+                        }
+                    ]
+                },
+                {
+                    "title": "Stairs",
+                    "path": "stairs",
+                    "icon": "mdi:stairs",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.stairs_lights",
+                                    "name": "Lights"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.stairs_motion",
+                                    "icon": "mdi:motion-sensor",
+                                    "secondary_info": "last-changed"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Garage",
+                    "path": "garage",
+                    "icon": "mdi:garage-variant",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.garage_lights",
+                                    "icon": "mdi:wall-sconce-flat",
+                                    "name": "Lights"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.garage_motion",
+                                    "icon": "mdi:motion-sensor",
+                                    "name": "Motion",
+                                    "secondary_info": "last-changed"
+                                },
+                                {
+                                    "entity": "cover.ben_garage",
+                                    "secondary_info": "last-changed"
+                                },
+                                {
+                                    "entity": "cover.susan_garage",
+                                    "secondary_info": "last-changed"
+                                }
+                            ]
                         }
                     ]
                 }

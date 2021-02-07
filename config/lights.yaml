@@ -145,6 +145,13 @@
     - light.office_fan_bulb_3
     - light.office_fan_bulb_4
 
+- platform: group
+  name: Craft Fan Lights
+  entities:
+    - light.craft_fan_bulb_1
+    - light.craft_fan_bulb_2
+    - light.craft_fan_bulb_3
+
 # Room Light Groups
 - platform: group
   name: Heidi Room Lights

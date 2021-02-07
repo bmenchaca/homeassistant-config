@@ -60,6 +60,13 @@ craft_room:
     - binary_sensor.craft_room_window_1
     - binary_sensor.craft_room_window_2
 
+craft_lights:
+  name: Craft Lights
+  entities:
+    - light.craft_fan_lights
+    - light.craft_ambiance_lamp_1
+    - light.craft_ambiance_lamp_2
+
 guest_room:
   name: Guest Room
   entities:
@@ -375,11 +382,22 @@ master:
     - binary_sensor.master_window_2
     - binary_sensor.master_window_3
 
+master_lights:
+  name: Master Lights
+  entities:
+    - light.master
+
 master_bath:
   name: Master Bath
   entities:
     - switch.master_vanity_lights
     - switch.master_bathtub_spotlight
+    - light.master_tub_color_bulb
+
+master_bath_lights:
+  name: Master Bath Lights
+  entities:
+    - switch.master_vanity_lights
     - light.master_tub_color_bulb
 
 master_closet:
