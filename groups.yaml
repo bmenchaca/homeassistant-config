@@ -163,7 +163,6 @@ family_room_lights:
   name: Family Room Lights
   entities:
     - switch.family_fan_lights
-    - switch.family_mantle_lights
 
 stairs:
   name: Stairs

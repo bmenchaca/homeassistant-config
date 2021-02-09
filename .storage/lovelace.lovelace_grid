@@ -36,10 +36,10 @@
                                         },
                                         {
                                             "type": "button",
+                                            "entity": "group.kids_study_lights",
                                             "tap_action": {
                                                 "action": "navigate",
-                                                "navigation_path": "kids-study",
-                                                "entity": "group.kids_study_lights"
+                                                "navigation_path": "kids-study"
                                             },
                                             "name": "Kids Study",
                                             "icon": "mdi:book-outline",
@@ -193,7 +193,7 @@
                                             "type": "button",
                                             "tap_action": {
                                                 "action": "navigate",
-                                                "navigation_path": "guest_bath"
+                                                "navigation_path": "guest-bath"
                                             },
                                             "entity": "group.guest_bath_lights",
                                             "icon": "mdi:toilet",
@@ -438,31 +438,36 @@
                                             "type": "picture-entity",
                                             "entity": "camera.back_east_gate_camera",
                                             "name": "Gate",
-                                            "camera_image": "camera.back_east_gate_camera"
+                                            "camera_image": "camera.back_east_gate_camera",
+                                            "show_state": false
                                         },
                                         {
                                             "type": "picture-entity",
                                             "entity": "camera.back_pool_camera",
                                             "name": "Pool",
-                                            "camera_image": "camera.back_pool_camera"
+                                            "camera_image": "camera.back_pool_camera",
+                                            "show_state": false
                                         },
                                         {
                                             "type": "picture-entity",
                                             "entity": "camera.back_deck_camera",
                                             "name": "Deck",
-                                            "camera_image": "camera.back_deck_camera"
+                                            "camera_image": "camera.back_deck_camera",
+                                            "show_state": false
                                         },
                                         {
                                             "type": "picture-entity",
                                             "entity": "camera.back_playscape_camera",
                                             "name": "Playscape",
-                                            "camera_image": "camera.back_playscape_camera"
+                                            "camera_image": "camera.back_playscape_camera",
+                                            "show_state": false
                                         },
                                         {
                                             "type": "picture-entity",
                                             "entity": "camera.back_west_garden_camera",
                                             "name": "Garden",
-                                            "camera_image": "camera.back_west_garden_camera"
+                                            "camera_image": "camera.back_west_garden_camera",
+                                            "show_state": false
                                         }
                                     ],
                                     "square": false
@@ -567,7 +572,7 @@
                         },
                         {
                             "type": "markdown",
-                            "content": "Environmental"
+                            "content": "## Environmental"
                         },
                         {
                             "type": "grid",
@@ -588,6 +593,26 @@
                                     },
                                     "entity": "switch.heidi_heater",
                                     "name": "Heater"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.heidi_attic_door",
+                                    "name": "Attic Door",
+                                    "secondary_info": "last-changed"
+                                },
+                                {
+                                    "entity": "binary_sensor.heidi_window_1",
+                                    "secondary_info": "last-changed",
+                                    "name": "Window 1"
+                                },
+                                {
+                                    "entity": "binary_sensor.heidi_window_2",
+                                    "secondary_info": "last-changed",
+                                    "name": "Window 2"
                                 }
                             ]
                         }
@@ -637,6 +662,22 @@
                                     "name": "Lamp"
                                 }
                             ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.noah_room_window_1",
+                                    "name": "Window 1",
+                                    "secondary_info": "last-changed"
+                                },
+                                {
+                                    "entity": "binary_sensor.noah_room_window_2",
+                                    "name": "Window 2",
+                                    "secondary_info": "last-changed"
+                                }
+                            ],
+                            "title": "Security"
                         }
                     ]
                 },
@@ -685,6 +726,22 @@
                                     "icon": "mdi:lamp"
                                 }
                             ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.hannah_window_1",
+                                    "name": "Window 1",
+                                    "secondary_info": "last-changed"
+                                },
+                                {
+                                    "entity": "binary_sensor.hannah_window_2",
+                                    "secondary_info": "last-changed",
+                                    "name": "Window 2"
+                                }
+                            ],
+                            "title": "Security"
                         }
                     ]
                 },
@@ -981,7 +1038,8 @@
                             "type": "entities",
                             "entities": [
                                 {
-                                    "entity": "binary_sensor.game_room_motion"
+                                    "entity": "binary_sensor.game_room_motion",
+                                    "secondary_info": "last-changed"
                                 }
                             ],
                             "title": "Security"
@@ -1041,13 +1099,16 @@
                             "type": "entities",
                             "entities": [
                                 {
-                                    "entity": "binary_sensor.gallery_motion"
+                                    "entity": "binary_sensor.gallery_motion",
+                                    "secondary_info": "last-changed"
                                 },
                                 {
-                                    "entity": "binary_sensor.boys_hall_motion"
+                                    "entity": "binary_sensor.boys_hall_motion",
+                                    "secondary_info": "last-changed"
                                 },
                                 {
-                                    "entity": "binary_sensor.girls_hall_motion"
+                                    "entity": "binary_sensor.girls_hall_motion",
+                                    "secondary_info": "last-changed"
                                 }
                             ],
                             "title": "Security"
@@ -1087,7 +1148,9 @@
                             "type": "entities",
                             "entities": [
                                 {
-                                    "entity": "binary_sensor.boys_bathroom_motion"
+                                    "entity": "binary_sensor.boys_bathroom_motion",
+                                    "name": "Motion",
+                                    "secondary_info": "last-changed"
                                 }
                             ],
                             "state_color": true
@@ -1107,6 +1170,15 @@
                         {
                             "type": "grid",
                             "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.office_fan_lights",
+                                    "name": "Fan Lights Switch",
+                                    "icon": "mdi:ceiling-light"
+                                },
                                 {
                                     "type": "button",
                                     "tap_action": {
@@ -1187,6 +1259,27 @@
                                     "name": "Humidity"
                                 }
                             ]
+                        },
+                        {
+                            "type": "entities",
+                            "entities": [
+                                {
+                                    "entity": "binary_sensor.office_motion",
+                                    "name": "Motion",
+                                    "icon": "mdi:motion-sensor",
+                                    "secondary_info": "last-changed"
+                                },
+                                {
+                                    "entity": "binary_sensor.office_window_1",
+                                    "secondary_info": "last-changed",
+                                    "name": "Window 1"
+                                },
+                                {
+                                    "entity": "binary_sensor.office_window_2",
+                                    "name": "Window 2",
+                                    "secondary_info": "last-changed"
+                                }
+                            ]
                         }
                     ]
                 },
@@ -1254,19 +1347,23 @@
                                 {
                                     "entity": "binary_sensor.dining_motion",
                                     "name": "Motion",
-                                    "icon": "mdi:motion-sensor"
+                                    "icon": "mdi:motion-sensor",
+                                    "secondary_info": "last-changed"
                                 },
                                 {
                                     "entity": "binary_sensor.dining_room_window_1",
-                                    "name": "Window 1"
+                                    "name": "Window 1",
+                                    "secondary_info": "last-changed"
                                 },
                                 {
                                     "entity": "binary_sensor.dining_room_window_2",
-                                    "name": "Window 2"
+                                    "name": "Window 2",
+                                    "secondary_info": "last-changed"
                                 },
                                 {
                                     "entity": "binary_sensor.dining_room_window_3",
-                                    "name": "Window 3"
+                                    "name": "Window 3",
+                                    "secondary_info": "last-changed"
                                 }
                             ],
                             "title": "Security"
