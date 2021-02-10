@@ -4,6 +4,7 @@
 !*.xml
 !*.yaml
 !*.html
+!*.js
 !*.css
 !*.py
 !*/
