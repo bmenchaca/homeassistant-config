@@ -139,3 +139,12 @@
     data: {}
     entity_id: scene.alert_lights
   mode: single
+- id: '1612915867487'
+  alias: Entry Scene Switch
+  description: 'Entry Lights Scene Activated Switch'
+  use_blueprint:
+    path: scene_switch.yaml
+    input:
+      switch_entity: switch.entry_lights
+      on_scene: scene.entry_dining_on
+      off_scene: scene.entry_dining_off
