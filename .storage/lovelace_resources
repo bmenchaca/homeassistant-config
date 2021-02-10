@@ -1,0 +1,18 @@
+{
+    "version": 1,
+    "key": "lovelace_resources",
+    "data": {
+        "items": [
+            {
+                "url": "/hacsfiles/rgb-light-card/card.js",
+                "type": "module",
+                "id": "9d5025a01eb34491ac3b95a48e7ee346"
+            },
+            {
+                "url": "/hacsfiles/mini-media-player/mini-media-player-bundle.js",
+                "type": "module",
+                "id": "74b4a067fdc946858f02a4de28a107a1"
+            }
+        ]
+    }
+}
