@@ -1,0 +1,48 @@
+blueprint:
+  name: Sensor Light
+  description: Turn lights on when a binary sensor is on, and off when it is off.  Optionally, we can wait for the sensor to be off for a defined Delay before turning off the light.
+  domain: automation
+  input:
+    sensor_entity:
+        name: Sensor Entity
+        description: The sensor to use as a trigger for the lights.
+        selector:
+            entity:
+                domain: binary_sensor
+    target_light:
+        name: Light
+        description: "The lights to turn on when the sensor is triggered."
+        selector:
+            target:
+                entity:
+                    domain: light
+    no_trigger_wait:
+      name: Trigger Wait
+      description: The time to leave the light on after last motion is detected.
+      default: 0
+      selector:
+        number:
+          min: 0
+          max: 3600
+          unit_of_measurement: seconds
+
+mode: restart
+max_exceeded: silent
+
+trigger:
+  platform: state
+  entity_id: !input sensor_entity
+  from: "off"
+  to: "on"
+
+action:
+  - service: light.turn_on
+    target: !input target_light
+  - wait_for_trigger:
+      platform: state
+      entity_id: !input sensor_entity
+      from: "on"
+      to: "off"
+  - delay: !input no_trigger_wait
+  - service: light.turn_off
+    target: !input target_light

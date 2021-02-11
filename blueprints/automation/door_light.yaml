@@ -1,0 +1,35 @@
+blueprint:
+  name: Door Light
+  description: Turn lights on when a binary sensor is on, and off when it is off.
+  domain: automation
+  input:
+    door_sensor:
+        name: Door Sensor
+        description: When the door is opened, the lights will turn on.
+        selector:
+            entity:
+                domain: binary_sensor
+                device_class: door
+    target_light:
+        name: Light
+        description: "The lights to turn on when the sensor is triggered."
+        selector:
+            target:
+                entity:
+                    domain: light
+
+mode: single
+max_exceeded: silent
+
+trigger:
+  platform: state
+  entity_id: !input door_sensor
+
+action:
+  service: >
+    {% if trigger.to_state.state == "on" %}
+      light.turn_on
+    {% else %}
+      light.turn_off
+    {% endif %}
+  target: !input target_light
