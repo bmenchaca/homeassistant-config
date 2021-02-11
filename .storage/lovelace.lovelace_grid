@@ -1165,7 +1165,7 @@
                     "cards": [
                         {
                             "type": "markdown",
-                            "content": "## Lights"
+                            "content": "## Controls"
                         },
                         {
                             "type": "grid",
@@ -1178,6 +1178,14 @@
                                     "entity": "switch.office_fan_lights",
                                     "name": "Fan Lights Switch",
                                     "icon": "mdi:ceiling-light"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.office_fan",
+                                    "name": "Fan"
                                 },
                                 {
                                     "type": "button",
@@ -1200,6 +1208,14 @@
                                     "tap_action": {
                                         "action": "toggle"
                                     },
+                                    "entity": "switch.office_heater",
+                                    "name": "Heater"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
                                     "entity": "light.office_go",
                                     "name": "Go"
                                 }
@@ -1213,22 +1229,6 @@
                             "type": "grid",
                             "columns": 2,
                             "cards": [
-                                {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "toggle"
-                                    },
-                                    "entity": "switch.office_fan",
-                                    "name": "Fan"
-                                },
-                                {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "toggle"
-                                    },
-                                    "entity": "switch.office_heater",
-                                    "name": "Heater"
-                                },
                                 {
                                     "type": "sensor",
                                     "entity": "sensor.office_temperature",
