@@ -141,10 +141,67 @@
   mode: single
 - id: '1612915867487'
   alias: Entry Scene Switch
-  description: 'Entry Lights Scene Activated Switch'
+  description: Entry Lights Scene Activated Switch
   use_blueprint:
     path: scene_switch.yaml
     input:
       switch_entity: switch.entry_lights
       on_scene: scene.entry_dining_on
       off_scene: scene.entry_dining_off
+- id: '1612916883325'
+  alias: Kids Study Scene Switch
+  description: Change scene based on the state of the Kid's Study overhead lights.
+  use_blueprint:
+    path: scene_switch.yaml
+    input:
+      switch_entity: switch.kids_study_lights
+      on_scene: scene.kids_study_on
+      off_scene: scene.kids_study_off
+- id: '1612917007753'
+  alias: Craft Scene Switch
+  description: Turn on or off all Craft Room lights based on the state of the Overhead
+    lights switch
+  use_blueprint:
+    path: scene_switch.yaml
+    input:
+      switch_entity: switch.craft_fan_and_lights
+      on_scene: scene.craft_room_switch_on
+      off_scene: scene.craft_room_switch_off
+- id: '1612917075093'
+  alias: Family Scene Switch
+  description: Turn on or off all Kitchen and Family Room lights based on the state
+    of the Family Room Fan Lights
+  use_blueprint:
+    path: scene_switch.yaml
+    input:
+      switch_entity: switch.family_fan_lights
+      on_scene: scene.family_room_lights_on
+      off_scene: scene.family_room_lights_off
+- id: '1613009569395'
+  alias: Pantry Lights using Door
+  description: Turn on the Pantry Lights when the Door opens, and off when the door
+    closes
+  use_blueprint:
+    path: door_lights.yaml
+    input:
+      door_sensor: binary_sensor.pantry_door
+      target_light:
+        entity_id: light.kitchen_pantry_switch
+- id: '1613010337867'
+  alias: Laundry Closet using Door
+  description: Turn on and off the Laundry Closet lights using the door sensor
+  use_blueprint:
+    path: door_lights.yaml
+    input:
+      door_sensor: binary_sensor.laundry_closet_door
+      target_light:
+        entity_id: light.laundry_closet_switch
+- id: '1613010382531'
+  alias: Master Closet using Door
+  description: Turn on and off the Master Closet lights using the Door sensor
+  use_blueprint:
+    path: door_lights.yaml
+    input:
+      door_sensor: binary_sensor.master_closet_door
+      target_light:
+        entity_id: light.master_closet_switch
