@@ -245,3 +245,22 @@
     - light.master_hall_bulb_3
     - light.gallery_flood_bulb
     - light.family_mantle_bulb
+
+##
+# Lights that use the Switch platform
+##
+- platform: switch
+  name: Kitchen Pantry Switch
+  entity_id: switch.kitchen_pantry_light
+
+- platform: switch
+  name: Laundry Closet Switch
+  entity_id: switch.laundry_closet_lights
+
+- platform: switch
+  name: Master Closet Switch
+  entity_id: switch.master_closet_lights
+
+- platform: switch
+  name: Front Porch Switch
+  entity_id: switch.front_porch_lights
