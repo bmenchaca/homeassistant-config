@@ -182,7 +182,7 @@
   description: Turn on the Pantry Lights when the Door opens, and off when the door
     closes
   use_blueprint:
-    path: door_lights.yaml
+    path: door_light.yaml
     input:
       door_sensor: binary_sensor.pantry_door
       target_light:
@@ -191,7 +191,7 @@
   alias: Laundry Closet using Door
   description: Turn on and off the Laundry Closet lights using the door sensor
   use_blueprint:
-    path: door_lights.yaml
+    path: door_light.yaml
     input:
       door_sensor: binary_sensor.laundry_closet_door
       target_light:
@@ -200,7 +200,7 @@
   alias: Master Closet using Door
   description: Turn on and off the Master Closet lights using the Door sensor
   use_blueprint:
-    path: door_lights.yaml
+    path: door_light.yaml
     input:
       door_sensor: binary_sensor.master_closet_door
       target_light:
