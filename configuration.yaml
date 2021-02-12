@@ -25,7 +25,7 @@ updater:
 config:
 sun:
 lovelace: 
-  resources: !include config/resources.yaml
+#  resources: !include config/resources.yaml
 http: !include config/http.yaml
 history: !include config/history.yaml
 logbook: !include config/logbook.yaml
