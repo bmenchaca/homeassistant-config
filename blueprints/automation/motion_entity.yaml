@@ -45,10 +45,13 @@ blueprint:
     no_motion_wait:
       name: (OPTIONAL) Turn off wait time (minutes)
       description: Time in minutes to leave the target entity on after last motion is detected. If not used entity will not auto turn off.
-      default:
+      default: 0
       selector:
-        entity:
-          domain: input_number
+        number:
+          min: 1
+          max: 60
+          step: 1.0
+          mode: slider
     turn_off_blocker_entity:
       name: (OPTIONAL) Turn-off Blocking entity
       description: If this entity's state is on, it will prevent the target entity from turning off after the set delay.
