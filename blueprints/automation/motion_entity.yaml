@@ -95,7 +95,7 @@ action:
       from: "on"
       to: "off"
   - delay: 
-      minutes: '{{ states[no_motion_wait].state | int }}'
+      minutes: !input no_motion_wait
   - condition: template
     value_template: "{{ (turn_off_blocker_entity == none) or (states[turn_off_blocker_entity].state == 'off') }}"
   - choose:

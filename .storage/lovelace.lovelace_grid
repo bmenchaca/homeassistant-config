@@ -339,6 +339,13 @@
                                         },
                                         {
                                             "type": "picture-entity",
+                                            "entity": "camera.front_door",
+                                            "name": "Front Door",
+                                            "camera_image": "camera.front_door",
+                                            "show_state": false
+                                        },
+                                        {
+                                            "type": "picture-entity",
                                             "entity": "camera.front_door_camera",
                                             "name": "Front Porch",
                                             "camera_image": "camera.front_door_camera",

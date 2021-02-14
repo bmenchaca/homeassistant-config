@@ -1,8 +1,3 @@
-#- platform: ring
-#  monitored_conditions:
-#    - ding
-#    - motion
-
 - platform: hikvision
   host: !secret alibi_dvr_ip
   username: !secret alibi_rtsp_username
@@ -36,7 +31,6 @@
   after: sunrise
   before_offset: "-00:30:00"
   before: sunset
-
 
 - platform: template
   sensors:
@@ -224,6 +218,16 @@
       value_template: >-
         {{ is_state("binary_sensor.pool_field_motion", "on") and
            is_state("binary_sensor.deck_field_motion", "on") }}
+
+    front_porch_or_front_door_activity:
+      friendly_name: 'Front Porch and Door Activity'
+      device_class: motion
+      value_template: >-
+        {{ is_state("binary_sensor.front_porch_field_motion", "on") or
+           is_state("binary_sensor.front_door_motion", "on") or
+           is_state("binary_sensor.front_door", "on") }}
+
+
 ###############################################################################
 # Life360
 ###############################################################################

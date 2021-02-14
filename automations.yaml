@@ -11,17 +11,6 @@
   action:
     service: homeassistant.turn_on
     entity_id: scene.backyard_lights_evening_on
-- id: backyard_lights_vacancy_off
-  alias: Back Yard Lights Off When Movement Stopped
-  trigger:
-    platform: state
-    entity_id: binary_sensor.deck_motion
-    to: 'off'
-    for:
-      minutes: 5
-  action:
-    service: scene.turn_on
-    entity_id: scene.backyard_lights_off
 - id: heidi_heater_thermostat_off
   alias: Heidi Heater Thermostat Off
   trigger:
@@ -226,7 +215,7 @@
       sensor_entity: binary_sensor.girls_hall_motion
       target_light:
         entity_id: light.girls_hall_switch
-      no_trigger_wait: '060'
+      no_trigger_wait: '60'
 - id: '1613269969046'
   alias: Guest Bathroom Daytime Occupancy and Vacancy
   description: Guest Bathroom Lights control when not_bedtime is true
@@ -236,8 +225,8 @@
       motion_sensor: binary_sensor.guest_bath_motion
       target_entity: scene.guest_bath_day
       blocker_entity: binary_sensor.bedtime
-      no_motion_wait: '8'
       target_off_entity: scene.guest_bath_off
+      no_motion_wait: '8'
 - id: '1613270011215'
   alias: Guest Bathroom Bedtime Occupancy and Vacancy
   description: Guest Bathroom Lights control when bedtime is true
@@ -341,3 +330,56 @@
       blocker_entity: binary_sensor.bedtime
       no_motion_wait: '5'
       target_off_entity: light.guest
+- id: '1613318531905'
+  alias: Master Hall Occupancy Vacancy Daytime
+  description: ''
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.master_hall_motion
+      target_entity: scene.master_hall_not_night
+      blocker_entity: binary_sensor.bedtime
+      no_motion_wait: '8'
+      target_off_entity: switch.master_hall_lights
+- id: '1613319635083'
+  alias: Deck Occupancy Vacancy Bedtime
+  description: ''
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.back_door
+      target_entity: scene.backyard_lights_evening_on
+      blocker_entity: binary_sensor.is_light
+      no_motion_wait: '5'
+      target_off_entity: scene.backyard_lights_off
+      turn_off_blocker_entity: binary_sensor.deck_field_motion
+- id: '1613319734356'
+  alias: Garage Lights Sunset
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunset
+  condition: []
+  action:
+  - scene: scene.garage_outdoor_lights_nighttime
+  mode: single
+- id: '1613319753231'
+  alias: Garage Lights Sunrise
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunrise
+  condition: []
+  action:
+  - scene: scene.garage_outdoor_lights_daytime
+  mode: single
+- id: '1613321882329'
+  alias: Front Porch Occupancy Vacancy when Dark
+  description: ''
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.front_porch_or_front_door_activity
+      target_entity: switch.front_porch_lights
+      blocker_entity: binary_sensor.is_light
+      no_motion_wait: '5'

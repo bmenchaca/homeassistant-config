@@ -1,5 +1,6 @@
 include:
   domains:
+    - auomation
     - binary_sensor
     - light    
     - switch
