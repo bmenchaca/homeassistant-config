@@ -25,7 +25,19 @@
   after: '20:30'
   before: '8:00'
 
-#Occupancy Template Sensors
+- platform: tod
+  name: is_dark
+  after: sunset
+  after_offset: "-00:30:00"
+  before: sunrise
+
+- platform: tod
+  name: is_light
+  after: sunrise
+  before_offset: "-00:30:00"
+  before: sunset
+
+
 - platform: template
   sensors:
     garage_occupancy:
@@ -264,3 +276,10 @@
            (is_state("binary_sensor.workday_sensor", "off") and
             is_state("binary_sensor.weekend_bedtime", "on")) }}
 
+    not_bedtime:
+      friendly_name: "Not Bedtime"
+      value_template: >-
+        {{ (is_state("binary_sensor.workday_sensor", "on") and
+            is_state("binary_sensor.workday_bedtime", "off")) or
+           (is_state("binary_sensor.workday_sensor", "off") and
+            is_state("binary_sensor.weekend_bedtime", "off")) }}

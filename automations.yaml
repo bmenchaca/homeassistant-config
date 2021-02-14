@@ -205,3 +205,139 @@
       door_sensor: binary_sensor.master_closet_door
       target_light:
         entity_id: light.master_closet_switch
+- id: '1613254018665'
+  alias: Boys Hall Occupancy and Vacancy
+  description: Turn the light on when there is motion in the Boys Hall, and off after
+    there is none.
+  use_blueprint:
+    path: sensor_light.yaml
+    input:
+      no_trigger_wait: '60'
+      sensor_entity: binary_sensor.boys_hall_motion
+      target_light:
+        entity_id: light.boys_hall_switch
+- id: '1613254245247'
+  alias: Girls Hall Occupancy and Vacancy
+  description: Turn the light on when there is motion in the Girls Hall, and off after
+    there is none.
+  use_blueprint:
+    path: sensor_light.yaml
+    input:
+      sensor_entity: binary_sensor.girls_hall_motion
+      target_light:
+        entity_id: light.girls_hall_switch
+      no_trigger_wait: '060'
+- id: '1613269969046'
+  alias: Guest Bathroom Daytime Occupancy and Vacancy
+  description: Guest Bathroom Lights control when not_bedtime is true
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.guest_bath_motion
+      target_entity: scene.guest_bath_day
+      blocker_entity: binary_sensor.bedtime
+      no_motion_wait: '8'
+      target_off_entity: scene.guest_bath_off
+- id: '1613270011215'
+  alias: Guest Bathroom Bedtime Occupancy and Vacancy
+  description: Guest Bathroom Lights control when bedtime is true
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.guest_bath_motion
+      target_entity: scene.guest_bath_night
+      blocker_entity: binary_sensor.not_bedtime
+      no_motion_wait: '2'
+      target_off_entity: scene.guest_bath_off
+- id: '1613270257631'
+  alias: Boys Bath Occupancy Vacancy Daytime
+  description: Boys Bath Occupancy Vacancy Daytime
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.boys_bathroom_motion
+      target_entity: switch.boys_bathroom_light
+      blocker_entity: binary_sensor.bedtime
+      no_motion_wait: '8'
+- id: '1613270282366'
+  alias: Boys Bath Occupancy Vacancy Bedtime
+  description: Boys Bath Occupancy Vacancy Bedtime
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.boys_bathroom_motion
+      target_entity: switch.boys_bathroom_light
+      blocker_entity: binary_sensor.not_bedtime
+      no_motion_wait: '2'
+- id: '1613270466936'
+  alias: Gallery Occupancy Vacancy Daytime
+  description: Gallery Occupancy Vacancy Daytime
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.gallery_motion
+      target_entity: scene.gallery_day_time
+      blocker_entity: binary_sensor.bedtime
+      no_motion_wait: '2'
+      target_off_entity: switch.gallery_lights
+- id: '1613270501672'
+  alias: Gallery Occupancy Vacancy Bedtime
+  description: Gallery Occupancy Vacancy Bedtime
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.gallery_motion
+      target_entity: scene.gallery_night_time
+      blocker_entity: binary_sensor.not_bedtime
+      no_motion_wait: '2'
+      target_off_entity: switch.gallery_lights
+- id: '1613270600624'
+  alias: 'Game Room Occupancy Vacancy Bedtime '
+  description: Game Room Occupancy Vacancy Bedtime
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.game_room_motion
+      target_entity: switch.game_room_lights
+      blocker_entity: binary_sensor.not_bedtime
+      no_motion_wait: '1'
+- id: '1613270857110'
+  alias: Family Room Occupancy Vacancy Bedtime
+  description: Family Room Occupancy Vacancy Bedtime
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.family_mantle_or_breakfast_motion
+      target_entity: scene.family_night
+      blocker_entity: binary_sensor.not_bedtime
+      no_motion_wait: '2'
+      target_off_entity: scene.family_room_lights_off
+- id: '1613271043951'
+  alias: Laundry Occupancy Vacancy Lights
+  description: ''
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.laundry_motion
+      target_entity: switch.laundry_lights
+      no_motion_wait: '1'
+- id: '1613271099858'
+  alias: Garage Occupancy Vacancy Lights
+  description: ''
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.garage_occupancy
+      target_entity: switch.garage_lights
+      no_motion_wait: '10'
+- id: '1613271445050'
+  alias: Guest Occupancy Vacancy Daytime
+  description: ''
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.guest_motion
+      target_entity: scene.guest_day
+      blocker_entity: binary_sensor.bedtime
+      no_motion_wait: '5'
+      target_off_entity: light.guest

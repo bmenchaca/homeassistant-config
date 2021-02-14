@@ -1,0 +1,107 @@
+blueprint:
+  name: Motion Activated Entity
+  description: >
+    Turn on a light, switch, scene, script or group based on motion detection.
+
+    This blueprint uses helper entities you have to create yourself for some input values, to be able to dynamically set limits. 
+    For instructions on creating the helper entities take a look in the Home Assistant Community forum topic:
+    https://community.home-assistant.io/t/turn-on-light-switch-scene-or-script-based-on-motion-and-illuminance-more-conditions/257085
+
+    Required entities:
+      - Motion sensor (single sensor or group)
+      - Target entity (light, switch, scene or script)
+    
+    Optional features:
+    - You can define a blocking entity, which blocks the automation from running when this blocking entity's state is on.
+    - You can define a turn-off blocking entity, which blocks the entity from turning off after the set delay.
+    - Time limits can also be defined to limit the time before and after the automation should trigger.
+    - If you want the entity to turn off after a certain amount of minutes of no motion, you can use the Wait Time input.
+    - If you want another entity than the target_entity to turn off after the delay, you can define a separate Turn-off entity.
+    - If you do not enable the optional entities the automation will skip these conditions.
+
+    Optional entities:
+    - Blocking entity (any entity with state on/off)
+    - Turn off wait time [in minutes!] (input_number) - will not work with script or scene target entities.
+    - Turn off entity (any entity_id)
+
+  domain: automation
+  input:
+    motion_sensor:
+      name: Motion Sensor
+      description: This sensor will trigger the turning on of the target entity.
+      selector:
+        entity:
+    target_entity:
+      name: Target Entity
+      description: The light, switch, scene to turn on (or script to run) when the automation is triggered.
+      selector:
+        entity:
+    blocker_entity:
+      name: (OPTIONAL) Blocking entity
+      description: If this entity's state is on, it will prevent the automation from running. E.g. sleepmode or away mode.
+      default:
+      selector:
+        entity:
+    no_motion_wait:
+      name: (OPTIONAL) Turn off wait time (minutes)
+      description: Time in minutes to leave the target entity on after last motion is detected. If not used entity will not auto turn off.
+      default:
+      selector:
+        entity:
+          domain: input_number
+    turn_off_blocker_entity:
+      name: (OPTIONAL) Turn-off Blocking entity
+      description: If this entity's state is on, it will prevent the target entity from turning off after the set delay.
+      default:
+      selector:
+        entity:
+    target_off_entity:
+      name: (OPTIONAL) Turn-off entity
+      description: If defined, this entity will be turned off instead of the default target entity. This can be helpful when using target entities of type scene or script.
+      default:
+      selector:
+        entity:
+
+mode: restart
+max_exceeded: silent
+
+variables:
+  target_entity: !input target_entity
+  blocker_entity: !input blocker_entity
+  no_motion_wait: !input no_motion_wait
+  turn_off_blocker_entity: !input turn_off_blocker_entity
+  target_off_entity: !input target_off_entity
+
+trigger:
+  platform: state
+  entity_id: !input motion_sensor
+  to: 'on'
+
+condition:
+  - condition: template
+    value_template: "{{ (blocker_entity == none) or (states[blocker_entity].state == 'off') }}"
+
+action:
+  - service: homeassistant.turn_on
+    entity_id: !input target_entity
+  - condition: template
+    value_template: "{{ no_motion_wait != none }}"
+  - wait_for_trigger:
+      platform: state
+      entity_id: !input motion_sensor
+      from: "on"
+      to: "off"
+  - delay: 
+      minutes: '{{ states[no_motion_wait].state | int }}'
+  - condition: template
+    value_template: "{{ (turn_off_blocker_entity == none) or (states[turn_off_blocker_entity].state == 'off') }}"
+  - choose:
+    - conditions:
+        - condition: template
+          value_template: "{{ (target_off_entity != none) }}"
+      sequence:
+        - service: homeassistant.turn_off
+          entity_id: !input target_off_entity
+    default:
+      - service: homeassistant.turn_off
+        entity_id: !input target_entity

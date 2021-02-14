@@ -22,6 +22,7 @@
     switch.back_porch_lights: false
     switch.family_fan_lights: false
     switch.family_christmas_tree: false
+    switch.family_mantle_lights: false
 - id: 2adef16cf351e7add2b9d0af963d
   name: family_room_lights_on
   entities:
@@ -29,6 +30,11 @@
     switch.kitchen_lights: true
     switch.family_fan_lights: true
     switch.family_christmas_tree: true
+    switch.family_mantle_lights: true
+    light.family_mantle_bulb:
+      state: true
+      color_temp: 429
+      brightness: 254
 - id: 81cd990396851831e4293d6a6adf
   name: kids_study_off
   entities:
@@ -65,7 +71,7 @@
   name: entry_dining_on
   entities:
     switch.entry_lights: true
-    light.entry_dining_lamp_1: 
+    light.entry_dining_lamp_1:
       state: true
       brightness: 254
       color_temp: 333
@@ -151,6 +157,16 @@
       state: true
       color_temp: 429
       brightness: 254
+
+- id: f89380a670e89834b214edf424f1
+  name: guest_day_on
+  entities:
+    switch.guest_fan_and_lights: true
+    light.guest:
+      state: true
+      color_temp: 429
+      brightness: 254
+
 - id: 154ee5bf7e04803c95e6112464a8
   name: family_night
   entities:
@@ -284,11 +300,10 @@
     light.family_mantle_bulb:
       state: true
       brightness: 254
-
 - id: ec45377ac4ca4b3583f2158d7dd18550
   name: alert_lights
   entities:
-    switch.guest_bath_lights: on
+    switch.guest_bath_lights: true
     light.guest_bath_bulb_1:
       state: true
       brightness: 254
@@ -299,34 +314,45 @@
       color_temp: 166
     light.guest_bath_bulb_color:
       state: true
-      rgb_color: [255,0,0]
+      rgb_color:
+      - 255
+      - 0
+      - 0
     light.guest:
       state: true
       brightness: 254
       color_temp: 166
-    switch.stairs_lights: on
-    switch.master_hall_lights: on
+    switch.stairs_lights: true
+    switch.master_hall_lights: true
     light.master_hall:
       state: true
       brightness: 254
       color_temp: 166
-    switch.kids_study_lights: on
+    switch.kids_study_lights: true
     light.hannah_desk_strip:
       state: true
-      rgb_color: [255,0,0]
+      rgb_color:
+      - 255
+      - 0
+      - 0
     light.noah_desk_strip:
       state: true
-      rgb_color: [255,0,0]
+      rgb_color:
+      - 255
+      - 0
+      - 0
     light.heidi_desk_strip:
       state: true
-      rgb_color: [255,0,0]
-    switch.family_fan_lights: on
-    switch.entry_lights: on
+      rgb_color:
+      - 255
+      - 0
+      - 0
+    switch.family_fan_lights: true
+    switch.entry_lights: true
     light.entry_dining:
       state: true
       brightness: 254
       color_temp: 166
-
 - id: 5decb6336c996bb34405cfe5f902
   name: everyone_away
   entities:
@@ -335,3 +361,15 @@
   name: someone_arriving_home
   entities:
     switch.garage_lights: true
+- id: '1613256156422'
+  name: Guest Bath Off
+  entities:
+    light.guest_bath: false
+- id: '1613265502278'
+  name: Boys Bathroom Lights Off
+  entities:
+    switch.boys_bathroom_light: false
+- id: '1613265576583'
+  name: Boys Bathroom Lights On
+  entities:
+    switch.boys_bathroom_light: true
