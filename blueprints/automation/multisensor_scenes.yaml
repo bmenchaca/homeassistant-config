@@ -1,0 +1,112 @@
+blueprint:
+  name: Multi-Sensor Scenes
+  description: Activate one scene on when a binary sensor is on, and a second scene when it is off.  Optionally, we can wait for the sensor to be off for a defined Delay before activating the off scene.
+  domain: automation
+  input:
+    sensor_entity:
+      name: Sensor Entity
+      description: The sensor to use as a trigger for the scene change.
+      selector:
+        entity:
+          domain: binary_sensor
+
+    on_selection_sensor:
+      name: Selection Sensor
+      description: This sensor selects between two different on scenes depending on it's state.
+      selector:
+        entity:
+          domain: binary_sensor
+
+    on_selected_scene:
+      name: On Selected Scene
+      description: "The scene to activate when the sensor is triggered and the selection sensor is on."
+      default: scene.none
+      selector:
+        target:
+          entity:
+            domain: scene
+
+    on_unselected_scene:
+      name: On Unselected Scene
+      description: "The scene to show when the sensor is triggered and the selection sensor is off."
+      default: scene.none
+      selector:
+        target:
+          entity:
+            domain: scene
+
+    off_selected_scene:
+      name: Off Selected Scene
+      description: "The scene to activate when the sensor is quiescent, and the selector is on."
+      default: scene.none
+      selector:
+        target:
+          entity:
+            domain: scene
+
+    off_unselected_scene:
+      name: Off Unselected Scene
+      description: "The scene to activate when the sensor is quiescent, and the selector is off."
+      default: scene.none
+      selector:
+        target:
+          entity:
+            domain: scene
+
+    no_trigger_wait_selected:
+      name: No Trigger Wait Selected
+      description: The time to delay before activating the off scene after the last motion is detected for the Selected case.
+      default: 0
+      selector:
+        number:
+          min: 0
+          max: 3600
+          unit_of_measurement: seconds
+
+    no_trigger_wait_unselected:
+      name: No Trigger Wait Unselected
+      description: The time to delay before activating the off scene after the last motion is detected for the Unselected case.
+      default: 0
+      selector:
+        number:
+          min: 0
+          max: 3600
+          unit_of_measurement: seconds
+
+mode: restart
+max_exceeded: silent
+
+trigger:
+  platform: state
+  entity_id: !input sensor_entity
+  from: "off"
+  to: "on"
+
+action:
+  - choose:
+    - conditions:
+      - condition: state
+        entity_id: !input on_selection_sensor
+        state: "on"
+      sequence:
+    default:
+      - service: scene.turn_on
+        target: !input on_unselected_scene
+  - wait_for_trigger:
+      platform: state
+      entity_id: !input sensor_entity
+      from: "on"
+      to: "off"
+  - choose:
+    - conditions:
+      - condition: state
+        entity_id: !input on_selection_sensor
+        state: "on"
+      sequence:
+      - delay: !input no_trigger_wait_selected
+      - service: scene.turn_on
+        target: !input off_selected_scene
+    default:
+      - delay: !input no_trigger_wait_unselected
+      - service: scene.turn_on
+        target: !input off_unselected_scene
