@@ -343,8 +343,7 @@ gallery:
 gallery_and_halls_lights:
   name: Gallery and Halls Lights
   entities:
-    - switch.gallery_lights
-    - light.gallery
+    - light.gallery_combo
     - switch.girls_hall_lights
     - switch.boys_hall_light
 
@@ -384,7 +383,6 @@ office_lights:
   name: Office Lights
   entities:
     - switch.office_fan_lights
-    - light.office_fan_lights
     - switch.office_lamp
 
 master:
