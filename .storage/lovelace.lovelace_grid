@@ -1068,20 +1068,10 @@
                             "columns": 2,
                             "cards": [
                                 {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "toggle"
-                                    },
-                                    "entity": "switch.gallery_lights",
-                                    "name": "Gallery Lights"
-                                },
-                                {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "toggle"
-                                    },
-                                    "entity": "light.gallery",
-                                    "name": "Gallery Bulb"
+                                    "type": "light",
+                                    "entity": "light.gallery_combo",
+                                    "name": "Gallery Lights",
+                                    "icon": "mdi:ceiling-light"
                                 },
                                 {
                                     "type": "button",
@@ -1199,14 +1189,6 @@
                                     "tap_action": {
                                         "action": "toggle"
                                     },
-                                    "entity": "light.office_fan_lights",
-                                    "name": "Fan Lights"
-                                },
-                                {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "toggle"
-                                    },
                                     "entity": "switch.office_lamp",
                                     "name": "Lamp"
                                 },
@@ -1225,6 +1207,17 @@
                                     },
                                     "entity": "light.office_go",
                                     "name": "Go"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "more-info"
+                                    },
+                                    "entity": "switch.office_modem",
+                                    "name": "Modem",
+                                    "hold_action": {
+                                        "action": "none"
+                                    }
                                 }
                             ]
                         },
@@ -1737,20 +1730,9 @@
                             "type": "grid",
                             "cards": [
                                 {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "toggle"
-                                    },
-                                    "entity": "switch.guest_bath_lights",
+                                    "type": "light",
+                                    "entity": "light.guest_bath_combo",
                                     "icon": "mdi:vanity-light",
-                                    "name": "Vanity Switch"
-                                },
-                                {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "toggle"
-                                    },
-                                    "entity": "light.guest_bath_lights",
                                     "name": "Vanity Lights"
                                 },
                                 {
