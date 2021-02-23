@@ -115,6 +115,11 @@
   entities:
     switch.game_room_fan: true
     light.game_room: true
+- id: f04c059bb8a50ec653110f257c7f
+  name: gallery_turn_on
+  entities:
+    switch.gallery_lights: true
+    light.gallery: true
 - id: f04c059bb8a50ec653110f257c80
   name: gallery_day_time
   entities:
@@ -157,7 +162,11 @@
       state: true
       color_temp: 429
       brightness: 254
-
+- id: f89380a670e89834b214edf424e1
+  name: guest_bath_on
+  entities:
+    switch.guest_bath_lights: true
+    light.guest_bath: true
 - id: f89380a670e89834b214edf424f1
   name: guest_day_on
   entities:
