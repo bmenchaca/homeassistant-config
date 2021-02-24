@@ -96,8 +96,7 @@ guest_bath:
 guest_bath_lights:
   name: Guest Bath Lights
   entities:
-    - light.guest_bath
-    - switch.guest_hall_lights
+    - light.guest_bath_combo
 
 entry_room:
   name: Entry Room
@@ -360,8 +359,7 @@ game_room:
 game_room_lights:
   name: Game Room Lights
   entities:
-    - switch.game_room_lights
-    - light.game_room_fan_lights
+    - light.game_room_combo
 
 office:
   name: Office
@@ -431,8 +429,7 @@ master_hall:
 master_hall_lights:
   name: Master Hall Lights
   entities:
-    - switch.master_hall_lights
-    - light.master_hall
+    - light.master_hall_combo
 
 master_lavatory:
   name: Master Lavatory

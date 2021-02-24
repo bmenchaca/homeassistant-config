@@ -383,3 +383,12 @@
       target_entity: switch.front_porch_lights
       blocker_entity: binary_sensor.is_light
       no_motion_wait: '5'
+- id: '1614130827603'
+  alias: Girls Hall Occupancy and Vacancy
+  description: ''
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.girls_hall_motion
+      target_entity: switch.girls_hall_lights
+      no_motion_wait: '1'

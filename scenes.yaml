@@ -97,6 +97,11 @@
   entities:
     switch.game_room_fan: false
     light.game_room: false
+- id: ff2205d5d8fabbddb454d1444833
+  name: game_room_on
+  entities:
+    switch.game_room_lights: true
+    light.game_room: true
 - id: ba5993c5ecb23b48d233832b0708
   name: christmas_lights_daytime
   entities:

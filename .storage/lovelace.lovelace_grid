@@ -775,20 +775,10 @@
                                     "name": "Fan"
                                 },
                                 {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "toggle"
-                                    },
-                                    "entity": "switch.game_room_lights",
-                                    "name": "Fan Lights Switch"
-                                },
-                                {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "toggle"
-                                    },
-                                    "entity": "light.game_room_fan_lights",
-                                    "name": "Fan Lights"
+                                    "type": "light",
+                                    "entity": "light.game_room_combo",
+                                    "name": "Lights",
+                                    "icon": "mdi:ceiling-light"
                                 }
                             ]
                         },
