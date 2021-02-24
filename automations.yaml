@@ -225,7 +225,7 @@
       motion_sensor: binary_sensor.guest_bath_motion
       target_entity: scene.guest_bath_day
       blocker_entity: binary_sensor.bedtime
-      target_off_entity: scene.guest_bath_off
+      target_off_entity: light.guest_bath
       no_motion_wait: '8'
 - id: '1613270011215'
   alias: Guest Bathroom Bedtime Occupancy and Vacancy
@@ -237,7 +237,7 @@
       target_entity: scene.guest_bath_night
       blocker_entity: binary_sensor.not_bedtime
       no_motion_wait: '2'
-      target_off_entity: scene.guest_bath_off
+      target_off_entity: light.guest_bath
 - id: '1613270257631'
   alias: Boys Bath Occupancy Vacancy Daytime
   description: Boys Bath Occupancy Vacancy Daytime
