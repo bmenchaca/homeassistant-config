@@ -87,6 +87,11 @@
       state: true
       brightness: 254
       color_temp: 333
+- id: 3bca2a4ab13e04bf198150f4f25d
+  name: master_hall_on
+  entities:
+    switch.master_hall_lights: true
+    light.master_hall: true
 - id: ff2205d5d8fabbddb454d1444832
   name: game_room_off
   entities:
@@ -184,6 +189,11 @@
       state: true
       color_temp: 500
       brightness: 2
+- id: 154ee5bf7e04803c95e6112464a9
+  name: family_mantle_on
+  entities:
+    switch.family_mantle_lights: true
+    light.family_mantle_bulb: true
 - id: 982cfb6162fe79599787c78a02c2
   name: backyard_lights_evening_on
   entities:

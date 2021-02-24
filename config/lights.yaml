@@ -104,6 +104,78 @@
         data_template:
           color_temp: " {{ color_temp }} "
 
+- platform: template
+  lights:
+    master_hall_combo:
+      friendly_name: "Master Hall Combo Lights"
+      value_template: >-
+        {{ (is_state("switch.master_hall_lights", "on") and
+            is_state("light.master_hall", "on")) }}
+      level_template: >-
+        {% if is_state("switch.master_hall_lights", "on") %}
+          {{ state_attr("light.master_hall", "brightness") | int }}
+        {% else %}
+          0
+        {% endif %}
+      temperature_template: >-
+        {% if is_state("switch.master_hall_lights", "on") %}
+          {{ state_attr("light.master_hall", "color_temp") | int }}
+        {% else %}
+          {{ state_attr("light.master_hall", "min_mireds") }}
+        {% endif %}
+      turn_on:
+        service: scene.turn_on
+        entity_id: scene.master_hall_on
+      turn_off:
+        service: switch.turn_off
+        entity_id: switch.master_hall_lights
+      set_level:
+        service: light.turn_on
+        entity_id: light.master_hall
+        data_template:
+          brightness: " {{ brightness }} "
+      set_temperature:
+        service: light.turn_on
+        entity_id: light.master_hall
+        data_template:
+          color_temp: " {{ color_temp }} "
+
+- platform: template
+  lights:
+    family_mantle_combo:
+      friendly_name: "Family Mantle Combo Lights"
+      value_template: >-
+        {{ (is_state("switch.family_mantle_lights", "on") and
+            is_state("light.family_mantle_bulb", "on")) }}
+      level_template: >-
+        {% if is_state("switch.family_mantle_lights", "on") %}
+          {{ state_attr("light.family_mantle_bulb", "brightness") | int }}
+        {% else %}
+          0
+        {% endif %}
+      temperature_template: >-
+        {% if is_state("switch.family_mantle_lights", "on") %}
+          {{ state_attr("light.family_mantle_bulb", "color_temp") | int }}
+        {% else %}
+          {{ state_attr("light.family_mantle_bulb", "min_mireds") }}
+        {% endif %}
+      turn_on:
+        service: scene.turn_on
+        entity_id: scene.family_mantle_on
+      turn_off:
+        service: switch.turn_off
+        entity_id: switch.family_mantle_lights
+      set_level:
+        service: light.turn_on
+        entity_id: light.family_mantle_bulb
+        data_template:
+          brightness: " {{ brightness }} "
+      set_temperature:
+        service: light.turn_on
+        entity_id: light.family_mantle_bulb
+        data_template:
+          color_temp: " {{ color_temp }} "
+
 
 # Fan Light Groups
 - platform: group

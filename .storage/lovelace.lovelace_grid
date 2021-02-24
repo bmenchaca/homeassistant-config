@@ -109,7 +109,8 @@
                                             "icon": "mdi:exit-to-app",
                                             "hold_action": {
                                                 "action": "toggle"
-                                            }
+                                            },
+                                            "name": "Master Hall"
                                         },
                                         {
                                             "type": "button",
@@ -1535,24 +1536,10 @@
                                     "name": "Fan Lights"
                                 },
                                 {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "toggle"
-                                    },
-                                    "entity": "switch.family_mantle_lights",
-                                    "icon": "mdi:track-light",
-                                    "name": "Mantle Switch",
-                                    "hold_action": {
-                                        "action": "more-info"
-                                    }
-                                },
-                                {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "toggle"
-                                    },
-                                    "entity": "light.family_mantle_bulb",
-                                    "name": "Mantle Dimmer"
+                                    "type": "light",
+                                    "entity": "light.family_mantle_combo",
+                                    "name": "Mantle Lights",
+                                    "icon": "mdi:track-light"
                                 }
                             ]
                         },
@@ -1687,21 +1674,10 @@
                             "type": "grid",
                             "cards": [
                                 {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "toggle"
-                                    },
-                                    "entity": "switch.master_hall_lights",
-                                    "name": "Lights Switch"
-                                },
-                                {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "toggle"
-                                    },
-                                    "entity": "light.master_hall",
-                                    "icon": "mdi:lightbulb-group",
-                                    "name": "Lights Dimmer"
+                                    "type": "light",
+                                    "entity": "light.master_hall_combo",
+                                    "name": "Lights",
+                                    "icon": "mdi:ceiling-light"
                                 }
                             ]
                         },
