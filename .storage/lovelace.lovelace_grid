@@ -605,6 +605,25 @@
                             ]
                         },
                         {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.heidi_temperature",
+                                    "graph": "line",
+                                    "name": "Temp"
+                                },
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.heidi_humidity",
+                                    "graph": "line",
+                                    "name": "Humidity"
+                                }
+                            ],
+                            "columns": 2,
+                            "square": false
+                        },
+                        {
                             "type": "entities",
                             "entities": [
                                 {
@@ -672,6 +691,27 @@
                             ]
                         },
                         {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.noah_temperature",
+                                    "graph": "line",
+                                    "name": "Temp",
+                                    "detail": 1
+                                },
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.noah_humidity",
+                                    "graph": "line",
+                                    "name": "Humidity",
+                                    "detail": 2
+                                }
+                            ],
+                            "columns": 2,
+                            "square": false
+                        },
+                        {
                             "type": "entities",
                             "entities": [
                                 {
@@ -734,6 +774,25 @@
                                     "icon": "mdi:lamp"
                                 }
                             ]
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.hannah_temperature",
+                                    "graph": "line",
+                                    "name": "Temp"
+                                },
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.hannah_humidity",
+                                    "graph": "line",
+                                    "name": "Humidity"
+                                }
+                            ],
+                            "columns": 2,
+                            "square": false
                         },
                         {
                             "type": "entities",
