@@ -97,7 +97,7 @@
   entities:
     switch.game_room_fan: false
     light.game_room: false
-- id: ff2205d5d8fabbddb454d1444833
+- id: 9250abad3dcaafb9761f1d008629
   name: game_room_on
   entities:
     switch.game_room_lights: true
@@ -120,11 +120,6 @@
   name: garage_outdoor_lights_nighttime
   entities:
     switch.garage_carriage_lights: true
-- id: 8a66e7eb061eb0a44627655be2a3
-  name: game_room_on
-  entities:
-    switch.game_room_fan: true
-    light.game_room: true
 - id: f04c059bb8a50ec653110f257c7f
   name: gallery_turn_on
   entities:
