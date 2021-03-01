@@ -189,12 +189,6 @@
         {% else %}
           0
         {% endif %}
-      temperature_template: >-
-        {% if is_state("switch.game_room_lights", "on") %}
-          {{ state_attr("light.game_room", "color_temp") | int }}
-        {% else %}
-          {{ state_attr("light.game_room", "min_mireds") }}
-        {% endif %}
       turn_on:
         service: scene.turn_on
         entity_id: scene.game_room_on
@@ -206,11 +200,6 @@
         entity_id: light.game_room
         data_template:
           brightness: " {{ brightness }} "
-      set_temperature:
-        service: light.turn_on
-        entity_id: light.game_room
-        data_template:
-          color_temp: " {{ color_temp }} "
 
 
 # Fan Light Groups
