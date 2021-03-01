@@ -380,3 +380,19 @@
       motion_sensor: binary_sensor.boys_hall_motion
       target_entity: switch.boys_hall_light
       no_motion_wait: '1'
+- id: '1614441892945'
+  alias: Game Room Night Vacancy
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: binary_sensor.game_room_motion
+    from: 'on'
+    to: 'off'
+    for: 2 minutes
+  condition:
+  - condition: state
+    entity_id: binary_sensor.bedtime
+    state: 'on'
+  action:
+  - scene: scene.game_room_off
+  mode: single
