@@ -279,7 +279,7 @@
       target_entity: scene.family_night
       blocker_entity: binary_sensor.not_bedtime
       no_motion_wait: '2'
-      target_off_entity: scene.family_room_lights_off
+      target_off_entity: light.family_mantle_combo
 - id: '1613271043951'
   alias: Laundry Occupancy Vacancy Lights
   description: ''
@@ -388,7 +388,7 @@
     entity_id: binary_sensor.game_room_motion
     from: 'on'
     to: 'off'
-    for: 2 minutes
+    for: 00:02
   condition:
   - condition: state
     entity_id: binary_sensor.bedtime
