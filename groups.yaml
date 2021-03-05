@@ -424,12 +424,12 @@ master_hall:
   name: Master Hall
   entities:
     - switch.master_hall_lights
-    - light.master_hall
+    - light.master_hall_lights
 
 master_hall_lights:
   name: Master Hall Lights
   entities:
-    - light.master_hall_combo
+    - light.master_hall_lights_combo
 
 master_lavatory:
   name: Master Lavatory

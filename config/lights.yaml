@@ -295,9 +295,9 @@
 - platform: group
   name: Master Hall Lights
   entities:
-    - light.master_hall_bulb_1
-    - light.master_hall_bulb_2
-    - light.master_hall_bulb_3
+    - light.master_hall_lights_bulb_1
+    - light.master_hall_lights_bulb_2
+    - light.master_hall_lights_bulb_3
   
 - platform: group
   name: Guest Bath Lights
@@ -351,9 +351,9 @@
     - light.guest_bath_bulb_1
     - light.guest_bath_bulb_2
     - light.guest_bath_bulb_color
-    - light.master_hall_bulb_1
-    - light.master_hall_bulb_2
-    - light.master_hall_bulb_3
+    - light.master_hall_lights_bulb_1
+    - light.master_hall_lights_bulb_2
+    - light.master_hall_lights_bulb_3
     - light.gallery_flood_bulb
     - light.family_mantle_bulb
 

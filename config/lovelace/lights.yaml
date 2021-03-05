@@ -84,7 +84,7 @@ cards:
             name: Hall Lights
             tap_action:
               action: toggle
-          - entity: light.master_hall
+          - entity: light.master_hall_lights
             name: Hall Dimmer
             tap_action:
               action: toggle

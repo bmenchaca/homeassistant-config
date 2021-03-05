@@ -83,7 +83,7 @@
   name: master_hall_not_night
   entities:
     switch.master_hall_lights: true
-    light.master_hall:
+    light.master_hall_lights:
       state: true
       brightness: 254
       color_temp: 333
@@ -91,7 +91,7 @@
   name: master_hall_on
   entities:
     switch.master_hall_lights: true
-    light.master_hall: true
+    light.master_hall_lights: true
 - id: ff2205d5d8fabbddb454d1444832
   name: game_room_off
   entities:
@@ -343,7 +343,7 @@
       color_temp: 166
     switch.stairs_lights: true
     switch.master_hall_lights: true
-    light.master_hall:
+    light.master_hall_lights:
       state: true
       brightness: 254
       color_temp: 166
