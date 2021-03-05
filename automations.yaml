@@ -194,28 +194,6 @@
       door_sensor: binary_sensor.master_closet_door
       target_light:
         entity_id: light.master_closet_switch
-- id: '1613254245247'
-  alias: Girls Hall Occupancy and Vacancy
-  description: Turn the light on when there is motion in the Girls Hall, and off after
-    there is none.
-  use_blueprint:
-    path: sensor_light.yaml
-    input:
-      sensor_entity: binary_sensor.girls_hall_motion
-      target_light:
-        entity_id: light.girls_hall_switch
-      no_trigger_wait: '60'
-- id: '1613269969046'
-  alias: Guest Bathroom Daytime Occupancy and Vacancy
-  description: Guest Bathroom Lights control when not_bedtime is true
-  use_blueprint:
-    path: motion_entity.yaml
-    input:
-      motion_sensor: binary_sensor.guest_bath_motion
-      target_entity: scene.guest_bath_day
-      blocker_entity: binary_sensor.bedtime
-      target_off_entity: light.guest_bath
-      no_motion_wait: '8'
 - id: '1613270011215'
   alias: Guest Bathroom Bedtime Occupancy and Vacancy
   description: Guest Bathroom Lights control when bedtime is true
