@@ -110,18 +110,18 @@
       friendly_name: "Master Hall Combo Lights"
       value_template: >-
         {{ (is_state("switch.master_hall_lights", "on") and
-            is_state("light.master_hall", "on")) }}
+            is_state("light.master_hall_lights", "on")) }}
       level_template: >-
         {% if is_state("switch.master_hall_lights", "on") %}
-          {{ state_attr("light.master_hall", "brightness") | int }}
+          {{ state_attr("light.master_hall_lights", "brightness") | int }}
         {% else %}
           0
         {% endif %}
       temperature_template: >-
         {% if is_state("switch.master_hall_lights", "on") %}
-          {{ state_attr("light.master_hall", "color_temp") | int }}
+          {{ state_attr("light.master_hall_lights", "color_temp") | int }}
         {% else %}
-          {{ state_attr("light.master_hall", "min_mireds") }}
+          {{ state_attr("light.master_hall_lights", "min_mireds") }}
         {% endif %}
       turn_on:
         service: scene.turn_on
@@ -131,12 +131,12 @@
         entity_id: switch.master_hall_lights
       set_level:
         service: light.turn_on
-        entity_id: light.master_hall
+        entity_id: light.master_hall_lights
         data_template:
           brightness: " {{ brightness }} "
       set_temperature:
         service: light.turn_on
-        entity_id: light.master_hall
+        entity_id: light.master_hall_lights
         data_template:
           color_temp: " {{ color_temp }} "
 
