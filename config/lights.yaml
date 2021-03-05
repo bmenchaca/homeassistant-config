@@ -249,14 +249,6 @@
     - light.master_fan_bulb_4
 
 - platform: group
-  name: Office Fan Lights
-  entities:
-    - light.office_fan_bulb_1
-    - light.office_fan_bulb_2
-    - light.office_fan_bulb_3
-    - light.office_fan_bulb_4
-
-- platform: group
   name: Craft Fan Lights
   entities:
     - light.craft_fan_bulb_1

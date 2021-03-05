@@ -369,7 +369,6 @@ office:
     - switch.office_lamp
     - switch.office_heater
     - light.office_go
-    - light.office_fan_lights
     - sensor.office_awair_temperature
     - sensor.office_awair_humidity
     - sensor.office_awair_co2
