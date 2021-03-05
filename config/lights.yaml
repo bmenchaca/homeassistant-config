@@ -367,11 +367,3 @@
 - platform: switch
   name: Front Porch Switch
   entity_id: switch.front_porch_lights
-
-- platform: switch
-  name: Boys Hall Switch
-  entity_id: switch.boys_hall_switch
-
-- platform: switch
-  name: Girls Hall Switch
-  entity_id: switch.girls_hall_switch
