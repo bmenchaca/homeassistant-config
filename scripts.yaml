@@ -41,7 +41,7 @@ prepare_for_daytime:
   - delay: 00:00:05
   - service: homeassistant.turn_off
     data:
-      entity_id: light.guest_bath
+      entity_id: light.guest_bath_lights
 game_room_screen_down:
   alias: Game Room Screen Down
   sequence:

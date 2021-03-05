@@ -72,7 +72,7 @@ guest_room:
   entities:
     - switch.guest_fan_and_lights
     - switch.guest_heater
-    - light.guest
+    - light.guest_fan_lights
     - binary_sensor.guest_window_1
     - binary_sensor.guest_window_2
     - binary_sensor.guest_window_3
@@ -80,7 +80,7 @@ guest_room:
 guest_lights:
   name: Guest Lights
   entities:
-    - light.guest
+    - light.guest_fan_lights
 
 guest_hall:
   name: Guest Hall
@@ -91,7 +91,7 @@ guest_bath:
   name: Guest Bath
   entities:
     - switch.guest_bath_lights
-    - light.guest_bath
+    - light.guest_bath_lights
 
 guest_bath_lights:
   name: Guest Bath Lights
@@ -351,7 +351,7 @@ game_room:
   entities:
     - switch.game_room_fan
     - switch.game_room_lights
-    - light.game_room
+    - light.game_room_lights
     - binary_sensor.game_room_window_1
     - binary_sensor.game_room_window_2
     - binary_sensor.game_room_window_3

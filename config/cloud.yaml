@@ -1,7 +1,7 @@
 alexa:
   filter:
     include_entities:
-      - light.game_room
+      - light.game_room_lights
       - switch.master_vanity_lights
       - switch.master_fan_lights
       - switch.office_fan_lights
@@ -25,7 +25,7 @@ alexa:
   entity_config:
     switch.family_fan_lights:
       name: Family Room Lights
-    light.game_room:
+    light.game_room_lights:
       name: Game Room Lights
     switch.master_vanity_lights:
       name: Master Vanity Lights

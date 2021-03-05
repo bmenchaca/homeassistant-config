@@ -14,25 +14,27 @@
 - id: heidi_heater_thermostat_off
   alias: Heidi Heater Thermostat Off
   trigger:
-    platform: numeric_state
-    entity_id: sensor.heidi_multisensor_temperature
-    above: 72.0
+  - platform: numeric_state
+    entity_id: sensor.heidi_temperature
+    above: '72'
     for:
       minutes: 5
   action:
-    service: homeassistant.turn_off
+  - service: homeassistant.turn_off
     entity_id: switch.heidi_heater
+  mode: single
 - id: heidi_heater_thermostat_on
   alias: Heidi Heater Thermostat On
   trigger:
-    platform: numeric_state
-    entity_id: sensor.heidi_multisensor_temperature
-    below: 70.0
+  - platform: numeric_state
+    entity_id: sensor.heidi_temperature
+    below: '70'
     for:
       minutes: 5
   action:
-    service: homeassistant.turn_on
+  - service: homeassistant.turn_on
     entity_id: switch.heidi_heater
+  mode: single
 - id: mirror_bedtime_input_boolean_on
   alias: Mirror House Bedtime On to Input Boolean
   trigger:
@@ -204,7 +206,7 @@
       target_entity: scene.guest_bath_night
       blocker_entity: binary_sensor.not_bedtime
       no_motion_wait: '2'
-      target_off_entity: light.guest_bath
+      target_off_entity: light.guest_bath_lights
 - id: '1613270257631'
   alias: Boys Bath Occupancy Vacancy Daytime
   description: Boys Bath Occupancy Vacancy Daytime
@@ -384,4 +386,4 @@
       target_entity: scene.guest_bath_day
       blocker_entity: binary_sensor.bedtime
       no_motion_wait: 2
-      target_off_entity: light.guest_bath
+      target_off_entity: light.guest_bath_lights

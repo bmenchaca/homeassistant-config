@@ -114,7 +114,7 @@ cards:
 #            name: Bath Switch
 #            tap_action:
 #              action: toggle
-          - entity: light.guest_bath
+          - entity: light.guest_bath_lights
             name: Bath Dimmer
             tap_action:
               action: toggle
