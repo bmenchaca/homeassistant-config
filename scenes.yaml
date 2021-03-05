@@ -124,12 +124,12 @@
   name: gallery_turn_on
   entities:
     switch.gallery_lights: true
-    light.gallery: true
+    light.gallery_flood_bulb: true
 - id: f04c059bb8a50ec653110f257c80
   name: gallery_day_time
   entities:
     switch.gallery_lights: true
-    light.gallery:
+    light.gallery_flood_bulb:
       state: true
       color_temp: 429
       brightness: 254
@@ -137,7 +137,7 @@
   name: gallery_night_time
   entities:
     switch.gallery_lights: true
-    light.gallery:
+    light.gallery_flood_bulb:
       state: true
       color_temp: 500
       brightness: 5
@@ -227,7 +227,7 @@
   entities:
     switch.boys_hall_light: false
     switch.girls_hall_lights: false
-    light.gallery_flood: false
+    light.gallery_flood_bulb: false
     light.game_room: false
     switch.back_porch_lights: false
     switch.master_hall_lights: false
@@ -261,7 +261,7 @@
     cover.susan_garage: closed
     switch.boys_hall_light: false
     switch.girls_hall_lights: false
-    light.gallery_flood: false
+    light.gallery_flood_bulb: false
     light.game_room: false
     light.guest_bath: false
     switch.back_porch_lights: false

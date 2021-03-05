@@ -238,7 +238,7 @@ cards:
             name: Gallery Light
             tap_action:
               action: toggle  
-          - entity: light.gallery
+          - entity: light.gallery_flood_bulb
             name: Gallery Dimmer
             tap_action:
               action: toggle 

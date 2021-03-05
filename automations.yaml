@@ -374,3 +374,14 @@
   action:
   - scene: scene.game_room_off
   mode: single
+- id: '1614914003460'
+  alias: Guest Bathroom Daytime Occupancy and Vacancy
+  description: Guest Bathroom Lights control when bedtime is false
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.guest_bath_motion
+      target_entity: scene.guest_bath_day
+      blocker_entity: binary_sensor.bedtime
+      no_motion_wait: 2
+      target_off_entity: light.guest_bath

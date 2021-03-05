@@ -38,18 +38,18 @@
       friendly_name: "Gallery Combo Lights"
       value_template: >-
         {{ (is_state("switch.gallery_lights", "on") and
-            is_state("light.gallery", "on")) }}
+            is_state("light.gallery_flood_bulb", "on")) }}
       level_template: >-
         {% if is_state("switch.gallery_lights", "on") %}
-          {{ state_attr("light.gallery", "brightness") | int }}
+          {{ state_attr("light.gallery_flood_bulb", "brightness") | int }}
         {% else %}
           0
         {% endif %}
       temperature_template: >-
         {% if is_state("switch.gallery_lights", "on") %}
-          {{ state_attr("light.gallery", "color_temp") | int }}
+          {{ state_attr("light.gallery_flood_bulb", "color_temp") | int }}
         {% else %}
-          {{ state_attr("light.gallery", "min_mireds") }}
+          {{ state_attr("light.gallery_flood_bulb", "min_mireds") }}
         {% endif %}
       turn_on:
         service: scene.turn_on
@@ -59,12 +59,12 @@
         entity_id: switch.gallery_lights
       set_level:
         service: light.turn_on
-        entity_id: light.gallery
+        entity_id: light.gallery_flood_bulb
         data_template:
           brightness: " {{ brightness }} "
       set_temperature:
         service: light.turn_on
-        entity_id: light.gallery
+        entity_id: light.gallery_flood_bulb
         data_template:
           color_temp: " {{ color_temp }} "
 

@@ -337,7 +337,7 @@ gallery:
   name: Gallery
   entities:
     - switch.gallery_lights
-    - light.gallery
+    - light.gallery_flood_bulb
 
 gallery_and_halls_lights:
   name: Gallery and Halls Lights

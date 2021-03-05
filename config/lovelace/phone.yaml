@@ -14,7 +14,7 @@ cards:
         card:
           type: entities
           entities:
-            - light.gallery
+            - light.gallery_flood_bulb
             - light.office_fan
     cards:
       - type: glance
