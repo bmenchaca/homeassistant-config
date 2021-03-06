@@ -288,7 +288,7 @@
       target_entity: scene.guest_day
       blocker_entity: binary_sensor.bedtime
       no_motion_wait: '5'
-      target_off_entity: light.guest
+      target_off_entity: light.guest_fan_lights
 - id: '1613318531905'
   alias: Master Hall Occupancy Vacancy Daytime
   description: ''

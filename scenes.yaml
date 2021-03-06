@@ -176,7 +176,7 @@
   name: guest_day_on
   entities:
     switch.guest_fan_and_lights: true
-    light.guest:
+    light.guest_fan_lights:
       state: true
       color_temp: 429
       brightness: 254
