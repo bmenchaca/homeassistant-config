@@ -150,7 +150,7 @@ cards:
             name: Back Deck Lights
             tap_action:
               action: toggle
-          - entity: light.back_yard
+          - entity: light.back_yard_lights
             name: Back Yard Lights
             tap_action:
               action: toggle

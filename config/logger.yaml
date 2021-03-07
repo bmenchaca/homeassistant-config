@@ -2,6 +2,7 @@ default: warning
 #default: debug
 logs:
   homeassistant.components.mqtt: warning
+  homeassistant.components.light: debug
   # homeassistant.components.scene: debug
   # homeassistant.components.switch: debug
   # homeassistant.components.cover: debug

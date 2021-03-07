@@ -197,7 +197,7 @@
 - id: 982cfb6162fe79599787c78a02c2
   name: backyard_lights_evening_on
   entities:
-    light.back_yard:
+    light.back_yard_lights:
       brightness: 254
       color_temp: 429
       effect_list:
