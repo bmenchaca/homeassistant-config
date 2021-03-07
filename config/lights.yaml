@@ -182,10 +182,10 @@
       friendly_name: "Game Room Combo Lights"
       value_template: >-
         {{ (is_state("switch.game_room_lights", "on") and
-            is_state("light.game_room", "on")) }}
+            is_state("light.game_room_lights", "on")) }}
       level_template: >-
         {% if is_state("switch.game_room_lights", "on") %}
-          {{ state_attr("light.game_room", "brightness") | int }}
+          {{ state_attr("light.game_room_lights", "brightness") | int }}
         {% else %}
           0
         {% endif %}
@@ -197,7 +197,7 @@
         entity_id: switch.game_room_lights
       set_level:
         service: light.turn_on
-        entity_id: light.game_room
+        entity_id: light.game_room_lights
         data_template:
           brightness: " {{ brightness }} "
 
@@ -233,7 +233,7 @@
     - light.guest_fan_bulb_4
 
 - platform: group
-  name: Game Room Fan Lights
+  name: Game Room Lights
   entities:
     - light.game_fan_bulb_1
     - light.game_fan_bulb_2

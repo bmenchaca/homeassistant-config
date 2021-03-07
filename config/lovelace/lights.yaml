@@ -179,7 +179,7 @@ cards:
             name: Game Light
             tap_action:
               action: toggle  
-          - entity: light.game_room
+          - entity: light.game_room_lights
             name: Game Dimmer
             tap_action:
               action: toggle
