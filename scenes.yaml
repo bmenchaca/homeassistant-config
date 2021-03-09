@@ -139,7 +139,7 @@
     switch.gallery_lights: true
     light.gallery_flood_bulb:
       state: true
-      color_temp: 500
+      color_temp: 490
       brightness: 5
 - id: 777ae8ee8dcacc1fbe5bd80f64b7
   name: game_room_not_night
@@ -157,7 +157,7 @@
     light.guest_bath_bulb_2: false
     light.guest_bath_bulb_color:
       state: true
-      color_temp: 500
+      color_temp: 490
       brightness: 5
 - id: f89380a670e89834b214edf424e2
   name: guest_bath_day
@@ -187,7 +187,7 @@
     switch.family_mantle_lights: true
     light.family_mantle_bulb:
       state: true
-      color_temp: 500
+      color_temp: 490
       brightness: 2
 - id: 154ee5bf7e04803c95e6112464a9
   name: family_mantle_on
@@ -205,7 +205,7 @@
       - random
       friendly_name: Back Yard
       is_hue_group: true
-      max_mireds: 500
+      max_mireds: 490
       min_mireds: 153
       state: 'on'
       supported_features: 63
@@ -289,15 +289,15 @@
     light.guest_bath_bulb_color:
       state: true
       brightness: 5
-      color_temp: 500
+      color_temp: 490
     light.gallery_flood_bulb:
       state: true
       brightness: 5
-      color_temp: 500
+      color_temp: 490
     light.family_mantle_bulb:
       state: true
       brightness: 5
-      color_temp: 500
+      color_temp: 490
 - id: bb99d473ecfe30e3ced7d57b2a5f
   name: daytime_regular_lights
   entities:
