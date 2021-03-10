@@ -74,7 +74,7 @@
     state: 'on'
   action:
     service: light.turn_off
-    entity_id: light.noah
+    entity_id: light.noah_lights
 - id: '1578857725197'
   alias: House Bed Time Lights and Security
   description: ''

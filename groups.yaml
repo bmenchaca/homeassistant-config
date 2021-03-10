@@ -263,7 +263,7 @@ front_yard:
 noah_room:
   name: Noah's Room
   entities:
-    - light.noah
+    - light.noah_lights
     - binary_sensor.noah_multisensor_motion
     - sensor.noah_multisensor_temperature
     - sensor.noah_multisensor_humidity
