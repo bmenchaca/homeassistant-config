@@ -259,7 +259,7 @@
       target_entity: scene.family_night
       blocker_entity: binary_sensor.not_bedtime
       no_motion_wait: '2'
-      target_off_entity: light.family_mantle_combo
+      target_off_entity: switch.family_mantle_lights
 - id: '1613271043951'
   alias: Laundry Occupancy Vacancy Lights
   description: ''
@@ -387,3 +387,17 @@
       blocker_entity: binary_sensor.bedtime
       no_motion_wait: 2
       target_off_entity: light.guest_bath_lights
+- id: '1616254051943'
+  alias: Office Lights On
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: switch.office_fan_lights
+    from: 'Off'
+    to: 'On'
+  condition: []
+  action:
+  - service: switch.turn_on
+    target:
+      entity_id: switch.office_lamp
+  mode: single
