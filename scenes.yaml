@@ -392,3 +392,8 @@
   name: Boys Bathroom Lights On
   entities:
     switch.boys_bathroom_light: true
+- id: '1613265576574'
+  name: Office Lights On
+  entities:
+    switch.office_fan_lights: true
+    switch.office_lamp: true
