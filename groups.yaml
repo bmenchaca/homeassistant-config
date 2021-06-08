@@ -435,6 +435,13 @@ master_lavatory:
   entities:
     - switch.master_lavatory_lights
 
+girls_bath_lights:
+  name: Girls Bath Lights
+  entities:
+    - switch.hannah_vanity_lights
+    - switch.heidi_vanity_lights
+    - switch.girls_shower_lights
+
 christmas_outdoor_lights:
   name: Outdoor Christmas Lights
   entities:
