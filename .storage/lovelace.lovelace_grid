@@ -302,6 +302,15 @@
                                             "hold_action": {
                                                 "action": "toggle"
                                             }
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "group.girls_bath_lights",
+                                            "name": "Girls Bath",
+                                            "icon": "mdi:shower-head"
                                         }
                                     ]
                                 },
