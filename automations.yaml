@@ -258,7 +258,7 @@
       motion_sensor: binary_sensor.family_mantle_or_breakfast_motion
       target_entity: scene.family_night
       blocker_entity: binary_sensor.not_bedtime
-      no_motion_wait: '2'
+      no_motion_wait: 2
       target_off_entity: switch.family_mantle_lights
 - id: '1613271043951'
   alias: Laundry Occupancy Vacancy Lights
@@ -400,4 +400,32 @@
   - service: switch.turn_on
     target:
       entity_id: switch.office_lamp
+  mode: single
+- id: '1623118222473'
+  alias: Hannah Vanity Off with Room Lights
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: light.hannah_room_lights
+    from: 'On'
+    to: 'Off'
+  condition: []
+  action:
+  - service: switch.turn_off
+    target:
+      entity_id: switch.hannah_vanity_lights
+  mode: single
+- id: '1623118295643'
+  alias: Heidi Vanity Off with Room Lights
+  description: ''
+  trigger:
+  - platform: state
+    entity_id: light.heidi_room_lights
+    from: 'On'
+    to: 'Off'
+  condition: []
+  action:
+  - service: switch.turn_off
+    target:
+      entity_id: switch.heidi_vanity_lights
   mode: single
