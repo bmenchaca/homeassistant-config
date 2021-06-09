@@ -406,9 +406,9 @@
   description: ''
   trigger:
   - platform: state
-    entity_id: light.hannah_room_lights
-    from: 'On'
-    to: 'Off'
+    entity_id: light.hannah_bed_lightstrip
+    from: 'on'
+    to: 'off'
   condition: []
   action:
   - service: switch.turn_off
@@ -420,9 +420,9 @@
   description: ''
   trigger:
   - platform: state
-    entity_id: light.heidi_room_lights
-    from: 'On'
-    to: 'Off'
+    entity_id: light.heidi_bed_lightstrip
+    from: 'on'
+    to: 'off'
   condition: []
   action:
   - service: switch.turn_off
