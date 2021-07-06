@@ -306,11 +306,15 @@
                                         {
                                             "type": "button",
                                             "tap_action": {
-                                                "action": "toggle"
+                                                "action": "navigate",
+                                                "navigation_path": "girls-bathroom"
                                             },
                                             "entity": "group.girls_bath_lights",
                                             "name": "Girls Bath",
-                                            "icon": "mdi:shower-head"
+                                            "icon": "mdi:shower-head",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
                                         }
                                     ]
                                 },
@@ -2239,6 +2243,50 @@
                                 {
                                     "entity": "cover.susan_garage",
                                     "secondary_info": "last-changed"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Girls Bathroom",
+                    "path": "girls-bathroom",
+                    "icon": "mdi:shower-head",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "## Lights"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.heidi_vanity_lights",
+                                    "name": "Heidi Vanity",
+                                    "icon": "mdi:vanity-light"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.girls_shower_lights",
+                                    "name": "Girls Shower",
+                                    "icon": "mdi:wall-sconce-flat"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.hannah_vanity_lights",
+                                    "name": "Hannah Vanity",
+                                    "icon": "mdi:vanity-light"
                                 }
                             ]
                         }
