@@ -216,7 +216,7 @@
       motion_sensor: binary_sensor.boys_bathroom_motion
       target_entity: switch.boys_bathroom_light
       blocker_entity: binary_sensor.bedtime
-      no_motion_wait: '8'
+      no_motion_wait: 15
 - id: '1613270282366'
   alias: Boys Bath Occupancy Vacancy Bedtime
   description: Boys Bath Occupancy Vacancy Bedtime
@@ -226,7 +226,7 @@
       motion_sensor: binary_sensor.boys_bathroom_motion
       target_entity: switch.boys_bathroom_light
       blocker_entity: binary_sensor.not_bedtime
-      no_motion_wait: '2'
+      no_motion_wait: 5
 - id: '1613270466936'
   alias: Gallery Occupancy Vacancy Daytime
   description: Gallery Occupancy Vacancy Daytime

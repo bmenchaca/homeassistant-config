@@ -6,12 +6,16 @@
   name: craft_room_switch_off
   entities:
     switch.craft_fan_and_lights: false
+    switch.craft_lamp: false
+    light.craft_lightstrip: false
     light.craft_ambiance_lamp_1: false
     light.craft_ambiance_lamp_2: false
 - id: 4d9992b85c17dc560746551a4637
   name: craft_room_switch_on
   entities:
     switch.craft_fan_and_lights: true
+    switch.craft_lamp: true
+    light.craft_lightstrip: true
     light.craft_ambiance_lamp_1: true
     light.craft_ambiance_lamp_2: true
 - id: 1adef16cf351e7add2b9d0af963c
