@@ -110,3 +110,5 @@ switch.craft_fan_and_lights:
   icon: mdi:fan
 switch.master_fan_lights:
   icon: mdi:ceiling-light
+device_tracker.life360_noah_menchaca:
+  friendly_name: Noah Life360

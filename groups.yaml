@@ -201,33 +201,39 @@ deck:
   name: Deck
   entities:
     - switch.back_porch_lights
-    - light.deck_bar_lightstrip
-    - light.deck_bar_lightstrip_2
-    - light.deck_lower_railing_lightstrip
-    - light.deck_lower_lightstrip
-    - light.deck_breakfast_stairs_lightstrip
-    - light.deck_big_tree_spot
-    - light.deck_pool_stairs_calla
+    - light.deck_bar_1
+    - light.deck_bar_2
+    - light.deck_lower_stairs
+    - light.deck_lower_seating
+    - light.deck_breakfast_stairs
     - camera.back_deck_camera
+
+pool:
+  name: Pool
+  entities:
+    - light.pool_surround_right_2
+    - light.pool_surround_right_3
+    - light.pool_surround_right_5
 
 deck_lights:
   name: Deck Lights
   entities:
     - light.back_porch_light
-    - light.deck_bar_lightstrip
-    - light.deck_bar_lightstrip_2
-    - light.deck_lower_railing_lightstrip
-    - light.deck_lower_lightstrip
-    - light.deck_breakfast_stairs_lightstrip
+    - light.deck_bar_1
+    - light.deck_bar_2
+    - light.deck_lower_stairs
+    - light.deck_lower_seating
+    - light.deck_breakfast_stairs
 
 back_yard_lights:
   name: Back Yard Lights
   entities:
-    - light.deck_big_tree_spot
-    - light.deck_pool_stairs_calla
-    - light.pool_pump_center_calla
-    - light.pool_pump_gate_calla
-    - light.pool_pump_deck_calla
+    - light.pool_pump_bollard
+    - light.pool_pump_gate_bollard
+    - light.pool_pump_deck_bollard
+    - light.pool_surround_right_2
+    - light.pool_surround_right_3
+    - light.pool_surround_right_5
 
 garden:
   name: Garden
@@ -238,9 +244,12 @@ garden:
 back_yard:
   name: Back Yard
   entities:
-    - light.pool_pump_center_calla
-    - light.pool_pump_deck_calla
-    - light.pool_pump_gate_calla
+    - light.pool_pump_bollard
+    - light.pool_pump_deck_bollard
+    - light.pool_pump_gate_bollard
+    - light.pool_surround_right_2
+    - light.pool_surround_right_3
+    - light.pool_surround_right_5
     - camera.back_east_gate_camera
     - camera.back_pool_camera
 

@@ -274,33 +274,41 @@
 - platform: group
   name: Back Yard Lights
   entities:
-    - light.pool_pump_center_calla
-    - light.pool_pump_deck_calla
-    - light.pool_pump_gate_calla
-    - light.deck_pool_stairs_calla
-    - light.deck_big_tree_spot
-    - light.deck_bar_lightstrip
-    - light.deck_bar_lightstrip_2
-    - light.deck_breakfast_stairs_lightstrip
-    - light.deck_lower_railing_lightstrip
-    - light.deck_lower_lightstrip
+    - light.pool_pump_bollard
+    - light.pool_pump_deck_bollard
+    - light.pool_pump_gate_bollard
+    - light.pool_surround_right_2
+    - light.pool_surround_right_3
+    - light.pool_surround_right_5
+    - light.deck_bar_1
+    - light.deck_bar_2
+    - light.deck_breakfast_stairs
+    - light.deck_lower_stairs
+    - light.deck_lower_seating
     - light.back_porch_light
 
 - platform: group
   name: Pool Pump Lights
   entities:
-    - light.pool_pump_center_calla
-    - light.pool_pump_deck_calla
-    - light.pool_pump_gate_calla
+    - light.pool_pump_bollard
+    - light.pool_pump_deck_bollard
+    - light.pool_pump_gate_bollard
+
+- platform: group
+  name: Pool Lights
+  entities:
+    - light.pool_surround_right_2
+    - light.pool_surround_right_3
+    - light.pool_surround_right_5
 
 - platform: group
   name: Back Deck Lights
   entities:
-    - light.deck_bar_lightstrip
-    - light.deck_bar_lightstrip_2
-    - light.deck_breakfast_stairs_lightstrip
-    - light.deck_lower_railing_lightstrip
-    - light.deck_lower_lightstrip
+    - light.deck_bar_1
+    - light.deck_bar_2
+    - light.deck_breakfast_stairs
+    - light.deck_lower_stairs
+    - light.deck_lower_seating
     - light.back_porch_light
 
 # Other Groups

@@ -16,9 +16,12 @@
   trigger:
   - platform: numeric_state
     entity_id: sensor.heidi_temperature
-    above: '72'
+    above: '75'
     for:
-      minutes: 5
+      hours: 0
+      minutes: 10
+      seconds: 0
+      milliseconds: 0
   action:
   - service: homeassistant.turn_off
     entity_id: switch.heidi_heater
@@ -28,7 +31,7 @@
   trigger:
   - platform: numeric_state
     entity_id: sensor.heidi_temperature
-    below: '70'
+    below: '71'
     for:
       minutes: 5
   action:
@@ -79,11 +82,12 @@
   alias: House Bed Time Lights and Security
   description: ''
   trigger:
-  - at: '20:30'
+  - at: '20:29:00'
     platform: time
   condition: []
   action:
   - scene: scene.evening_security_check
+  mode: single
 - id: '1579134844492'
   alias: Restart Home Assistant
   description: Restart Home Assistant Every Day
@@ -443,3 +447,11 @@
     target:
       entity_id: switch.hannah_vanity_lights
   mode: single
+- id: '1636411901610'
+  alias: Craft Lights on Motion
+  description: ''
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.craft_motion
+      target_entity: scene.craft_room_switch_on

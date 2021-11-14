@@ -1387,13 +1387,6 @@
                                     "entity": "light.hannah_desk_strip",
                                     "icon": "mdi:led-strip-variant",
                                     "name": "Hannah Desk"
-                                },
-                                {
-                                    "type": "button",
-                                    "tap_action": {
-                                        "action": "toggle"
-                                    },
-                                    "entity": "light.noah_monitor_instance"
                                 }
                             ]
                         },
@@ -2148,6 +2141,15 @@
                                     "entity": "switch.craft_fan_and_lights",
                                     "name": "Fan and Lights",
                                     "icon": "mdi:light-switch"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.craft_lightstrip",
+                                    "name": "Light Strip",
+                                    "icon": "mdi:led-strip-variant"
                                 }
                             ]
                         },

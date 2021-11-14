@@ -4,6 +4,9 @@ logs:
   homeassistant.components.mqtt: warning
   # homeassistant.components.light: debug
   # homeassistant.components.scene: debug
+  # homeassistant.components.automation: debug
+  # homeassistant.components.script: debug
+  # homeassistant.components.light: debug
   # homeassistant.components.switch: debug
   # homeassistant.components.cover: debug
   # homeassistant.components.device_tracker: debug
