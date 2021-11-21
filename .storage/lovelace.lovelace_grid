@@ -449,6 +449,28 @@
                                             "icon": "mdi:lightbulb-group"
                                         },
                                         {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "toggle"
+                                            },
+                                            "entity": "group.pool_lights",
+                                            "name": "Pool Lights",
+                                            "icon": "mdi:lightbulb-group"
+                                        },
+                                        {
+                                            "type": "button",
+                                            "tap_action": {
+                                                "action": "navigate",
+                                                "navigation_path": "pool"
+                                            },
+                                            "entity": "group.pool",
+                                            "name": "Pool Control",
+                                            "icon": "mdi:pool",
+                                            "hold_action": {
+                                                "action": "toggle"
+                                            }
+                                        },
+                                        {
                                             "type": "picture-entity",
                                             "entity": "camera.back_east_gate_camera",
                                             "name": "Gate",
@@ -2289,6 +2311,90 @@
                                     "entity": "switch.hannah_vanity_lights",
                                     "name": "Hannah Vanity",
                                     "icon": "mdi:vanity-light"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Pool",
+                    "path": "pool",
+                    "icon": "mdi:pool",
+                    "badges": [],
+                    "cards": [
+                        {
+                            "type": "markdown",
+                            "content": "# Controls"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.pool_pump",
+                                    "name": "Pump",
+                                    "icon": "mdi:pipe"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.pool_pump_high",
+                                    "name": "Pump High",
+                                    "icon": "mdi:pipe-valve"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.pool_cleaner",
+                                    "name": "Cleaner",
+                                    "icon": "mdi:robot-mower-outline"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "switch.pool_waterfall",
+                                    "icon": "mdi:waterfall",
+                                    "name": "Waterfall"
+                                },
+                                {
+                                    "type": "button",
+                                    "tap_action": {
+                                        "action": "toggle"
+                                    },
+                                    "entity": "light.pool_underwater",
+                                    "name": "Underwater Lights",
+                                    "icon": "mdi:lightbulb-spot"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "markdown",
+                            "content": "# Environmental"
+                        },
+                        {
+                            "type": "grid",
+                            "cards": [
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.pool_air_temperature",
+                                    "graph": "line",
+                                    "name": "Air Temp"
+                                },
+                                {
+                                    "type": "sensor",
+                                    "entity": "sensor.pool_pump_rpm",
+                                    "graph": "line",
+                                    "name": "Pump PRM",
+                                    "icon": "mdi:water-pump"
                                 }
                             ]
                         }

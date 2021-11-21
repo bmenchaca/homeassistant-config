@@ -211,9 +211,9 @@ deck:
 pool:
   name: Pool
   entities:
-    - light.pool_surround_right_2
-    - light.pool_surround_right_3
-    - light.pool_surround_right_5
+    - switch.cleaner
+    - switch.pool_pump_high
+    - switch.pool_waterfall
 
 deck_lights:
   name: Deck Lights
@@ -231,9 +231,16 @@ back_yard_lights:
     - light.pool_pump_bollard
     - light.pool_pump_gate_bollard
     - light.pool_pump_deck_bollard
+      
+pool_lights:
+  name: Pool Lights
+  entities:
+    - light.pool_surround_right_1
     - light.pool_surround_right_2
     - light.pool_surround_right_3
+    - light.pool_surround_right_4
     - light.pool_surround_right_5
+    - light.pool_underwater
 
 garden:
   name: Garden
