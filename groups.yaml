@@ -240,6 +240,10 @@ pool_lights:
     - light.pool_surround_right_3
     - light.pool_surround_right_4
     - light.pool_surround_right_5
+    - light.pool_surround_left_1
+    - light.pool_surround_left_2
+    - light.pool_surround_left_3
+    - light.pool_surround_left_4
     - light.pool_underwater
 
 garden:
@@ -254,9 +258,15 @@ back_yard:
     - light.pool_pump_bollard
     - light.pool_pump_deck_bollard
     - light.pool_pump_gate_bollard
+    - light.pool_surround_right_1
     - light.pool_surround_right_2
     - light.pool_surround_right_3
+    - light.pool_surround_right_4
     - light.pool_surround_right_5
+    - light.pool_surround_left_1
+    - light.pool_surround_left_2
+    - light.pool_surround_left_3
+    - light.pool_surround_left_4
     - camera.back_east_gate_camera
     - camera.back_pool_camera
 

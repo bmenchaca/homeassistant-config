@@ -455,3 +455,25 @@
     input:
       motion_sensor: binary_sensor.craft_motion
       target_entity: scene.craft_room_switch_on
+- id: '1637882855833'
+  alias: Christmas Lights Nighttime
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunset
+    offset: '0'
+  condition: []
+  action:
+  - scene: scene.christmas_lights_nighttime
+  mode: single
+- id: '1637882935990'
+  alias: Christmas Lights Daytime
+  description: ''
+  trigger:
+  - platform: sun
+    event: sunrise
+    offset: -04:00
+  condition: []
+  action:
+  - scene: scene.christmas_lights_daytime
+  mode: single
