@@ -81,7 +81,7 @@ cards:
       - binary_sensor.garage_motion
       - binary_sensor.family_mantle_motion
       - binary_sensor.family_mantle_and_breakfast_motion
-      - binary_sensor.dining_motion
+      - binary_sensor.kids_study_motion
       - binary_sensor.dining_and_stairs_motion
       - binary_sensor.stairs_motion
       - binary_sensor.master_hall_motion

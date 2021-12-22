@@ -1,8 +1,7 @@
-default: warning
+default: info
 #default: debug
 logs:
-  homeassistant.components.mqtt: warning
-  # homeassistant.components.light: debug
+  homeassistant.components.automation: info
   # homeassistant.components.scene: debug
   # homeassistant.components.automation: debug
   # homeassistant.components.script: debug

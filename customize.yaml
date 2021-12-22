@@ -1,37 +1,9 @@
-switch.office_fan:
-  icon: mdi:fan
-switch.office_fan_lights:
-  icon: mdi:ceiling-light
-switch.office_heater:
-  icon: mdi:radiator
-switch.office_lamp:
-  icon: mdi:floor-lamp
 binary_sensor.office_window_1:
   icon: mdi:window-closed
 binary_sensor.office_window_2:
   icon: mdi:window-closed
 light.office_go:
   icon: mdi:wall-sconce-round-variant
-switch.boys_hall_light:
-  icon: mdi:candle
-switch.boys_bathroom_light:
-  icon: mdi:lightbulb
-switch.girls_hall_lights:
-  icon: mdi:candle
-switch.game_room_fan:
-  icon: mdi:fan
-switch.game_room_lights:
-  icon: mdi:ceiling-light
-switch.gallery_lights:
-  icon: mdi:ceiling-light
-switch.stairs_lights:
-  icon: mdi:ceiling-light
-switch.back_porch_lights:
-  icon: mdi:coach-lamp
-switch.garage_carriage_lights:
-  icon: mdi:wall-sconce
-switch.entry_christmas_lights:
-  icon: mdi:string-lights
 light.heidi_bed_lightstrip:
   icon: mdi:led-strip-variant
 light.heidi_fan_lights:
@@ -44,71 +16,19 @@ light.hannah_fan_lights:
   icon: mdi:ceiling-light
 light.kids_study:
   icon: mdi:led-strip-variant
-switch.front_porch_lights:
-  icon: mdi:ceiling-light
-switch.entry_lights:
-  icon: mdi:ceiling-light
-switch.entry_lamp:
-  icon: mdi:floor-lamp
-switch.guest_hall_lights:
-  icon: mdi:ceiling-light
-switch.guest_bath_lights:
-  icon: mdi:lightbulb
-light.guest_fan_lights:
-  icon: mdi:ceiling-light
-switch.master_hall_lights:
-  icon: mdi:ceiling-light
-switch.kitchen_lights:
-  icon: mdi:lightbulb
-switch.breakfast_lights:
-  icon: mdi:lightbulb
-switch.kitchen_pantry_light:
-  icon: mdi:lightbulb
-switch.family_fan:
-  icon: mdi:fan
-switch.family_mantle_lights:
-  icon: mdi:track-light
-switch.kids_study_lights:
-  icon: mdi:ceiling-light
-switch.guest_fan_and_lights:
-  icon: mdi:fan
-switch.family_fan_lights:
-  icon: mdi:ceiling-light
-light.family_fan_lights:
-  icon: mdi:ceiling-light
 binary_sensor.laundry_closet_door:
   device_class: door
 binary_sensor.master_closet_door:
   device_class: door
 binary_sensor.pantry_door:
   device_class: door
-switch.garage_lights:
-  icon: mdi:lightbulb
-switch.master_fan:
-  icon: mdi:fan
-switch.craft_fan:
-  icon: mdi:fan
-switch.master_bath_tub_lights:
-  icon: mdi:track-light
-switch.master_closet_lights:
-  icon: mdi:ceiling-light
 light.heidi_closet:
   icon: mdi:ceiling-light
-switch.heidi_heater:
-  icon: mdi:radiator
 light.heidi_go:
   icon: mdi:mdi:wall-sconce-round-variant
 input_boolean.bedtime:
   hidden: true
-switch.guest_heater:
-  icon: mdi:radiator
 switch.family_room_tv_power:
   icon: mdi:television
-switch.heidi_fan_and_lights:
-  icon: mdi:fan
-switch.craft_fan_and_lights:
-  icon: mdi:fan
-switch.master_fan_lights:
-  icon: mdi:ceiling-light
 device_tracker.life360_noah_menchaca:
   friendly_name: Noah Life360

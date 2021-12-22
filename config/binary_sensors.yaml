@@ -63,130 +63,16 @@
       friendly_name: 'Dining and Stairs Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("binary_sensor.dining_motion", "on") and
+        {{ is_state("binary_sensor.kids_study_motion", "on") and
            is_state("binary_sensor.stairs_motion", "on") }}
 
     dining_stairs_or_master_hall_motion:
       friendly_name: 'Dining, Stairs or Master Hall Motion'
       device_class: motion
       value_template: >-
-        {{ is_state("binary_sensor.dining_motion", "on") or
+        {{ is_state("binary_sensor.kids_study_motion", "on") or
            is_state("binary_sensor.master_hall_motion", "on") or
            is_state("binary_sensor.stairs_motion", "on") }}
-
-    breakfast_motion:
-      friendly_name: 'Breakfast Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.breakfast_lights_burglar", "8") }}
-
-    family_mantle_motion:
-      friendly_name: 'Family Mantle Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.family_mantle_burglar", "8") }}
-
-    craft_motion:
-      friendly_name: 'Craft Room Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.craft_burglar", "8") }}
-
-    dining_motion:
-      friendly_name: 'Dining Room Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.kids_study_burglar", "8") }}
-
-    stairs_motion:
-      friendly_name: 'Stairs Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.stairs_burglar", "8") }}
-
-    entry_motion:
-      friendly_name: 'Entry Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.front_porch_switch_burglar", "8") }}
-
-    garage_motion:
-      friendly_name: 'Garage Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.garage_burglar", "8") }}
-
-    guest_bath_motion:
-      friendly_name: 'Guest Bath Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.guest_bath_burglar", "8") }}
-
-    guest_motion:
-      friendly_name: 'Guest Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.guest_burglar", "8") }}
-
-    master_motion:
-      friendly_name: 'Master Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.master_fan_burglar", "8") }}
-
-    laundry_motion:
-      friendly_name: 'Laundry Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.laundry_burglar", "8") }}
-
-    master_hall_motion:
-      friendly_name: 'Master Hall Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.master_hall_burglar", "8") }}
-
-    master_bath_motion:
-      friendly_name: 'Master Bath Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.master_bath_burglar", "8") }}
-
-    boys_hall_motion:
-      friendly_name: 'Boys Hall Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.boys_hall_burglar", "8") }}
-
-    boys_bathroom_motion:
-      friendly_name: 'Boys Bathroom Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.boys_bathroom_burglar", "8") }}
-
-    gallery_motion:
-      friendly_name: 'Gallery Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.gallery_lights_burglar", "8") }}
-
-    game_room_motion:
-      friendly_name: 'Game Room Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.game_room_fan_burglar", "8") }}
-
-    girls_hall_motion:
-      friendly_name: 'Girls Hall Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.girls_hall_burglar", "8") }}
-
-    office_motion:
-      friendly_name: 'Office Motion'
-      device_class: motion
-      value_template: >-
-        {{ is_state("sensor.office_fan_switch_burglar", "8") }}
 
 ###############################################################################
 # Camera Motion

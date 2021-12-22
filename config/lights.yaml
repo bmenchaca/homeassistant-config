@@ -286,6 +286,7 @@
     - light.pool_surround_left_2
     - light.pool_surround_left_3
     - light.pool_surround_left_4
+    - light.pool_surround_left_5
     - light.deck_bar_1
     - light.deck_bar_2
     - light.deck_breakfast_stairs
@@ -312,6 +313,7 @@
     - light.pool_surround_left_2
     - light.pool_surround_left_3
     - light.pool_surround_left_4
+    - light.pool_surround_left_5
 
 - platform: group
   name: Back Deck Lights
