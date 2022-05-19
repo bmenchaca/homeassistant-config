@@ -9,3 +9,6 @@ ip_ban_enabled: False
 #server_port: !secret http_port
 #trusted_networks:
 #  - 192.168.0.0/16
+use_x_forwarded_for: true
+trusted_proxies:
+  10.10.0.0/18

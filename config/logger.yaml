@@ -1,7 +1,7 @@
-default: info
+default: warning
 #default: debug
 logs:
-  homeassistant.components.automation: info
+  homeassistant.components.automation: warning
   # homeassistant.components.scene: debug
   # homeassistant.components.automation: debug
   # homeassistant.components.script: debug

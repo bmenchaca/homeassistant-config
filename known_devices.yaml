@@ -427,3 +427,10 @@ life360_noah_menchaca:
   name: life360 noah menchaca
   picture:
   track: true
+
+life360_hannah_menchaca:
+  name: life360_hannah_menchaca
+  mac:
+  icon:
+  picture: https://www.life360.com/img/user_images/95f52e7b-7b49-4576-8589-a6de8c5a249a/00718fd0-4510-4f90-a273-5c38ae2561e0.jpg?fd=2
+  track: true

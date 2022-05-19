@@ -1,5 +1,6 @@
 {
     "version": 1,
+    "minor_version": 1,
     "key": "lovelace.lovelace_grid",
     "data": {
         "config": {
@@ -1416,7 +1417,7 @@
                             "type": "entities",
                             "entities": [
                                 {
-                                    "entity": "binary_sensor.dining_motion",
+                                    "entity": "binary_sensor.kids_study_motion",
                                     "name": "Motion",
                                     "icon": "mdi:motion-sensor",
                                     "secondary_info": "last-changed"

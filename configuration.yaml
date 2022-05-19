@@ -21,7 +21,6 @@ zeroconf:
 # Auto-discover new or changed services
 discovery: !include config/discovery.yaml
 map:
-updater:
 config:
 sun:
 lovelace: 
