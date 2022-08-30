@@ -8,13 +8,13 @@
             is_state("light.gallery_flood_bulb", "on")) }}
       level_template: >-
         {% if is_state("switch.gallery_lights", "on") %}
-          {{ state_attr("light.gallery_flood_bulb", "brightness") | int }}
+          {{ state_attr("light.gallery_flood_bulb", "brightness") | int(0) }}
         {% else %}
           0
         {% endif %}
       temperature_template: >-
         {% if is_state("switch.gallery_lights", "on") %}
-          {{ state_attr("light.gallery_flood_bulb", "color_temp") | int }}
+          {{ state_attr("light.gallery_flood_bulb", "color_temp") | int(0) }}
         {% else %}
           {{ state_attr("light.gallery_flood_bulb", "min_mireds") }}
         {% endif %}
@@ -44,13 +44,13 @@
             is_state("light.guest_bath_lights", "on")) }}
       level_template: >-
         {% if is_state("switch.guest_bath_lights", "on") %}
-          {{ state_attr("light.guest_bath_lights", "brightness") | int }}
+          {{ state_attr("light.guest_bath_lights", "brightness") | int(0) }}
         {% else %}
           0
         {% endif %}
       temperature_template: >-
         {% if is_state("switch.guest_bath_lights", "on") %}
-          {{ state_attr("light.guest_bath_lights", "color_temp") | int }}
+          {{ state_attr("light.guest_bath_lights", "color_temp") | int(0) }}
         {% else %}
           {{ state_attr("light.guest_bath_lights", "min_mireds") }}
         {% endif %}
@@ -80,13 +80,13 @@
             is_state("light.master_hall_lights", "on")) }}
       level_template: >-
         {% if is_state("switch.master_hall_lights", "on") %}
-          {{ state_attr("light.master_hall_lights", "brightness") | int }}
+          {{ state_attr("light.master_hall_lights", "brightness") | int(0) }}
         {% else %}
           0
         {% endif %}
       temperature_template: >-
         {% if is_state("switch.master_hall_lights", "on") %}
-          {{ state_attr("light.master_hall_lights", "color_temp") | int }}
+          {{ state_attr("light.master_hall_lights", "color_temp") | int(0) }}
         {% else %}
           {{ state_attr("light.master_hall_lights", "min_mireds") }}
         {% endif %}
@@ -116,13 +116,13 @@
             is_state("light.family_mantle_bulb", "on")) }}
       level_template: >-
         {% if is_state("switch.family_mantle_lights", "on") %}
-          {{ state_attr("light.family_mantle_bulb", "brightness") | int }}
+          {{ state_attr("light.family_mantle_bulb", "brightness") | int(0) }}
         {% else %}
           0
         {% endif %}
       temperature_template: >-
         {% if is_state("switch.family_mantle_lights", "on") %}
-          {{ state_attr("light.family_mantle_bulb", "color_temp") | int }}
+          {{ state_attr("light.family_mantle_bulb", "color_temp") | int(0) }}
         {% else %}
           {{ state_attr("light.family_mantle_bulb", "min_mireds") }}
         {% endif %}
@@ -152,7 +152,7 @@
             is_state("light.game_room_lights", "on")) }}
       level_template: >-
         {% if is_state("switch.game_room_lights", "on") %}
-          {{ state_attr("light.game_room_lights", "brightness") | int }}
+          {{ state_attr("light.game_room_lights", "brightness") | int(0) }}
         {% else %}
           0
         {% endif %}
