@@ -48,5 +48,4 @@ script: !include scripts.yaml
 ffmpeg: !include config/ffmpeg.yaml
 alarm_control_panel: !include config/alarm_control_panel.yaml
 camera: !include config/camera.yaml
-life360: !include config/life360.yaml
 system_health:

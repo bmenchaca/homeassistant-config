@@ -477,3 +477,19 @@
   action:
   - scene: scene.christmas_lights_daytime
   mode: single
+- id: '1657462874758'
+  alias: Craft Lights Off with Master Lights
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - light.master_fan_lights
+    from: 'on'
+    to: 'off'
+  condition: []
+  action:
+  - service: scene.turn_on
+    data: {}
+    target:
+      entity_id: scene.craft_room_switch_off
+  mode: single
