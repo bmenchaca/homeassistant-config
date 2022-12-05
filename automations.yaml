@@ -461,7 +461,7 @@
   trigger:
   - platform: sun
     event: sunset
-    offset: '0'
+    offset: '30'
   condition: []
   action:
   - scene: scene.christmas_lights_nighttime

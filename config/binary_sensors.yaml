@@ -12,7 +12,7 @@
 
 - platform: tod
   name: weekend_bedtime
-  after: '21:15'
+  after: '20:30'
   before: '8:00'
 
 - platform: tod

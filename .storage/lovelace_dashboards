@@ -1,17 +1,18 @@
 {
-    "version": 1,
-    "key": "lovelace_dashboards",
-    "data": {
-        "items": [
-            {
-                "require_admin": false,
-                "show_in_sidebar": true,
-                "icon": "mdi:grid",
-                "title": "Grid",
-                "url_path": "lovelace-grid",
-                "mode": "storage",
-                "id": "lovelace_grid"
-            }
-        ]
-    }
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_dashboards",
+  "data": {
+    "items": [
+      {
+        "require_admin": false,
+        "show_in_sidebar": true,
+        "icon": "mdi:grid",
+        "title": "Grid",
+        "url_path": "lovelace-grid",
+        "mode": "storage",
+        "id": "lovelace_grid"
+      }
+    ]
+  }
 }
