@@ -1,0 +1,388 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace.dashboard_security",
+  "data": {
+    "config": {
+      "views": [
+        {
+          "title": "Downstairs",
+          "icon": "mdi:home",
+          "path": "downstairs",
+          "panel": true,
+          "badges": [],
+          "cards": [
+            {
+              "type": "picture-elements",
+              "image": "/local/images/downstairs-security.png",
+              "elements": [
+                {
+                  "type": "conditional",
+                  "conditions": [
+                    {
+                      "entity": "binary_sensor.breakfast_motion",
+                      "state": "on"
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image": "/local/images/breakfast-motion.png",
+                      "style": {
+                        "width": "14.13%",
+                        "left": "20.65%",
+                        "top": "57.85%",
+                        "z-index": 10,
+                        "transform": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "conditional",
+                  "conditions": [
+                    {
+                      "entity": "binary_sensor.family_mantle_motion",
+                      "state": "on"
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image": "/local/images/family-motion.png",
+                      "style": {
+                        "width": "8.19%",
+                        "left": "36.88%",
+                        "top": "57.41%",
+                        "z-index": 10,
+                        "transform": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "conditional",
+                  "conditions": [
+                    {
+                      "entity": "binary_sensor.family_mantle_and_breakfast_motion",
+                      "state": "on"
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image": "/local/images/breakfast-and-family-motion.png",
+                      "style": {
+                        "width": "11.5%",
+                        "left": "27.22%",
+                        "top": "57.41%",
+                        "z-index": 10,
+                        "transform": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "conditional",
+                  "conditions": [
+                    {
+                      "entity": "binary_sensor.kids_study_motion",
+                      "state": "on"
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image": "/local/images/dining-motion.png",
+                      "style": {
+                        "width": "9.7%",
+                        "left": "19.11%",
+                        "top": "42.61%",
+                        "z-index": 10,
+                        "transform": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "conditional",
+                  "conditions": [
+                    {
+                      "entity": "binary_sensor.entry_motion",
+                      "state": "on"
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image": "/local/images/entry-motion.png",
+                      "style": {
+                        "width": "15.55%",
+                        "left": "35.5%",
+                        "top": "33.95%",
+                        "z-index": 10,
+                        "transform": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "conditional",
+                  "conditions": [
+                    {
+                      "entity": "binary_sensor.dining_and_stairs_motion",
+                      "state": "on"
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image": "/local/images/dining-and-stairs-motion.png",
+                      "style": {
+                        "width": "10.1%",
+                        "left": "26.9%",
+                        "top": "37.26%",
+                        "z-index": 10,
+                        "transform": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "conditional",
+                  "conditions": [
+                    {
+                      "entity": "binary_sensor.stairs_motion",
+                      "state": "on"
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image": "/local/images/stairs-motion.png",
+                      "style": {
+                        "width": "15.15%",
+                        "left": "29.17%",
+                        "top": "47.81%",
+                        "z-index": 10,
+                        "transform": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "conditional",
+                  "conditions": [
+                    {
+                      "entity": "binary_sensor.master_hall_motion",
+                      "state": "on"
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image": "/local/images/master-hall-motion.png",
+                      "style": {
+                        "width": "10.7%",
+                        "left": "44.4%",
+                        "top": "53.65%",
+                        "z-index": 10,
+                        "transform": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "conditional",
+                  "conditions": [
+                    {
+                      "entity": "binary_sensor.laundry_motion",
+                      "state": "on"
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image": "/local/images/laundry-motion.png",
+                      "style": {
+                        "width": "10.2%",
+                        "left": "48.28%",
+                        "top": "48.15%",
+                        "z-index": 10,
+                        "transform": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "conditional",
+                  "conditions": [
+                    {
+                      "entity": "binary_sensor.garage_motion",
+                      "state": "on"
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image": "/local/images/garage-motion.png",
+                      "style": {
+                        "width": "18.5%",
+                        "left": "51.55%",
+                        "top": "38.55%",
+                        "z-index": 10,
+                        "transform": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "conditional",
+                  "conditions": [
+                    {
+                      "entity": "binary_sensor.guest_bath_motion",
+                      "state": "on"
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image": "/local/images/guest-bath-motion.png",
+                      "style": {
+                        "width": "9.5%",
+                        "left": "14.8%",
+                        "top": "37.39%",
+                        "z-index": 10,
+                        "transform": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "conditional",
+                  "conditions": [
+                    {
+                      "entity": "binary_sensor.guest_motion",
+                      "state": "on"
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image": "/local/images/guest-motion.png",
+                      "style": {
+                        "width": "4.5%",
+                        "left": "24.57%",
+                        "top": "27.9%",
+                        "z-index": 10,
+                        "transform": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "conditional",
+                  "conditions": [
+                    {
+                      "entity": "binary_sensor.master_motion",
+                      "state": "on"
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image": "/local/images/master-motion.png",
+                      "style": {
+                        "width": "15.75%",
+                        "left": "49.55%",
+                        "top": "57.45%",
+                        "z-index": 10,
+                        "transform": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "conditional",
+                  "conditions": [
+                    {
+                      "entity": "binary_sensor.craft_motion",
+                      "state": "on"
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image": "/local/images/craft-motion.png",
+                      "style": {
+                        "width": "15.0%",
+                        "left": "57.95%",
+                        "top": "44.3%",
+                        "z-index": 10,
+                        "transform": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "conditional",
+                  "conditions": [
+                    {
+                      "entity": "binary_sensor.master_bath_motion",
+                      "state": "on"
+                    }
+                  ],
+                  "elements": [
+                    {
+                      "type": "image",
+                      "image": "/local/images/master-bath-motion.png",
+                      "style": {
+                        "width": "11.75%",
+                        "left": "65.55%",
+                        "top": "61.3%",
+                        "z-index": 10,
+                        "transform": "none"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "image",
+                  "entity": "sensor.ben_garage_car_present",
+                  "image": "/local/images/camry.png",
+                  "state_filter": {
+                    "yes": "opacity(1)",
+                    "no": "opacity(0)",
+                    "n/a": "opacity(.25)"
+                  },
+                  "style": {
+                    "width": "7.5%",
+                    "left": "57.5%",
+                    "top": "37%",
+                    "z-index": 20
+                  }
+                },
+                {
+                  "type": "image",
+                  "entity": "sensor.susan_garage_car_present",
+                  "image": "/local/images/sienna.png",
+                  "state_filter": {
+                    "yes": "opacity(1)",
+                    "no": "opacity(0)",
+                    "n/a": "opacity(.25)"
+                  },
+                  "style": {
+                    "width": "9.5%",
+                    "left": "75%",
+                    "top": "31%",
+                    "z-index": 20
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

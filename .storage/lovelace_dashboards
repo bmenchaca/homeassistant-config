@@ -12,6 +12,15 @@
         "url_path": "lovelace-grid",
         "mode": "storage",
         "id": "lovelace_grid"
+      },
+      {
+        "show_in_sidebar": true,
+        "icon": "mdi:motion-sensor",
+        "title": "Security",
+        "require_admin": true,
+        "mode": "storage",
+        "url_path": "dashboard-security",
+        "id": "dashboard_security"
       }
     ]
   }
