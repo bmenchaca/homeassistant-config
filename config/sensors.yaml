@@ -52,73 +52,26 @@
 
 - platform: template
   sensors:
-    susan_garage_status:
-      friendly_name: 'Susan Garage Door Status'
-      value_template: >-
-        {%- if states.cover.susan_garage %}
-          {% if states.cover.susan_garage.attributes["door_state"] == "open" %}
-            Open
-          {% elif states.cover.susan_garage.attributes["door_state"] == "closed" %}
-            Closed
-          {% elif states.cover.susan_garage.attributes["door_state"] == "opening" %}
-            Opening
-          {% elif states.cover.susan_garage.attributes["door_state"] == "closing" %}
-            Closing
-          {% else %}
-            Unknown
-          {% endif %}
-        {% else %}
-          n/a
-        {% endif %}
-
-    ben_garage_status:
-      friendly_name: 'Ben Garage Door Status'
-      value_template: >-
-        {%- if states.cover.ben_garage %}
-          {% if states.cover.ben_garage.attributes["door_state"] == "open" %}
-            Open
-          {% elif states.cover.ben_garage.attributes["door_state"] == "closed" %}
-            Closed
-          {% elif states.cover.ben_garage.attributes["door_state"] == "opening" %}
-            Opening
-          {% elif states.cover.ben_garage.attributes["door_state"] == "closing" %}
-            Closing
-          {% else %}
-            Unknown
-          {% endif %}
-        {% else %}
-          n/a
-        {% endif %}
-
-- platform: template
-  sensors:
     susan_garage_car_present:
       friendly_name: 'Minivan in Garage'
       value_template: >-
-        {%- if states.cover.susan_garage %}
-          {% if states.cover.susan_garage.attributes["door_state"] == "open" %}
+        {%- if states('cover.susan_garage') == "open" %}
             n/a
-          {% elif ((states.cover.susan_garage.attributes["distance_sensor"] > 75) and (states.cover.susan_garage.attributes["distance_sensor"] < 180)) %}
-            Yes
-          {% else %}
-            No
-          {% endif %}
+        {% elif ((states('sensor.susan_og_dist')|int > 75) and (states('sensor.susan_og_dist')|int < 180)) %}
+            yes
         {% else %}
-          n/a
+            no
         {% endif %}
+
     ben_garage_car_present:
       friendly_name: 'Avalon in Garage'
       value_template: >-
-        {%- if states.cover.ben_garage %}
-          {% if states.cover.ben_garage.attributes["door_state"] == "open" %}
+        {%- if states('cover.ben_garage') == "open" %}
             n/a
-          {% elif ((states.cover.ben_garage.attributes["distance_sensor"] > 70) and (states.cover.ben_garage.attributes["distance_sensor"] < 200)) %}
-            Yes
-          {% else %}
-            No
-          {% endif %}
+        {% elif ((states('sensor.ben_og_dist')|int > 70) and (states('sensor.ben_og_dist')|int < 200)) %}
+            yes
         {% else %}
-          n/a
+            no
         {% endif %}
 
 #- platform: waze_travel_time
