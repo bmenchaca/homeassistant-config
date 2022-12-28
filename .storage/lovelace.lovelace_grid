@@ -334,7 +334,7 @@
                         "action": "toggle"
                       },
                       "entity": "switch.garage_carriage_lights",
-                      "name": "Garage LIghts",
+                      "name": "Garage Lights",
                       "icon": "mdi:coach-lamp"
                     },
                     {
@@ -361,8 +361,9 @@
                       "tap_action": {
                         "action": "toggle"
                       },
-                      "entity": "switch.driveway_flood_light",
-                      "name": "Driveway Flood"
+                      "entity": "light.driveway_flood_combo",
+                      "name": "Driveway Flood",
+                      "icon": "mdi:light-flood-down"
                     },
                     {
                       "show_state": false,
@@ -374,11 +375,13 @@
                       "camera_image": "camera.front_door_camera"
                     },
                     {
+                      "show_state": false,
+                      "show_name": true,
+                      "camera_view": "auto",
                       "type": "picture-entity",
                       "entity": "camera.front_driveway_camera",
                       "name": "Driveway",
-                      "camera_image": "camera.front_driveway_camera",
-                      "show_state": false
+                      "camera_image": "camera.front_driveway_camera"
                     },
                     {
                       "type": "picture-entity",

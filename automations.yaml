@@ -493,3 +493,14 @@
     target:
       entity_id: scene.craft_room_switch_off
   mode: single
+- id: '1671900545589'
+  alias: Driveway Night Motion
+  description: ''
+  use_blueprint:
+    path: motion_entity.yaml
+    input:
+      motion_sensor: binary_sensor.driveway_field_detection
+      target_entity: scene.driveway_flood_on
+      no_motion_wait: 10
+      blocker_entity: binary_sensor.is_light
+      target_off_entity: scene.driveway_flood_off
