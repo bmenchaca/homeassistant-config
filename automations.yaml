@@ -493,14 +493,40 @@
     target:
       entity_id: scene.craft_room_switch_off
   mode: single
-- id: '1671900545589'
-  alias: Driveway Night Motion
+- id: '1672327262079'
+  alias: Driveway Flood Occupancy Evening
   description: ''
-  use_blueprint:
-    path: motion_entity.yaml
-    input:
-      motion_sensor: binary_sensor.driveway_field_detection
-      target_entity: scene.driveway_flood_on
-      no_motion_wait: 10
-      blocker_entity: binary_sensor.is_light
-      target_off_entity: scene.driveway_flood_off
+  trigger:
+  - platform: state
+    entity_id:
+    - binary_sensor.driveway_field_detection
+    to: 'on'
+  condition:
+  - condition: state
+    entity_id: binary_sensor.is_dark
+    state: 'on'
+  action:
+  - service: scene.turn_on
+    target:
+      entity_id: scene.driveway_flood_on
+    metadata: {}
+  mode: single
+- id: '1672327340724'
+  alias: Driveway Flood Vacancy
+  description: ''
+  trigger:
+  - platform: state
+    entity_id:
+    - binary_sensor.driveway_field_detection
+    to: 'off'
+    for:
+      hours: 0
+      minutes: 10
+      seconds: 0
+  condition: []
+  action:
+  - service: scene.turn_on
+    target:
+      entity_id: scene.driveway_flood_off
+    metadata: {}
+  mode: single
