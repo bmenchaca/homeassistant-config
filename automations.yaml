@@ -462,7 +462,11 @@
   - platform: sun
     event: sunset
     offset: '30'
-  condition: []
+  condition: 
+    - condition: template
+      value_template: >
+        {% set n = now() %}
+        {{ n.month = 12 and 1 <= n.day <= 31 }}
   action:
   - scene: scene.christmas_lights_nighttime
   mode: single
