@@ -455,7 +455,7 @@
     input:
       motion_sensor: binary_sensor.craft_motion
       target_entity: scene.craft_room_switch_on
-- id: '1637882855833'
+- id: '16378828583'
   alias: Christmas Lights Nighttime
   description: ''
   trigger:
@@ -463,14 +463,12 @@
     event: sunset
     offset: '30'
   condition: 
-    - condition: template
-      value_template: >
-        {% set n = now() %}
-        {{ n.month = 12 and 1 <= n.day <= 31 }}
+    condition: template
+    value_template: "{{ now().month == 12 }}"
   action:
   - scene: scene.christmas_lights_nighttime
   mode: single
-- id: '1637882935990'
+- id: '16373824590'
   alias: Christmas Lights Daytime
   description: ''
   trigger:
