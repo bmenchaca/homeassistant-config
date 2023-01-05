@@ -29,10 +29,10 @@
   sensors:
     office_temperature:
       friendly_name: 'Office Temperature'
-      value_template: " {{ states('sensor.office_awair_temperature') | round(1) }} "
+      value_template: " {{ states('sensor.office_multisensor_air_temperature') | round(1) }} "
     office_humidity:
       friendly_name: 'Office Humidity'
-      value_template: " {{ states('sensor.office_awair_humidity') | round(1) }} "
+      value_template: " {{ states('sensor.office_multisensor_humidity') | round(1) }} "
     office_co2:
       friendly_name: 'Office CO2'
       value_template: " {{ states('sensor.office_awair_co2') | round(0) }} "
