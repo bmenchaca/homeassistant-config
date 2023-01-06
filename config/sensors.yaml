@@ -44,11 +44,7 @@
       value_template: " {{ states('sensor.master_awair_humidity') | round(1) }} "
     guest_temperature:
       friendly_name: 'Guest Temperature'
-      value_template: " {{ states('sensor.guest_awair_temperature') | round(1) }} "
-    guest_humidity:
-      friendly_name: 'Guest Humidity'
-      value_template: " {{ states('sensor.guest_awair_humidity') | round(1) }} "
-
+      value_template: " {{ states('sensor.guest_air_temperature') | round(1) }} "
 
 - platform: template
   sensors:

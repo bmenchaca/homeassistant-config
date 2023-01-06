@@ -288,7 +288,7 @@
   use_blueprint:
     path: motion_entity.yaml
     input:
-      motion_sensor: binary_sensor.guest_motion
+      motion_sensor: binary_sensor.guest_door_motion
       target_entity: scene.guest_day
       blocker_entity: binary_sensor.bedtime
       no_motion_wait: '5'

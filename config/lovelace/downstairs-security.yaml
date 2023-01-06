@@ -641,7 +641,7 @@ cards:
           z-index: 10
           transform: none
       - type: image
-        entity: binary_sensor.guest_motion
+        entity: binary_sensor.guest_door_motion
         filter: opacity(0)
         image: /local/images/guest-motion.png
         tap_action:

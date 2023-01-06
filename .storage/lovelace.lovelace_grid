@@ -1340,18 +1340,6 @@
                 },
                 {
                   "type": "sensor",
-                  "entity": "sensor.office_volatile_organic_compounds",
-                  "graph": "line",
-                  "name": "VOC"
-                },
-                {
-                  "type": "sensor",
-                  "entity": "sensor.office_co2",
-                  "graph": "line",
-                  "name": "CO2"
-                },
-                {
-                  "type": "sensor",
                   "entity": "sensor.office_humidity",
                   "graph": "line",
                   "unit": "%",
@@ -1365,9 +1353,13 @@
               "entities": [
                 {
                   "entity": "binary_sensor.office_motion",
-                  "name": "Motion",
+                  "name": "Door Motion",
                   "icon": "mdi:motion-sensor",
                   "secondary_info": "last-changed"
+                },
+                {
+                  "entity": "binary_sensor.office_desk_motion",
+                  "name": "Desk Motion"
                 },
                 {
                   "entity": "binary_sensor.office_window_1",
@@ -1676,12 +1668,14 @@
               "type": "grid",
               "cards": [
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
                   },
                   "entity": "switch.kitchen_lights",
-                  "icon": "mdi:wall-sconce-round",
+                  "icon": "",
                   "name": "Ceiling Lights"
                 },
                 {
@@ -1868,28 +1862,20 @@
               "type": "grid",
               "cards": [
                 {
-                  "type": "sensor",
-                  "entity": "sensor.guest_awair_temperature",
+                  "hours_to_show": 24,
                   "graph": "line",
-                  "name": "Temp"
+                  "type": "sensor",
+                  "entity": "sensor.guest_temperature",
+                  "name": "Temp",
+                  "detail": 1
                 },
                 {
-                  "type": "sensor",
-                  "entity": "sensor.guest_awair_humidity",
+                  "hours_to_show": 24,
                   "graph": "line",
-                  "name": "Humidity"
-                },
-                {
                   "type": "sensor",
-                  "entity": "sensor.guest_carbon_dioxide",
-                  "graph": "line",
-                  "name": "CO2"
-                },
-                {
-                  "type": "sensor",
-                  "entity": "sensor.guest_volatile_organic_compounds",
-                  "graph": "line",
-                  "name": "VOC"
+                  "entity": "sensor.guest_humidity",
+                  "name": "Humidity",
+                  "detail": 1
                 }
               ],
               "columns": 2,
@@ -1899,7 +1885,10 @@
               "type": "entities",
               "entities": [
                 {
-                  "entity": "binary_sensor.guest_motion"
+                  "entity": "binary_sensor.guest_door_motion"
+                },
+                {
+                  "entity": "binary_sensor.guest_room_motion"
                 },
                 {
                   "entity": "binary_sensor.guest_window_1"
@@ -1982,6 +1971,8 @@
               "type": "grid",
               "cards": [
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
@@ -1998,13 +1989,15 @@
                   "name": "Fan Lights"
                 },
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
                   },
                   "entity": "switch.master_fan_lights",
                   "name": "Fan Lights Switch",
-                  "icon": "mdi:ceiling-light"
+                  "icon": ""
                 }
               ]
             },
@@ -2155,6 +2148,8 @@
               "type": "grid",
               "cards": [
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
@@ -2263,12 +2258,14 @@
               "type": "grid",
               "cards": [
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
                   },
                   "entity": "switch.garage_lights",
-                  "icon": "mdi:wall-sconce-flat",
+                  "icon": "",
                   "name": "Lights"
                 }
               ]

@@ -90,7 +90,7 @@ cards:
       - binary_sensor.craft_motion
       - binary_sensor.master_bath_motion
       - binary_sensor.guest_bath_motion
-      - binary_sensor.guest_motion
+      - binary_sensor.guest_door_motion
     state_filter:
       - "on"
 
