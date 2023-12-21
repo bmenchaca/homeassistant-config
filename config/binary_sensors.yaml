@@ -6,10 +6,6 @@
 ###############################################################################
 # Time of day and workday sensors
 ###############################################################################
-- platform: workday
-  country: US
-  workdays: [mon, tue, wed, thu, fri]
-
 - platform: tod
   name: weekend_bedtime
   after: '20:30'

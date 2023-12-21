@@ -1268,6 +1268,8 @@
               "type": "grid",
               "cards": [
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
@@ -1285,11 +1287,13 @@
                   "name": "Fan"
                 },
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
                   },
-                  "entity": "switch.office_lamp",
+                  "entity": "light.office_floor_lamp",
                   "name": "Lamp"
                 },
                 {
