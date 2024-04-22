@@ -101,12 +101,14 @@
                       }
                     },
                     {
+                      "show_name": true,
+                      "show_icon": true,
                       "type": "button",
                       "tap_action": {
                         "action": "navigate",
                         "navigation_path": "master-hall"
                       },
-                      "entity": "group.master_hall_lights",
+                      "entity": "light.master_hall_combo",
                       "icon": "mdi:exit-to-app",
                       "hold_action": {
                         "action": "toggle"
@@ -1274,17 +1276,19 @@
                   "tap_action": {
                     "action": "toggle"
                   },
-                  "entity": "switch.office_fan_lights",
-                  "name": "Fan Lights Switch",
-                  "icon": "mdi:ceiling-light"
+                  "entity": "switch.office_fan",
+                  "name": "Fan"
                 },
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
                   },
-                  "entity": "switch.office_fan",
-                  "name": "Fan"
+                  "entity": "light.office_fan_lights",
+                  "name": "Fan Lights",
+                  "icon": "mdi:ceiling-fan-light"
                 },
                 {
                   "show_name": true,
@@ -1311,6 +1315,17 @@
                   },
                   "entity": "light.office_go",
                   "name": "Go"
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "toggle"
+                  },
+                  "entity": "switch.office_fan_lights",
+                  "name": "Fan Lights Switch",
+                  "icon": "mdi:light-switch"
                 },
                 {
                   "type": "button",

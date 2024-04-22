@@ -399,6 +399,8 @@ office:
     - switch.office_lamp
     - switch.office_heater
     - light.office_go
+    - light.office_floor_lamp
+    - light.office_fan_lights
     - sensor.office_awair_temperature
     - sensor.office_awair_humidity
     - sensor.office_awair_co2
@@ -409,8 +411,9 @@ office:
 office_lights:
   name: Office Lights
   entities:
-    - switch.office_fan_lights
-    - switch.office_lamp
+    - light.office_floor_lamp
+    - light.office_fan_lights
+    - switch.office_heater
 
 master:
   name: Master

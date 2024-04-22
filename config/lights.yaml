@@ -228,6 +228,14 @@
     - light.hannah_fan_bulb_color
 
 - platform: group
+  name: Office Fan Lights
+  entities:
+    - light.office_fan_bulb_1
+    - light.office_fan_bulb_2
+    - light.office_fan_bulb_3
+    - light.office_fan_bulb_4
+
+- platform: group
   name: Guest Fan Lights
   entities:
     - light.guest_fan_bulb_1

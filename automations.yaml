@@ -301,7 +301,7 @@
     input:
       motion_sensor: binary_sensor.master_hall_motion
       target_entity: scene.master_hall_not_night
-      blocker_entity: binary_sensor.bedtime
+      blocker_entity: input_boolean.bedtime
       no_motion_wait: '8'
       target_off_entity: switch.master_hall_lights
 - id: '1613319635083'
