@@ -21,6 +21,15 @@
         "mode": "storage",
         "url_path": "dashboard-security",
         "id": "dashboard_security"
+      },
+      {
+        "id": "map",
+        "icon": "mdi:map",
+        "title": "Map",
+        "url_path": "map",
+        "mode": "storage",
+        "show_in_sidebar": true,
+        "require_admin": false
       }
     ]
   }

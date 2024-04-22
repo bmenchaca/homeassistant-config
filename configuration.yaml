@@ -21,7 +21,6 @@ zeroconf:
 # Allows you to issue voice commands from the frontend in enabled browsers
 #conversation:
 # Auto-discover new or changed services
-map:
 config:
 sun:
 lovelace: 
