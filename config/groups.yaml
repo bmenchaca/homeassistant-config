@@ -1,0 +1,540 @@
+ben_presence: 
+  name: Ben Presence
+  entities:
+    - binary_sensor.ben_at_home
+    - device_tracker.life360_ben_menchaca
+    - device_tracker.tile_p9acec416cba1d37e70e0192fb3a5b551
+    #- device_tracker.bens_iphone
+
+susan_presence:
+  name: Susan Presence
+  entities:
+    - binary_sensor.susan_at_home
+    - device_tracker.life360_susan
+    #- device_tracker.susans_iphone
+    - device_tracker.tile_3f81a6eedb424947
+    - device_tracker.tile_p69f5d20ffc73bc8f110f816fb4513a23
+
+heidi_presence:
+  name: Heidi Presence
+  entities:
+    - binary_sensor.heidi_at_home
+    - device_tracker.life360_heidi
+    #- device_tracker.heidi_iphone
+    - device_tracker.tile_pdaf1b0360af0a6940c3d2231d49d5cf5
+
+kids_devices:
+  name: Kids Devices
+  entities:
+    - device_tracker.tile_p06f364c2a3e399f0f5079525a41aed76
+    - device_tracker.tile_pe1e095a955334be2829088853f71b848
+    - device_tracker.tile_pdaf1b0360af0a6940c3d2231d49d5cf5
+    - device_tracker.tile_44bf20dd5507338c
+
+susan_garage_door:
+  name: Susan Garage
+  entities:
+    - cover.susan_garage
+    - sensor.susan_garage_status
+    - sensor.susan_og_distance
+    - sensor.susan_garage_car_present
+
+ben_garage_door:
+  name: Ben Garage
+  entities:
+    - cover.ben_garage
+    - binary_sensor.ben_garage
+    - sensor.ben_og_distance
+    - sensor.ben_garage_car_present
+
+garage:
+  name: Garage
+  entities:
+    - switch.garage_lights
+    - switch.garage_carriage_lights
+
+craft_room:
+  name: Craft Room
+  entities:
+    - switch.craft_fan_and_lights
+    - switch.craft_lamp
+    - light.craft_ambiance_lamp_1
+    - light.craft_ambiance_lamp_2
+    - light.craft_lightstrip
+    - binary_sensor.craft_room_window_1
+    - binary_sensor.craft_room_window_2
+
+craft_lights:
+  name: Craft Lights
+  entities:
+    - light.craft_fan_lights
+    - light.craft_ambiance_lamp_1
+    - light.craft_ambiance_lamp_2
+
+guest_room:
+  name: Guest Room
+  entities:
+    - switch.guest_fan_and_lights
+    - switch.guest_heater
+    - light.guest_fan_lights
+    - binary_sensor.guest_window_1
+    - binary_sensor.guest_window_2
+    - binary_sensor.guest_window_3
+
+guest_lights:
+  name: Guest Lights
+  entities:
+    - light.guest_fan_lights
+
+guest_hall:
+  name: Guest Hall
+  entities:
+    - switch.guest_hall_lights
+
+guest_bath:
+  name: Guest Bath
+  entities:
+    - switch.guest_bath_lights
+    - light.guest_bath_lights
+
+entry_room:
+  name: Entry Room
+  entities:
+    - switch.entry_lights
+    - switch.entry_christmas_lights
+    - switch.entry_lamp
+    - binary_sensor.front_door
+    - binary_sensor.entry_window_1
+    - binary_sensor.entry_window_2
+    - binary_sensor.entry_motion
+    - binary_sensor.entry_glass
+
+entry_lights:
+  name: Entry Lights
+  entities:
+    - switch.entry_lights
+    - switch.entry_lamp
+    - light.entry
+
+kids_study:
+  name: Kids Study
+  entities:
+    - switch.kids_study_lights
+    - light.noah_desk_strip
+    - light.hannah_desk_strip
+    - light.heidi_desk_strip
+    - binary_sensor.kids_study_window_1
+    - binary_sensor.kids_study_window_2
+    - binary_sensor.kids_study_window_3
+
+kids_study_lights:
+  name: Kids Study Lights
+  entities:
+    - switch.kids_study_lights
+    - light.noah_desk_strip
+    - light.hannah_desk_strip
+    - light.heidi_desk_strip
+    - light.noah_monitor_instance
+
+breakfast_room:
+  name: Breakfast Room
+  entities:
+    - switch.breakfast_lights
+    - binary_sensor.back_door
+    - binary_sensor.breakfast_window_1
+    - binary_sensor.breakfast_window_2
+    - binary_sensor.breakfast_window_3
+    - binary_sensor.breakfast_window_4
+
+family_room:
+  name: Family Room
+  entities:
+    - switch.family_fan_lights
+    - light.family_fan_lights
+    - switch.family_fan
+    - switch.family_mantle_lights
+    - binary_sensor.family_window_1
+    - binary_sensor.family_window_2
+    - binary_sensor.family_room_glass
+
+family_room_lights:
+  name: Family Room Lights
+  entities:
+    - switch.family_fan_lights
+
+stairs:
+  name: Stairs
+  entities:
+    - switch.stairs_lights
+
+kitchen:
+  name: Kitchen
+  entities:
+    - switch.kitchen_lights
+    - switch.kitchen_pantry_light
+    - binary_sensor.pantry_door
+
+kitchen_lights:
+  name: Kitchen Lights
+  entities:
+    - switch.kitchen_lights
+    - switch.kitchen_pantry_light
+
+laundry_room:
+  name: Laundry Room
+  entities:
+    - switch.laundry_lights
+    - switch.laundry_closet_lights
+    - binary_sensor.laundry_closet_door
+    - binary_sensor.garage_door
+
+laundry_lights:
+  name: Laundry Lights
+  entities:
+    - switch.laundry_lights
+    - switch.laundry_closet_lights
+    
+deck:
+  name: Deck
+  entities:
+    - switch.back_porch_lights
+    - light.deck_bar_1
+    - light.deck_bar_2
+    - light.deck_lower_stairs
+    - light.deck_lower_seating
+    - light.deck_breakfast_stairs
+    - camera.back_deck_camera
+
+pool:
+  name: Pool
+  entities:
+    - switch.cleaner
+    - switch.pool_pump_high
+    - switch.pool_waterfall
+
+deck_lights:
+  name: Deck Lights
+  entities:
+    - light.back_porch_light
+    - light.deck_bar_1
+    - light.deck_bar_2
+    - light.deck_lower_stairs
+    - light.deck_lower_seating
+    - light.deck_breakfast_stairs
+
+back_yard_lights:
+  name: Back Yard Lights
+  entities:
+    - light.pool_pump_bollard
+    - light.pool_pump_gate_bollard
+    - light.pool_pump_deck_bollard
+      
+pool_lights:
+  name: Pool Lights
+  entities:
+    - light.pool_surround_right_1
+    - light.pool_surround_right_2
+    - light.pool_surround_right_3
+    - light.pool_surround_right_4
+    - light.pool_surround_right_5
+    - light.pool_surround_left_1
+    - light.pool_surround_left_2
+    - light.pool_surround_left_3
+    - light.pool_surround_left_4
+    - light.pool_surround_left_5
+    - light.pool_underwater
+
+garden:
+  name: Garden
+  entities:
+    - camera.back_west_garden_camera
+    - camera.back_playscape_camera
+
+back_yard:
+  name: Back Yard
+  entities:
+    - light.pool_pump_bollard
+    - light.pool_pump_deck_bollard
+    - light.pool_pump_gate_bollard
+    - light.pool_surround_right_1
+    - light.pool_surround_right_2
+    - light.pool_surround_right_3
+    - light.pool_surround_right_4
+    - light.pool_surround_right_5
+    - light.pool_surround_left_1
+    - light.pool_surround_left_2
+    - light.pool_surround_left_3
+    - light.pool_surround_left_4
+    - light.pool_surround_left_5
+    - camera.back_east_gate_camera
+    - camera.back_pool_camera
+
+front_porch:
+  name: Front Porch
+  entities:
+    - switch.front_porch_lights
+    - camera.front_door
+    - camera.front_door_camera
+    - binary_sensor.ring_front_door_motion
+    - binary_sensor.ring_front_door_ding  
+
+front_yard:
+  name: Front Yard
+  entities:
+    - camera.east_side_yard_camera
+    - camera.front_east_guest_camera
+    - camera.front_driveway_camera
+    - camera.west_gate_camera
+    - switch.garage_carriage_lights
+
+noah_room:
+  name: Noah's Room
+  entities:
+    - light.noah_lights
+    - binary_sensor.noah_multisensor_motion
+    - sensor.noah_multisensor_temperature
+    - sensor.noah_multisensor_humidity
+    - binary_sensor.noah_window_1
+    - binary_sensor.noah_window_2
+
+noah_lights:
+  name: Noah's Lights
+  entities:
+    - light.noah_fan_lights
+    - light.noah_bed_strip
+    - light.noah_lamp
+
+boys_bathroom:
+  name: Boy's Bathroom
+  entities:
+    - switch.boys_bathroom_light
+
+boys_bathroom_lights:
+  name: Boy's Bathrooma Lights
+  entities:
+    - switch.boys_bathroom_light
+
+boys_hallway:
+  name: Boy's Hall
+  entities:
+    - switch.boys_hall_light
+
+girls_hallway:
+  name: Girls Hall
+  entities:
+    - switch.girls_hall_lights
+
+heidi_room:
+  name: Heidi's Room
+  entities:
+    - switch.heidi_fan_and_lights
+    - switch.heidi_heater
+    - light.heidi
+    - binary_sensor.heidi_multisensor_motion
+    - sensor.heidi_multisensor_temperature
+    - sensor.heidi_multisensor_humidity
+    - binary_sensor.heidi_window_1
+    - binary_sensor.heidi_window_2
+
+heidi_lights:
+  name: Heidi's Lights
+  entities:
+    - light.heidi_bed_lightstrip
+    - light.heidi_closet
+    - light.heidi_fan_lights
+    - light.heidi_go
+
+hannah_room:
+  name: Hannah's Room
+  entities:
+    - light.hannah
+    - binary_sensor.hannah_multisensor_motion
+    - sensor.hannah_multisensor_temperature
+    - sensor.hannah_multisensor_humidity
+    - binary_sensor.hannah_window_1
+    - binary_sensor.hannah_window_2
+
+hannah_lights:
+  name: Hannah's Lights
+  entities:
+    - light.hannah_bed_lightstrip
+    - light.hannah_fan_lights
+    - light.hannah_lamp
+
+gallery:
+  name: Gallery
+  entities:
+    - switch.gallery_lights
+    - light.gallery_flood_bulb
+
+gallery_and_halls_lights:
+  name: Gallery and Halls Lights
+  entities:
+    - light.gallery
+    - switch.girls_hall_lights
+    - switch.boys_hall_light
+
+media_room:
+  name: Media Room
+  entities:
+    - switch.media_room_fan
+    - switch.media_room_lights
+    - light.media_room_lights
+    - binary_sensor.media_room_window_1
+    - binary_sensor.media_room_window_2
+    - binary_sensor.media_room_window_3
+
+office:
+  name: Office
+  entities:
+    - switch.office_fan_lights
+    - switch.office_fan
+    - switch.office_lamp
+    - switch.office_heater
+    - light.office_go
+    - light.office_floor_lamp
+    - light.office_fan_lights
+    - binary_sensor.office_window_1
+    - binary_sensor.office_window_2
+
+office_lights:
+  name: Office Lights
+  entities:
+    - light.office_floor_lamp
+    - light.office_fan_lights
+    - switch.office_heater
+
+master:
+  name: Master
+  entities:
+    - switch.master_fan_lights
+    - switch.master_fan
+    - binary_sensor.master_window_1
+    - binary_sensor.master_window_2
+    - binary_sensor.master_window_3
+
+master_lights:
+  name: Master Lights
+  entities:
+    - light.master
+
+master_bath:
+  name: Master Bath
+  entities:
+    - switch.master_vanity_lights
+    - switch.master_bathtub_spotlight
+    - light.master_tub_color_bulb
+
+master_bath_lights:
+  name: Master Bath Lights
+  entities:
+    - switch.master_vanity_lights
+    - light.master_tub_color_bulb
+
+master_closet:
+  name: Master Closet
+  entities:
+    - switch.master_closet_lights
+    - binary_sensor.master_closet_door
+
+master_hall:
+  name: Master Hall
+  entities:
+    - switch.master_hall_lights
+    - light.master_hall_lights
+
+master_lavatory:
+  name: Master Lavatory
+  entities:
+    - switch.master_lavatory_lights
+
+girls_bath_lights:
+  name: Girls Bath Lights
+  entities:
+    - switch.hannah_vanity_lights
+    - switch.heidi_vanity_lights
+    - switch.girls_shower_lights
+
+christmas_outdoor_lights:
+  name: Outdoor Christmas Lights
+  entities:
+    - switch.entry_christmas_lights
+    - switch.holiday_lights_outlets
+
+security_devices:
+   name: Security Devices
+   entities:
+     - alarm_control_panel.home_alarm
+     - binary_sensor.ben_keyfob
+     - binary_sensor.susan_keyfob
+     - binary_sensor.gallery_siren
+     - binary_sensor.laundry_room_keypad
+     - binary_sensor.living_room_motion
+     - binary_sensor.master_hall_motion
+
+bedtime_switches:
+  name: Switches on at Bedtime
+  entities:
+    - switch.master_hall_lights
+    - switch.guest_bath_lights
+    - switch.gallery_lights
+    - switch.family_mantle_lights
+
+# Views      
+downstairs_view:
+  name: Downstairs
+  entities:
+    - group.master
+    - group.master_bath
+    - group.master_closet
+    - group.master_lavatory
+    - group.craft_room
+    - group.master_hall
+    - group.laundry_room
+    - group.kids_study
+    - group.family_room
+    - group.kitchen
+    - group.breakfast_room
+    - group.guest_room
+    - group.guest_hall
+    - group.guest_bath
+    - group.entry_room
+    - group.stairs
+
+upstairs_view:
+  name: Upstairs
+  entities:
+    - group.noah_room
+    - group.boys_bathroom
+    - group.boys_hallway
+    - group.gallery
+    - group.media_room
+    - group.office
+    - group.girls_hallway
+    - group.hannah_room
+    - group.heidi_room
+    - group.stairs
+
+garage_view:
+  name: Garage
+  entities:
+    - group.susan_garage_door
+    - group.ben_garage_door
+    - group.garage
+
+front_yard_view:
+ name: Front Yard
+ entities:
+   - group.front_yard
+
+front_porch_view:
+  name: Front Porch
+  entities:
+    - group.front_porch
+
+back_yard_view:
+  name: Back Yard
+  entities:
+    - group.deck
+    - group.garden
+    - group.back_yard

@@ -1,51 +1,14 @@
-homeassistant:
-  # Name of the location where Home Assistant is running
-  name: Home
-  # Location required to calculate the time the sun rises and sets
-  latitude: !secret home_latitude
-  longitude: !secret home_longitude
-  # Impacts weather/sunrise data (altitude above sea level in meters)
-  elevation: !secret home_elevation
-  # metric for Metric, imperial for Imperial
-  unit_system: imperial
-  time_zone: !secret timezone
-  customize: !include customize.yaml
-  country: US
-  currency: USD  
+# Loads default set of integrations. Do not remove.
+default_config:
 
-# Allow IOS device autodiscovery and location tracking
-#ios:
-zeroconf:
-# Show links to resources in log and frontend
-#introduction:
-# Allows you to issue voice commands from the frontend in enabled browsers
-#conversation:
-# Auto-discover new or changed services
-config:
-sun:
-lovelace: 
-#  resources: !include config/resources.yaml
-http: !include config/http.yaml
-history: !include config/history.yaml
-logbook: !include config/logbook.yaml
-frontend: 
+# Load frontend themes from the themes folder
+frontend:
   themes: !include_dir_merge_named themes
-cloud: !include config/cloud.yaml
-input_boolean: !include config/input_boolean.yaml
-vacuum: !include config/vacuum.yaml
-logger: !include config/logger.yaml
-recorder: !include config/recorder.yaml
-group: !include groups.yaml
-cover: !include config/covers.yaml
+
 automation: !include automations.yaml
-sensor: !include config/sensors.yaml
-binary_sensor: !include config/binary_sensors.yaml
-switch: !include config/switches.yaml
-device_tracker: !include config/device_trackers.yaml
-scene: !include scenes.yaml
-light: !include config/lights.yaml
 script: !include scripts.yaml
-ffmpeg: !include config/ffmpeg.yaml
-alarm_control_panel: !include config/alarm_control_panel.yaml
-camera: !include config/camera.yaml
-system_health:
+scene: !include scenes.yaml
+binary_sensor: !include config/binary_sensors.yaml
+light: !include config/lights.yaml
+group: !include config/groups.yaml
+sensor: !include config/sensors.yaml

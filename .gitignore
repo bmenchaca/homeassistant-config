@@ -1,4 +1,5 @@
 *
+<<<<<<< HEAD
 !.gitignore
 !.travis.yml
 !*.xml
@@ -16,5 +17,13 @@
 **__pycache__/
 deps/**
 secrets.yaml
-  
-
+!*.md
+.storage
+.cloud
+.google.token
+ip_bans.yaml
+known_devices.yaml
+Abode/cookies.json
+.HA_VERSION
+*.db*
+*.log*

@@ -7,6 +7,7 @@
   entities:
     switch.craft_fan_and_lights: false
     switch.craft_lamp: false
+    light.craft_fan_lights: false
     light.craft_lightstrip: false
     light.craft_ambiance_lamp_1: false
     light.craft_ambiance_lamp_2: false
@@ -15,6 +16,7 @@
   entities:
     switch.craft_fan_and_lights: true
     switch.craft_lamp: true
+    light.craft_fan_lights: true
     light.craft_lightstrip: true
     light.craft_ambiance_lamp_1: true
     light.craft_ambiance_lamp_2: true
@@ -65,24 +67,144 @@
       color_temp: 370
     light.noah_monitor_instance: true
 - id: 27ab6796514d30f2f4119d17c795
-  name: entry_dining_off
+  name: entry_lights_off
   entities:
-    light.entry_dining_lamp_1: false
-    light.entry_dining_lamp_2: false
-    switch.entry_lights: false
-    switch.entry_lamp: false
+    light.entry_floor_lamp_1:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 454
+      effect_list:
+      - 'off'
+      - candle
+      - sparkle
+      - glisten
+      - sunrise
+      - sunset
+      supported_color_modes:
+      - color_temp
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      mode: normal
+      dynamics: none
+      friendly_name: Entry Floor Lamp 1
+      supported_features: 44
+      state: 'off'
+    light.entry_floor_lamp_2:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 454
+      effect_list:
+      - 'off'
+      - candle
+      - sparkle
+      - glisten
+      - sunrise
+      - sunset
+      supported_color_modes:
+      - color_temp
+      effect:
+      color_mode:
+      brightness:
+      color_temp_kelvin:
+      color_temp:
+      hs_color:
+      rgb_color:
+      xy_color:
+      mode: normal
+      dynamics: none
+      friendly_name: Entry Floor Lamp 2
+      supported_features: 44
+      state: 'off'
+    switch.entry_lights:
+      friendly_name: Entry Lights Switch
+      state: 'off'
+    switch.entry_lamp_switch:
+      friendly_name: Entry Lamp Switch
+      state: 'off'
+  metadata: {}
 - id: 3f5289bb62c7f97ab90060c83cd2
-  name: entry_dining_on
+  name: entry_lights_on
   entities:
-    switch.entry_lights: true
-    light.entry_dining_lamp_1:
-      state: true
+    light.entry_floor_lamp_1:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 454
+      effect_list:
+      - 'off'
+      - candle
+      - sparkle
+      - glisten
+      - sunrise
+      - sunset
+      supported_color_modes:
+      - color_temp
+      effect: 'off'
+      color_mode: color_temp
       brightness: 254
+      color_temp_kelvin: 3003
       color_temp: 333
-    light.entry_dining_lamp_2:
-      state: true
+      hs_color:
+      - 27.82
+      - 56.814
+      rgb_color:
+      - 255
+      - 177
+      - 110
+      xy_color:
+      - 0.496
+      - 0.383
+      mode: normal
+      dynamics: none
+      friendly_name: Entry Floor Lamp 1
+      supported_features: 44
+      state: 'on'
+    light.entry_floor_lamp_2:
+      min_color_temp_kelvin: 2202
+      max_color_temp_kelvin: 6535
+      min_mireds: 153
+      max_mireds: 454
+      effect_list:
+      - 'off'
+      - candle
+      - sparkle
+      - glisten
+      - sunrise
+      - sunset
+      supported_color_modes:
+      - color_temp
+      effect: 'off'
+      color_mode: color_temp
       brightness: 254
+      color_temp_kelvin: 3003
       color_temp: 333
+      hs_color:
+      - 27.82
+      - 56.814
+      rgb_color:
+      - 255
+      - 177
+      - 110
+      xy_color:
+      - 0.496
+      - 0.383
+      mode: normal
+      dynamics: none
+      friendly_name: Entry Floor Lamp 2
+      supported_features: 44
+      state: 'on'
+    switch.entry_lights:
+      friendly_name: Entry Lights Switch
+      state: 'on'
+  metadata: {}
 - id: 3bca2a4ab13e04bf198150f4f25e
   name: master_hall_not_night
   entities:
@@ -97,15 +219,15 @@
     switch.master_hall_lights: true
     light.master_hall_lights: true
 - id: ff2205d5d8fabbddb454d1444832
-  name: game_room_off
+  name: media_room_off
   entities:
-    switch.game_room_fan: false
-    light.game_room_lights: false
+    switch.media_room_fan: false
+    light.media_room_lights: false
 - id: 9250abad3dcaafb9761f1d008629
-  name: game_room_on
+  name: media_room_on
   entities:
-    switch.game_room_lights: true
-    light.game_room_lights: true
+    switch.media_room_lights: true
+    light.media_room_lights: true
 - id: ff2205d5d8fabbddb454d1444863
   name: driveway_flood_off
   entities:
@@ -181,13 +303,13 @@
       color_temp: 453
       brightness: 5
 - id: 777ae8ee8dcacc1fbe5bd80f64b7
-  name: game_room_not_night
+  name: media_room_not_night
   entities:
-    switch.game_room_lights: true
+    switch.media_room_lights: true
 - id: 9250abad3dcaafb9761f1d00862a
-  name: game_room_night
+  name: media_room_night
   entities:
-    switch.game_room_lights: true
+    switch.media_room_lights: true
 - id: ee2c0cb1f08e51227aa8adfab535
   name: guest_bath_night
   entities:
@@ -266,7 +388,7 @@
     switch.boys_hall_light: false
     switch.girls_hall_lights: false
     light.gallery_flood_bulb: false
-    light.game_room_lights: false
+    light.media_room_lights: false
     switch.back_porch_lights: false
     switch.master_hall_lights: false
     switch.kitchen_lights: false
@@ -300,7 +422,7 @@
     switch.boys_hall_light: false
     switch.girls_hall_lights: false
     light.gallery_flood_bulb: false
-    light.game_room_lights: false
+    light.media_room_lights: false
     light.guest_bath_lights: false
     switch.back_porch_lights: false
     switch.master_hall_lights: false
@@ -406,7 +528,7 @@
       - 0
     switch.family_fan_lights: true
     switch.entry_lights: true
-    light.entry_dining:
+    light.entry:
       state: true
       brightness: 254
       color_temp: 166

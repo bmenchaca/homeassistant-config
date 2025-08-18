@@ -1,8 +1,3 @@
-- platform: hikvision
-  host: !secret alibi_dvr_ip
-  username: !secret alibi_rtsp_username
-  password: !secret alibi_rtsp_password
-
 ###############################################################################
 # Time of day and workday sensors
 ###############################################################################
@@ -55,14 +50,14 @@
         {{ is_state("binary_sensor.breakfast_motion", "on") or
            is_state("binary_sensor.family_mantle_motion", "on") }}
 
-    dining_and_stairs_motion:
+    kids_study_and_stairs_motion:
       friendly_name: 'Dining and Stairs Motion'
       device_class: motion
       value_template: >-
         {{ is_state("binary_sensor.kids_study_motion", "on") and
            is_state("binary_sensor.stairs_motion", "on") }}
 
-    dining_stairs_or_master_hall_motion:
+    kids_study_stairs_or_master_hall_motion:
       friendly_name: 'Dining, Stairs or Master Hall Motion'
       device_class: motion
       value_template: >-
@@ -114,27 +109,27 @@
 # Life360
 ###############################################################################
 # Presence
-    ben_at_home:
-      friendly_name: "Ben at Home"
-      device_class: presence
-      value_template: >-
-        {{ is_state("device_tracker.life360_ben_menchaca", "home") }}
-      delay_off: 
-        minutes: 2
-    susan_at_home:
-      friendly_name: "Susan at Home"
-      device_class: presence
-      value_template: >-
-        {{ is_state("device_tracker.life360_susan", "home") }}
-      delay_off: 
-        minutes: 2
-    heidi_at_home:
-      friendly_name: "Heidi at Home"
-      device_class: presence
-      value_template: >-
-        {{ is_state("device_tracker.life360_heidi", "home") }}
-      delay_off: 
-        minutes: 2
+#    ben_at_home:
+#      friendly_name: "Ben at Home"
+#      device_class: presence
+#      value_template: >-
+#        {{ is_state("device_tracker.life360_ben_menchaca", "home") }}
+#      delay_off: 
+#        minutes: 2
+#    susan_at_home:
+#      friendly_name: "Susan at Home"
+#      device_class: presence
+#      value_template: >-
+#        {{ is_state("device_tracker.life360_susan", "home") }}
+#      delay_off: 
+#        minutes: 2
+#    heidi_at_home:
+#      friendly_name: "Heidi at Home"
+#      device_class: presence
+#      value_template: >-
+#        {{ is_state("device_tracker.life360_heidi", "home") }}
+#      delay_off: 
+#        minutes: 2
 
 ###############################################################################
 # Garage Door Open
@@ -143,13 +138,13 @@
       friendly_name: "Ben Garage"
       device_class: garage_door
       value_template: >-
-        {{ not is_state("sensor.ben_garage_status", "Closed") }}  
+        {{ not is_state("cover.ben_garage", "closed") }}  
 
     susan_garage:
       friendly_name: "Susan Garage"
       device_class: garage_door
       value_template: >-
-        {{ not is_state("sensor.susan_garage_status", "Closed") }}  
+        {{ not is_state("cover.susan_garage", "closed") }}  
 
 ###############################################################################
 # Combined Weekend and Workday and Bedtime

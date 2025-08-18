@@ -134,6 +134,23 @@
     data: {}
     entity_id: scene.alert_lights
   mode: single
+- id: '1598537302'
+  alias: Turn Off Office Heater after 1 Hour
+  description: ''
+  triggers:
+  - entity_id:
+    - switch.office_heater
+    to: 'on'
+    for:
+      hours: 1
+      minutes: 0
+      seconds: 0
+    trigger: state
+  actions:
+  - action: switch.turn_off
+    target:
+      device_id: 277755a51de6263c5ed13cb91e5e36e7
+    data: {}
 - id: '1612915867487'
   alias: Entry Scene Switch
   description: Entry Lights Scene Activated Switch
@@ -369,7 +386,7 @@
   description: ''
   trigger:
   - platform: state
-    entity_id: binary_sensor.game_room_motion
+    entity_id: binary_sensor.media_room_motion
     from: 'on'
     to: 'off'
     for: 00:02
@@ -532,51 +549,4 @@
     target:
       entity_id: scene.driveway_flood_off
     metadata: {}
-  mode: single
-- id: '1674092943194'
-  alias: Office Poop Occupancy
-  description: ''
-  trigger:
-  - platform: state
-    entity_id:
-    - binary_sensor.office_poop_motion
-    from: 'off'
-    to: 'on'
-  condition:
-  - condition: time
-    before: 09:00:00
-    after: '22:00:00'
-    weekday:
-    - mon
-    - tue
-    - wed
-    - thu
-    - fri
-  action:
-  - service: light.turn_on
-    data:
-      color_temp: 327
-      brightness: 255
-    target:
-      device_id: d4f2e546f64b11c87ba0d59f23900017
-  mode: single
-- id: '1674093360892'
-  alias: Office Poop Vacancy
-  description: ''
-  trigger:
-  - platform: state
-    entity_id:
-    - binary_sensor.office_poop_motion
-    from: 'on'
-    to: 'off'
-    for:
-      hours: 0
-      minutes: 1
-      seconds: 0
-  condition: []
-  action:
-  - service: light.turn_off
-    data: {}
-    target:
-      device_id: d4f2e546f64b11c87ba0d59f23900017
   mode: single

@@ -25,46 +25,45 @@
 #    - type: disk_free
 #      arg: /
 
-- platform: template
-  sensors:
-    office_temperature:
-      friendly_name: 'Office Temperature'
-      value_template: " {{ states('sensor.office_multisensor_air_temperature') | round(1) }} "
-    office_humidity:
-      friendly_name: 'Office Humidity'
-      value_template: " {{ states('sensor.office_multisensor_humidity') | round(1) }} "
-    office_co2:
-      friendly_name: 'Office CO2'
-      value_template: " {{ states('sensor.office_awair_co2') | round(0) }} "
-    master_temperature:
-      friendly_name: 'Master Temperature'
-      value_template: " {{ states('sensor.master_awair_temperature') | round(1) }} "
-    master_humidity:
-      friendly_name: 'Master Humidity'
-      value_template: " {{ states('sensor.master_awair_humidity') | round(1) }} "
-    guest_temperature:
-      friendly_name: 'Guest Temperature'
-      value_template: " {{ states('sensor.guest_air_temperature') | round(1) }} "
-
+#- platform: template
+#  sensors:
+#    office_temperature:
+#      friendly_name: 'Office Temperature'
+#      value_template: " {{ states('sensor.office_multisensor_air_temperature') | round(1) }} "
+#    office_humidity:
+#      friendly_name: 'Office Humidity'
+#      value_template: " {{ states('sensor.office_multisensor_humidity') | round(1) }} "
+#    office_co2:
+#      friendly_name: 'Office CO2'
+#      value_template: " {{ states('sensor.office_awair_co2') | round(0) }} "
+#    master_temperature:
+#      friendly_name: 'Master Temperature'
+#      value_template: " {{ states('sensor.master_awair_temperature') | round(1) }} "
+#    master_humidity:
+#      friendly_name: 'Master Humidity'
+#      value_template: " {{ states('sensor.master_awair_humidity') | round(1) }} "
+#    guest_temperature:
+#      friendly_name: 'Guest Temperature'
+#      value_template: " {{ states('sensor.guest_air_temperature') | round(1) }} "
 - platform: template
   sensors:
     susan_garage_car_present:
-      friendly_name: 'Minivan in Garage'
+      friendly_name: 'Susan Car in Garage'
       value_template: >-
         {%- if states('cover.susan_garage') == "open" %}
             n/a
-        {% elif ((states('sensor.susan_og_dist')|int > 75) and (states('sensor.susan_og_dist')|int < 180)) %}
+        {% elif ((states('sensor.susan_og_distance')|int > 75) and (states('sensor.susan_og_distance')|int < 180)) %}
             yes
         {% else %}
             no
         {% endif %}
 
     ben_garage_car_present:
-      friendly_name: 'Avalon in Garage'
+      friendly_name: 'Ben Car in Garage'
       value_template: >-
         {%- if states('cover.ben_garage') == "open" %}
             n/a
-        {% elif ((states('sensor.ben_og_dist')|int > 70) and (states('sensor.ben_og_dist')|int < 200)) %}
+        {% elif ((states('sensor.ben_og_distance')|int > 70) and (states('sensor.ben_og_distance')|int < 200)) %}
             yes
         {% else %}
             no
