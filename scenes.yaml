@@ -39,7 +39,7 @@
     switch.family_mantle_lights: true
     light.family_mantle_bulb:
       state: true
-      color_temp: 429
+      color_temp_kelvin: 2850
       brightness: 254
 - id: 81cd990396851831e4293d6a6adf
   name: kids_study_off
@@ -56,153 +56,46 @@
     light.hannah_desk_strip:
       state: true
       brightness: 110
-      color_temp: 370
+      color_temp_kelvin: 2850
     light.heidi_desk_strip:
       state: true
       brightness: 110
-      color_temp: 370
+      color_temp_kelvin: 2850
     light.noah_desk_strip:
       state: true
       brightness: 110
-      color_temp: 370
+      color_temp_kelvin: 2850
     light.noah_monitor_instance: true
 - id: 27ab6796514d30f2f4119d17c795
   name: entry_lights_off
   entities:
     light.entry_floor_lamp_1:
-      min_color_temp_kelvin: 2202
-      max_color_temp_kelvin: 6535
-      min_mireds: 153
-      max_mireds: 454
-      effect_list:
-      - 'off'
-      - candle
-      - sparkle
-      - glisten
-      - sunrise
-      - sunset
-      supported_color_modes:
-      - color_temp
-      effect:
-      color_mode:
-      brightness:
-      color_temp_kelvin:
-      color_temp:
-      hs_color:
-      rgb_color:
-      xy_color:
-      mode: normal
-      dynamics: none
-      friendly_name: Entry Floor Lamp 1
-      supported_features: 44
       state: 'off'
     light.entry_floor_lamp_2:
-      min_color_temp_kelvin: 2202
-      max_color_temp_kelvin: 6535
-      min_mireds: 153
-      max_mireds: 454
-      effect_list:
-      - 'off'
-      - candle
-      - sparkle
-      - glisten
-      - sunrise
-      - sunset
-      supported_color_modes:
-      - color_temp
-      effect:
-      color_mode:
-      brightness:
-      color_temp_kelvin:
-      color_temp:
-      hs_color:
-      rgb_color:
-      xy_color:
-      mode: normal
-      dynamics: none
-      friendly_name: Entry Floor Lamp 2
-      supported_features: 44
       state: 'off'
     switch.entry_lights:
-      friendly_name: Entry Lights Switch
       state: 'off'
     switch.entry_lamp_switch:
-      friendly_name: Entry Lamp Switch
       state: 'off'
   metadata: {}
 - id: 3f5289bb62c7f97ab90060c83cd2
   name: entry_lights_on
   entities:
     light.entry_floor_lamp_1:
-      min_color_temp_kelvin: 2202
-      max_color_temp_kelvin: 6535
-      min_mireds: 153
-      max_mireds: 454
-      effect_list:
-      - 'off'
-      - candle
-      - sparkle
-      - glisten
-      - sunrise
-      - sunset
-      supported_color_modes:
-      - color_temp
-      effect: 'off'
-      color_mode: color_temp
       brightness: 254
-      color_temp_kelvin: 3003
-      color_temp: 333
-      hs_color:
-      - 27.82
-      - 56.814
-      rgb_color:
-      - 255
-      - 177
-      - 110
-      xy_color:
-      - 0.496
-      - 0.383
+      color_temp_kelvin: 2850
       mode: normal
       dynamics: none
-      friendly_name: Entry Floor Lamp 1
-      supported_features: 44
       state: 'on'
     light.entry_floor_lamp_2:
       min_color_temp_kelvin: 2202
-      max_color_temp_kelvin: 6535
-      min_mireds: 153
-      max_mireds: 454
-      effect_list:
-      - 'off'
-      - candle
-      - sparkle
-      - glisten
-      - sunrise
-      - sunset
-      supported_color_modes:
-      - color_temp
-      effect: 'off'
       color_mode: color_temp
       brightness: 254
-      color_temp_kelvin: 3003
-      color_temp: 333
-      hs_color:
-      - 27.82
-      - 56.814
-      rgb_color:
-      - 255
-      - 177
-      - 110
-      xy_color:
-      - 0.496
-      - 0.383
+      color_temp_kelvin: 2850
       mode: normal
       dynamics: none
-      friendly_name: Entry Floor Lamp 2
-      supported_features: 44
       state: 'on'
     switch.entry_lights:
-      friendly_name: Entry Lights Switch
       state: 'on'
   metadata: {}
 - id: 3bca2a4ab13e04bf198150f4f25e
@@ -212,7 +105,7 @@
     light.master_hall_lights:
       state: true
       brightness: 254
-      color_temp: 333
+      color_temp_kelvin: 2850
 - id: 3bca2a4ab13e04bf198150f4f25d
   name: master_hall_on
   entities:
@@ -292,7 +185,7 @@
     switch.gallery_lights: true
     light.gallery_flood_bulb:
       state: true
-      color_temp: 429
+      color_temp_kelvin: 2850
       brightness: 254
 - id: 58616776b5cadd07aa61ec1a3624
   name: gallery_night_time
@@ -300,7 +193,7 @@
     switch.gallery_lights: true
     light.gallery_flood_bulb:
       state: true
-      color_temp: 453
+      color_temp_kelvin: 2400
       brightness: 5
 - id: 777ae8ee8dcacc1fbe5bd80f64b7
   name: media_room_not_night
@@ -318,15 +211,15 @@
     light.guest_bath_bulb_2: false
     light.guest_bath_bulb_color:
       state: true
-      color_temp: 453
-      brightness: 5
+      color_temp_kelvin: 2250
+      brightness: 2
 - id: f89380a670e89834b214edf424e2
   name: guest_bath_day
   entities:
     switch.guest_bath_lights: true
     light.guest_bath_lights:
       state: true
-      color_temp: 429
+      color_temp_kelvin: 2850
       brightness: 254
 - id: f89380a670e89834b214edf424e1
   name: guest_bath_on
@@ -339,7 +232,7 @@
     switch.guest_fan_and_lights: true
     light.guest_fan_lights:
       state: true
-      color_temp: 429
+      color_temp_kelvin: 2850
       brightness: 254
 - id: 154ee5bf7e04803c95e6112464a8
   name: family_night
@@ -347,7 +240,7 @@
     switch.family_mantle_lights: true
     light.family_mantle_bulb:
       state: true
-      color_temp: 453
+      color_temp_kelvin: 2250
       brightness: 2
 - id: 154ee5bf7e04803c95e6112464a9
   name: family_mantle_on
@@ -359,7 +252,7 @@
   entities:
     light.back_yard_lights:
       brightness: 254
-      color_temp: 429
+      color_temp_kelvin: 2250
       effect_list:
       - colorloop
       - random
@@ -448,90 +341,39 @@
     light.guest_bath_bulb_2: false
     light.guest_bath_bulb_color:
       state: true
-      brightness: 5
-      color_temp: 453
+      brightness: 2
+      color_temp_kelvin: 2250
     light.gallery_flood_bulb:
       state: true
-      brightness: 5
-      color_temp: 453
+      brightness: 2
+      color_temp_kelvin: 2250
     light.family_mantle_bulb:
       state: true
-      brightness: 5
-      color_temp: 453
+      brightness: 2
+      color_temp_kelvin: 2250
 - id: bb99d473ecfe30e3ced7d57b2a5f
   name: daytime_regular_lights
   entities:
     light.guest_bath_bulb_1:
       state: true
       brightness: 254
-      color_temp: 333
+      color_temp_kelvin: 2850
     light.guest_bath_bulb_2:
       state: true
       brightness: 254
-      color_temp: 333
+      color_temp_kelvin: 2850
     light.guest_bath_bulb_color:
       state: true
       brightness: 254
-      color_temp: 333
+      color_temp_kelvin: 2850
     light.gallery_flood_bulb:
       state: true
       brightness: 254
+      color_temp_kelvin: 2850
     light.family_mantle_bulb:
       state: true
       brightness: 254
-- id: ec45377ac4ca4b3583f2158d7dd18550
-  name: alert_lights
-  entities:
-    switch.guest_bath_lights: true
-    light.guest_bath_bulb_1:
-      state: true
-      brightness: 254
-      color_temp: 166
-    light.guest_bath_bulb_2:
-      state: true
-      brightness: 254
-      color_temp: 166
-    light.guest_bath_bulb_color:
-      state: true
-      rgb_color:
-      - 255
-      - 0
-      - 0
-    light.guest_fan_lights:
-      state: true
-      brightness: 254
-      color_temp: 166
-    switch.stairs_lights: true
-    switch.master_hall_lights: true
-    light.master_hall_lights:
-      state: true
-      brightness: 254
-      color_temp: 166
-    switch.kids_study_lights: true
-    light.hannah_desk_strip:
-      state: true
-      rgb_color:
-      - 255
-      - 0
-      - 0
-    light.noah_desk_strip:
-      state: true
-      rgb_color:
-      - 255
-      - 0
-      - 0
-    light.heidi_desk_strip:
-      state: true
-      rgb_color:
-      - 255
-      - 0
-      - 0
-    switch.family_fan_lights: true
-    switch.entry_lights: true
-    light.entry:
-      state: true
-      brightness: 254
-      color_temp: 166
+      color_temp_kelvin: 2850
 - id: 5decb6336c996bb34405cfe5f902
   name: everyone_away
   entities:

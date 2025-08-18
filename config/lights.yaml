@@ -210,7 +210,7 @@
 #        {% endif %}
 #      temperature_template: >-
 #        {% if is_state("switch.gallery_lights", "on") %}
-#          {{ state_attr("light.gallery_flood_bulb", "color_temp") | int(0) }}
+#          {{ state_attr("light.gallery_flood_bulb", "color_temp_kelvin") | int(0) }}
 #        {% else %}
 #          {{ state_attr("light.gallery_flood_bulb", "min_mireds") }}
 #        {% endif %}
@@ -229,7 +229,7 @@
 #        service: light.turn_on
 #        entity_id: light.gallery_flood_bulb
 #        data_template:
-#          color_temp: " {{ color_temp }} "
+#          color_temp_kelvin: " {{ color_temp_kelvin }} "
 
 #- platform: template
 #  lights:
@@ -265,7 +265,7 @@
 #        service: light.turn_on
 #        entity_id: light.guest_bath_lights
 #        data_template:
-#          color_temp: " {{ color_temp }} "
+#          color_temp_kelvin: " {{ color_temp_kelvin }} "
 
 #- platform: template
 #  lights:
@@ -301,7 +301,7 @@
 #        service: light.turn_on
 #        entity_id: light.master_hall_lights
 #        data_template:
-#          color_temp: " {{ color_temp }} "
+#          color_temp_kelvin: " {{ color_temp_kelvin }} "
 
 #- platform: template
 #  lights:
@@ -337,7 +337,7 @@
 #        service: light.turn_on
 #        entity_id: light.family_mantle_bulb
 #        data_template:
-#          color_temp: " {{ color_temp }} "
+#          color_temp_kelvin: " {{ color_temp_kelvin }} "
 
 #- platform: template
 #  lights:
@@ -373,7 +373,7 @@
 #        service: light.turn_on
 #        entity_id: light.driveway_flood_bulb
 #        data_template:
-#          color_temp: " {{ color_temp }} "
+#          color_temp_kelvin: " {{ color_temp_kelvin }} "
 
 #- platform: template
 #  lights:

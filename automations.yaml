@@ -66,18 +66,6 @@
     service: input_boolean.turn_off
     data:
       entity_id: input_boolean.bedtime
-- id: noah_lights_off_at_bedtime
-  alias: Turn Noah Lights Off at Bedtime
-  trigger:
-  - platform: time
-    at: '20:00:00'
-  condition:
-    condition: state
-    entity_id: binary_sensor.workday_sensor
-    state: 'on'
-  action:
-    service: light.turn_off
-    entity_id: light.noah_lights
 - id: '1578857725197'
   alias: House Bed Time Lights and Security
   description: ''
