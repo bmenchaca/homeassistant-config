@@ -5,24 +5,7 @@
   "data": {
     "items": [
       {
-        "require_admin": false,
-        "show_in_sidebar": true,
-        "icon": "mdi:grid",
-        "title": "Grid",
-        "url_path": "lovelace-grid",
-        "mode": "storage",
-        "id": "lovelace_grid"
-      },
-      {
-        "show_in_sidebar": true,
-        "icon": "mdi:motion-sensor",
-        "title": "Security",
-        "require_admin": true,
-        "mode": "storage",
-        "url_path": "dashboard-security",
-        "id": "dashboard_security"
-      },
-      {
+        "id": "map",
         "icon": "mdi:map",
         "title": "Map",
         "url_path": "map",
@@ -40,13 +23,13 @@
         "url_path": "dashboard-rooms"
       },
       {
-        "id": "dashboard_grid",
+        "id": "dashboard_cards",
         "show_in_sidebar": true,
-        "icon": "mdi:grid",
-        "title": "Grid",
+        "icon": "mdi:card",
+        "title": "Cards",
         "require_admin": false,
         "mode": "storage",
-        "url_path": "dashboard-grid"
+        "url_path": "dashboard-cards"
       }
     ]
   }

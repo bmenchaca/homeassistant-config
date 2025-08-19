@@ -18,9 +18,17 @@
 deps/**
 secrets.yaml
 !*.md
-.storage
+
+# Ignore Storage, except dashbaord files
+.storage/*
+!.storage/lovelace*
+
+# Ignore other folders
 .cloud
 .google.token
+
+
+# Ensure these YAML files are ignored, otherwise your secret data/credentials will leak.
 ip_bans.yaml
 known_devices.yaml
 Abode/cookies.json
