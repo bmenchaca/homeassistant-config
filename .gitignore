@@ -1,5 +1,5 @@
 *
-<<<<<<< HEAD
+# Whitelist directories
 !.gitignore
 !.travis.yml
 !*.xml
@@ -25,5 +25,6 @@ ip_bans.yaml
 known_devices.yaml
 Abode/cookies.json
 .HA_VERSION
+# Ignore logs, and any DB files
 *.db*
 *.log*

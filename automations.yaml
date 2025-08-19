@@ -264,7 +264,7 @@
   use_blueprint:
     path: motion_entity.yaml
     input:
-      motion_sensor: binary_sensor.family_mantle_or_breakfast_motion
+      motion_sensor: binary_sensor.family_mantle_and_breakfast_motion
       target_entity: scene.family_night
       blocker_entity: binary_sensor.not_bedtime
       no_motion_wait: 2
@@ -452,14 +452,6 @@
     target:
       entity_id: switch.hannah_vanity_lights
   mode: single
-- id: '1636411901610'
-  alias: Craft Lights on Motion
-  description: ''
-  use_blueprint:
-    path: motion_entity.yaml
-    input:
-      motion_sensor: binary_sensor.craft_motion
-      target_entity: scene.craft_room_switch_on
 - id: '16378828583'
   alias: Christmas Lights Nighttime
   description: ''
@@ -537,4 +529,21 @@
     target:
       entity_id: scene.driveway_flood_off
     metadata: {}
+  mode: single
+- id: '1755562933063'
+  alias: Craft Room Lights on Motion
+  description: ''
+  triggers:
+  - trigger: state
+    entity_id:
+    - binary_sensor.craft_motion
+    from:
+    to: 'on'
+  conditions: []
+  actions:
+  - action: scene.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: scene.craft_room_switch_on
   mode: single
