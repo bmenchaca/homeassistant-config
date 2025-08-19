@@ -23,10 +23,12 @@
                   "type": "grid",
                   "cards": [
                     {
+                      "show_name": true,
+                      "show_icon": true,
                       "type": "button",
                       "entity": "group.entry_lights",
                       "icon": "mdi:ceiling-light",
-                      "name": "Entry Dining",
+                      "name": "Entry",
                       "tap_action": {
                         "action": "navigate",
                         "navigation_path": "entry-dining"
@@ -108,7 +110,7 @@
                         "action": "navigate",
                         "navigation_path": "master-hall"
                       },
-                      "entity": "light.master_hall_combo",
+                      "entity": "group.master_hall",
                       "icon": "mdi:exit-to-app",
                       "hold_action": {
                         "action": "toggle"
@@ -194,12 +196,14 @@
                       }
                     },
                     {
+                      "show_name": true,
+                      "show_icon": true,
                       "type": "button",
                       "tap_action": {
                         "action": "navigate",
                         "navigation_path": "guest-bath"
                       },
-                      "entity": "group.guest_bath_lights",
+                      "entity": "group.guest_bath",
                       "icon": "mdi:toilet",
                       "name": "Guest Bath",
                       "hold_action": {
@@ -255,12 +259,14 @@
                       }
                     },
                     {
+                      "show_name": true,
+                      "show_icon": true,
                       "type": "button",
                       "tap_action": {
                         "action": "navigate",
                         "navigation_path": "game"
                       },
-                      "entity": "group.game_room_lights",
+                      "entity": "group.media_room",
                       "name": "Game",
                       "icon": "mdi:controller-classic-outline",
                       "hold_action": {
@@ -363,7 +369,7 @@
                       "tap_action": {
                         "action": "toggle"
                       },
-                      "entity": "light.driveway_flood_combo",
+                      "entity": "light.driveway_flood_light_group",
                       "name": "Driveway Flood",
                       "icon": "mdi:light-flood-down"
                     },
@@ -371,44 +377,51 @@
                       "show_state": false,
                       "show_name": true,
                       "camera_view": "auto",
+                      "fit_mode": "cover",
                       "type": "picture-entity",
-                      "entity": "camera.front_door_camera",
-                      "name": "Front Porch",
-                      "camera_image": "camera.front_door_camera"
+                      "name": "Front Doorbell",
+                      "camera_image": "camera.front_door_camera",
+                      "entity": "camera.front_doorbell"
                     },
                     {
                       "show_state": false,
                       "show_name": true,
                       "camera_view": "auto",
+                      "fit_mode": "cover",
                       "type": "picture-entity",
                       "entity": "camera.front_driveway_camera",
                       "name": "Driveway",
                       "camera_image": "camera.front_driveway_camera"
                     },
                     {
+                      "show_state": false,
+                      "show_name": true,
+                      "camera_view": "auto",
+                      "fit_mode": "cover",
                       "type": "picture-entity",
-                      "entity": "camera.front_east_guest_camera",
-                      "name": "Front Yard",
-                      "camera_image": "camera.front_east_guest_camera",
-                      "show_state": false
+                      "entity": "camera.front_guest_camera",
+                      "name": "Front Guest Yard",
+                      "camera_image": "camera.front_guest_camera"
                     },
                     {
                       "show_state": false,
                       "show_name": true,
                       "camera_view": "auto",
+                      "fit_mode": "cover",
                       "type": "picture-entity",
-                      "entity": "camera.west_gate_camera",
-                      "name": "West Gate",
-                      "camera_image": "camera.west_gate_camera"
+                      "entity": "camera.gate_side_yard_camera",
+                      "camera_image": "camera.gate_side_yard_camera",
+                      "name": "Gate Side Yard Camera"
                     },
                     {
                       "show_state": false,
                       "show_name": true,
                       "camera_view": "auto",
+                      "fit_mode": "cover",
                       "type": "picture-entity",
-                      "entity": "camera.east_side_yard_camera",
-                      "name": "East Front Yard",
-                      "camera_image": "camera.east_side_yard_camera"
+                      "entity": "camera.guest_side_yard_camera",
+                      "name": "Guest Side Yard",
+                      "camera_image": "camera.guest_side_yard_camera"
                     }
                   ],
                   "square": false
@@ -588,14 +601,13 @@
           "badges": [],
           "cards": [
             {
-              "type": "markdown",
-              "content": "## Lights"
-            },
-            {
+              "square": true,
               "type": "grid",
               "columns": 4,
               "cards": [
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
@@ -620,60 +632,18 @@
                   "name": "Closet"
                 },
                 {
-                  "type": "button",
-                  "tap_action": {
-                    "action": "toggle"
-                  },
-                  "entity": "light.heidi_go",
-                  "icon": "mdi:wall-sconce-round-variant",
-                  "name": "Go"
-                }
-              ]
-            },
-            {
-              "type": "markdown",
-              "content": "## Environmental"
-            },
-            {
-              "type": "grid",
-              "columns": 4,
-              "cards": [
-                {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
                   },
                   "entity": "switch.heidi_fan_and_lights",
-                  "name": "Fan and Lights"
-                },
-                {
-                  "type": "button",
-                  "tap_action": {
-                    "action": "toggle"
-                  },
-                  "entity": "switch.heidi_heater",
-                  "name": "Heater"
-                }
-              ]
-            },
-            {
-              "type": "grid",
-              "cards": [
-                {
-                  "type": "sensor",
-                  "entity": "sensor.heidi_temperature",
-                  "graph": "line",
-                  "name": "Temp"
-                },
-                {
-                  "type": "sensor",
-                  "entity": "sensor.heidi_humidity",
-                  "graph": "line",
-                  "name": "Humidity"
+                  "icon": "mdi:ceiling-fan-light",
+                  "name": "Fan and Lights Switch"
                 }
               ],
-              "columns": 2,
-              "square": false
+              "title": "Lights and Switches"
             },
             {
               "type": "entities",
@@ -693,7 +663,61 @@
                   "secondary_info": "last-changed",
                   "name": "Window 2"
                 }
-              ]
+              ],
+              "title": "Sensors"
+            },
+            {
+              "square": false,
+              "type": "grid",
+              "cards": [
+                {
+                  "square": true,
+                  "type": "grid",
+                  "cards": [
+                    {
+                      "show_name": true,
+                      "show_icon": true,
+                      "type": "button",
+                      "entity": "light.master_closet_switch"
+                    }
+                  ],
+                  "columns": 3,
+                  "title": "Heidi Attic Door"
+                },
+                {
+                  "square": true,
+                  "type": "grid",
+                  "cards": [
+                    {
+                      "show_name": true,
+                      "show_icon": true,
+                      "type": "button",
+                      "entity": "update.scene_capable_switch_on_off_firmware_3",
+                      "name": "Firmware",
+                      "icon": "mdi:z-wave",
+                      "show_state": true
+                    },
+                    {
+                      "show_name": true,
+                      "show_icon": true,
+                      "type": "button",
+                      "entity": "sensor.heidi_fan_and_lights_node_status",
+                      "name": "Node Status",
+                      "show_state": true
+                    },
+                    {
+                      "show_name": true,
+                      "show_icon": true,
+                      "type": "button",
+                      "entity": "button.scene_capable_switch_on_off_ping_3",
+                      "name": "Ping",
+                      "show_state": false
+                    }
+                  ],
+                  "title": "Heidi Fan and Lights Switch"
+                }
+              ],
+              "columns": 1
             }
           ]
         },
@@ -1093,10 +1117,7 @@
           "badges": [],
           "cards": [
             {
-              "type": "markdown",
-              "content": "## Controls"
-            },
-            {
+              "square": true,
               "type": "grid",
               "cards": [
                 {
@@ -1106,8 +1127,9 @@
                   "tap_action": {
                     "action": "toggle"
                   },
-                  "entity": "switch.office_fan",
-                  "name": "Fan"
+                  "entity": "switch.office_fan_switch",
+                  "name": "Fan",
+                  "icon": "mdi:fan"
                 },
                 {
                   "show_name": true,
@@ -1131,12 +1153,15 @@
                   "name": "Lamp"
                 },
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
                   },
                   "entity": "switch.office_heater",
-                  "name": "Heater"
+                  "name": "Heater",
+                  "icon": "mdi:radiator"
                 },
                 {
                   "type": "button",
@@ -1158,6 +1183,8 @@
                   "icon": "mdi:light-switch"
                 },
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "more-info"
@@ -1166,36 +1193,37 @@
                   "name": "Modem",
                   "hold_action": {
                     "action": "none"
-                  }
+                  },
+                  "icon": "mdi:network"
                 }
-              ]
+              ],
+              "title": "Controls"
             },
             {
-              "type": "markdown",
-              "content": "## Environmental"
-            },
-            {
+              "square": true,
               "type": "grid",
               "columns": 2,
               "cards": [
                 {
-                  "type": "sensor",
-                  "entity": "sensor.office_temperature",
                   "graph": "line",
+                  "type": "sensor",
+                  "entity": "sensor.office_multisensor_temperature",
                   "name": "Temp",
                   "icon": "mdi:thermometer",
                   "unit": "F",
                   "detail": 1
                 },
                 {
-                  "type": "sensor",
-                  "entity": "sensor.office_humidity",
                   "graph": "line",
+                  "type": "sensor",
+                  "entity": "sensor.office_multisensor_humidity",
                   "unit": "%",
                   "icon": "mdi:water-percent",
-                  "name": "Humidity"
+                  "name": "Humidity",
+                  "detail": 1
                 }
-              ]
+              ],
+              "title": "Environmental"
             },
             {
               "type": "entities",
@@ -1207,7 +1235,7 @@
                   "secondary_info": "last-changed"
                 },
                 {
-                  "entity": "binary_sensor.office_desk_motion",
+                  "entity": "binary_sensor.office_multisensor_motion",
                   "name": "Desk Motion"
                 },
                 {
@@ -1220,7 +1248,61 @@
                   "name": "Window 2",
                   "secondary_info": "last-changed"
                 }
-              ]
+              ],
+              "title": "Sensors"
+            },
+            {
+              "square": false,
+              "type": "grid",
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    {
+                      "entity": "update.scene_capable_switch_on_off_firmware"
+                    },
+                    {
+                      "entity": "sensor.office_fan_lights_switch_node_status"
+                    },
+                    {
+                      "entity": "button.scene_capable_switch_on_off_ping"
+                    }
+                  ],
+                  "title": "Office Fan Lights Switch"
+                },
+                {
+                  "type": "entities",
+                  "entities": [
+                    {
+                      "entity": "update.in_wall_motion_switch_500s_firmware"
+                    },
+                    {
+                      "entity": "sensor.in_wall_motion_switch_500s_node_status"
+                    },
+                    {
+                      "entity": "button.office_fan_switch_ping"
+                    }
+                  ],
+                  "title": "Office Fan Switch"
+                },
+                {
+                  "type": "entities",
+                  "entities": [
+                    {
+                      "entity": "update.multisensor_7_firmware"
+                    },
+                    {
+                      "entity": "sensor.office_multisensor_node_status"
+                    },
+                    {
+                      "entity": "button.office_multisensor_ping"
+                    }
+                  ],
+                  "title": "Office Multisensor"
+                }
+              ],
+              "columns": 1,
+              "title": "ZWave Info"
             }
           ]
         },
@@ -1285,17 +1367,17 @@
                   "secondary_info": "last-changed"
                 },
                 {
-                  "entity": "binary_sensor.dining_room_window_1",
+                  "entity": "binary_sensor.kids_study_window_1",
                   "name": "Window 1",
                   "secondary_info": "last-changed"
                 },
                 {
-                  "entity": "binary_sensor.dining_room_window_2",
+                  "entity": "binary_sensor.kids_study_window_2",
                   "name": "Window 2",
                   "secondary_info": "last-changed"
                 },
                 {
-                  "entity": "binary_sensor.dining_room_window_3",
+                  "entity": "binary_sensor.kids_study_window_3",
                   "name": "Window 3",
                   "secondary_info": "last-changed"
                 }
@@ -1307,15 +1389,15 @@
               "cards": [
                 {
                   "type": "entity",
-                  "entity": "sensor.hp_color_laserjet_mfp_m477fdw",
-                  "name": "Printer"
+                  "entity": "sensor.mfc_l3780cdw_status",
+                  "name": "Brother Color Laser Printer"
                 },
                 {
                   "type": "grid",
                   "cards": [
                     {
                       "type": "gauge",
-                      "entity": "sensor.hp_color_laserjet_mfp_m477fdw_black_cartridge_hp_cf410x",
+                      "entity": "sensor.mfc_l3780cdw_black_toner_remaining",
                       "min": 0,
                       "max": 100,
                       "name": "Black",
@@ -1327,7 +1409,7 @@
                     },
                     {
                       "type": "gauge",
-                      "entity": "sensor.hp_color_laserjet_mfp_m477fdw_cyan_cartridge_hp_cf411a",
+                      "entity": "sensor.mfc_l3780cdw_cyan_toner_remaining",
                       "min": 0,
                       "max": 100,
                       "name": "Cyan",
@@ -1339,7 +1421,7 @@
                     },
                     {
                       "type": "gauge",
-                      "entity": "sensor.hp_color_laserjet_mfp_m477fdw_magenta_cartridge_hp_cf413a",
+                      "entity": "sensor.mfc_l3780cdw_magenta_toner_remaining",
                       "min": 0,
                       "max": 100,
                       "name": "Magenta",
@@ -1351,7 +1433,7 @@
                     },
                     {
                       "type": "gauge",
-                      "entity": "sensor.hp_color_laserjet_mfp_m477fdw_yellow_cartridge_hp_cf412a",
+                      "entity": "sensor.mfc_l3780cdw_yellow_toner_remaining",
                       "min": 0,
                       "max": 100,
                       "name": "Yellow",
@@ -1365,6 +1447,15 @@
                   "columns": 4
                 }
               ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "sensor.backup_backup_manager_state",
+                "light.kitchen_pantry_switch",
+                "light.laundry_closet_switch"
+              ],
+              "title": "Consumables"
             }
           ]
         },
@@ -1382,6 +1473,8 @@
               "type": "grid",
               "cards": [
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
@@ -1390,29 +1483,37 @@
                   "name": "Ceiling Lights"
                 },
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
                   },
-                  "entity": "light.entry_dining_lamp_1",
-                  "name": "Dining Lamp 1"
+                  "entity": "light.entry_floor_lamp_1",
+                  "name": "Floor Lamp 1",
+                  "icon": "mdi:floor-lamp"
                 },
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
                   },
-                  "entity": "light.entry_dining_lamp_2",
-                  "name": "Dining Lamp 2"
+                  "entity": "light.entry_floor_lamp_2",
+                  "name": "Floor Lamp 2",
+                  "icon": "mdi:floor-lamp"
                 },
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
                   },
-                  "entity": "switch.entry_lamp",
+                  "entity": "switch.entry_lamp_switch",
                   "icon": "mdi:floor-lamp-dual",
-                  "name": "Floor Lamp"
+                  "name": "Multi Floor Lamp"
                 }
               ]
             },
@@ -1609,10 +1710,17 @@
               "type": "grid",
               "cards": [
                 {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "entity": "switch.master_hall_lights",
+                  "name": "Lights Switch"
+                },
+                {
                   "type": "light",
-                  "entity": "light.master_hall_combo",
-                  "name": "Lights",
-                  "icon": "mdi:ceiling-light"
+                  "name": "Master Hall",
+                  "icon": "mdi:light-recessed",
+                  "entity": "light.master_hall_lights"
                 }
               ]
             },
@@ -1642,7 +1750,7 @@
               "cards": [
                 {
                   "type": "light",
-                  "entity": "light.guest_bath_combo",
+                  "entity": "light.guest_bath_lights_group",
                   "icon": "mdi:vanity-light",
                   "name": "Vanity Lights"
                 },
