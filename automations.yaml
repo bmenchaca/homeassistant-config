@@ -86,17 +86,6 @@
   action:
   - service: homeassistant.restart
   mode: single
-- id: '1598537302'
-  alias: Turn Off Office Heater after 1 Hour
-  description: ''
-  trigger:
-    platform: state
-    entity_id: switch.office_heater
-    to: to
-    for: 01:00:00
-  action:
-    service: switch.turn_off
-    entity_id: switch.office_heater
 - id: '1610412320301'
   alias: Lights On with Night Pantry Access
   description: ''
