@@ -328,10 +328,7 @@
                   ]
                 },
                 {
-                  "type": "markdown",
-                  "content": "## Front Yard"
-                },
-                {
+                  "square": false,
                   "type": "grid",
                   "cards": [
                     {
@@ -354,12 +351,14 @@
                       "name": "Porch Lights"
                     },
                     {
+                      "show_name": true,
+                      "show_icon": true,
                       "type": "button",
                       "tap_action": {
                         "action": "toggle"
                       },
-                      "entity": "group.christmas_outdoor_lights",
-                      "name": "Christmas Lights",
+                      "entity": "light.front_holiday_lights",
+                      "name": "Front Holiday Lights",
                       "icon": "mdi:string-lights"
                     },
                     {
@@ -372,59 +371,82 @@
                       "entity": "light.driveway_flood_light_group",
                       "name": "Driveway Flood",
                       "icon": "mdi:light-flood-down"
-                    },
-                    {
-                      "show_state": false,
-                      "show_name": true,
-                      "camera_view": "auto",
-                      "fit_mode": "cover",
-                      "type": "picture-entity",
-                      "name": "Front Doorbell",
-                      "camera_image": "camera.front_door_camera",
-                      "entity": "camera.front_doorbell"
-                    },
-                    {
-                      "show_state": false,
-                      "show_name": true,
-                      "camera_view": "auto",
-                      "fit_mode": "cover",
-                      "type": "picture-entity",
-                      "entity": "camera.front_driveway_camera",
-                      "name": "Driveway",
-                      "camera_image": "camera.front_driveway_camera"
-                    },
-                    {
-                      "show_state": false,
-                      "show_name": true,
-                      "camera_view": "auto",
-                      "fit_mode": "cover",
-                      "type": "picture-entity",
-                      "entity": "camera.front_guest_camera",
-                      "name": "Front Guest Yard",
-                      "camera_image": "camera.front_guest_camera"
-                    },
-                    {
-                      "show_state": false,
-                      "show_name": true,
-                      "camera_view": "auto",
-                      "fit_mode": "cover",
-                      "type": "picture-entity",
-                      "entity": "camera.gate_side_yard_camera",
-                      "camera_image": "camera.gate_side_yard_camera",
-                      "name": "Gate Side Yard Camera"
-                    },
-                    {
-                      "show_state": false,
-                      "show_name": true,
-                      "camera_view": "auto",
-                      "fit_mode": "cover",
-                      "type": "picture-entity",
-                      "entity": "camera.guest_side_yard_camera",
-                      "name": "Guest Side Yard",
-                      "camera_image": "camera.guest_side_yard_camera"
                     }
                   ],
-                  "square": false
+                  "title": "Front Yard"
+                },
+                {
+                  "square": false,
+                  "type": "grid",
+                  "cards": [
+                    {
+                      "show_state": true,
+                      "show_name": true,
+                      "camera_view": "auto",
+                      "fit_mode": "cover",
+                      "type": "picture-entity",
+                      "entity": "camera.front_doorbell",
+                      "image": "https://demo.home-assistant.io/stub_config/bedroom.png",
+                      "name": "Doorbell",
+                      "camera_image": "camera.front_doorbell"
+                    },
+                    {
+                      "show_state": true,
+                      "show_name": true,
+                      "camera_view": "auto",
+                      "fit_mode": "cover",
+                      "type": "picture-entity",
+                      "entity": "camera.onvif_front_porch",
+                      "image": "https://demo.home-assistant.io/stub_config/bedroom.png",
+                      "camera_image": "camera.onvif_front_porch",
+                      "name": "Porch"
+                    },
+                    {
+                      "show_state": true,
+                      "show_name": true,
+                      "camera_view": "auto",
+                      "fit_mode": "cover",
+                      "type": "picture-entity",
+                      "entity": "camera.onvif_driveway",
+                      "image": "https://demo.home-assistant.io/stub_config/bedroom.png",
+                      "name": "Driveway",
+                      "camera_image": "camera.onvif_driveway"
+                    },
+                    {
+                      "show_state": true,
+                      "show_name": true,
+                      "camera_view": "auto",
+                      "fit_mode": "cover",
+                      "type": "picture-entity",
+                      "entity": "camera.onvif_front_guest",
+                      "image": "https://demo.home-assistant.io/stub_config/bedroom.png",
+                      "camera_image": "camera.onvif_front_guest",
+                      "name": "Front Guest"
+                    },
+                    {
+                      "show_state": true,
+                      "show_name": true,
+                      "camera_view": "auto",
+                      "fit_mode": "cover",
+                      "type": "picture-entity",
+                      "entity": "camera.onvif_guest_side_yard",
+                      "image": "https://demo.home-assistant.io/stub_config/bedroom.png",
+                      "camera_image": "camera.onvif_guest_side_yard",
+                      "name": "Side Guest"
+                    },
+                    {
+                      "show_state": true,
+                      "show_name": true,
+                      "camera_view": "auto",
+                      "fit_mode": "cover",
+                      "type": "picture-entity",
+                      "entity": "camera.onvif_gate_side_yard",
+                      "image": "https://demo.home-assistant.io/stub_config/bedroom.png",
+                      "name": "Side Gate",
+                      "camera_image": "camera.onvif_gate_side_yard"
+                    }
+                  ],
+                  "title": "Front Cameras"
                 },
                 {
                   "type": "entities",
@@ -450,16 +472,15 @@
                       "secondary_info": "last-changed"
                     }
                   ],
-                  "title": "Sprinklers"
+                  "title": "Front Sprinklers"
                 },
                 {
-                  "type": "markdown",
-                  "content": "## Back Yard"
-                },
-                {
+                  "square": false,
                   "type": "grid",
                   "cards": [
                     {
+                      "show_name": true,
+                      "show_icon": true,
                       "type": "button",
                       "tap_action": {
                         "action": "toggle"
@@ -506,44 +527,70 @@
                       "hold_action": {
                         "action": "toggle"
                       }
-                    },
-                    {
-                      "type": "picture-entity",
-                      "entity": "camera.back_east_gate_camera",
-                      "name": "Gate",
-                      "camera_image": "camera.back_east_gate_camera",
-                      "show_state": false
-                    },
-                    {
-                      "type": "picture-entity",
-                      "entity": "camera.back_pool_camera",
-                      "name": "Pool",
-                      "camera_image": "camera.back_pool_camera",
-                      "show_state": false
-                    },
-                    {
-                      "type": "picture-entity",
-                      "entity": "camera.back_deck_camera",
-                      "name": "Deck",
-                      "camera_image": "camera.back_deck_camera",
-                      "show_state": false
-                    },
-                    {
-                      "type": "picture-entity",
-                      "entity": "camera.back_playscape_camera",
-                      "name": "Playscape",
-                      "camera_image": "camera.back_playscape_camera",
-                      "show_state": false
-                    },
-                    {
-                      "type": "picture-entity",
-                      "entity": "camera.back_west_garden_camera",
-                      "name": "Garden",
-                      "camera_image": "camera.back_west_garden_camera",
-                      "show_state": false
                     }
                   ],
-                  "square": false
+                  "title": "Back Yard"
+                },
+                {
+                  "square": false,
+                  "type": "grid",
+                  "cards": [
+                    {
+                      "show_state": true,
+                      "show_name": true,
+                      "camera_view": "auto",
+                      "fit_mode": "cover",
+                      "type": "picture-entity",
+                      "entity": "camera.onvif_back_deck",
+                      "image": "https://demo.home-assistant.io/stub_config/bedroom.png",
+                      "name": "Deck",
+                      "camera_image": "camera.onvif_back_deck"
+                    },
+                    {
+                      "show_state": true,
+                      "show_name": true,
+                      "camera_view": "auto",
+                      "fit_mode": "cover",
+                      "type": "picture-entity",
+                      "entity": "camera.onvif_back_gate",
+                      "image": "https://demo.home-assistant.io/stub_config/bedroom.png",
+                      "name": "Gate",
+                      "camera_image": "camera.onvif_back_gate"
+                    },
+                    {
+                      "show_state": true,
+                      "show_name": true,
+                      "camera_view": "auto",
+                      "fit_mode": "cover",
+                      "type": "picture-entity",
+                      "entity": "camera.onvif_back_pool",
+                      "image": "https://demo.home-assistant.io/stub_config/bedroom.png",
+                      "name": "Pool",
+                      "camera_image": "camera.onvif_back_pool"
+                    },
+                    {
+                      "show_state": true,
+                      "show_name": true,
+                      "camera_view": "auto",
+                      "fit_mode": "cover",
+                      "type": "picture-entity",
+                      "entity": "camera.onvif_back_playscape",
+                      "image": "https://demo.home-assistant.io/stub_config/bedroom.png",
+                      "name": "Playscape",
+                      "camera_image": "camera.onvif_back_playscape"
+                    },
+                    {
+                      "show_state": true,
+                      "show_name": true,
+                      "camera_view": "auto",
+                      "fit_mode": "cover",
+                      "type": "picture-entity",
+                      "entity": "camera.onvif_back_garden",
+                      "name": "Garden",
+                      "camera_image": "camera.onvif_back_garden"
+                    }
+                  ],
+                  "title": "Back Cameras"
                 },
                 {
                   "type": "entities",
@@ -588,7 +635,8 @@
                       "name": "Garden",
                       "secondary_info": "last-changed"
                     }
-                  ]
+                  ],
+                  "title": "Back Sprinklers"
                 }
               ]
             }
@@ -1024,12 +1072,8 @@
               "columns": 2,
               "cards": [
                 {
-                  "type": "light",
-                  "entity": "light.gallery_combo",
-                  "name": "Gallery Lights",
-                  "icon": "mdi:ceiling-light"
-                },
-                {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
@@ -1039,12 +1083,26 @@
                   "icon": "mdi:candle"
                 },
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
                   },
                   "entity": "switch.boys_hall_light",
-                  "name": "Boys Hall Lights"
+                  "name": "Boys Hall Lights",
+                  "icon": "mdi:candle"
+                },
+                {
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "toggle"
+                  },
+                  "entity": "switch.gallery_lights",
+                  "name": "Gallery Lights",
+                  "icon": "mdi:light-recessed"
                 }
               ]
             },
@@ -1150,7 +1208,8 @@
                     "action": "toggle"
                   },
                   "entity": "light.office_floor_lamp",
-                  "name": "Lamp"
+                  "name": "Lamp",
+                  "icon": "mdi:floor-lamp-torchiere"
                 },
                 {
                   "show_name": true,
@@ -1194,7 +1253,7 @@
                   "hold_action": {
                     "action": "none"
                   },
-                  "icon": "mdi:network"
+                  "icon": "mdi:network-outline"
                 }
               ],
               "title": "Controls"
@@ -1265,7 +1324,7 @@
                       "entity": "sensor.office_fan_lights_switch_node_status"
                     },
                     {
-                      "entity": "button.scene_capable_switch_on_off_ping"
+                      "entity": "button.office_fan_lights_switch_ping"
                     }
                   ],
                   "title": "Office Fan Lights Switch"
@@ -1554,14 +1613,19 @@
               "type": "grid",
               "cards": [
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
                   },
                   "entity": "switch.family_fan",
-                  "name": "Fan"
+                  "name": "Fan",
+                  "icon": "mdi:fan"
                 },
                 {
+                  "show_name": true,
+                  "show_icon": true,
                   "type": "button",
                   "tap_action": {
                     "action": "toggle"
@@ -1570,16 +1634,17 @@
                   "name": "Fan Lights"
                 },
                 {
-                  "type": "light",
-                  "entity": "light.family_mantle_combo",
-                  "name": "Mantle Lights",
-                  "icon": "mdi:track-light"
+                  "show_name": true,
+                  "show_icon": true,
+                  "type": "button",
+                  "tap_action": {
+                    "action": "toggle"
+                  },
+                  "entity": "switch.family_mantle_lights",
+                  "name": "Mantle Light",
+                  "icon": "mdi:light-recessed"
                 }
               ]
-            },
-            {
-              "type": "media-control",
-              "entity": "media_player.family_room"
             },
             {
               "type": "entities",
