@@ -11,5 +11,5 @@ scene: !include scenes.yaml
 binary_sensor: !include config/binary_sensors.yaml
 light: !include config/lights.yaml
 group: !include config/groups.yaml
-sensor: !include config/sensors.yaml
+# sensor: !include config/sensors.yaml
 template: !include config/template.yaml

@@ -708,42 +708,42 @@ cards:
 ###############################################################################
 # Indoor Downstairs Cars 
 ###############################################################################
-      - type: image
-        entity: sensor.ben_garage_car_present
-        image: /local/images/camry.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        state_filter:
-          "yes": opacity(1)
-          "Yes": opacity(1)
-          "no": opacity(0)
-          "No": opacity(0)
-          "n/a": opacity(.25)
-        style: 
-          width: 7.5%
-          left: 57.5%
-          top: 37%
-          z-index: 20
-      - type: image
-        entity: sensor.susan_garage_car_present
-        image: /local/images/sienna.png
-        tap_action:
-          action: none
-        hold_action:
-          action: none
-        state_filter:
-          "yes": opacity(1)
-          "Yes": opacity(1)
-          "no": opacity(0)
-          "No": opacity(0)
-          "n/a": opacity(.25)
-        style: 
-          width: 9.5%
-          left: 75%
-          top: 31%
-          z-index: 20
+#      - type: image
+#        entity: sensor.ben_garage_car_present
+#        image: /local/images/camry.png
+#        tap_action:
+#          action: none
+#        hold_action:
+#          action: none
+#        state_filter:
+#          "yes": opacity(1)
+#          "Yes": opacity(1)
+#          "no": opacity(0)
+#          "No": opacity(0)
+#          "n/a": opacity(.25)
+#        style: 
+#          width: 7.5%
+#          left: 57.5%
+#          top: 37%
+#          z-index: 20
+#      - type: image
+#        entity: sensor.susan_garage_car_present
+#        image: /local/images/sienna.png
+#        tap_action:
+#          action: none
+#        hold_action:
+#          action: none
+#        state_filter:
+#          "yes": opacity(1)
+#          "Yes": opacity(1)
+#          "no": opacity(0)
+#          "No": opacity(0)
+#          "n/a": opacity(.25)
+#        style: 
+#          width: 9.5%
+#          left: 75%
+#          top: 31%
+#          z-index: 20
 ###############################################################################
 # Indoor Downstairs Doors 
 ###############################################################################

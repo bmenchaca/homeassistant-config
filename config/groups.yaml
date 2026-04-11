@@ -37,7 +37,7 @@ susan_garage_door:
     - cover.susan_garage
     - sensor.susan_garage_status
     - sensor.susan_og_distance
-    - sensor.susan_garage_car_present
+#    - sensor.susan_garage_car_present
 
 ben_garage_door:
   name: Ben Garage
@@ -45,7 +45,7 @@ ben_garage_door:
     - cover.ben_garage
     - binary_sensor.ben_garage
     - sensor.ben_og_distance
-    - sensor.ben_garage_car_present
+#    - sensor.ben_garage_car_present
 
 garage:
   name: Garage

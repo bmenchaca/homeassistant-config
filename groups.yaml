@@ -36,14 +36,14 @@ susan_garage_door:
   entities:
     - cover.susan_garage
     - sensor.susan_garage_status
-    - sensor.susan_garage_car_present
+#    - sensor.susan_garage_car_present
 
 ben_garage_door:
   name: Ben Garage
   entities:
     - cover.ben_garage
     - sensor.ben_garage_status
-    - sensor.ben_garage_car_present
+#    - sensor.ben_garage_car_present
 
 garage:
   name: Garage
