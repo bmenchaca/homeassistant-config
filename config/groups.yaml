@@ -370,7 +370,7 @@ gallery:
 gallery_and_halls_lights:
   name: Gallery and Halls Lights
   entities:
-    - light.gallery
+    - switch.gallery_lights
     - switch.girls_hall_lights
     - switch.boys_hall_light
 

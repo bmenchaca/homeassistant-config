@@ -455,27 +455,65 @@
 - id: '16378828583'
   alias: Christmas Lights Nighttime
   description: ''
-  trigger:
-  - platform: sun
-    event: sunset
-    offset: '30'
-  condition:
+  triggers:
+  - event: sunset
+    offset: -00:45:00
+    trigger: sun
+  conditions:
   - condition: template
     value_template: '{{ now().month == 12 or (now().month == 11 and now().day >= 23)
       }}'
-  action:
-  - scene: scene.christmas_lights_nighttime
+    enabled: true
+  actions:
+  - action: switch.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: switch.holiday_lights_outlets
+  - action: switch.turn_off
+    metadata: {}
+    data: {}
+    target:
+      entity_id:
+      - switch.driveway_flood_light
+      - switch.garage_carriage_lights
+  - delay:
+      hours: 0
+      minutes: 0
+      seconds: 1
+      milliseconds: 0
+  - action: scene.turn_on
+    target:
+      entity_id: scene.christmas_lights_nighttime
+  - action: switch.turn_off
+    metadata: {}
+    target:
+      entity_id: switch.garage_carriage_lights
+    data: {}
   mode: single
 - id: '16373824590'
   alias: Christmas Lights Daytime
   description: ''
-  trigger:
-  - platform: sun
-    event: sunrise
-    offset: -04:00
-  condition: []
-  action:
-  - scene: scene.christmas_lights_daytime
+  triggers:
+  - event: sunset
+    offset: 03:45:00
+    trigger: sun
+  conditions:
+  - condition: template
+    value_template: '{{ now().month == 12 or (now().month == 11 and now().day >= 23)
+      }}'
+  actions:
+  - action: scene.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id: scene.christmas_lights_daytime
+  - action: switch.turn_on
+    metadata: {}
+    data: {}
+    target:
+      entity_id:
+      - switch.garage_carriage_lights
   mode: single
 - id: '1657462874758'
   alias: Craft Lights Off with Master Lights
