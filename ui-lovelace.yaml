@@ -1,24 +1,24 @@
 resources:
-  - url: /local/mini-graph-card-bundle.js?v=0.3.0
-    type: module
-  - url: /local/surveillance-card.js?v=0
-    type: module
-  - url: /local/compact-custom-header.js?v=0.0.1
-    type: module
-  - url: /local/card-tools.js?v=0.0.1
-    type: module
-  - url: /local/mini-media-player-bundle.js?1.0.4
-    type: module
-  #- url: /local/plan-coordinates.js?v=1
-  #  type: js
+#  - url: /local/mini-graph-card-bundle.js?v=0.3.0
+#    type: module
+#  - url: /local/surveillance-card.js?v=0
+#    type: module
+#  - url: /local/compact-custom-header.js?v=0.0.1
+#    type: module
+#  - url: /local/card-tools.js?v=0.0.1
+#    type: module
+#  - url: /local/mini-media-player-bundle.js?1.0.4
+#    type: module
+#  - url: /local/plan-coordinates.js?v=1
+#    type: js
 views:
-  - !include config/lovelace/lights_and_switches.yaml
-  - !include config/lovelace/alerts.yaml
-    #- !include config/lovelace/people.yaml
-    #- !include config/lovelace/av.yaml
-  - !include config/lovelace/downstairs-security.yaml
-  - !include config/lovelace/security.yaml
-  #- !include config/lovelace/phone.yaml
-  #- !include config/lovelace/overview.yaml
-  # !include config/lovelace/downstairs_map.yaml
-  #- !include config/lovelace/upstairs_map.yaml
+#  - !include config/lovelace/lights_and_switches.yaml
+#  - !include config/lovelace/alerts.yaml
+#  - !include config/lovelace/people.yaml
+#  - !include config/lovelace/av.yaml
+#  - !include config/lovelace/downstairs-security.yaml
+#  - !include config/lovelace/security.yaml
+#  - !include config/lovelace/phone.yaml
+#  - !include config/lovelace/overview.yaml
+#  - !include config/lovelace/downstairs_map.yaml
+#  - !include config/lovelace/upstairs_map.yaml
