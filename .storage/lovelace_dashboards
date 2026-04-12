@@ -5,30 +5,13 @@
   "data": {
     "items": [
       {
-        "require_admin": false,
-        "show_in_sidebar": true,
-        "icon": "mdi:grid",
-        "title": "Grid",
-        "url_path": "lovelace-grid",
-        "mode": "storage",
-        "id": "lovelace_grid"
-      },
-      {
+        "id": "dashboard_security",
         "show_in_sidebar": true,
         "icon": "mdi:motion-sensor",
         "title": "Security",
         "require_admin": true,
         "mode": "storage",
-        "url_path": "dashboard-security",
-        "id": "dashboard_security"
-      },
-      {
-        "icon": "mdi:map",
-        "title": "Map",
-        "url_path": "map",
-        "require_admin": false,
-        "mode": "storage",
-        "show_in_sidebar": true
+        "url_path": "dashboard-security"
       },
       {
         "id": "dashboard_rooms",
