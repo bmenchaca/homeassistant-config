@@ -452,22 +452,22 @@
                   "type": "entities",
                   "entities": [
                     {
-                      "entity": "switch.east_lawn",
+                      "entity": "switch.rachio_c6633d_east_lawn",
                       "secondary_info": "last-changed",
                       "name": "Front East Lawn"
                     },
                     {
-                      "entity": "switch.front_bushes",
+                      "entity": "switch.rachio_c6633d_front_bushes",
                       "name": "Front Bushes",
                       "secondary_info": "last-changed"
                     },
                     {
-                      "entity": "switch.front_lawn",
+                      "entity": "switch.rachio_c6633d_front_lawn",
                       "secondary_info": "last-changed",
                       "name": "Front Lawn"
                     },
                     {
-                      "entity": "switch.front_west",
+                      "entity": "switch.rachio_c6633d_front_west",
                       "name": "Front West Lawn",
                       "secondary_info": "last-changed"
                     }
@@ -596,42 +596,42 @@
                   "type": "entities",
                   "entities": [
                     {
-                      "entity": "switch.back_west_near_gate",
+                      "entity": "switch.rachio_c6633d_back_west_near_gate",
                       "name": "Gate Lawn",
                       "secondary_info": "last-changed"
                     },
                     {
-                      "entity": "switch.west_side_pool",
+                      "entity": "switch.rachio_c6633d_west_side_pool",
                       "name": "West Side Pool",
                       "secondary_info": "last-changed"
                     },
                     {
-                      "entity": "switch.around_pool_back",
+                      "entity": "switch.rachio_c6633d_around_pool_back",
                       "name": "Pool Rear",
                       "secondary_info": "last-changed"
                     },
                     {
-                      "entity": "switch.drip_around_pool",
+                      "entity": "switch.rachio_c6633d_drip_around_pool",
                       "name": "Pool Drip",
                       "secondary_info": "last-changed"
                     },
                     {
-                      "entity": "switch.back_yard_middle",
+                      "entity": "switch.rachio_c6633d_back_yard_middle",
                       "name": "Back Yard Middle",
                       "secondary_info": "last-changed"
                     },
                     {
-                      "entity": "switch.back_east_lawn",
+                      "entity": "switch.rachio_c6633d_back_east_lawn",
                       "name": "Back Playscape Lawn",
                       "secondary_info": "last-changed"
                     },
                     {
-                      "entity": "switch.back_west_near_gate",
+                      "entity": "switch.rachio_c6633d_back_west_near_gate",
                       "name": "West Bushes near Garden",
                       "secondary_info": "last-changed"
                     },
                     {
-                      "entity": "switch.garden",
+                      "entity": "switch.rachio_c6633d_garden",
                       "name": "Garden",
                       "secondary_info": "last-changed"
                     }
@@ -1884,18 +1884,18 @@
               "type": "grid",
               "cards": [
                 {
-                  "hours_to_show": 24,
                   "graph": "line",
+                  "hours_to_show": 24,
                   "type": "sensor",
-                  "entity": "sensor.guest_temperature",
+                  "entity": "sensor.guest_multisensor_temperature",
                   "name": "Temp",
                   "detail": 1
                 },
                 {
-                  "hours_to_show": 24,
                   "graph": "line",
+                  "hours_to_show": 24,
                   "type": "sensor",
-                  "entity": "sensor.guest_humidity",
+                  "entity": "sensor.guest_multisensor_humidity",
                   "name": "Humidity",
                   "detail": 1
                 }
@@ -2026,37 +2026,6 @@
             {
               "type": "markdown",
               "content": "## Environmental"
-            },
-            {
-              "type": "grid",
-              "cards": [
-                {
-                  "type": "sensor",
-                  "entity": "sensor.master_awair_temperature",
-                  "graph": "line",
-                  "name": "Temp"
-                },
-                {
-                  "type": "sensor",
-                  "entity": "sensor.master_awair_humidity",
-                  "graph": "line",
-                  "name": "Humidity"
-                },
-                {
-                  "type": "sensor",
-                  "entity": "sensor.master_carbon_dioxide",
-                  "graph": "line",
-                  "name": "CO2"
-                },
-                {
-                  "type": "sensor",
-                  "entity": "sensor.master_volatile_organic_compounds",
-                  "graph": "line",
-                  "name": "VOC"
-                }
-              ],
-              "columns": 2,
-              "square": false
             },
             {
               "type": "entities",
