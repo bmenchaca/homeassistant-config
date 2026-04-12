@@ -86,31 +86,6 @@
   action:
   - service: homeassistant.restart
   mode: single
-- id: '1610412320301'
-  alias: Lights On with Night Pantry Access
-  description: ''
-  trigger:
-  - platform: state
-    entity_id: binary_sensor.pantry_door
-    from: 'off'
-    to: 'on'
-  condition:
-  - condition: time
-    after: '22:30'
-    before: '6:15'
-    weekday:
-    - mon
-    - tue
-    - wed
-    - thu
-    - fri
-    - sat
-    - sun
-  action:
-  - service: scene.turn_on
-    data: {}
-    entity_id: scene.alert_lights
-  mode: single
 - id: '1598537302'
   alias: Turn Off Office Heater after 1 Hour
   description: ''
@@ -173,7 +148,7 @@
   use_blueprint:
     path: door_light.yaml
     input:
-      door_sensor: binary_sensor.pantry_door
+      door_sensor: binary_sensor.pantry_door_sensor_open
       target_light:
         entity_id: light.kitchen_pantry_switch
 - id: '1613010337867'
@@ -182,7 +157,7 @@
   use_blueprint:
     path: door_light.yaml
     input:
-      door_sensor: binary_sensor.laundry_closet_door
+      door_sensor: binary_sensor.laundry_closet_door_sensor_open
       target_light:
         entity_id: light.laundry_closet_switch
 - id: '1613010382531'
@@ -191,7 +166,7 @@
   use_blueprint:
     path: door_light.yaml
     input:
-      door_sensor: binary_sensor.master_closet_door
+      door_sensor: binary_sensor.master_closet_door_sensor_open
       target_light:
         entity_id: light.master_closet_switch
 - id: '1613270011215'
