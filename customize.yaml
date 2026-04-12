@@ -30,5 +30,3 @@ input_boolean.bedtime:
   hidden: true
 switch.family_room_tv_power:
   icon: mdi:television
-device_tracker.life360_noah_menchaca:
-  friendly_name: Noah Life360
