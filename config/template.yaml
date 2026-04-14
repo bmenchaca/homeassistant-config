@@ -9,10 +9,10 @@
       name: Garage Occupancy
       device_class: motion	
       state: >
-        "{{ is_state("binary_sensor.garage_motion", "on") or
+        '{{ is_state("binary_sensor.garage_motion", "on") or
            is_state("binary_sensor.garage_door", "on") or
            not is_state("cover.ben_garage", "closed") or
-           not is_state("cover.susan_garage", "closed") }}"
+           not is_state("cover.susan_garage", "closed") }}'
 
 ###############################################################################
 # Indoor Region Motion
@@ -21,30 +21,30 @@
       name: Family and Breakfast Motion
       device_class: motion
       state: >
-        "{{ is_state("binary_sensor.breakfast_motion", "on") and
-           is_state("binary_sensor.family_mantle_motion", "on") }}"
+        '{{ is_state("binary_sensor.breakfast_motion", "on") and
+           is_state("binary_sensor.family_mantle_motion", "on") }}'
 
     - default_entity_id: binary_sensor.family_mantle_or_breakfast_motion
       name: Family or Breakfast Motion
       device_class: motion
       state: >
-        "{{ is_state("binary_sensor.breakfast_motion", "on") or
-           is_state("binary_sensor.family_mantle_motion", "on") }}"
+        '{{ is_state("binary_sensor.breakfast_motion", "on") or
+           is_state("binary_sensor.family_mantle_motion", "on") }}'
 
     - default_entity_id: binary_sensor.kids_study_and_stairs_motion
       name: Dining and Stairs Motion
       device_class: motion
       state: >
-        "{{ is_state("binary_sensor.kids_study_motion", "on") and
-           is_state("binary_sensor.stairs_motion", "on") }}"
+        '{{ is_state("binary_sensor.kids_study_motion", "on") and
+           is_state("binary_sensor.stairs_motion", "on") }}'
 
     - default_entity_id: binary_sensor.kids_study_stairs_or_master_hall_motion
       name: Dining, Stairs or Master Hall Motion
       device_class: motion
       state: >
-        "{{ is_state("binary_sensor.kids_study_motion", "on") or
+        '{{ is_state("binary_sensor.kids_study_motion", "on") or
            is_state("binary_sensor.master_hall_motion", "on") or
-           is_state("binary_sensor.stairs_motion", "on") }}"
+           is_state("binary_sensor.stairs_motion", "on") }}'
 
 ###############################################################################
 # Camera Motion
@@ -53,37 +53,37 @@
       name: Garden Side and Front Guest Field Motion
       device_class: motion
       state: >
-        "{{ is_state("binary_sensor.garden_side_yard_field_motion", "on") and
-           is_state("binary_sensor.guest_front_yard_field_motion", "on") }}"
+        '{{ is_state("binary_sensor.garden_side_yard_field_motion", "on") and
+           is_state("binary_sensor.guest_front_yard_field_motion", "on") }}'
 
     - default_entity_id: binary_sensor.guest_front_and_driveway_field_motion
       name: Guest Front and Driveway Field Motion
       device_class: motion
       state: >
-        "{{ is_state("binary_sensor.guest_front_yard_field_motion", "on") and
-           is_state("binary_sensor.driveway_field_motion", "on") }}"
+        '{{ is_state("binary_sensor.guest_front_yard_field_motion", "on") and
+           is_state("binary_sensor.driveway_field_motion", "on") }}'
 
     - default_entity_id: binary_sensor.pool_and_back_gate_field_motion
       name: Pool and Back Gate Field Motion
       device_class: motion
       state: >
-        "{{ is_state("binary_sensor.pool_field_motion", "on") and
-           is_state("binary_sensor.back_gate_yard_field_motion", "on") }}"
+        '{{ is_state("binary_sensor.pool_field_motion", "on") and
+           is_state("binary_sensor.back_gate_yard_field_motion", "on") }}'
 
     - default_entity_id: binary_sensor.deck_and_pool_field_motion
       name: Deck and Pool Field Motion
       device_class: motion
       state: >
-        "{{ is_state("binary_sensor.pool_field_motion", "on") and
-           is_state("binary_sensor.deck_field_motion", "on") }}"
+        '{{ is_state("binary_sensor.pool_field_motion", "on") and
+           is_state("binary_sensor.deck_field_motion", "on") }}'
 
     - default_entity_id: binary_sensor.front_porch_or_front_door_activity
       name: Front Porch and Door Activity
       device_class: motion
       state: >
-        "{{ is_state("binary_sensor.front_porch_field_motion", "on") or
+        '{{ is_state("binary_sensor.front_porch_field_motion", "on") or
            is_state("binary_sensor.front_door_motion", "on") or
-           is_state("binary_sensor.front_door", "on") }}"
+           is_state("binary_sensor.front_door", "on") }}'
 
 ###############################################################################
 # Garage Door Open
@@ -92,13 +92,13 @@
       name: Ben Garage
       device_class: garage_door
       state: >
-        "{{ not is_state("cover.ben_garage", "closed") }}"
+        '{{ not is_state("cover.ben_garage", "closed") }}'
 
     - default_entity_id: binary_sensor.susan_garage
       name: Susan Garage
       device_class: garage_door
       state: >
-        "{{ not is_state("cover.susan_garage", "closed") }}"
+        '{{ not is_state("cover.susan_garage", "closed") }}'
 
 ###############################################################################
 # Combined Weekend and Workday and Bedtime
@@ -106,18 +106,18 @@
     - default_entity_id: binary_sensor.bedtime
       name: Bedtime
       state: >
-        "{{ (is_state("binary_sensor.workday_sensor", "on") and
+        '{{ (is_state("binary_sensor.workday_sensor", "on") and
             is_state("binary_sensor.workday_bedtime", "on")) or
            (is_state("binary_sensor.workday_sensor", "off") and
-            is_state("binary_sensor.weekend_bedtime", "on")) }}"
+            is_state("binary_sensor.weekend_bedtime", "on")) }}'
 
     - default_entity_id: binary_sensor.not_bedtime
       name: Not Bedtime
       state: >
-        "{{ (is_state("binary_sensor.workday_sensor", "on") and
+        '{{ (is_state("binary_sensor.workday_sensor", "on") and
             is_state("binary_sensor.workday_bedtime", "off")) or
            (is_state("binary_sensor.workday_sensor", "off") and
-            is_state("binary_sensor.weekend_bedtime", "off")) }}"
+            is_state("binary_sensor.weekend_bedtime", "off")) }}'
 
 ###############################################################################
 # Sensors
@@ -128,22 +128,22 @@
 ###############################################################################
     - default_entity_id: sensor.susan_garage_car_present
       name: Susan Car in Garage
-      state: >
-        "{%- if states('cover.susan_garage') == "open" %}
+      state: >-
+        {%- if states('cover.susan_garage') == "open" %}
             n/a
         {% elif ((states('sensor.susan_og_distance')|int > 75) and (states('sensor.susan_og_distance')|int < 180)) %}
             yes
         {% else %}
             no
-        {% endif %}"
+        {% endif %}
 
     - default_entity_id: sensor.ben_garage_car_present
       name: Ben Car in Garage
-      state: >
-        "{%- if states('cover.ben_garage') == "open" %}
+      state: >-
+        {%- if states('cover.ben_garage') == "open" %}
             n/a
         {% elif ((states('sensor.ben_og_distance')|int > 70) and (states('sensor.ben_og_distance')|int < 200)) %}
             yes
         {% else %}
             no
-        {% endif %}"
+        {% endif %}
